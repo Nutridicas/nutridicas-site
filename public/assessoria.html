@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nutrichef Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/nutri.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  
+</head>
+
+<body>
+
+ <!-- HEADER -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">Nutrichef Online</a>
+    <p style="color: white;"> 🌱  | </p>
+
+    <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-zerolac.html">🥛 <span>Zero Lactose</span></a></li>
+            <li><a href="zero-acucar.html">🍬 <span>Zero Açúcar</span></a></li>
+            <li><a href="zero-gluten.html">🌾 <span>Zero Glúten</span></a></li>
+            <li><a href="funcionais.html">🍅 <span>Funcionais </span></a></li>
+            <li><a href="veganas.html"> 🥦 <span>Veganas </span></a></li>
+            <li><a href="sem-ovo.html"> 🥚 <span>Sem Ovo </span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+          </ul>
+        </li>
+
+        <!-- Nutrição -->
+
+       <li class="has-mega">
+          <button class="submenu-btn">Área da Nutrição</button>
+          <<ul class="mega-menu">
+            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
+            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <<ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+    <div class="search-box">
+      <input type="search" id="searchInput" placeholder="Buscar receitas...">
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+  
+  <main class="nutri">
+    <!-- CONTEÚDO PRINCIPAL -->
+   <div class="nutri__header">
+      <h2>Solicitar Assessoria</h2>
+      <p>Olá! Caso necessite de alguma assessoria para organizar a área de nutrição de sua empresa ou de uma UAN, pode solicitar o apoio de nossa equipe, Ficaremos feliz em atend^-lo.</p>
+    </div>
+
+    <section class="nutri__conteudo">
+      
+          <!-- MASCOTE -->
+          <div class="nutri__mascote">
+              <img src="imagens/Ednutri.jpg" alt="Mascote Nutrichef">
+          </div>
+                   
+          <!-- FORMULÁRIO -->
+      
+           <section class="nutri">
+
+              <h2>Diga-nos o motivo da assessoria, apontando o problema ou em que quer melhorar que entraremos em contato.💬</h2>
+              <p> <strong> Preencha o formulário abaixo.</strong></p>
+
+              <form class="nutri__form" action="https://formspree.io/f/xjggkkwn"  method="POST" data-form="gratuito">
+
+             <div class="grid-row">
+                  <div class="field"> 
+                    <label> Nome do solicitante
+                        <input type="text" name="nome solicitante" placeholder="Digite seu nome completo" required>
+                     </label>
+                  </div>
+                  <div class="field">  
+                         <label>
+                           <h3> Função/cargo </h3>
+                            <select name="cargo" id="cargo" required>
+                                <option value=""disabled selected>Selecione</option>
+                                <option value="Proprietario">Proprietário</option>
+                                <option value="Gerente">Gerente</option>
+                                <option value="Nutricionista">Nutricionista</option>
+                               
+                            </select>
+                          </label>
+                  </div> <!-- fim-->
+
+              </div>
+              <div class="field"> 
+                   <label> Nome da empresa
+                      <input type="text" name="empresa" placeholder="Digite o nome completo" required>
+                   </label>
+              </div>
+
+               <div class="grade-linha">  
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="meuemail@servidor.com.br">
+                    </div>
+                    <div class="field">
+                        <label>Número telefone</label>
+                        <input type="text" name="telefone" placeholder="(00) 1234-1234" pattern="^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$"
+                        title="Digite um telefone válido com DDD" required>
+                    </div>
+                    <div class="field">
+                        <label>Whatsapp</label>
+                        <label class="radio-label">
+                          <input type="radio" name="possui_whatsapp" value="sim" id="whatsSim">
+                          <span>Sim</span>
+                        </label>
+                      <label class="radio-label">
+                          <input type="radio" name="possui_whatsapp" value="nao" id="whatsSim">
+                           <span>Não</span>
+                      </label>
+                        
+                    </div><!-- Fim do whaysapp -->
+                
+                  <div class="field">
+                         <label>Tipo de empersa</label>
+                            <label class="radio-label">
+                                <input type="radio" name="tipo-empesa" value="mei" >
+                                <span>MEI</span>
+                             </label>
+                             <label class="radio-label">
+                                  <input type="radio" name="tipo-empesa" value="micro"> <span>Micro empresa</span>
+                             </label>
+                             <label class="radio-label">
+                                   <input type="radio" name="tipo-empesa" value="pequena">
+                                <span>Pequena Empresa</span>
+                            </label>
+                     </div> 
+
+                    <label> Sua opinião
+                      <textarea name="Digite a sua opiniao" required placeholder="Digite aqui."></textarea>
+                    </label>
+
+                    <label>
+                        <!-- IDENTIFICAÇÃO -->
+                        <input type="hidden" name="tipo" value="opiniao">
+                    </label>
+
+                    <button type="submit">Enviar pergunta</button>
+              </form>  
+
+                 <div class="feedback feedback--gratuito">
+                    <p>✅ Mensagem enviada com sucesso!</p>
+                    <p>Agradecemos a sua colaboração 💚</p>
+                </div>
+
+      </section>
+
+    <!-- Fim -->
+
+  </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Nutrichef Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/menu.js" defer></script>
+
+ </body>
+</html>

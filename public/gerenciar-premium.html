@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Área Premium | Nutrichef Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-container">
+    <a href="index.html" class="logo">Nutrichef Online</a>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="box" style="max-width:720px; margin:60px auto;">
+
+    <h1 style="color:#2e8b57;">⭐ Área Premium</h1>
+
+    <p style="margin-top:10px;">
+      Status da assinatura:
+      <strong style="color:#2e8b57;">ATIVA</strong>
+    </p>
+
+    <hr style="margin:25px 0;">
+
+    <h3>O que você tem acesso</h3>
+    <ul>
+      <li>✔ Tabelas nutricionais completas</li>
+      <li>✔ Medidas caseiras</li>
+      <li>✔ Conteúdo exclusivo nas receitas</li>
+      <li>✔ Atualizações futuras</li>
+    </ul>
+
+    <hr style="margin:25px 0;">
+
+    <button class="btn-secondary" onclick="cancelarPremium()">
+      Cancelar assinatura (simulação)
+    </button>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Nutrichef Online</p>
+</footer>
+
+<script>
+  const isPremium = localStorage.getItem("nutri_premium") === "true";
+
+  if (!isPremium) {
+    window.location.href = "pagamento.html";
+  }
+
+  function cancelarPremium() {
+    if (confirm("Deseja realmente cancelar sua assinatura?")) {
+      localStorage.removeItem("nutri_premium");
+      alert("Assinatura cancelada.");
+      window.location.href = "index.html";
+    }
+  }
+</script>
+
+</body>
+</html>

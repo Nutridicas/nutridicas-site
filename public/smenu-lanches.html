@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- 🔁 ALTERE APENAS ESTE TÍTULO -->
+  <title>Zero Lactose | NutriDicas Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS GLOBAL -->
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<!-- ==================================
+     HEADER (NÃO ALTERAR)
+================================== -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">NutriDicas Online</a>
+     <p style="color: white;"> 🌱  | </p>
+
+     <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <li class="has-mega">
+          <button class="submenu-btn"> Gastronomia</button>
+          <ul class="mega-menu">
+            <li><a href="menu-tradicional.html"> <span> Receitas Tradicionais</span></a></li>
+            <li><a href="menu-restritivas.html">🍬 <span>Receitas para restrições Alimentares</span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="assessoria.html">📚Consultoria Nutricional</a></li>
+          </ul>
+        </li>
+
+       <!-- Curiosidades e informação -->
+
+       <li class="has-mega">
+          <button class="submenu-btn"> Aprenda Mais +</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
+            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas de Cozinha</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Favoritos e lista de compras-->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+   <div class="search-box">
+       <input type="search" id="searchInput" placeholder="Buscar receita...">
+
+      <!-- Resultados -->
+      <div id="searchResults" class="search-results"></div>
+      </div>
+  </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- ==================================
+     HERO DA PÁGINA
+================================== -->
+<section class="hero">
+  <div class="container hero-grid">
+
+    <!-- 🔁 ALTERE TÍTULO E TEXTO -->
+    <div class="hero-text">
+      <h1>Receitas de Lanches Zero Lactose</h1>
+      <p>Receitas para desfrutar de sabores sem se preocupar com  a saúde e o prazer de comer bem. Nada como uma deliciosa fatia de bolo ou um pão queeninho sem culpa.</p>
+
+      <p>Escolha a sua receita favorita e desfrute de momentos deliciosamente inesquecíveis</p>
+    </div>
+
+    <!-- 🔁 IMAGEM OPCIONAL -->
+    <div class="hero-image">
+      <img src="imagens/ednutri.jpg" alt="Imagem ilustrativa">
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================================
+     CONTEÚDO PRINCIPAL
+================================== -->
+<main class="container">
+
+  <!-- 🔁 AQUI ENTRA O CONTEÚDO ESPECÍFICO -->
+  <section class="posts">
+
+   <article class="card">
+      <img src="imagens/receitas/Sanduíche natural.jpg" alt="Exemplo">
+      <div class="card-body">
+        <h2>Sanduíche Mediterrâneio</h2>
+        <p>Sanduíche leve e saudável com sabor exótico. Ideal para acompanhar lanches ou jantar.</p>
+        <a href="receita.html?slug=sanduiche-mediterraneo-antioxidante" class="link">Siga para a receita →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="imagens/receitas/sanduiche-forma.jpg" alt="Exemplo">
+      <div class="card-body">
+        <h2>Sanduíche Verde Detox Funcional</h2>
+        <p>Delicioso, macio, gostoso e saudável. Ótima opção para qualquer momento.</p>
+        <a href="receita.html?slug=sanduiche-verde-detox" class="link">Siga para a receita →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="imagens/receitas/pizza-cheese.jpg" alt="Exemplo">
+      <div class="card-body">
+        <h2>Massa base de Pizza funcional - Duplo Zero</h2>
+        <p>Uma deliciosa receita para criar uma piza do seu jeito para qualquer hora. Pizza duplo zero, zero lactose, e zero glúten, a escolha é sua.</p>
+        <a href="receita.html?slug=massa-base-de-pizza-funcional-duplozero" class="link">Siga para a receita →</a>
+      </div>
+    </article>
+
+   <article class="card">
+      <img src="imagens/receitas/biscoitos-gotas-chocolate.jpg" alt="Exemplo">
+      <div class="card-body">
+        <h2>Um delicioso biscoito com coco, crocante e saboroso sem Lactose, Açúcar e glúten</h2>
+        <p>Um delicioso biscoito, crocante e saboroso sem Lactose, Açúcar e glúte. Ideal para acompanhar café da manhã, lanches.</p>
+        <a href="receita.html?slug=biscoito-de-coco-crocante" class="link">Siga para a receita →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="imagens/receitas/pao-italiano.jpg" alt="Exemplo">
+      <div class="card-body">
+        <h2>Pão tradicional versão Zero lactose</h2>
+        <p>Este pão de forma é perfeito para quem busca uma opção leve e saudável, sem abrir mão do sabor. Ideal para acompanhar café da manhã, lanches ou até preparar sanduíches nutritivos.</p>
+        <a href="receita.html?slug=pao-forma-zero-lactose" class="link">Siga para a receita →</a>
+      </div>
+    </article>
+    
+     <article class="card">
+      <img src="imagens/receitas/pão-com-abacate.jpg" alt="Exemplo">
+      <div class="card-body">
+        <h2>Pasta de cenoura e ervas Vegana</h2>
+        <p>Esta pasta é ideial par comer com um pão bem quantinho, seja de fôrma ou francês na hora do café da manhã, lanches ou até em sanduíches nutritivos.</p>
+        <a href="receita.html?slug=pasta-de-cenoura-e-ervas" class="link">Siga para a receita →</a>
+      </div>
+    </article>
+  </section>
+
+</main>
+<!-- Menu de retorno-->
+
+<nav class="breadcrumbs" id="breadcrumb">
+  <a href="index.html">🏠 Início</a>
+  <span>›</span>
+  <a href="#" id="breadcrumb-category">Categoria</a>
+  <span>›</span>
+  <span class="pagina-atual" id="breadcrumb-title">Receita</span>
+</nav>
+
+<!-- ==================================
+     FOOTER (NÃO ALTERAR)
+================================== -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<!-- JS GLOBAL -->
+<script src="js/menu.js" defer></script>
+<script src="js/busca.js" defer></script>
+</body>
+</html>

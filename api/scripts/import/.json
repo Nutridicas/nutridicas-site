@@ -1,0 +1,25 @@
+{
+  "slug": "",
+  "titulo": "",
+  "status": "publicada",
+  "topSemana": false,
+  "imagem": "",
+  "premium": false,
+  "tags": [],
+  "versoes": [
+    {
+      "data": "2026-02-14",
+      "conteudo": {
+        "categoria": "",
+        "ingredientes": [],
+        "preparo": [],
+        "medidas": [],
+        "nutricional": {},
+        "substituicoes": [],
+        "dicas": [],
+        "comentarioNutri": "",
+        "listaCompras": []
+      }
+    }
+  ]
+}

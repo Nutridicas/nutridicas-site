@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard – Nutrichef</title>
+
+  <link rel="stylesheet" href="/css/estilo.css">
+  <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/nutri.css">
+
+   <!-- Mensagem de alerta sweetalert2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</head>
+
+<body>
+  <!-- Versão atualizada em 22/02/26 -->
+
+<script>
+if (localStorage.getItem("nutri_admin") !== "true") {
+  window.location.href = "login.html";
+}
+</script>
+
+<header class="header">
+  <p style="color: black;"> 🍴🌱 Nutrichef Online </p>
+  
+  <div class="header-container">
+    <h1>📊 Dashboard Nutrichef</h1>
+
+    <nav class="admin-tabs">
+      <button data-tab="consultas" class="active btn-gravar">Consultas</button>
+      <button data-tab="ingredientes">Ingredientes</button>
+      <button data-tab="receitas">Receitas</button>
+      <button data-tab="premium">Premium</button>
+    </nav>
+
+    <a href="/index.html">← Voltar ao site</a>
+  </div>
+
+  <button onclick="logout()" class="btn-gravar">Sair</button>
+</header>
+
+<main class="dashboard">
+
+<!-- CONSULTAS -->
+<section id="consultas" class="tab active">
+  <h2>Consultas</h2>
+</section>
+
+<!-- RECEITAS -->
+<section id="receitas" class="tab">
+  <h2>📋 Receitas</h2>
+  <ul id="listaReceitas"></ul>
+  <button id="novaReceita" class="btn-gravar">➕ Nova Receita</button>
+</section>
+
+<!-- EDITOR -->
+<section id="editorReceita" style="display:none;">
+<h3>Histórico de versões</h3>
+
+<ul id="historicoVersoes"></ul>
+<hr>
+<!-- Upload da imagem 25/02/26 -->
+<h3>Imagem da Receita</h3>
+<input type="file" id="imagemInput" accept="image/*">
+<button id="btnUpload" onclick="uploadImagem()">Enviar imagem</button>
+<p id="uploadStatus" style="font-weight:bold;"></p>
+<img id="previewImagem" 
+     style="max-width:300px; display:none; margin-top:10px; border-radius:8px;">
+
+<hr>
+  <h3 id="editorTitulo">Nova Receita</h3>
+  <br>
+   <div class="grade-linha"> 
+    <div class="field">
+      <h3>Nome da Receita</h3>
+      <input id="titulo" placeholder="Título">
+     </div> 
+     <div class="field">
+      <h3>Categoria da Receita</h3>
+      <input id="categoria" placeholder="Categoria">
+    </div>
+    <div class="field">
+      <label>
+         <input type="checkbox" id="premium"> Conteúdo Premium
+      </label>
+      <label>
+        <input type="checkbox" id="topSemana"> Top da Semana
+      </label>
+    </div>
+    </div> 
+
+   <br>
+  <div class="grid-row">  
+      <div class="field">
+         <p> Tags</p>
+         <input id="tags" placeholder="Tags separadas por vírgula" width: 80px>
+      </div>
+  
+    <div class="field">
+        <p> Restrições</p>
+         <input id="restricoes" placeholder="Restrições que a receita é indicada" width: 80px>
+     </div> 
+   </div>
+   <div class="grid-row"> 
+      <div class="field">
+         <h3>Autoria</h3>
+        <p> <strong>Nome</strong></p>
+        <input id="nome" placeholder="Nome">
+        <p> <strong>Credencial </strong></p>
+        <input id="credencial" placeholder="Credencial">
+        <p> <strong>Registro</strong></p>
+        <input id="registro" placeholder="Registro">
+     </div>
+     <div class="field">
+     <h3> Avaliações da Receita</h3>
+     <p> <strong>Média</strong></p>
+      <input id="media" placeholder="Média">
+      <p> <strong>Total da avaliação</strong></p>
+      <input id="total" placeholder="Total da avaliação">
+    </div>
+  </div>   
+  <hr>
+
+  <div class="grade-linha"> 
+      <div class="field">
+        <h3>Tempo de preparo da Receita</h3>
+        <input id="tempoPreparoReceita" placeholder="Tempo da Receita">
+      </div>
+      <div class="field">
+        <h3>Tempo de preparo Forno/Geladeira</h3>
+        <input id="tempoPreparoForno" placeholder="Tempo de Forno ou Geladeira">
+       </div> 
+        <div class="field">
+            <h3>Tempo de preparo Total</h3>
+            <input id="tempoPreparoTotal" placeholder="Tempo de preparo Total">
+        </div>
+     </div>
+
+    <div class="grade-linha">         
+        <div class="field">
+          <h3> Rendimento (Quantas porções)</h3>
+          <input id="rendimento" placeholder="Rendimento">
+       </div>
+       <div class="field">
+         <h3>Grau de dificuldade</h3>
+         <input id="dificuldade" placeholder="Dificuldade">
+      </div>
+      <div class="field">
+        <h3>Custo médio para fazer a Receita</h3>
+        <input id="custoMedio" placeholder="Custo médio">
+      </div>
+     </div>
+   <br>
+   <div class="grade-linha">  
+    <div class="field">
+      <h3>Como pode ser servida</h3>
+      <input id="comoServir" placeholder="Como Servir">
+    </div>
+    <div class="field">
+       <h3>Quem enviou a Receita</h3>
+      <input id="enviadaPor" placeholder="Enviada por">
+    </div>
+    
+ </div>   
+ <hr style="height: 3px; background-color: red; border: none;">
+    <div class="field">
+      <h3>Mise en Place</h3>
+     <textarea id="miseEnPlace" rows="10"></textarea>
+  </div>    
+  <div class="field">
+    <h3>Conservação</h3>
+     <textarea id="conservacao"></textarea>
+  </div>
+</div>
+ <hr style="height: 3px; background-color: red; border: none;">
+ <br>
+  
+  <h3>Ingredientes</h3>
+  <textarea id="ingredientes" rows="10" width=70%></textarea>
+
+  <h3>Modo de Preparo</h3>
+  <textarea id="preparo" rows="10"  width=70%></textarea>
+
+  <h3>Medidas Caseiras</h3>
+  <textarea id="medidas" rows="10"></textarea>
+  <hr style="height: 3px; background-color: red; border: none;">
+  <br>
+
+  <h3>Tabela Nutricional</h3>
+  <p> Porção</p>
+  <input id="porcao" placeholder="Porção">
+  <p> Calorias</p>
+  <input id="calorias" placeholder="Calorias">
+  <p> Carboidratos</p>
+  <input id="carboidratos" placeholder="Carboidratos">
+  <p> Proteínas</p>
+  <input id="proteinas" placeholder="Proteínas">
+  <p> Gorduras Totais</p>
+  <input id="gordurasTotais" placeholder="Gorduras Totais">
+  <p> Gorduras Saturadas</p>
+  <input id="gordurasSaturadas" placeholder="Gorduras Saturadas">
+  <p> Fibras Alimentares</p>
+  <input id="fibras" placeholder="Fibras">
+   <p> Sódio</p>
+  <input id="sodio" placeholder="Sódio">
+  <p> Açucar</p>
+  <input id="acucar" placeholder="Açúcar">
+
+<h3>Premium</h3>
+<h3>Substituições na receita</h3>
+<textarea id="substituicoes" placeholder="Substituições"></textarea>
+<br>
+<h3>Dicas importantes</h3>
+<textarea id="dicas" placeholder="Dicas"></textarea>
+<br>
+<h3>Comentário Nutricional</h3>
+<textarea id="comentario" placeholder="Comentário Nutricional"></textarea>
+
+<h3>Lista de Compras</h3>
+<textarea id="listaCompras" placeholder="Lista de compras"></textarea>
+
+  <div id="acoesEditor"></div>
+  <button onclick="previewReceita()">👁 Preview</button>
+
+</section>
+
+</main>
+
+<script src="/admin/js/dashboard.js" defer></script>
+
+<script>
+function logout() {
+  localStorage.removeItem("nutri_admin");
+  window.location.href = "login.html";
+}
+</script>
+
+</body>
+</html>

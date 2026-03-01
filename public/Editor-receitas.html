@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor de Receitas | Nutrichef</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-container">
+    <h1>🍰 Editor de Receitas</h1>
+    <a href="dashboard.html">← Voltar ao dashboard</a>
+  </div>
+</header>
+
+<main class="dashboard">
+
+<!-- Lista de receitas-->
+<section class="box">
+  <h2>📚 Receitas Cadastradas</h2>
+
+  <ul id="listaReceitas" class="lista-receitas">
+    <!-- preenchido via JS -->
+  </ul>
+</section>
+
+<!-- Fim -->
+
+<form id="receitaForm" class="card">
+
+  <label>Título
+    <input type="text" id="titulo" required>
+  </label>
+
+  <label>Slug (URL)
+    <input type="text" id="slug" placeholder="bolo-zero-lactose" required>
+  </label>
+
+  <label>Categoria
+    <select id="categoria">
+      <option>Zero Lactose</option>
+      <option>Zero Açúcar</option>
+      <option>Zero Glúten</option>
+      <option>Vegana</option>
+    </select>
+  </label>
+
+  <label>Imagem (caminho)
+    <input type="text" id="imagem" placeholder="imagens/bolo.jpg">
+  </label>
+
+  <label>Ingredientes (1 por linha)
+    <textarea id="ingredientes"></textarea>
+  </label>
+
+  <label>Modo de preparo (1 passo por linha)
+    <textarea id="preparo"></textarea>
+  </label>
+
+  
+  <label>Medidas caseiras
+    <textarea id="medidas"></textarea>
+  </label>
+
+  <h3>📊 Tabela Nutricional</h3>
+
+  <label>Porção <input id="porcao"></label>
+  <label>Calorias <input id="calorias"></label>
+  <label>Carboidratos <input id="carboidratos"></label>
+  <label>Proteínas <input id="proteinas"></label>
+  <label>Gorduras <input id="gorduras"></label>
+
+  <button class="btn-primary">Gerar JSON</button>
+
+</form>
+
+<pre id="saida"></pre>
+
+</main>
+
+<script src="js/receitas-editor.js"></script>
+</body>
+</html>

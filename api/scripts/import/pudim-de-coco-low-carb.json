@@ -1,0 +1,59 @@
+{
+  "slug": "pudim-de-coco-low-carb",
+  "titulo": "Pudim de Coco Low Carb",
+  "status": "publicada",
+  "topSemana": false,
+  "imagem": "",
+  "premium": true,
+  "tags": [
+    "Funcional e Vegano"
+  ],
+  "versoes": [
+    {
+      "data": "2026-02-14",
+      "conteudo": {
+        "categoria": "Funcional e Vegano",
+        "ingredientes": [
+          "rende 6 porções",
+          "400 ml de leite de coco integral",
+          "4 ovos inteiros",
+          "80 g de adoçante culinário eritritol ou xilitol",
+          "1 colher (chá) de essência de baunilha",
+          "A quantidade de cada ingrediente mantém boa firmeza sem deixar com gosto excessivo de ovo e garante baixo carboidrato"
+        ],
+        "preparo": [
+          "Bata tudo",
+          "Depois, asse em banho-maria",
+          "Leve à geladeira por no mínimo 4 horas",
+          "Fica cremoso e sem necessidade de leite condensado."
+        ],
+        "medidas": [
+          "Xícaras e Copos",
+          "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+          "1/2 Xícara: 120 ml a 125 ml.",
+          "1/3 Xícara: 80 ml.",
+          "1/4 Xícara: 60 ml.",
+          "1 Copo Americano: Aproximadamente 200 ml.",
+          "Colheres",
+          "1 Colher de sopa: 15 ml.",
+          "1 Colher de chá: 5 ml.",
+          "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+        ],
+        "nutricional": {
+          "valores aproximados": "or porção (1/6), considerando a receita rendendo 6 porções.",
+          "valor energético": "~210 kcal",
+          "carboidratos": "~4g",
+          "proteínas": "~6g",
+          "gorduras totais": "~19 g",
+          "valore": "podem variar conforme a marca do leite de coco e do adoçante.",
+          "eritritol": "melhor escolha → não impacta glicemia.",
+          "xilitol": "moderado impacto glicêmico."
+        },
+        "substituicoes": [],
+        "dicas": [],
+        "comentarioNutri": "",
+        "listaCompras": []
+      }
+    }
+  ]
+}

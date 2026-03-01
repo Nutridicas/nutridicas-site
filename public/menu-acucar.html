@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" id="metaDescription" content="">
+  <meta property="og:title" id="ogTitle">
+  <meta property="og:description" id="ogDesc">
+  <meta property="og:image" id="ogImg">
+
+  <!-- 🔁 ALTERE APENAS ESTE TÍTULO -->
+  <title> Zero Açucar | A Nutrichef Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS GLOBAL -->
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<!-- ==================================
+     HEADER (NÃO ALTERAR)
+================================== -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">A Nutrichef Online</a>
+    <p style="color: white;"> 🌱  | </p>
+
+    <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-zerolac.html"> <span>🥛Zero Lactose</span></a></li>
+          <!-- fim Zero lactose -->
+            <li><a href="menu-zeroacucar.html">🍬 <span>Zero Açúcar</span></a></li>
+            <li><a href="menu-zerogluten.html">🌾 <span>Zero Glúten</span></a></li>
+            <li><a href="menu-funcional.html">🍅 <span>Funcionais </span></a></li>
+            <li><a href="menu-veganas.html"> 🥦 <span>Veganas </span></a></li>
+            <li><a href="menu-semovo.html"> 🥚 <span>Sem Ovo </span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos/Serviços</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="assessoria.html">📚Consultoria Nutricional</a></li>
+          </ul>
+        </li>
+
+         <!-- Curiosidades e informação -->
+
+       <li class="has-mega">
+          <button class="submenu-btn"> Aprenda Mais +</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
+            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas de Cozinha</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Favoritos e lista de compras-->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+   <div class="search-box">
+       <input type="search" id="searchInput" placeholder="Buscar receita...">
+
+      <!-- Resultados -->
+      <div id="searchResults" class="search-results"></div>
+      
+  </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- ==================================
+     HERO DA PÁGINA
+================================== -->
+<section class="hero">
+  <div class="container hero-grid">
+
+    <!-- 🔁 ALTERE TÍTULO E TEXTO -->
+    <div class="hero-text">
+      <h1>Receitas Zero Açucar</h1>
+      <p>Quem diss que a vida par ser doce precisa de açucar? Aqui você pode desfrutar da doçura da vida sem preocupação. Faça seu momento deliciosamente inesquecível e doce.</p>
+    </div>
+
+    <!-- 🔁 IMAGEM OPCIONAL -->
+    <div class="hero-image">
+      <img src="imagens/receitas/ednutri.jpg" alt="Imagem ilustrativa">
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================================
+     CONTEÚDO PRINCIPAL
+================================== -->
+<main class="container">
+
+  <!-- 🔁 AQUI ENTRA O CONTEÚDO ESPECÍFICO -->
+  <section class="posts">
+
+    <article class="card">
+      <img src="imagens/receitas/bread-3467243_1280.jpg" alt="Bolo Zero lactose e açucar">
+      <div class="card-body">
+        <h2>Receitas de Pães</h2>
+        <p>Uma opção leve e saborosa ideal para dietas restritivas de lactose e açucar sem abrir mão da saúde e do sabor.</p>
+        <a href="menu-paes.html" class="link">Siga para as receitas →</a>
+      </div>
+    </article>
+    <article class="card">
+      <img src="imagens/receitas/lemon-cake-8274419_1280.jpg" alt="Bolo Zero lactose e açucar">
+      <div class="card-body">
+         <h2>Receitas de Bolos</h2>
+        <p>Quem não gosta de bolo bom sujeito não é, ou é doente da cabeça ou do pé. Nada melhor do que um deliciosa fatia de bolo macio, leve e gostoso, e o melhor, saudável. Aproveite.</p>
+        <a href="menu-bolos.html" class="link">Siga para as receitas →</a>
+      </div>
+    </article>
+    <article class="card">
+      <img src="imagens/receitas/ice-cream-4496959_1280.jpg" alt="Bolo Zero lactose e açucar">
+      <div class="card-body">
+         <h2>Receitas de Sobremesas</h2>
+        <p>Quem não gosta de uma boa sobremesa. Aqui, você pode escolher uma e não gerar peso ma consciência. Aproveite.</p>
+        <a href="menu-sobremesa.html" class="link">Siga para as receitas →</a>
+      </div>
+    </article>
+    <article class="card">
+      <img src="imagens/receitas/lemon-cake-8274419_1280.jpg" alt="Bolo Zero lactose e açucar">
+      <div class="card-body">
+         <h2>Receitas de Biscoitos</h2>
+        <p>Que não gosta de uma boa sobremesa. Aqui, você pode escolher uma e não gerar peso ma consciência. Aproveite.</p>
+        <a href="menu-sobremesa.html" class="link">Siga para as receitas →</a>
+      </div>
+    </article>
+  </section>
+
+</main>
+
+<!-- ==================================
+     FOOTER (NÃO ALTERAR)
+================================== -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<!-- JS GLOBAL -->
+<script src="js/menu.js" defer></script>
+<script src="js/busca.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "slug": "bolo-fofo-zero-lactose-sem-acucar",
+  "titulo": "Bolo Fofo Zero Lactose e Sem Açúcar",
+  "categoria": "Zero Lactose",
+  "data": "2025-12-16",
+  "imagem": "imagens/lemon-cake-8274419_1280.jpg",
+  "ingredientes": [
+    "3 ovos",
+    "1/2 xícara de óleo vegetal",
+    "1 xícara de bebida vegetal",
+    "1/2 xícara de adoçante culinário",
+    "2 xícaras de farinha",
+    "1 colher (chá) de baunilha",
+    "1 colher (sopa) de fermento"
+  ],
+  "preparo": [
+    "Preaqueça o forno a 180°C.",
+    "Bata os ovos até ficarem claros.",
+    "Adicione óleo, bebida vegetal e adoçante.",
+    "Incorpore a farinha aos poucos.",
+    "Misture o fermento delicadamente.",
+    "Asse por 35–40 minutos."
+  ],
+  "medidas": [
+    "1 xícara = 240 ml",
+    "1 colher (sopa) = 15 ml",
+    "1 colher (chá) = 5 ml"
+  ],
+  "nutricional": {
+    "porcao": "1 fatia (80g)",
+    "calorias": "120 kcal",
+    "carboidratos": "18 g",
+    "proteinas": "4 g",
+    "gorduras": "5 g"
+  },
+  "substituicoes": [
+    "Açúcar → Eritritol",
+    "Leite → Bebida vegetal"
+  ],
+  "dicas": "Para versão sem glúten, utilize farinha de arroz e aveia em partes iguais.",
+  "observacoes": "Indicada para intolerantes à lactose. Ajustar adoçante para diabéticos."
+}

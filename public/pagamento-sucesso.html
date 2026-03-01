@@ -1,0 +1,17 @@
+<h1>Pagamento aprovado 🎉</h1>
+
+
+const params = new URLSearchParams(window.location.search);
+
+if (params.get("status") === "approved") {
+
+  const slug = params.get("slug");
+
+  localStorage.setItem(
+    "premium_" + slug,
+    "true"
+  );
+
+}
+
+

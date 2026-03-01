@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- 🔁 ALTERE APENAS ESTE TÍTULO -->
+  <title>Pães e Bolos | Nutrichef Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS GLOBAL -->
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<!-- ==================================
+     HEADER (NÃO ALTERAR)
+================================== -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">Nutrichef Online</a>
+
+    <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+        <p style="color: white;"> 🌱  | </p>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-zerolac.html">🥛 <span>Zero Lactose</span></a></li>
+            <li><a href="zero-acucar.html">🍬 <span>Zero Açúcar</span></a></li>
+            <li><a href="zero-gluten.html">🌾 <span>Zero Glúten</span></a></li>
+            <li><a href="funcionais.html">🍅 <span>Funcionais </span></a></li>
+            <li><a href="veganas.html"> 🥦 <span>Veganas </span></a></li>
+            <li><a href="veganas.html"> 🥚 <span>Sem Ovo </span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+          </ul>
+        </li>
+
+        <!-- Nutrição -->
+
+       <li class="has-mega">
+          <button class="submenu-btn">Área da Nutrição</button>
+          <<ul class="mega-menu">
+            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
+            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <<ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+    <div class="search-box">
+      <input type="search" id="searchInput" placeholder="Buscar receitas...">
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- ==================================
+     HERO DA PÁGINA
+================================== -->
+<section class="hero">
+  <div class="container hero-grid">
+
+    <!-- 🔁 ALTERE TÍTULO E TEXTO -->
+    <div class="hero-text">
+      <h1>Receitas Zero Lactose</h1>
+      <p>Escolha a sua receita favorita e desfrute de de momentos deliciosamente inesquecíveis</p>
+    </div>
+
+    <!-- 🔁 IMAGEM OPCIONAL -->
+    <div class="hero-image">
+      <img src="imagens/padrao.jpg" alt="Imagem ilustrativa">
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================================
+     CONTEÚDO PRINCIPAL
+================================== -->
+<main class="container">
+
+  <!-- 🔁 AQUI ENTRA O CONTEÚDO ESPECÍFICO -->
+  <article class="receita">
+
+  <header class="receita-header">
+    <h1>{{CATEGORIA}}</h1>
+    <h2>{{TITULO}}</h2>
+    <span class="data-postagem">{{DATA}}</span>
+  </header>
+
+  <section class="receita-principal">
+    <div class="receita-imagem">
+      <img src="{{IMAGEM}}" alt="{{ALT}}">
+    </div>
+
+    <div class="receita-ingredientes">
+      <h3>Ingredientes</h3>
+      <ul>
+        {{INGREDIENTES}}
+      </ul>
+    </div>
+  </section>
+
+  <section class="receita-preparo">
+    <h3>Modo de Preparo</h3>
+    <ol>
+      {{PREPARO}}
+    </ol>
+  </section>
+
+  <!-- BLOCO AVANÇADO -->
+  <section class="receita-info">
+    {{ACCORDIONS}}
+  </section>
+
+</article>
+
+
+</main>
+
+<!-- ==================================
+     FOOTER (NÃO ALTERAR)
+================================== -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<!-- JS GLOBAL -->
+<script src="js/menu.js" defer></script>
+</body>
+</html>

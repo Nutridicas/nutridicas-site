@@ -1,0 +1,60 @@
+{
+  "slug": "cobertura-cremosa-zero-lactose",
+  "titulo": "Cobertura Cremosa sem açúcar e sem lactose (Brigadeiro Fit)",
+  "status": "publicada",
+  "topSemana": false,
+  "imagem": "",
+  "premium": true,
+  "tags": [
+    "Zero Lactose e zero açúcar"
+  ],
+  "versoes": [
+    {
+      "data": "2026-02-14",
+      "conteudo": {
+        "categoria": "Zero Lactose e zero açúcar",
+        "ingredientes": [
+          "200 ml de leite de coco ou leite de amêndoas",
+          "2 colheres de sopa de cacau em pó 100%",
+          "2 colheres de sopa de adoçante culinário (eritritol ou xilitol)",
+          "1 colher de sopa de óleo de coco",
+          "Opcional: 50 g de chocolate 70% sem açúcar e sem lactose (para deixar mais intenso)"
+        ],
+        "preparo": [
+          "Em uma panela, coloque o leite vegetal, o cacau e o adoçante.",
+          "Misture bem até dissolver o cacau.",
+          "Acrescente o óleo de coco e leve ao fogo baixo, mexendo sempre.",
+          "Se quiser mais cremosidade, adicione o chocolate 70% picado e mexa até derreter.",
+          "Continue mexendo até engrossar e atingir ponto de cobertura.",
+          "Espalhe ainda quente sobre o bolo para formar uma camada brilhante e deliciosa."
+        ],
+        "medidas": [],
+        "nutricional": {
+          "calorias (valor energético": "545 kcal – por porção (1 col. Sopa) 54 kcal %VD* 3%",
+          " carboidratos": "22 g – por porção (1 col. Sopa) 2,2  %VD* 1%",
+          "proteínas": "6,5 g – por porção (1 col. Sopa) 0,6 %VD* 1%",
+          "gorduras totais": "48 g – por porção (1 col. Sopa)  %VD* 9%",
+          "gorduras saturadas": "32 g  –  por porção (1 col. Sopa) 4,8 %VD* 15%",
+          "açúcares atotais": ", 0 g",
+          "lactose": "0 g",
+          "glúten": "0 g",
+          "*valores diário": "s baseados em uma dieta de 2.000 kcal.",
+          "- adoçante": "Prefira o Eritritol da Essential Nutrition, que possui índice glicêmico zero e não causa desconforto gástrico como o excesso de xilitol pode causar em algumas pessoas.",
+          "- chocolate": "Verifique se o chocolate 70% não contém traços de leite ou soro de leite na composição (comum em marcas comerciais).",
+          "- leite": "Use o Leite de Amêndoas da Silk ou leite de coco caseiro.",
+          "- fogo baixo sempre": "O leite vegetal (especialmente amêndoas) pode separar ou ‘queimar’ o sabor se ferver de forma agressiva.",
+          "- cremosidade sem chocolate": "Se não quiser usar o chocolate em barra, adicione 1 colher de chá de amido de milho ou farinha de beringela dissolvida no leite frio para engrossar sem gordura extra.",
+          "- brilho extra": "O segredo do brilho \"espelhado\" é adicionar o óleo de coco apenas no final, quando desligar o fogo, mexendo vigorosamente.",
+          "- densidade de antioxidantes": "O uso do cacau 100% aliado ao chocolate 70% oferece uma alta dose de polifenóis, que auxiliam na saúde vascular.",
+          "- perfil lipídico": "Embora rica em gorduras, são provenientes do coco (TCM - Triglicerídeos de Cadeia Média) e das amêndoas, que são fontes de energia rápida.",
+          "- saciedade": "A combinação de gordura e fibras ajuda a evitar picos de insulina, ideal para quem busca controle de peso.",
+          "- opcional": "chocolate 70% sem açúcar e sem lactose"
+        },
+        "substituicoes": [],
+        "dicas": [],
+        "comentarioNutri": "",
+        "listaCompras": []
+      }
+    }
+  ]
+}

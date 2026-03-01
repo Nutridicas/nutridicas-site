@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>🛒 Lista de Compras | Nutrichef</title>
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+
+<!-- Exportar lista para PDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!--  Gerador de QRCode -->
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+
+</head>
+<body>
+
+<header class="header">
+  <div class="header-container">
+    <a href="index.html" class="logo">Nutrichef Online</a>
+
+     <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn"> Gastronomia</button>
+          <ul class="mega-menu">
+            <li><a href="menu-tradicional.html"> <span> Receitas Tradicionais</span></a></li>
+            <li><a href="menu-restritivas.html">🍬 <span>Receitas para restrições Alimentares</span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+        </ul>
+        </li>
+
+        <!-- Nutrição -->
+
+       <!-- Curiosidades e informação -->
+
+       <li class="has-mega">
+          <button class="submenu-btn"> Aprenda Mais +</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
+            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas sobre Receitas</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+        <!-- Favoritos -->
+        <li><a href="favoritos.html">Favoritos</a></li>
+        <li><a href="lista-compras.html" class="active">Lista de Compras</a></li>
+      </ul>
+    </nav>
+  </div>
+</header> 
+
+<main class="container">
+
+  <h1>🛒 Minha Lista de Compras</h1>
+  <p>Ingredientes salvos das receitas selecionadas.</p>
+  <hr>
+  <br>
+
+  <!-- MODAL PREMIUM -->
+<div id="modalNutri" class="modal hidden">
+  <div class="modal-box">
+    <h2 id="modalTitulo"></h2>
+    <p id="modalTexto"></p>
+    <button id="modalFechar">OK</button>
+  </div>
+</div>
+
+
+<ul id="lista"></ul>
+<section class="lista-saas">
+
+  <div class="topo-saas">
+    <h1>🛒 Sua Lista</h1>
+    <p id="contador"></p>
+
+    <div class="progresso">
+      <div id="barraProgresso"></div>
+    </div>
+  </div>
+
+  <div id="listaCategorias"></div>
+
+  <div class="acoes-saas">
+    <select id="tipoPDF">
+      <option value="premium">📄 PDF Profissional</option>
+      <option value="cupom">🧾 PDF Estilo Cupom</option>
+    </select>
+
+    <button id="btnPDF">Gerar PDF</button>
+    <button id="btnPrint" class="btn-premium">🖨️Imprimir Lista</button>
+    <button id="btnWhats" class="btn-premium">📲 Enviar para Whastapp</button>
+    <button id="btnLimpar" class="btn-premium">🗑️ Limpar Lista</button>
+  </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+
+<script src="js/lista-compras.js"></script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A Nutrichef Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/nutri.css">
+  <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+
+ <!-- HEADER -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">Nutrichef Online</a>
+    <p style="color: white;"> 🌱  | </p>
+
+     <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-zerolac.html"> <span>Zero Lactose</span></a></li>
+          <!-- fim Zero lactose -->
+            <li><a href="menu-zeroacucar.html">🍬 <span>Zero Açúcar</span></a></li>
+            <li><a href="menu-zerogluten.html">🌾 <span>Zero Glúten</span></a></li>
+            <li><a href="menu-funcional.html">🍅 <span>Funcionais </span></a></li>
+            <li><a href="menu-veganas.html"> 🥦 <span>Veganas </span></a></li>
+            <li><a href="menu-semovo.html"> 🥚 <span>Sem Ovo </span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos/Serviços</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="assessoria.html">📚Consultoria Nutricional</a></li>
+          </ul>
+        </li>
+
+        <!-- Nutrição -->
+
+       <li class="has-mega">
+          <button class="submenu-btn">Área da Nutrição</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
+            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Favoritos e lista de compras-->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+   <div class="search-box">
+       <input type="search" id="searchInput" placeholder="Buscar receita...">
+
+      <!-- Resultados -->
+      <div id="searchResults" class="search-results"></div>
+      </div>
+  </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+  
+  <main class="nutri">
+    <!-- CONTEÚDO PRINCIPAL -->
+   <div class="nutri__header">
+      <h2>Consulta Nutricional Online 🩺</h2>
+      <p align="center"> Agradecemos o seu interesse na consulta online; Esse serviço não é gratuíto e tem um custo R$ 100,00.</p>
+      <p align="justify"> Para prosseguir,  escolha a forma de pagamento, depois, é só preencha o formulário de maneira correta e aguardar o retorno da noissa equipe Nutrichef 🌱  
+      </p>
+
+    </div>
+
+    <section class="nutri__conteudo">
+      
+          <!-- MASCOTE -->
+          <div class="nutri__mascote">
+            <img src="imagens/Ednutri.jpg" alt="Mascote Nutrichef">
+          </div>
+
+           <!-- Seção de Pagamento -->
+              <div class="pagamento-container">
+                  <h3>Selecione a Forma de Pagamento</h3>
+                  <div class="opcoes-pagamento">
+                      <label class="radio-label">
+                          <input type="radio" name="pagamento" value="pix" required> 
+                          <span>Pix (5% OFF)</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="pagamento" value="dinheiro"> 
+                          <span>Cartão débito</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="pagamento" value="cartao"> 
+                          <span>Cartão crédito</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="pagamento" value="boleto"> 
+                          <span>Boleto</span>
+                      </label>
+                  </div>
+            </div>
+             <hr class="divisor"> <!-- Linha para separar o pagamento do formulário -->
+             <!-- Fim da forma de pagto-->
+      
+      <!-- FORMULÁRIO -->
+     
+  
+       <div class="container-nutri">
+          <form class="consulta_form" action="https://formspree.io/f/xreebedq"  method="POST" data-form="pago">
+            
+              <h2>Ficha de Anamnese</h2>
+              <hr style="height: 3px; background-color: red; border: none;">
+
+                <!-- Dados Pessoais -->
+                
+                    <div class="field">
+                        <label>Nome Completo</label>
+                        <input type="text"  minlength="8" name="nome" placeholder="Nome completo" required>
+                    </div>
+
+                    <div class="field">
+                        <label>Nome Social</label>
+                        <input type="text"  minlength="8" name="nomesocial" placeholder="Nome que deseja ser chamado">
+                    </div>
+
+                  <div class="grade-linha">  
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="meuemail@servidor.com.br">
+                    </div>
+                    <div class="field">
+                        <label>Número telefone</label>
+                        <input type="text" name="telefone" placeholder="(00) 1234-1234" pattern="^\(?\d{2}\)?\s?\d{4,5}-?\d{4}$"
+                        title="Digite um telefone válido com DDD" required>
+                    </div>
+                    <div class="field">
+                        <label>Whatsapp</label>
+                        <label class="radio-label">
+                          <input type="radio" name="possui_whatsapp" value="sim" id="whatsSim">
+                          <span>Sim</span>
+                        </label>
+                      <label class="radio-label">
+                          <input type="radio" name="possui_whatsapp" value="nao" id="whatsSim">
+                           <span>Não</span>
+                      </label>
+                        
+                    </div><!-- Fim do whaysapp -->
+                  </div>
+                  <div class="grade-linha">
+                     <div class="field">
+                        <label>Idade</label>
+                        <input type="number" name="idade" placeholder="20, 50 anos">
+                      </div>
+                      <div class="field">
+                        <label>Profissão</label>
+                        <input type="text" name="profissao" placeholder="Escreva aqui">
+                      </div>
+                      <div class="field">
+                        <label>Primeira consulta?</label>
+                        <label class="radio-label">
+                          <input type="radio" name="primeira-consaulta" value="sim" >
+                          <span>Sim</span>
+                       </label>
+                       <label class="radio-label">
+                            <input type="radio" name="primeira-consaulta" value="nao"> <span>Não</span>
+                       </label>
+
+                        <!--mudança do estilo- vai ficar horizontal com Sim/Não-->
+
+                       </div>
+                  </div>  
+                  <!-- === Gênero === -->
+                  <hr style="height: 3px; background-color: red; border: none;">
+                  <div class="field-linha ">
+                      <label>Gênero:</label>
+                      <label class="radio-label">
+                          <input type="radio" name="genero" value="Masculino" >
+                          <span>Masculino</span>
+                       </label>
+                       <label class="radio-label">
+                            <input type="radio" name="genero" value="Feminino"> <span>Feminino</span>
+                       </label>
+                       <label class="radio-label">
+                             <input type="radio" name="genero" value="Outro"> 
+                          <span>Outro</span>
+                       </label>
+                   </div> <!-- fim do genero-->
+                   <hr style="height: 3px; background-color: red; border: none;">
+               <h3> Rotinas e hábitos de vida</h3>
+               <div class="grade-linha">
+                  <div class="field">  
+                    <p> <strong>Consome bebida alcoólica?</strong></p>
+                       <label>
+                          
+                          <select name="bebida-alcoolica" id="ebida-alcoolica" required>
+                              <option value="" disabled selected>Selecione</option>
+                              <option value="Não">Não</option>
+                              <option value="Sim-Eventual">Sim. Eventualmente</option>
+                              <option value="Sim-frequente">Sim. Com frequência</option>
+                              <option value="prefiro-nao-mencionar">Prefiro não Mencionar</option>
+                          </select>
+                       </label>
+                   </div> 
+                   <!-- Segundo-->
+
+                    <div class="field">
+                         <label>É fumante?</label>
+                            <label class="radio-label">
+                                <input type="radio" name="fumante" value="nao" >
+                                <span>Não. Nunca fumei</span>
+                             </label>
+                             <label class="radio-label">
+                                  <input type="radio" name="fumante" value="nao-mas-fui"> <span>Não. Já fui fumane</span>
+                             </label>
+                             <label class="radio-label">
+                                   <input type="radio" name="fumante" value="sim">
+                                <span>Sim</span>
+                            </label>
+                     </div> 
+                     <div class="field">
+                        <label>Média de sono diário</label>
+                        <input type="number" name="sono-diario"placeholder="4,6 ou 8 horas">
+                      </div>
+                 </div>
+                <hr style="height: 3px; background-color: red; border: none;">
+                
+                  <!-- Objetivo ==-->
+                 <div class="grid-row">
+                     <div class="field">  
+                         <h3> Objetivo da consulta </h3>
+                         <label>
+                          
+                            <select name="objetivo" id="objetivo" required>
+                                <option value=""disabled selected>Selecione</option>
+                                <option value="emagrecimento">Emagrecimento</option>
+                                <option value="ganho-massa">Ganho de massa</option>
+                                <option value="saude">Saúde geral</option>
+                                <option value="patologia" id="campo-oatologia">Patologia específica</option>
+                            </select>
+                          </label>
+                      </div> <!-- fim-->
+                      <!-- Caso seja escolhida a patologia específica, digitar qual -->
+                       
+                     <label class="field field--conditional" id="campo-patologia">
+                          <span>Qual patologia?</span>
+                          <input type="text" name="patologia" placeholder="Ex: Diabetes, renal ou hipertemsão">
+                     </label>
+                    <label class="field field--conditional" id="campo-emagrecimento">
+                         <span>Meta de perda de peso</span>
+                         <input type="number" name="emagrecimento" placeholder=" Ex: 0Kg, 15Kg">
+                    </label>
+
+                 </div>  <!-- Fechamento do objetivo-->
+                   
+               
+                <!-- FIM, GENERO E OBJETIVO -->
+                <hr style="height: 3px; background-color: red; border: none;">
+                
+                <h3> Medidas antropométricas</h3>
+                 <div class="grade-linha">
+                  
+                   <div class="field">
+                        <label>Peso atual(kg)</label>
+                        <input type="number" id="peso" name="peso"step="0.1" placeholder="Ex: 75.5">
+                    </div>
+                    <div class="field">
+                        <label>Altura (m)</label>
+                        <input type="number" id="altura" name="altura" step="0.01" placeholder="Ex: 1.75m">
+                    </div>
+                    
+                    <div class="field">
+                        <label>Medida abdominal (cm)</label>
+                        <input type="number" name="circun-abdimen" step="0.01" placeholder="Ex: 80 cm">
+                    </div>
+                </div>
+                <div class="grade-linha">
+
+                     <div class="field">
+                          <strong>Seu IMC é: </strong> <span id="valor-imc">0.00</span>
+                     </div>
+                     <div class="field">
+                        <label>Nível de estresse</label>
+                        <select name="estresse" name="estresse">
+                          <option value="" disabled selected>Selecione</option>
+                          <option value="baixo">Baixo</option>
+                          <option value="moderado">Moderado</option>
+                          <option value="alto">Alto</option>
+                        </select>
+                      </div>
+                      <div class="field">
+                          <label>Medida do quadril (cm):</label>
+                          <input type="number" name="circun-quadril" step="0.01" placeholder="Ex: 95 cm">
+                      </div>
+                    </div>
+
+                  <!-- Saúde -->
+               <hr style="height: 3px; background-color: red; border: none;">
+               <h3>Saúde e sinais vitais</h3>
+                <div class="grade-linha">
+                  
+                   <div class="field">
+                        <label>Pressão arterial</label>
+                        <input type="text" name="pressaorterial"step="0.1" placeholder="Ex: 75.5">
+                    </div>
+                    <div class="field">
+                        <label>Glicemia</label>
+                        <input type="number" name="glicemia" step="0.01" placeholder="Ex: 1.75m">
+                    </div>
+                    
+                    <div class="field">
+                        <label>Batimentos cardíacos</label>
+                        <input type="number" name="batimentos-cardiacos" step="0.01" placeholder="Ex: 80 cm">
+                    </div>
+
+                </div>
+
+               <hr style="height: 3px; background-color: red; border: none;">
+
+                <h3>Informações Importantes</h3>
+                <div class="field">
+                    <label>Alergias:</label>
+                    <input type="text" name="alergias" placeholder="Ex: Alergia:Glúten, Lactose..">
+                </div>
+
+             <div class="nutri__conteudo">
+                <div class="form-doencas">
+                    <label class="titulo">Marque quais doenças você tem:</label>
+
+                    <div class="checkbox-grid">
+                      <div class="col">
+                        <label for="diabetes"><input type="checkbox" id="diabetes" name="doencas" value="diabetes"> Diabetes</label>
+                        <label for="hipertensao"><input type="checkbox" id="hipertensao" name="doencas" value="hipertensao"> Hipertensão</label>
+                        <label for="asma"><input type="checkbox" id="asma" name="doencas" value="asma"> Asma</label>
+                     </div> <!-- class rol-->
+                  </div><!-- check grid-->
+                  <div class="col">
+                        <label for="cancer"><input type="checkbox" id="cancer" name="doencas" value="cancer"> Câncer</label>
+                        <label for="renal"><input type="checkbox" id="renal" name="doencas" value="renal"> Renal</label>
+                        <label for="outra"><input type="checkbox" id="outra" name="doencas" value="outra"> Outra</label>
+                   </div> 
+               </div><!-- form-doenças-->
+               <div class="field">
+                    <label class="subtitulo">Descreva a medicação que você toma com doses e horários e a patologia</label>
+                    <textarea style="height" 250px min-height: 180px max-height: 450px resize: vertical name="medicacao" class="med-textarea" rows="6" placeholder="Ex.: insulina 3 vezes ao dia"></textarea>
+                </div>
+           </div> <!-- nutri-->
+
+                <hr style="height: 3px; background-color: red; border: none;">
+
+                <h3>Hábito alimentar e atividade física</h3>
+
+                <!-- Atividade física-->
+                 <div class="nutri__conteudo">
+                    <div class="field">
+                        <p>Pratica Atividade física?</p>
+                        <label class="radio-label">
+                            <input type="radio" name="atividade-fisica" value="nao" >
+                            <span>Não</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="atividade-fisica" value="sim"> <span>Sim</span>
+                        </label>
+                     </div> 
+
+                    <div class="field">
+                        <label>Atividades físicas</label>
+                        <textarea rows="3" name="lista-de-atividades-fisicas"placeholder="Liste suas atividades físicas"></textarea>
+                    </div>
+               </div>
+
+              <hr style="height: 3px; background-color: red; border: none;">
+               
+                <!-- Recordatório Alimentar -->
+                <h3>Hábitos Alimentares</h3>
+                <div class="nutri__conteudo">
+                    <div class="field">
+                        <label>Café da Manhã:</label>
+                        <textarea name="cafe-da-manha" placeholder="O que costuma comer?"></textarea>
+                    </div>
+                    <div class="field">
+                        <label>Almoço:</label>
+                        <textarea name="almoco" placeholder="O que costuma comer?"></textarea>
+                    </div>
+                   
+                </div> <!-- Café e almoço - hábitos alimentares -->
+              
+                <div class="nutri__conteudo">
+                    <div class="field">
+                        <label>Jantar:</label>
+                        <textarea name="jantar" placeholder="O que costuma comer?"></textarea>
+                    </div>
+
+                  <div class="field">
+                        <label>Alimentos que não gosta/costuma comer</label>
+                        <textarea name="alimentos-nao--gosta" placeholder="Digite aqui"></textarea>
+                    </div>
+                </div> <!-- Jantar e gosta - Hábito alimentares -->
+                <hr style="height: 3px; background-color: red; border: none;">
+                
+                <div class="field">
+                    <label>Outras informações que considere necessárias:</label>
+                        <textarea name="outras-informacoes" rows="5"placeholder="Digitee aqui"></textarea>
+                </div>
+
+                 <label>
+                    <!-- IDENTIFICAÇÃO -->
+                    <input type="hidden" name="tipo" value="Consulta Online Paga">
+                    <!-- Pagamento da consulta -campos ocultos 10/02/26 20:31 -->
+                    <input type="hidden" name="payment_id" id="payment_id">
+                    <input type="hidden" name="transaction_status" id="transaction_status">
+                </label>
+
+                   <button class="btn-enviar" type="submit">Solicitar consulta ' </button>
+            </form>
+            
+             <div class="feedback feedback--pago">
+                <h3>✅ Solicitação recebida!</h3>
+                <ul>
+                    <li>✔ Valores da consulta</li>
+                    <li>✔ Formas de pagamento</li>
+                    <li>✔ Agendamento</li>
+                </ul>
+                <p>Em breve entraremos em contato.</p>
+            </div>
+
+      </div>
+                              
+  </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+     <!-- JS -->
+     <script src="js/menu.js" defer ></script>
+     <script src="js/forms.js" defer ></script>
+     <script src="js/busca.js" defer ></script>
+      <script src="js/consulta.js" defer ></script>
+ </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Liberação de Acesso | Nutrichef Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<main class="container" style="max-width: 600px; padding: 60px 20px; text-align: center;">
+
+  <h1>🔓 Liberação de Acesso Premium</h1>
+
+  <p>
+    Obrigada por adquirir o acesso premium do <strong>Nutrichef Online</strong>.
+    Clique no botão abaixo para liberar todo o conteúdo exclusivo.
+  </p>
+
+  <button id="ativarPremium" class="btn-premium" style="margin-top: 30px;">
+    Ativar acesso premium
+  </button>
+
+  <p id="status" style="margin-top: 20px; font-weight: 600;"></p>
+
+</main>
+
+<script>
+  const btn = document.getElementById("ativarPremium");
+  const status = document.getElementById("status");
+
+  btn.addEventListener("click", () => {
+    localStorage.setItem("nutri_premium", "true");
+
+    status.textContent = "✅ Acesso premium ativado com sucesso!";
+    status.style.color = "green";
+
+    setTimeout(() => {
+      window.location.href = "menu-zerolac.html"; // ou página de receitas
+    }, 2000);
+  });
+</script>
+
+</body>
+</html>

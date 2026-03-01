@@ -1,0 +1,9 @@
+<h1>Pagamento aprovado 🎉</h1>
+
+const params = new URLSearchParams(location.search);
+
+document.getElementById("payment_id")
+.value = params.get("payment_id");
+
+document.getElementById("transaction_status")
+.value = params.get("status");

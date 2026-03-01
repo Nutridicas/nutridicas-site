@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Preview da Receita</title>
+  <meta name="robots" content="noindex,nofollow">
+
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<main class="container receita">
+
+  <h1 id="titulo"></h1>
+  <p id="categoria"></p>
+
+  <img id="imagem" style="max-width:600px">
+
+  <h2>🧾 Ingredientes</h2>
+  <ul id="ingredientes"></ul>
+
+  <h2>👩‍🍳 Modo de preparo</h2>
+  <ol id="preparo"></ol>
+
+</main>
+
+<script>
+  const r = JSON.parse(localStorage.getItem("preview_receita"));
+
+  if (!r) {
+    document.body.innerHTML = "<p>Preview indisponível</p>";
+  }
+
+  document.getElementById("titulo").innerText = r.titulo;
+  document.getElementById("categoria").innerText = r.categoria;
+  document.getElementById("imagem").src = r.imagem;
+
+  r.ingredientes.forEach(i => {
+    const li = document.createElement("li");
+    li.innerText = i;
+    ingredientes.appendChild(li);
+  });
+
+  r.preparo.forEach(p => {
+    const li = document.createElement("li");
+    li.innerText = p;
+    preparo.appendChild(li);
+  });
+</script>
+
+</body>
+</html>

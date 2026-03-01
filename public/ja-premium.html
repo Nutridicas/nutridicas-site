@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Você já é Premium | Nutrichef Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-container">
+    <a href="index.html" class="logo">Nutrichef Online</a>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="box" style="max-width:720px; margin:60px auto; text-align:center;">
+
+    <h1 style="color:#2e8b57;">🌟 Você já é Premium!</h1>
+
+    <p style="margin-top:20px; font-size:16px;">
+      Seu acesso Premium já está ativo.
+    </p>
+
+    <p style="margin-top:10px;">
+      Aproveite todos os recursos exclusivos disponíveis nas receitas.
+    </p>
+
+    <div style="margin-top:30px; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+      <a href="index.html" class="btn-primary">
+        Ir para a página inicial
+      </a>
+
+      <a href="menu-zerolac.html" class="btn-secondary">
+        Ver receitas
+      </a>
+    </div>
+
+    <p style="margin-top:25px; font-size:13px; color:#666;">
+      Se tiver qualquer dúvida ou problema com o acesso,
+      entre em contato pela área <strong>Fale com a Nutri</strong>.
+    </p>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Nutrichef Online</p>
+</footer>
+
+<!-- PROTEÇÃO: APENAS PREMIUM -->
+<script>
+  const isPremium = localStorage.getItem("nutri_premium") === "true";
+
+  if (!isPremium) {
+    window.location.href = "pagamento.html";
+  }
+</script>
+
+</body>
+</html>

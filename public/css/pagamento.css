@@ -1,0 +1,20 @@
+.pagamento-opcoes {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pagamento-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #fafafa;
+}
+
+.pagamento-item input {
+  accent-color: #2e8b57;
+}

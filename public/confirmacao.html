@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Pagamento Confirmado | Nutrichef Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-container">
+    <a href="index.html" class="logo">Nutrichef Online</a>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="box" style="max-width:720px; margin:60px auto; text-align:center;">
+
+    <h1 style="color:#2e8b57;">✅ Pagamento confirmado!</h1>
+
+    <p style="margin-top:20px; font-size:16px;">
+      Seu pagamento foi processado com sucesso.
+    </p>
+
+    <p style="margin-top:10px;">
+      O acesso <strong>Premium</strong> já foi liberado para sua navegação.
+    </p>
+
+    <div style="margin-top:30px;">
+      <a href="index.html" class="btn-primary">
+        Ir para o site
+      </a>
+    </div>
+
+    <p style="margin-top:20px; font-size:13px; color:#666;">
+      Você já pode acessar tabelas nutricionais, substituições inteligentes
+      e conteúdos exclusivos.
+    </p>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Nutrichef Online</p>
+</footer>
+
+<!-- LIBERAÇÃO PREMIUM -->
+<script>
+  // Libera acesso premium
+  localStorage.setItem("nutri_premium", "true");
+
+  // Evita voltar para a confirmação novamente
+  if (document.referrer.includes("confirmacao.html")) {
+    window.location.href = "index.html";
+  }
+</script>
+
+</body>
+</html>

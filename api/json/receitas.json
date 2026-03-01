@@ -1,0 +1,2448 @@
+[
+  {
+    "id": "uuid",
+    "slug": "pao-forma-zero-lactose",
+    "titulo": "Pão de Forma Zero Lactose e Sem Açúcar",
+    "status": "publicada",
+    "topSemana": true,
+    "imagem": "food-3152399_1280.jpg",
+    "restricoes": [
+      "Sem Lactose",
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Zero Lactose",
+      "Sem Açúcar"
+    ],
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Humus Tradicional vegano",
+        "slug": "-homus-tradicional",
+        "imagem": "humus-tigela.jpg"
+      },
+      {
+        "titulo": "Pasta de Cenoura e Ervas",
+        "slug": "pasta-de-cenoura-e-ervas",
+        "imagem": "pÃ£o-com-abacate.jpg"
+      },
+      {
+        "titulo": "Maionese Vegana",
+        "slug": "maionese-vegana-funcional",
+        "imagem": "maionese-vegana-2.jpg"
+      },
+      {
+        "titulo": "catchup Vegano",
+        "slug": "catchup-vegano-funcional",
+        "imagem": "catchup-tomate.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2025-01-01",
+        "conteudo": {
+          "categoria": "Zero Lactose",
+          "tempoPreparoReceita": "10 min",
+          "tempoPreparoForno": "30 min",
+          "tempoPreparoTotal": "40 min",
+          "rendimento": "10 fatias",
+          "dificuldade": "Fácil",
+          "custoMedio": "0.00",
+          "enviadaPor": "NutriDicas",
+          "comoServir": "Quentinho com manteiga zero lactose",
+          "miseEnPlace": [
+            "Separe todos os ingredientes",
+            "Pré-aqueça o forno",
+            "Use um bowl grande"
+          ],
+          "conservacao": [
+            "Dura 3 dias na geladeira",
+            "Pode congelar por até 30 dias"
+          ],
+          "ingredientes": [
+            "4 ovos",
+            "1/2 xícara de farinha de aveia",
+            "1/2 xícara de polvilho doce",
+            "1/3 xícara de farinha de amêndoas",
+            "1/3 xícara de água ou bebida vegetal",
+            "1/4 xícara de azeite ou óleo de coco",
+            "1 colher (chá) de sal",
+            "1 colher (chá) de vinagre de maçã",
+            "1 colher (sopa) de fermento químico"
+          ],
+          "preparo": [
+            "Preaqueça o forno a 180°C.",
+            "Bata ovos, água e azeite.",
+            "Misture as farinhas, sal e vinagre.",
+            "Adicione o fermento por último.",
+            "Asse por 35–40 minutos."
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 fatia (50g)",
+            "calorias": "135 kcal",
+            "carboidratos": "9 g",
+            "proteinas": "4 g",
+            "gordurasTotais": "9 g",
+            "gordurasSaturadas": "9 g",
+            "fibras": "0 g",
+            "sodio": "0 g",
+            "acuçar": "0 g"
+          },
+          "substituicoes": [],
+          "dicas": [],
+          "comentarioNutri": "",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "bolo-fofo-zero-lactose",
+    "titulo": "Bolo Fofo Zero Lactose e Sem Açúcar",
+    "status": "publicada",
+    "topSemana": true,
+    "imagem": "lemon-cake-8274419_1280.jpg",
+    "restricoes": [
+      "Sem Lactose",
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Zero Lactose",
+      "Sem açucar"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Cobertura Cremosa Zero lactose para Bolo",
+        "slug": "cobertura-cremosa-zero-lactose",
+        "imagem": "Bolo-cobertura.jpg"
+      },
+      {
+        "titulo": "Bolo de Aniversário sem açúcar",
+        "slug": "bolo-niver-sem-acucar",
+         "imagem": "bolo-receita.jpg"
+      },
+      {
+        "titulo": "Biscoito crocante de coco",
+        "slug": "biscoito-de-coco-crocante",
+         "imagem": "biscoitos-gotas-chocolate.jpg"
+      },
+      { 
+        "titulo": "Mousse de Chocolate Fit",
+        "slug": "mousse-chocolate-fit",
+         "imagem": "mousse.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-04",
+        "conteudo": {
+          "categoria": "Zero Lactose",
+          "tempoPreparoReceita": "10 min",
+          "tempoPreparoForno": "30 min",
+          "tempoPreparoTotal": "40 min",
+          "rendimento": "10 fatias",
+          "dificuldade": "Fácil",
+          "custoMedio": "0.00",
+          "enviadaPor": "NutriAção",
+          "comoServir": "Para quem gosta, pode ser quentinho ou morno",
+          "miseEnPlace": [
+            "Separe todos os ingredientes",
+            "Pré-aqueça o forno",
+            "Use um bowl grande"
+          ],
+          "conservacao": [
+            "Pode consumr por até 3 dias conservado em vasilha coberta"
+          ],
+          "ingredientes": [
+            "3 ovos",
+            "1/2 xícara de óleo vegetal",
+            "1 xícara de bebida vegetal",
+            "1/2 xícara de adoçante culinário",
+            "2 xícaras de farinha",
+            "1 colher (chá) de baunilha",
+            "1 colher (sopa) de fermento"
+          ],
+          "preparo": [
+            "Preaqueça o forno a 180°C.",
+            "Bata os ovos até ficarem claros.",
+            "Adicione óleo, bebida vegetal e adoçante.",
+            "Misture a farinha aos poucos.",
+            "Acrescente o fermento delicadamente.",
+            "Asse por 35–40 minutos."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 fatia (80g)",
+            "calorias": "120 kcal",
+            "carboidratos": "18 g",
+            "proteinas": "4 g",
+            "gordurasTotais": "5 g",
+            "gordurasSaturadas": "9 g",
+            "fibras": "0 g",
+            "sodio": "0 g",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "Açúcar → Eritritol"
+          ],
+          "dicas": [],
+          "comentarioNutri": "",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "bolo-niver-sem-acucar",
+    "titulo": "Bolo de Aniversário Sem Açúcar",
+    "status": "publicada",
+    "topSemana": false,
+    "imagem": "bolo-receita.jpg",
+    "restricoes": [
+      "Sem Lactose",
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Sem Açúcar",
+      "Aniversário"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2025-12-16",
+        "conteudo": {
+          "categoria": "Zero Açúcar",
+          "tempoPreparoReceita": "10 min",
+          "tempoPreparoForno": "30 min",
+          "tempoPreparoTotal": "40 min",
+          "rendimento": "10 fatias",
+          "dificuldade": "Fácil",
+          "custoMedio": "0.00",
+          "enviadaPor": "NutriAção",
+          "comoServir": "Em eventos de aniversário, pode gelar e srevir em fatias",
+          "miseEnPlace": [
+            "Separe todos os ingredientes",
+            "Pré-aqueça o forno",
+            "Use um bowl grande"
+          ],
+          "conservacao": [
+            "Pode consumir em até 3 dias conservado em vasiilha coberta"
+          ],
+          "ingredientes": [
+            "3 bananas maduras",
+            "2 ovos",
+            "1/2 xícara de óleo de coco",
+            "1/2 xícara de leite vegetal",
+            "1 1/2 xícara de farinha de aveia",
+            "1 colher (sopa) de fermento",
+            "1 colher (chá) de baunilha"
+          ],
+          "preparo": [
+            "Bata os líquidos.",
+            "Misture os ingredientes secos.",
+            "Una tudo e asse por 35–40 minutos."
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 fatia (80g)",
+            "calorias": "120 kcal",
+            "carboidratos": "18 g",
+            "proteinas": "4 g",
+            "gordurasTotais": "5 g",
+            "gordurasSaturadas": "9 g",
+            "fibras": "0 g",
+            "sodio": "0 g",
+            "acuçar": "0 g"
+          },
+          "substituicoes": [
+            "Leite → Bebida vegetal"
+          ],
+          "dicas": [],
+          "comentarioNutri": "Receita indicada para quem busca reduzir açúcar.",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "slug": "bolo-chocolate-zero-lactose",
+    "titulo": "Bolo de Chocolate Sem Açúcar e Sem Lactose",
+    "status": "publicada",
+    "topSemana": false,
+    "imagem": "placeholder.jpg",
+    "restricoes": [
+      "Sem Lactose",
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Zero Lactose",
+      "Zero Açucar",
+      "Chocolate"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-09",
+        "conteudo": {
+          "categoria": "Zero Lactose",
+          "tempoPreparoReceita": "10 min",
+          "tempoPreparoForno": "30 min",
+          "tempoPreparoTotal": "40 min",
+          "rendimento": "10 fatias",
+          "dificuldade": "Fácil",
+          "custoMedio": "0.00",
+          "enviadaPor": "NutriAção",
+          "miseEnPlace": [
+            "Separe todos os ingredientes",
+            "Pré-aqueça o forno",
+            "Use um bowl grande"
+          ],
+          "conservacao": [
+            "Pode consumr por até 2 dias conservado em vasiilha coberta"
+          ],
+          "ingredientes": [
+            "3 ovos",
+            "1 xícara de farinha de aveia",
+            "1/2 xícara de cacau 100%",
+            "1/2 xícara de óleo de coco",
+            "1/2 xícara de leite vegetal",
+            "1/2 xícara de adoçante",
+            "1 colher (sopa) de fermento"
+          ],
+          "preparo": [
+            "Misture tudo até formar massa homogênea.",
+            "Asse por 30–35 minutos."
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 fatia (60g)",
+            "calorias": "165 kcal",
+            "carboidratos": "12 g",
+            "proteinas": "4 g",
+            "gordurasTotais": "11 g",
+            "gordurasSaturadas": "0 g",
+            "fibras": "0 g",
+            "sodio": "0 g",
+            "acuçar": "0 g"
+          },
+          "substituicoes": [],
+          "dicas": [],
+          "comentarioNutri": "",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "cobertura-cremosa-zero-lactose",
+    "titulo": "Cobertura Cremosa Sem Açúcar e Sem Lactose",
+    "status": "publicada",
+    "topSemana": false,
+    "imagem": "Bolo-cobertura.jpg",
+    "restricoes": [
+      "Sem Lactose",
+      "Sem Açúcar",
+      "cobertura"
+    ],
+    "premium": true,
+    "tags": [
+      "Zero Lactose",
+      "Sem Açúcar"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-09",
+        "conteudo": {
+          "categoria": "Zero Lactose",
+          "tempoPreparoReceita": "5 min",
+          "tempoPreparoForno": "10 min",
+          "tempoPreparoTotal": "15 min",
+          "rendimento": "10 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "0.00",
+          "enviadaPor": "NutriMe",
+          "comoServir": "Quente: ideal para cobrir bolos, panquecas, waffles ou sorvetes logo após pronto.Fria/gelada: fica mais espessa e encorpada — pode ser usada como recheio ou até como “brigadeiro de colher”.). ",
+          "miseEnPlace": [
+            "Separe todos os ingredientes",
+            "Separe",
+            "✔️ Panela média (preferencialmente com fundo grosso)",
+            "✔️ Colher de silicone ou espátula (para mexer sem riscar)",
+            "✔️ Medidores (colher de sopa e recipiente para medir o leite)",
+            "✔️ Tigela ou pote de vidro (para armazenar"
+          ],
+          "conservacao": [
+            "ponha em pote de vidor e na geladeira pode durar durar até 5 dias",
+            "Congelamento: pode congelar em porções (ex.: em bandeja de cubos) por até 2–3 meses, depois é só descongelar na geladeira",
+            "Reaquecimento: aqueça rapidamente no micro-ondas por 10–20 s ou em banho-maria para ficar novamente cremosa.",
+            "Sinais de que estragou: odor azedo, aparência separada ou mofo — descarte."
+          ],
+          "ingredientes": [
+            "200 ml de leite vegetal",
+            "2 colheres (sopa) de cacau 100%",
+            "2 colheres (sopa) de adoçante culinário",
+            "1 colher (sopa) de óleo de coco"
+          ],
+          "preparo": [
+            "Coloque a panela no fogo baixo e adicione o leite vegetal",
+            "Aqueça lentamente — não precisa ferver, apenas esquentar.",
+            "Com a chama ainda baixa, adicione o cacau em pó e o adoçante, mexendo com uma colher/silicone para incorporar bem.",
+            "Coloque o óleo de coco e continue mexendo constantemente.",
+            "Continue mexendo para que a mistura não grude no fundo da panela.",
+            "Cozinhe por aproximadamente 8–10 minutos em fogo baixo/médio, mexendo sem parar até que a mistura comece a engrossar,",
+            "e fique com textura cremosa e brilhante (sem grumos).",
+            "Se começar a borbulhar muito, reduza o fogo — o objetivo é reduzir e engarrafar a calda, não ferver forte."
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 colher (sopa)",
+            "calorias": "54 kcal",
+            "carboidratos": "2 g",
+            "proteinas": "1 g",
+            "gordurasTotais": "5 g",
+            "gordurasSaturadas": "9 g",
+            "fibras": "0 g",
+            "sodio": "0 g",
+            "acuçar": "0 g"
+          },
+          "substituicoes": [
+            "Use eritritol no lugar de açúcar",
+            "Prefira chocolate sem traços de leite"
+          ],
+          "dicas": [
+            "Sempre cozinhe em fogo baixo",
+            "Adicione óleo de coco no final para brilho"
+          ],
+          "comentarioNutri": "Rica em antioxidantes do cacau e gorduras boas do coco.",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "mousse-chocolate-fit",
+    "titulo": "Mousse de Chocolate Fit",
+    "status": "publicada",
+    "topSemana": false,
+    "imagem": "mousse.jpg",
+    "restricoes": [
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Funcional",
+      "Fit"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Cobertura Cremosa Zero lactose para Bolo",
+        "slug": "cobertura-cremosa-zero-lactose",
+        "imagem": "Bolo-cobertura.jpg"
+      },
+      {
+        "titulo": "Bolo de Aniversário sem açúcar",
+        "slug": "bolo-niver-sem-acucar",
+         "imagem": "bolo-receita.jpg"
+      },
+      {
+        "titulo": "Biscoito crocante de coco",
+        "slug": "biscoito-de-coco-crocante",
+         "imagem": "biscoitos-gotas-chocolate.jpg"
+      },
+      { 
+        "titulo": "Mousse de Chocolate Fit",
+        "slug": "mousse-chocolate-fit",
+         "imagem": "mousse.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-13",
+        "conteudo": {
+          "categoria": "Funcional",
+          "tempoPreparoReceita": "5 min",
+          "tempoPreparoForno": "30 min",
+          "tempoPreparoTotal": "35 min",
+          "rendimento": "6 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "0.00",
+          "enviadaPor": "Portal NutriMe",
+          "comoServir": "Sirva gelada em taças",
+          "miseEnPlace": [
+            "Separe todos os ingredientes",
+            "Pré-aqueça o forno",
+            "Use um bowl grande"
+          ],
+          "conservacao": [
+            "Quando na geladeira pode durar durar até 7 dias"
+          ],
+          "ingredientes": [
+            "2 abacates maduros",
+            "4 colheres (sopa) de cacau 100%",
+            "Adoçante a gosto",
+            "150 ml de leite vegetal",
+            "1 colher (chá) de baunilha"
+          ],
+          "preparo": [
+            "Bata tudo no liquidificador até virar creme.",
+            "Leve à geladeira por 30 minutos."
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1/6 da receita",
+            "calorias": "200 kcal",
+            "carboidratos": "10 g",
+            "proteinas": "3 g",
+            "gordurasTotais": "18 g",
+            "gordurasSaturadas": "9 g",
+            "fibras": "7 g",
+            "sodio": "0 g",
+            "acuçar": "0 g"
+          },
+          "substituicoes": [],
+          "dicas": [],
+          "comentarioNutri": "Sobremesa funcional rica em gorduras boas do abacate.",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "pave-de-morango-funcional-zerotriplo",
+    "titulo": "Pavê de morango funcional sem lactose - sem açúcar",
+    "status": "publicada",
+    "topSemana": false,
+    "imagem": "mousse.jpg",
+    "restricoes": [
+      "Sem lactose",
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Funcional",
+      "Morango",
+      "Sem lactose",
+      "Sem Açúcar",
+      "Pavê"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-21T12:13:26.542Z",
+        "conteudo": {
+          "categoria": "Funcional, sem açucar e sem glúten",
+          "tempoPreparoReceita": "5 min",
+          "tempoPreparoForno": "10 min",
+          "tempoPreparoTotal": "15 min",
+          "rendimento": "4 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "20.00",
+          "enviadaPor": "NutriMe",
+          "comoServir": "Gelada em taças ou em potinhos",
+          "miseEnPlace": [
+            "-Lave bem os morangos e corte-os em fatias finas.",
+            "- Prepare o leite de coco (se não for usar pronto, pode ser feito em casa com a polpa de coco). Rale o coco ou corte-o em pedaços pequenos e passa no liquidificador ou processador.",
+            "- Descasque e amasse a banana madura.",
+            "- Separe a baunilha.",
+            "- Tenha os biscoitos sem glúten e sem açúcar (ou bolo funcional esfarelado) à mão"
+          ],
+          "conservacao": [
+            "Melhor consumir em até 24h, conservando geladeira",
+            "- Freezer: até 30 dias sem abrir"
+          ],
+          "ingredientes": [
+            "CREME:",
+            "200 ml de leite de coco",
+            "1 banana madura",
+            "1 colher (chá) de essência de baunilha",
+            "CAMADAS:",
+            "Morangos fatiados a gosto",
+            "Biscoito sem glúten e sem açúcar (ou bolo funcional esfarelado"
+          ],
+          "preparo": [
+            "Creme:",
+            "Em um liquidificador ou processador, adicione o leite de coco, a banana madura e a baunilha.",
+            "Bata até que a mistura fique cremosa e homogênea.",
+            "Montagem:",
+            "Em uma travessa ou taças ou em outra vasilha de sua escolha, comece a montagem:",
+            "faça primeiro uma camada de creme no fundo.",
+            "Coloque uma camada de morangos fatiados por cima do creme.",
+            "Em seguida, coloque uma camada de biscoitos sem glúten (ou bolo funcional esfarelado).",
+            "Repita esse processo, alternando as camadas de creme, morango e biscoito até finalizar com uma camada de creme por cima.",
+            "Finalização:",
+            "- Leve à geladeira por no mínimo 3 horas para que o pavê ganhe consistência e os sabores se integrem bem.",
+            "Para servir:",
+            "Sirva gelado. Se desejar, decore com morangos frescos na hora de servir"
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "",
+            "calorias": "",
+            "carboidratos": "",
+            "proteinas": "",
+            "gordurasTotais": "",
+            "gordurasSaturadas": "",
+            "fibras": "",
+            "sodio": "",
+            "acucar": ""
+          },
+          "substituicoes": [],
+          "dicas": [],
+          "comentarioNutri": "",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "biscoito-de-coco-crocante",
+    "titulo": "Biscoito de Coco Crocante",
+    "status": "publicada",
+    "topSemana": false,
+    "imagem": "biscoitos-gotas-chocolate.jpg",
+    "restricoes": [
+      "Sem lactose",
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Funcional",
+      "Sem glúten",
+      "Sem lactose",
+      "Sem açúcar",
+      "Sem ovo",
+      "Coco"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Cobertura Cremosa Zero lactose para Bolo",
+        "slug": "cobertura-cremosa-zero-lactose",
+        "imagem": "Bolo-cobertura.jpg"
+      },
+      {
+        "titulo": "Bolo de Aniversário sem açúcar",
+        "slug": "bolo-niver-sem-acucar",
+         "imagem": "bolo-receita.jpg"
+      },
+      {
+        "titulo": "Biscoito crocante de coco",
+        "slug": "biscoito-de-coco-crocante",
+         "imagem": "biscoitos-gotas-chocolate.jpg"
+      },
+      { 
+        "titulo": "Mousse de Chocolate Fit",
+        "slug": "mousse-chocolate-fit",
+         "imagem": "mousse.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-22T00:35:16.677Z",
+        "conteudo": {
+          "categoria": "Sem glúten, Sem lactose, Sem açúcar e Sem ovo",
+          "tempoPreparoReceita": "aproximadamente 15 minutos",
+          "tempoPreparoForno": "aproximadamente 15 minutos",
+          "tempoPreparoTotal": "aproximadamente 25 a 30 minutos",
+          "rendimento": "Aproximadamente 8 a 10 biscoitos médios",
+          "dificuldade": "Muito fácil (ideal para iniciantes)",
+          "custoMedio": "Custo total aproximado: R$ 7,00",
+          "enviadaPor": "A ChefNutri",
+          "comoServir": "Acompanhando café ou chá. Como lanche da tarde. Triturado sobre frutas ou iogurte vegetal. Como base para mini tortinhas (pressionando a massa em forminhas).",
+          "miseEnPlace": [
+            "Antes de começar:",
+            "Separe e meça todos os ingredientes.",
+            "Pré-aqueça o forno a 180 °C (ou a airfryer a 160 °C).",
+            "Forre uma assadeira com papel manteiga ou tapete de silicone.",
+            "Derreta levemente o óleo de coco se estiver sólido.",
+            "Separe uma colher para padronizar o tamanho dos biscoito"
+          ],
+          "conservacao": [
+            "Após esfriar completamente, armazenar em pote hermético.",
+            "Duração: até 5 dias em temperatura ambiente, em local seco e fresco.",
+            "Pode ser congelado por até 1 mês.",
+            "Para recuperar a crocância, leve ao forno por 3–5 minutos."
+          ],
+          "ingredientes": [
+            "1 xícara de coco ralado sem açúcar",
+            "2 colheres (sopa) de óleo de coco",
+            "2 colheres (sopa) de água",
+            "1 pitada de sal",
+            "Canela ou baunilha (opcional)"
+          ],
+          "preparo": [
+            "Em uma tigela, misture o coco ralado, o sal e a canela ou baunilha (se for utilizar).",
+            "Acrescente o óleo de coco e a água aos poucos, misturando bem até obter uma massa úmida e moldável.",
+            "Modele pequenas porções em formato de bolinhas e achate levemente com as mãos para formar discos.",
+            "Disponha os biscoitos na assadeira, deixando pequeno espaço entre eles.",
+            "Asse em forno preaquecido a 180 °C por aproximadamente 15 a 18 minutos, ou até que estejam levemente dourados nas bordas.",
+            "Na airfryer: asse a 160 °C por 10 a 12 minutos, observando para não dourar excessivamente.",
+            "Retire e deixe esfriar completamente antes de servir — eles ficam mais crocantes após esfriar."
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 biscoito considerando 10 unidades",
+            "calorias": "75 kcal",
+            "carboidratos": "2g",
+            "proteinas": "1g",
+            "gordurasTotais": "7 g",
+            "gordurasSaturadas": "6g",
+            "fibras": "1g",
+            "sodio": "15 mg",
+            "acucar": "0g"
+          },
+          "substituicoes": [
+            "Versão mais funcional:",
+            "Você pode adicionar:",
+            "1 colher (sopa) de chia ou linhaça para aumentar fibras.",
+            "Raspas de limão ou laranja para aroma natural.",
+            "1 colher (sopa) de castanhas trituradas para mais textura.",
+            "✔ Para deixar mais doce (sem açúcar refinado):",
+            "Adicione 1 a 2 colheres (sopa) de xilitol, eritritol ou um pouco de tâmara triturada."
+          ],
+          "dicas": [
+            "Dicas Importantes",
+            "✔ Textura ideal da massa:",
+            "Se a massa estiver muito seca e esfarelando, acrescente 1 colher (chá) extra de água. Se estiver muito úmida, adicione um pouco mais de coco ralado.",
+            "✔ Crocância perfeita:",
+            "Espalhe bem os biscoitos na assadeira e não deixe muito grossos. Quanto mais finos, mais crocantes.",
+            "✔ Cor ideal:",
+            "Eles devem dourar levemente nas bordas. Se escurecerem demais, podem ficar amargos devido ao coco."
+          ],
+          "comentarioNutri": "Naturalmente low carb:\nPor ser feito basicamente de coco, é uma receita com baixo teor de carboidratos, adequada para estratégias alimentares com redução de carboidratos.\nFonte de gorduras boas:\nO coco e o óleo de coco são ricos em triglicerídeos de cadeia média (TCM), que podem fornecer energia rápida ao organismo.\nRico em fibras:\nO coco contribui para maior saciedade e melhor funcionamento intestinal.\nSem alergênicos comuns:\nNão contém glúten, lactose ou ovos — ótima opção para pessoas com restrições alimentares ou alergias.\nÍndice glicêmico baixo:\nPor não conter açúcar nem farinhas refinadas, tende a provocar menor pico glicêmico (especialmente se não for adicionado adoçante).",
+          "listaCompras": [
+            "1 xícara de coco ralado sem açúcar",
+            "2 colheres (sopa) de óleo de coco",
+            "2 colheres (sopa) de água",
+            "1 pitada de sal",
+            "Canela ou baunilha (opcional)"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "receita-basica-de-pao",
+    "titulo": "Receita básica de pão",
+    "status": "publicada",
+    "topSemana": false,
+    "imagem": ".jpg",
+    "restricoes": [
+      "Sem lactose",
+      "Sem Açúcar"
+    ],
+    "premium": true,
+    "tags": [
+      "Pão tradicional",
+      "massa"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-22T01:06:45.791Z",
+        "conteudo": {
+          "categoria": "Pães tradicionais",
+          "tempoPreparoReceita": "Aproximadamente 40 minutos",
+          "tempoPreparoForno": "Aproximadamente 1h20 minutos",
+          "tempoPreparoTotal": "Aproximadamente 2 horas",
+          "rendimento": "2 pães médios (aprox. 900 g a 1 kg no total) ou Cerca de 20 fatias  ou 18 pães de 50g",
+          "dificuldade": "Médio",
+          "custoMedio": "R$ 5,60",
+          "enviadaPor": "Ednilza",
+          "comoServir": "No café da manhã com manteiga, queijo e o que imaginar",
+          "miseEnPlace": [
+            "Separar e pesar todos os ingredientes",
+            "Aquecer a água até ficar morna (não ultrapassar 40°C)",
+            "Untar as formas",
+            "Pré-aquecer o forno a 180°C nos últimos 15 minutos da fermentação",
+            "Separar pano limpo para cobertura"
+          ],
+          "conservacao": [
+            "Pode ser conservado por até 3 dias"
+          ],
+          "ingredientes": [
+            "15 g (1 tablete) de fermento biológico fresco",
+            "1 ½ xícara (chá) de água morna (360 ml)",
+            "2 ½ colheres (sopa) de açúcar",
+            "1 ½ colher (sopa) de sal",
+            "5 xícaras (chá) de farinha de trigo (aprox. 600 g)",
+            "½ colher (sopa) de margarina"
+          ],
+          "preparo": [
+            "Em uma tigela grande, dissolva o fermento na água morna.",
+            "Acrescente o açúcar, o sal, a margarina e, aos poucos, a farinha de trigo. 3. 3. Misture bem e sove até obter uma massa macia que não grude nas mãos.",
+            "Modele os pães no formato desejado e disponha-os em uma assadeira untada.",
+            "Cubra com um pano limpo e deixe descansar em local morno por cerca de 1 hora, ou até que a massa dobre de volume.",
+            "Leve ao forno médio (180 °C) e asse por aproximadamente 1 hora, até que os pães estejam dourados"
+          ],
+          "medidas": [
+            "- Xícaras e Copos",
+            "- 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "- 1/2 Xícara: 120 ml a 125 ml.",
+            "- 1/3 Xícara: 80 ml.",
+            "- 1/4 Xícara: 60 ml.",
+            "- 1 Copo Americano: Aproximadamente 200 ml.",
+            "- Colheres",
+            "- 1 Colher de sopa: 15 ml.",
+            "- 1 Colher de chá: 5 ml.",
+            "- 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "Porção: 1 fatia (50 g)",
+            "calorias": "135 kcal",
+            "carboidratos": "27 g",
+            "proteinas": "4g",
+            "gordurasTotais": "1,5 g",
+            "gordurasSaturadas": "0,3g",
+            "fibras": "1g",
+            "sodio": "290 mg",
+            "acucar": ""
+          },
+          "substituicoes": [
+            "Ingrediente\tSubstituição",
+            "Farinha branca\t50% farinha integral",
+            "Margarina\tManteiga ou azeite",
+            "Açúcar\tMel ou açúcar mascavo",
+            "Fermento fresco\t5 g de fermento biológico seco",
+            "Parte da água\tLeite morno (pão mais macio)"
+          ],
+          "dicas": [
+            "✔ A água não pode estar quente demais, pois mata o fermento.",
+            "✔ Se a massa estiver grudando muito, acrescente farinha aos poucos.",
+            "✔ Se estiver muito seca, adicione 1 colher (sopa) de água por vez.",
+            "✔ Para saber se está bem sovada: a massa deve ficar lisa e elástica.",
+            "✔ Para pão mais macio, pincele manteiga ao sair do forno."
+          ],
+          "comentarioNutri": "Receita rica em carboidratos simples, ideal para energia rápida.\nPossui teor considerável de sódio (atenção para hipertensos).\nBaixo teor de fibras — pode causar menor saciedade.\nPara tornar mais nutritivo, substitua parte da farinha branca por integral.\nPode ser incluído em dieta equilibrada quando consumido com moderação e combinado com proteínas e fibras.",
+          "listaCompras": [
+            "15 g (1 tablete) de fermento biológico fresco",
+            "1 ½ xícara (chá) de água morna (360 ml)",
+            "2 ½ colheres (sopa) de açúcar",
+            "1 ½ colher (sopa) de sal",
+            "5 xícaras (chá) de farinha de trigo (aprox. 600 g)",
+            "½ colher (sopa) de margarina"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "sorvete-cremoso-triplo-zero",
+    "titulo": "Sorvete Cremoso Sem Glúten, Sem Lactose e Sem Açúcar",
+    "status": "publicada",
+    "topSemana": {},
+    "imagem": "sorvee-cremoso.jpg",
+    "restricoes": [
+      "Sem Glúten",
+      "Sem lactose",
+      "Sem Açúcar"
+    ],
+    "premium": "false",
+    "tags": [
+      "Sorvete",
+      "Cremoso",
+      "Sem Glúten",
+      "Sem Lactose",
+      "Sem Açúcar"
+    ],
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Gastronomia",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.7,
+      "total": 28
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-23T12:27:55.518Z",
+        "conteudo": {
+          "categoria": "Sem Glúten, Sem Lactose e Sem Açúcar",
+          "tempoPreparoReceita": "Tempo estimado: 40 minutos",
+          "tempoPreparoForno": "Tempo estimado: 4h e 30 minutos",
+          "tempoPreparo": "Tempo total estimado: 4h10 a 5h10",
+          "rendimento": "3 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "R$ 6,50",
+          "enviadaPor": "NutriMe",
+          "comoServir": "Sirva em taças individuais ou bowls.  Ideal para sobremesa ou lanche da tarde",
+          "miseEnPlace": [
+            "Antes de iniciar o preparo, organize:",
+            "• Descasque as bananas, corte em rodelas e disponha sobre uma assadeira ou prato forrado com papel manteiga, evitando que fiquem sobrepostas. Leve ao freezer por pelo menos 4 horas ou até congelarem completamente.",
+            "• Faça a medição do leite de coco integral 200 ml (bem cremoso)",
+            "• Separa a essência de baunilha (opcional) e o sal",
+            "• Utensílios úteis:",
+            "1. Processador de alimentos ou liquidificador potente.",
+            "2. Espátula de silicone (para raspar as laterais).",
+            "3. Faca e tábua (para cortar as bananas).",
+            "3. Recipiente com tampa parra levar ao freezer.",
+            "6. Colher para sorvete para servir."
+          ],
+          "conservacao": [
+            "• Freezer: até 30 dias em até ~1 mês bem vedado.",
+            "• Após aberto: consumir em até 2 dias"
+          ],
+          "ingredientes": [
+            "2 bananas bem maduras, cortadas em rodelas e congeladas",
+            "200 ml de leite de coco integral (bem cremoso)",
+            "1 colher (chá) de essência de baunilha (opcional)",
+            "1 pitada de sal",
+            "👉 Não precisa de adoçante: a banana madura adoça naturalmente"
+          ],
+          "preparo": [
+            "Prepare as bananas: Descasque, corte em rodelas e disponha sobre uma assadeira ou prato forrado com papel manteiga, evitando que fiquem sobrepostas. Leve ao freezer por pelo menos 4 horas ou até congelarem completamente.",
+            "Coloque as bananas congeladas no processador de alimentos (preferencialmente) ou em um liquidificador potente.",
+            "Acrescente o leite de coco, a essência de baunilha (se utilizar) e a pitada de sal.",
+            "Bater até que fique cremoso com uma textura homogênea e cremosa. Durante o processo, utilize uma espátula de silicone para raspar as laterais do copo e garantir uma mistura uniforme.",
+            "Finalização: Para textura tipo soft serve, sirva imediatamente e Para consistência mais firme, transfira para um recipiente com tampa e leve ao freezer por aproximadamente 1 hora antes de servir.",
+            "👉 Não é necessário adoçante: a banana madura já proporciona dulçor natural."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "• 1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "• 1/2 Xícara: 120 ml a 125 ml.",
+            "• 1/3 Xícara: 80 ml.",
+            "• 1/4 Xícara: 60 ml.",
+            "• 1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "• 1 Colher de sopa: 15 ml.",
+            "• 1 Colher de chá: 5 ml.",
+            "• 1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "estimativa por porção – considerando 3 porções",
+            "calorias": "180 kcal",
+            "carboidratos": "20g",
+            "proteinas": "1,5g",
+            "gordurasTotais": "11g",
+            "gordurasSaturadas": "9g",
+            "fibras": "2g",
+            "sodio": "20 mg",
+            "acucar": "12 g"
+          },
+          "substituicoes": [
+            "Para variar o sabor pode substituir ou acrescentr:",
+            "🍫 Chocolate",
+            "• Acrescente 2 colheres (sopa) de cacau em pó 100%",
+            "🍓 Morango",
+            "• Troque 1 banana por 1 xícara de morangos congelados",
+            "🥭 Manga",
+            "• Use manga madura congelada no lugar da banana",
+            "🥥 Coco",
+            "• Use leite de coco bem grosso + coco ralado sem açúcar"
+          ],
+          "dicas": [
+            "• Quanto mais madura a banana, mais doce fica.",
+            "• Se congelar por muito tempo, deixe fora do freezer 5 minutos antes de bater.",
+            "• Pode ser vendido como sorvete funcional no pote."
+          ],
+          "comentarioNutri": "",
+          "listaCompras": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "massa-base-de-pizza-funcional-duplozero",
+    "titulo": "Massa base de Pizza Funcional Sem glúten e Sem lactose",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Funcional. Sem glúten, Sem lactose"
+    ],
+    "tags": [
+      "Funcional",
+      "Sem glúten",
+      "Sem lactose",
+      "pizza"
+    ],
+    "imagem": "pizza-cheese.jpg",
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "26"
+    },
+    "avaliacoes": {
+      "media": "5",
+      "total": "5"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Maionese Vegana",
+        "slug": "maionece-vegana-funcional",
+        "imagem": "maionese-vegana-2.jpg"
+      },
+      {
+        "titulo": "Catchup Vegano",
+        "slug": "maionece-vegana-funcional",
+        "imagem": "maionese-vegana-2.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-26T11:24:28.511Z",
+        "conteudo": {
+          "categoria": " Funcional, Sem glúten, Sem lactose",
+          "tempoPreparoReceita": "20 a 40 minutos",
+          "tempoPreparoForno": "30 minutos",
+          "tempoPreparoTotal": "60 a 65 minutos",
+          "rendimento": "1 pizza média (aprox. 25–28 cm de diâmetro)",
+          "dificuldade": "Fácil",
+          "custoMedio": "R$ 16,00 a R$ 20,00",
+          "enviadaPor": "Portal NutriMe",
+          "comoServir": "Quente com seu recheio preferido",
+          "miseEnPlace": [
+            "Antes de começar, separe:",
+            "• Peneire a Farinha de arroz e polvilho.",
+            "• Faça a medição  do Fermento biológico seco.",
+            "• Azeite, água morna e sal.",
+            "• Utensílios: Uma tigela grande, uma Colher ou espátula, Batedeira com gancho, Fôrma de pizza, Papel manteiga e uma Panela pequena."
+          ],
+          "conservacao": [
+            "• Pode ser armazenada na geladeira até 3 dias em pote fechado.",
+            "• Pode congelar a massa pré-assada ou crua por até 1 mês.",
+            "• Para reutilizar: descongele e aqueça 5–7 min no forno antes de rechear."
+          ],
+          "ingredientes": [
+            "1 xícara farinha de arroz.",
+            "1/2 xícara polvilho doce.",
+            "2 colheres (sopa) azeite.",
+            "1/2 colher (chá) sal.",
+            "1 colher (chá) fermento biológico seco",
+            "3/4 de xícara água morna"
+          ],
+          "preparo": [
+            "Em uma tigela grande, coloque a farinha de arroz, polvilho doce, sal e fermento.",
+            "Misture com colher ou fouet até uniformizar.",
+            "Adicione o azeite e a água morna aos poucos, mexendo com espátula ou com a batedeira usando o gancho.",
+            "Misture até formar uma massa cremosa e levemente pegajosa, sem bolhas grandes de ar.",
+            "Dica: se estiver muito líquida, adicione 1 a 2 colheres de sopa de farinha de arroz; se muito seca, pingue um pouco de água morna.",
+            "Unte a forma de pizza com azeite ou forre com papel manteiga.",
+            "Despeje a massa e espalhe com espátula ou colher uniformemente, formando uma camada de ~0,5 cm.",
+            "Descanso da massa:",
+            "Cubra a forma com pano limpo ou filme plástico.",
+            "Deixe descansar em local morno por 20–30 minutos para ativar o fermento.",
+            "Depois de pronta, leve ao forno pré-aquecido a 200°C por 15 minutos.",
+            "A massa ficará levemente dourada, pronta para receber o recheio.",
+            "Depois, asse novamente junto com os ingredientes do recheio por 10–15 min ou até dourar."
+          ],
+          "medidas": [
+            "Xícaras e Copos:",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres:",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 pizza média (6 fatias)",
+            "calorias": "350 kcal",
+            "carboidratos": "70g",
+            "proteinas": "5g",
+            "gordurasTotais": "7g",
+            "gordurasSaturadas": "1g",
+            "fibras": "2g",
+            "sodio": "",
+            "acucar": "0g"
+          },
+          "substituicoes": [
+            "• Farinha de arroz → farinha de aveia sem glúten ou mix low carb.",
+            "• Polvilho doce → polvilho azedo (altera textura, mais crocante).",
+            "• Azeite → óleo de coco ou óleo de girassol.",
+            "• Fermento biológico seco → fermento fresco (3x a quantidade).",
+            "• Farinha de arroz → sorgo ou aveia sem glúten.",
+            "• Polvilho → fécula de batata."
+          ],
+          "dicas": [
+            "Para massa mais crocante, pré-asse 5 min extras.",
+            "Use batedeira com gancho para textura mais uniforme.",
+            "Não sove demais; apenas misture até homogeneizar.",
+            "Se quiser borda mais alta, espalhe massa com mais espessura nas bordas."
+          ],
+          "comentarioNutri": "Massa sem glúten e sem lactose, adequada para dietas restritivas.\n• Baixo teor de gordura saturada, azeite fornece gorduras boas.\n• Rico em carboidratos complexos do polvilho e da farinha de arroz.\n• Pode ser complementado com proteínas e vegetais no recheio para aumentar valor nutricional.\n• Leve digestão, sem alergênicos comuns do trigo/laticínio.\n• Base neutra para pizzas funcionais.",
+          "listaCompras": [
+            "Farinha de arroz.",
+            "Polvilho doce.",
+            "Azeite.",
+            "Sal.",
+            "Fermento biológico seco."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "pao-frances-funcional",
+    "titulo": "Pão Francês Funcional",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Sem glúten, Sem lactose, sem açucar"
+    ],
+    "tags": [
+      "Funcional",
+      "Sem glúten",
+      "Sem lactose",
+      "sem açucar"
+    ],
+    "imagem": "pao-frances.jpg",
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "26"
+    },
+    "avaliacoes": {
+      "media": "5",
+      "total": "5"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Maionese Vegana",
+        "slug": "maionese-vegana-funcional",
+        "imagem": "maionese-vegana-2.jpg"
+      },
+      {
+        "titulo": "Catchup Vegano Funcional",
+        "slug": "catchup-vegano-funcional",
+        "imagem": "catchup-tomate.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-26T12:27:09.448Z",
+        "conteudo": {
+          "categoria": "Funcional, Sem glúten, Sem lactose, sem açucar",
+          "tempoPreparoReceita": "Preparo e descanso da massa: 10 a 40 minutos",
+          "tempoPreparoForno": "Forno: 30 a 35 minutos",
+          "tempoPreparoTotal": "total: aproximadamente 1h15",
+          "rendimento": "6 unidades",
+          "dificuldade": "Média",
+          "custoMedio": "Custo total aproximado: R$ 7,50 a R$ 9,00, por unidade: cerca de R$ 1,30 a R$ 1,50",
+          "enviadaPor": "Portal NutriDicas",
+          "comoServir": "Quente com o seu recheio preferido",
+          "miseEnPlace": [
+            "Antes de começar organize a preparação. Isso leva cerca de 5 minutos e facilita muito o preparo.",
+            "1. Aqueça a água que deve ficar em torno de 35–40 °C.",
+            "2. Faça a medição dos ingredietes secos",
+            " Farinha de arroz - 120 g",
+            "Polvilho azedo - 60 g",
+            "Psyllium - 10 g",
+            "Sal - 5 g",
+            "Fermento biológico seco - 3 g",
+            "Azeite - 3 g",
+            "3. Separa os Utensílios que serão usados",
+            "1 Tigela média",
+            "1 Colher ou espátula",
+            "1 Assadeira",
+            "Papel manteiga ou óleo para untar",
+            "Pano limpo",
+            "Forno preaquecido a 200 °C"
+          ],
+          "conservacao": [
+            "3 dias refrigerado ou 30 dias congelado"
+          ],
+          "ingredientes": [
+            "1 xícara farinha de arroz",
+            "1/2 xícara polvilho azedo.",
+            "1 colher (sopa) psyllium.",
+            "1 colher (chá) sal.",
+            "1 colher (chá) fermento biológico seco.",
+            "1 colher (sopa) azeite.",
+            "1 xícara água morna."
+          ],
+          "preparo": [
+            "<strong>Misture os ingredientes secos:</strong> em uma tigela, coloque a farinha de arroz, o polvilho azedo, o psyllium, o sal e o fermento. Misture bem.",
+            "<strong>Adicione os líquidos:</strong> acrescente o azeite e a água morna aos poucos, mexendo com uma colher até formar uma massa homogênea e pegajosa.",
+            "<strong>Modele os pães:</strong> umedeça as mãos com água e modele 6 porções no formato de pão francês. Disponha em uma assadeira levemente untada ou forrada com papel manteiga.",
+            "<strong>Deixe descansar:</strong> cubra com um pano limpo e deixe descansar por cerca de 30 minutos em local morno.",
+            "<strong>Asse:</strong> leve ao forno preaquecido a 200 °C por 30 a 35 minutos, ou até dourar levemente e formar uma casquinha firme.",
+            "<strong>Espere amornar:</strong> retire do forno e deixe esfriar sobre uma grade para manter a casquinha crocante."
+          ],
+          "medidas": [
+            "<strong>Xícaras e Copos:</strong>",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "<strong>Colheres:</strong>",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "Valores aproximados considerando divisão em 6 pães:",
+            "calorias": "105 kcal",
+            "carboidratos": "20 g ",
+            "proteinas": "1,8 g",
+            "gordurasTotais": "2,5 g",
+            "gordurasSaturadas": "0 g",
+            "fibras": "2,5 g",
+            "sodio": "200 mg",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "<strong>1. O Psyllium pode substituir por:</strong>",
+            "chia hidratada moída(1 colher sopa + 2 colheres sopa de água).",
+            "Linhaça moída (1 colher sopa).",
+            "Goma xantana (1/2 colher chá) se tiver disponível.",
+            "<strong>2. Farinha de arroz pode substituir.:</strong>",
+            "Mix sem glúten pronto",
+            "Fubá fino  → substitua até 50%: Fica levemente mais amarelinho e com sabor suave de milho.",
+            "Farinha de arroz caseira → bata arroz cru no liquidificador e peneire.",
+            "<strong>Amido de milho</strong> → substitua até 1/4 da receita (não tudo).",
+            "<strong>3. Polvilho azedo:</strong>",
+            "Polvilho doce (o pão fica menos aerado).",
+            "Amido de milho + 1 colher (chá) de vinagre na massa ajuda a simular parte do efeito do polvilho azedo.",
+            "<strong>4.  Azeite:</strong>",
+            "Óleo de soja, girassol ou de milho",
+            "📌 <u>Óleo comum funciona perfeitamente.</u>",
+            "<strong>5. Fermento biológico seco:</strong>",
+            "Fermento biológico fresco (10 g)",
+            "Dissolver na água morna antes de misturar."
+          ],
+          "dicas": [
+            "Para massa mais crocante, pré-asse 5 min extras.",
+            "Use batedeira com gancho para textura mais uniforme.",
+            "Não sove demais; apenas misture até homogeneizar.",
+            "Se quiser borda mais alta, basta espalhar a massa com mais espessura nas bordas."
+          ],
+          "comentarioNutri": "O Psyllium melhora saciedade e contém boa quantidade de fibras.\n• Estrutura semelhante ao pão francês tradicional.\n• Receita rica em carboidratos complexos.\n• Baixo teor de gordura.\n• Não é fonte significativa de proteína.",
+          "listaCompras": [
+            "Farinha de arroz",
+            "Polvilho azedo.",
+            "Psyllium.",
+            "Sal.",
+            "Fermento biológico seco.",
+            "Azeite."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "maionese-vegana-funcional",
+    "titulo": "Maionese Vegana Funcional",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Sem lactose, sem ovo, vegano"
+    ],
+    "tags": [
+      "Funcional",
+      "Sem lactose",
+      "sem ovo",
+      "vegano"
+    ],
+    "imagem": "maionese-vegana-2.jpg",
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "26"
+    },
+    "avaliacoes": {
+      "media": "5",
+      "total": "5"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Pão Francês Funcional",
+        "slug": "pao-frances-funcional",
+        "imagem": "pao-frances.jpg"
+      },
+      {
+        "titulo": "Catchup Vegano Funcional",
+        "slug": "catchup-vegano-funcional",
+        "imagem": "catchup-tomate.jpg"
+      },
+      {
+        "titulo": "Sanduíche Mediterrâneo Antioxidante",
+        "slug": "sanduiche-mediterraneo-antioxidante",
+        "imagem": "sanduiche-natural.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-26T14:00:04.428Z",
+        "conteudo": {
+          "categoria": " Funcional, Sem lactose, sem ovo",
+          "tempoPreparoReceita": "Preparo 5 minutos",
+          "tempoPreparoForno": "Geladeira (para firmar melhor): 30 minutos",
+          "tempoPreparoTotal": "total: aproximadamente 35 minutos",
+          "rendimento": "Pote de 200 ml",
+          "dificuldade": "Média, mas exige atenção ao processo de emulsificação.",
+          "custoMedio": "Custo total aproximado: R$ 5,50 a R$ 6,90, ",
+          "enviadaPor": "Portal NutriMe",
+          "comoServir": "Gelada com um pão quentinho, torradas ou o que a sua imaginação permitir.",
+          "miseEnPlace": [
+            "Antes de começar Faça a medição dos ingredientes e reserve. A Organização leva cerca de 3 minutos e facilita muito o preparo. 1. Leite vegetal - 120 g",
+            "Azeite - 60 ml",
+            "Utensílios",
+            "• Mixer ou liquidificador",
+            "• Copo alto (ideal para emulsificar)",
+            "• Colher medidora",
+            "• Pote com tampa para armazenar"
+          ],
+          "conservacao": [
+            "5 dias refrigerado"
+          ],
+          "ingredientes": [
+            "1/2 xícara leite vegetal sem açúcar",
+            "1/4 xícara azeite",
+            "1 colher (chá) mostarda",
+            "1 colher (sopa) limão",
+            "Sal"
+          ],
+          "preparo": [
+            "Coloque no copo do mixer o leite vegetal, a mostarda, o limão e o sal.",
+            "Acrescente o azeite por cima.",
+            "Posicione o mixer no fundo do copo e bata sem movimentar até começar a engrossar.",
+            "Quando a emulsão começar a se formar, mova o mixer lentamente para cima até obter um creme homogêneo e firme.",
+            "Leve à geladeira por 30 minutos antes de servir para ganhar mais consistência."
+          ],
+          "medidas": [
+            "Xícaras e Copos:",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres:",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "Por porção de 1 colher de sopa (15 g",
+            "calorias": "~60  kcal",
+            "carboidratos": "~0,5 ",
+            "proteinas": "~0,3  g",
+            "gordurasTotais": "~6 g",
+            "gordurasSaturadas": "~0,8  g",
+            "fibras": "~0  g",
+            "sodio": "vaiável",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "Leite vegetal → Pode fazer leite vegetal caseiro para reduzir custo.",
+            "Leite de soja (mais estável e barato)",
+            "Leite de aveia caseiro (econômico)",
+            "Azeite",
+            "Para reduzir custo ou sabor forte:",
+            "50% azeite + 50% óleo de girassol",
+            "Apenas óleo de girassol ou soja (fica mais neutra)",
+            "Limão",
+            "Pode substituir por:",
+            "Vinagre de maçã",
+            "Vinagre branco"
+          ],
+          "dicas": [
+            "Se usar liquidificador comum, bata os ingredientes líquidos primeiro e despeje o azeite em fio fino com o aparelho ligado",
+            "O leite vegetal deve estar em temperatura ambiente para emulsificar melhor.",
+            "Leite de soja costuma dar melhor textura.",
+            "Se ficar muito líquida, bata mais 1 a 2 colheres de azeite.",
+            "Se talhar, adicione 1 colher de água morna e bata novamente.",
+            "Validade média: 3 a 5 dias na geladeira, bem vedada."
+          ],
+          "comentarioNutri": "• Rica em gorduras boas (principalmente se usar azeite).\n• Naturalmente sem colesterol.\n• Baixo teor de carboidratos.\n• Não é fonte significativa de proteína.\n• Melhor opção caseira comparada à maionese tradicional industrializada (menos aditivos).\n• Alternativa leve à maionese tradicional.\nPara melhorar a receita\n• 1 colher (chá) de alho → maionese temperada\n• Ervas secas → versão gourmet\n• 1 colher (sopa) de biomassa de banana verde → mais firme e funcional",
+          "listaCompras": [
+            "Leite vegetal sem açúcar",
+            "• Azeite",
+            "• Mostarda",
+            "• Limão",
+            "• Sal"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "catchup-vegano-funcional",
+    "titulo": "Catchup Vegano Funcional - Sem açúcar adicionado,  Sem lactose",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Sem açúcar, Sem lactose, vegano"
+    ],
+    "tags": [
+      "Funcional",
+      "Sem açúcar",
+      "Sem lactose",
+      "catchup",
+      "vegano"
+    ],
+    "imagem": "catchup-tomate.jpg",
+    "tempoPreparoReceita": "5 minutos",
+    "tempoPreparoForno": "Cozimento na panela: 10–15 minutos",
+    "tempoPreparoTotal": "Preparo total: 20 minuto",
+    "rendimento": "aproximadamente 120 g (1/2 xícara)",
+    "dificuldade": "Média",
+    "custoMedio": "R$ 3,50 – R$ 4,00",
+    "enviadaPor": "Portal NutriMe",
+    "comoServir": "Quente ou frio com pão, massas e como molho",
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Portal NutriMe",
+      "registro": "26/02/26"
+    },
+    "avaliacoes": {
+      "media": "4",
+      "total": "4"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-27T02:55:12.701Z",
+        "conteudo": {
+          "categoria": "Funcional, Sem açúcar, Sem lactose",
+          "miseEnPlace": [
+            "Antes de iniciar:",
+            "Lavar os tomates.",
+            "Retirar a pele (opcional, para textura mais lisa).",
+            "Picar grosseiramente.",
+            "Retirar o caroço da tâmara (se for usar).",
+            "Separar e medir todos os ingredientes."
+          ],
+          "conservacao": [
+            "5 dias refrigerado",
+            "Pode congelar em cubos"
+          ],
+          "ingredientes": [
+            "2 tomates maduros cozidos",
+            "1 colher (sopa) de vinagre de maçã",
+            "1/4 colher (chá) de páprica",
+            "Sal a gosto",
+            "1 tâmara (opcional, para dulçor natural)"
+          ],
+          "preparo": [
+            "Cozimento inicial: Se ainda não estiverem cozidos, leve os tomates picados ao fogo baixo por cerca de 5–8 minutos até amolecerem.",
+            "Processamento: Transfira para o liquidificador ou mixer.",
+            "Adicione o vinagre, a páprica, o sal e a tâmara (se usar).",
+            "Bata até obter um creme homogêneo e liso.",
+            "Redução: Volte à panela em fogo baixo, mexendo sempre, por 8–15 minutos até engrossar e atingir consistência de ketchup.",
+            "Ajustes finais: Prove e ajuste sal, acidez ou dulçor.",
+            "Armazenamento: Conservar em pote de vidro esterilizado na geladeira por até 5 dias."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 colher de sopa (20 g)",
+            "calorias": "15 kcal",
+            "carboidratos": "3 g",
+            "proteinas": "0,5 g",
+            "gordurasTotais": "0 g",
+            "gordurasSaturadas": "0 g",
+            "fibras": "0,8 g",
+            "sodio": "variável conforme o sal",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "Vinagre de maçã → suco de limão.",
+            "Tâmara → uva-passa, açúcar mascavo ou adoçante natural.",
+            "Páprica comum → páprica defumada (mais sabor).",
+            "Tomate fresco → tomate pelado (sem conservantes)."
+          ],
+          "dicas": [
+            "Para sabor mais intenso, asse os tomates antes de bater.",
+            "Se quiser textura ultra lisa, passe por peneira.",
+            "Para versão picante, adicione pitada de pimenta caiena.",
+            "Para maior conservação, adicione 1 colher (chá) extra de vinagre."
+          ],
+          "comentarioNutri": "Rico em licopeno, antioxidante presente no tomate.\nBaixo teor calórico.\nSem açúcar refinado e sem conservantes ou aditivos.\nOpção adequada para dietas veganas e integrais.",
+          "listaCompras": [
+            "Tomates maduros",
+            "Vinagre de maçã",
+            "Páprica",
+            "Sal",
+            "Tâmara (opcional, para dulçor natural)"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "uuid",
+    "slug": "escondidinho-de-legumes",
+    "titulo": "Escondidinho de Legumes",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Sem glúten, sem lactose"
+    ],
+    "tags": [
+      "Sem glúten",
+      "sem lactose",
+      "legumes"
+    ],
+    "imagem": "1772202646285-vegetables.jpg",
+    "autor": {
+      "nome": "Portal NutriMe",
+      "credencial": "Portal NutriMe",
+      "registro": "27/02/26"
+    },
+    "avaliacoes": {
+      "media": "4",
+      "total": "4"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-27T14:32:42.691Z",
+        "conteudo": {
+          "categoria": "Sem glúten, sem lactose",
+          "tempoPreparoReceita": "20 minutos",
+          "tempoPreparoForno": "15–20 minutos (200 °C)",
+          "tempoPreparoTotal": "40–50 minutos",
+          "rendimento": ": 4 porções médias (aprox. 200–220 g cada)",
+          "dificuldade": "Média",
+          "custoMedio": "Aproximadamente R$ 18–25 ",
+          "enviadaPor": "",
+          "comoServir": "Servir quente. Finalizar com fio de azeite e ervas frescas. •\tAcompanhamento: salada de folhas com limão e azeite.",
+          "miseEnPlace": [
+            "Cozinhar e amassar a batata-doce.",
+            "Picar abobrinha, cenoura, brócolis.",
+            "Separar alho, cebola e temperos.",
+            "Untar refratário."
+          ],
+          "conservacao": [
+            "Geladeira: até 3 dias, em pote fechado.",
+            "Freezer: até 2 meses.",
+            "Reaquecer em forno (melhor textura) ou micro-ondas.",
+            "Consumir preferencialmente em até 72 horas sob refrigeração."
+          ],
+          "ingredientes": [
+            "Purê",
+            "2 xícaras de batata-doce cozida e amassada",
+            "1/2 xícara de leite vegetal sem açúcar (coco ou amêndoas)",
+            "1 colher (sopa) de azeite",
+            "Sal e noz-moscada a gosto",
+            "Recheio",
+            "1/2 xícara de abobrinha em cubos",
+            "12 xícara de cenoura ralada ou em cubos pequenos",
+            "1/2 xícara de brócolis picado",
+            "1 colher (sopa) de azeite",
+            "1 dente de alho picado",
+            "2 colheres (sopa) de cebola picada"
+          ],
+          "preparo": [
+            "Prepare o purê",
+            "Cozinhe a batata-doce até que esteja completamente macia (espete com um garfo para verificar). Escorra bem para evitar excesso de umidade.",
+            "Amasse ainda quente até formar um creme homogêneo.",
+            "Adicione o leite vegetal aos poucos, mexendo até atingir textura cremosa e estável. Finalize com azeite, sal e uma pitada de noz-moscada. Reserve.",
+            "🔎 Dica técnica: se desejar um purê mais estruturado, leve-o ao fogo baixo por 2 minutos para evaporar o excesso de líquido.",
+            "Prepare o recheio",
+            "Aqueça o azeite em fogo médio. Refogue a cebola até ficar translúcida. Acrescente o alho e mexa rapidamente para liberar aroma.",
+            "Adicione a cenoura (mais firme) e refogue por 2 minutos. Em seguida, acrescente a abobrinha e o brócolis. Refogue até que estejam macios, porém ainda levemente crocantes.",
+            "Ajuste sal e temperos naturais a gosto.",
+            "🔎 Evite cozinhar demais para preservar textura, cor e valor nutricional.",
+            "Montagem",
+            "Em um refratário levemente untado:",
+            "Faça uma camada de purê",
+            "Distribua o recheio uniformemente",
+            "Cubra com o restante do purê",
+            "Alise a superfície com uma espátula.",
+            "Finalização",
+            "Leve ao forno preaquecido a 200 °C por 15–20 minutos, apenas para aquecer e levemente dourar a superfície.",
+            "Se desejar gratinar mais, utilize o grill nos últimos 5 minutos"
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "",
+            "calorias": "~210 kcal",
+            "carboidratos": "3g",
+            "proteinas": "4g ",
+            "gordurasTotais": "8g ",
+            "gordurasSaturadas": "0g",
+            "fibras": "6g",
+            "sodio": "variável",
+            "acucar": "0g"
+          },
+          "substituicoes": [
+            "Leite de amêndoas → leite de coco caseiro ou aveia (se não houver restrição ao glúten).",
+            "Brócolis → couve ou repolho.",
+            "Batata-doce → abóbora cabotiá."
+          ],
+          "dicas": [
+            "Assar a batata-doce ao invés de cozinhar → mais sabor.",
+            "Finalizar com levedura nutricional para efeito “gratinado”.",
+            "Dourar levemente no grill nos últimos 5 minutos."
+          ],
+          "comentarioNutri": "Esta receita apresenta excelente aporte de fibras alimentares, contribuindo para o bom funcionamento intestinal, maior saciedade e melhor controle glicêmico.\nA batata-doce possui índice glicêmico moderado a baixo, auxiliando na manutenção de níveis estáveis de glicose no sangue quando associada às fibras e gorduras boas da preparação.\nPor não conter lactose nem glúten, é uma alternativa segura para pessoas com intolerância à lactose ou doença celíaca.\nA presença de vegetais variados e azeite de oliva agrega compostos antioxidantes e bioativos com potencial ação anti-inflamatória, favorecendo a saúde metabólica.",
+          "listaCompras": [
+            "Batata-doce cozida e amassada",
+            "Leite vegetal sem açúcar (coco ou amêndoas)",
+            "Azeite",
+            "Sal e noz-moscada a gosto",
+            "Abobrinha em cubos",
+            "Cenouras",
+            "Brócolis",
+            "Alho",
+            "Cebola"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "9fe3d3e6-ad6b-40d0-8e1e-aa8c74f7bc13",
+    "dataCriacao": "2026-02-27T15:36:51.843Z",
+    "slug": "agua-funcional-refrescante-de-limao-e-hortela",
+    "titulo": "Água Funcional Refrescante de Limão e Hortelã",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Funcional"
+    ],
+    "tags": [
+      "Funcional",
+      "bebida",
+      "água",
+      "limão",
+      "hortelã"
+    ],
+    "imagem": "1772205691232-Agua refescante.jpg",
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "27/02/26"
+    },
+    "avaliacoes": {
+      "media": "4",
+      "total": "4"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Bolo de Banana",
+        "slug": "bolo-banana"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-27T15:36:51.751Z",
+        "conteudo": {
+          "categoria": "Funcional, bebida",
+          "tempoPreparoReceita": "5 minutos",
+          "tempoPreparoForno": "Infusão em geladeira: mínimo 30 minutos",
+          "tempoPreparoTotal": "Ideal: 1 a 2 horas para sabor mais intenso",
+          "rendimento": "1 litro (aprox. 4 copos de 250 ml)",
+          "dificuldade": "Muito Fácil",
+          "custoMedio": "Aproximadamente R$ 18–25 ",
+          "enviadaPor": "NutriDicas",
+          "comoServir": "•\tServir com gelo e folhas frescas para finalização. •\tIdeal para brunchs, coffee breaks, eventos corporativos e recepções. •\tPode ser envasada em garrafinhas de 250 ml para venda individual",
+          "miseEnPlace": [
+            "Higienizar hortelã e pepino.",
+            "Fatiar o pepino em rodelas finas.",
+            "Espremer e coar o limão.",
+            "Separar jarra ou garrafas esterilizadas."
+          ],
+          "conservacao": [
+            "Manter sob refrigeração.",
+            "Consumir em até 24 horas para melhor frescor.",
+            "Após 12 horas, recomenda-se retirar o limão para evitar sabor residual amargo.",
+            "Não recomendado congelar."
+          ],
+          "ingredientes": [
+            "1 litro de água filtrada ou mineral",
+            "Suco de ½ limão fresco",
+            "1/2 pepino em rodelas finas",
+            "6 folhas de hortelã fresca higienizadas"
+          ],
+          "preparo": [
+            "Em uma jarra de vidro, adicione o pepino fatiado e as folhas de hortelã levemente maceradas com as mãos para liberar os óleos essenciais.",
+            "Acrescente o suco de limão fresco coado.",
+            "Complete com 1 litro de água filtrada gelada.",
+            "Leve à geladeira por no mínimo 30 minutos para infusão dos sabores.",
+            "🔎 Dica técnica: Evite deixar o limão por mais de 12 horas na água para não amargar."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "copo de 250 ml – estimativa",
+            "calorias": "5–8 kcal",
+            "carboidratos": "1–2 g",
+            "proteinas": "0g ",
+            "gordurasTotais": "0g ",
+            "gordurasSaturadas": "0g",
+            "fibras": "6g",
+            "sodio": "traços",
+            "acucar": "<1 g"
+          },
+          "substituicoes": [
+            "Limão → limão siciliano (mais suave)",
+            "Pepino → fatias de maçã verde",
+            "Hortelã → manjericão ou alecrim",
+            "Adição opcional: gengibre em lâminas para efeito termogênico leve"
+          ],
+          "dicas": [
+            "Hidratação",
+            "Refrescante natural",
+            "Auxilia na digestão",
+            "👉 Ideal para brunchs, eventos e vendas em garrafinha."
+          ],
+          "comentarioNutri": "Esta água funcional contribui para a hidratação adequada do organismo, fator essencial para equilíbrio metabólico, digestivo e térmico.\nO limão fornece vitamina C e compostos antioxidantes, enquanto a hortelã contém óleos essenciais que podem auxiliar na digestão e proporcionar sensação de frescor.\nO pepino complementa a bebida com leve aporte de minerais e potencial efeito refrescante, tornando-a uma alternativa natural a bebidas industrializadas açucaradas.\nPor ser isenta de açúcar adicionado, conservantes e corantes, é uma opção estratégica para compor cardápios saudáveis e funcionais.",
+          "listaCompras": [
+            "Limão fresco",
+            "Pepino",
+            "Hortelã"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "ff495182-9140-4e33-ab93-26cb73968aeb",
+    "dataCriacao": "2026-02-28T18:37:28.031Z",
+    "slug": "sanduiche-mediterraneo-antioxidante",
+    "titulo": "Sanduíche Mediterrâneo Antioxidante",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Zero lactose"
+    ],
+    "tags": [
+      "Funcional",
+      "vegano",
+      "Sanduíche",
+      "lanche",
+      "Antioxidante"
+    ],
+    "imagem": "1772303841197-sanduiche natural.jpg",
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "28/02/2026"
+    },
+    "avaliacoes": {
+      "media": "4",
+      "total": "4,5"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Humus Tradicional vegano",
+        "slug": "-homus-tradicional",
+        "imagem": "humus-tigela.jpg"
+
+      },
+      {
+        "titulo": "Pasta de Cenoura e Ervas",
+        "slug": "pasta-de-cenoura-e-ervas",
+        "imagem": "pÃ£o-com-abacate.jpg"
+      },
+      {
+        "titulo": "Maionese Vegana",
+        "slug": "maionese-vegana-funcional",
+        "imagem": "maionese-vegana-2.jpg"
+      },
+      {
+        "titulo": "catchup Vegano",
+        "slug": "catchup-vegano-funcional",
+        "imagem": "catchup-tomate.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-28T18:37:27.743Z",
+        "conteudo": {
+          "categoria": "Funcional, vegano",
+          "tempoPreparoReceita": "2 a 4 minutos",
+          "tempoPreparoForno": "3 a 4 minutos",
+          "tempoPreparoTotal": "5 a 7 minutos",
+          "rendimento": "1 sanduíche",
+          "dificuldade": "Muito Fácil",
+          "custoMedio": "Em torno de R$ 6,00 a R$ 10,00 ",
+          "enviadaPor": "Portal NutriDicas",
+          "comoServir": "Servir imediatamente para manter frescor, comer com ma bebida funcional",
+          "miseEnPlace": [
+            "Fatie os vegetais (tomate, pepino) em tamanhos finos para facilitar a montagem.",
+            "Tenha o homus pronto para espalhar.",
+            "Lave e seque as folhas."
+          ],
+          "conservacao": [
+            "Consumir imediatamente ou até no máximo 2 horas refrigerado (em recipiente fechado). Não congelar."
+          ],
+          "ingredientes": [
+            "1 pão funcional (cerca de 60g). (Receita abaixo)",
+            "2 colheres de sopa de homus (aprox. 30g).",
+            "3 a 4 fatias finas de tomate.",
+            "3 a 4 fatias finas de pepino.",
+            "Folhas a gosto (rúcula, alface, agrião).",
+            "1 fio de azeite extravirgem (5 ml)."
+          ],
+          "preparo": [
+            "Pode dar uma leve torrada rápida para o pão, mantendo crocância.",
+            "Depois espalhe o Homus caseiro para melhor sabor e controle de sódio.",
+            "Adicionar ervas frescas como manjericão ou orégano para aroma.",
+            "Espalhe os tomates, as folhas e finalze com um fio de azeite."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 unidade",
+            "calorias": "250 kcal",
+            "carboidratos": "30 g",
+            "proteinas": "7 g",
+            "gordurasTotais": "9 g ",
+            "gordurasSaturadas": "1 g",
+            "fibras": "5 g",
+            "sodio": "200 mg",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "O Homus por ser substituído por pasta de berinjela ou tahine.",
+            "O Pão funcional por pão integral sem glúten, conforme restrição.",
+            "As folhas por espinafre ou agrião, a depender do seu gosto."
+          ],
+          "dicas": [
+            "Usar pão funcional integral para mais fibras.",
+            "Ajustar azeite para evitar excesso calórico.",
+            "Pode incluir sementes como chia ou linhaça no pão para antioxidantes extras."
+          ],
+          "comentarioNutri": "O sanduíche é rico em fibras, antioxidantes do homus e vegetais frescos, além de gorduras boas do azeite, ideal para dieta anti-inflamatória e controle glicêmico.",
+          "listaCompras": [
+            "1 pão funcional )",
+            "Homus",
+            "Tomate.",
+            "Pepino.",
+            "Rúcula,",
+            "Alface e agrião.",
+            "Azeite extravirgem."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "cde5d70d-8cc5-4289-bb7d-fd614d026026",
+    "dataCriacao": "2026-02-28T19:06:50.088Z",
+    "slug": "sanduiche-verde-detox",
+    "titulo": "Sanduíche Verde Detox",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "Zero lactose"
+    ],
+    "tags": [
+      "Funcional",
+      "vegano",
+      "Sanduíche",
+      "lanche",
+      "Antioxidante"
+    ],
+    "imagem": "1772304909749-sanduiche-forma.jpg",
+     "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "28/02/2026"
+    },
+    "avaliacoes": {
+      "media": "4",
+      "total": "4,5"
+    },
+    "versoes": [
+      {
+        "data": "2026-02-28T19:06:50.072Z",
+        "conteudo": {
+          "categoria": "Funcional, vegano",
+           "tempoPreparoReceita": "2 a 3 minutos",
+          "tempoPreparoForno": "2 a 3 minutos",
+          "tempoPreparoTotal": "5 minutos",
+          "rendimento": "1 sanduíche",
+          "dificuldade": "Muito Fácil",
+          "custoMedio": "R$ 7,00 a R$ 11,00 por sanduíche",
+          "enviadaPor": "Portal NutriDicas",
+          "comoServir": "Servir imediatemente com bebida funcional",
+          "miseEnPlace": [
+            "Amassar o abacate e temperar com limão e ervas frescas (salsinha, coentro).",
+            "Preparar o pão funcional."
+          ],
+          "conservacao": [
+            "Melhor consumir imediatamente Consumir imediatamente para evitar escurecimento do abacate.",
+            "Pode guardar o abacate amassado com limão em pote fechado na geladeira por até 12 horas."
+          ],
+          "ingredientes": [
+            "1 pão funcional",
+            "3 colheres (sopa) de abacate amassado (~50 g)",
+            "Suco de 1/2 limão",
+            "Ervas frescas a gosto"
+          ],
+          "preparo": [
+            "Em uma tigela, misture o abacate amassado com o suco de limão.",
+            "Acrescente as ervas frescas e mexa bem com uma espátula até incorporar.",
+            "Passe a mistura sobre o pão funcional e sirva em seguida."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "1 unidade",
+            "calorias": "260 kcal",
+            "carboidratos": "25 g",
+            "proteinas": "5 g",
+            "gordurasTotais": "15 g ",
+            "gordurasSaturadas": "0 g",
+            "fibras": "7 g",
+            "sodio": "150 mg",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "Abacate por guacamole pronta.",
+            "Limão por vinagre de maçã."
+          ],
+          "dicas": [
+            "Pode adicionar brotos para crocância.",
+            "Use abacate maduro, mas firme para melhor consistência.",
+            "Adicione 1 colher (sopa) de iogurte vegetal ao abacate para obter uma textura mais cremosa.",
+            "Finalize com pimenta-do-reino moída na hora para realçar o sabor."
+          ],
+          "comentarioNutri": "O sanduíche é rico em gorduras boas, fibras e antioxidantes, ótimo para desintoxicação e saúde cardiovascular.",
+          "listaCompras": [
+            "1 pão funcional",
+            "Abacate",
+            "Limão",
+            "Ervas fina a gosto"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "3a80a7fa-50fe-4b9c-bb7b-d56c545c8444",
+    "dataCriacao": "2026-02-28T19:30:45.232Z",
+    "slug": "pasta-de-cenoura-e-ervas",
+    "titulo": "Pasta de Cenoura e Ervas",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "vegano"
+    ],
+    "tags": [
+      "Funcional",
+      "vegano",
+      "pasta",
+      "lanche",
+      "massa"
+    ],
+    "imagem": "1772307040793-pÃ£o-com-abacate.jpg",
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "28/02/2026"
+    },
+    "avaliacoes": {
+      "media": "4",
+      "total": "4,5"
+    },
+    "relacionadas": [
+      {
+        "titulo": "Pão de Fôrma Zero Lactose",
+        "slug": "-pao-forma-zero-lactose",
+        "imagem": "food-3152399_1280.jpg"
+      },
+      {
+        "titulo": "Pao Francês Funcional",
+        "slug": "pao-frances-funcional",
+        "imagem": "bread-1510155_1280.jpg"
+      },
+      {
+        "titulo": "Maionese Vegana",
+        "slug": "maionese-vegana-funcional",
+        "imagem": "maionese-vegana-2.jpg"
+      },
+      {
+        "titulo": "catchup Vegano",
+        "slug": "catchup-vegano-funcional",
+        "imagem": "catchup-tomate.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-02-28T19:30:45.222Z",
+        "conteudo": {
+          "categoria": "Funcional, vegano",
+          "tempoPreparoReceita": "2 a 3 minutos",
+          "tempoPreparoForno": "4 a 5 minutos",
+          "tempoPreparoTotal": "8 minutos ",
+          "rendimento": "150g de pastinha",
+          "dificuldade": "Muito Fácil",
+          "custoMedio": "R$ 5,00 a R$ 8,00 por porção ",
+          "enviadaPor": "Portal NutriDicas",
+          "comoServir": "Servir como acompanhamento ou pasta para pão",
+          "miseEnPlace": [
+            "Cozinhar a cenoura até ficar macia.",
+            "Preparar as ervas (salsinha, cebolinha).",
+            "1 panela",
+            "Faca",
+            "Amassador de legumes (opcional)",
+            "liquidificador ou processador"
+          ],
+          "conservacao": [
+            "Guardar em pote fechado na geladeira por até 3 dias."
+          ],
+          "ingredientes": [
+            "1 cenoura média cozida (~100 g)",
+            "1 colher (sopa) de azeite (15 ml)",
+            "Suco de 1/2 limão",
+            "Sal a gosto",
+            "Ervas frescas a gosto"
+          ],
+          "preparo": [
+            "Coloque a cenoura cozida no liquidificador ou processador.",
+            "Adicione o azeite, o suco de limão, o sal e as ervas escolhidas.",
+            "Bata até obter um creme liso e homogêneo.",
+            "Para uma textura mais cremosa e sabor levemente amendoado, acrescente um pouco de tahine e bata novamente até incorporar completamente.",
+            "Ajuste o sal e finalize com ervas frescas picadas para realçar o aroma e variar o perfil de sabor."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "Porção de 100g",
+            "calorias": "90 kcal",
+            "carboidratos": "10 g",
+            "proteinas": "1 g",
+            "gordurasTotais": "5 g ",
+            "gordurasSaturadas": "0 g",
+            "fibras": "3 g",
+            "sodio": "100 mg",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "Cenoura por abóbora cozida.",
+            "Azeite por óleo de linhaça para variação de gorduras."
+          ],
+          "dicas": [
+            "Servir com torradas integrais.",
+            "Pode incrementar com alho assado para sabor extra."
+          ],
+          "comentarioNutri": "Fonte leve de fibras e antioxidantes da cenoura, com gorduras boas do azeite, ajuda na digestão e saúde da pele.",
+          "listaCompras": [
+            "Cenoura",
+            "Azeite",
+            "Limão",
+            "Sal",
+            "Ervas frescas a gosto"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "c6fe5c7c-09e4-4d1b-93f2-a90e48088e33",
+    "dataCriacao": "2026-02-28T19:59:41.713Z",
+    "slug": "-homus-tradicional",
+    "titulo": " Homus Tradicional",
+    "status": "publicada",
+    "topSemana": true,
+    "premium": true,
+    "restricoes": [
+      "vegano"
+    ],
+    "tags": [
+      "Funcional",
+      "vegano",
+      "pasta",
+      "lanche",
+      "humus"
+    ],
+    "imagem": "1772308123425-humus-tigela.jpg",
+    "autor": {
+      "nome": "Portal NutriDicas",
+      "credencial": "Portal NutriDicas",
+      "registro": "28/02/2026"
+    },
+    "avaliacoes": {
+      "media": "4",
+      "total": "4,5"
+    },
+    "versoes": [
+      {
+        "data": "2026-02-28T19:59:41.699Z",
+        "conteudo": {
+          "categoria": "Funcional, vegano",
+          "tempoPreparoReceita": "4 minutos",
+          "tempoPreparoForno": "6 cozinhar os grãos",
+          "tempoPreparoTotal": "10 minutos",
+          "rendimento": "Aproximadamente 200 g (4 porções de 50 g)",
+          "dificuldade": "Fácil",
+          "custoMedio": "R$ 6,00 a R$ 10,00 ",
+          "enviadaPor": "Portal NutriDicas",
+          "comoServir": "Servir como acompanhamento ou pasta para pão",
+          "miseEnPlace": [
+            "Cozinhar previamente o grão-de-bico.",
+            "Separar  e medir os ingredientes.",
+            "Espremer o limão só no momento de usar para melhor sabor",
+            "Retirar o miolo do alho para sabor mais suave (opcional)",
+            "1 panela",
+            "Faca",
+            "Amassador de legumes (opcional)",
+            "liquidificador ou processador"
+          ],
+          "conservacao": [
+            "Armazenar em recipiente hermético sob refrigeração.",
+            "Validade: até 3 dias na geladeira (≤5°C).",
+            "Pode congelar por até 1 mês, bem vedado.",
+            "Cobrir com uma fina camada de azeite antes de fechar o pote ajuda a evitar oxidação.",
+            "Sempre utilizar utensílio limpo ao retirar porções."
+          ],
+          "ingredientes": [
+            "1 xícara (chá) grão-de-bico cozido (≈ 160 g)",
+            "1 colher (sopa) tahine (15 g)",
+            "Suco de 1/2 limão",
+            "1 dente pequeno de alho",
+            "1 colher (sopa) azeite de oliva extravirgem (10 ml)",
+            "Sal a gosto",
+            "2 a 4 colheres (sopa) de água filtrada (para ajustar textura)"
+          ],
+          "preparo": [
+            "Se estiver usando grão-de-bico seco, deixe de molho por 8–12 horas e cozinhe até ficar bem macio.",
+            "Escorra e reserve um pouco da água do cozimento.",
+            "No processador ou liquidificador, coloque o grão-de-bico, o tahine, o suco de limão, o alho e o azeite.",
+            "Bata até formar uma pasta cremosa.",
+            "Adicione água aos poucos até atingir a textura desejada (cremosa e lisa).",
+            "Ajuste o sal e finalize com fio de azeite e páprica ou salsinha, se desejar."
+          ],
+          "medidas": [
+            "Xícaras e Copos",
+            "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+            "1/2 Xícara: 120 ml a 125 ml.",
+            "1/3 Xícara: 80 ml.",
+            "1/4 Xícara: 60 ml.",
+            "1 Copo Americano: Aproximadamente 200 ml.",
+            "Colheres",
+            "1 Colher de sopa: 15 ml.",
+            "1 Colher de chá: 5 ml.",
+            "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+          ],
+          "nutricional": {
+            "porcao": "Porção de 50g",
+            "calorias": "120 kcal",
+            "carboidratos": "12 g",
+            "proteinas": "4 g",
+            "gordurasTotais": "7 g ",
+            "gordurasSaturadas": "1 g",
+            "fibras": "3 g",
+            "sodio": "80 mg",
+            "acucar": "0 g"
+          },
+          "substituicoes": [
+            "Tahine → pasta de amendoim natural (altera sabor, mas mantém cremosidade).",
+            "Limão → vinagre de maçã.",
+            "Parte do azeite → iogurte vegetal para versão mais leve.."
+          ],
+          "dicas": [
+            "Para textura extra cremosa: retirar a pele do grão-de-bico após cozimento.",
+            "Para sabor mais intenso: adicionar cominho ou páprica defumada.",
+            "Para versão funcional: incluir cúrcuma ou semente de chia."
+          ],
+          "comentarioNutri": "Excelente fonte de proteína vegetal e fibras.\nRico em gorduras monoinsaturadas (azeite e tahine).\nContribui para saciedade e equilíbrio glicêmico.\nContém minerais como ferro, magnésio e cálcio (provenientes do tahine).",
+          "listaCompras": [
+            "Grão-de-bico",
+            "Tahine",
+            "Limão",
+            "Alho",
+            "Azeite de oliva extravirgem",
+            "Sal"
+          ]
+        }
+      }
+    ]
+  }
+]

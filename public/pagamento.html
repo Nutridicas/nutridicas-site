@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Acesso Premium</title>
+</head>
+<body>
+
+<h1>🔓 A Nutrichef - Alimentação Saudável</h1>
+<h2>🔓 Assinatura Premium</h2>
+
+<p>Desbloqueie conteúdos exclusivos das receitas.</p>
+<h3> Veja o que você terá Acesso como usuário Premium</h3>
+<ol>
+    <li>Tabela Nutriconal</li>
+    <li>Dicas Importantes</li>
+    <li>Comentários da Nutri</li>
+    <li>Substituições inteligentes</li>
+    <li>Lista de compras </li>
+    <li>Adicionar aos favoritos suas receitas preferidas</li>
+</ol>
+<p> Na lista de compras você pode imprimir a lista de ingredientes das receitas e marcar as que você for comprando e compartilhar no Whatsapp</p>
+
+<button id="btn-pagar">Simular Assinatura</button>
+
+<script>
+
+<!-- Botão para Assinar e redirecionar para Mercado pago 10/02/26 -->
+
+<button id="assinar">Assinar Premium</button>
+
+<script>
+document.getElementById("assinar").onclick = async () => {
+  const res = await fetch("/checkout", { method: "POST" });
+  const data = await res.json();
+  window.location.href = data.url;
+};
+</script>
+
+<!-- script anterior nunca usado -->
+  document.getElementById("btn-pagar").addEventListener("click", () => {
+    <!--// FUTURO: redirecionar para Stripe / Mercado Pago -->
+    localStorage.setItem("premium", "true");
+    alert("Acesso premium liberado!");
+    window.history.back();
+  });
+</script>
+
+</body>
+</html>

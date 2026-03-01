@@ -1,0 +1,55 @@
+{
+  "slug": "bolo-fofo-zero-lactose",
+  "titulo": "Bolo Fofo Zero Lactose e Sem Açúcar",
+  "status": "publicada",
+  "topSemana": false,
+  "imagem": "",
+  "premium": true,
+  "tags": [
+    "Zero Lactose"
+  ],
+  "versoes": [
+    {
+      "data": "2026-02-14",
+      "conteudo": {
+        "categoria": "Zero Lactose",
+        "ingredientes": [
+          "3 ovos",
+          "1/2 xícara de óleo vegetal",
+          "1 xícara de bebida vegetal"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180°C.",
+          "Bata os ovos até ficarem claros."
+        ],
+        "medidas": [],
+        "nutricional": {
+          "porção": "1 fatia (80g)",
+          "calorias": "120 kcal",
+          "carboidratos": "18 g",
+          "proteínas": "4 g",
+          "gorduras": "5 g",
+          "pode faltar bloco (ex": "sem nutricional → premium false)",
+          "biblioteca": "mammoth (lê .docx)",
+          "📜 script": "importar-word.js",
+          "  const regex = new regexp(`${inicio}": "([\\\\s\\\\S]*?)${fim || \"$\"}`, \"i\");",
+          "  return match ? match[1].trim() ": "\"\";",
+          "    path": "path.join(PASTA_WORD, arquivo)",
+          "    const [k, v] = l.split(\"": "\");",
+          "    status": "\"publicada\",",
+          "    imagem": "\"\",",
+          "    conteudo": "{",
+          "    premium": "Object.keys(nutricional).length",
+          "      ? { ativo": "true, nutricional }",
+          "      ": "{ ativo",
+          "    criadoem": "new Date().toISOString()",
+          "    console.log(\"✔ importado": "\", arq);"
+        },
+        "substituicoes": [],
+        "dicas": [],
+        "comentarioNutri": "",
+        "listaCompras": []
+      }
+    }
+  ]
+}

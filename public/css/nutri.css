@@ -1,0 +1,203 @@
+/* Teste */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--verde-claro);
+  color: var(--texto-escuro);
+}
+/*======*/
+
+.container-nutri {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Essa classe está no estilo.css .nutri*/
+
+.nutri__form button:hover {
+  opacity: 0.9;
+}
+
+/* ==== Tipografia =====*/
+.nutri-form h2, .nutri-form h3 { color: #2c3e50; }
+
+.nutri__header p {
+  color: var(--texto-claro);
+}
+
+/*===== Fim===*/
+
+/* Estrutura do Formulário */
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Layout em Colunas */
+.grid-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr; /* Nome maior que idade */
+    gap: 15px;
+}
+
+.grade-linha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Nome maior que idade */
+    gap: 15px;
+}
+
+
+/* Aplicando sua classe corrigida */
+.nutri__conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Três colunas iguais para as refeições */
+    gap: 15px;
+    align-items: start;
+}
+
+/* Botão */
+.btn-enviar {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-enviar:hover { background-color: #219150; }
+
+/* Responsividade para Celular */
+@media (max-width: 600px) {
+    .nutri__conteudo, .grid-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* PAGAMENTO */
+
+/* Estilo da Seção de Pagamento */
+.pagamento-container {
+    background-color: #e8f4fd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #b3d7ff;
+}
+
+.opcoes-pagamento {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #004085;
+}
+
+/* Estilo do input de rádio maior para facilitar o toque */
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #27ae60; /* Cor verde para combinar com o botão */
+}
+
+.divisor {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 25px 0;
+}
+
+/* Ajuste para celular */
+@media (max-width: 600px) {
+    .opcoes-pagamento {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+html, body {
+    overflow: visible !important;
+}
+
+.nutri__conteudo {
+    overflow: visible !important;
+}
+
+/* só vale dentro do formulário da nutri */
+.nutri__form .field--conditional {
+  display: none;
+}
+
+.nutri__form .field--conditional.is-visible {
+  display: flex; /* respeita seu .field original */
+}
+
+
+/* alinhas as opções de checkbox em duas colunas - Consulta*/
+.form-doencas {
+  max-width: 200px; /* controla largura total do formulário */
+  margin: 0; /* auto;*/
+  font-family: Arial, sans-serif;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+  gap: 4x 8px; /* espaço entre linhas e colunas */
+  margin: 8px 0 10px 0;
+}
+
+.col label {
+  display: flex;
+  align-items: left;
+  gap: 4px; /* espaço entre checkbox e texto */
+  padding: 4px 0;
+}
+
+/* aumentar a textarea vertical */
+
+.med-textarea textarea {
+  height: 300px;      /* altura fixa */
+  min-height: 180px;  /* altura mínima */
+  max-height: 400px;  /* altura máxima */
+  resize: vertical;   /* permite redimensionar só verticalmente */
+  box-sizing: border-box;
+}
+
+/* Responsividade: em telas pequenas, empilha as colunas */
+@media (max-width: 640px) {
+  .checkbox-grid {
+    grid-template-columns: 1fr; /* uma coluna em mobile */
+  }
+  .med-textarea {
+    min-width: auto;
+    width: 100%;
+  }
+}
+

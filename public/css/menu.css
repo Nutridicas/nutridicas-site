@@ -1,0 +1,471 @@
+/* ======================================================
+   VARIÁVEIS DO MENU
+====================================================== */
+:root {
+  --menu-bg: #2f8f83;
+  --menu-texto: #ffffff;
+  --menu-hover: #e6f4f1;
+  --menu-destaque: #ff7043;
+  --menu-sombra: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* ======================================================
+   HEADER
+====================================================== */
+.header {
+  position: sticky;
+  top: 0;
+  background: var(--menu-bg);
+  z-index: 10000;
+}
+
+.header-container {
+  max-width: 1200px;
+  /*margin: auto;*/
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 20px;
+}
+
+/* ======================================================
+   LOGO (DIREITA)
+====================================================== */
+.logo {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo img {
+  height: 42px;
+}
+
+/* ======================================================
+   BUSCA aqui
+====================================================== */
+.search-box input {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 220px;
+}
+
+.search-box {
+  position: relative;
+}
+
+/*=========
+RESULTADOS da busca por receitas
+======================*/
+.search-results {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+  max-height: 300px;
+  overflow-y: auto;
+
+  display: none;
+  z-index: 9999;
+}
+
+.search-results a {
+  display: block;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.search-results a:hover {
+  background: var(--cor-secundaria);
+}
+
+/* ======================================================
+   MENU DESKTOP
+====================================================== */
+#menu {
+  display: block;
+}
+
+.menu-principal {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu-principal a,
+.submenu-btn {
+  color: var(--menu-texto);
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 10px;
+}
+
+.menu-rodape {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+ }
+
+.menu-rodape a {
+  color: var(--texto-escuro);
+  background: var(--verde);
+  border: 2px solid green;
+  font-size: 10px;
+
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.menu-rodape a:hover {
+  background: var(--verde-claro);
+  transform: scale(1.03);
+}
+
+
+
+/* ======================================================
+   MEGA MENU
+====================================================== */
+/* ======================================================
+   MEGA MENU – GRID PREMIUM
+====================================================== */
+.mega-menu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: var(--menu-sombra);
+
+  padding: 20px;
+  min-width: 320px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition: 0.3s ease;
+
+  list-style-type: none;
+}
+
+.mega-menu a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px;
+  border-radius: 10px;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.mega-menu a:hover {
+  background: var(--menu-hover);
+  transform: translateY(-2px);
+}
+
+
+/* ======================================================
+   BOTÃO HAMBÚRGUER
+====================================================== */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: var(--menu-texto);
+  cursor: pointer;
+}
+
+/* ======================================================
+   MOBILE
+====================================================== */
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+    z-index: 11000;
+  }
+
+  #menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+
+    background: var(--menu-bg);
+
+    display: none;
+  }
+
+  #menu.active {
+    display: block;
+  }
+
+  .menu-principal {
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .menu-principal li {
+    width: 100%;
+  }
+
+  .menu-principal a,
+  .submenu-btn {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* mega menu no mobile */
+  .mega-menu {
+    position: static;
+    display: none;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    box-shadow: none;
+    background: var(--menu-hover);
+    margin-top: 5px;
+  }
+
+  .has-mega.active .mega-menu {
+    display: grid;
+  }
+}
+
+/* ======================================================
+   MENU DESKTOP – POLIMENTO
+====================================================== */
+@media (min-width: 769px) {
+
+  #menu {
+    display: block !important;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-principal {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .menu-principal li {
+    position: relative;
+  }
+
+  .menu-principal a,
+  .submenu-btn {
+    font-weight: 500;
+    padding: 10px 12px;
+    border-radius: 6px;
+  }
+
+  .menu-principal a:hover,
+  .submenu-btn:hover {
+    background: rgba(255,255,255,0.15);
+  }
+
+  /* ===== MEGA MENU DESKTOP ===== */
+  .mega-menu {
+    top: 100%;
+    left: 0;
+    min-width: 420px;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* abertura com hover + focus */
+  .has-mega:hover .mega-menu,
+  .has-mega:focus-within .mega-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
+/* ========= Fim =============*/
+
+/* Botão hamburguer */
+
+.menu-toggle {
+  display: none;
+  width: 32px;
+  height: 24px;
+  position: relative;
+}
+
+.menu-toggle span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+  transition: 0.3s;
+}
+
+.menu-toggle span:nth-child(1) { top: 0; }
+.menu-toggle span:nth-child(2) { top: 10px; }
+.menu-toggle span:nth-child(3) { top: 20px; }
+
+/* animação X */
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+
+/*======== Confirmação de envio ===*/
+
+.form-feedback {
+  background: #e6f4f1;
+  color: #2f8f83;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/*============================
+Nenu no final da receit para retorno
+===================================*/
+
+.receita-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+
+}
+
+.receita-nav a {
+  color: #2e8b57;
+  font-size: 13px;
+  font-weight: 500;
+
+}
+
+/* Menu premium */
+.menu-premium > .submenu-btn {
+  color: #ffd700; /* dourado discreto */
+  font-weight: 600;
+}
+
+/*========================
+Menu de retorno
+=========================*/
+
+.breadcrumbs {
+  font-size: 14px;
+  margin: 15px 0 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: #666;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--verde);
+  font-weight: 500;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  background: pink ;
+  font-color: black;
+}
+
+.pagina-atual {
+  color: var(--texto-escuro);
+  font-weight: bold;
+}
+
+.breadcrumbs span {
+  color: #999;
+}
+
+.mega-menu a:hover .icon {
+  stroke: #1f6f65;
+}
+
+/*======== 
+ANIMAÇÃO PREMIUM NO HOVER
+==========================*/
+.mega-menu a:hover .icon {
+  transform: scale(1.2) rotate(-6deg);
+  stroke: #ff6347;
+}
+
+/* Busca drop down */
+.search-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.search-item:hover,
+.search-item.selected {
+  background: #f2f2f2;
+}
+
+.search-thumb {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.search-info strong {
+  font-size: 14px;
+}
+
+.search-info small {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+
+
+

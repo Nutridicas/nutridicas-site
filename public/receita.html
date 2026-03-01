@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" id="metaDescription" content="">
+  <meta property="og:title" id="ogTitle">
+  <meta property="og:description" id="ogDesc">
+  <meta property="og:image" id="ogImg">
+
+  <title id="pageTitle">Receita</title>
+  <meta id="metaDesc" name="description" content="Receita deliciosa e saudável">
+
+  <!--<title id="tituloPagina"></title>-->
+
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/nutri.css">
+   <link rel="stylesheet" href="css/premium.css">
+
+   <!-- Mensagem de alerta sweetalert2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+  <!-- HEADER -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">NutriDicas Online</a>
+    <p style="color: white;"> 🌱| </p>
+
+     <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <li class="has-mega">
+          <button class="submenu-btn"> Gastronomia</button>
+          <ul class="mega-menu">
+            <li><a href="menu-tradicional.html"> <span> Receitas Tradicionais</span></a></li>
+            <li><a href="menu-restritivas.html">🍬 <span>Receitas para restrições Alimentares</span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+          </ul>
+        </li>
+
+        <!-- Curiosidades e informação -->
+
+       <li class="has-mega">
+          <button class="submenu-btn"> Aprenda Mais +</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
+            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas de Cozinha</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Favoritos e lista de compras-->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+   <div class="search-box">
+       <input type="search" id="searchInput" placeholder="Buscar receita...">
+
+      <!-- Resultados -->
+      <div id="searchResults" class="search-results"></div>
+      
+  </div>
+  
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  
+</header>
+
+
+<main class="container receita">
+   <!-- Breadcrumb -->
+      <div class="breadcrumbs" id="breadcrumbs"></div>
+  
+  <h1 id="titulo"></h1>
+  
+  
+  <p id="meta"></p>
+
+  <img id="imagem" class="receita__imagem" width="780" height="480">
+   <br>
+   <!-- Botão salvar como favorita - teste -->
+<button id="btnFavorito" class="btn-premium">🤍 Favoritar</button>
+<br><br>
+ <section id="conteudo-gratis">
+  <!-- Alteração 19/02/26 00:30 -->
+  <section class="info-receita">
+      <div id="caixatempo">
+        <h3> Tempo de Preparo das Etapas</h3>
+        <hr>
+        <p><strong>⏱ Tempo da Receita:</strong> <span id="tempoPreparoReceita"></span></p>
+        <p><strong>⏱ Tempo de Forno/Geladeira:</strong> <span id="tempoPreparoForno"></span></p>
+        <p><strong>⏱ Tempo total de preparo:</strong> <span id="tempoPreparoTotal"></span></p>
+      </div> 
+      <br>
+      <div class="grid-row">
+         <div> 
+          <p><strong>🍽 Rendimento:</strong> <span id="rendimento"></span></p>
+          <p><strong>🔥 Dificuldade:</strong> <span id="dificuldade"></span></p>
+          <p><strong>💰 Custo médio:</strong> <span id="custoMedio"></span></p>
+         </div>
+         <div> 
+          <p><strong>👤 Enviada por:</strong> <span id="enviadaPor"></span></p>
+          <!-- Novo 27/02/2026-->
+          <p><strong>⭐ Avaliação:</strong> 
+              <span id="avaliacaoMedia"></span> 
+              (<span id="avaliacaoTotal"></span> avaliações)
+              <!-- Usuário avaliar -->
+              <div class="avaliar">
+                <p><strong>Deixe sua nota:</strong></p>
+                <div id="estrelas">
+                  <span data-nota="1">⭐</span>
+                  <span data-nota="2">⭐</span>
+                  <span data-nota="3">⭐</span>
+                  <span data-nota="4">⭐</span>
+                  <span data-nota="5">⭐</span>
+              </div>
+           </div>
+         </p>
+        <p><strong>👩‍🍳 Autor:</strong> 
+          <span id="autorNome"></span>
+        </p>
+        </div>
+    </div> 
+  </section>
+
+  <details>
+    <summary>🧰 Mise en Place</summary>
+    <ul id="miseEnPlace"></ul>
+  </details>
+
+  <details>
+    <summary>❄️ Conservação</summary>
+    <ul id="conservacao"></ul>
+  </details>
+  <!-- Fim alteração -->
+  <br>
+
+  <!-- Ingredientes -->
+  <section>
+    <h2>🧾 Ingredientes</h2>
+    <hr>
+    <ul id="ingredientes"></ul>
+
+    <!-- Botão imprimir lista de compras -->
+     <!--console.log("Receita que está sendo enviada:",  -->
+     <!--receitaSelecionada);-->
+
+    <button id="btnListaCompras" class="btn-lista">
+     🛒 Adicionar ingredientes à Lista de Compras
+
+    </button>
+
+
+  </section>
+  <br>
+  <section>
+    <h2>👩‍🍳 Modo de Preparo</h2>
+    <ol id="preparo"></ol>
+  </section>
+  <br> <hr>
+
+   <!-- ✅ GRÁTIS -->
+      <details>
+        <summary>🥄 Medidas Caseiras</summary>
+        <ul id="medidas"></ul>
+      </details>
+</section>
+
+<section class="accordion">
+
+           
+          <!-- Conteúdo Premium real📊 Conteúdo Premium -->
+          <!-- 📊 Nutricional -->
+              <h3></h3>
+           <details> 
+            <summary>  📊 Tabela Nutricional </summary>
+              <table class="tabela-nutricional">
+                <tr><th>Porção</th><td id="porcao"></td></tr>
+                <tr><th>Calorias</th><td id="calorias"></td></tr>
+                <tr><th>Carboidratos</th><td id="carboidratos"></td></tr>
+                <tr><th>Proteínas</th><td id="proteinas"></td></tr>
+                <tr><th>Gorduras Totais</th><td id="gordurasTotais"></td></tr>
+                <tr><th>Gorduras Saturadas</th><td id="gordurasSaturadas"></td></tr>
+                <tr><th>Fibras alimentares</th><td id="fibras"></td></tr>
+                <tr><th>Sódio</th><td id="sodio"></td></tr>
+                <tr><th>Açucar</th><td id="acucar"></td></tr>
+              </table>
+           </details>
+
+              <!-- 🔄 Substituições -->
+              <details>
+                <summary>🔄 Substituições Inteligentes</summary>
+                <ul id="substituicoes"></ul>
+              </details>
+              <!-- 💡 Dicas Extras -->
+              <details>
+                 <summary> 💡 Dicas Extras</summary>
+                 <ul id="dicas"></ul>
+              </details>
+              <details>
+                  <!-- 👩‍⚕️ Comentário da Nutri -->
+                   <summary>👩‍⚕️ Comentário da Nutri</summary>
+                  <p id="comentarioNutri"></p>
+              </details>
+      
+
+   </section>
+   <br> <hr>
+   <section>
+
+      <h3 >🔗 Receitas que combinam com a sua escolha</h3>
+      <ul id="receitasRelacionadas"></ul>
+      
+   </section>
+    <!-- Breadcrumb -->
+      <div class="breadcrumbs" id="breadcrumbsfooter"></div>
+</main>
+
+
+<!-- Redes sociais -->
+<section class="box" style="margin-top:40px; text-align:center;">
+
+  <h3>📲 Compartilhe esta receita</h3>
+
+  <div class="social-links">
+    <a href="#" aria-label="Instagram">📸 Instagram</a>
+    <a href="#" aria-label="Facebook">📘 Facebook</a>
+    <a href="#" aria-label="WhatsApp">💬 WhatsApp</a>
+  </div>
+</section>
+
+<!-- MODAL PREMIUM -->
+<div id="modalNutri" class="modal hidden">
+  <div class="modal-box">
+    <h2 id="modalTitulo"></h2>
+    <p id="modalTexto"></p>
+    <button id="modalFechar">OK</button>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 NutriDicas Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/receita.js" defer></script>
+    <script src="js/premium.js" defer></script>
+    <script src="js/favoritos.js" defer></script>
+    <script src="js/busca.js" defer></script>
+   </body>
+
+</html>

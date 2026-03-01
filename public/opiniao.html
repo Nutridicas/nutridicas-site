@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nutrichef Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/nutri.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  
+</head>
+
+<body>
+
+ <!-- HEADER -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">Nutrichef Online</a>
+    <p style="color: white;"> 🌱  | </p>
+
+     <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-zerolac.html"> <span>Zero Lactose</span></a></li>
+          <!-- fim Zero lactose -->
+            <li><a href="menu-zeroacucar.html">🍬 <span>Zero Açúcar</span></a></li>
+            <li><a href="menu-zerogluten.html">🌾 <span>Zero Glúten</span></a></li>
+            <li><a href="menu-funcional.html">🍅 <span>Funcionais </span></a></li>
+            <li><a href="menu-veganas.html"> 🥦 <span>Veganas </span></a></li>
+            <li><a href="menu-semovo.html"> 🥚 <span>Sem Ovo </span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos/Serviços</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="assessoria.html">📚Consultoria Nutricional</a></li>
+          </ul>
+        </li>
+
+        <!-- Nutrição -->
+
+       <li class="has-mega">
+          <button class="submenu-btn">Área da Nutrição</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
+            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Favoritos e lista de compras-->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+   <div class="search-box">
+       <input type="search" id="searchInput" placeholder="Buscar receita...">
+
+      <!-- Resultados -->
+      <div id="searchResults" class="search-results"></div>
+      </div>
+  </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+  
+  <main class="nutri">
+    <!-- CONTEÚDO PRINCIPAL -->
+   <div class="nutri__header">
+      <h2>Fale cnosco</h2>
+      <p>Colabre consoco e dê a sua opinião sobre as receitas, sugira melhorias e diga qual a sua perspectiva sobre o nosso site.</p>
+    </div>
+
+    <section class="nutri__conteudo">
+      
+          <!-- MASCOTE -->
+          <div class="nutri__mascote">
+              <img src="imagens/Ednutri.jpg" alt="Mascote Nutrichef">
+              <p align="justify"> Olá! Esse espaço é oara você nos falar o que acha dos nossos conteúdos, de nossas receitas e produtos. Ajude-nos a construir o Nutrichef cada vez melhor. 🌱  
+              </p>
+          </div>
+                   
+          <!-- FORMULÁRIO -->
+      
+           <section class="nutri">
+
+              <h2>Diga o que acha do nosso conteúdo💬</h2>
+              <p> <strong> Envie a sua opinião.</strong></p>
+
+              <form class="nutri__form" action="https://formspree.io/f/xjggkkwn"  method="POST" data-form="gratuito">
+
+                  <label> Nome
+                      <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                   </label>
+
+                    <label> E-mail
+                      <input type="email" name="email" placeholder="Ex.: meumail@servidor.com.br" required>
+                    </label>
+
+                    <label> Sua opinião
+                      <textarea name="Digite a sua opiniao" required placeholder="Digite aqui."></textarea>
+                    </label>
+
+                    <label>
+                        <!-- IDENTIFICAÇÃO -->
+                        <input type="hidden" name="tipo" value="opiniao">
+                    </label>
+
+                    <button type="submit">Enviar pergunta</button>
+              </form>  
+
+                 <div class="feedback feedback--gratuito">
+                    <p>✅ Mensagem enviada com sucesso!</p>
+                    <p>Agradecemos a sua colaboração 💚</p>
+                </div>
+
+      </section>
+
+    <!-- Fim -->
+
+  </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Nutrichef Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/menu.js" defer></script>
+
+ </body>
+</html>

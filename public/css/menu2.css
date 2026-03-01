@@ -1,0 +1,179 @@
+/* ================= VARIÁVEIS ================= */
+:root {
+  --verde: #2f8f83;
+  --texto-claro: #ffffff;
+  --texto-escuro: #333;
+}
+
+/* ================= HEADER (GRID) ================= */
+.header {
+  background: var(--verde);
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+.header-container {
+  max-width: 980px;  /*antes 900-*
+  margin: auto;
+  padding: 14px 20px;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  /*align-items: center; mudei agora*/
+  column-gap: 24px;
+}
+
+.header-container > * {
+  min-width: 0;
+}
+/* mudança para grid*/
+
+/* ================= MENU ================= */
+#menu {
+  justify-self: start;
+  overflow: hidden;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* itens do menu */
+.menu-item {
+  position: relative;
+}
+
+
+
+/* links e botões do menu */
+.menu a,
+.submenu-btn {
+  color: var(--texto-claro);
+  background: none;
+  border: none;
+  font: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  color: white;
+  margin: 0;
+}
+
+/* ================= MEGA MENU ================= */
+.mega-menu {
+  position: relative; /*absolute;*/
+  top: 100%;
+  left: 0;
+
+  display: none;
+  background: #ffffff;
+  max-width: 90vh;
+  min-width: 120px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.mega-menu a {
+  color: var(--texto-escuro);
+  padding: 10px 14px;
+  display: block;
+}
+
+.mega-menu a:hover {
+  background: #f2f2f2;
+}
+
+/* Faz com que o mega menu )submenu) apareça-*
+.has-mega:hover > .mega-menu {
+  display: block;
+}
+
+/* hover desktop */
+.menu-item:hover .mega-menu {
+  display: block;
+}
+
+/* ================= BUSCA ================= */
+.search-box input {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  max-width: 220px;
+  margin: o;
+  gap: 12px;
+}
+
+
+/* ================= HAMBÚRGUER ================= */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 960px) {
+
+  .header-container {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "logo toggle"
+      "menu menu"
+      "busca busca";
+    row-gap: 12px;
+  }
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .menu-toggle {
+    grid-area: toggle;
+    display: block;
+  }
+
+  #menu {
+    grid-area: menu;
+    display: none;
+    width: 100vh
+  }
+
+  #menu.active {
+    display: block;
+  }
+
+  .search-box {
+    grid-area: busca;
+  }
+
+  .menu {
+    display: grid;
+    gap: 12px;
+    padding: 10px 0;
+  }
+  .principal {
+    grid-template-columns: 0.5fr;
+  }
+  .mega-menu {
+  display: none;
+}
+
+.mega-menu.open {
+  display: block;
+}
+}

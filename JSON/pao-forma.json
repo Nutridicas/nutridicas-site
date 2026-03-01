@@ -1,0 +1,34 @@
+{
+  "id": "pao-forma",
+  "titulo": "Pão de Forma Zero Lactose e Sem Açúcar",
+  "status": "publicada",
+  "imagem": "/uploads/food-3152399_1280.jpg",
+  "versoes": [
+    {
+      "data": "2025-02-03",
+      "conteudo": {
+        "categoria": "Pães Zero Lactose",
+        "ingredientes": [
+          "4 ovos",
+          "1/2 xícara farinha de aveia sem glúten",
+          "1/2 xícara polvilho doce",
+          " 1/3 xícara farinha de amêndoas",
+          "1/3 xícara água ou bebida vegetal"
+          "1/4 xícara azeite ou óleo de coco"
+           "1 colher (chá) sal",
+           "1 colher (chá) vinagre de maçã",
+           "1 colher (sopa) fermento químico",
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180 °C."
+          "1. Preaqueça o forno a 180 °C.",
+          "2. Bata no liquidificador: ovos, água e azeite.",
+          "3. Acrescente as farinhas, sal e vinagre. Bata novamente.",
+          "4. Misture o fermento por último.",
+          "5. Despeje em forma de pão (forma inglesa) untada.",
+          "6. Asse por 35–40 min."
+        ]
+      }
+    }
+  ]
+}

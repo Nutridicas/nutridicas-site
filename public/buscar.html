@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscar Receitas - NutriDicas</title>
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+  <!-- HEADER -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">NutriDicas Online</a>
+    <p style="color: white;"> 🌱  | </p>
+
+   <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-zerolac.html"> <span>Zero Lactose</span></a></li>
+          <!-- fim Zero lactose -->
+            <li><a href="menu-zeroacucar.html">🍬 <span>Zero Açúcar</span></a></li>
+            <li><a href="menu-zerogluten.html">🌾 <span>Zero Glúten</span></a></li>
+            <li><a href="menu-funcional.html">🍅 <span>Funcionais </span></a></li>
+            <li><a href="menu-veganas.html"> 🥦 <span>Veganas </span></a></li>
+            <li><a href="menu-semovo.html"> 🥚 <span>Sem Ovo </span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos/Serviços</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+          </ul>
+        </li>
+
+        <!-- Curiosidades e informação -->
+
+       <li class="has-mega">
+          <button class="submenu-btn"> Aprenda Mais +</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
+            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas de Cozinha</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Favoritos e lista de compras-->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+  <!-- BUSCA -->
+   <div class="search-box">
+       <input type="search" id="searchInput" placeholder="Buscar receita...">
+
+      <!-- Resultados -->
+      <div id="searchResults" class="search-results"></div>
+      
+  </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  <main class="busca-page">
+    
+
+  </div>
+</header>
+
+    <h1>Resultados da busca</h1>
+
+    <p id="buscaTermo"></p>
+
+    <div id="resultadosLista" class="resultados-grid"></div>
+  </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 A Nutrichef Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+  <script src="js/buscar.js"></script>
+  <script src="js/busca.js"></script>
+
+</body>
+</html>

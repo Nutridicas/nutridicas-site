@@ -1,0 +1,68 @@
+{
+  "slug": "bolo-niver-sem-acucar",
+  "titulo": "Bolo de Aniversário Sem Açúcarr",
+  "status": "publicada",
+  "imagem": "imagens/lemon-cake-8274419_1280.jpg",
+  "premium": true,
+  "versoes": [
+    {
+      "data": "2025-01-01",
+        "conteudo": {
+          "categoria": "Zero Açucar",
+  "ingredientes": [
+    "3 bananas bem maduras (para adoçar naturalmente)",
+    "2 ovos",
+    "1/2 xícara de óleo de coco ou óleo vegetal.",
+    "1/2 xícara de leite (pode ser vegetal, como aveia ou amêndoas).",
+    "1 e 1/2 xícara de farinha de aveia (ou integral)",
+    "1 colher de sopa de fermento em pó",
+    "1 colher de chá de essência de baunilha.",
+    "1 pitada de canela (opcional)",
+    "Cobertura",
+    "1 pote de iogurte natural sem açúcar.",
+    "1 colher de sopa de mel ou xarope de agave (opcional, se quiser suavizar).",
+    "Frutas frescas picadas (morango, kiwi, manga, mirtilo) para decorar.",
+
+  ],
+  "preparo": [
+    "1.  Preaqueça o forno a 180 °C.",
+"2.  Bata no liquidificador as bananas, ovos, óleo, leite e baunilha até formar um creme homogêneo.",
+"3.  Em uma tigela, misture a farinha de aveia e o fermento.",
+"4.  Junte o creme do liquidificador à mistura seca e mexa bem.",
+"5.  Despeje a massa em uma forma untada e leve ao forno por cerca de 35–40 minutos, até dourar e passar no teste do palito.",
+"6.  Deixe esfriar antes de desenformar.",
+"Cobertura",
+"misture o iogurte com o mel/agave e espalhe sobre o bolo.",
+"Para decorar: uso frutas frescas coloridas para deixar festivo e atrativo para as crianças.",
+
+  ],
+  "medidas": [
+    "1 xícara = 240 ml",
+    "1 colher (sopa) = 15 ml",
+    "1 colher (chá) = 5 ml"
+  ],
+   "premium": {
+  "nutricional": {
+    "porcao": "1 fatia (80g)",
+    "calorias": "120 kcal",
+    "carboidratos": "18 g",
+    "proteinas": "4 g",
+    "gorduras": "5 g"
+  },
+  "substituicoes": [
+    "Açúcar → Eritritol",
+    "Leite → Bebida vegetal"
+  ]
+},
+  "dicas": {
+    "Se quiser um bolo mais fofinho, pode substituir metade da farinha de aveia por farinha de trigo integral.", 
+  "• Para deixar ainda mais divertido, decore com granola crocante ou coco ralado por cima.",
+"• Esse bolo é naturalmente adoçado pelas bananas e frutas, evitando o açúcar refinado.",
+"Para versão sem glúten, utilize farinha de arroz e aveia em partes iguais.",
+  "observacoes": {"Indicada para intolerantes à lactose. Ajustar adoçante para diabéticos." }
+}
+}
+
+}
+
+}

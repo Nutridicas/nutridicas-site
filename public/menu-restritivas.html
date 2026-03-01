@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Receitas | NutriDicas Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">NutriDicaschef Online</a>
+    <p style="color: white;"> 🌱  | </p>
+
+     <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <li class="has-mega">
+          <button class="submenu-btn"> Gastronomia</button>
+          <ul class="mega-menu">
+            <li><a href="menu-tradicional.html"> <span> Receitas Tradicionais</span></a></li>
+            <li><a href="menu-restritivas.html">🍬 <span>Receitas para restrições Alimentares</span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos/Serviços</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="assessoria.html">📚Consultoria Nutricional</a></li>
+          </ul>
+        </li>
+
+        <!-- Nutrição -->
+
+       <li class="has-mega">
+          <button class="submenu-btn">Área da Nutrição</button>
+          <ul class="mega-menu">
+            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
+            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <!-- Colabore -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Favoritos e lista de compras-->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+   <div class="search-box">
+       <input type="search" id="searchInput" placeholder="Buscar receita...">
+
+      <!-- Resultados -->
+      <div id="searchResults" class="search-results"></div>
+      </div>
+  </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- HERO DA PÁGINA -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>Nossas Receitas para restrições Alimentares</h1>
+      <p>Escolha a categoria ideal e descubra receitas saudáveis, funcionais e cheias de sabor.</p>
+    </div>
+    <div class="hero-image">
+      <img src="imagens/ednutri.jpg" alt="Receitas Nutrichef">
+    </div>
+  </div>
+</section>
+
+<br>
+<hr style="border-top: 2px solid #ccc; margin: 5px 0;">
+
+<!-- CONTEÚDO -->
+<main class="container">
+  <section class="posts">
+
+    <article class="card">
+      <img src="imagens/receitas/zerolactose.png" alt="Zero Lactose">
+      <div class="card-body">
+        <h2>Zero Lactose</h2>
+        <p>Receitas pensadas para intolerantes à lactose, sem perder sabor.</p>
+        <a href="menu-zerolac.html" class="link">Acessar →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="imagens/receitas/zerogluten.jpg" alt="Zero Glúten">
+      <div class="card-body">
+        <h2>Zero Glúten</h2>
+        <p>Opções seguras e deliciosas para dietas sem glúten.</p>
+        <a href="menu-zerogluten.html" class="link">Acessar →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="imagens/receitas/zeroaçucarges.jpg" alt="Zero Açúcar">
+      <div class="card-body">
+        <h2>Zero Açúcar</h2>
+        <p>Receitas equilibradas e funcionais sem adição de açúcar.</p>
+        <a href="menu-zeroacucar.html" class="link">Acessar →</a>
+      </div>
+    </article>
+
+       <article class="card">
+      <img src="imagens/receitas/Simbolo vegano.jpg" alt="Receitas de Réveillon">
+      <div class="card-body">
+        <h2>Receitas Veganas</h2>
+        <p>Receitas especiais para celebrar novos começos.</p>
+        <a href="menu-veganas.html" class="link">Acessar →</a>
+      </div>
+    </article>
+
+     <article class="card">
+      <img src="imagens/receitas/casca-ovo.jpg" alt="Receitas sem ovo">
+      <div class="card-body">
+        <h2>Receitas Sem ovo</h2>
+        <p>Receitas sem ovo, adequadas para quem não pode consumir essa proteina.</p>
+        <a href="" class="link">Acessar →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="imagens/receitas/tigela-deiogurte.jpg" alt="Receitas de Natal">
+      <div class="card-body">
+        <h2>Receitas Funcionais</h2>
+        <p>Além de alimentar, ainda traz saúde e ajuda o organismo a funcionar melhor.</p>
+        <a href="menu-funcional.html" class="link">Acessar →</a>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="js/menu.js" defer></script>
+</body>
+</html>

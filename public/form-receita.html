@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nutrichef Online</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/nutri.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  
+</head>
+
+<body>
+
+ <!-- HEADER -->
+<header class="header">
+  <div class="header-container ">
+    <p>🍴</p>
+    <a href="index.html" class="logo">Nutrichef Online</a>
+    <p style="color: white;"> 🌱  | </p>
+
+    <nav id="menu">
+      <ul class="menu-principal">
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <!-- Receitas -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-zerolac.html">🥛 <span>Zero Lactose</span></a></li>
+            <li><a href="zero-acucar.html">🍬 <span>Zero Açúcar</span></a></li>
+            <li><a href="zero-gluten.html">🌾 <span>Zero Glúten</span></a></li>
+            <li><a href="funcionais.html">🍅 <span>Funcionais </span></a></li>
+            <li><a href="veganas.html"> 🥦 <span>Veganas </span></a></li>
+            <li><a href="sem-ovo.html"> 🥚 <span>Sem Ovo </span></a></li>
+          </ul>
+        </li>
+
+        <!-- Produtos -->
+        
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
+            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+          </ul>
+        </li>
+
+        <!-- Nutrição -->
+
+       <li class="has-mega">
+          <button class="submenu-btn">Área da Nutrição</button>
+          <<ul class="mega-menu">
+            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
+            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
+            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
+            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+          </ul>
+        </li>
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <<ul class="mega-menu">
+            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
+            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+   <!-- BUSCA -->
+    <div class="search-box">
+      <input type="search" id="searchInput" placeholder="Buscar receitas...">
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+  </div>
+</header>
+
+  
+  <main class="nutri">
+    <!-- CONTEÚDO PRINCIPAL -->
+   <div class="nutri__header">
+      <h2>Fale cnosco</h2>
+      <p>Colabre enviando a sua receita preferida.</p>
+    </div>
+
+    <section class="nutri__conteudo">
+      
+          <!-- MASCOTE -->
+          <div class="nutri__mascote">
+              <img src="imagens/Ednutri.jpg" alt="Mascote Nutrichef">
+              <p align="justify"> Olá! Agradecemos a sua colaboração,  para fazer-mos o Nutrichef cada vez melhor. Esse também é seu espaço, por isso, mande quantas receitas desejar. 🌱  
+              </p>
+          </div>
+                   
+          <!-- FORMULÁRIO -->
+      
+           <section class="nutri">
+
+              <h2>Mande-nos a sua reeita preferida.💬</h2>
+              <p> <strong> Escreva abaixo, os igrediente e o modo de prepro e alguma obsservaçao que considerar importante e útil.</strong></p>
+
+              <form class="nutri__form" action="https://formspree.io/f/xjggkkwn"  method="POST" data-form="gratuito">
+
+                  <label> Nome
+                      <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                   </label>
+
+                   <label> Cidade e Estado                      <input type="text" name="cidade" placeholder="Digite o nome de sua cidade e estado aqui" required>
+                   </label>
+
+                    <label> E-mail
+                      <input type="email" name="email" placeholder="Ex.: meumail@servidor.com.br" required>
+                    </label>
+
+                    <label> Ingredientes
+                      <textarea name="ingredientes" required placeholder="Rx.: 1. 3 ovos 2. 1 xícara de farinha de trigo."></textarea>
+                    </label>
+
+                    <label> Modo de preparo
+                      <textarea name="preparo" required placeholder="Ex.: 1. peé-aqueça o forno 2. xícara de farinha de trigo."></textarea>
+                    </label>
+
+
+                     <label> Algumas observções
+                      <textarea name="observacoes" required placeholder="Digite aqui."></textarea>
+                    </label>
+
+                    <label>
+                        <!-- IDENTIFICAÇÃO -->
+                        <input type="hidden" name="tipo" value="receitas">
+                    </label>
+
+                    <button type="submit">Enviar a receita</button>
+              </form>  
+
+                 <div class="feedback feedback--gratuito">
+                    <p>✅ Mensagem enviada com sucesso!</p>
+                    <p>Agradecemos a sua colaboração 💚</p>
+                </div>
+
+      </section>
+
+    <!-- Fim -->
+
+  </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/menu.js" defer></script>
+
+ </body>
+</html>

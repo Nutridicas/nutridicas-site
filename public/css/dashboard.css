@@ -1,0 +1,111 @@
+/* 14/02/26*/
+
+.dashboard {
+  max-width: 1200px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,.1);
+}
+
+.status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status--novo {
+  background: #ffeb3b;
+}
+
+.status--respondido {
+  background: #4caf50;
+  color: white;
+}
+
+.admin-tabs {
+  margin-left: 5px;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.admin-tabs button {
+  padding: 2px 4px;
+  border: none;
+  border-radius: 20px;
+  background: #eee;
+  cursor: pointer;
+}
+
+.admin-tabs button.active {
+  background: #2e8b57;
+  color: #fff;
+}
+
+
+/* Listar receitas no editor */
+
+.lista-receitas li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* =================================
+    Para o dashboard
+    ================================*/
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+.admin-tabs button.active {
+  background: #2e8b57;
+  color: white;
+}
+
+.btn-gravar {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 17px;
+    width: auto;        /* deixa largura automática */
+    margin: 10px 0;     /* remove centralização */
+}
+
+.btn-gravar:hover { background-color: #219150; }
+
+/* Editor */
+
+#editorReceita {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+
+
+

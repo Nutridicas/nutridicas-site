@@ -1,0 +1,60 @@
+{
+  "slug": "mousse-chocolate-fit",
+  "titulo": "Mousse de Chocolate Fit",
+  "status": "publicada",
+  "topSemana": false,
+  "imagem": "",
+  "premium": true,
+  "tags": [
+    "Funcional"
+  ],
+  "versoes": [
+    {
+      "data": "2026-02-14",
+      "conteudo": {
+        "categoria": "Funcional",
+        "ingredientes": [
+          "rende 6 porções",
+          "2 Abacates maduros 2 unidades médias (~400 g)l",
+          "4 colheres de sopa de Cacau em pó 100%",
+          "Adoçante eritritol / estévia a gosto",
+          "120–150 ml Leite vegetal sem açúcar (amêndoa/coco)",
+          "1 colher (chá) de essência de baunilha",
+          "A quantidade de cada ingrediente mantém boa firmeza sem deixar com gosto excessivo de ovo e garante baixo carboidrato"
+        ],
+        "preparo": [
+          "bata tudo no liquidificador até formar um creme aerado Bata tudo",
+          "Levar à Geladeira por 30–60 min para a  textura ficar mais firme e o sabor se intensificar",
+          "Para adicionar proteína e melhorar a textura aerada, pode adicionar 2 colheres (sopa) de iogurte grego natural sem açúcar ou proteína em pó sabor chocolate"
+        ],
+        "medidas": [
+          "Xícaras e Copos",
+          "1 Xícara de chá (padrão): 240 ml a 250 ml.",
+          "1/2 Xícara: 120 ml a 125 ml.",
+          "1/3 Xícara: 80 ml.",
+          "1/4 Xícara: 60 ml.",
+          "1 Copo Americano: Aproximadamente 200 ml.",
+          "Colheres",
+          "1 Colher de sopa: 15 ml.",
+          "1 Colher de chá: 5 ml.",
+          "1 Colher de café: Geralmente 1g a 2g de ingredientes secos."
+        ],
+        "nutricional": {
+          "tabela estimada (por porção)": "porção (1/6), considerando a receita rendendo 6 porções.",
+          "valor energético(calorias)": "~180–240 kcal",
+          "carboidratos totais": "~8–12 g",
+          "carboidratos líquidos": "~2–4 g",
+          "proteínas": "~2–4 g",
+          "gorduras totais": "~15–20 g (majoritariamente gorduras saudáveis",
+          "fibras": "~6–8 g",
+          "açúcares adicionados": "0 g",
+          "valore": "podem variar conforme a marca do leite de coco e do adoçante."
+        },
+        "substituicoes": [],
+        "dicas": [],
+        "comentarioNutri": "",
+        "listaCompras": []
+      }
+    }
+  ]
+}
