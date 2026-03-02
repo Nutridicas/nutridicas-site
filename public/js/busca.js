@@ -2,7 +2,7 @@
 //====================================================
 
 // ===============================================
-// 🔥 BUSCA MASTER NUTRICHEF (TÍTULO + TAGS + INGREDIENTES)
+// 🔥 BUSCA MASTER NUTRIDICAS (TÍTULO + TAGS + INGREDIENTES)
 // ===============================================
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ============================
-  // Cache: carrega uma vez só
+  // Cache: 
   // ============================
   async function carregarReceitas() {
     if (receitasCache.length > 0) return receitasCache;
@@ -47,39 +47,37 @@ document.addEventListener("DOMContentLoaded", () => {
   // Render dropdown
   // ============================
   function exibirDropdown(lista, termo) {
-    selecionadoIndex = -1;
+  selecionadoIndex = -1;
 
-    if (!lista.length) {
-      resultsContainer.innerHTML = `
-        <div class="search-item">Nenhuma receita encontrada 😢</div>
-      `;
-      resultsContainer.classList.add("active");
-      return;
-    }
-
-    resultsContainer.innerHTML = lista
-      resultsContainer.innerHTML = lista.map(receita => {
-
-    // caminho correto da imagem
-        const imgSrc = receita.imagem
-            ? `/imagens/receitas/${receita.imagem}`
-            : `/imagens/placeholder.jpg`;
-
-        return `
-            <div class="search-item"
-                 onclick="window.location.href='receita.html?slug=${receita.slug}'">
-
-                <img src="${imgSrc}" class="search-thumb">
-
-                <div>
-                    <strong>${destacarTexto(receita.titulo, termo)}</strong><br>
-                    <small>Categoria: ${destacarTexto(receita.categoria, termo)}</small>
-                </div>
-            </div>
-        `;
-    }).join('');
-
+  if (!lista.length) {
+    resultsContainer.innerHTML =
+      `<div class="search-item">Nenhuma receita encontrada 😢</div>`;
     resultsContainer.classList.add("active");
+    return;
+  }
+
+  resultsContainer.innerHTML = lista.map(receita => {
+
+    const imgSrc = receita.imagem
+      ? `/imagens/receitas/${receita.imagem}`
+      : `/imagens/placeholder.jpg`;
+
+    return `
+      <div class="search-item"
+           onclick="window.location.href='/receitas/${receita.slug}'">
+
+        <img src="${imgSrc}" class="search-thumb">
+
+        <div>
+          <strong>${destacarTexto(receita.titulo, termo)}</strong><br>
+          <small>Categoria: ${destacarTexto(receita.categoria, termo)}</small>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  resultsContainer.classList.add("active");
+
 
     // clique abre receita
     document.querySelectorAll(".search-item").forEach((item) => {
@@ -97,20 +95,35 @@ document.addEventListener("DOMContentLoaded", () => {
     return receitas.filter((r) => {
       const tituloMatch = r.titulo?.toLowerCase().includes(termo);
 
-      const categoriaMatch = r.categorias?.some((c) =>
-        c.toLowerCase().includes(termo)
-      );
+      //const categoriaMatch = r.categoria?.some((c) =>
+     //   c.toLowerCase().includes(termo)
+     // );
+
+      const categoriaMatch = r.categoria
+      ?.toLowerCase()
+      .includes(termo);
 
       const tagsMatch = r.tags?.some((t) =>
         t.toLowerCase().includes(termo)
       );
 
-      const ingredientesMatch = r.ingredientes?.some((ing) =>
+     const ingredientesMatch = r.ingredientes?.some((ing) =>
         ing.toLowerCase().includes(termo)
       );
 
-      return tituloMatch || categoriaMatch || tagsMatch || ingredientesMatch;
+     //busca por autor e enviada por 02/03/2026
+    const autorMatch = r.autor?.nome?.toLowerCase().includes(termo) || 
+        r.autor?.enviadaPor?.toLowerCase().includes(termo);
+  
+    const avaliacaoMatch = parseFloat(r.avaliacoes?.media) >= 4;               
+
+  //busca por autor e enviada por 02/03/2026
+ const dificuldadeMatch = r.dificuldade?.toLowerCase().includes(termo);
+
+        // atualizado em 02/03/26
+     return tituloMatch || categoriaMatch || tagsMatch || ingredientesMatch || autorMatch || avaliacaoMatch || dificuldadeMatch;
     });
+    
   }
 
   // ============================
@@ -163,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ============================
-  // Clique fora fecha
+  // Clique fora fechar
   // ============================
   document.addEventListener("click", (e) => {
     if (!input.contains(e.target) && !resultsContainer.contains(e.target)) {
