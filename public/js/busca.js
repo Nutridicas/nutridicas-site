@@ -44,7 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ============================
-  // Render dropdown
+  // Render dropdown - Atualizado 02/03/2026 - para busca funcionar
+  // no chrone e edge
   // ============================
   function exibirDropdown(lista, termo) {
   selecionadoIndex = -1;
@@ -56,18 +57,14 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  resultsContainer.innerHTML = lista.map(receita => {
-
+  const html = lista.map(receita => {
     const imgSrc = receita.imagem
       ? `/imagens/receitas/${receita.imagem}`
       : `/imagens/placeholder.jpg`;
 
     return `
-      <div class="search-item"
-           onclick="window.location.href='/receitas/${receita.slug}'">
-
+      <div class="search-item" data-slug="${receita.slug}">
         <img src="${imgSrc}" class="search-thumb">
-
         <div>
           <strong>${destacarTexto(receita.titulo, termo)}</strong><br>
           <small>Categoria: ${destacarTexto(receita.categoria, termo)}</small>
@@ -76,17 +73,16 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }).join("");
 
+  resultsContainer.innerHTML = html;
   resultsContainer.classList.add("active");
 
-
-    // clique abre receita
-    document.querySelectorAll(".search-item").forEach((item) => {
-      item.addEventListener("click", () => {
-        const i = item.dataset.index;
-        window.location.href = `receita.html?slug=${lista[i].slug}`;
-      });
+  document.querySelectorAll(".search-item").forEach(item => {
+    item.addEventListener("click", () => {
+      const slug = item.dataset.slug;
+      window.location.href = `/receitas/${slug}`;
     });
-  }
+  });
+}
 
   // ============================
   // Busca avançada

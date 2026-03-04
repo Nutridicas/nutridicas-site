@@ -1,7 +1,9 @@
 // =======================================
 // 🚀 SERVER NUTRICHEF API + FRONTEND
-// atualizado em 19/02/26 ✅ 00:24
+// atualizado 03/03/2026 - versão segura
 // =======================================
+
+require("dotenv").config({ path: __dirname + "/.env" });
 
 const express = require("express");
 const fs = require("fs");
@@ -9,51 +11,114 @@ const path = require("path");
 const cors = require("cors");
 const multer = require("multer");
 const { v4: uuidv4 } = require("uuid");
+const session = require("express-session");
+const bcrypt = require("bcrypt");
 
 const app = express();
+
+/* =======================================
+   CONFIG BÁSICA
+======================================= */
 
 app.use(cors());
 app.use(express.json());
 
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+  cookie: { 
+    secure: process.env.NODE_ENV === "production",
+    httpOnly: true,
+    sameSite: "lax"
+  }
+}));
 
 /* =======================================
-   ✅ SERVIR ARQUIVOS HTML DA PASTA PUBLIC
+   PASTAS
 ======================================= */
 
 const PUBLIC_FOLDER = path.join(__dirname, "../public");
 const ADMIN_FOLDER = path.join(__dirname, "../admin");
 
-app.use(express.static(PUBLIC_FOLDER));
-app.use("/admin", express.static(ADMIN_FOLDER));
-
 /* =======================================
-   ✅ UPLOAD DE IMAGENS
+   🔓 ARQUIVOS PÚBLICOS
 ======================================= */
 
-//const multer = require("multer");
+app.use(express.static(PUBLIC_FOLDER));
 
+/* =======================================
+   🔐 MIDDLEWARE DE AUTENTICAÇÃO
+======================================= */
 
-// sobe um nível da pasta api
+function authMiddleware(req, res, next) {
+  if (!req.session.auth) {
+    return res.redirect("/admin-login");
+  }
+  next();
+}
+
+/* =======================================
+   🔐 ROTAS ADMIN (PROTEGIDAS)
+======================================= */
+
+// Login page
+app.get("/admin-login", (req, res) => {
+  res.sendFile(path.join(ADMIN_FOLDER, "login.html"));
+});
+
+// Servir css/js do admin (APENAS ISSO)
+app.use("/admin/css", express.static(path.join(ADMIN_FOLDER, "css")));
+app.use("/admin/js", express.static(path.join(ADMIN_FOLDER, "js")));
+
+// Login seguro com bcrypt
+app.post("/login", async (req, res) => {
+
+  const senhaDigitada = req.body.senha;
+  const hashSalvo = process.env.ADMIN_HASH;
+
+  const senhaValida = await bcrypt.compare(senhaDigitada, hashSalvo);
+
+  if (!senhaValida) {
+    return res.status(401).send("Senha incorreta");
+  }
+
+  req.session.auth = true;
+  res.redirect("/dashboard");
+});
+
+// Dashboard protegido
+app.get("/dashboard", authMiddleware, (req, res) => {
+  res.sendFile(path.join(ADMIN_FOLDER, "dashboard.html"));
+});
+
+// Logout
+app.get("/logout", (req, res) => {
+  req.session.destroy(() => {
+    res.redirect("/admin-login");
+  });
+});
+
+/* =======================================
+   📂 UPLOAD IMAGENS
+======================================= */
+
 const pastaUploads = path.join(__dirname, "..", "public", "imagens", "receitas");
 
-// cria a pasta automaticamente se não existir
 if (!fs.existsSync(pastaUploads)) {
   fs.mkdirSync(pastaUploads, { recursive: true });
 }
 
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, pastaUploads);
-  },
+  destination: (req, file, cb) => cb(null, pastaUploads),
   filename: (req, file, cb) => {
-    const nome = Date.now() + "-" + file.originalname;
-    cb(null, nome);
+    cb(null, Date.now() + "-" + file.originalname);
   }
 });
 
 const upload = multer({ storage });
 
-app.post("/upload", upload.single("imagem"), (req, res) => {
+app.post("/upload", authMiddleware, upload.single("imagem"), (req, res) => {
 
   if (!req.file) {
     return res.json({ ok: false });
@@ -63,64 +128,48 @@ app.post("/upload", upload.single("imagem"), (req, res) => {
     ok: true,
     caminho: req.file.filename
   });
-
 });
 
-
-//===========================
-
 /* =======================================
-   ✅ JSON FILE
+   📂 JSON RECEITAS
 ======================================= */
 
 const RECEITAS_FILE = path.join(__dirname, "json", "receitas.json");
 let receitasCache = [];
 
-/* LOAD */
 function carregarReceitas() {
   receitasCache = JSON.parse(fs.readFileSync(RECEITAS_FILE, "utf-8"));
 }
 carregarReceitas();
 
 /* =======================================
-   ✅ ROTAS DA API
+   🌐 API RECEITAS
 ======================================= */
 
-/* GET LISTA */
 app.get("/receitas", (req, res) => {
 
   const resumo = receitasCache.map(r => {
-
     const ultima = r.versoes.at(-1).conteudo;
 
     return {
       slug: r.slug,
       titulo: r.titulo,
-
-      // ✅ imagem vem do JSON
       imagem: r.imagem,
-
-      // ✅ categoria vem da última versão
       categoria: ultima.categoria,
-
       status: r.status,
       topSemana: r.topSemana || false,
       premium: r.premium || false,
-
       tempoPreparo: ultima.tempoPreparo,
       rendimento: ultima.rendimento,
       dificuldade: ultima.dificuldade,
       custoMedio: ultima.custoMedio,
       enviadaPor: ultima.enviadaPor || "Anônimo"
     };
-
   });
 
   res.json(resumo);
 });
 
-
-/* GET RECEITA */
 app.get("/receitas/:slug", (req, res) => {
   const receita = receitasCache.find(r => r.slug === req.params.slug);
 
@@ -130,13 +179,11 @@ app.get("/receitas/:slug", (req, res) => {
   res.json(receita);
 });
 
-/* POST RECEITA - Atualização */
-
-app.post("/receitas", (req, res) => {
+app.post("/receitas", authMiddleware, (req, res) => {
 
   const novaReceita = {
-    id: uuidv4(),                       // ✅ gera UUID automático
-    dataCriacao: new Date().toISOString(), // opcional mas profissional
+    id: uuidv4(),
+    dataCriacao: new Date().toISOString(),
     ...req.body
   };
 
@@ -151,16 +198,15 @@ app.post("/receitas", (req, res) => {
 });
 
 /* =======================================
-   ✅ ROTA PRINCIPAL (index.html)
+   🌐 ROTA PRINCIPAL
 ======================================= */
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(PUBLIC_FOLDER, "index.html"));
 });
 
-
 /* =======================================
-   🚀 START SERVER - Atualizado para subir em  01/03/2026
+   🚀 START SERVER (UMA ÚNICA VEZ)
 ======================================= */
 
 const PORT = process.env.PORT || 3000;

@@ -27,6 +27,8 @@ const media = document.getElementById("media");
 const total = document.getElementById("total");
 
 const categoria = document.getElementById("categoria");
+const relacionadas = document.getElementById("relacionadas");
+
 const tempoPreparoReceita = document.getElementById("tempoPreparoReceita");
 const tempoPreparoForno = document.getElementById("tempoPreparoForno");
 const tempoPreparoTotal = document.getElementById("tempoPreparoTotal");
@@ -155,6 +157,8 @@ async function salvarReceita(status) {
       tags: tags.value.split(",").map(t => t.trim()),
       imagem: nomeImagem,   // 👈 AQUI CORRETO
 
+       relacionadas: relacionadas.value.split(",").map(t => t.trim()),
+     
        autor: {
         nome: nome.value, 
         credencial: credencial.value,
@@ -287,6 +291,9 @@ async function abrirReceita(slug) {
   titulo.value = receita.titulo || "";
   premium.value = receita.premium || "";
   tags.value = receita.tags || "";
+
+  relacionadas.value = receita.relacionadas || "";
+  
   topSemana.value = receita.topSemana || "";
   premium.value = receita.premium || "";
 
@@ -535,3 +542,12 @@ async function uploadImagem() {
     btnUpload.disabled = false;
   }
 }
+
+// proteger a senha
+app.get("/admin/dashboard", (req, res) => {
+  if (!req.session.admin) {
+    return res.status(403).send("Acesso negado");
+  }
+
+  res.sendFile(__dirname + "/admin/dashboard.html");
+});
