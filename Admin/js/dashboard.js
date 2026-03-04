@@ -1,7 +1,7 @@
 // Atualização 22/02/26
 
 
-const API = "http://localhost:3000";
+const API = "";
 
 const imagemInput = document.getElementById("imagemInput");
 const previewImagem = document.getElementById("previewImagem");

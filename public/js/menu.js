@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //
 document.addEventListener("DOMContentLoaded", async () => {
 
-  const resposta = await fetch("/data/receitas.json");
+  const resposta = await fetch("/api/receitas.json");
   const receitas = await resposta.json();
 
   renderizarLista(receitas);
