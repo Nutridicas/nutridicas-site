@@ -32,16 +32,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ============================
-  // Cache: 
+  // Cache: Atualizada em 02/03/2026 - Busca funcionar no chrome e edge
   // ============================
   async function carregarReceitas() {
-    if (receitasCache.length > 0) return receitasCache;
+    if (receitasCache.length > 0) {
+  return JSON.parse(JSON.stringify(receitasCache));
+}
 
-    const res = await fetch("/receitas");
-    receitasCache = await res.json();
+    const res = await fetch("/api/receitas");
 
-    return receitasCache;
-  }
+if (!res.ok) {
+  throw new Error("Erro ao buscar receitas");
+}
+
+const receitas = await res.json();
 
   // ============================
   // Render dropdown - Atualizado 02/03/2026 - para busca funcionar

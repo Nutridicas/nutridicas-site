@@ -41,6 +41,28 @@ app.use(session({
 const PUBLIC_FOLDER = path.join(__dirname, "../public");
 const ADMIN_FOLDER = path.join(__dirname, "../admin");
 
+// tentativa de melhorar a busca no edge e chrome 04/03/2026
+const fs = require("fs");
+const path = require("path");
+
+app.get("/api/receitas", (req, res) => {
+  const filePath = path.join(__dirname, "json", "receitas.json");
+
+  fs.readFile(filePath, "utf-8", (err, data) => {
+    if (err) {
+      console.error("Erro ao ler receitas:", err);
+      return res.status(500).json({ erro: "Erro ao carregar receitas" });
+    }
+
+    try {
+      const receitas = JSON.parse(data);
+      res.json(receitas);
+    } catch (parseError) {
+      console.error("Erro ao converter JSON:", parseError);
+      res.status(500).json({ erro: "JSON inválido" });
+    }
+  });
+});
 /* =======================================
    🔓 ARQUIVOS PÚBLICOS
 ======================================= */
