@@ -1210,3 +1210,86 @@ Modal para enviar mensagens
 #receitasRelacionadas li:hover {
   transform: translateY(-5px);
 }
+
+/*=============================
+Para gerar tooltips na receita.html - 04/03/2026
+==============================*/
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.tooltip::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 125%; /* acima do texto */
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, bottom 0.3s;
+  z-index: 1000;
+  font-size: 14px;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 115%; /* seta da tooltip */
+  border-width: 6px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+  opacity: 0;
+  transition: opacity 0.3s, bottom 0.3s;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.tooltip:hover::after,
+.tooltip:hover::before {
+  opacity: 1;
+  bottom: 135%;
+}
+
+/*=================
+  Busca, destacar termo
+  ================*/
+  .search-item mark {
+  background: #ffe066;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/*===============
+// PAra o dasboard - inserida 06/03/2026
+*/
+
+.status{
+margin-left:10px;
+font-size:12px;
+padding:3px 6px;
+border-radius:6px;
+}
+
+
+.status-publicado{
+background:#c9f7d1;
+padding:3px 6px;
+border-radius:6px;
+}
+
+.status-rascunho{
+background:#ffe6a7;
+padding:3px 6px;
+border-radius:6px;
+}

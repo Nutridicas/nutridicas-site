@@ -4,6 +4,7 @@
 // =======================================
 
 require("dotenv").config({ path: __dirname + "/.env" });
+//console.log("HASH:", process.env.ADMIN_HASH);
 
 const express = require("express");
 const fs = require("fs");
@@ -34,6 +35,18 @@ app.use(session({
   }
 }));
 
+// ============================
+// Middleware de proteção do admin - Inserida 05/03/2026 11h43m
+// ============================
+function verificarAuth(req, res, next) {
+
+  if (!req.session || !req.session.auth) {
+    return res.redirect("/admin-login");
+  }
+
+  next();
+}
+
 /* =======================================
    PASTAS
 ======================================= */
@@ -42,8 +55,8 @@ const PUBLIC_FOLDER = path.join(__dirname, "../public");
 const ADMIN_FOLDER = path.join(__dirname, "../admin");
 
 // tentativa de melhorar a busca no edge e chrome 04/03/2026
-const fs = require("fs");
-const path = require("path");
+//const fs = require("fs");
+//const path = require("path");
 
 app.get("/api/receitas", (req, res) => {
   const filePath = path.join(__dirname, "json", "receitas.json");
@@ -89,6 +102,13 @@ app.get("/admin-login", (req, res) => {
   res.sendFile(path.join(ADMIN_FOLDER, "login.html"));
 });
 
+// alteração corrigir erro de acesso ao dashboard 05/03/026
+
+// dashboard protegido
+app.get("/dashboard", verificarAuth, (req, res) => {
+  res.sendFile(path.join(ADMIN_FOLDER, "dashboard.html"));
+});
+
 // Servir css/js do admin (APENAS ISSO)
 app.use("/admin/css", express.static(path.join(ADMIN_FOLDER, "css")));
 app.use("/admin/js", express.static(path.join(ADMIN_FOLDER, "js")));
@@ -106,7 +126,9 @@ app.post("/login", async (req, res) => {
   }
 
   req.session.auth = true;
-  res.redirect("/dashboard");
+
+  res.json({ success: true });
+
 });
 
 // Dashboard protegido

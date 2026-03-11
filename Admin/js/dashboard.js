@@ -1,255 +1,200 @@
-// Atualização 22/02/26
+// ùltim atualização 04/03/2026
+// ============================
+// dashboard.js – versão final com melhorias 04/03/2026
+// ============================
 
-
-const API = "";
-
-const imagemInput = document.getElementById("imagemInput");
-const previewImagem = document.getElementById("previewImagem");
-const btnUpload = document.getElementById("btnUpload");
-const uploadStatus = document.getElementById("uploadStatus");
-
-const editor = document.getElementById("editorReceita");
+console.log("dashboard.js carregado");
+// API e receitas
+const API =  window.location.origin; 
 const listaReceitas = document.getElementById("listaReceitas");
-const acoesEditor = document.getElementById("acoesEditor");
 
-// Campos do .json - Receitas
+let todasReceitas = [];
+let relacionadasSelecionadas = [];
+
+// Carregar todas receitas - Atualizada em 06/03/2026
+
+async function carregarReceitas() {
+
+  const res = await fetch(`${API}/receitas`);
+  todasReceitas = await res.json();
+
+  filtrarReceitas();
+
+}
+
+carregarReceitas();
+
+// Campos do editor
+const editor = document.getElementById("editorReceita");
 const titulo = document.getElementById("titulo");
 const topSemana = document.getElementById("topSemana");
 const premium = document.getElementById("premium");
 const tags = document.getElementById("tags");
 const restricoes = document.getElementById("restricoes");
-
 const nome = document.getElementById("nome");
 const credencial = document.getElementById("credencial");
 const registro = document.getElementById("registro");
-
-const media = document.getElementById("media");
-const total = document.getElementById("total");
-
 const categoria = document.getElementById("categoria");
-const relacionadas = document.getElementById("relacionadas");
+const subcategoria = document.getElementById("subcategoria");
 
-const tempoPreparoReceita = document.getElementById("tempoPreparoReceita");
-const tempoPreparoForno = document.getElementById("tempoPreparoForno");
 const tempoPreparoTotal = document.getElementById("tempoPreparoTotal");
-
-const rendimento = document.getElementById("rendimento");
-const dificuldade = document.getElementById("dificuldade");
-const custoMedio = document.getElementById("custoMedio");
-const enviadaPor = document.getElementById("enviadaPor");
-const comoServir = document.getElementById("comoServir");
-
-const ingredientes = document.getElementById("ingredientes");
-const preparo = document.getElementById("preparo");
-const miseEnPlace = document.getElementById("miseEnPlace");
-const conservacao = document.getElementById("conservacao");
-const medidas = document.getElementById("medidas");
-
-const porcao = document.getElementById("porcao");
-const calorias = document.getElementById("calorias");
-const carboidratos = document.getElementById("carboidratos");
-const proteinas = document.getElementById("proteinas");
-const gordurasTotais = document.getElementById("gordurasTotais");
-const gordurasSaturadas = document.getElementById("gordurasSaturadas");
-const fibras = document.getElementById("fibras");
-const sodio = document.getElementById("sodio");
-const acucar = document.getElementById("acucar");
-
-const substituicoes = document.getElementById("substituicoes");
-const dicas = document.getElementById("dicas");
-const comentario = document.getElementById("comentario");
-const listaCompras = document.getElementById("listaCompras");
+const relacionadasContainer = document.getElementById("relacionadasContainer");
+const sugestoesAutomaticas = document.getElementById("sugestoesAutomaticas");
 
 let receitaAtual = null;
 
-/* =========================
-   ABAS
-========================= */
-document.addEventListener("DOMContentLoaded", () => {
+// ============================
+// ADICIONAR RELACIONADA MANUAL - Inserida 04/03/2026
+// ============================
+function adicionarRelacionada() {
+  const total = relacionadasContainer.querySelectorAll(".relacionada").length;
+  if (total >= 4) {
+    alert("Máximo de 4 receitas relacionadas");
+    return;
+  }
 
-  const botoes = document.querySelectorAll(".admin-tabs button");
-  const abas = document.querySelectorAll(".tab");
+  const bloco = document.createElement("div");
+  bloco.classList.add("relacionada");
 
-  botoes.forEach(btn => {
-    btn.addEventListener("click", () => {
+  bloco.innerHTML = `
+    <p><strong>Nome</strong></p>
+    <input class="nomeRelacionada" placeholder="Nome da Receita">
+    <div class="sugestoesRelacionadas"></div>
 
-      abas.forEach(sec => {
-        sec.classList.remove("active");
-        sec.style.display = "none";
-      });
+    <p><strong>Slug</strong></p>
+    <input class="slugRelacionada" placeholder="slug da receita">
 
-      botoes.forEach(b => b.classList.remove("active"));
-
-      btn.classList.add("active");
-
-      const alvo = document.getElementById(btn.dataset.tab);
-      alvo.classList.add("active");
-      alvo.style.display = "block";
-    });
-  });
-
-  carregarReceitas();
-});
-
-/* =========================
-   NOVA RECEITA
-========================= */
-document.getElementById("novaReceita").addEventListener("click", () => {
-
-  receitaAtual = null;
-  editor.style.display = "block";
-  document.getElementById("editorTitulo").innerText = "Nova Receita";
-
-  limparFormulario();
-
-  acoesEditor.innerHTML = `
-    <button onclick="salvarReceita('rascunho')" class="btn-gravar">Salvar Rascunho</button>
-    <button onclick="salvarReceita('publicada')" class="btn-gravar">Publicar</button>
+    <p><strong>Imagem</strong></p>
+    <input class="imagemRelacionada" placeholder="imagem.jpg">
   `;
+
+  relacionadasContainer.appendChild(bloco);
+}
+
+// ============================
+// ADICIONAR RELACIONADA AUTOMÁTICA - 
+//Inserida 04/03/2026 / Atualizada 06/03/2026
+// ============================
+
+function adicionarRelacionadaAutomatica(r) {
+
+  const total = relacionadasContainer.querySelectorAll(".relacionada").length;
+
+  if (total >= 4) {
+    alert("Máximo de 4 relacionadas");
+    return;
+  }
+
+  const titulo = r.titulo || r.nome || "";
+  const slug = r.slug || "";
+  const imagem = r.imagem || "";
+
+  const bloco = document.createElement("div");
+  bloco.classList.add("relacionada");
+
+  bloco.innerHTML = `
+    <p><strong>Nome</strong></p>
+    <input class="nomeRelacionada" value="${titulo}">
+
+    <div class="sugestoesRelacionadas"></div>
+
+    <p><strong>Slug</strong></p>
+    <input class="slugRelacionada" value="${slug}" readonly>
+
+    <p><strong>Imagem</strong></p>
+    <input class="imagemRelacionada" value="${imagem}" readonly>
+  `;
+
+  relacionadasContainer.appendChild(bloco);
+}
+
+// ============================
+// AUTOCOMPLETE AO DIGITAR NOME  DA RELACIONADA
+// - Inserida 04/03/2026
+// ============================
+document.addEventListener("input", function(e) {
+  if (!e.target.classList.contains("nomeRelacionada")) return;
+
+  const termo = e.target.value.toLowerCase();
+  const bloco = e.target.closest(".relacionada");
+  const caixaSugestoes = bloco.querySelector(".sugestoesRelacionadas");
+  caixaSugestoes.innerHTML = "";
+
+  if (termo.length < 2) return;
+
+ const resultados = todasReceitas
+  .filter(r => r.titulo?.toLowerCase().includes(termo))
+  .slice(0,5);
+
+  resultados.forEach(r => {
+    const item = document.createElement("div");
+    item.className = "sugestao-item";
+    item.textContent = r.titulo;
+    item.onclick = function() {
+      bloco.querySelector(".nomeRelacionada").value = r.titulo;
+      bloco.querySelector(".slugRelacionada").value = r.slug;
+      bloco.querySelector(".imagemRelacionada").value = r.imagem || "";
+      caixaSugestoes.innerHTML = "";
+    };
+    caixaSugestoes.appendChild(item);
+  });
 });
 
 // ============================
-// Função para validar se a receita está vazia- criada em 23/02/26
-//===========================
-function validarReceita(r) {
+// SUGESTÕES AUTOMÁTICAS COM MINIATURA, CATEGORIA E TEMPO
+// - Inserida 04/03/2026
+// ============================
+function sugerirRelacionadas(receitaAtualDados) {
+  sugestoesAutomaticas.innerHTML = "";
 
-  if (!r.titulo || r.titulo.trim() === "") {
-    // mensagem de alerta
-      Swal.fire({
-          title: 'Preenchar o campo!',
-          text: 'Título obrigatório.',
-          icon: 'success',
-          confirmButtonText: 'OK'
-        });
-    //alert("");
-    return false;
-  }
+  const categoriaAtual = receitaAtualDados.versoes?.at(-1)?.conteudo?.categoria;
+  const tagsAtual = receitaAtualDados.tags || [];
 
-  if (!r.versoes[0].conteudo.ingredientes.length) {
-    alert("Adicione ingredientes");
-    return false;
-  }
+  const relacionadas = todasReceitas.filter(r => {
+    if (r.slug === receitaAtualDados.slug) return false;
 
-  return true;
-}
+    const mesmaCategoria =
+      r.versoes?.at(-1)?.conteudo?.categoria === categoriaAtual;
 
-//=========================
-//   SALVAR RECEITAS - Atualizada em 22/02/26
-//========================= 
+    const mesmasTags =
+      r.tags?.some(tag => tagsAtual.includes(tag));
 
-async function salvarReceita(status) {
+    return mesmaCategoria || mesmasTags;
+  });
 
-  try {
+  // Atualizada 05/03/2026 
+   relacionadas.slice(0,6).forEach(r => {
 
-    // 🔹 pegar nome da imagem enviada
-    const nomeImagem =
-      document.getElementById("imagemInput").dataset.filename || "";
+    const img = r.imagem
+      ? `/imagens/receitas/${r.imagem}`
+      : `/imagens/placeholder.jpg`;
 
-    // 🔹 montar objeto
-     const receita = {
-     id: crypto.randomUUID(),
-      slug: gerarSlug(titulo.value),
-      titulo: titulo.value,
-      status: status,
-      topSemana: topSemana.checked,
-      premium: premium.checked,
-      restricoes:getLista("restricoes"),
-      tags: tags.value.split(",").map(t => t.trim()),
-      imagem: nomeImagem,   // 👈 AQUI CORRETO
+    const item = document.createElement("div");
+    item.classList.add("cardSugestao");
 
-       relacionadas: relacionadas.value.split(",").map(t => t.trim()),
-     
-       autor: {
-        nome: nome.value, 
-        credencial: credencial.value,
-        registro: registro.value
-      },
-      avaliacoes : {
-        media: media.value,
-        total: total.value
-     },
+    item.innerHTML = `
+      <img src="${img}" alt="${r.titulo}" />
 
-      versoes: [{
-        data: new Date().toISOString(),
-        conteudo: {
+      <div class="infoSugestao">
+        <h4>${r.titulo}</h4>
+        <span class="categoria">${r.versoes.at(-1).conteudo.categoria || ''}</span>
+        <span class="tempo">${r.versoes.at(-1).conteudo.tempoPreparoTotal || ''}</span>
+      </div>
 
-          categoria: categoria.value,
-          tempoPreparoReceita: tempoPreparoReceita.value,
-          tempoPreparoForno: tempoPreparoForno.value,
-          tempoPreparoTotal: tempoPreparoTotal.value,
-          rendimento: rendimento.value,
-          dificuldade: dificuldade.value,
-          custoMedio: custoMedio.value,
-          enviadaPor: enviadaPor.value,
-          comoServir: comoServir.value,
+      <button class="btnAdicionarSugestao">Adicionar</button>
+    `;
 
-          miseEnPlace: getLista("miseEnPlace"),
-          conservacao: getLista("conservacao"),
-
-          ingredientes: getLista("ingredientes"),
-          preparo: getLista("preparo"),
-          medidas: getLista("medidas"),
-
-          nutricional: {
-            porcao: porcao.value,
-            calorias: calorias.value,
-            carboidratos: carboidratos.value,
-            proteinas: proteinas.value,
-            gordurasTotais: gordurasTotais.value,
-            gordurasSaturadas: gordurasSaturadas.value,
-            fibras: fibras.value,
-            sodio: sodio.value,
-            acucar: acucar.value
-          },
-
-          substituicoes: getLista("substituicoes"),
-          dicas: getLista("dicas"),
-          comentarioNutri: comentario.value,
-          listaCompras: getLista("listaCompras")
-        }
-      }]
+    item.querySelector(".btnAdicionarSugestao").onclick = () => {
+      adicionarRelacionadaAutomatica(r);
     };
 
-    // 🔹 validar antes de salvar
-    if (!validarReceita(receita)) {
-      return;
-    }
-
-    const metodo = receitaAtual ? "PUT" : "POST";
-    const url = receitaAtual
-      ? `${API}/receitas/${receitaAtual}`
-      : `${API}/receitas`;
-
-    const res = await fetch(url, {
-      method: metodo,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(receita)
-    });
-
-    if (!res.ok) {
-      throw new Error("Erro ao salvar no servidor");
-    }
-     // mensagem de alerta
-      Swal.fire({
-          title: 'Sucesso!',
-          text: 'Receita salva com sucesso!.',
-          icon: 'success',
-          confirmButtonText: 'OK'
-        });
-
-    //alert("Receita salva com sucesso!");
-    carregarReceitas();
-
-  } catch (erro) {
-
-    console.error("Erro ao salvar:", erro);
-    alert("Erro ao salvar receita. Veja o console (F12).");
-
-  }
+    sugestoesAutomaticas.appendChild(item);
+  });
 }
 
-// =========================
-//   LISTAR - Carregar receitas
+
+//=========================
+//  LISTAR - Reinserida 06/03/2026
 //========================= */
 async function carregarReceitas() {
 
@@ -259,295 +204,575 @@ async function carregarReceitas() {
   listaReceitas.innerHTML = "";
 
   receitas.forEach(r => {
+
     const li = document.createElement("li");
-    li.innerText = `${r.titulo} (${r.status})`;
+
+    const statusClass = r.status === "publicado"
+    ? "status-publicado"
+    : "status-rascunho";
+
+    li.innerHTML = `
+      ${r.titulo}
+      <span class="status">${r.status}</span>
+    `;
+
     li.onclick = () => abrirReceita(r.slug);
+
     listaReceitas.appendChild(li);
+
+    // Botão dúplicar receita - Inserida 08/03/2026
+    li.innerHTML = `
+    ${r.titulo}
+    <span class="status">${r.status}</span>
+
+    <button onclick="duplicarReceita('${r.slug}')">
+    Duplicar
+    </button>
+`;
+
   });
+
 }
 
-// =========================
-//   ABRIR RECEITA CADASTRADA - Atualizada em 22/02/26
-//========================= */
-async function abrirReceita(slug) {
 
+// ============================
+// ABRIR RECEITA - Atualizada 06/03/2026
+// ============================
+async function abrirReceita(slug) {
   const res = await fetch(`${API}/receitas/${slug}`);
   const receita = await res.json();
 
   receitaAtual = slug;
 
-  const conteudo = receita.versoes.at(-1).conteudo;
-
-  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
-  editor.classList.add("active");
-
   editor.style.display = "block";
 
-  if (receita.imagem) {
-  previewImagem.src = "/imagens/receitas/" + receita.imagem;
-  previewImagem.style.display = "block";
-}
+  const ultimaVersao = receita.versoes?.at(-1)?.conteudo || {};
 
   titulo.value = receita.titulo || "";
-  premium.value = receita.premium || "";
-  tags.value = receita.tags || "";
+  premium.checked = receita.premium || false;
+  topSemana.checked = receita.topSemana || false;
 
-  relacionadas.value = receita.relacionadas || "";
-  
-  topSemana.value = receita.topSemana || "";
-  premium.value = receita.premium || "";
+  tags.value = (receita.tags || []).join(", ");
 
-  restricoes.value = receita.restricoes?.join("\n") || "";
+  categoria.value = ultimaVersao.categoria || "";
+   subcategoria.value = conteudo.subcategoria || "";
 
-  nome.value = receita.autor?.nome || "";
-  credencial.value = receita.autor?.credencial || "";
-  registro.value = receita.autor?.registro || "";
+  tempoPreparoTotal.value = ultimaVersao.tempoPreparoTotal || "";
 
-  categoria.value = conteudo.categoria || "";
-  tempoPreparoReceita.value = conteudo.tempoPreparoReceita || "";
-  tempoPreparoForno.value = conteudo.tempoPreparoForno || "";
-  tempoPreparoTotal.value = conteudo.tempoPreparoTotal || "";
-  rendimento.value = conteudo.rendimento || "";
-  dificuldade.value = conteudo.dificuldade || "";
-  custoMedio.value = conteudo.custoMedio || "";
-  enviadaPor.value = conteudo.enviadaPor || "";
-  comoServir.value = conteudo.comoServir || "";
+  relacionadasContainer.innerHTML = "";
 
-  ingredientes.value = (conteudo.ingredientes || []).join("\n");
-  preparo.value = (conteudo.preparo || []).join("\n");
-  miseEnPlace.value = (conteudo.miseEnPlace || []).join("\n");
-  conservacao.value = (conteudo.conservacao || []).join("\n");
-  medidas.value = (conteudo.medidas || []).join("\n");
+  (receita.relacionadas || []).forEach(rel => {
+    adicionarRelacionadaAutomatica(rel);
+  });
 
-  const nutri = conteudo.nutricional || {};
-
-  porcao.value = nutri.porcao || "";
-  calorias.value = nutri.calorias || "";
-  carboidratos.value = nutri.carboidratos || "";
-  proteinas.value = nutri.proteinas || "";
-  gordurasTotais.value = nutri.gordurasTotais || "";
-  gordurasSaturadas.value = nutri.gordurasSaturadas || "";
-  fibras.value = nutri.fibras || "";
-  sodio.value = nutri.sodio || "";
-  acucar.value = nutri.acucar || "";
-
-  substituicoes.value = (conteudo.substituicoes || []).join("\n");
-  dicas.value = (conteudo.dicas || []).join("\n");
-  comentario.value = conteudo.comentarioNutri || "";
-  listaCompras.value = (conteudo.listaCompras || []).join("\n");
-
-  acoesEditor.innerHTML = `
-    <button onclick="salvarReceita('rascunho')" class="btn-gravar">Salvar Alterações</button>
-    <button onclick="salvarReceita('publicada')" class="btn-gravar">Publicar</button>
-  `;
-// Deletar receita
-  acoesEditor.innerHTML += `
-  <button onclick="deletarReceita()" style="background:red;color:white">
-    🗑 Deletar
-  </button>
-`;
-// Exibir histórico de versões - 22/02/26
-const historico = document.getElementById("historicoVersoes");
-historico.innerHTML = "";
-receita.versoes.forEach(v => {
-  const li = document.createElement("li");
-  li.innerText = new Date(v.data).toLocaleString();
-  historico.appendChild(li);
-});
+  sugerirRelacionadas(receita);
 }
 
-/* =========================
-   HELPERS
-========================= */
-function getLista(id) {
-  return document.getElementById(id).value
-    .split("\n")
-    .map(l => l.trim())
-    .filter(Boolean);
+// ============================
+// SALVAR RECEITA (com relacionadas) - Atualizada 06/03/2026
+// ============================
+
+async function salvarReceita(status){
+
+    const nomeImagem =
+    document.getElementById("imagemInput")?.dataset?.filename || "";
+
+    const ingredientes = Array.from(
+    document.querySelectorAll(".ingrediente")
+    ).map(i => i.value);
+
+    const preparo = Array.from(
+    document.querySelectorAll(".passoPreparo")
+    ).map(i => i.value);
+
+    const miseEnPlace = Array.from(
+    document.querySelectorAll(".miseItem")
+    ).map(i => i.value);
+
+    const conservacao = Array.from(
+    document.querySelectorAll(".conservacaoItem")
+    ).map(i => i.value);
+
+    const medidas = Array.from(
+    document.querySelectorAll(".medidaItem")
+    ).map(i => i.value);
+
+    const substituicoes = Array.from(
+    document.querySelectorAll(".substituicaoItem")
+    ).map(i => i.value);
+
+    const dicas = Array.from(
+    document.querySelectorAll(".dicaItem")
+    ).map(i => i.value);
+
+    const listaCompras = Array.from(
+    document.querySelectorAll(".compraItem")
+    ).map(i => i.value);
+
+    const receita = {
+
+    id: receitaAtual || crypto.randomUUID(),
+
+    dataCriacao: new Date().toISOString(),
+
+    slug: gerarSlug(titulo.value),
+
+    titulo: titulo.value,
+
+    status: status,
+
+    imagem: nomeImagem,
+
+    topSemana: topSemana.checked,
+
+    premium: premium.checked,
+
+    tags: tags.value
+    ? tags.value.split(",").map(t => t.trim())
+    : [],
+
+    restricoes: restricoes.value
+    ? restricoes.value.split(",").map(r => r.trim())
+    : [],
+
+    relacionadas: relacionadasSelecionadas,
+
+    autor:{
+    nome: autorNome.value,
+    credencial: autorCredencial.value,
+    registro: autorRegistro.value
+    },
+
+    avaliacoes:{
+    media: "0",
+    total: "0"
+    },
+
+    versoes:[{
+
+    data: new Date().toISOString(),
+
+    conteudo:{
+
+    categoria: categoria.value,
+
+    subcategoria: subcategoria.value,
+
+    tempoPreparoReceita: tempoPreparoReceita.value,
+
+    tempoPreparoForno: tempoPreparoForno.value,
+
+    tempoPreparoTotal: tempoPreparoTotal.value,
+
+    rendimento: rendimento.value,
+
+    dificuldade: dificuldade.value,
+
+    custoMedio: custoMedio.value,
+
+    enviadaPor: enviadaPor.value,
+
+    comoServir: comoServir.value,
+
+    miseEnPlace,
+
+    conservacao,
+
+    ingredientes,
+
+    preparo,
+
+    medidas,
+
+    substituicoes,
+
+    dicas,
+
+    comentarioNutri: comentarioNutri.value,
+
+    listaCompras,
+
+    nutricional:{
+    porcao: porcao.value,
+    calorias: calorias.value,
+    carboidratos: carboidratos.value,
+    proteinas: proteinas.value,
+    gordurasTotais: gordurasTotais.value,
+    gordurasSaturadas: gordurasSaturadas.value,
+    fibras: fibras.value,
+    sodio: sodio.value,
+    acucar: acucar.value
 }
 
-//========================
+}
 
+}]
+
+};
+
+try {
+    // Verifique se receitaAtual é o ID ou o objeto todo
+    const id = receitaAtual?.id || receitaAtual; 
+
+     const metodo = id ? "PUT" : "POST";
+    const url = id ? `${API}/receitas/${id}` : `${API}/receitas`;
+
+    const res = await fetch(url, {
+      method: metodo,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(receita)
+    });
+
+    if (!res.ok) throw new Error("Erro ao salvar");
+
+    alert("Receita salva com sucesso!");
+    carregarReceitas();
+  } catch (erro) {
+    console.error("Erro:", erro);
+    alert("Erro ao salvar receita.");
+  }
+}
+
+// ============================
+// Gerar slug 
+// ============================
 function gerarSlug(texto) {
-  return texto
-    .toLowerCase()
+  return texto.toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/\s+/g, "-")
     .replace(/[^\w-]+/g, "");
 }
 
-//====================
-// Limpar o formulário
+// Inserida 06/03/2026 - Atualizada 08/03/2026
 
-function limparFormulario() {
-  document.querySelectorAll("#editorReceita input, #editorReceita textarea")
-    .forEach(el => el.value = "");
+document
+.getElementById("novaReceita")
+.onclick = ()=>{
+
+receitaAtual = null;
+
+document
+.getElementById("formReceita")
+.reset();
+
+editorReceita.style.display="block";
+
 }
 
-//===================
-// ATUALIZAR RECEITA (PUT) -  22/02/26
+//==============
+//SCRIPT DAS ABAS - Inserida 06/03/2026 - Atualizada 08/03/2026
 
-/*app.put("/receitas/:slug", (req, res) => {
+document.addEventListener("DOMContentLoaded", () => {
+  const botoes = document.querySelectorAll(".admin-tabs button");
 
-const { slug } = req.params;
-  const novaVersao = req.body;
+  botoes.forEach(btn => {
+    btn.addEventListener("click", () => {
+      // Remove a classe 'active' de todos os botões
+      document.querySelectorAll(".admin-tabs button")
+        .forEach(b => b.classList.remove("active"));
 
-  const receitas = lerReceitas();
-  const index = receitas.findIndex(r => r.slug === slug);
+      // Remove a classe 'active' de todas as abas
+      document.querySelectorAll(".tab")
+        .forEach(tab => tab.classList.remove("active"));
 
-  if (index === -1) {
-    return res.status(404).json({ erro: "Receita não encontrada" });
-  }
+      // Adiciona 'active' ao botão clicado
+      btn.classList.add("active");
 
-  receitas[index].status = novaVersao.status;
-  receitas[index].premium = novaVersao.premium;
-  receitas[index].topSemana = novaVersao.topSemana;
-  receitas[index].tags = novaVersao.tags;
+      // Ativa a aba correspondente via data-tab
+      const id = btn.dataset.tab;
+      const aba = document.getElementById(id);
 
-  receitas[index].versoes.push(novaVersao.versoes[0]);
-
-  salvarReceitas(receitas);
-
-  res.json({ sucesso: true });
-});*/
+      if (aba) {
+        aba.classList.add("active");
+      }
+    });
+  });
+});
 
 
-//===================  
-//DELETAR RECEITA - 22/02/26
-async function deletarReceita() {
+//=======================
+// Função filtrar receitas - Inserida 07/03/2026
 
-  if (!confirm("Deseja deletar esta receita?")) return;
+function filtrarReceitas() {
 
-  await fetch(`${API}/receitas/${receitaAtual}`, {
-    method: "DELETE"
+  const busca = document.getElementById("buscaReceita").value.toLowerCase();
+  const filtro = document.getElementById("filtroStatus").value;
+
+  const listaReceitas = document.getElementById("listaReceitas");
+  const contador = document.getElementById("contadorReceitas");
+
+  listaReceitas.innerHTML = "";
+
+  let receitasFiltradas = todasReceitas.filter(r => {
+
+    const bateBusca = r.titulo.toLowerCase().includes(busca);
+
+    const bateFiltro =
+      filtro === "todas" ||
+      r.status === filtro;
+
+    return bateBusca && bateFiltro;
+
   });
 
-  alert("Receita deletada");
-  carregarReceitas();
-  editor.style.display = "none";
+  receitasFiltradas.forEach(r => {
+
+    const li = document.createElement("li");
+
+    const statusClass =
+      r.status === "publicado"
+        ? "status-publicado"
+        : "status-rascunho";
+
+    li.innerHTML = `
+      ${r.titulo}
+      <span class="${statusClass}">${r.status}</span>
+    `;
+
+    li.onclick = () => abrirReceita(r.slug);
+
+    listaReceitas.appendChild(li);
+
+    relacionadasSelecionadas = receita.relacionadas || [];
+
+atualizarListaRelacionadas();
+
+  });
+
+  contador.innerText = `Total: ${receitasFiltradas.length} receitas`;
+
 }
-//==========================
-// Coletar dados - 25/02/2026
 
-function coletarDados() {
-  return {
-    titulo: titulo.value,
-    ingredientes: ingredientes.value,
-    preparo: preparo.value
-  };
+//================
+// Buscar relacionadas - Inserida 07/03/2026
+
+function buscarRelacionadas() {
+
+  const busca = document
+    .getElementById("buscarRelacionada")
+    .value
+    .toLowerCase();
+
+  const container = document.getElementById("sugestoesRelacionadas");
+
+  container.innerHTML = "";
+
+  if (!busca) return;
+
+  const resultados = todasReceitas.filter(r =>
+    r.titulo.toLowerCase().includes(busca)
+  );
+
+  resultados.slice(0,5).forEach(r => {
+
+    const div = document.createElement("div");
+
+    div.innerText = r.titulo;
+
+    div.onclick = () => adicionarRelacionada(r);
+
+    container.appendChild(div);
+
+  });
+
 }
 
-//===============
-//🔥 7️⃣ PREVIEW REAL DA RECEITA - 22/02/26
-//=====================
+//================
+// Adicionar relacionadas - Inserida 07/03/2026
 
-function previewReceita() {
+function adicionarRelacionada(receita){
 
-  const dados = coletarDados();
+  if(relacionadasSelecionadas.includes(receita.slug)) return;
 
-  localStorage.setItem("previewReceita", JSON.stringify(dados));
+  relacionadasSelecionadas.push(receita.slug);
 
-  window.open("/receita.html?preview=true", "_blank");
+  atualizarListaRelacionadas();
+
 }
 
-//function previewReceita() {
+//================
+// Mostrar relacionadas selecionadas - Inserida 07/03/2026
 
-  //const novaJanela = window.open("", "_blank");
+function atualizarListaRelacionadas(){
 
-  //novaJanela.document.write(`
- //   <h1>${titulo.value}</h1>
- //   <h3>Ingredientes</h3>
- //   <pre>${ingredientes.value}</pre>
- //   <h3>Preparo</h3>
- //   <pre>${preparo.value}</pre>
-//  `);
+  const lista = document.getElementById("listaRelacionadas");
+
+  lista.innerHTML = "";
+
+  relacionadasSelecionadas.forEach(slug => {
+
+    const receita = todasReceitas.find(r => r.slug === slug);
+
+    const li = document.createElement("li");
+
+    li.innerHTML = `
+      ${receita.titulo}
+      <button onclick="removerRelacionada('${slug}')">❌</button>
+    `;
+
+    lista.appendChild(li);
+
+  });
+
+}
+
+//================
+// remover relacionadas selecionadas - Inserida 07/03/2026
+
+function removerRelacionada(slug){
+
+  relacionadasSelecionadas =
+    relacionadasSelecionadas.filter(r => r !== slug);
+
+  atualizarListaRelacionadas();
+
+}
+
+//=========================
+// Acrescentar ingredientes - Inserida 08/03/2026 01h10
 //
 
-/* ======================
-🖼️ PREVIEW IMAGEM - Atualizada em 25/02/26 - Validar upload
-====================== */
-imagemInput.addEventListener("change", () => {
+function adicionarIngrediente(valor = "") {
 
-  const file = imagemInput.files[0];
-  if (!file) return;
+const div = document.createElement("div");
 
-  // ✅ Validar tipo
-  if (!file.type.startsWith("image/")) {
-    alert("Selecione apenas arquivos de imagem.");
-    imagemInput.value = "";
-    return;
-  }
+div.className = "linhaIngrediente";
 
-  // ✅ Validar tamanho (2MB)
-  if (file.size > 2 * 1024 * 1024) {
-    alert("Imagem deve ter no máximo 2MB.");
-    imagemInput.value = "";
-    return;
-  }
+div.innerHTML = `
+<input name="ingredientes[]" value="${valor}" placeholder="Ingrediente">
+<button type="button" onclick="this.parentElement.remove()">❌</button>
+`;
 
-  // Mostrar preview
-  previewImagem.src = URL.createObjectURL(file);
-  previewImagem.style.display = "block";
-});
+document
+.getElementById("listaIngredientes")
+.appendChild(div);
 
-/* ======================
-⬆️ UPLOAD IMAGEM - Atualizada em 25/02/26 21:58
-====================== */
-async function uploadImagem() {
-
-  const file = imagemInput.files[0];
-
-  if (!file) {
-    alert("Selecione uma imagem.");
-    return;
-  }
-
-  btnUpload.disabled = true;
-  uploadStatus.innerText = "Enviando imagem... ⏳";
-
-  const formData = new FormData();
-  formData.append("imagem", file);
-
-  try {
-
-    const resp = await fetch("/upload", {
-      method: "POST",
-      body: formData
-    });
-
-    if (!resp.ok) {
-      throw new Error("Erro no servidor");
-    }
-
-    const json = await resp.json();
-
-    if (json.ok) {
-
-      uploadStatus.innerText = "Imagem enviada com sucesso ✅";
-
-      // Salvar nome da imagem no dataset
-      imagemInput.dataset.filename = json.caminho;
-
-    } else {
-      throw new Error(json.erro || "Erro desconhecido");
-    }
-
-  } catch (erro) {
-
-    console.error("Erro upload:", erro);
-    uploadStatus.innerText = "Erro ao enviar imagem ❌";
-
-  } finally {
-    btnUpload.disabled = false;
-  }
 }
 
-// proteger a senha
-app.get("/admin/dashboard", (req, res) => {
-  if (!req.session.admin) {
-    return res.status(403).send("Acesso negado");
-  }
+//============================
+// crescentar Prepato - Inserida 08/03/2026 01h10
 
-  res.sendFile(__dirname + "/admin/dashboard.html");
+function adicionarPasso(valor = "") {
+
+const div = document.createElement("div");
+
+div.className = "linhaPreparo";
+
+div.innerHTML = `
+<textarea name="preparo[]" rows="2">${valor}</textarea>
+<button type="button" onclick="this.parentElement.remove()">❌</button>
+`;
+
+document
+.getElementById("listaPreparo")
+.appendChild(div);
+
+} 
+
+//============================
+// crescentar Mise en place  - Inserida 08/03/2026 01h14
+function adicionarMise(valor=""){
+
+const div = document.createElement("div");
+
+div.innerHTML = `
+<input name="miseEnPlace[]" value="${valor}">
+<button type="button" onclick="this.parentElement.remove()">❌</button>
+`;
+
+document.getElementById("listaMise").appendChild(div);
+
+}
+
+//============================
+// crescentar Conservação - Inserida 08/03/2026 01h14
+
+function addConservacao(valor=""){
+
+const div = document.createElement("div");
+
+div.innerHTML = `
+<input name="conservacao[]" value="${valor}">
+<button type="button" onclick="this.parentElement.remove()">❌</button>
+`;
+
+document.getElementById("listaConservacao").appendChild(div);
+
+}
+
+//============================
+// crescentar Lista de compras - Inserida 08/03/2026 01h19
+
+function addCompra(valor=""){
+
+const div = document.createElement("div");
+
+div.innerHTML = `
+<input name="listaCompras[]" value="${valor}">
+<button type="button" onclick="this.parentElement.remove()">❌</button>
+`;
+
+document
+.getElementById("listaComprasContainer")
+.appendChild(div);
+
+}
+
+// ==================
+// Autosalvar rascunho - Inserida 08/03/2026 14h41m
+
+setInterval(autoSalvar,30000);
+
+function autoSalvar(){
+
+if(!titulo.value) return;
+
+const dados = {
+titulo: titulo.value,
+categoria: categoria.value,
+tempo: tempoPreparoTotal.value
+};
+
+localStorage.setItem(
+"rascunhoReceita",
+JSON.stringify(dados)
+);
+
+console.log("Auto rascunho salvo");
+
+}
+
+// ==================
+// Duplicar receitas - Inserida 08/03/2026 14h41m
+
+async function duplicarReceita(slug){
+
+const res =
+await fetch(`/receitas/${slug}`);
+
+const receita =
+await res.json();
+
+receita.slug =
+gerarSlug(receita.titulo+"-copia");
+
+receita.id = crypto.randomUUID();
+
+receita.status = "rascunho";
+
+await fetch("/receitas",{
+
+method:"POST",
+headers:{
+"Content-Type":"application/json"
+},
+body:JSON.stringify(receita)
+
 });
+
+carregarReceitas();
+
+alert("Receita duplicada");
+
+}

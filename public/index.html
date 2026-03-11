@@ -22,92 +22,85 @@
 
 <body>
 
-<!-- HEADER -->
+<!-- HEADER Atuakuzadi 08/03/2026 -->
 <header class="header">
-  <div class="header-container ">
-    <p>🍴</p>
-    <a href="index.html" class="logo">NutriDicas Online</a>
-    <p style="color: white;"> 🌱  | </p>
 
-   <nav id="menu">
+  <!-- TOPO: LOGO + BUSCA -->
+  <div class="header-top">
+      <div class="logo-area">
+          <span class="icon">🍴</span>
+          <a href="index.html" class="logo">NutriDicas</a>
+          <span class="icon">🌱</span>
+      </div>
+
+     <div class="search-box">
+      <p>🔎</p>
+    <input type="search" id="searchInput" placeholder="Buscar receita...">
+    <div id="searchResults" class="search-results"></div>
+</div>
+  </div>
+
+  <!-- MENU -->
+  <div class="header-menu">
+
+    <nav id="menu">
       <ul class="menu-principal">
+
         <li><a href="index.html" class="active">Inicial</a></li>
 
-        <!-- Receitas -->
-
         <li class="has-mega">
-          <li class="has-mega">
-          <button class="submenu-btn"> Gastronomia</button>
+          <button class="submenu-btn">Gastronomia</button>
           <ul class="mega-menu">
-            <li><a href="menu-tradicional.html"> <span> Receitas Tradicionais</span></a></li>
-            <li><a href="menu-restritivas.html">🍬 <span>Receitas para restrições Alimentares</span></a></li>
+            <li><a href="menu-tradicional.html">Receitas Tradicionais</a></li>
+            <li><a href="menu-restritivas.html">Receitas para Restrições</a></li>
           </ul>
         </li>
 
-        <!-- Produtos -->
-        
         <li class="has-mega">
           <button class="submenu-btn">Produtos</button>
           <ul class="mega-menu">
-            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
-            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="ebooks.html">📚 Ebooks de Receitas</a></li>
+            <li><a href="produtos.html">📚 Dicas Nutricionais</a></li>
           </ul>
         </li>
 
-        <!-- Curiosidades e informação -->
-
-       <li class="has-mega">
-          <button class="submenu-btn"> Aprenda Mais +</button>
+        <li class="has-mega">
+          <button class="submenu-btn">Aprenda Mais</button>
           <ul class="mega-menu">
-            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
-            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
-            <li><a href="dicas-nutri.html">🖋️ Dicas de Cozinha</a></li>
-            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+            <li><a href="verduras.html">Frutas</a></li>
+            <li><a href="Legumes-verde.html">Legumes e Verduras</a></li>
+            <li><a href="Artigos.html">Legumes e Verduras</a></li>
+            <li><a href="dicas-Cozinha.html">Dicas de Cozinha</a></li>
+            <li><a href="util-nutri.html">Utilidades</a></li>
           </ul>
         </li>
-
-        <!-- Colabore -->
 
         <li class="has-mega">
           <button class="submenu-btn">Colabore</button>
           <ul class="mega-menu">
-            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
-            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+            <li><a href="opiniao.html">Dê sua opinião</a></li>
+            <li><a href="form-receita.html">Envie sa ua receita</a></li>
           </ul>
         </li>
 
-        <!-- Favoritos e lista de compras-->
+        <!-- Área do usuário -->
         <li class="has-mega">
           <button class="submenu-btn">Área do Usuário</button>
           <ul class="mega-menu">
+            <li><a href="cadastro.html">Cadastre-se</a></li>
             <li><a href="favoritos.html">❤️ Favoritos</a></li>
-            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+            <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
           </ul>
         </li>
-        
       </ul>
     </nav>
 
-  <!-- BUSCA -->
-   <div class="search-box">
-       <input type="search" id="searchInput" placeholder="Buscar receita...">
-
-      <!-- Resultados -->
-      <div id="searchResults" class="search-results"></div>
-      
   </div>
 
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-
-  </div>
 </header>
 
-<!-- HERO CAPA-->
-<section class="hero">
+<!-- HERO CAPA Atualizado 08/03/2026-->
+<<section class="hero">
   <div class="container hero-grid">
     <div class="hero-text">
       <h1>Gastronomia saudável, funcional e tradicional para celebrar a vida com alegria e prazer</h1>
@@ -120,8 +113,84 @@
   </div>
 </section>
 
-<!-- CONTEÚDO PRINCIPAL -->
+
+<!-- CONTEÚDO PRINCIPAL Bloco das Seções inserido 08/03/2026-->
 <main class="container main-grid">
+  <!-- Categorias receitas -->
+  <section class="categorias">
+
+    <h2>Explore por categoria</h2>
+    <div class="categorias-grid">
+      <a href="menu-tradicional.html" class="categoria-card">
+      🍲
+     <span>Receitas Tradicionais</span> </a>
+     <a href="menu-restritivas.html" class="categoria-card">
+        🥗
+     <span>Receitas Saudáveis</span> </a>
+     <a href="dicas-nutri.html" class="categoria-card">
+        🧑‍🍳
+    <span>Dicas de Cozinha</span> </a>
+    <a href="util-nutri.html" class="categoria-card">
+        📚
+    <span>Aprenda Nutrição</span> </a>
+
+    </div>
+</section>
+
+<!-- Receitas em destaque -->
+
+<section class="receitas-destaque">
+    <h2>Receitas em destaque</h2>
+
+    <div class="receitas-grid">
+
+      <div class="receita-card">
+        <img src="img/receita1.jpg">
+        <h3>Bolo de Banana Fit</h3>
+      </div>
+
+      <div class="receita-card">
+        <img src="img/receita2.jpg">
+        <h3>Panqueca de Aveia</h3>
+      </div>
+
+      <div class="receita-card">
+        <img src="img/receita3.jpg">
+        <h3>Salada Mediterrânea</h3>
+      </div>
+   </div>
+</section>
+
+<!-- Dicas de nutrição -->
+<section class="dicas">
+
+  <h2>Dicas Nutricionais</h2>
+
+  <div class="dicas-grid">
+    <a href="fale-nutri.html">🍎 Benefícios das frutas</a>
+    <a href="fale-nutri.html">🥦 Verduras e legumes</a>
+    <a href="dicas-nutri.html">👨‍🍳 Técnicas de cozinha</a>
+  </div>
+</section>
+
+<!-- Produtos e ebooks -->
+<section class="produtos">
+  <h2>Materiais e Ebooks</h2>
+  <div class="produtos-grid">
+    <div class="produto-card">
+        📚
+       <h3>Ebook Receitas Saudáveis</h3>
+        <a href="ebooks.html">Ver mais</a>
+    </div>
+
+    <div class="produto-card">
+        📗
+        <h3>Guia de Nutrição</h3>
+        <a href="produtos.html">Ver mais</a>
+    </div>
+  </div>
+
+</section>
 
   <!-- Cards iniciais com top da semana -->
   <section class="home-section">
@@ -142,6 +211,7 @@
     <script src="js/menu.js" defer></script>
     <script src="js/home.js"></script>
     <script src="js/busca.js"></script>
+    <script src="js/buscaworker.js"></script>
 
   </body>
 </html>

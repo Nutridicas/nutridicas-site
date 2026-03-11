@@ -169,7 +169,7 @@ html, body {
 .checkbox-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; /* duas colunas iguais */
-  gap: 4x 8px; /* espaço entre linhas e colunas */
+  gap: 4px 8px; /* espaço entre linhas e colunas */
   margin: 8px 0 10px 0;
 }
 

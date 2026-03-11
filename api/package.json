@@ -8,7 +8,8 @@
     "start": "node server.js",
     "validar": "node scripts/validar-word.js",
     "converter": "node scripts/importar-word.js",
-    "importar": "node scripts/importar-receitas.js"
+    "importar": "node scripts/importar-receitas.js",
+    "build":"node gerar-index.js"
   },
   "keywords": [],
   "author": "",

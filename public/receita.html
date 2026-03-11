@@ -17,100 +17,104 @@
   <link rel="stylesheet" href="css/nutri.css">
    <link rel="stylesheet" href="css/premium.css">
 
-   <!-- Mensagem de alerta sweetalert2 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
 </head>
 <body>
-  <!-- HEADER -->
+ <!-- HEADER Atuakuzadi 08/03/2026 -->
 <header class="header">
-  <div class="header-container ">
-    <p>🍴</p>
-    <a href="index.html" class="logo">NutriDicas Online</a>
-    <p style="color: white;"> 🌱| </p>
 
-     <nav id="menu">
+  <!-- TOPO: LOGO + BUSCA -->
+  <div class="header-top">
+      <div class="logo-area">
+          <span class="icon">🍴</span>
+          <a href="index.html" class="logo">NutriDicas</a>
+          <span class="icon">🌱</span>
+      </div>
+
+     <div class="search-box">
+      <p>🔎</p>
+    <input type="search" id="searchInput" placeholder="Buscar receita...">
+    <div id="searchResults" class="search-results"></div>
+</div>
+  </div>
+
+
+  <!-- MENU -->
+  <div class="header-menu">
+
+    <nav id="menu">
       <ul class="menu-principal">
+
         <li><a href="index.html" class="active">Inicial</a></li>
 
-        <!-- Receitas -->
-
         <li class="has-mega">
-          <li class="has-mega">
-          <button class="submenu-btn"> Gastronomia</button>
+          <button class="submenu-btn">Gastronomia</button>
           <ul class="mega-menu">
-            <li><a href="menu-tradicional.html"> <span> Receitas Tradicionais</span></a></li>
-            <li><a href="menu-restritivas.html">🍬 <span>Receitas para restrições Alimentares</span></a></li>
+            <li><a href="menu-tradicional.html">Receitas Tradicionais</a></li>
+            <li><a href="menu-restritivas.html">Receitas para Restrições</a></li>
           </ul>
         </li>
 
-        <!-- Produtos -->
-        
         <li class="has-mega">
           <button class="submenu-btn">Produtos</button>
           <ul class="mega-menu">
-            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
-            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="ebooks.html">📚 Ebooks de Receitas</a></li>
+            <li><a href="produtos.html">📚 Dicas Nutricionais</a></li>
           </ul>
         </li>
 
-        <!-- Curiosidades e informação -->
-
-       <li class="has-mega">
-          <button class="submenu-btn"> Aprenda Mais +</button>
+        <li class="has-mega">
+          <button class="submenu-btn">Aprenda Mais</button>
           <ul class="mega-menu">
-            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
-            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
-            <li><a href="dicas-nutri.html">🖋️ Dicas de Cozinha</a></li>
-            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
+            <li><a href="verduras.html">Frutas</a></li>
+            <li><a href="Legumes-verde.html">Legumes e Verduras</a></li>
+            <li><a href="Artigos.html">Legumes e Verduras</a></li>
+            <li><a href="dicas-Cozinha.html">Dicas de Cozinha</a></li>
+            <li><a href="util-nutri.html">Utilidades</a></li>
           </ul>
         </li>
-
-        <!-- Colabore -->
 
         <li class="has-mega">
           <button class="submenu-btn">Colabore</button>
           <ul class="mega-menu">
-            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
-            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+            <li><a href="opiniao.html">Dê sua opinião</a></li>
+            <li><a href="form-receita.html">Envie sa ua receita</a></li>
           </ul>
         </li>
 
-        <!-- Favoritos e lista de compras-->
+        <!-- Área do usuário -->
         <li class="has-mega">
           <button class="submenu-btn">Área do Usuário</button>
           <ul class="mega-menu">
+            <li><a href="cadastro.html">Cadastre-se</a></li>
             <li><a href="favoritos.html">❤️ Favoritos</a></li>
-            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
+            <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
           </ul>
         </li>
-        
+
       </ul>
     </nav>
 
-   <!-- BUSCA -->
-   <div class="search-box">
-       <input type="search" id="searchInput" placeholder="Buscar receita...">
-
-      <!-- Resultados -->
-      <div id="searchResults" class="search-results"></div>
-      
   </div>
-  
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
 
-  
 </header>
 
+!-- HERO CAPA Atualizado 08/03/2026-->
+<section class="hero">
+  <h1>Descubra receitas saudáveis e deliciosas</h1>
+  <p>Dicas nutricionais, receitas especiais e muito mais.</p>
+
+  <!--
+  <div class="hero-search">
+    <input type="search" placeholder="Buscar receitas, ingredientes...">
+    <button> Buscar</button>
+  </div>
+  -->
+  
+</section>
 
 <main class="container receita">
    <!-- Breadcrumb -->
-      <div class="breadcrumbs" id="breadcrumbs"></div>
+      <nav class="breadcrumb" id="breadcrumb"></nav>
   
   <h1 id="titulo"></h1>
   
@@ -291,7 +295,9 @@
     <script src="js/receita.js" defer></script>
     <script src="js/premium.js" defer></script>
     <script src="js/favoritos.js" defer></script>
+    <script src="js/menu.js" defer></script>
     <script src="js/busca.js" defer></script>
+    <script src="js/buscaworker.js" defer></script>
    </body>
 
 </html>

@@ -94,7 +94,7 @@
     <!-- CONTEÚDO PRINCIPAL -->
    <div class="nutri__header">
       <h2>Fale cnosco</h2>
-      <p>Colabre enviando a sua receita preferida.</p>
+      <p>Colabore enviando a sua receita preferida.</p>
     </div>
 
     <section class="nutri__conteudo">
@@ -111,12 +111,12 @@
            <section class="nutri">
 
               <h2>Mande-nos a sua reeita preferida.💬</h2>
-              <p> <strong> Escreva abaixo, os igrediente e o modo de prepro e alguma obsservaçao que considerar importante e útil.</strong></p>
+              <p> <strong> Escreva abaixo, os igrediente, o modo de prepro, rendimento e as informações necessárias para publicarmos a sua receita.</strong></p>
 
               <form class="nutri__form" action="https://formspree.io/f/xjggkkwn"  method="POST" data-form="gratuito">
 
                   <label> Nome
-                      <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                      <input type="text" name="nome" placeholder="Digite seu nome ou apelido" required>
                    </label>
 
                    <label> Cidade e Estado                      <input type="text" name="cidade" placeholder="Digite o nome de sua cidade e estado aqui" required>
@@ -125,6 +125,37 @@
                     <label> E-mail
                       <input type="email" name="email" placeholder="Ex.: meumail@servidor.com.br" required>
                     </label>
+                    <div class="grade-linha"> 
+                      <div class="field-linha">  
+                        <label> Tempo de preparo da receita
+                          <textarea name="tempopreparoreceita" required placeholder=" 20 minutos."></textarea>
+                        </label>
+                      </div>
+                      <label> Tempo de preparo Forno/Geladeira
+                        <textarea name="tempopreparoroforno" required placeholder=" 50 min. forno ou geladeira."></textarea>
+                      </label>
+                      <label> Tempo de preparo Total
+                        <textarea name="tempopreparorototal" required placeholder=" 50 min. forno ou geladeira."></textarea>
+                      </label>
+                    </div>
+                    <label> Rendimento
+                        <textarea name="rendimento" required placeholder=" 4 porções."></textarea>
+                      </label>
+
+                      <label> Categoria
+                        <textarea name="categoria" required placeholder=" zero lactose, zero glúten, funcional..."></textarea>
+                      </label>
+
+                      <label> Custo médio para produzir
+                        <textarea name="custo" required placeholder=" Custa R$ 30"></textarea>
+                      </label>
+                       <label> Conservação
+                        <textarea name="custo" required placeholder="Pode consumir até 3 dias"></textarea>
+                      </label>
+
+                         <label> Dicas de substituições de ingredientes
+                        <textarea name="custo" required placeholder=" Pode substituit a farinha por ..."></textarea>
+                      </label>
 
                     <label> Ingredientes
                       <textarea name="ingredientes" required placeholder="Rx.: 1. 3 ovos 2. 1 xícara de farinha de trigo."></textarea>

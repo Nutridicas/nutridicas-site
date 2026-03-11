@@ -16,7 +16,7 @@
       "Sem Açúcar"
     ],
     "autor": {
-      "nome": "Portal NutriDicas",
+      "nome": "Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -57,7 +57,7 @@
           "rendimento": "10 fatias",
           "dificuldade": "Fácil",
           "custoMedio": "0.00",
-          "enviadaPor": "NutriDicas",
+          "enviadaPor": "Anônimo",
           "comoServir": "Quentinho com manteiga zero lactose",
           "miseEnPlace": [
             "Separe todos os ingredientes",
@@ -134,7 +134,7 @@
       "Sem açucar"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -252,7 +252,7 @@
       "Aniversário"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -351,7 +351,7 @@
       "Chocolate"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -447,7 +447,7 @@
       "Sem Açúcar"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -472,7 +472,7 @@
           "rendimento": "10 porções",
           "dificuldade": "Fácil",
           "custoMedio": "0.00",
-          "enviadaPor": "NutriMe",
+          "enviadaPor": "Anônimo",
           "comoServir": "Quente: ideal para cobrir bolos, panquecas, waffles ou sorvetes logo após pronto.Fria/gelada: fica mais espessa e encorpada — pode ser usada como recheio ou até como “brigadeiro de colher”.). ",
           "miseEnPlace": [
             "Separe todos os ingredientes",
@@ -557,7 +557,7 @@
       "Fit"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -598,7 +598,7 @@
           "rendimento": "6 porções",
           "dificuldade": "Fácil",
           "custoMedio": "0.00",
-          "enviadaPor": "Portal NutriMe",
+          "enviadaPor": "Portal Anônimo",
           "comoServir": "Sirva gelada em taças",
           "miseEnPlace": [
             "Separe todos os ingredientes",
@@ -670,7 +670,7 @@
       "Pavê"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -695,7 +695,7 @@
           "rendimento": "4 porções",
           "dificuldade": "Fácil",
           "custoMedio": "20.00",
-          "enviadaPor": "NutriMe",
+          "enviadaPor": "Anônimo",
           "comoServir": "Gelada em taças ou em potinhos",
           "miseEnPlace": [
             "-Lave bem os morangos e corte-os em fatias finas.",
@@ -784,7 +784,7 @@
       "Coco"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -927,7 +927,7 @@
       "massa"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -1051,7 +1051,7 @@
       "Sem Açúcar"
     ],
     "autor": {
-      "nome": "Portal NutriMe",
+      "nome": "Portal Anônimo",
       "credencial": "Gastronomia",
       "registro": null
     },
@@ -1076,7 +1076,7 @@
           "rendimento": "3 porções",
           "dificuldade": "Fácil",
           "custoMedio": "R$ 6,50",
-          "enviadaPor": "NutriMe",
+          "enviadaPor": "Anônimo",
           "comoServir": "Sirva em taças individuais ou bowls.  Ideal para sobremesa ou lanche da tarde",
           "miseEnPlace": [
             "Antes de iniciar o preparo, organize:",
@@ -1172,8 +1172,8 @@
     ],
     "imagem": "pizza-cheese.jpg",
     "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "26"
     },
     "avaliacoes": {
@@ -1203,7 +1203,7 @@
           "rendimento": "1 pizza média (aprox. 25–28 cm de diâmetro)",
           "dificuldade": "Fácil",
           "custoMedio": "R$ 16,00 a R$ 20,00",
-          "enviadaPor": "Portal NutriMe",
+          "enviadaPor": "Portal Anônimo",
           "comoServir": "Quente com seu recheio preferido",
           "miseEnPlace": [
             "Antes de começar, separe:",
@@ -1307,8 +1307,8 @@
     ],
     "imagem": "pao-frances.jpg",
     "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "26"
     },
     "avaliacoes": {
@@ -1338,7 +1338,7 @@
           "rendimento": "6 unidades",
           "dificuldade": "Média",
           "custoMedio": "Custo total aproximado: R$ 7,50 a R$ 9,00, por unidade: cerca de R$ 1,30 a R$ 1,50",
-          "enviadaPor": "Portal NutriDicas",
+          "enviadaPor": "Anônimo",
           "comoServir": "Quente com o seu recheio preferido",
           "miseEnPlace": [
             "Antes de começar organize a preparação. Isso leva cerca de 5 minutos e facilita muito o preparo.",
@@ -1458,8 +1458,8 @@
     ],
     "imagem": "maionese-vegana-2.jpg",
     "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "26"
     },
     "avaliacoes": {
@@ -1494,7 +1494,7 @@
           "rendimento": "Pote de 200 ml",
           "dificuldade": "Média, mas exige atenção ao processo de emulsificação.",
           "custoMedio": "Custo total aproximado: R$ 5,50 a R$ 6,90, ",
-          "enviadaPor": "Portal NutriMe",
+          "enviadaPor": "Portal Anônimo",
           "comoServir": "Gelada com um pão quentinho, torradas ou o que a sua imaginação permitir.",
           "miseEnPlace": [
             "Antes de começar Faça a medição dos ingredientes e reserve. A Organização leva cerca de 3 minutos e facilita muito o preparo. 1. Leite vegetal - 120 g",
@@ -1602,11 +1602,11 @@
     "rendimento": "aproximadamente 120 g (1/2 xícara)",
     "dificuldade": "Média",
     "custoMedio": "R$ 3,50 – R$ 4,00",
-    "enviadaPor": "Portal NutriMe",
+    "enviadaPor": "Portal Anônimo",
     "comoServir": "Quente ou frio com pão, massas e como molho",
     "autor": {
-      "nome": "Portal NutriMe",
-      "credencial": "Portal NutriMe",
+      "nome": "Portal Anônimo",
+      "credencial": "Portal Anônimo",
       "registro": "26/02/26"
     },
     "avaliacoes": {
@@ -1716,8 +1716,8 @@
     ],
     "imagem": "1772202646285-vegetables.jpg",
     "autor": {
-      "nome": "Portal NutriMe",
-      "credencial": "Portal NutriMe",
+      "nome": "Portal Anônimo",
+      "credencial": "Portal Anônimo",
       "registro": "27/02/26"
     },
     "avaliacoes": {
@@ -1859,8 +1859,8 @@
     ],
     "imagem": "1772205691232-Agua refescante.jpg",
     "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "27/02/26"
     },
     "avaliacoes": {
@@ -1884,7 +1884,7 @@
           "rendimento": "1 litro (aprox. 4 copos de 250 ml)",
           "dificuldade": "Muito Fácil",
           "custoMedio": "Aproximadamente R$ 18–25 ",
-          "enviadaPor": "NutriDicas",
+          "enviadaPor": "Anônimo",
           "comoServir": "•\tServir com gelo e folhas frescas para finalização. •\tIdeal para brunchs, coffee breaks, eventos corporativos e recepções. •\tPode ser envasada em garrafinhas de 250 ml para venda individual",
           "miseEnPlace": [
             "Higienizar hortelã e pepino.",
@@ -1976,8 +1976,8 @@
     ],
     "imagem": "1772303841197-sanduiche natural.jpg",
     "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "28/02/2026"
     },
     "avaliacoes": {
@@ -2018,7 +2018,7 @@
           "rendimento": "1 sanduíche",
           "dificuldade": "Muito Fácil",
           "custoMedio": "Em torno de R$ 6,00 a R$ 10,00 ",
-          "enviadaPor": "Portal NutriDicas",
+          "enviadaPor": "Anônimo",
           "comoServir": "Servir imediatamente para manter frescor, comer com ma bebida funcional",
           "miseEnPlace": [
             "Fatie os vegetais (tomate, pepino) em tamanhos finos para facilitar a montagem.",
@@ -2109,8 +2109,8 @@
     ],
     "imagem": "1772304909749-sanduiche-forma.jpg",
      "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "28/02/2026"
     },
     "avaliacoes": {
@@ -2128,7 +2128,7 @@
           "rendimento": "1 sanduíche",
           "dificuldade": "Muito Fácil",
           "custoMedio": "R$ 7,00 a R$ 11,00 por sanduíche",
-          "enviadaPor": "Portal NutriDicas",
+          "enviadaPor": "Anônimo",
           "comoServir": "Servir imediatemente com bebida funcional",
           "miseEnPlace": [
             "Amassar o abacate e temperar com limão e ervas frescas (salsinha, coentro).",
@@ -2213,8 +2213,8 @@
     ],
     "imagem": "1772307040793-pÃ£o-com-abacate.jpg",
     "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "28/02/2026"
     },
     "avaliacoes": {
@@ -2254,7 +2254,7 @@
           "rendimento": "150g de pastinha",
           "dificuldade": "Muito Fácil",
           "custoMedio": "R$ 5,00 a R$ 8,00 por porção ",
-          "enviadaPor": "Portal NutriDicas",
+          "enviadaPor": "Anônimo",
           "comoServir": "Servir como acompanhamento ou pasta para pão",
           "miseEnPlace": [
             "Cozinhar a cenoura até ficar macia.",
@@ -2344,8 +2344,8 @@
     ],
     "imagem": "1772308123425-humus-tigela.jpg",
     "autor": {
-      "nome": "Portal NutriDicas",
-      "credencial": "Portal NutriDicas",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "28/02/2026"
     },
     "avaliacoes": {
@@ -2363,7 +2363,7 @@
           "rendimento": "Aproximadamente 200 g (4 porções de 50 g)",
           "dificuldade": "Fácil",
           "custoMedio": "R$ 6,00 a R$ 10,00 ",
-          "enviadaPor": "Portal NutriDicas",
+          "enviadaPor": "Anônimo",
           "comoServir": "Servir como acompanhamento ou pasta para pão",
           "miseEnPlace": [
             "Cozinhar previamente o grão-de-bico.",

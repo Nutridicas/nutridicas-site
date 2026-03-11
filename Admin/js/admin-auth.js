@@ -10,18 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const resposta = await fetch("/login", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ senha })
       });
 
       if (resposta.ok) {
-        // ✅ Login correto → vai para dashboard
         window.location.href = "/dashboard";
       } else {
-        // ❌ Senha errada
-        document.getElementById("erro").style.display = "block";
+        alert("Senha inválida");
       }
 
     } catch (erro) {

@@ -1,187 +1,176 @@
-// atualizado em 12/02/26 - BUSCA PREMIUM NUTRICHEF 🔥
-//====================================================
-
 // ===============================================
-// 🔥 BUSCA MASTER NUTRIDICAS (TÍTULO + TAGS + INGREDIENTES)
+// BUSCA NUTRIDICAS ULTRA RÁPIDA - Compatível Chrome/Edge/Firefox
 // ===============================================
 
-document.addEventListener("DOMContentLoaded", () => {
-  const input = document.getElementById("searchInput");
-  const resultsContainer = document.getElementById("searchResults");
+const sinonimos = {
+  aipim: "mandioca",
+  macaxeira: "mandioca",
+  jerimum: "abobora",
+  mexerica: "tangerina",
+  bergamota: "tangerina",
+  frango: "galinha",
+  galinha: "frango"
+};
 
-  let receitasCache = [];
-  let selecionadoIndex = -1;
+let receitas = [];
+let indice = {};
+let palavras = [];
 
-  // ============================
-  // Escape RegExp
-  // ============================
-  function escapeRegExp(text) {
-    return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  }
-
-  // ============================
-  // Highlight termo
-  // ============================
-  function destacarTexto(texto, termo) {
-    if (!termo || !texto) return texto;
-
-    const safe = escapeRegExp(termo);
-    const regex = new RegExp(`(${safe})`, "gi");
-
-    return texto.replace(regex, "<mark>$1</mark>");
-  }
-
-  // ============================
-  // Cache: Atualizada em 02/03/2026 - Busca funcionar no chrome e edge
-  // ============================
-  async function carregarReceitas() {
-    if (receitasCache.length > 0) {
-  return JSON.parse(JSON.stringify(receitasCache));
+// =====================
+// NORMALIZAR
+// =====================
+function normalizar(txt) {
+  return (txt || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 }
 
-    const res = await fetch("/api/receitas");
-
-if (!res.ok) {
-  throw new Error("Erro ao buscar receitas");
+// =====================
+// TOKENIZAR
+// =====================
+function tokenizar(txt) {
+  return normalizar(txt)
+    .split(/[^a-z0-9]+/)
+    .filter(Boolean)
+    .map(p => sinonimos[p] || p);
 }
 
-const receitas = await res.json();
+// =====================
+// CARREGAR RECEITAS
+// =====================
+async function carregarReceitas() {
+  if (receitas.length) return;
 
-  // ============================
-  // Render dropdown - Atualizado 02/03/2026 - para busca funcionar
-  // no chrone e edge
-  // ============================
-  function exibirDropdown(lista, termo) {
-  selecionadoIndex = -1;
-
-  if (!lista.length) {
-    resultsContainer.innerHTML =
-      `<div class="search-item">Nenhuma receita encontrada 😢</div>`;
-    resultsContainer.classList.add("active");
-    return;
+  try {
+    const res = await fetch("/receitas-index.json"); // verifique se o JSON está em /api/receitas.json
+    if (!res.ok) throw new Error("JSON não encontrado");
+    receitas = await res.json();
+    criarIndice();
+  } catch (err) {
+    console.error("Erro ao carregar receitas:", err);
   }
+}
 
-  const html = lista.map(receita => {
-    const imgSrc = receita.imagem
-      ? `/imagens/receitas/${receita.imagem}`
-      : `/imagens/placeholder.jpg`;
+// =====================
+// CRIAR INDICE
+// =====================
+function criarIndice() {
+  indice = {};
 
-    return `
-      <div class="search-item" data-slug="${receita.slug}">
-        <img src="${imgSrc}" class="search-thumb">
-        <div>
-          <strong>${destacarTexto(receita.titulo, termo)}</strong><br>
-          <small>Categoria: ${destacarTexto(receita.categoria, termo)}</small>
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  resultsContainer.innerHTML = html;
-  resultsContainer.classList.add("active");
-
-  document.querySelectorAll(".search-item").forEach(item => {
-    item.addEventListener("click", () => {
-      const slug = item.dataset.slug;
-      window.location.href = `/receitas/${slug}`;
+  receitas.forEach(r => {
+    const texto = `${r.t} ${r.c} ${r.i} ${r.g}`;
+    const tokens = tokenizar(texto);
+    tokens.forEach(p => {
+      if (!indice[p]) indice[p] = new Set();
+      indice[p].add(r);
     });
   });
+
+  palavras = Object.keys(indice);
 }
 
-  // ============================
-  // Busca avançada
-  // ============================
-  function filtrarReceitas(receitas, termo) {
-    return receitas.filter((r) => {
-      const tituloMatch = r.titulo?.toLowerCase().includes(termo);
+// =====================
+// BUSCA
+// =====================
+function buscar(termo) {
+  const tokens = tokenizar(termo);
+  let resultados = [];
 
-      //const categoriaMatch = r.categoria?.some((c) =>
-     //   c.toLowerCase().includes(termo)
-     // );
+  tokens.forEach(t => {
+    if (indice[t]) {
+      resultados.push(...indice[t]);
+    } else {
+      const corr = corrigir(t);
+      if (indice[corr]) resultados.push(...indice[corr]);
+    }
+  });
 
-      const categoriaMatch = r.categoria
-      ?.toLowerCase()
-      .includes(termo);
+  const unicos = [...new Map(resultados.map(r => [r.s, r])).values()];
+  return rankear(unicos, tokens);
+}
 
-      const tagsMatch = r.tags?.some((t) =>
-        t.toLowerCase().includes(termo)
-      );
+// =====================
+// RANKING
+// =====================
+function rankear(lista, tokens) {
+  return lista
+    .map(r => {
+      let score = 0;
+      const texto = normalizar(`${r.t} ${r.c} ${r.i} ${r.g}`);
+      tokens.forEach(t => {
+        if (texto.includes(t)) score++;
+      });
+      return { ...r, score };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 20);
+}
 
-     const ingredientesMatch = r.ingredientes?.some((ing) =>
-        ing.toLowerCase().includes(termo)
-      );
+// =====================
+// AUTOCOMPLETE
+// =====================
+function sugestoes(termo) {
+  termo = normalizar(termo);
+  return palavras.filter(p => p.startsWith(termo)).slice(0, 6);
+}
 
-     //busca por autor e enviada por 02/03/2026
-    const autorMatch = r.autor?.nome?.toLowerCase().includes(termo) || 
-        r.autor?.enviadaPor?.toLowerCase().includes(termo);
-  
-    const avaliacaoMatch = parseFloat(r.avaliacoes?.media) >= 4;               
+// =====================
+// CORREÇÃO DE DIGITAÇÃO
+// =====================
+function corrigir(t) {
+  let melhor = t;
+  let menor = 999;
+  palavras.forEach(p => {
+    const d = lev(t, p);
+    if (d < menor && d <= 2) {
+      menor = d;
+      melhor = p;
+    }
+  });
+  return melhor;
+}
 
-  //busca por autor e enviada por 02/03/2026
- const dificuldadeMatch = r.dificuldade?.toLowerCase().includes(termo);
-
-        // atualizado em 02/03/26
-     return tituloMatch || categoriaMatch || tagsMatch || ingredientesMatch || autorMatch || avaliacaoMatch || dificuldadeMatch;
-    });
-    
+// =====================
+// LEVENSHTEIN
+// =====================
+function lev(a, b) {
+  const m = [];
+  for (let i = 0; i <= b.length; i++) m[i] = [i];
+  for (let j = 0; j <= a.length; j++) m[0][j] = j;
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      m[i][j] =
+        b[i - 1] === a[j - 1]
+          ? m[i - 1][j - 1]
+          : Math.min(m[i - 1][j - 1] + 1, m[i][j - 1] + 1, m[i - 1][j] + 1);
+    }
   }
+  return m[b.length][a.length];
+}
 
-  // ============================
-  // Evento input
-  // ============================
-  input.addEventListener("input", async (e) => {
-    const termo = e.target.value.trim().toLowerCase();
+// =====================
+// EVENTO DO CAMPO DE BUSCA
+// =====================
+document.addEventListener("DOMContentLoaded", () => {
+  const campo = document.getElementById("searchInput");
+  const resultados = document.getElementById("searchResults");
 
-    if (termo.length < 2) {
-      resultsContainer.classList.remove("active");
-      resultsContainer.innerHTML = "";
+  campo.addEventListener("input", async e => {
+    const termo = e.target.value;
+    if (!termo) {
+      resultados.innerHTML = "";
       return;
     }
 
-    const receitas = await carregarReceitas();
-    const filtrados = filtrarReceitas(receitas, termo);
+    await carregarReceitas();
+    const lista = buscar(termo);
 
-    exibirDropdown(filtrados, termo);
-  });
-
-  // ============================
-  // Teclado ↑ ↓ Enter
-  // ============================
-  input.addEventListener("keydown", (e) => {
-    const items = resultsContainer.querySelectorAll(".search-item");
-    if (!items.length) return;
-
-    if (e.key === "ArrowDown") {
-      selecionadoIndex = (selecionadoIndex + 1) % items.length;
-    }
-
-    if (e.key === "ArrowUp") {
-      selecionadoIndex =
-        (selecionadoIndex - 1 + items.length) % items.length;
-    }
-
-    items.forEach((el) => el.classList.remove("selected"));
-
-    if (selecionadoIndex >= 0) {
-      items[selecionadoIndex].classList.add("selected");
-    }
-
-    if (e.key === "Enter") {
-        const termo = input.value.trim();
-
-        if (termo.length < 2) return;
-
-        window.location.href = `buscar.html?q=${encodeURIComponent(termo)}`;
-      }
-  });
-
-  // ============================
-  // Clique fora fechar
-  // ============================
-  document.addEventListener("click", (e) => {
-    if (!input.contains(e.target) && !resultsContainer.contains(e.target)) {
-      resultsContainer.classList.remove("active");
-    }
+    resultados.innerHTML = lista
+      .slice(0, 10)
+      .map(
+        r => `<a href="receita.html?slug=${r.s}" class="resultado-item">${r.t}</a>`
+      )
+      .join("");
   });
 });
-

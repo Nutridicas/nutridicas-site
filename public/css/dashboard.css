@@ -69,7 +69,7 @@
 
 /* =================================
     Para o dashboard
-    ================================*/
+ ================================*/
 
 .tab {
   display: none;
@@ -106,6 +106,127 @@
   border-radius: 12px;
 }
 
+/*========================
+  Apresenta as receitas relacionadas
+  Inseridas em 04/03/2026
+===========================*/
 
+.sugestoesRelacionadas{
+  background:#fff;
+  border:1px solid #ccc;
+  max-height:150px;
+  overflow:auto;
+  position:relative;
+}
 
+.sugestao-item{
+  padding:6px;
+  cursor:pointer;
+}
 
+.sugestao-item:hover{
+  background:#f0f0f0;
+}
+
+/*========================
+  Cards das sugestões das relacionadas
+  Inserida em 04/03/2026
+  =======================*/
+
+ .cardSugestao {
+  display:flex;
+  gap:10px;
+  align-items:center;
+  border:1px solid #ddd;
+  padding:8px;
+  margin-bottom:6px;
+  border-radius:6px;
+}
+
+.cardSugestao img {
+  width:60px;
+  height:60px;
+  object-fit:cover;
+  border-radius:6px;
+}
+
+.cardSugestao .infoSugestao {
+  flex-grow:1;
+}
+
+.cardSugestao button {
+  padding:4px 8px;
+  cursor:pointer;
+}
+
+/*====================
+listar receitas - Inserida 07/03/2026
+=============*/
+
+#listaReceitas li{
+cursor:pointer;
+padding:8px;
+border-bottom:1px solid #ddd;
+}
+
+#listaReceitas li:hover{
+background:#f5f5f5;
+}
+
+.status-publicado{
+background:#c9f7d1;
+padding:3px 6px;
+border-radius:6px;
+margin-left:10px;
+font-size:12px;
+}
+
+.status-rascunho{
+background:#ffe6a7;
+padding:3px 6px;
+border-radius:6px;
+margin-left:10px;
+font-size:12px;
+}
+
+/*===============
+ Relacionadas - Insserida 07/03/2026
+ ==============*/
+
+#sugestoesRelacionadas div{
+padding:6px;
+cursor:pointer;
+border-bottom:1px solid #eee;
+}
+
+#sugestoesRelacionadas div:hover{
+background:#f5f5f5;
+}
+
+#listaRelacionadas li{
+margin:5px 0;
+}
+
+/*==================
+Novo layout do editor de receitas - 08/03/2026 01h19m
+*/
+.linhaIngrediente,
+.linhaPreparo{
+
+display:flex;
+gap:10px;
+margin-bottom:6px;
+
+}
+
+.linhaIngrediente input{
+
+flex:1;
+
+}
+
+.linhaPreparo textarea{
+
+flex:1;
+
+}

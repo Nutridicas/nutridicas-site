@@ -155,29 +155,55 @@ if (receita.relacionadas && listaRelacionadas) {
 }
 
   // ===============================
-  // BREADCRUMB
+  // BREADCRUMB - Atualizada 06/03/2026
   // ===============================
-  const breadcrumbs = document.getElementById("breadcrumbs");
+  function gerarBreadcrumb(receita){
 
+  const container = document.getElementById("breadcrumb");
 
-    if (breadcrumbs) {
-    breadcrumbs.innerHTML = 
-        '<a href="index.html">Início</a> › ' +
-        '<a href="receita.html?cat=' + receita.categoria + '">' +
-        conteudo.categoria +
-        '</a> › ' +
-        "<span>" + receita.titulo + "</span>";
+  const versao = receita.versoes[0];
+  const categoria = versao.conteudo.categoria;
+  const subcategoria = versao.conteudo.subcategoria || null;
+  const titulo = receita.titulo;
 
-    }
+  function slugify(texto){
+    return texto
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g,"")
+      .replace(/\s+/g,"-");
+  }
 
+  const categoriaSlug = slugify(categoria);
 
-  /*if (breadcrumbs) {
-    breadcrumbs.innerHTML = `
-      <a href="index.html">Início</a> >
-      <a href="menu-tradicional.html">${receita.categoria || ""}</a> >
-      <span>${receita.titulo}</span>
+  let breadcrumbHTML = `
+    <a href="/">Início</a>
+    <span> › </span>
+    <a href="/categoria.html?cat=${categoriaSlug}">
+      ${categoria}
+    </a>
+  `;
+
+  if(subcategoria){
+
+    const subcategoriaSlug = slugify(subcategoria);
+
+    breadcrumbHTML += `
+      <span> › </span>
+      <a href="/categoria.html?cat=${categoriaSlug}&sub=${subcategoriaSlug}">
+        ${subcategoria}
+      </a>
     `;
-  }*/
+  }
+
+  breadcrumbHTML += `
+    <span> › </span>
+    <span class="current">${titulo}</span>
+  `;
+
+  container.innerHTML = breadcrumbHTML;
+
+}
 
   // ===============================
   // SISTEMA DE ESTRELAS
