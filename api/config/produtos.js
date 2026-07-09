@@ -10,7 +10,7 @@ module.exports = {
   },
 
   ebook: {
-    title: "Ebook Nutrichef",
+    title: "Ebook NutriDicas",
     price: 47
   },
 

@@ -1,0 +1,2749 @@
+{
+   "Abacaxi":{
+      "slug":"abacaxi",
+      "dataInclusao":"2026-05-17",
+      "nomeCientifico":"Ananas comosus",
+      "familia":"Bromeliaceae",
+      "imagem":"abacaxi.jpg",
+      "descricao":[
+         "O abacaxi é uma fruta tropical rica em nutrientes, apreciada pelo seu sabor doce e acidez característica.",
+         "Sua casca espinhosa guarda uma polpa suculenta amplamente consumida in natura, em sucos, doces e chás.",
+         "Destaca-se como excelente fonte de vitamina C, vitaminas do complexo B e vitamina A.",
+         "Fornece quantidades significativas de minerais como manganês, magnésio, potássio, cálcio e ferro.",
+         "Contém bromelina, uma poderosa enzima que auxilia na digestão e possui propriedades anti-inflamatórias."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"48 kcal",
+         "carboidratos":"12.3g",
+         "proteinas":"0.5g",
+         "gorduras":"0.1g",
+         "fibras":"1.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Essencial para a visão, saúde da pele e fortalecimento do sistema imune.",
+            "vitamina B":"Atua no metabolismo energético, sistema nervoso e regulação celular (B1, B2, B3, B5, B6 e B9).",
+            "vitamina C":"Poderoso antioxidante que melhora a imunidade e auxilia na absorção do ferro vegetal.",
+            "vitamina D":"",
+            "vitamina E":"Presente em traços, auxilia na proteção celular contra radicais livres.",
+            "vitamina K":"Atua de forma sutil na regulação da coagulação sanguínea."
+         },
+         "saisMinerais":{
+            "calcio":"Importante para a manutenção e integridade dos ossos e dentes.",
+            "cobre":"Auxilia na produção de energia e na formação do tecido conjuntivo.",
+            "fosforo":"Atua em conjunto com o cálcio na mineralização óssea.",
+            "sodio":"Presente em baixas quantidades, ideal para o controle da pressão arterial.",
+            "potassio":"Essencial para o equilíbrio osmótico e contração muscular.",
+            "magnesio":"Promove o relaxamento muscular, melhora o sono, o humor e protege o sistema cardiovascular.",
+            "ferro":"Mineral essencial no transporte de oxigênio pelo organismo.",
+            "selenio":"Ação antioxidante que protege as células contra danos.",
+            "zinco":"Fundamental para o sistema imunológico e cicatrização.",
+            "iodo":"Atua no suporte indireto à função tireoidiana.",
+            "fluor":"Auxilia na proteção da saúde bucal."
+         }
+      },
+      "beneficios":[
+         "Saúde cardiovascular: Ajuda a regular a pressão arterial e previne doenças do coração.",
+         "Ação anti-inflamatória: A bromelina combate inflamações e reduz dores articulares.",
+         "Digestão eficiente: Auxilia na quebra de proteínas, diminuindo o inchaço e a azia.",
+         "Fortalecimento da imunidade: A alta dose de vitamina C protege o corpo contra infecções."
+      ],
+      "comoUsar":[
+         "Pratos salgados: Combina com carnes assadas, frango grelhado, peixes e vinagretes.",
+         "Sobremesas e doces: Usado em pavês, mousses, bolos invertidos e assado com canela.",
+         "Bebidas: Ideal para sucos com hortelã, smoothies e chás aromáticos utilizando a casca.",
+         "Saladas: Traz acidez e frescor quando misturado a folhas verdes e queijos brancos."
+      ],
+      "contraindicacoes":[
+         "Pessoas com gastrite, úlceras e refluxo gastroesofágico devido à alta acidez.",
+         "Indivíduos com diabetes descompensada pelo teor de açúcares naturais.",
+         "Pessoas com alergia ao látex devido ao risco de reatividade cruzada.",
+         "Usuários crônicos de medicamentos anticoagulantes pela ação da bromelina.",
+         "Mulheres com fluxo menstrual muito intenso, pois pode haver aumento do sangramento."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 a 2 fatias diárias (cerca de 150g a 200g).",
+         "Esta quantidade garante o aporte de nutrientes sem causar desconfortos estomacais."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Mousse de abacaxi",
+            "slug":"mousse-de-abacaxi",
+            "imagem":"mousse-abacaxi.jpg",
+            "credito":"Total Pass",
+            "urlOrigem":"https://totalpass.com/br/blog/alimentacao/receitas-com-abacaxi-5-opcoes/"
+         },
+         {
+            "nome":"Suco de abacaxi com hortelã e gengibre",
+            "slug":"suco-abacaxi-hortela-gengibre",
+            "imagem":"suco-abacaxi.jpg",
+            "credito":"Total Pass",
+            "urlOrigem":"https://totalpass.com/br/blog/alimentacao/receitas-com-abacaxi-5-opcoes/"
+         }
+      ]
+   },
+   "Banana":{
+      "slug":"banana",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Musa acuminata",
+      "familia":"Musaceae",
+      "imagem":"banana.jpg",
+      "descricao":[
+         "A banana é uma das frutas mais consumidas no mundo, conhecida por sua praticidade, sabor doce e textura macia.",
+         "É uma excelente fonte de energia de rápida absorção, sendo ideal para praticantes de atividades físicas.",
+         "Destaca-se pelo alto teor de potássio, vitaminas do complexo B, vitamina C e fibras solúveis.",
+         "Contém triptofano, um aminoácido essencial que atua diretamente na regulação do humor e do bem-estar."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"89 kcal",
+         "carboidratos":"22.8g",
+         "proteinas":"1.1g",
+         "gorduras":"0.3g",
+         "fibras":"2.6g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Contribui moderadamente para a saúde visual e integridade celular.",
+            "vitamina B":"Rica em vitamina B6, essencial para o metabolismo de proteínas e produção de neurotransmissores.",
+            "vitamina C":"Oferece suporte antioxidante e auxilia no fortalecimento do sistema imune.",
+            "vitamina D":"",
+            "vitamina E":"Presente em pequenas quantidades, oferecendo proteção antioxidante leve.",
+            "vitamina K":"Atua de forma sutil nos processos de coagulação sanguínea."
+         },
+         "saisMinerais":{
+            "calcio":"Fornece suporte básico para a manutenção dos tecidos ósseos.",
+            "cobre":"Auxilia no metabolismo do ferro e na manutenção dos vasos sanguíneos.",
+            "fosforo":"Atua junto ao cálcio na regulação do estoque de energia celular.",
+            "sodio":"Teor extremamente baixo, excelente para dietas de controle de hipertensão.",
+            "potassio":"Altíssima concentração, fundamental para o equilíbrio hídrico e contração muscular.",
+            "magnesio":"Importante para evitar cãibras, regular a pressão arterial e relaxar a musculatura.",
+            "ferro":"Contribui para a prevenção da anemia e transporte de oxigênio.",
+            "selenio":"Presente em traços, com sutil ação antioxidante.",
+            "zinco":"Auxilia na síntese proteica e no suporte imunológico.",
+            "iodo":"Presença negligenciável na polpa.",
+            "fluor":"Oferece suporte básico à integridade do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Prevenção de cãibras: O potássio e o magnésio garantem o bom funcionamento dos músculos.",
+         "Melhora do humor: O triptofano estimula a produção de serotonina, combatendo o estresse.",
+         "Saúde digestiva: As fibras ajudam a regular o intestino e protegem a mucosa estomacal.",
+         "Energia rápida: Carboidratos de fácil digestão, excelentes para o consumo antes do treino."
+      ],
+      "comoUsar":[
+         "In natura: Consumida pura como um lanche prático e rápido para o dia a dia.",
+         "Café da manhã: Adicionada a cereais, aveia, panquecas saudáveis e iogurtes.",
+         "Vitaminas e smoothies: Combina perfeitamente com leite, batida com outras frutas ou whey protein.",
+         "Sobremesas saudáveis: Usada para fazer bolos sem açúcar, frita com canela ou em sorvetes caseiros."
+      ],
+      "contraindicacoes":[
+         "Pessoas com insuficiência renal crônica devem controlar o consumo devido ao alto teor de potássio.",
+         "Diabéticos devem consumir com moderação, preferindo frutos menos maduros (menor índice glicêmico)."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 a 2 unidades médias por dia (cerca de 100g a 200g).",
+         "Essa quantidade fornece energia calórica adequada sem exceder a meta diária de carboidratos."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Bolo de banana fit com aveia",
+            "slug":"bolo-de-banana-fit",
+            "imagem":"bolo-banana.jpg",
+            "credito":"TudoGostoso",
+            "urlOrigem":"https://tudogostoso.com.br"
+         }
+      ]
+   },
+   "Morango":{
+      "slug":"morango",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Fragaria x ananassa",
+      "familia":"Rosaceae",
+      "imagem":"morango.jpg",
+      "descricao":[
+         "O morango é uma fruta vermelha pseudofruto, amplamente cultivada pelo seu aroma e sabor levemente ácido.",
+         "Possui pouquíssimas calorias e uma carga glicêmica muito baixa, sendo um aliado em dietas de emagrecimento.",
+         "É extremamente rico em antioxidantes, como as antocianinas, que conferem sua cor vermelha vibrante.",
+         "Fornece excelentes quantidades de vitamina C, silício, potássio e ácido fólico."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"32 kcal",
+         "carboidratos":"7.7g",
+         "proteinas":"0.7g",
+         "gorduras":"0.3g",
+         "fibras":"2.0g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Baixa concentração, mas atua no suporte celular periférico.",
+            "vitamina B":"Boa fonte de vitamina B9 (ácido fólico), essencial para a divisão celular.",
+            "vitamina C":"Teor altíssimo, superando a laranja em proporção por porção de 100g.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que protegem as membranas celulares.",
+            "vitamina K":"Atua de forma leve na cascata de coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui para as funções estruturais do organismo.",
+            "cobre":"Auxilia na absorção do ferro e na imunidade.",
+            "fosforo":"Participa na manutenção do equilíbrio ácido-base do corpo.",
+            "sodio":"Quantidade mínima, ideal para prevenção de retenção de líquidos.",
+            "potassio":"Ajuda a neutralizar os efeitos do sódio no sistema circulatório.",
+            "magnesio":"Dá suporte aos processos enzimáticos e relaxamento vascular.",
+            "ferro":"Absorvido de forma mais eficiente devido à alta presença de vitamina C na fruta.",
+            "selenio":"Aliado antioxidante contra o envelhecimento celular.",
+            "zinco":"Fortalece os tecidos celulares e acelera processos de cicatrização.",
+            "iodo":"Apenas traços insignificantes.",
+            "fluor":"Oferece suporte à saúde bucal estrutural."
+         }
+      },
+      "beneficios":[
+         "Combate ao envelhecimento: Os antioxidantes neutralizam radicais livres na pele e órgãos.",
+         "Controle do peso: Alta densidade de nutrientes com baixo valor calórico.",
+         "Saúde da pele: A vitamina C estimula a produção natural de colágeno.",
+         "Proteção cerebral: As antocianinas ajudam a reduzir a perda de memória e declínio cognitivo."
+      ],
+      "comoUsar":[
+         "In natura: Consumido cru, inteiro ou picado, purificando o paladar.",
+         "Saladas: Combina perfeitamente em saladas de folhas verdes com queijo gorgonzola ou de cabra.",
+         "Sobremesas: Base para geleias caseiras, caldas, tortas, bolos e fondue de chocolate amargo.",
+         "Bebidas: Utilizado em sucos, águas aromatizadas, smoothies e coquetéis."
+      ],
+      "contraindicacoes":[
+         "Pessoas com propensão a cálculos renais (oxalatados), pois o morango contém oxalatos.",
+         "Indivíduos com alergia severa a frutos da família Rosaceae."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 xícara de morangos por dia (cerca de 150g).",
+         "Priorizar morangos orgânicos sempre que possível devido ao histórico de defensivos agrícolas na cultura tradicional."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Geleia de morango funcional sem açúcar",
+            "slug":"geleia-de-morango-funcional",
+            "imagem":"geleia-morango.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "Laranja":{
+      "slug":"laranja",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Citrus sinensis",
+      "familia":"Rutaceae",
+      "imagem":"laranja.jpg",
+      "descricao":[
+         "A laranja é uma fruta cítrica mundialmente famosa pelo seu suco refrescante e alto teor de vitamina C.",
+         "Consumida com o bagaço, torna-se uma excelente fonte de fibras que auxiliam o trato intestinal.",
+         "Contém flavonoides com forte ação antioxidante e anti-inflamatória.",
+         "É altamente hidratante, composta por cerca de 86% de água em sua estrutura polpar."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"47 kcal",
+         "carboidratos":"11.8g",
+         "proteinas":"0.9g",
+         "gorduras":"0.1g",
+         "fibras":"2.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Fornece carotenoides que se convertem em vitamina A no organismo.",
+            "vitamina B":"Contém tiamina e folato, importantes para o sistema nervoso e celular.",
+            "vitamina C":"Referência em vitamina C, cobrindo quase toda a meta diária recomendada em uma unidade.",
+            "vitamina D":"",
+            "vitamina E":"Oferece uma barreira antioxidante celular complementar.",
+            "vitamina K":"Presença mínima e sem impacto expressivo."
+         },
+         "saisMinerais":{
+            "calcio":"Apresenta boa biodisponibilidade para uma fonte de origem vegetal.",
+            "cobre":"Auxilia na manutenção do sistema imunológico corporal.",
+            "fosforo":"Atua na regulação do metabolismo de carboidratos.",
+            "sodio":"Quantidade nula para fins práticos dietéticos.",
+            "potassio":"Ajuda a reduzir a pressão arterial e previne a retenção de líquidos.",
+            "magnesio":"Garante o equilíbrio das funções celulares cardíacas.",
+            "ferro":"Potencializado pela alta acidez e presença de vitamina C da fruta.",
+            "selenio":"Atua em sinergia com as vitaminas na proteção celular.",
+            "zinco":"Dá suporte estrutural às defesas orgânicas.",
+            "iodo":"",
+            "fluor":"Oferece suporte básico à proteção dos dentes."
+         }
+      },
+      "beneficios":[
+         "Imunidade blindada: Estimula a produção de glóbulos brancos, defendendo o corpo.",
+         "Funcionamento intestinal: O bagaço limpa as paredes do intestino e combate a prisão de ventre.",
+         "Redução do colesterol: As fibras solúveis reduzem a absorção de gorduras ruins no intestino.",
+         "Combate a anemias: Facilita a absorção do ferro presente em vegetais (como feijão e espinafre)."
+      ],
+      "comoUsar":[
+         "In natura: Consumida descascada, preferencialmente com o bagaço para aproveitar as fibras.",
+         "Sucos: Espremida pura ou combinada com cenoura, beterraba, couve ou gengibre.",
+         "Molhos e carnes: O suco é usado para marinar e temperar carnes suínas, aves e fazer molhos cítricos.",
+         "Raspas da casca: Utilizadas para aromatizar bolos, biscoitos, cafés e drinks."
+      ],
+      "contraindicacoes":[
+         "Pessoas com refluxo severo ou esofagite podem sentir desconforto devido à acidez cítrica.",
+         "O suco coado deve ser evitado em excesso por diabéticos, pois perde as fibras e concentra o açúcar rápida livre."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 unidade inteira com bagaço por dia.",
+         "Evitar substituir a fruta inteira por copos grandes de suco coado de forma contínua."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Bolo de laranja integral de liquidificador",
+            "slug":"bolo-de-laranja-integral",
+            "imagem":"bolo-laranja.jpg",
+            "credito":"Panelinha",
+            "urlOrigem":"https://panelinha.com.br"
+         }
+      ]
+   },
+   "Acai":{
+      "slug":"acai",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Euterpe oleracea",
+      "familia":"Arecaceae",
+      "imagem":"",
+      "descricao":[
+         "O açaí é o fruto de uma palmeira amazônica, mundialmente conhecido por seu altíssimo valor energético e antioxidante.",
+         "Sua polpa escura possui um sabor terroso característico e é consumida de formas muito distintas dependendo da região.",
+         "Destaca-se pela presença massiva de antocianinas, gorduras saudáveis (ômega 6 e 9) e baixo teor de açúcar natural na polpa pura.",
+         "É um excelente alimento para a recuperação muscular e combate ao estresse oxidativo celular."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"60 kcal",
+         "carboidratos":"4.0g",
+         "proteinas":"1.2g",
+         "gorduras":"5.0g",
+         "fibras":"2.6g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Excelente concentração na polpa, essencial para a saúde ocular e renovação celular.",
+            "vitamina B":"Boa presença de vitaminas B1 e B2, fundamentais para a geração de energia celular.",
+            "vitamina C":"Apresenta teor moderado, atuando em sinergia com os outros antioxidantes.",
+            "vitamina D":"",
+            "vitamina E":"Rica em vitamina E, um potente protetor contra o envelhecimento das células.",
+            "vitamina K":"Atua de forma muito sutil nos processos circulatórios básicos."
+         },
+         "saisMinerais":{
+            "calcio":"Teor expressivo para um fruto, auxiliando na manutenção da massa óssea.",
+            "cobre":"Atua na proteção do sistema cardiovascular e imunológico.",
+            "fosforo":"Importante aliado na ativação das vitaminas do complexo B.",
+            "sodio":"Baixíssimo teor natural, ideal para o equilíbrio osmótico.",
+            "potassio":"Ajuda a regular os fluidos corporais e a função muscular.",
+            "magnesio":"Auxilia na contração muscular e reduz os sintomas de cansaço físico.",
+            "ferro":"Possui ferro de origem vegetal, cuja absorção é otimizada se consumido com vitamina C.",
+            "selenio":"Ação antioxidante que protege o sistema imune e a tireoide.",
+            "zinco":"Fortalece as defesas biológicas e atua na regeneração de tecidos.",
+            "iodo":"Apenas traços residuais.",
+            "fluor":"Presença mínima sem impacto significativo."
+         }
+      },
+      "beneficios":[
+         "Ação antioxidante extrema: Reduz os radicais livres, retardando o envelhecimento celular.",
+         "Saúde do coração: As gorduras monoinsaturadas ajudam a controlar os níveis de colesterol ruim (LDL).",
+         "Energia duradoura: Fornece calorias saudáveis ideais para atletas e treinos intensos.",
+         "Combate à inflamação: Seus polifenóis auxiliam na redução de inflamações crônicas no organismo."
+      ],
+      "comoUsar":[
+         "Pratos salgados: Na região Norte do Brasil, é consumido puro e morno acompanhando peixe frito ou camarão.",
+         "Tijelas e smoothies: Nas demais regiões, come-se a polpa congelada batida com frutas, xaropes ou guaraná.",
+         "Molhos finos: Reduções de açaí são utilizadas na alta gastronomia para acompanhar carnes de caça.",
+         "Cosméticos: O óleo extraído do fruto é amplamente utilizado na indústria de beleza para cabelos e pele."
+      ],
+      "contraindicacoes":[
+         "Diabéticos e pessoas em dietas restritivas devem evitar os xaropes e açúcares adicionados ao açaí comercial.",
+         "O consumo excessivo de misturas calóricas de açaí industrializado pode levar ao ganho de peso acelerado."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 100g a 150g de polpa pura de açaí por dia.",
+         "Dar preferência à polpa natural e sem adição de açúcares para usufruir dos benefícios reais."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Bowl de açaí puro batido com banana e morango",
+            "slug":"bowl-de-acai-com-frutas",
+            "imagem":"bowl-acai.jpg",
+            "credito":"Globo Esporte",
+            "urlOrigem":"https://globo.com"
+         }
+      ]
+   },
+   "Cupuacu":{
+      "slug":"cupuacu",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Theobroma grandiflorum",
+      "familia":"Malvaceae",
+      "imagem":"",
+      "descricao":[
+         "O cupuaçu é uma fruta amazônica parente próxima do cacau, famosa por seu aroma extremamente forte e agradável.",
+         "Sua polpa branca e cremosa possui um sabor azedo e marcante, muito valorizado na culinária e confeitaria.",
+         "Contém polifenóis únicos chamados teograndinas, além de ser rico em fibras e vitamina C.",
+         "Sua semente é utilizada para a fabricação de uma gordura semelhante à manteiga de cacau, chamada 'cupulate'."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"72 kcal",
+         "carboidratos":"14.7g",
+         "proteinas":"0.8g",
+         "gorduras":"1.0g",
+         "fibras":"1.6g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presente na forma de carotenoides, dando suporte à barreira celular da pele.",
+            "vitamina B":"Contém vitaminas B1, B2 e B3 que atuam diretamente no metabolismo dos carboidratos.",
+            "vitamina C":"Ótima fonte de vitamina C, auxiliando o sistema imunológico contra infecções.",
+            "vitamina D":"",
+            "vitamina E":"Presente nas sementes e gorduras naturais da fruta, agindo na proteção da pele.",
+            "vitamina K":"Presença nula na polpa consumível."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui para as funções estruturais do esqueleto.",
+            "cobre":"Auxilia na síntese de hemoglobina e colágeno.",
+            "fosforo":"Atua na produção de ATP, a molécula de energia do corpo.",
+            "sodio":"Quantidade irrelevante na polpa.",
+            "potassio":"Excelente concentração, auxiliando no controle da retenção líquida.",
+            "magnesio":"Dá suporte ao sistema nervoso e diminui o cansaço mental.",
+            "ferro":"Presença moderada que atua na oxigenação celular.",
+            "selenio":"Traços que auxiliam na barreira antioxidante celular.",
+            "zinco":"Atua diretamente nos processos inflamatórios de cura e cicatrização.",
+            "iodo":"",
+            "fluor":"Suporte básico microestrutural."
+         }
+      },
+      "beneficios":[
+         "Estímulo sem cafeína: Fornece energia e melhora o foco sem causar a ansiedade do café.",
+         "Melhora intestinal: Suas fibras solúveis ajudam no trânsito intestinal e aumentam a saciedade.",
+         "Proteção celular: Os fitonutrientes combatem danos celulares causados por poluição e estresse.",
+         "Hidratação tecidual: A manteiga extraída ajuda a reter a umidade natural das células externas."
+      ],
+      "comoUsar":[
+         "Doces de colher: Muito utilizado na fabricação de geleias, compotas, sorvetes, mousses e bombons.",
+         "Bebidas: Sucos cremosos batidos com leite ou água, além de licores artesanais.",
+         "Cosméticos: A manteiga de cupuaçu é ingrediente nobre em hidratantes corporais e protetores labiais.",
+         "Doces finos: Suas sementes torradas viram o 'cupulate', um chocolate alternativo sem cafeína."
+      ],
+      "contraindicacoes":[
+         "Gestantes e lactantes devem consumir com bom senso, pois compostos bioativos da fruta são muito concentrados.",
+         "Por requerer bastante açúcar no preparo de doces devido à sua acidez, diabéticos devem ter cautela."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 100g de polpa natural por dia.",
+         "Evitar o consumo diário de doces ultraprocessados à base de cupuaçu devido ao açúcar refinado."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Creme de cupuaçu clássico da Amazônia",
+            "slug":"creme-de-cupuacu-classico",
+            "imagem":"creme-cupuacu.jpg",
+            "credito":"Gshow Receitas",
+            "urlOrigem":"https://globo.com"
+         }
+      ]
+   },
+   "Jabuticaba":{
+      "slug":"jabuticaba",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Plinia cauliflora",
+      "familia":"Myrtaceae",
+      "imagem":"",
+      "descricao":[
+         "A jabuticaba é uma fruta nativa da Mata Atlântica que cresce colada diretamente no tronco e galhos da árvore.",
+         "Possui uma casca roxa escura quase negra e uma polpa branca, gelatinosa, suculenta e muito doce.",
+         "Sua casca concentra uma quantidade massiva de antocianinas, potentes antioxidantes contra o envelhecimento celular.",
+         "É altamente perecível, fermentando naturalmente em poucos dias após ser colhida do pé."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"58 kcal",
+         "carboidratos":"15.3g",
+         "proteinas":"0.6g",
+         "gorduras":"0.1g",
+         "fibras":"2.3g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Auxilia na proteção celular epitelial e na manutenção das mucosas.",
+            "vitamina B":"Rica em niacina (B3), que atua na proteção do sistema cardiovascular.",
+            "vitamina C":"Excelente fonte, ajudando na absorção de minerais e fortalecimento capilar.",
+            "vitamina D":"",
+            "vitamina E":"Ação protetora sutil nas membranas celulares internas.",
+            "vitamina K":"Atua de forma leve no processo de coagulação sanguínea."
+         },
+         "saisMinerais":{
+            "calcio":"Auxilia na saúde óssea e na transmissão de impulsos nervosos.",
+            "cobre":"Atua na formação de células sanguíneas fundamentais.",
+            "fosforo":"Parceiro do cálcio na manutenção dos dentes e ossos.",
+            "sodio":"Teor praticamente nulo, excelente para hipertensos.",
+            "potassio":"Ajuda a regular a atividade elétrica do coração.",
+            "magnesio":"Importante na fixação do cálcio nos ossos e dentes.",
+            "ferro":"Contém ferro não-heme, metabolizado eficientemente devido à vitamina C local.",
+            "selenio":"Protege as células dos danos metabólicos oxidativos.",
+            "zinco":"Atua de forma benéfica nas defesas biológicas da pele.",
+            "iodo":"",
+            "fluor":"Apenas traços estruturais."
+         }
+      },
+      "beneficios":[
+         "Prevenção do envelhecimento: Os compostos da casca combatem rugas e a perda de colágeno.",
+         "Proteção pulmonar: Estudos apontam que os antioxidantes da fruta auxiliam na saúde das vias respiratórias.",
+         "Controle glicêmico: Os polifenóis da casca ajudam a modular os níveis de glicose no sangue.",
+         "Combate à diarreia: O chá ou consumo da casca possui propriedades adstringentes que regulam o intestino solto."
+      ],
+      "comoUsar":[
+         "In natura: Consumida estourando a fruta diretamente na boca e engolindo a polpa.",
+         "Geleias e vinhos: Por fermentar muito rápido, é perfeita para fazer vinhos, licores, vinagres e geleias.",
+         "Sucos com casca: Bater a fruta inteira e coar permite aproveitar todas as antocianinas da casca roxa.",
+         "Molhos agridoces: Reduções de jabuticaba combinam perfeitamente com filé mignon e cortes suínos."
+      ],
+      "contraindicacoes":[
+         "O consumo excessivo das cascas da jabuticaba pode prender o intestino devido ao alto teor de taninos.",
+         "Pessoas com constipação crônica grave devem preferir consumir apenas a polpa branca da fruta."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 10 a 15 unidades por dia (cerca de 100g).",
+         "Sempre que possível, processe a casca junto em sucos para extrair os principais antioxidantes."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Geleia artesanal de jabuticaba com casca",
+            "slug":"geleia-de-jabuticaba-artesanal",
+            "imagem":"geleia-jabuticaba.jpg",
+            "credito":"Panela Terapia",
+            "urlOrigem":"https://panelaterapia.com"
+         }
+      ]
+   },
+   "Uva":{
+      "slug":"uva",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Vitis vinifera",
+      "familia":"Vitaceae",
+      "imagem":"",
+      "descricao":[
+         "A uva é uma fruta milenar que cresce em cachos nas videiras, muito apreciada por sua doçura e suculência.",
+         "Sua casca e sementes são fontes excepcionais de resveratrol, um poderoso antioxidante associado à longevidade.",
+         "Apresenta grande versatilidade, sendo consumida in natura, em sucos, geleias, passas e na produção de vinhos.",
+         "É rica em carboidratos de rápida absorção, potássio, além de vitaminas do complexo B e vitamina C."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"69 kcal",
+         "carboidratos":"18.1g",
+         "proteinas":"0.7g",
+         "gorduras":"0.2g",
+         "fibras":"0.9g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Contribui sutilmente para a proteção celular e a saúde dos olhos.",
+            "vitamina B":"Boa fonte de B1 e B6, auxiliando no metabolismo celular e na saúde do sistema nervoso.",
+            "vitimina C":"Ação antioxidante que atua na regeneração celular e no sistema imunológico.",
+            "vitamina D":"",
+            "vitamina E":"Presente em traços, principalmente no óleo contido em suas sementes.",
+            "vitamina K":"Excelente concentração, fundamental para os processos de coagulação sanguínea."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para a integridade dos ossos.",
+            "cobre":"Atua na produção de energia e na manutenção dos vasos sanguíneos.",
+            "fosforo":"Participa dos processos de armazenamento de energia nas células.",
+            "sodio":"Quantidade residual mínima, excelente para dietas cardioprotetoras.",
+            "potassio":"Boa presença, ajudando no controle da pressão e no equilíbrio hídrico.",
+            "magnesio":"Auxilia nas funções enzimáticas e no relaxamento da musculatura.",
+            "ferro":"Mineral essencial que atua no transporte de oxigênio pelo sangue.",
+            "selenio":"Ação antioxidante que ajuda na proteção contra o estresse oxidativo.",
+            "zinco":"Dá suporte básico ao sistema imune e processos de cicatrização.",
+            "iodo":"Presença negligenciável na polpa.",
+            "fluor":"Auxilia na proteção estrutural do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Saúde do coração: O resveratrol melhora a elasticidade das artérias e reduz o colesterol ruim (LDL).",
+         "Ação antienvelhecimento: Os polifenóis combatem os radicais livres, protegendo a pele e as células.",
+         "Energia rápida: Ótima opção de lanche pré-treino para reposição imediata de carboidratos.",
+         "Melhora da circulação: Ajuda a prevenir a formação de coágulos e melhora o fluxo sanguíneo."
+      ],
+      "comoUsar":[
+         "In natura: Consumida pura, fresca e gelada, sendo um lanche prático para o dia a dia.",
+         "Saladas e queijos: Combina muito bem em tábuas de frios, queijos finos e saladas de folhas verdes.",
+         "Bebidas: Utilizada em sucos integrais, smoothies e como matéria-prima principal para vinhos.",
+         "Sobremesas: Base para doces de colher, tortas, mousses e usada na sua forma desidratada (uva-passa)."
+      ],
+      "contraindicacoes":[
+         "Diabéticos devem consumir com moderação e monitoramento devido ao seu alto índice glicêmico.",
+         "Pessoas com propensão a gases ou intestino sensível podem sentir desconforto se consumida em excesso com a casca."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 cacho pequeno por dia (cerca de 100g a 125g).",
+         "Priorizar o consumo com a casca para aproveitar a maior concentração de fitonutrientes."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco de uva integral caseiro",
+            "slug":"suco-de-uva-integral-caseiro",
+            "imagem":"suco-uva.jpg",
+            "credito":"Panelinha",
+            "urlOrigem":"https://panelinha.com.br"
+         }
+      ]
+   },
+   "Melancia":{
+      "slug":"melancia",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Citrullus lanatus",
+      "familia":"Cucurbitaceae",
+      "imagem":"Melancia.jpg",
+      "descricao":[
+         "A melancia é uma fruta extremamente refrescante, composta por cerca de 92% de água em sua estrutura.",
+         "Sua polpa vermelha e adocicada é uma das maiores fontes naturais de licopeno, um poderoso antioxidante.",
+         "Contém citrulina, um aminoácido que auxilia na saúde vascular e na redução da fadiga muscular.",
+         "É altamente diurética, sendo uma aliada perfeita para a hidratação nos dias de calor intenso."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"30 kcal",
+         "carboidratos":"7.5g",
+         "proteinas":"0.6g",
+         "gorduras":"0.1g",
+         "fibras":"0.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Excelente teor de betacaroteno, essencial para a saúde dos olhos e renovação da pele.",
+            "vitamina B":"Presença sutil de B1, B5 e B6, auxiliando na conversão dos alimentos em energia.",
+            "vitamina C":"Ótima fonte de vitamina C, fortalecendo a barreira imunológica do corpo.",
+            "vitamina D":"",
+            "vitamina E":"Traços mínimos com atuação antioxidante complementar nas células.",
+            "vitamina K":"Presença insignificante na polpa."
+         },
+         "saisMinerais":{
+            "calcio":"Apresenta baixas quantidades estruturais.",
+            "cobre":"Auxilia na manutenção celular e em processos metabólicos básicos.",
+            "fosforo":"Atua de forma complementar no sistema de energia das células.",
+            "sodio":"",
+            "potassio":"Excelente teor, promovendo a eliminação de líquidos e o bom funcionamento muscular.",
+            "magnesio":"Ajuda a relaxar os vasos sanguíneos e combate a pressão alta.",
+            "ferro":"Presença em pequenas quantidades na polpa vermelha.",
+            "selenio":"Ação antioxidante básica nas células.",
+            "zinco":"Auxilia de maneira sutil no suporte imunológico celular.",
+            "iodo":"",
+            "fluor":""
+         }
+      },
+      "beneficios":[
+         "Hidratação profunda: Repõe água e eletrólitos essenciais de forma rápida e natural.",
+         "Recuperação muscular: A citrulina ajuda a reduzir as dores e a fadiga muscular pós-treino.",
+         "Proteção celular: O licopeno reduz o risco de doenças cardíacas e combate o envelhecimento prematuro.",
+         "Efeito diurético: Estimula o funcionamento dos rins e ajuda a reduzir o inchaço corporal."
+      ],
+      "comoUsar":[
+         "In natura: Consumida em fatias ou pedaços cortados em cubos, bem gelada.",
+         "Sucos e refrescos: Excelente para sucos puros, batida com limão, hortelã ou gengibre.",
+         "Saladas tropicais: Combina surpreendentemente com queijo feta, folhas de hortelã e azeite.",
+         "Gelo saborizado: Cubos de melancia congelados podem ser usados para refrescar águas e drinks."
+      ],
+      "contraindicacoes":[
+         "Diabéticos devem consumir com moderação devido ao alto índice glicêmico (embora a carga glicêmica seja baixa).",
+         "Pessoas com insuficiência renal grave devem monitorar o consumo devido ao grande volume de água e potássio."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 a 2 fatias médias por dia (cerca de 200g a 300g).",
+         "Pode ser consumida ao longo do dia para manter os níveis de hidratação elevados."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco refrescante de melancia com hortelã",
+            "slug":"suco-de-melancia-com-hortela",
+            "imagem":"suco-melancia.jpg",
+            "credito":"TudoGostoso",
+            "urlOrigem":"https://tudogostoso.com.br"
+         }
+      ]
+   },
+   "Melao":{
+      "slug":"melao",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Cucumis melo",
+      "familia":"Cucurbitaceae",
+      "imagem":"",
+      "descricao":[
+         "O melão é uma fruta de clima quente famosa por sua polpa macia, aromática e altamente hidratante.",
+         "Composto por cerca de 90% de água, possui um valor calórico muito baixo, ideal para dietas de emagrecimento.",
+         "É uma excelente fonte de potássio e bioflavonoides que atuam na saúde do sistema cardiovascular.",
+         "Suas diferentes variedades (como o melão amarelo, cantaloupe e galia) oferecem ampla gama de nutrientes."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"34 kcal",
+         "carboidratos":"8.1g",
+         "proteinas":"0.8g",
+         "gorduras":"0.2g",
+         "fibras":"0.9g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Altíssimo teor nas variedades alaranjadas (cantaloupe), excelente para a visão.",
+            "vitamina B":"Fornece vitaminas B3 e B6 que dão energia e melhoram o metabolismo digestivo.",
+            "vitamina C":"Ótima concentração, auxiliando nas defesas do corpo e na síntese de colágeno.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que protegem os tecidos celulares.",
+            "vitamina K":"Atua de forma leve na manutenção da integridade vascular."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma sutil para a integridade dos dentes e ossos.",
+            "cobre":"Auxilia na produção de tecidos conectivos saudáveis.",
+            "fosforo":"Participa nos processos corporais de armazenamento de cálcio.",
+            "sodio":"",
+            "potassio":"Teor elevado, essencial para desinchar o corpo e regular batimentos cardíacos.",
+            "magnesio":"Importante para o relaxamento das artérias e controle do estresse físico.",
+            "ferro":"Presença residual leve que auxilia na oxigenação do sangue.",
+            "selenio":"Ação antioxidante contra o envelhecimento celular precoce.",
+            "zinco":"Atua no suporte imunológico celular de forma complementar.",
+            "iodo":"",
+            "fluor":"Suporte básico microestrutural."
+         }
+      },
+      "beneficios":[
+         "Controle da pressão: O alto teor de potássio ajuda a eliminar o excesso de sódio pela urina.",
+         "Combate à retenção: Atua como um potente diurético natural, limpando o organismo e reduzindo o inchaço.",
+         "Saúde da pele: A combinação de água e vitamina C estimula a hidratação e firmeza cutânea.",
+         "Visão protegida: As variedades com polpa alaranjada previnem a degeneração macular dos olhos."
+      ],
+      "comoUsar":[
+         "In natura: Consumido em cubos ou fatias, preferencialmente gelado.",
+         "Sucos e smoothies: Batido puro ou combinado com água de coco, hortelã e pepino.",
+         "Entradas gourmets: Combina perfeitamente cortado em fatias finas envolto em presunto cru (parma).",
+         "Saladas de frutas: Excelente base volumétrica devido à sua textura firme e suculenta."
+      ],
+      "contraindicacoes":[
+         "Pessoas com problemas renais crônicos severos devem moderar o consumo devido ao teor de potássio.",
+         "Consumido em excesso extremo pode causar episódios de diarreia devido à sua alta carga hídrica."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 2 fatias médias por dia (cerca de 200g).",
+         "Excelente opção para consumir pela manhã em jejum ou nos lanches da tarde."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Entrada clássica de melão com presunto de parma",
+            "slug":"melao-com-presunto-de-parma",
+            "imagem":"melao-parma.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "Mamao":{
+      "slug":"mamao",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Carica papaya",
+      "familia":"Caricaceae",
+      "imagem":"",
+      "descricao":[
+         "O mamão é uma fruta tropical de polpa macia, cor alaranjada vibrante e sabor suave e adocicado.",
+         "É mundialmente famoso por sua ação reguladora do intestino, graças ao alto teor de fibras e água.",
+         "Contém papaína, uma poderosa enzima que quebra proteínas e facilita significativamente a digestão.",
+         "É riquíssimo em betacaroteno, vitamina C e diversos antioxidantes que protegem o organismo."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"43 kcal",
+         "carboidratos":"10.8g",
+         "proteinas":"0.5g",
+         "gorduras":"0.3g",
+         "fibras":"1.7g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Teor altíssimo de vitamina A (via betacaroteno), essencial para a visão e imunidade.",
+            "vitamina B":"Fornece ácido fólico (B9) e riboflavina, importantes para as células e energia.",
+            "vitamina C":"Excelente fonte, contendo mais vitamina C por porção do que muitas frutas cítricas.",
+            "vitamina D":"",
+            "vitamina E":"Atua de forma complementar protegendo os tecidos contra danos oxidativos.",
+            "vitamina K":"Auxilia sutilmente na fixação de nutrientes e saúde dos vasos sanguíneos."
+         },
+         "saisMinerais":{
+            "calcio":"Boa presença mineral que contribui para o fortalecimento ósseo.",
+            "cobre":"Atua na manutenção do sistema circulatório e tecidos corporais.",
+            "fosforo":"Auxilia na regeneração de tecidos e células musculares.",
+            "sodio":"Quantidade mínima, excelente para dietas com restrição de sal.",
+            "potassio":"Excelente concentração, promovendo o equilíbrio eletrolítico e muscular.",
+            "magnesio":"Garante bom funcionamento neurológico e celular.",
+            "ferro":"Presença complementar que atua na prevenção de quadros anêmicos.",
+            "selenio":"Ação antioxidante leve nas defesas biológicas.",
+            "zinco":"Dá suporte sutil aos processos de cura do organismo.",
+            "iodo":"Presença não significativa na polpa.",
+            "fluor":"Traços mínimos estruturais."
+         }
+      },
+      "beneficios":[
+         "Regulação intestinal: Combate a prisão de ventre de forma rápida através de suas fibras solúveis.",
+         "Digestão leve: A papaína reduz o peso estomacal após o consumo de carnes pesadas.",
+         "Pele radiante: Os antioxidantes e a vitamina C evitam o envelhecimento precoce da derme.",
+         "Cicatrização acelerada: Nutrientes locais auxiliam na regeneração rápida de tecidos lesionados."
+      ],
+      "comoUsar":[
+         "In natura: Consumido cortado ao meio, retirando-se as sementes, puro ou com gotas de limão.",
+         "Café da manhã: Adicionado de aveia em flocos, sementes de chia, linhaça ou mel.",
+         "Vitaminas: Batido com leite animal, leites vegetais ou junto com banana e maçã.",
+         "Amaciante natural: A polpa ou casca batida serve para amaciar cortes de carnes vermelhas."
+      ],
+      "contraindicacoes":[
+         "Pessoas com tendência a intestino solto devem dosar o consumo para evitar diarreias.",
+         "O mamão verde contém um látex que pode causar reações em pessoas alérgicas ao látex natural."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de metade de um mamão papaia pequeno por dia (cerca de 150g).",
+         "Ideal para ser ingerido na primeira refeição do dia para ativar o trânsito intestinal."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Creme de mamão papaia leve com cassis",
+            "slug":"creme-de-mamao-papaia",
+            "imagem":"creme-mamao.jpg",
+            "credito":"Gshow Receitas",
+            "urlOrigem":"https://globo.com"
+         }
+      ]
+   },
+   "Caju":{
+      "slug":"caju",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Anacardium occidentale",
+      "familia":"Anacardiaceae",
+      "imagem":"caju.jpg",
+      "descricao":[
+         "O caju é uma joia da flora brasileira, onde a polpa suculenta (pseudofruto) sustenta a castanha (fruto real).",
+         "Possui um sabor adstringente, ácido e doce característico, sendo extremamente refrescante.",
+         "É uma das maiores fontes nacionais de vitamina C, superando a laranja em até cinco vezes.",
+         "Sua polpa é rica em compostos fenólicos que atuam na proteção do sistema imunológico."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"43 kcal",
+         "carboidratos":"10.3g",
+         "proteinas":"1.0g",
+         "gorduras":"0.3g",
+         "fibras":"1.7g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença moderada através de carotenoides precursores ativos.",
+            "vitamina B":"Rico em vitaminas B1, B2 e B3, essenciais para o tônus muscular e energia física.",
+            "vitamina C":"Teor absurdamente elevado, um dos maiores do reino vegetal por porção.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes protetoras celulares complementares.",
+            "vitamina K":"Presença mínima na polpa suculenta."
+         },
+         "saisMinerais":{
+            "calcio":"Dá suporte básico complementar à estrutura dos ossos.",
+            "cobre":"Teor excelente, fundamental para a saúde do sangue e articulações.",
+            "fosforo":"Atua em sinergia com o cálcio nas funções esqueléticas corporais.",
+            "sodio":"Quantidade nula para fins dietéticos práticos.",
+            "potassio":"Ótima concentração, auxiliando no combate às dores e cãibras musculares.",
+            "magnesio":"Garante estabilidade metabólica e relaxamento cardiovascular.",
+            "ferro":"Boa concentração vegetal, potencializada pela imensa quantidade de vitamina C local.",
+            "selenio":"Protege as membranas celulares contra oxidação destrutiva.",
+            "zinco":"Excelente suporte para a modulação imunológica e defesas biológicas.",
+            "iodo":"",
+            "fluor":"Oferece proteção microestrutural dentária básica."
+         }
+      },
+      "beneficios":[
+         "Super imunidade: A altíssima dose de vitamina C blinda o organismo contra gripes e resfriados.",
+         "Combate à anemia: Facilita e potencializa drasticamente a absorção do ferro vegetal no corpo.",
+         "Queima de gorduras: Seus compostos auxiliam na otimização do uso de gorduras como fonte energética.",
+         "Saúde dos tecidos: Estimula a produção de colágeno, mantendo gengivas, pele e articulações saudáveis."
+      ],
+      "comoUsar":[
+         "In natura: Consumido cru, espremendo o suco na boca ou cortado em rodelas em saladas.",
+         "Sucos e refrescos: O suco de caju (cajuína ou natural) é um dos mais tradicionais do Brasil.",
+         "Pratos salgados: A polpa desfiada é usada na culinária vegana como substituta de carne ('carne de caju').",
+         "Doces artesanais: Muito utilizado na fabricação de doces em calda, compotas e geleias concentradas."
+      ],
+      "contraindicacoes":[
+         "Pessoas com aftas ou estômago altamente sensível podem sentir ardência devido à acidez e adstringência.",
+         "A castanha de caju crua não deve ser consumida (contém urushiol, toxina eliminada após a torra)."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 a 2 unidades inteiras de caju por dia (cerca de 100g a 150g).",
+         "Consumir fresco para evitar a oxidação e perda rápida de sua vitamina C."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Carne de caju desfiada acebolada (Vegana)",
+            "slug":"carne-de-caju-desfiada",
+            "imagem":"carne-caju.jpg",
+            "credito":"Panelinha",
+            "urlOrigem":"https://panelinha.com.br"
+         }
+      ]
+   },
+   "Goiaba":{
+      "slug":"goiaba",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Psidium guajava",
+      "familia":"Myrtaceae",
+      "imagem":"goiaba.jpg",
+      "descricao":[
+         "A goiaba é uma fruta tropical de perfume intenso, textura carnuda e sabor marcante e adocicado.",
+         "Seja na variedade vermelha ou branca, destaca-se como uma das frutas mais ricas em fibras e vitamina C.",
+         "A goiaba vermelha é uma fonte excepcional de licopeno, superando inclusive o tomate nessa concentração.",
+         "Possui baixo índice glicêmico, sendo altamente recomendada para controle metabólico geral."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"54 kcal",
+         "carboidratos":"13.0g",
+         "proteinas":"1.1g",
+         "gorduras":"0.4g",
+         "fibras":"6.3g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Excelente concentração de betacaroteno protetor celular cutâneo.",
+            "vitamina B":"Fornece piridoxina (B6) e niacina, fundamentais para funções cognitivas.",
+            "vitamina C":"Concentração altíssima, oferecendo o triplo da necessidade diária recomendada.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que dão suporte à vitalidade celular.",
+            "vitamina K":"Atua de forma leve na proteção dos processos vasculares internos."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui para as funções estruturais do esqueleto orgânico.",
+            "cobre":"Auxilia na produção e manutenção de neurotransmissores cerebrais.",
+            "fosforo":"Atua diretamente na regulação do equilíbrio ácido-base das células.",
+            "sodio":"Teor nulo para fins práticos, ideal para o sistema circulatório.",
+            "potassio":"Excelente concentração, auxiliando no controle da pressão arterial.",
+            "magnesio":"Garante estabilidade metabólica celular e alívio da tensão muscular.",
+            "ferro":"Absorvido de forma otimizada devido ao imenso teor de vitamina C local.",
+            "selenio":"Ação antioxidante básica integrada às defesas do corpo.",
+            "zinco":"Fortalece os tecidos celulares e acelera os processos curativos gerais.",
+            "iodo":"Presença negligenciável na polpa.",
+            "fluor":"Suporte estrutural microdentário básico."
+         }
+      },
+      "beneficios":[
+         "Intestino perfeito: A quantidade massiva de fibras combate a constipação e limpa o trato digestivo.",
+         "Controle glicêmico: Ajuda a evitar picos de açúcar no sangue, ideal para prevenir diabetes.",
+         "Coração protegido: O potássio e as fibras auxiliam na redução do colesterol ruim e controle da pressão.",
+         "Defesa antioxidante: O licopeno e a vitamina C protegem o corpo contra tumores e danos celulares."
+      ],
+      "comoUsar":[
+         "In natura: Consumida inteira com a casca e sementes (bem lavada).",
+         "Sucos cremosos: Batida com água ou leite, resultando em uma bebida encorpada e perfumada.",
+         "Doces clássicos: Base para a famosa goiabada cascão, geleias, compotas e recheios de bolos.",
+         "Molhos agridoces: O suco concentrado reduzido com especiarias vira um ótimo molho para carnes suínas."
+      ],
+      "contraindicacoes":[
+         "Pessoas com diverticulite devem evitar consumir as sementes duras da goiaba.",
+         "O consumo excessivo da fruta descascada (sem a casca rica em fibras) pode prender o intestino."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 unidade média por dia (cerca de 150g).",
+         "Consumir com a casca para aproveitar a totalidade de suas fibras e carga de vitamina C."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Geleia de goiaba caseira fit (sem açúcar)",
+            "slug":"geleia-de-goiaba-caseira-fit",
+            "imagem":"geleia-goiaba.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "Manga":{
+      "slug":"manga",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Mangifera indica",
+      "familia":"Anacardiaceae",
+      "imagem":"Manga.jpg",
+      "descricao":[
+         "A manga é apelidada de 'rainha das frutas tropicais' devido à sua polpa carnuda, sumarenta e sabor intensamente doce.",
+         "É uma fonte extraordinária de betacaroteno, conferindo-lhe sua cor amarela ou alaranjada característica.",
+         "Contém mangiferina, um bioativo exclusivo com forte atuação antioxidante e anti-inflamatória.",
+         "Fornece ótimas quantidades de fibras que auxiliam o bom funcionamento gástrico e intestinal."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"60 kcal",
+         "carboidratos":"15.0g",
+         "proteinas":"0.8g",
+         "gorduras":"0.4g",
+         "fibras":"1.6g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Concentração altíssima de pró-vitamina A, ideal para olhos, cabelos e tecidos cutâneos.",
+            "vitamina B":"Boa presença de B6 e folato, essenciais para o sistema cognitivo e nervoso.",
+            "vitamina C":"Ótima fonte de vitamina C, suprindo grande parte das necessidades diárias do organismo.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades que combatem radicais livres em nível celular periférico.",
+            "vitamina K":"Atua de forma complementar e sutil na saúde estrutural óssea."
+         },
+         "saisMinerais":{
+            "calcio":"Dá suporte básico à manutenção estrutural do corpo.",
+            "cobre":"Essencial para a formação adequada de glóbulos vermelhos no sangue.",
+            "fosforo":"Atua junto ao metabolismo no armazenamento energético celular.",
+            "sodio":"Quantidade residual mínima, ideal para controle circulatório.",
+            "potassio":"Boa concentração, ajudando no controle hídrico celular e contratilidade muscular.",
+            "magnesio":"Garante estabilidade nas reações enzimáticas e relaxamento arterial.",
+            "ferro":"Presença complementar que atua no suporte aos níveis saudáveis de hemoglobina.",
+            "selenio":"Ação antioxidante integrada ao sistema imunológico geral.",
+            "zinco":"Auxilia na proteção celular contra agentes inflamatórios externos.",
+            "iodo":"Presença negligenciável na polpa carnuda.",
+            "fluor":"Suporte básico microestrutural bucal."
+         }
+      },
+      "beneficios":[
+         "Visão de águia: O alto teor de vitamina A previne a secura ocular e a cegueira noturna.",
+         "Imunidade em alta: A combinação de vitaminas A e C gera uma barreira contra infecções corporais.",
+         "Digestão facilitada: Enzimas naturais presentes na fruta ajudam na quebra e digestão dos alimentos.",
+         "Pele saudável e limpa: Seus antioxidantes ajudam a desobstruir poros e trazem viço natural à pele."
+      ],
+      "comoUsar":[
+         "In natura: Consumida pura em fatias, cubos ou descascada diretamente do pé.",
+         "Saladas tropicais: Combina muito bem cortada em cubos misturada a folhas verdes e tomates.",
+         "Pratos salgados: Base para o famoso molho 'chutney de manga' acompanhando assados e peixes.",
+         "Bebidas: Excelente em sucos espessos, smoothies com hortelã e coquetéis refrescantes."
+      ],
+      "contraindicacoes":[
+         "Diabéticos devem controlar rigorosamente as porções devido ao alto teor de açúcares naturais (frutose).",
+         "Pessoas com quadros de diarreia devem evitar o consumo temporariamente por conta de suas propriedades laxativas."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de metade de uma manga média por dia (cerca de 100g a 150g).",
+         "Preferencialmente consumida durante o dia para aproveitar o aporte energético fornecido."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Chutney de manga agridoce para acompanhamentos",
+            "slug":"chutney-de-manga-agridoce",
+            "imagem":"chutney-manga.jpg",
+            "credito":"Panelinha",
+            "urlOrigem":"https://panelinha.com.br"
+         }
+      ]
+   },
+   "Pitaia":{
+      "slug":"pitaia",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Hylocereus undatus",
+      "familia":"Cactaceae",
+      "imagem":"Pitaia.jpg",
+      "descricao":[
+         "A pitaia, conhecida mundialmente como 'fruta do dragão', brota de cactos e possui visual exótico exuberante.",
+         "Sua polpa (que pode ser branca ou vermelha) é salpicada de pequenas sementes pretas comestíveis.",
+         "Apresenta sabor suave, levemente adocicado e aquoso, lembrando uma mistura sutil de kiwi e melão.",
+         "É riquíssima em fibras solúveis, oligossacarídeos pré-bióticos e compostos antioxidantes como as betalaínas."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"50 kcal",
+         "carboidratos":"11.0g",
+         "proteinas":"1.2g",
+         "gorduras":"0.4g",
+         "fibras":"3.0g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Contribui de forma sutil para a integridade celular e saúde ocular.",
+            "vitamina B":"Fornece vitaminas B1, B2 e B3 que auxiliam no metabolismo energético periférico.",
+            "vitamina C":"Boa fonte de ação antioxidante, potencializando as defesas naturais.",
+            "vitamina D":"",
+            "vitamina E":"Presente em pequenas quantidades nas sementes, atuando contra radicais livres.",
+            "vitamina K":"Teor negligenciável sem impacto expressivo na coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Auxilia de forma complementar na mineralização óssea e dentária.",
+            "cobre":"Atua como cofator enzimático no metabolismo de tecidos conjuntivos.",
+            "fosforo":"Aliado do cálcio na composição estrutural do esqueleto.",
+            "sodio":"Níveis extremamente baixos, ideal para o controle de retenção hídrica.",
+            "potassio":"Excelente concentração, favorecendo a eliminação de líquidos e contração muscular.",
+            "magnesio":"Dá suporte ao sistema nervoso central e ajuda no relaxamento muscular.",
+            "ferro":"Teor incomumente alto para frutas frescas, combatendo sintomas de fadiga.",
+            "selenio":"Apenas traços estruturais atuando na proteção celular.",
+            "zinco":"Dá suporte básico à cicatrização e modulação de defesas.",
+            "iodo":"",
+            "fluor":"Oferece suporte mineral sutil à arcada dentária."
+         }
+      },
+      "beneficios":[
+         "Funcionamento do intestino: As sementes e fibras atuam como um potente laxante natural suave.",
+         "Ação prebiótica: Alimenta as bactérias boas do intestino, melhorando a imunidade global.",
+         "Controle glicêmico: Ajuda a evitar picos de insulina no sangue devido ao tipo de fibra solúvel.",
+         "Efeito antioxidante: As betalaínas (na pitaia vermelha) protegem o sistema cardiovascular."
+      ],
+      "comoUsar":[
+         "In natura: Consumida cortando a fruta ao meio e comendo a polpa diretamente com uma colher.",
+         "Saladas de frutas: Traz um visual único e sofisticado quando picada em cubos.",
+         "Smoothies e bowls: Batida congelada com iogurte grego, banana ou leite vegetal.",
+         "Geleias e xaropes: Usada para caldas decorativas em confeitaria devido à sua cor vibrante."
+      ],
+      "contraindicacoes":[
+         "O consumo exagerado pode soltar excessivamente o intestino em pessoas com estômago sensível.",
+         "A pitaia vermelha pode causar pseudo-hematúria (urina e fezes avermelhadas), o que é inofensivo."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 unidade média por dia (cerca de 150g a 200g).",
+         "Pode ser consumida a qualquer hora do dia, inclusive como lanche noturno pela leveza."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Smoothie bowl de pitaia vermelha com chia",
+            "slug":"smoothie-bowl-de-pitaia",
+            "imagem":"smoothie-pitaia.jpg",
+            "credito":"Receitas Globo",
+            "urlOrigem":"https://globo.com"
+         }
+      ]
+   },
+   "Kiwi":{
+      "slug":"kiwi",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Actinidia deliciosa",
+      "familia":"Actinidiaceae",
+      "imagem":"Kiwi.jpg",
+      "descricao":[
+         "O kiwi é uma fruta de casca marrom e peluda, com uma polpa verde brilhante e sabor cítrico marcante.",
+         "Destaca-se por conter uma densidade de nutrientes altíssima, superando a maioria das frutas comuns.",
+         "Possui a enzima actinidina, que quebra proteínas e facilita processos digestivos complexos.",
+         "É uma das melhores fontes alimentares de vitamina C e vitamina K disponíveis na natureza."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"61 kcal",
+         "carboidratos":"14.7g",
+         "proteinas":"1.1g",
+         "gorduras":"0.5g",
+         "fibras":"3.0g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença moderada através de betacaroteno para proteção das mucosas.",
+            "vitamina B":"Boa fonte de folato (B9), crucial para gestantes e renovação celular celular.",
+            "vitamina C":"Teor altíssimo, fornecendo mais que o dobro da recomendação diária em duas unidades.",
+            "vitamina D":"",
+            "vitamina E":"Excelente teor para uma fruta de polpa, agindo como antioxidante lipossolúvel.",
+            "vitamina K":"Concentração expressiva, fundamental na regulação da densidade óssea e coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui para o suporte mecânico dos tecidos e condução nervosa.",
+            "cobre":"Atua ativamente no fortalecimento do sistema imune periférico.",
+            "fosforo":"Atua na regulação do equilíbrio de pH no sangue.",
+            "sodio":"Quantidade residual, totalmente segura para dietas restritas.",
+            "potassio":"Teor comparável ao da banana, excelente para o controle vascular.",
+            "magnesio":"Regula o tônus vascular e auxilia na síntese proteica celular.",
+            "ferro":"Absorção altamente otimizada pela quantidade massiva de vitamina C.",
+            "selenio":"Proteção complementar contra danos oxidativos no DNA.",
+            "zinco":"Atua como estabilizador de membranas e suporte de defesa.",
+            "iodo":"",
+            "fluor":"Oferece suporte básico à manutenção do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Digestão acelerada: A actinidina ajuda a digerir carnes pesadas e reduz o estufamento.",
+         "Qualidade do sono: Contém serotonina e antioxidantes que ajudam a dormir mais rápido.",
+         "Imunidade reforçada: A combinação extrema de vitaminas C e E blinda o organismo.",
+         "Saúde das artérias: Ajuda a afinar o sangue naturalmente, reduzindo triglicerídeos."
+      ],
+      "comoUsar":[
+         "In natura: Consumido descascado em rodelas ou cortado ao meio e retirado com colher.",
+         "Amaciante de carnes: Esfregar a polpa ou casca em peças de carne crua para amaciá-las rápido.",
+         "Sobremesas tartes: Perfeito para decorar tortas doces, pavês e saladas tropicais.",
+         "Bebidas: Muito utilizado na preparação de caipirinhas, sucos funcionais e águas aromatizadas."
+      ],
+      "contraindicacoes":[
+         "Pessoas com alergia à actinidina ou histórico de reatividade cruzada ao látex.",
+         "Contém quantidade moderada de oxalatos, devendo ser controlado por quem tem cálculos renais."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 a 2 unidades médias por dia.",
+         "Consumir preferencialmente fresco e cru para não destruir as enzimas digestivas pelo calor."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco detox de kiwi com couve e maçã",
+            "slug":"suco-detox-de-kiwi",
+            "imagem":"suco-kiwi.jpg",
+            "credito":"TudoGostoso",
+            "urlOrigem":"https://tudogostoso.com.br"
+         }
+      ]
+   },
+   "Acerola":{
+      "slug":"acerola",
+      "dataInclusao":"2026-05-18",
+      "nomeCientifico":"Malpighia emarginata",
+      "familia":"Malpighiaceae",
+      "imagem":"Acerola.jpg",
+      "descricao":[
+         "A acerola é um pequeno fruto esférico, de cor vermelha intensa, famoso por ser uma bomba de vitamina C.",
+         "Seu sabor varia do nitidamente ácido ao levemente adocicado, dependendo do grau de maturação.",
+         "Apresenta uma quantidade massiva de flavonoides e carotenoides com propriedades medicinais.",
+         "Devido à sua fragilidade, oxida e entra em processo de fermentação poucas horas após a colheita."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"32 kcal",
+         "carboidratos":"8.0g",
+         "proteinas":"0.4g",
+         "gorduras":"0.2g",
+         "fibras":"1.5g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Altíssimo teor de equivalentes de retinol, essencial para olhos e renovação da pele.",
+            "vitamina B":"Fornece tiamina, riboflavina e niacina para suporte metabólico básico.",
+            "vitamina C":"Uma das maiores fontes do planeta, chegando a ter 20 a 40 vezes mais vitamina C que a laranja.",
+            "vitamina D":"",
+            "vitamina E":"Proteção antioxidante lipídica atuando nas membranas celulares.",
+            "vitamina K":"Traços mínimos sem relevância clínica nas funções biológicas."
+         },
+         "saisMinerais":{
+            "calcio":"Dá suporte complementar à integridade óssea do corpo.",
+            "cobre":"Atua na modulação e maturação de células imunológicas.",
+            "fosforo":"Essencial no processo de armazenamento e transporte de energia.",
+            "sodio":"Praticamente inexistente, ideal para o controle de hipertensão.",
+            "potassio":"Ajuda no equilíbrio hídrico e eliminação de toxinas via urina.",
+            "magnesio":"Atua como cofator em reações enzimáticas do sistema imune.",
+            "ferro":"Altamente biodisponível devido à saturação extrema de vitamina C.",
+            "selenio":"Ação sinérgica com polifenóis contra o estresse oxidativo.",
+            "zinco":"Fortalece tecidos e otimiza a barreira de defesa da derme.",
+            "iodo":"",
+            "fluor":"Suporte básico microestrutural para prevenção de cáries."
+         }
+      },
+      "beneficios":[
+         "Imunidade imbatível: Uma pequena porção diária zera a necessidade diária de defesas contra gripes.",
+         "Produção de colágeno: Estimula fortemente a elasticidade da pele, vasos e articulações.",
+         "Combate à fadiga: Age diretamente no cansaço físico e mental melhorando a disposição.",
+         "Ação adstringente: Auxilia no controle de sangramentos na gengiva e pequenas inflamações bucais."
+      ],
+      "comoUsar":[
+         "Sucos: Consumida principalmente batida com água ou leite, pura ou combinada com laranja.",
+         "Polpas congeladas: Forma mais comum de armazenamento comercial para preservar os nutrientes.",
+         "Geleias e caldas: Cozida com açúcar vira uma calda ácida perfeita para sorvetes e cheesecakes.",
+         "In natura: Consumida diretamente do pé, embora sua acidez morda as laterais da língua."
+      ],
+      "contraindicacoes":[
+         "Pessoas com crises agudas de gastrite ou refluxo devido à acidez extrema da fruta.",
+         "O consumo excessivo crônico pode sobrecarregar rins propensos a cálculos por excesso de ácido ascórbico."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 3 a 4 unidades frescas por dia (cerca de 40g).",
+         "Essa porção pequena já ultrapassa 100% da recomendação diária de vitamina C."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco de acerola com laranja e mel",
+            "slug":"suco-de-acerola-com-laranja",
+            "imagem":"suco-acerola.jpg",
+            "credito":"Panelinha",
+            "urlOrigem":"https://panelinha.com.br"
+         }
+      ]
+   },
+   "pêra":{
+      "slug":"pera",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Pyrus communis",
+      "familia":"Rosaceae",
+      "imagem":"pera.jpg",
+      "descricao":[
+         "A pera é uma fruta de clima temperado, muito apreciada por sua textura macia, suculência e sabor delicadamente doce.",
+         "Apresenta um baixo índice glicêmico, o que resulta em uma liberação gradual e estável de glicose na corrente sanguínea.",
+         "Destaca-se pelo elevado teor de fibras solúveis e insolúveis concentradas principalmente em sua casca.",
+         "Constitui uma boa fonte de água corporativa, auxiliando ativamente na hidratação e no equilíbrio osmótico."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"57 kcal",
+         "carboidratos":"15.2g",
+         "proteinas":"0.4g",
+         "gorduras":"0.1g",
+         "fibras":"3.1g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença discreta através de carotenoides que auxiliam a saúde ocular.",
+            "vitamina B":"Fornece vitaminas do complexo B, como B2, B3 e B9, essenciais ao metabolismo energético.",
+            "vitamina C":"Atua como antioxidante moderado, auxiliando na proteção celular do organismo.",
+            "vitamina D":"",
+            "vitamina E":"Oferece suporte lipossolúvel contra a oxidação das membranas biológicas.",
+            "vitamina K":"Contribui de forma complementar para a integridade da homeostase sanguínea."
+         },
+         "saisMinerais":{
+            "calcio":"Apoia de forma complementar a manutenção dos tecidos calcificados.",
+            "cobre":"Atua como cofator enzimático no metabolismo do ferro e na imunidade.",
+            "fosforo":"Colabora na sinalização celular e na integridade dos fosfolipídios.",
+            "sodio":"Teor extremamente reduzido, seguro para indivíduos com restrição salina.",
+            "potassio":"Mineral predominante que favorece a condução neuromuscular e a excreção de sódio.",
+            "magnesio":"Participa em reações enzimáticas e no relaxamento da musculatura lisa.",
+            "ferro":"Presente em baixas concentrações, auxiliando discretamente as reservas orgânicas.",
+            "selenio":"Fornece proteção antioxidante residual em nível celular.",
+            "zinco":"Disponível em pequenas frações para suporte ao sistema imunológico.",
+            "iodo":"Quantidades vestigiais sem impacto metabólico expressivo.",
+            "fluor":"Auxilia de forma sutil na manutenção da hidroxiapatita dentária."
+         }
+      },
+      "beneficios":[
+         "Regulação intestinal: O alto teor de fibras previne a constipação e otimiza o trânsito do bolo fecal.",
+         "Saúde cardiovascular: A associação de potássio e fibras ajuda a manter os níveis de pressão arterial normais.",
+         "Controle glicêmico: As fibras retardam a absorção dos carboidratos, evitando picos de insulina.",
+         "Ação anti-inflamatória: Compostos flavonoides presentes na casca combatem processos inflamatórios crônicos."
+      ],
+      "comoUsar":[
+         "In natura: Consumida crua e inteira com a casca para o aproveitamento integral de seus nutrientes.",
+         "Saladas: Harmoniza perfeitamente fatiada com folhas amargas, nozes e queijos de sabor acentuado.",
+         "Sobremesas: Cozida em caldas de especiarias, assada com canela ou incorporada em tortas finas.",
+         "Acompanhamentos: Grelhada como guarnição para carnes magras ou componente de tábuas de frios."
+      ],
+      "contraindicacoes":[
+         "Indivíduos com Síndrome do Intestino Irritável (SII) em fase de crise, devido ao teor de FODMAPs (frutose e sorbitol).",
+         "Pessoas com sensibilidade ou alergia alimentar específica a frutos da família Rosaceae."
+      ],
+      "consumoRecomendado":[
+         "Sugere-se o consumo de 1 unidade média por dia (aproximadamente 130g a 150g).",
+         "Recomenda-se higienizar minuciosamente a casca sob água corrente antes do consumo para remover resíduos superficiais."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Pera cozida com canela e especiarias",
+            "slug":"pera-cozida-com-canela",
+            "imagem":"pera-cozida.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "Uva roxa":{
+      "slug":"uva_roxa",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Vitis vinifera",
+      "familia":"Vitaceae",
+      "imagem":"uva-roxa.jpg",
+      "descricao":[
+         "A uva roxa é uma fruta esférica de videira, globalmente reconhecida por sua doçura marcante e propriedades funcionais.",
+         "É uma das principais fontes naturais de polifenóis bioativos, localizados majoritariamente em sua casca e sementes.",
+         "Oferece energia de rápida absorção celular por meio de seus açúcares naturais, como a glicose e a frutose.",
+         "Possui excelente capacidade de estímulo circulatório devido ao perfil de seus compostos fitoquímicos."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"69 kcal",
+         "carboidratos":"18.1g",
+         "proteinas":"0.7g",
+         "gorduras":"0.2g",
+         "fibras":"0.9g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Atua de forma complementar no suporte à integridade dos tecidos epiteliais.",
+            "vitamina B":"Fornece complexo B, com destaque para a B1 e B6, melhorando o aproveitamento energético.",
+            "vitamina C":"Disponível em quantidade moderada para reforço da barreira antioxidante celular.",
+            "vitamina D":"",
+            "vitamina E":"Contribui para travar a peroxidação lipídica em nível de membrana celular.",
+            "vitamina K":"Apresenta excelente concentração, desempenhando papel crucial na regulação da coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Participa de maneira sutil na manutenção do balanço mineral ósseo.",
+            "cobre":"Atua de forma ativa na síntese de hemoglobina e na neutralização de radicais livres.",
+            "fosforo":"Auxilia nos processos de armazenamento e transferência de energia interna (ATP).",
+            "sodio":"Traços mínimos que não repercutem na pressão arterial sistêmica.",
+            "potassio":"Colabora ativamente na homeostase de fluidos e modulação do tônus vascular.",
+            "magnesio":"Presta suporte na modulação de canais de cálcio e condução elétrica cardíaca.",
+            "ferro":"Presente em baixas proporções, necessitando de cofatores para melhor absorção.",
+            "selenio":"Oferece suporte ao sistema de defesa antioxidante endógeno.",
+            "zinco":"Atua de maneira leve em reações do sistema imunológico e síntese proteica.",
+            "iodo":"Quantidades desprezíveis.",
+            "fluor":"Mineralização vestigial de estruturas esqueléticas e dentárias."
+         }
+      },
+      "beneficios":[
+         "Longevidade celular: O resveratrol neutraliza os radicais livres causadores do estresse oxidativo.",
+         "Saúde do coração: Os fitoquímicos promovem a vasodilatação e diminuem a oxidação do colesterol LDL.",
+         "Melhoria circulatória: Atua positivamente na redução da agregação plaquetária nas artérias.",
+         "Apoio cognitivo: Polifenóis auxiliam na modulação da atividade cerebral e proteção neurológica."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca em cachos, preferencialmente com a casca onde se concentram os antioxidantes.",
+         "Saladas e petiscos: Combina com folhas de rúcula, queijos brancos, castanhas e tábuas de frios.",
+         "Bebidas: Base para sucos integrais puros, néctares funcionais, smoothies e geleias sem açúcar.",
+         "Culinária: Utilizada no preparo de molhos agridoces para acompanhar proteínas magras."
+      ],
+      "contraindicacoes":[
+         "Indivíduos diabéticos descompensados devem moderar o consumo devido ao teor de açúcares simples.",
+         "Pessoas sob uso de medicamentos anticoagulantes devem monitorar a ingestão em função do teor de vitamina K."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de aproximadamente 1 xícara de uvas por dia (cerca de 100g a 120g).",
+         "Buscar consumir a fruta inteira ao invés de apenas o suco para garantir o aporte adequado de fibras."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco de uva roxa integral caseiro",
+            "slug":"suco-de-uva-roxa-integral",
+            "imagem":"suco-uva.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "Ameixa preta":{
+      "slug":"ameixa_preta",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Prunus domestica",
+      "outrosNomes":[
+         "Quando desidratada é conhecida no país como ameixa-passa."
+      ],
+      "familia":"Rosaceae",
+      "imagem":"ameixa-preta.jpg",
+      "descricao":[
+         "A ameixa preta é uma fruta de caroço de coloração escura e arroxeada, célebre por sua ação reguladora do sistema digestivo.",
+         "Apresenta uma combinação única de fibras insolúveis e compostos laxativos naturais, como o sorbitol.",
+         "Possui alta densidade de fitonutrientes antioxidantes, com destaque para os ácidos fenólicos.",
+         "Sua composição química favorece a manutenção da densidade mineral e saúde da estrutura óssea."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"46 kcal",
+         "carboidratos":"11.4g",
+         "proteinas":"0.7g",
+         "gorduras":"0.3g",
+         "fibras":"1.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Excelente fonte de beta-caroteno, essencial para a saúde ocular e integridade da pele.",
+            "vitamina B":"Fornece piridoxina (B6) e outras vitaminas que atuam na modulação do sistema nervoso.",
+            "vitamina C":"Atua de forma sinérgica com os compostos fenólicos no combate aos radicais livres.",
+            "vitamina D":"",
+            "vitamina E":"Protege os ácidos graxos das membranas celulares contra danos oxidativos.",
+            "vitamina K":"Teor relevante que contribui diretamente para os processos de mineralização dos ossos."
+         },
+         "saisMinerais":{
+            "calcio":"Ajuda no suporte mecânico e estrutural do esqueleto.",
+            "cobre":"Auxilia na síntese de colágeno e no correto funcionamento imunológico.",
+            "fosforo":"Participa na regulação do metabolismo do cálcio no tecido ósseo.",
+            "sodio":"Quantidade residual, perfeitamente alinhada com dietas cardioprotetoras.",
+            "potassio":"Concentração expressiva que otimiza o equilíbrio hidroeletrolítico celular.",
+            "magnesio":"Mineral essencial que atua na ativação da vitamina D e fixação do cálcio.",
+            "ferro":"Presença moderada que contribui para o transporte de oxigênio celular.",
+            "selenio":"Oferece propriedades antioxidantes secundárias que evitam o envelhecimento celular.",
+            "zinco":"Dá suporte aos processos de divisão celular e renovação de tecidos.",
+            "iodo":"Apenas traços insignificantes.",
+            "fluor":"Auxilia no reforço estrutural do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Estímulo ao trânsito intestinal: A sinergia entre fibras e sorbitol acelera os movimentos peristálticos.",
+         "Preservação óssea: Substâncias fitoquímicas estimulam os osteoblastos, prevenindo a reabsorção óssea.",
+         "Ação antioxidante: Os compostos fenólicos reduzem os danos causados pelo estresse oxidativo sistêmico.",
+         "Saciedade prolongada: Suas fibras estruturais lentificam o esvaziamento gástrico."
+      ],
+      "comoUsar":[
+         "In natura: Consumida crua, com casca, ideal para lanches intermediários de alto valor nutritivo.",
+         "Fruta desidratada: Consumida como ameixa passa, concentrando nutrientes e propriedades laxativas.",
+         "Culinária: Excelente em pratos agridoces, molhos para carnes como lombo suíço e recheios diversos.",
+         "Café da manhã: Adicionada picada a iogurtes, tigelas de aveia, granolas e vitaminas funcionais."
+      ],
+      "contraindicacoes":[
+         "Pessoas propensas a crises de diarreia ou com distúrbios inflamatórios intestinais agudos.",
+         "Indivíduos com histórico de cálculos renais devido à presença de oxalatos na fruta."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 2 a 3 unidades da fruta fresca ao dia (cerca de 100g).",
+         "Ao optar pela versão desidratada (passa), limitar a porção para evitar excesso calórico concentrado."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Compota caseira de ameixa preta funcional",
+            "slug":"compota-de-ameixa-preta",
+            "imagem":"compota-ameixa.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "abacate":{
+      "slug":"abacate",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Persea americana",
+      "familia":"Lauraceae",
+      "imagem":"abacate.jpg",
+      "descricao":[
+         "O abacate é uma fruta tropical única, caracterizada pelo seu elevado teor de gorduras saudáveis e textura cremosa.",
+         "Diferente da maioria das frutas, possui uma concentração mínima de açúcares solúveis e alta densidade energética.",
+         "Destaca-se pela presença marcante de ácido oleico, uma gordura monoinsaturada benéfica para o perfil lipídico.",
+         "Apresenta excelente digestibilidade e age aumentando a biodisponibilidade de nutrientes lipossolúveis na refeição."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"160 kcal",
+         "carboidratos":"8.5g",
+         "proteinas":"2.0g",
+         "gorduras":"14.7g",
+         "fibras":"6.7g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Apoia as defesas mucosas superficiais e a renovação de tecidos corporais.",
+            "vitamina B":"Excelente fonte de vitaminas B5, B6 e B9, atuando no metabolismo de gorduras e suporte neurológico.",
+            "vitamina C":"Participa como antioxidante hidrossolúvel para a regeneração da vitamina E no organismo.",
+            "vitamina D":"",
+            "vitamina E":"Altíssima concentração lipossolúvel, atuando diretamente na proteção celular contra radicais livres.",
+            "vitamina K":"Teor expressivo que desempenha papel essencial na modulação da coagulação sanguínea."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma sutil e acessória para a homeostase mineral do esqueleto.",
+            "cobre":"Atua ativamente em reações enzimáticas do sistema antioxidante endógeno.",
+            "fosforo":"Auxilia na integridade estrutural e na renovação celular contínua.",
+            "sodio":"Quantidade desprezível, ideal para o controle de fluidos orgânicos.",
+            "potassio":"Concentração superior à da banana, favorecendo o controle da pressão arterial.",
+            "magnesio":"Presta suporte em centenas de reações enzimáticas e no relaxamento vascular.",
+            "ferro":"Baixo teor, porém de fácil aproveitamento devido ao conjunto nutricional.",
+            "selenio":"Oferece propriedades antioxidantes de proteção contra o envelhecimento precoce.",
+            "zinco":"Atua de forma complementar nos mecanismos de defesa imune e reparo tecidual.",
+            "iodo":"Apenas traços vestigiais.",
+            "fluor":"Mineralização estrutural complementar."
+         }
+      },
+      "beneficios":[
+         "Cardioproteção ativa: O ácido oleico auxilia no aumento do colesterol HDL e na redução do LDL.",
+         "Saciabilidade elevada: A combinação de fibras e lipídios lentifica a digestão, reduzindo o apetite.",
+         "Saúde ocular: Contém luteína e zeaxantina, antioxidantes essenciais para proteger a retina contra danos.",
+         "Absorção de nutrientes: Melhora a captação de carotenoides lipossolúveis presentes em vegetais adicionais."
+      ],
+      "comoUsar":[
+         "Preparos salgados: Base clássica para guacamole, cremes com ervas, sanduíches ou fatiado em saladas.",
+         "Preparos doces: Utilizado em mousses funcionais com cacau, cremes batidos com limão e smoothies proteicos.",
+         "Substituto saudável: Pode substituir a maionese ou a manteiga em diversas receitas e molhos caseiros.",
+         "In natura: Consumido temperado apenas com gotas de limão e uma pitada de sal ou fio de azeite."
+      ],
+      "contraindicacoes":[
+         "Pessoas com restrição calórica severa devem monitorar a porção devido à alta densidade energética.",
+         "Indivíduos com alergia conhecida ao látex podem apresentar reação cruzada ao abacate."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de aproximadamente 1/4 a 1/2 unidade pequena por dia (cerca de 80g a 100g).",
+         "Armazenar com gotas de limão para evitar a oxidação rápida da polpa após aberta."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Guacamole funcional com ervas",
+            "slug":"guacamole-funcional",
+            "imagem":"guacamole.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "limao":{
+      "slug":"limao",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Citrus limon",
+      "family":"Rutaceae",
+      "imagem":"limao.jpg",
+      "descricao":[
+         "O limão é um fruto cítrico amplamente reconhecido por sua acidez marcante e alto teor de compostos voláteis.",
+         "Apresenta uma quantidade mínima de frutose e carboidratos, resultando em um valor calórico quase nulo.",
+         "Destaca-se pela alta concentração de ácido cítrico, que desempenha papel metabólico e alcalinizante no organismo.",
+         "É um excelente agente antioxidante e conservante natural devido ao seu pH marcadamente baixo."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"29 kcal",
+         "carboidratos":"9.3g",
+         "proteinas":"1.1g",
+         "gorduras":"0.3g",
+         "fibras":"2.8g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença mínima através de vestígios de carotenoides protetores da visão.",
+            "vitamina B":"Fornece pequenas doses de vitaminas B1, B2 e B3 para suporte celular e metabólico.",
+            "vitamina C":"Teor elevadíssimo, sendo um dos principais pilares para o fortalecimento do sistema imune.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes complementares em nível lipídico celular.",
+            "vitamina K":"Quantidades basais sem impacto direto no mecanismo de coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Apoia o pool mineral com absorção otimizada devido à presença de ácidos orgânicos.",
+            "cobre":"Atua de forma sutil no auxílio à imunidade e proteção celular geral.",
+            "fosforo":"Auxilia nos processos de equilíbrio celular e integridade interna.",
+            "sodio":"Quantidade extremamente baixa, totalmente seguro para hipertensos.",
+            "potassio":"Teor expressivo que auxilia no equilíbrio eletrolítico e na contração muscular.",
+            "magnesio":"Participa em reações enzimáticas associadas à produção e transferência de energia.",
+            "ferro":"Teor discreto, mas sua absorção geral é altamente potencializada pela abundância de vitamina C.",
+            "selenio":"Oferece proteção celular contra danos e estresse oxidativo periférico.",
+            "zinco":"Atua de forma sinérgica com a vitamina C na cicatrização e defesa do corpo.",
+            "iodo":"Quantidades irrelevantes.",
+            "fluor":"Suporte estrutural vestigial."
+         }
+      },
+      "beneficios":[
+         "Fortalecimento imune: A alta concentração de vitamina C estimula a produção de glóbulos brancos.",
+         "Absorção de ferro: Potencializa a captação do ferro não-heme proveniente de vegetais folhosos escuros.",
+         "Prevenção de cálculos: O ácido cítrico ajuda a inibir a formação de cristais de oxalato nos rins.",
+         "Ação digestiva: Estimula a produção de secreções gástricas e biliares, facilitando a quebra de alimentos."
+      ],
+      "comoUsar":[
+         "Tempero natural: Excelente para realçar sabores em saladas, carnes, peixes e aves sem adicionar sódio.",
+         "Bebidas: Utilizado em sucos, águas aromatizadas, chás funcionais ou shots matinais.",
+         "Cestaria e Raspas: As raspas da casca adicionam aromas complexos a bolos, doces e molhos.",
+         "Conservante caseiro: Gotas do suco evitam o escurecimento oxidativo de frutas como maçã e abacate."
+      ],
+      "contraindicacoes":[
+         "Pessoas com esofagite, gastrite ou úlceras ativas devem moderar o consumo caso haja desconforto ou azia.",
+         "O suco na pele sob exposição solar causa fitofotodermatite severa (queimaduras e manchas)."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo do suco de 1 a 2 limões por dia (cerca de 30ml a 60ml de suco puro).",
+         "Escovar os dentes ou enxaguar a boca após o consumo para proteger o esmalte dentário da acidez."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Limonada suíça funcional com raspas",
+            "slug":"limonada-suica-funcional",
+            "imagem":"limonada.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "tangerina":{
+      "slug":"tangerina",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Citrus reticulata",
+      "outrosNomes":[
+          "É chamada de mexerica no Sudeste e Centro-Oeste",
+          "bergamota ou vergamota na região Sul",
+         "tângina ou laranja-cravo em algumas áreas do Nordeste."
+      ],
+      "family":"Rutaceae",
+      "imagem":"tangerina.jpg",
+      "descricao":[
+         "A tangerina é um fruto cítrico de casca solta e gomos fáceis de separar, muito apreciada pelo seu aroma doce e frescor.",
+         "Possui ótimas quantidades de água e carboidratos simples, fornecendo energia rápida e hidratação imediata.",
+         "Destaca-se pela presença de flavonoides bioativos, como a nobiletina e a tangeretina, presentes na polpa e no bagaço.",
+         "Sua composição fibrosa ajuda no equilíbrio da microbiota e na modulação intestinal diária."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"53 kcal",
+         "carboidratos":"13.3g",
+         "proteinas":"0.8g",
+         "gorduras":"0.3g",
+         "fibras":"1.8g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Boa concentração através de beta-criptoxantina, atuando como precursora da saúde visual.",
+            "vitamina B":"Fonte de vitaminas B1, B2 e B6, que dão suporte aos processos metabólicos e neurológicos.",
+            "vitamina C":"Excelente concentração hidrossolúvel, combatendo a oxidação e o envelhecimento celular.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que atuam na integridade das membranas celulares.",
+            "vitamina K":"Traços mínimos envolvidos nas funções fisiológicas estruturais gerais."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para as necessidades minerais esqueléticas do organismo.",
+            "cobre":"Atua de maneira sutil no metabolismo do ferro e suporte enzimático.",
+            "fosforo":"Auxilia na sinalização celular e nos compostos energéticos do corpo.",
+            "sodio":"Quantidade residual mínima, perfeitamente compatível com dietas de controle de sódio.",
+            "potassio":"Teor equilibrado que atua no controle da pressão arterial e balanço hídrico.",
+            "magnesio":"Participa em reações enzimáticas do sistema neuromuscular e metabolismo celular.",
+            "ferro":"Presente em baixas proporções, beneficiando-se da vitamina C para melhor absorção intestinal.",
+            "selenio":"Oferece suporte à barreira protetora contra danos provocados por radicais livres.",
+            "zinco":"Atua de forma leve no suporte imunitário e renovação de tecidos corporais.",
+            "iodo":"Quantidades insignificantes.",
+            "fluor":"Mineralização estrutural complementar."
+         }
+      },
+      "beneficios":[
+         "Imunidade reforçada: A alta concentração de vitamina C estimula a produção e atividade dos anticorpos.",
+         "Melhoria do trânsito intestinal: O consumo do bagaço fornece fibras que estimulam o bom funcionamento digestivo.",
+         "Ação antioxidante: Flavonoides específicos atuam combatendo inflamações e o estresse oxidativo arterial.",
+         "Saúde da pele: Os carotenos e a vitamina C estimulam a síntese proteica de colágeno endógeno."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca em gomos, aproveitando o bagaço para ingestão máxima de fibras.",
+         "Saladas: Combina perfeitamente em saladas de folhas verdes com molhos leves à base de iogurte.",
+         "Bebidas: Utilizada em sucos cítricos, smoothies proteicos e águas aromatizadas com hortelã.",
+         "Confeitaria: Raspas da casca adicionam sabor sofisticado a bolos, muffins e sobremesas saudáveis."
+      ],
+      "contraindicacoes":[
+         "Pessoas com refluxo gastroesofágico severo ou azia crônica devem avaliar a tolerância individual à acidez.",
+         "O contato do óleo essencial da casca na pele com posterior exposição ao sol pode causar manchas."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 a 2 unidades médias por dia (cerca de 150g a 200g).",
+         "Dar preferência ao consumo integral da fruta em gomos ao invés de apenas o suco coado."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Bolo funcional de tangerina com casca",
+            "slug":"bolo-funcional-de-tangerina",
+            "imagem":"bolo-tangerina.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "maça":{
+      "slug":"maca",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Malus domestica",
+      "familia":"Rosaceae",
+      "imagem":"maca.jpg",
+      "descricao":[
+         "A maçã é uma fruta de clima temperado, amplamente consumida no mundo devido à sua praticidade e perfil nutricional equilibrado.",
+         "Destaca-se pelo alto teor de pectina, uma fibra solúvel que forma um gel no trato digestivo, auxiliando no controle glicêmico.",
+         "Possui ótimas concentrações de compostos fenólicos, como a quercetina, concentrados principalmente em sua casca.",
+         "Apresenta excelente estabilidade glicêmica, promovendo saciedade prolongada com um valor calórico moderado."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"52 kcal",
+         "carboidratos":"13.8g",
+         "proteinas":"0.3g",
+         "gorduras":"0.2g",
+         "fibras":"2.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença discreta através de carotenoides que atuam na proteção celular ocular.",
+            "vitamina B":"Fornece pequenas doses de vitaminas B1, B2 e B6, auxiliando nos processos metabólicos gerais.",
+            "vitamina C":"Atua de forma complementar como antioxidante hidrossolúvel para a defesa imunitária.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que auxiliam na integridade das membranas celulares.",
+            "vitamina K":"Quantidades basais envolvidas nos mecanismos de homeostase celular."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma sutil e complementar para o pool mineral do esqueleto.",
+            "cobre":"Atua de forma leve como cofator em reações enzimáticas do sistema imunológico.",
+            "fosforo":"Auxilia na sinalização intracelular e na manutenção da integridade das membranas.",
+            "sodio":"Quantidade residual mínima, ideal para prevenção de quadros de retenção hídrica.",
+            "potassio":"Mineral predominante que favorece o relaxamento vascular e o equilíbrio de fluidos.",
+            "magnesio":"Participa em processos metabólicos e na modulação da condução neuromuscular.",
+            "ferro":"Presente em baixas proporções, necessitando de cofatores dietéticos para melhor absorção.",
+            "selenio":"Oferece suporte antioxidante residual contra os danos provocados por radicais livres.",
+            "zinco":"Atua de forma leve nos mecanismos de cicatrização e suporte imunológico celular.",
+            "iodo":"Quantidades vestigiais sem repercussão metabólica.",
+            "fluor":"Auxilia de forma sutil na proteção e integridade do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Saúde intestinal: A pectina atua como um excelente prebiótico, alimentando as bactérias benéficas da microbiota.",
+         "Controle do colesterol: As fibras solúveis auxiliam na redução da absorção intestinal do colesterol ruim (LDL).",
+         "Saciedade prolongada: A estrutura de suas fibras lentifica o esvaziamento gástrico, auxiliando no controle do apetite.",
+         "Proteção cardiovascular: Os antioxidantes fenólicos auxiliam na prevenção da oxidação lipídica nas artérias."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca e inteira com a casca para o aproveitamento máximo de suas fibras e fitoquímicos.",
+         "Saladas: Harmoniza fatiada em lâminas finas com folhas verdes amargas, nozes e queijos de sabor forte.",
+         "Sobremesas: Assada com canela em pó, incorporada em tortas integrais, bolos ou transformada em purê funcional.",
+         "Bebidas: Utilizada em sucos naturais combinados, smoothies energéticos ou em águas aromatizadas com hortelã."
+      ],
+      "contraindicacoes":[
+         "Indivíduos com Síndrome do Intestino Irritável (SII) sensíveis ao excesso de frutose (FODMAPs) devem moderar a ingestão.",
+         "Pessoas com hipersensibilidade ou alergia alimentar específica a frutos da família Rosaceae."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 unidade média por dia (aproximadamente 130g a 150g).",
+         "Higienizar minuciosamente a casca sob água corrente antes do consumo para eliminar resíduos superficiais."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Maçã assada funcional com canela",
+            "slug":"maca-assada-com-canela",
+            "imagem":"maca-assada.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "figo":{
+      "slug":"figo",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Ficus carica",
+      "familia":"Moraceae",
+      "imagem":"figo.jpg",
+      "descricao":[
+         "O figo é um siconódio (uma inflorescência invertida), altamente valorizado por sua doçura intensa e textura macia.",
+         "Apresenta uma excelente densidade de minerais alcalinizantes e açúcares naturais de fácil assimilação pelo organismo.",
+         "Destaca-se pelo alto teor de fibras insolúveis concentradas em suas pequenas sementes e em sua pele fina.",
+         "Possui propriedades antioxidantes associadas à presença de polifenóis, concentrados principalmente nas variedades roxas."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"74 kcal",
+         "carboidratos":"19.2g",
+         "proteinas":"0.8g",
+         "gorduras":"0.3g",
+         "fibras":"2.9g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Boa fonte de carotenos protetores que auxiliam na manutenção da saúde visual e epitelial.",
+            "vitamina B":"Fornece vitaminas do complexo B, como B1, B5 e B6, essenciais para a modulação energética celular.",
+            "vitamina C":"Disponível em níveis discretos para suporte e regeneração antioxidante do organismo.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes de proteção contra danos nas membranas celulares.",
+            "vitamina K":"Apresenta excelente concentração, atuando na cascata de coagulação e na saúde dos tecidos ósseos."
+         },
+         "saisMinerais":{
+            "calcio":"Excelente teor para uma fruta, apoiando diretamente a integridade da estrutura esquelética.",
+            "cobre":"Atua ativamente como cofator essencial no metabolismo do ferro e nas funções imunitárias.",
+            "fosforo":"Auxilia na sinalização intracelular e na integridade celular em conjunto com o cálcio.",
+            "sodio":"Quantidade residual mínima, perfeitamente compatível com regimes cardioprotetores.",
+            "potassio":"Teor expressivo que otimiza a condução neuromuscular e auxilia na redução da pressão arterial.",
+            "magnesio":"Participa em centenas de reações enzimáticas associadas à fixação mineral e relaxamento vascular.",
+            "ferro":"Presente em níveis moderados, auxiliando de forma complementar no transporte de oxigênio.",
+            "selenio":"Oferece propriedades antioxidantes contra o estresse oxidativo e envelhecimento celular.",
+            "zinco":"Dá suporte aos processos de divisão celular, reparo tecidual e sistema imunológico.",
+            "iodo":"Quantidades vestigiais sem repercussão.",
+            "fluor":"Suporte estrutural vestigial para a saúde bucal."
+         }
+      },
+      "beneficios":[
+         "Otimização intestinal: Suas fibras mecânicas e sementes estimulam o peristaltismo, combatendo a constipação.",
+         "Densidade óssea: O excelente aporte combinado de cálcio, magnésio e vitamina K fortalece o esqueleto.",
+         "Aporte energético: Fornece carboidratos de rápida absorção, sendo ideal para reposição pós-treino imediata.",
+         "Combate ao estresse oxidativo: Os polifenóis ajudam a neutralizar os radicais livres circulantes no sangue."
+      ],
+      "comoUsar":[
+         "In natura: Consumido fresco e inteiro com a casca, ideal para compor lanches de alta densidade nutricional.",
+         "Saladas e entradas: Harmoniza perfeitamente cortado em quartos com folhas de rúcula, presunto cru e queijo gorgonzola.",
+         "Acompanhamentos: Grelhado levemente na frigideira com um fio de mel ou azeite para acompanhar carnes magras.",
+         "Confeitaria saudável: Utilizado para adoçar naturalmente preparos, geleias caseiras ou consumido na forma desidratada."
+      ],
+      "contraindicacoes":[
+         "Indivíduos diabéticos não controlados devem moderar o consumo devido ao teor concentrado de açúcares naturais.",
+         "Pessoas propensas a quadros de diarreia crônica ou com restrição severa de potássio na dieta."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 2 a 3 unidades frescas por dia (aproximadamente 100g a 120g).",
+         "Ao optar pela versão desidratada (figo seco), reduzir a porção pela metade devido à concentração calórica."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Figo grelhado com queijo de cabra e rúcula",
+            "slug":"figo-grelhado-com-queijo-de-cabra",
+            "imagem":"figo-grelhado.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "coco":{
+      "slug":"coco",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Cocos nucifera",
+      "familia":"Arecaceae",
+      "imagem":"coco.jpg",
+      "descricao":[
+         "O coco é o fruto de uma palmeira tropical, único por apresentar um endosperma composto por uma parte sólida e outra líquida.",
+         "Ao contrário da maioria das frutas, destaca-se pelo seu perfil lipídico rico em ácidos graxos de cadeia média (TCM).",
+         "Sua polpa apresenta uma densidade energética elevada com uma quantidade muito baixa de carboidratos simples.",
+         "A água contida em seu interior é um excelente repositor eletrolítico natural com alta osmolalidade biológica."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"354 kcal",
+         "carboidratos":"15.2g",
+         "proteinas":"3.3g",
+         "gorduras":"33.5g",
+         "fibras":"9.0g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença residual sem impactos expressivos no pool sistêmico.",
+            "vitamina B":"Fornece vitaminas B1, B3 e B6 que participam ativamente do metabolismo de gorduras e energia.",
+            "vitamina C":"Teor moderado na polpa fresca, auxiliando de forma complementar na barreira antioxidante.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que protegem os ácidos graxos estruturais da fruta contra a oxidação.",
+            "vitamina K":"Níveis basais complementares envolvidos no equilíbrio biológico periférico."
+         },
+         "saisMinerais":{
+            "calcio":"Apoia de forma sutil as necessidades estruturais do sistema esquelético.",
+            "cobre":"Atua de forma marcante como cofator essencial na síntese de tecidos e na modulação imunológica.",
+            "fosforo":"Auxilia na sinalização intracelular e na composição dos fosfolipídios de membrana.",
+            "sodio":"Teor equilibrado, ideal para atuar em sinergia com o potássio no balanço hídrico.",
+            "potassio":"Excelente concentração que favorece a eliminação de líquidos e a condução neuromuscular.",
+            "magnesio":"Participa ativamente de reações enzimáticas ligadas à contração muscular e ao tônus vascular.",
+            "ferro":"Boa disponibilidade mineral que apoia o transporte celular de oxigênio.",
+            "selenio":"Oferece suporte de defesa contra radicais livres e estresse oxidativo celular.",
+            "zinco":"Atua de forma eficaz nos mecanismos de reparo celular e integridade imunitária.",
+            "iodo":"Quantidades vestigiais insignificantes.",
+            "fluor":"Mineralização estrutural acessória para o esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Energia de rápida assimilação: Os triglicerídeos de cadeia média (TCM) são oxidados rapidamente pelo fígado.",
+         "Saúde intestinal: O altíssimo teor de fibras insolúveis estimula o peristaltismo e o bolo fecal.",
+         "Ação antimicrobiana: Contém ácido láurico que se converte em monolaurina, auxiliando na defesa contra patógenos.",
+         "Reposição eletrolítica: Sua água fornece minerais ideais para a reidratação pós-exercício de forma natural."
+      ],
+      "comoUsar":[
+         "In natura: Consumo da polpa fresca em pedaços, ideal para lanches de baixo índice glicêmico.",
+         "Culinária funcional: Utilizado ralado desidratado em bolos, massas low carb ou no preparo de leite de coco caseiro.",
+         "Pratos salgados: Base clássica para moquecas, molhos agridoces, curries e preparos com frutos do mar.",
+         "Hidratação: Consumo da água de coco verde bem gelada pura ou batida em sucos com folhas escuras."
+      ],
+      "contraindicacoes":[
+         "Pessoas em dietas com restrição calórica severa devem controlar a porção devido à alta densidade de lipídios.",
+         "Indivíduos com intolerância gastrointestinal a alimentos com alta concentração de gorduras e fibras."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de cerca de 30g a 50g da polpa fresca por dia.",
+         "Ao utilizar o coco ralado comercial, priorizar as versões sem adição de açúcar na composição."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Leite de coco caseiro funcional",
+            "slug":"leite-de-coco-caseiro",
+            "imagem":"leite-coco.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "mirtilo":{
+      "slug":"mirtilo",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Vaccinium myrtillus",
+      "outrosNomes":[
+         " O seu nome em inglês é blueberry."
+      ],
+      "familia":"Ericaceae",
+      "imagem":"mirtilo.jpg",
+      "descricao":[
+         "O mirtilo é uma pequena fruta esférica de coloração azul-escura, mundialmente reconhecida pelo seu alto valor funcional.",
+         "Destaca-se por ser uma das fontes mais ricas em antocianinas, pigmentos responsáveis pela sua coloração e ação fitoquímica.",
+         "Possui uma carga glicêmica extremamente baixa combinada com uma quantidade calórica reduzida por porção.",
+         "Sua composição química atua de forma expressiva na modulação do estresse oxidativo e proteção celular interna."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"57 kcal",
+         "carboidratos":"14.5g",
+         "proteinas":"0.7g",
+         "gorduras":"0.3g",
+         "fibras":"2.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Boa presença através de compostos que dão suporte à integridade ocular e macular.",
+            "vitamina B":"Fornece frações de vitaminas do complexo B, auxiliando no equilíbrio metabólico celular.",
+            "vitamina C":"Excelente concentração que atua sinergicamente com os fitoquímicos no combate aos radicais livres.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes de proteção contra a peroxidação de lipídios nas membranas.",
+            "vitamina K":"Altíssimo teor, desempenhando um papel crucial na cascata de coagulação e na fixação mineral óssea."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma sutil para a manutenção mineral e estrutural esqueleto.",
+            "cobre":"Atua de forma relevante como cofator na produção de energia e integridade imunológica.",
+            "fosforo":"Auxilia nos processos de transferência energética e sinalização interna celular.",
+            "sodio":"Quantidade mínima residual, excelente para regimes com foco em saúde vascular.",
+            "potassio":"Teor equilibrado que apoia a regulação da pressão arterial e o equilíbrio de fluidos.",
+            "magnesio":"Participa em reações enzimáticas do sistema neuromuscular e modulação celular.",
+            "ferro":"Baixa concentração, utilizando o aporte de vitamina C da fruta para otimizar sua absorção.",
+            "selenio":"Oferece propriedades antioxidantes adicionais protetoras da tireoide e tecidos.",
+            "zinco":"Atua de maneira complementar nos mecanismos de defesa e renovação tecidual.",
+            "iodo":"Quantidades vestigiais insignificantes.",
+            "fluor":"Apoio sutil estrutural para a saúde do esmalte bucal."
+         }
+      },
+      "beneficios":[
+         "Ação antienvelhecimento: As antocianinas bloqueiam os danos celulares provocados pelos radicais livres.",
+         "Proteção cognitiva: Seus fitoquímicos auxiliam na modulação cerebral, melhorando a memória e retardando o declínio neural.",
+         "Melhoria cardiovascular: Atua reduzindo a oxidação do colesterol LDL e melhorando a função endotelial.",
+         "Suporte à saúde visual: Os fitoquímicos oxigenam a retina, auxiliando na prevenção da fadiga ocular."
+      ],
+      "comoUsar":[
+         "In natura: Consumido fresco e inteiro, ideal para lanches rápidos ou adicionado diretamente a preparos.",
+         "Café da manhã: Excelente para misturar em iogurtes naturais, tigelas de aveia, panquecas funcionais ou granolas.",
+         "Bebidas: Utilizado em smoothies proteicos, sucos antioxidantes combinados ou águas aromatizadas.",
+         "Confeitaria saudável: Base perfeita para geleias sem açúcar, muffins integrais ou caldas para sobremesas."
+      ],
+      "contraindicacoes":[
+         "Pessoas que fazem uso de medicamentos anticoagulantes potentes devem monitorar a ingestão devido ao teor de vitamina K.",
+         "Indivíduos com sensibilidade gástrica específica a pequenos frutos ácidos ou histórico de alergia à família Ericaceae."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 xícara pequena por dia (aproximadamente 100g a 120g).",
+         "Pode ser consumido na versão congelada sem perdas significativas de suas propriedades antioxidantes."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Coulis funcional de mirtilo sem açúcar",
+            "slug":"coulis-de-mirtilo-funcional",
+            "imagem":"coulis-mirtilo.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "maracujá":{
+      "slug":"maracuja",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Passiflora edulis",
+      "familia":"Passifloraceae",
+      "imagem":"maracuja.jpg",
+      "descricao":[
+         "O maracujá é um fruto tropical de trepadeira, amplamente conhecido por sua polpa gelatinosa, sementes crocantes e acidez acentuada.",
+         "Destaca-se pela presença de alcaloides e flavonoides, como a passiflorina, que atuam no sistema nervoso central.",
+         "Apresenta uma quantidade expressiva de fibras solúveis, especialmente a pectina contida em sua casca amarela.",
+         "Sua polpa é altamente hidratante e fornece uma excelente densidade de fitoquímicos protetores por porção."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"97 kcal",
+         "carboidratos":"23.4g",
+         "proteinas":"2.2g",
+         "gorduras":"0.7g",
+         "fibras":"10.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Altíssimo teor na forma de betacaroteno, essencial para a saúde ocular e integridade das mucosas.",
+            "vitamina B":"Fornece ótimas concentrações de vitamina B3 (niacina) e B2, auxiliando no metabolismo celular energético.",
+            "vitamina C":"Excelente fonte hidrossolúvel, reforçando os mecanismos de defesa imunitária e síntese de colágeno.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que protegem as estruturas lipídicas contra o estresse oxidativo.",
+            "vitamina K":"Quantidades basais envolvidas nos mecanismos de regulação da homeostase."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para as necessidades estruturais do sistema esquelético.",
+            "cobre":"Atua de forma sutil como cofator em reações enzimáticas do sistema imunológico.",
+            "fosforo":"Auxilia na sinalização intracelular e nos compostos de armazenamento energético (ATP).",
+            "sodio":"Quantidade residual mínima, perfeitamente adequada para dietas cardioprotetoras.",
+            "potassio":"Teor muito expressivo, auxiliando no relaxamento vascular e no equilíbrio hídrico celular.",
+            "magnesio":"Participa em processos biológicos associados ao relaxamento muscular e modulação do estresse.",
+            "ferro":"Boa presença mineral, cuja absorção é potencializada pelo alto teor de vitamina C da própria fruta.",
+            "selenio":"Oferece suporte antioxidante residual contra os danos provocados por radicais livres.",
+            "zinco":"Atua de forma leve nos mecanismos de cicatrização e suporte imunitário.",
+            "iodo":"Quantidades vestigiais sem repercussão metabólica.",
+            "fluor":"Auxilia de forma sutil na manutenção da integridade do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Ação calmante natural: Seus compostos atuam diminuindo a ansiedade e melhorando a indução e qualidade do sono.",
+         "Excelente aporte de fibras: Suas sementes e polpa fornecem fibras que auxiliam no bom funcionamento do intestino.",
+         "Controle glicêmico: As fibras retardam a velocidade de absorção dos carboidratos na corrente sanguínea.",
+         "Combate aos radicais livres: A combinação de vitaminas A e C blinda as células contra o envelhecimento precoce."
+      ],
+      "comoUsar":[
+         "Bebidas: Base perfeita para sucos puros, águas aromatizadas, smoothies refrescantes ou chás relaxantes.",
+         "Molhos e guarnições: Utilizado reduzido com suas sementes para acompanhar peixes, aves ou saladas folhosas.",
+         "Café da manhã: Misturado em iogurtes naturais, tigelas de aveia ou adicionado a saladas de frutas.",
+         "Confeitaria saudável: Base para mousses funcionais com sementes, geleias sem açúcar ou caldas para bolos."
+      ],
+      "contraindicacoes":[
+         "Pessoas com hipotensão severa devem moderar o consumo devido ao efeito relaxante e hipotensor da fruta.",
+         "Indivíduos com sensibilidade gástrica extrema à acidez pronunciada de frutos cítricos e tropicais."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo da polpa de 1 unidade grande por dia (aproximadamente 100g de polpa com sementes).",
+         "Aproveitar as sementes mastigando-as para garantir o aporte integral das fibras insolúveis."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Mousse funcional de maracujá sem açúcar",
+            "slug":"mousse-de-maracuja-funcional",
+            "imagem":"mousse-maracuja.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "framboesa":{
+      "slug":"framboesa",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Rubus idaeus",
+      "familia":"Rosaceae",
+      "imagem":"framboesa.jpg",
+      "descricao":[
+         "A framboesa é uma pequena fruta vermelha agregada, mundialmente apreciada por sua textura delicada e sabor agridoce.",
+         "Destaca-se por conter elagitoninos e antocianinas, potentes fitoquímicos com alta capacidade antioxidante.",
+         "Possui um índice glicêmico muito baixo associado a uma das maiores concentrações de fibras por porção entre as frutas.",
+         "Sua composição molecular atua na modulação de vias inflamatórias e na proteção das estruturas celulares."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"52 kcal",
+         "carboidratos":"11.9g",
+         "proteinas":"1.2g",
+         "gorduras":"0.7g",
+         "fibras":"6.5g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença discreta através de carotenoides que dão suporte à saúde macular e celular.",
+            "vitamina B":"Fornece ácido fólico (B9) e outras vitaminas do complexo B essenciais para a divisão celular.",
+            "vitamina C":"Teor altíssimo, atuando diretamente na neutralização de radicais livres e na síntese de colágeno.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes que protegem os lipídios das membranas celulares da oxidação.",
+            "vitamina K":"Excelente concentração que apoia a homeostase sanguínea e os processos de mineralização óssea."
+         },
+         "saisMinerais":{
+            "calcio":"Auxilia de forma complementar na manutenção do pool mineral esquelético corporativo.",
+            "cobre":"Atua de forma expressiva como cofator na produção de energia e integridade imunológica.",
+            "fosforo":"Participa dos processos de sinalização intracelular e manutenção do equilíbrio ácido-base.",
+            "sodio":"Quantidade mínima residual, excelente para prevenção da retenção de líquidos e edemas.",
+            "potassio":"Teor equilibrado que apoia a modulação da pressão arterial e o balanço hídrico celular.",
+            "magnesio":"Presta suporte em reações enzimáticas do sistema neuromuscular e metabolismo celular.",
+            "ferro":"Presente em concentrações moderadas, com absorção otimizada devido à abundância de vitamina C.",
+            "selenio":"Oferece propriedades antioxidantes de proteção contra o estresse celular endógeno.",
+            "zinco":"Atua de forma eficaz nos mecanismos de defesa, cicatrização e renovação de tecidos.",
+            "iodo":"Quantidades vestigiais sem relevância metabólica.",
+            "fluor":"Apoio sutil para a integridade mecânica do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Combate ao estresse oxidativo: Seus polifenóis bloqueiam a ação de radicais livres, protegendo os tecidos.",
+         "Excelente regulação intestinal: O elevado teor de fibras insolúveis otimiza o trânsito e previne a constipação.",
+         "Gerenciamento de peso: Alta densidade de nutrientes essenciais com baixa densidade calórica por porção.",
+         "Modulação inflamatória: Compostos fenólicos auxiliam na redução de marcadores inflamatórios sistêmicos."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca, inteira e crua, preservando perfeitamente seus fitoquímicos e fibras.",
+         "Café da manhã: Excelente adição para iogurtes proteicos, panquecas funcionais, aveia ou granolas.",
+         "Bebidas: Utilizada em smoothies antioxidantes, sucos combinados, shakes ou águas aromatizadas.",
+         "Sobremesas saudáveis: Base perfeita para geleias caseiras sem açúcar, caldas funcionais ou muffins integrais."
+      ],
+      "contraindicacoes":[
+         "Indivíduos com propensão a cálculos renais (oxalato de cálcio) devem monitorar o consumo devido aos oxalatos.",
+         "Pessoas com hipersensibilidade ou alergia alimentar conhecida a frutos da família Rosaceae."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 xícara de framboesas por dia (aproximadamente 120g).",
+         "Pode ser consumida na versão congelada sem perdas em seu perfil de fitoquímicos e antioxidantes."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Geleia funcional de framboesa com sementes de chia",
+            "slug":"geleia-de-framboesa-com-chia",
+            "imagem":"geleia-framboesa.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "cajarana":{
+      "slug":"cajarana",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Spondias cytherea",
+      "outrosNomes":[
+         "É também conhecida como cajá-manga ou cajá-marrom no Sudeste.",
+         "Em algumas partes do Nordeste, também é chamada de cajá-do-igapó."
+      ],
+      "familia":"Anacardiaceae",
+      "imagem":"cajarana.jpg",
+      "descricao":[
+         "A cajarana, também conhecida como cajá-manga, é uma fruta tropical de casca lisa e polpa firme e filamentosa.",
+         "Apresenta um sabor marcadamente agridoce com uma acidez agradável que estimula as glândulas salivares.",
+         "Destaca-se pelo bom aporte de fibras alimentares concentradas em sua polpa que auxiliam no processo digestivo.",
+         "É uma excelente fonte de compostos fitoquímicos e água, promovendo hidratação com baixa densidade calórica."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"46 kcal",
+         "carboidratos":"11.4g",
+         "proteinas":"0.2g",
+         "gorduras":"0.1g",
+         "fibras":"2.1g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Boa presença através de carotenoides que atuam no suporte celular e na integridade visual.",
+            "vitamina B":"Fornece vitaminas B1, B2 e B3 que auxiliam de forma complementar no metabolismo energético celular.",
+            "vitamina C":"Teor elevado, atuando diretamente no fortalecimento do sistema imune e no combate aos radicais livres.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes acessórias envolvidas na proteção das membranas celulares.",
+            "vitamina K":"Traços mínimos envolvidos nas funções fisiológicas estruturais básicas."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para o pool mineral do sistema esquelético.",
+            "cobre":"Atua de maneira sutil como cofator em reações enzimáticas do organismo.",
+            "fosforo":"Auxilia na sinalização intracelular e na manutenção dos tecidos biológicos.",
+            "sodio":"Quantidade residual mínima, totalmente segura para dietas com restrição de sal.",
+            "potassio":"Excelente concentração mineral que favorece o equilíbrio hídrico e reduz a tensão vascular.",
+            "magnesio":"Participa em reações enzimáticas do sistema neuromuscular e no relaxamento muscular.",
+            "ferro":"Presente em baixas proporções, beneficiando-se da vitamina C da fruta para otimizar a absorção.",
+            "selenio":"Oferece suporte à barreira protetora contra danos causados pelo estresse oxidativo.",
+            "zinco":"Atua de forma leve no suporte imunitário e nos mecanismos de cicatrização celular.",
+            "iodo":"Quantidades insignificantes.",
+            "fluor":"Mineralização estrutural complementar vestigial."
+         }
+      },
+      "beneficios":[
+         "Reforço imunológico: A alta concentração de vitamina C otimiza a atividade das células de defesa.",
+         "Saúde digestiva: Suas fibras estruturais auxiliam na formação do bolo fecal e regularidade intestinal.",
+         "Ação antioxidante: Os compostos fenólicos atuam diminuindo a incidência de estresse oxidativo periférico.",
+         "Auxílio no emagrecimento: Promove saciedade com baixo consumo de calorias por porção dietética."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca descascada, ideal para lanches intermediários refrescantes.",
+         "Bebidas: Base muito popular para sucos tropicais, néctares funcionais, smoothies e coquetéis.",
+         "Culinária: Utilizada no preparo de compotas caseiras, geleias agridoces, sorvetes e mousses.",
+         "Molhos fatiados: Combina perfeitamente reduzida em molhos para acompanhar proteínas como peixes e aves."
+      ],
+      "contraindicacoes":[
+         "Indivíduos com gastrite severa ou úlceras ativas devem moderar o consumo devido à acidez da fruta.",
+         "Pessoas com hipersensibilidade gastrointestinal a frutos tropicais com perfil fibroso denso."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1 unidade média por dia (aproximadamente 100g a 120g de polpa).",
+         "Consumir preferencialmente fresca para o aproveitamento integral de seu teor de vitamina C hidrossolúvel."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco refrescante de cajarana com hortelã",
+            "slug":"suco-de-cajarana-com-hortela",
+            "imagem":"suco-cajarana.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "cajá":{
+      "slug":"caja",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Spondias mombin",
+      "outrosNomes":[
+            "Conhecido também como cajá-mirim, taperebá na região Norte e na Amazônia ou amargoso."
+      ],
+      "familia":"Anacardiaceae",
+      "imagem":"caja.jpg",
+      "descricao":[
+         "O cajá é um pequeno fruto tropical de casca fina amarelada e polpa extremamente suculenta, aromática e ácida.",
+         "Possui uma alta concentração de ácidos orgânicos naturais que conferem seu sabor cítrico característico.",
+         "Destaca-se por conter uma densidade expressiva de carotenoides e polifenóis em sua composição fluida.",
+         "É amplamente valorizado em regiões tropicais por suas propriedades refrescantes, hidratantes e purificantes."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"44 kcal",
+         "carboidratos":"10.8g",
+         "proteinas":"0.6g",
+         "gorduras":"0.2g",
+         "fibras":"1.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Excelente fonte de carotenos, atuando diretamente na manutenção da saúde ocular e epitelial.",
+            "vitamina B":"Fornece pequenas doses de vitaminas B1 e B2 para suporte metabólico de carboidratos.",
+            "vitamina C":"Teor expressivo que atua sinergicamente como potente escudo antioxidante no organismo.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes complementares envolvidas na integridade celular lipídica.",
+            "vitamina K":"Quantidades basais sem impactos diretos no mecanismo de regulação plaquetária."
+         },
+         "saisMinerais":{
+            "calcio":"Apoia o pool mineral com absorção facilitada pelo ambiente ácido da própria polpa.",
+            "cobre":"Atua de forma sutil no auxílio à imunidade e nos processos de respiração celular.",
+            "fosforo":"Auxilia nos processos de transferência energética e equilíbrio celular metabólico.",
+            "sodio":"Quantidade extremamente baixa, totalmente seguro para regimes de controle de pressão.",
+            "potassio":"Teor equilibrado que atua no controle hídrico e suporte à contração muscular celular.",
+            "magnesio":"Participa em reações enzimáticas ligadas à ativação metabólica e relaxamento celular.",
+            "ferro":"Boa presença mineral, com captação biológica otimizada pelo elevado teor de vitamina C.",
+            "selenio":"Oferece propriedades antioxidantes de proteção contra danos celulares endógenos.",
+            "zinco":"Atua de forma sinérgica na modulação imunológica e na cicatrização de tecidos.",
+            "iodo":"Quantidades vestigiais insignificantes.",
+            "fluor":"Suporte estrutural vestigial complementar para o esmalte bucal."
+         }
+      },
+      "beneficios":[
+         "Estímulo imunológico ativo: A abundância de vitamina C eleva a síntese e proteção das células brancas sanguíneas.",
+         "Combate ao estresse oxidativo: Seus pigmentos carotenoides neutralizam com eficácia radicais livres circulantes.",
+         "Otimização da absorção de ferro: Ideal para acompanhar refeições principais vegetarianas aumentando a absorção mineral.",
+         "Ação refrescante e diurética: Alto teor de água e eletrólitos que estimula a filtragem renal de forma natural."
+      ],
+      "comoUsar":[
+         "Bebidas: Base clássica para polpas congeladas, sucos puros, águas aromatizadas, smoothies e picolés.",
+         "Sobremesas: Muito utilizado no preparo de mousses cremosos, sorvetes de massa, flans e geleias.",
+         "Coquetéis: Ingrediente de destaque para caipirinhas tropicais e coquetéis de frutas regionais.",
+         "Reduções agridoces: Excelente para o preparo de caldas ácidas para acompanhar sobremesas ou carnes gordas."
+      ],
+      "contraindicacoes":[
+         "Pessoas com esofagite, refluxo gastroesofágico ou azia aguda devem consumir com cautela devido ao baixo pH.",
+         "Indivíduos com alta sensibilidade gastrointestinal a alimentos cítricos ou com acidez muito acentuada."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de até 100g da polpa pura por dia (equivalente a um copo de suco diluído).",
+         "Evitar o uso excessivo de açúcares refinados ao adoçar o suco para preservar os benefícios funcionais."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Mousse aerado de cajá funcional",
+            "slug":"mousse-de-caja-funcional",
+            "imagem":"mousse-caja.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "umbu":{
+      "slug":"embu",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Spondias tuberosa",
+      "outrosNomes":[
+            "Também conheciudo como Embu ou imbu. A árvore que produz o umbuzeiro ou imbuzeiro, considerada a 'árvore sagrada do Sertão'"
+      ],
+      "familia":"Anacardiaceae",
+      "imagem":"embu.jpg",
+      "descricao":[
+         "O embu, popularmente conhecido como umbu ou imbu, é o fruto nativo da Caatinga brasileira, altamente resistente à seca.",
+         "Apresenta formato arredondado, casca lisa de cor verde-amarelada e uma polpa extremamente suculenta de sabor agridoce.",
+         "Destaca-se pelo seu potencial de hidratação, sendo composto majoritariamente por água e ácidos orgânicos naturais.",
+         "É rico em fitoquímicos antioxidantes, como os polifenóis, que atuam na proteção das estruturas biológicas."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"44 kcal",
+         "carboidratos":"10.8g",
+         "proteinas":"0.6g",
+         "gorduras":"0.2g",
+         "fibras":"1.2g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Boa fonte de carotenos que auxiliam na manutenção celular da retina e da pele.",
+            "vitamina B":"Fornece vitaminas do complexo B, como B1, B2 e B3, que dão suporte ao metabolismo celular energético.",
+            "vitamina C":"Teor expressivo que atua diretamente no fortalecimento imunológico e na modulação do estresse oxidativo.",
+            "vitamina D":"",
+            "vitamina E":"Presença acessória com propriedades antioxidantes de proteção lipídica celular.",
+            "vitamina K":"Traços basais envolvidos no equilíbrio homeostático do organismo."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para as necessidades minerais esqueléticas.",
+            "cobre":"Atua de maneira discreta como cofator em reações enzimáticas do sistema antioxidante.",
+            "fosforo":"Auxilia na sinalização intracelular e nos processos de transferência de energia.",
+            "sodio":"Quantidade residual mínima, totalmente segura para dietas com restrição salina.",
+            "potassio":"Teor elevado que favorece o equilíbrio hidroeletrolítico e auxilia no controle da pressão arterial.",
+            "magnesio":"Participa em processos metabólicos e na modulação do relaxamento vascular periférico.",
+            "ferro":"Presente em baixas concentrações, utilizando a vitamina C da fruta para otimizar sua captação.",
+            "selenio":"Oferece suporte à barreira protetora contra danos provocados por radicais livres.",
+            "zinco":"Atua de forma leve no suporte imunitário e nos mecanismos de cicatrização celular.",
+            "iodo":"Quantidades vestigiais sem repercussão metabólica.",
+            "fluor":"Mineralização estrutural complementar vestigial."
+         }
+      },
+      "beneficios":[
+         "Estímulo imunológico: A excelente concentração de vitamina C otimiza a atividade dos glóbulos brancos.",
+         "Combate aos radicais livres: Os compostos fenólicos atuam diminuindo o estresse oxidativo sistêmico.",
+         "Hidratação e reposição: Seu elevado teor de água e potássio atua na regulação de fluidos corporais.",
+         "Apoio digestivo: Os ácidos orgânicos naturais auxiliam na secreção gástrica e nos processos digestivos."
+      ],
+      "comoUsar":[
+         "In natura: Consumido fresco e inteiro, rompendo a casca para sugar a polpa suculenta ao redor do caroço.",
+         "Bebidas e doces: Muito utilizado para o preparo de sucos, polpas congeladas, sorvetes, geleias e a tradicional umbuzada.",
+         "Culinária regional: Base para o desenvolvimento de molhos agridoces voltados ao acompanhamento de proteínas.",
+         "Conservas: Utilizado no preparo de compotas caseiras com controle de açúcares."
+      ],
+      "contraindicacoes":[
+         "Indivíduos com gastrite severa ou refluxo ativo devem moderar o consumo devido ao perfil ácido da fruta.",
+         "Pessoas com hipersensibilidade ou desconforto gastrointestinal associado a frutos cítricos e silvestres."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de até 100g da polpa pura ou diluída em sucos ao dia.",
+         "Ao preparar a tradicional umbuzada, priorizar o uso de leites magros ou vegetais e evitar o excesso de açúcar."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Umbuzada funcional com leite desnatado",
+            "slug":"umbuzada-funcional-leve",
+            "imagem":"umbuzada.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "sirigoela":{
+      "slug":"sirigoela",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Spondias purpurea",
+      "outrosNomes":[
+            "Possui diversas variações ortográficas e de pronúncia pelo país, sendo chamada de seriguela, ceriguela, ciruela ou siriguela."
+      ],
+      "familia":"Anacardiaceae",
+      "imagem":"sirigoela.jpg",
+      "descricao":[
+         "A sirigoela, também grafada como seriguela ou ceriguela, é uma pequena fruta tropical de formato elipsoide.",
+         "Possui uma casca fina que varia do verde ao amarelo-alaranjado quando madura, com uma polpa aromática e doce.",
+         "Destaca-se pelo seu excelente aporte de carboidratos simples que fornecem energia imediata às células.",
+         "Apresenta uma boa densidade de micronutrientes essenciais e compostos bioativos por porção comestível."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"76 kcal",
+         "carboidratos":"18.9g",
+         "proteinas":"1.4g",
+         "gorduras":"0.4g",
+         "fibras":"3.9g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Excelente fonte de beta-caroteno, essencial para a saúde macular e proteção dos tecidos epiteliais.",
+            "vitamina B":"Fornece frações de vitaminas B1, B2 e B3 que atuam na regulação do metabolismo de carboidratos.",
+            "vitamina C":"Teor elevado que atua de forma eficaz como potente agente antioxidante no organismo.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes complementares envolvidas na integridade das membranas.",
+            "vitamina K":"Quantidades basais envolvidas nos mecanismos de regulação da homeostase periférica."
+         },
+         "saisMinerais":{
+            "calcio":"Apoia o pool mineral com absorção facilitada pela presença de ácidos orgânicos naturais.",
+            "cobre":"Atua de forma sutil no auxílio à imunidade e nos processos de respiração celular.",
+            "fosforo":"Auxilia nos processos de transferência energética e equilíbrio estrutural celular.",
+            "sodio":"Quantidade extremamente baixa, totalmente seguro para regimes de controle de sódio.",
+            "potassio":"Teor equilibrado que atua no controle da pressão arterial e modulação do tônus vascular.",
+            "magnesio":"Participa em reações enzimáticas associadas à contração muscular e ao equilíbrio eletrolítico.",
+            "ferro":"Boa presença mineral, cuja captação intestinal é potencializada pelo teor de vitamina C da fruta.",
+            "selenio":"Oferece propriedades antioxidantes de proteção contra danos celulares endógenos.",
+            "zinco":"Atua de forma sinérgica na modulação imunológica e nos mecanismos de reparo celular.",
+            "iodo":"Quantidades vestigiais insignificantes.",
+            "fluor":"Suporte estrutural vestigial complementar para o esmalte bucal."
+         }
+      },
+      "beneficios":[
+         "Aporte energético imediato: Seus açúcares naturais de fácil assimilação são ideais para reposição rápida de energia.",
+         "Excelente regulação intestinal: O expressivo teor de fibras insolúveis estimula o bom funcionamento do trânsito digestivo.",
+         "Ação antioxidante ativa: Os carotenos e compostos fenólicos atuam combatendo os radicais livres circulantes.",
+         "Suporte ao sistema imune: A boa concentração de vitamina C eleva os mecanismos de defesa naturais do corpo."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca e inteira, lavando bem a casca externa e descartando apenas o caroço central.",
+         "Bebidas: Base muito apreciada para sucos refrescantes, polpas, smoothies tropicais e coquetéis regionais.",
+         "Sobremesas: Utilizada no preparo de sorvetes de palito, mousses cremosos, geleias caseiras e caldas.",
+         "Preparos agridoces: Reduzida em fogo baixo, serve como excelente calda para acompanhar proteínas magras."
+      ],
+      "contraindicacoes":[
+         "Indivíduos diabéticos não controlados devem moderar o consumo devido ao teor concentrado de carboidratos simples.",
+         "Pessoas com trânsito intestinal excessivamente acelerado ou sensibilidade a fibras estruturais insolúveis."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de aproximadamente 6 a 8 unidades da fruta fresca por dia (cerca de 100g).",
+         "Buscar consumir a fruta fresca inteira para garantir a ingestão integral do seu excelente teor de fibras."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco natural de seriguela tropical",
+            "slug":"suco-de-seriguela-tropical",
+            "imagem":"suco-seriguela.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "romã":{
+      "slug":"roma",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Punica granatum",
+      "familia":"Lythraceae",
+      "imagem":"roma.jpg",
+      "descricao":[
+         "A romã é um fruto esférico de casca coriácea, famoso por suas sementes internas envoltas em uma polpa gelatinosa e translúcida (arilos).",
+         "É uma das frutas mais ricas em punicalaginas e outros elagitoninos, fitoquímicos de altíssimo potencial antioxidante.",
+         "Apresenta uma carga glicêmica moderada e excelentes propriedades moduladoras de processos inflamatórios sistêmicos.",
+         "Sua composição atua de forma expressiva na proteção vascular e na integridade do endotélio arterial."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"83 kcal",
+         "carboidratos":"18.7g",
+         "proteinas":"1.7g",
+         "gorduras":"1.2g",
+         "fibras":"4.0g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença complementar através de traços de carotenos protetores das mucosas.",
+            "vitamina B":"Fornece ótimas quantidades de vitamina B9 (ácido fólico) e B6, essenciais para a saúde celular.",
+            "vitamina C":"Boa concentração hidrossolúvel que atua sinergicamente com os polifenóis na barreira antioxidante.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes lipossolúveis que protegem os tecidos periféricos.",
+            "vitamina K":"Teor muito expressivo, desempenhando papel crucial na cascata de coagulação e na saúde dos ossos."
+         },
+         "saisMinerais":{
+            "calcio":"Apoia de forma complementar a manutenção dos tecidos calcificados e esqueléticos.",
+            "cobre":"Atua como cofator essencial no metabolismo do ferro e na modulação do sistema imune.",
+            "fosforo":"Auxilia na sinalização intracelular e na regulação dos compostos energéticos corporais.",
+            "sodio":"Quantidade residual mínima, perfeitamente alinhada com regimes cardioprotetores.",
+            "potassio":"Teor expressivo que otimiza o balanço hidroeletrolítico e favorece o relaxamento vascular.",
+            "magnesio":"Participa em reações enzimáticas associadas à regulação da pressão arterial e neuromuscular.",
+            "ferro":"Presente em baixas proporções, beneficiando-se da vitamina C para otimizar sua absorção.",
+            "selenio":"Oferece suporte à barreira protetora contra danos provocados por radicais livres.",
+            "zinco":"Atua de forma eficaz nos mecanismos de defesa e renovação tecidual orgânica.",
+            "iodo":"Quantidades vestigiais sem repercussão.",
+            "fluor":"Auxilia de forma sutil na manutenção da integridade estrutural do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Potente ação antioxidante: Seus polifenóis únicos combatem radicalmente o estresse oxidativo e o envelhecimento celular.",
+         "Cardioproteção e saúde arterial: Auxilia na redução da pressão arterial sistólica e inibe a oxidação do colesterol LDL.",
+         "Modulação inflamatória: Atua ativamente na redução de marcadores inflamatórios crônicos no organismo.",
+         "Suporte à saúde bucal: Compostos fitoquímicos ajudam a combater microrganismos causadores de placa e gengivite."
+      ],
+      "comoUsar":[
+         "In natura: Consumo direto dos arilos frescos, mastigando as sementes para aproveitar as fibras insolúveis.",
+         "Saladas: Excelente para adicionar acidez e crocância a saladas de folhas verdes, grãos ou salpicão.",
+         "Bebidas: Utilizada na extração de sucos funcionais puros, smoothies antioxidantes ou em águas aromatizadas.",
+         "Finalização: Ótimo componente decorativo e de sabor para finalizar pratos com iogurtes, coalhadas ou carnes assadas."
+      ],
+      "contraindicacoes":[
+         "Pessoas que fazem uso de medicamentos anti-hipertensivos potentes devem monitorar o consumo pelo efeito hipotensor da fruta.",
+         "Indivíduos que utilizam estatinas ou anticoagulantes devem consultar orientação médica devido a possíveis interações metabólicas."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo de 1/2 unidade média a 1 unidade por dia (cerca de 100g de arilos).",
+         "Consumir o suco preferencialmente fresco e sem coar totalmente para manter parte das fibras estruturais."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco antioxidante de romã com água de coco",
+            "slug":"suco-de-roma-antioxidante",
+            "imagem":"suco-roma.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "graviola":{
+      "slug":"graviola",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Annona muricata",
+      "outrosNomes":[
+            "Em algumas áreas do Norte e Nordeste, variantes silvestres ou menores são chamadas de jaca-do-pará ou araticum-manso."
+      ],
+      "familia":"Annonaceae",
+      "imagem":"graviola.jpg",
+      "descricao":[
+         "A graviola é um fruto tropical de grande porte, com casca espinescente verde e polpa branca, fibrosa e muito suculenta.",
+         "Destaca-se pelo seu perfil aromático singular e pela presença de acetogeninas anonáceas em seus tecidos.",
+         "Fornece uma excelente quantidade de água corporativa e carboidratos simples de fácil absorção metabólica.",
+         "Sua composição fitoquímica confere propriedades antioxidantes e protetoras contra processos inflamatórios."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"66 kcal",
+         "carboidratos":"16.8g",
+         "proteinas":"1.0g",
+         "gorduras":"0.3g",
+         "fibras":"3.3g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença sutil através de carotenoides precursores que apoiam a integridade das mucosas.",
+            "vitamina B":"Excelente fonte de vitaminas B1, B2 e B3, essenciais para as funções do metabolismo energético celular.",
+            "vitamina C":"Teor elevadíssimo, atuando como um potente pilar para a modulação imunitária e síntese de colágeno.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes acessórias envolvidas na proteção das membranas celulares.",
+            "vitamina K":"Quantidades basais sem impactos diretos na regulação do mecanismo de coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para as necessidades minerais do esqueleto corporativo.",
+            "cobre":"Atua de maneira leve como cofator essencial em reações enzimáticas celulares e na imunidade.",
+            "fosforo":"Auxilia na sinalização intracelular e na manutenção estrutural dos tecidos biológicos.",
+            "sodio":"Quantidade extremamente baixa, totalmente segura para regimes de controle de sódio.",
+            "potassio":"Concentração expressiva que atua favorecendo o equilíbrio hídrico e reduzindo a tensão vascular.",
+            "magnesio":"Presta suporte em centenas de reações enzimáticas associadas ao relaxamento neuromuscular.",
+            "ferro":"Presente em baixas proporções, beneficiando-se da abundância de vitamina C para otimizar a captação intestinal.",
+            "selenio":"Oferece propriedades antioxidantes secundárias que protegem as células contra danos endógenos.",
+            "zinco":"Atua de forma leve na modulação imunológica e nos mecanismos de reparo celular epidérmico.",
+            "iodo":"Quantidades vestigiais insignificantes.",
+            "fluor":"Mineralização estrutural complementar vestigial para o esmalte bucal."
+         }
+      },
+      "beneficios":[
+         "Fortalecimento imune ativo: A alta densidade de vitamina C estimula de forma robusta as células de defesa do organismo.",
+         "Regulação intestinal eficiente: O ótimo teor de fibras alimentares otimiza o peristaltismo e combate a constipação.",
+         "Ação antioxidante e protetora: Seus compostos bioativos auxiliam na neutralização de radicais livres circulantes.",
+         "Suporte à modulação da pressão: O expressivo teor de potássio atua positivamente no controle da pressão arterial."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca em colheradas diretamente da polpa, descartando minuciosamente todas as sementes.",
+         "Bebidas: Base extremamente popular para sucos tropicais, polpas congeladas, smoothies cremosos e batidos.",
+         "Sobremesas: Muito utilizada no preparo de sorvetes de massa, mousses, flans, geleias e doces caseiros.",
+         "Cremes funcionais: Batida com leites vegetais espessos para compor tigelas nutritivas de café da manhã."
+      ],
+      "contraindicacoes":[
+         "Pessoas com distúrbios neurológicos ou histórico de Parkinson devem evitar o consumo excessivo devido às acetogeninas (anonacina).",
+         "Indivíduos gestantes, hipotensos severos ou que façam uso de medicamentos para controle de pressão sem supervisão."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo moderado de até 100g da polpa pura por dia (equivalente a um copo pequeno de suco).",
+         "As sementes pretas nunca devem ser mastigadas ou trituradas, devendo ser totalmente removidas antes do preparo."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco cremoso de graviola com leite de amêndoas",
+            "slug":"suco-de-graviola-cremoso",
+            "imagem":"suco-graviola.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "fruta-do-conde":{
+      "slug":"fruta-do-conde",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Annona squamosa",
+      "outrosNomes":[
+           "Pinha especialmente nas regiões Sul e Sudeste : ",
+            "Ata (predominante nas regiões Norte e Nordeste",
+            "Também pode ser chamada de fruta-da-condessa ou quaresma."
+      ],
+      "familia":"Annonaceae",
+      "imagem":"fruta-do-conde.jpg",
+      "descricao":[
+         "A fruta-do-conde, também conhecida como pinha ou ata, é um fruto tropical de casca escamosa e polpa branca extremamente cremosa.",
+         "Apresenta um sabor acentuadamente doce devido aos seus açúcares naturais, servindo como uma excelente fonte de energia biológica.",
+         "Destaca-se pelo ótimo teor de fibras alimentares e minerais essenciais concentrados em sua polpa suculenta.",
+         "Possui compostos bioativos e fitoquímicos alcaloides que exercem propriedades antioxidantes nas estruturas celulares."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"94 kcal",
+         "carboidratos":"23.6g",
+         "proteinas":"1.3g",
+         "gorduras":"0.3g",
+         "fibras":"4.4g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Presença discreta através de carotenoides precursores que apoiam a integridade das mucosas.",
+            "vitamina B":"Excelente fonte de vitaminas B1, B2, B3 e B6, essenciais para o correto metabolismo energético celular.",
+            "vitamina C":"Teor elevadíssimo, atuando como um potente pilar para a modulação imunitária e síntese de colágeno.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes acessórias envolvidas na proteção das membranas celulares.",
+            "vitamina K":"Quantidades basais sem impactos diretos na regulação do mecanismo de coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para as necessidades minerais do esqueleto corporativo.",
+            "cobre":"Atua de maneira leve como cofator essencial em reações enzimáticas celulares e na imunidade.",
+            "fosforo":"Auxilia na sinalização intracelular e na manutenção estrutural dos tecidos biológicos.",
+            "sodio":"Quantidade extremamente baixa, totalmente segura para regimes de controle de sódio.",
+            "potassio":"Concentração expressiva que atua favorecendo o equilíbrio hídrico e reduzindo a tensão vascular.",
+            "magnesio":"Presta suporte em centenas de reações enzimáticas associadas ao relaxamento neuromuscular.",
+            "ferro":"Presente em baixas proporções, beneficiando-se da abundância de vitamina C para otimizar a captação intestinal.",
+            "selenio":"Oferece propriedades antioxidantes secundárias que protegem as células contra danos endógenos.",
+            "zinco":"Atua de forma leve na modulação imunológica e nos mecanismos de reparo celular epidérmico.",
+            "iodo":"Quantidades vestigiais insignificantes.",
+            "fluor":"Mineralização estrutural complementar vestigial para o esmalte bucal."
+         }
+      },
+      "beneficios":[
+         "Aporte energético imediato: Seus carboidratos de fácil digestão fornecem energia rápida para os processos biológicos.",
+         "Otimização do trânsito intestinal: O elevado teor de fibras insolúveis estimula o peristaltismo e combate a constipação.",
+         "Fortalecimento imune ativo: A alta densidade de vitamina C estimula de forma robusta as células de defesa do organismo.",
+         "Controle do estresse oxidativo: Complexos fitoquímicos auxiliam na neutralização de radicais livres circulantes."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca em colheradas diretamente da polpa, separando e descartando minuciosamente as sementes.",
+         "Bebidas: Base muito apreciada para sucos tropicais cremosos, polpas, smoothies e batidos funcionais.",
+         "Sobremesas: Utilizada no preparo de sorvetes artesanais, mousses, caldas doces e cremes gelados.",
+         "Café da manhã: Adicionada a tigelas de iogurte natural ou misturada com cereais integrais de alta densidade."
+      ],
+      "contraindicacoes":[
+         "Indivíduos diabéticos não controlados devem moderar rigorosamente o consumo devido ao elevado teor de açúcares simples.",
+         "As sementes pretas contêm toxinas alcaloides e nunca devem ser mastigadas, engolidas ou trituradas no preparo de receitas."
+      ],
+      "consumoRecomendado":[
+         "Recomenda-se o consumo moderado de até 1 unidade pequena por dia (cerca de 100g de polpa comestível).",
+         "Priorizar o consumo in natura para total aproveitamento das fibras estruturais e vitaminas hidrossolúveis."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Creme gelado funcional de fruta-do-conde",
+            "slug":"creme-gelado-de-fruta-do-conde",
+            "imagem":"creme-fruta-do-conde.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   },
+   "carambola":{
+      "slug":"carambola",
+      "dataInclusao":"2026-05-27",
+      "nomeCientifico":"Averrhoa carambola",
+      "outrosNomes":[
+            "Conhecida em algumas localidades rurais como fruta-estrela (tradução direta do inglês star fruit), devido ao seu formato decorativo quando fatiada."
+      ],
+      "familia":"Oxalidaceae",
+      "imagem":"carambola.jpg",
+      "descricao":[
+         "A carambola é um fruto tropical exótico de formato ovalado que, quando cortado transversalmente, assume formato de estrela.",
+         "Apresenta casca fina e cerosa, coloração amarelo-alaranjada quando madura e uma polpa crocante, aquosa e agridoce.",
+         "Destaca-se pelo valor calórico extremamente baixo e pela elevada concentração de ácido oxálico em seus tecidos.",
+         "Contém uma toxina específica chamada caramboxina, que requer atenção médica rigorosa em grupos populacionais específicos."
+      ],
+      "informacaoNutricional":{
+         "porcao":"100g",
+         "calorias":"31 kcal",
+         "carboidratos":"6.7g",
+         "proteinas":"1.0g",
+         "gorduras":"0.3g",
+         "fibras":"2.8g"
+      },
+      "compostos":{
+         "vitaminas":{
+            "vitamina A":"Boa presença através de beta-caroteno e luteína, atuando no suporte visual e celular.",
+            "vitamina B":"Fornece frações de vitaminas do complexo B, como B5 e B9 (ácido fólico), auxiliando na integridade celular.",
+            "vitamina C":"Teor muito elevado, exercendo forte ação antioxidante e suporte aos mecanismos de defesa imunitária.",
+            "vitamina D":"",
+            "vitamina E":"Oferece propriedades antioxidantes complementares envolvidas na proteção lipídica celular.",
+            "vitamina K":"Quantidades basais envolvidas nos mecanismos de regulação da homeostase e coagulação."
+         },
+         "saisMinerais":{
+            "calcio":"Contribui de forma complementar para as necessidades estruturais do sistema esquelético.",
+            "cobre":"Atua de maneira sutil como cofator em reações enzimáticas do sistema imunológico celular.",
+            "fosforo":"Auxilia na sinalização intracelular e na integridade celular em conjunto com o cálcio.",
+            "sodio":"Quantidade residual mínima, perfeitamente adequada para regimes cardioprotetores.",
+            "potassio":"Teor equilibrado que apoia a modulação da pressão arterial e o equilíbrio de fluidos.",
+            "magnesio":"Presta suporte em reações enzimáticas do sistema neuromuscular e metabolismo celular.",
+            "ferro":"Presente em baixas proporções, beneficiando-se da abundância de vitamina C para melhor absorção.",
+            "selenio":"Oferece propriedades antioxidantes de proteção contra o estresse celular endógeno.",
+            "zinco":"Atua de forma eficaz nos mecanismos de defesa, cicatrização e renovação de tecidos.",
+            "iodo":"Quantidades vestigiais sem relevância metabólica.",
+            "fluor":"Apoio sutil estrutural para a integridade mecânica do esmalte dentário."
+         }
+      },
+      "beneficios":[
+         "Altíssima hidratação: Seu elevado percentual de água corporativa promove rápida reposição de fluidos biológicos.",
+         "Densidade calórica nula: Ideal para planos alimentares restritivos voltados ao gerenciamento de peso corporal.",
+         "Estímulo imunológico: A excelente concentração de vitamina C otimiza a síntese e proteção das células brancas.",
+         "Ação fitoquímica celular: Flavonoides polifenólicos atuam blindando o organismo contra processos inflamatórios."
+      ],
+      "comoUsar":[
+         "In natura: Consumida fresca, inteira e com a casca, fatiada em formato de estrelas decorativas.",
+         "Saladas: Excelente componente visual e sensorial para saladas de folhas verdes ou vinagretes exóticos.",
+         "Bebidas: Utilizada na extração de sucos puros, águas aromatizadas, smoothies refrescantes ou coquetéis.",
+         "Geleias e compotas: Base para o desenvolvimento de conservas agridoces com controle de açúcares simples."
+      ],
+      "contraindicacoes":[
+         "Estritamente contraindicada para pacientes com Insuficiência Renal Crônica (IRC) devido ao risco severo de neurotoxicidade pela caramboxina.",
+         "Indivíduos com histórico de cálculos renais (oxalato de cálcio) devem evitar o consumo pelo alto teor de oxalatos."
+      ],
+      "consumoRecomendado":[
+         "Para indivíduos saudáveis, recomenda-se o consumo de 1 a 2 unidades médias por dia (cerca de 120g).",
+         "Evitar o consumo em jejum prolongado para minimizar o impacto gástrico dos ácidos orgânicos concentrados."
+      ],
+      "sugestaoReceita":[
+         {
+            "nome":"Suco refrescante estrelado de carambola",
+            "slug":"suco-de-carambola-refrescante",
+            "imagem":"suco-carambola.jpg",
+            "credito":"Receiteria",
+            "urlOrigem":"https://receiteria.com.br"
+         }
+      ]
+   }
+}

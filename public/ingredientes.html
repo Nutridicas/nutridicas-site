@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" id="metaDescription" content="">
+  <meta property="og:title" id="ogTitle">
+  <meta property="og:description" id="ogDesc">
+  <meta property="og:image" id="ogImg">
+
+  <title id="pageTitle">Receita</title>
+  <meta id="metaDesc" name="description" content="Receita deliciosa e saudável">
+
+  <!--<title id="tituloPagina"></title>-->
+
+  <link rel="stylesheet" href="css/tooltip.css">
+   <link rel="stylesheet" href="css/informa.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/nutri.css">
+   <link rel="stylesheet" href="css/premium.css">
+  <link rel="stylesheet" href="css/breadcrumb.css">
+
+  <!-- Favion -->
+  <llink rel="icon" href="/favicon.ico">
+  <link rel="icon" type="imagens/favicon.jpg" sizes="32x32" href="/imagens/favicon-32.png">
+  <link rel="icon" type="imagens/png" sizes="16x16" href="/imagens/favicon-16.png">
+
+</head>
+ <body>
+  <!-- HEADER Atualizado 12/03/2026 -->
+
+   <header class="header">
+  <div class="header-top">
+      <div class="logo-area">
+          <a href="index.html" class="logo">NutriDicas</a>
+          <p class="tagline">Nutrição e Gastronomia</p>
+      </div>
+
+     <div class="search-box">
+        <input type="search" id="searchInput" placeholder="Buscar receita...">
+        
+        <!-- Alterado o ID para bater com o JavaScript e adicionado uma classe para o estilo -->
+        <div id="resultadosLista" class="search-results"></div>
+    </div>
+
+
+  <!-- MENU -->
+  <div class="header-menu">
+
+    <nav id="menu">
+        <ul class="menu-principal">
+
+          <li><a href="index.html" class="active">Inicial</a></li>
+
+         <li class="has-mega menu-receitas">
+            <button class="submenu-btn">🍽️ Receitas</button>
+            <div class="mega-menu">
+              <!-- TRADICIONAIS -->
+              <div class="mega-column">
+                <h4>🍲 Tradicionais</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sopas">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=molhos">🏺 Molhos</a></li>
+                </ul>
+              </div>
+              <!-- ZERO LACTOSE -->
+              <div class="mega-column">
+                <h4>🥛 Zero Lactose</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=Bebidas">🍮 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=massas">🍫 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=pastas">🍮 Pastas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=caldas">🍮 Caldas </a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO GLÚTEN -->
+              <div class="mega-column">
+                <h4>🌾 Zero Glúten</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=molhos">🌿 Molhos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO AÇÚCAR -->
+              <div class="mega-column">
+                <h4>🍭 Zero Açúcar</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=massas">🍝 Massas</a></li>
+                </ul>
+              </div>
+              <!-- VEGANAS -->
+              <div class="mega-column">
+                <h4>🌱 Veganas</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- FUNCIONAIS -->
+              <div class="mega-column">
+                <h4>💪 Funcionais</h4>
+                <ul>
+                  <li><a href="receitas.html?subcategoria=bolos&tag=Funcional">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?subcategoria=paes&tag=Funcional">🏋️ Pães</a></li>
+                  <li><a href="receitas.html?subcategoria=bebidas&tag=Funcional">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?subcategoria=lanches&tag=Funcional">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?subcategoria=massas&tag=Funcional">🥚 Massas</a></li>
+                  <li><a href="receitas.html?subcategoria=sobremesas&tag=Funcional">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?subcategoria=sopas&tag=Funcional">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?subcategoria=molhos&tag=Funcional">🏺 Molhos</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+        <!-- Fim -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="">📚 Ebooks de Receitas</a></li> 
+          </ul>
+        </li>
+
+       <li class="has-mega">
+            <!-- Nomenclatura melhorada: de "+Mais Informações" para "Guia Gourmet" ou "Ingredientes & Dicas" -->
+            <button class="submenu-btn">💡 Guia Prático</button>
+            <ul class="mega-menu">
+              <li><a href="frutas.html">🍓 Frutas</a></li>
+              <li><a href="legumes.html">🥦 Legumes e Verduras</a></li>
+              <li><a href="dicas.html">🍳 Dicas de Cozinha</a></li>
+              <li><a href="nutridicas.html">🍎 Dicas Nutricionais</a></li>
+              <li><a href="termos.html"> 👨‍🍳📖Termos Gastrômicos</a></li>
+              <li><a href="utensilios.html">🔪 Utensílios</a></li>
+        </ul>
+      </li>
+        <li class="has-mega">
+          <button class="submenu-btn">Compartilhe</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html">Dê sua opinião</a></li>
+            <li><a href="form-receita.html">Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Área do usuário -->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="cadastro.html">👩‍🍳 Cadastre-se 🍳</a></li>
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+<h1>Informações sobre ingredientes</h1>
+
+
+<h1 id="tituloIngrediente"></h1>
+
+<div id="infoIngrediente"></div>
+
+<h3>Veja curiosidades e informações sobre o ingrediente</h3>
+<ul id="receitasIngrediente"></ul>
+<br>
+
+<!-- gerar informações dos ingredientes -->
+
+<main class="container-ingrediente">
+  <!-- Botão flutuante para voltar -->
+  <button id="btnVoltar"  class="btn-premium">← Voltar para a Receita</button>
+
+  <header class="ingrediente-header">
+    <div class="header-content">
+      <span id="categoriaIngrediente" class="badge"></span>
+      <h1 id="tituloIngrediente">Carregando...</h1>
+      <p id="resumoCurto" class="lead"></p>
+    </div>
+    <div class="header-image">
+      <img id="imagemIngrediente" src="" alt="">
+      
+      <!-- Campos para os créditos 09/05/2026 -->
+      <div class="rodape-imagem">
+          <p id="creditoIngrediente" style="font-size: 0.85rem; margin: 0;"></p>
+          <p id="enderecoIngrediente" style="font-size: 0.85rem; display: block;">Disponível em </p>
+      </div>
+    </div>
+  </header>
+
+  <div class="grid-info">
+    <!-- Coluna Principal -->
+    <section class="info-detalhada">
+      <h3>Sobre o ingrediente</h3>
+      <div id="descricaoLonga"></div>
+      
+      <h3>Como usar</h3>
+      <ul id="comoUsar"></ul>
+
+      <h3>Riscos Com o uso</h3>
+      <ul id="riscoscomoUso"></ul>
+
+      <h3>É recomendado não consumiir</h3>
+      <ul id="naoRecomUsar"></ul>
+
+      <h3>Consumo recomendado</h3>
+      <ul id="consumo"></ul>
+
+    </section>
+
+    <!-- Barra Lateral -->
+    <aside class="sidebar-info">
+      <div class="card-beneficios">
+        <h3>Benefícios</h3>
+        <ul id="listaBeneficios"></ul>
+      </div>
+      <br>
+
+      <div class="card-receitas">
+        <h3>Receitas sugeridas</h3>
+        <ul id="receitasRelacionadas"></ul>
+      </div>
+    </aside>
+  </div>
+</main>
+
+ <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 NutriDicas Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+ <script src="js/busca.js" defer></script>
+   <script src="js/informa.js" defer></script>
+</body>
+</html>

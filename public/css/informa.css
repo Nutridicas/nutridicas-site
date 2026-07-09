@@ -1,0 +1,8 @@
+.container-ingrediente { max-width: 1000px; margin: 0 auto; padding: 20px; font-family: 'Inter', sans-serif; }
+.ingrediente-header { display: flex; gap: 40px; align-items: center; margin-bottom: 40px; background: #f8fafc; padding: 30px; border-radius: 20px; }
+.badge { background: #3b82f6; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
+.grid-info { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+.card-beneficios { background: #ecfdf5; padding: 20px; border-radius: 15px; border-left: 5px solid #10b981; }
+.card-receitas { background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.card-receitas li a { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #334155; margin-bottom: 10px; }
+.header-image img { width: 300px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }

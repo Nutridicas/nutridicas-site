@@ -1,0 +1,282 @@
+{
+  "psyllium": {
+    "nome": "Psyllium",
+    "resumo": "Fibra solúvel extraída da planta Plantago ovata. Ajuda na saúde intestinal.",
+    "link": "ingredientes.html?slug=psyllium"
+    },
+    "xilitol": {
+      "nome": "Xilitol",
+      "resumo": "Adoçante natural com baixo índice glicêmico.",
+      "link": "ingredientes.html?slug=xilitol"
+    },
+    "stevia": { 
+    "nome": "Stévia", 
+    "resumo": "Adoçante natural de zero caloria extraído de uma planta sul-americana.", 
+    "link": "ingredientes.html?slug=estevia" 
+    },
+    "eritritol": { 
+    "nome": "Eritritol", 
+    "resumo": "Adoçante natural de zero caloria com excelente tolerância digestiva.", 
+    "link": "ingredientes.html?slug=eritritol" 
+    },
+    "tahine": {
+      "nome": "Tahine",
+      "resumo": "E uma pasta feita de sementes de gergelim (sésamo) muito usado na cozinha do Oriente Médio .",
+      "link": "ingredientes.html?slug=tahine"
+    },
+    "farinha-de-amendoas": {
+      "nome": "Farinha de Amêndoas",
+      "resumo": "Farinha low carb rica em gorduras boas e proteínas.",
+      "link": "ingredientes.html?slug=farinha-de-amendoa"
+    },
+    "farinha-de-aveia": {
+      "nome": "Farinha de Aveia",
+      "resumo": "É produzia a partir da moagem dos grãos da aveia, é uma fibra solúvel que reduz o colesterol.",
+      "link": "ingredientes.html?slug=farinha-de-aveia"
+    },
+    "leite-vegetal": {
+      "nome": "Leite Vegetal",
+      "resumo": "Pode ser extraído de grãos, oleaginosas ou sementes como amêndoas, coco, aveia e soja.",
+      "link": "ingredientes.html?slug=leite-vegetal"
+    },
+    "baunilha": {
+      "nome": "Baunilha",
+      "resumo": "É extraída das favas de orquídeas do gênero Vanillamo que possui propriedades relaxantes.",
+      "link": "ingredientes.html?slug=baunilha"
+    },
+    "chia": {
+      "nome": "Chia",
+      "resumo": "É uma semente originária do México,É uma das melhores fontes vegetais de ácidos graxos ômega-3.",
+      "link": "ingredientes.html?slug=chia"
+    },
+    "linhaca": {
+      "nome": "Linhaça",
+      "resumo": "Está disponível nas variedades dourada e marrom, ambas muito nutritivas.",
+      "link": "ingredientes.html?slug=linhaca"
+    },
+    "leite-de-coco": {
+      "nome": "Leite de Coco",
+      "resumo": "É rico em ácido láurico, uma gordura de cadeia média de fácil absorção pelo fígado.",
+      "link": "ingredientes.html?slug=leite-de-coco"
+    },
+      "farinha-de-coco": { 
+      "nome": "Farinha de Coco", 
+      "resumo": "Alternativa sem glúten e rica em fibras para receitas saudáveis.", 
+      "link": "ingredientes.html?slug=farinha-de-coco" 
+    },
+    "paprica-doce": {
+      "nome": "Páprica Doce",
+      "resumo": "Especiaria suave rica em antioxidantes que ajuda na saúde da pele e visão.",
+      "link": "ingredientes.html?slug=paprica-doce"
+    },
+    "paprica-picante": {
+      "nome": "Páprica Picante",
+      "resumo": "Especiaria com ação termogênica que estimula o metabolismo e adiciona picância aos pratos.",
+      "link": "ingredientes.html?slug=paprica-picante"
+    },
+    "noz-moscada": {
+      "nome": "Noz-moscada",
+      "resumo": "Especiaria aromática que auxilia na digestão e possui propriedades antioxidantes.",
+      "link": "ingredientes.html?slug=noz-moscada"
+    },
+    "grao-de-bico": {
+      "nome": "grão-de-bico",
+      "resumo": "Leguminosa rica em proteínas e fibras que promove saciedade e saúde intestinal.",
+      "link": "ingredientes.html?slug=grao-de-bico"
+    },
+    "canela": {
+      "nome": "Canela",
+      "resumo": "Especiaria antioxidante que auxilia no controle da glicemia e na digestão.",
+      "link": "ingredientes.html?slug=canela"
+    },
+    "acucar_de_coco": {
+      "nome": "Açúcar de Coco",
+      "resumo": "Adoçante natural com menor índice glicêmico e leve sabor caramelizado.",
+      "link": "ingredientes.html?slug=acucar-de-coco"
+    },
+    "pasta-de-amendoim": {
+      "nome": "Pasta de Amendoim",
+      "resumo": "Fonte de gorduras boas e proteínas que fornece energia e aumenta a saciedade.",
+      "link": "ingredientes.html?slug=pasta-de-amendoim"
+    },
+    "gengibre": {
+      "nome": "Gengibre",
+      "resumo": "Raiz com ação anti-inflamatória e termogênica que auxilia na digestão e imunidade.",
+      "link": "ingredientes.html?slug=gengibre"
+    },
+    "tamara": {
+      "nome": "Tâmara",
+      "resumo": "Adoçante natural rico em fibras e energia, excelente para substituir o açúcar refinado.",
+      "link": "ingredientes.html?slug=tamara"
+    },
+    "vinagre-de-maca": {
+      "nome": "Vinagre de Maçã",
+      "resumo": "Fermentado natural que auxilia na digestão e ajuda no controle dos níveis de açúcar no sangue.",
+      "link": "ingredientes.html?slug=vinagre-de-maca"
+    },
+    "curcuma": { 
+      "nome": "Cúrcuma", 
+      "resumo": "Especiaria com potentes propriedades anti-inflamatórias e antioxidantes.", 
+      "link": "ingredientes.html?slug=curcuma" 
+    },
+    "goma-xantana": { 
+    "nome": "Goma Xantana", 
+    "resumo": "Espessante natural que confere elasticidade e liga a massas sem glúten.", 
+    "link": "ingredientes.html?slug=goma-xantana" 
+    },
+    "agar-agar": { 
+    "nome": "ágar-ágar", 
+    "resumo": "Gelatina vegetal extraída de diversas espécies de algas marinhas vermelhas. Ele funciona como um potente agente gelificante, espessante e estabilizante natural.", 
+    "link": "ingredientes.html?slug=agar-agar" 
+    },
+    "vaporizar-o-leite": { 
+    "nome": "Vaporizar o Leite", 
+    "resumo": "Técnica para criar microespuma cremosa essencial para bebidas de cafeteria.", 
+    "link": "tecnica.html?slug=vaporizacao-leite" 
+  },
+  "duplo-shot": { 
+    "nome": "Duplo Shot (Doppio)", 
+    "resumo": "Extração de dois shots de café expresso usando o dobro de pó e água.", 
+    "link": "conceito.html?slug=duplo-shot" 
+  },
+    "leite": { 
+    "nome": "Leite de Vaca", 
+    "resumo": "Fonte rica em cálcio e proteínas, essencial para bases de cremes, molhos e massas na confeitaria e culinária salgada.", 
+    "link": "ingredientes.html?slug=leite-vaca" 
+  },
+  "chantilly": { 
+    "nome": "Chantilly", 
+    "resumo": "Creme de leite fresco batido com açúcar e baunilha até atingir picos firmes, ideal para coberturas e recheios.", 
+    "link": "ingredientes.html?slug=chantilly" 
+  },
+  "ganache": { 
+    "nome": "Ganache", 
+    "resumo": "Mistura cremosa de chocolate e creme de leite, usada como cobertura, recheio ou base para trufas.", 
+    "link": "ingredientes.html?slug=ganache" 
+  },
+    "abacaxi": {
+    "nome": "Abacaxi",
+    "resumo": "Fruta tropical rica em vitamina C e bromelina, enzima poderosa que auxilia na quebra de proteínas e na digestão.",
+    "link": "frutas.html?slug=abacaxi"
+  },
+  "morango": {
+    "nome": "Morango",
+    "resumo": "Fruta vermelha de baixo índice glicêmico, transbordante em antioxidantes e vitamina C, ideal para a imunidade.",
+    "link": "frutas.html?slug=morango"
+  },
+  "banana": {
+    "nome": "Banana",
+    "resumo": "Excelente fonte de potássio e magnésio. Fornece energia rápida e auxilia no controle da pressão arterial.",
+    "link": "frutas.html?slug=banana"
+  },
+  "abacate": {
+    "nome": "Abacate",
+    "resumo": "Rico em gorduras monoinsaturadas saudáveis, beta-sitosterol e vitamina E. Protege o coração e sacia por mais tempo.",
+    "link": "frutas.html?slug=abacate"
+  },
+  "maca": {
+    "nome": "Maçã",
+    "resumo": "Contém pectina, uma fibra solúvel que ajuda no controle do colesterol e melhora a saúde das paredes intestinais.",
+    "link": "frutas.html?slug=maca"
+  },
+  "limao": {
+    "nome": "Limão",
+    "resumo": "Fruta cítrica com alta concentração de ácido cítrico e vitamina C. Excelente alcalinizante e antioxidante natural.",
+    "link": "frutas.html?slug=limao"
+  },
+    "laranja": {
+    "nome": "Laranja",
+    "resumo": "Famosa pelo alto teor de vitamina C e flavonoides. Melhora a imunidade, a saúde da pele e auxilia na absorção do ferro.",
+    "link": "frutas.html?slug=laranja"
+  },
+  "uva": {
+    "nome": "Uva",
+    "resumo": "Rica em resveratrol, um poderoso antioxidante que protege o sistema cardiovascular e combate o envelhecimento celular.",
+    "link": "frutas.html?slug=uva"
+  },
+  "manga": {
+    "nome": "Manga",
+    "resumo": "Fruta tropical densa em fibras, vitamina A (beta-caroteno) e vitamina C. Excelente para a visão, digestão e saúde da pele.",
+    "link": "frutas.html?slug=manga"
+  },
+  "mamao": {
+    "nome": "Mamão",
+    "resumo": "Excelente para o trânsito intestinal devido ao alto teor de fibras e à papaína, uma enzima que facilita a digestão de proteínas.",
+    "link": "frutas.html?slug=mamao"
+  },
+  "melancia": {
+    "nome": "Melancia",
+    "resumo": "Altamente hidratante (composta por cerca de 92% de água). Contém licopeno, antioxidante que protege o coração.",
+    "link": "frutas.html?slug=melancia"
+  },
+  "maracuja": {
+    "nome": "Maracujá",
+    "resumo": "Contém passiflorina, um calmante natural que reduz a ansiedade e melhora o sono. Boa fonte de fibras solúveis na polpa.",
+    "link": "frutas.html?slug=maracuja"
+  },
+  "kiwi": {
+    "nome": "Kiwi",
+    "resumo": "Superfonte de vitamina C (mais que a laranja) e actinidina, enzima que melhora a digestão e combate o inchaço abdominal.",
+    "link": "frutas.html?slug=kiwi"
+  },
+  "coco": {
+    "nome": "Coco",
+    "resumo": "Rico em gorduras boas (triglicerídeos de cadeia média) que geram energia rápida. A água de coco é um excelente isotônico natural.",
+    "link": "frutas.html?slug=coco"
+  },
+  "amora": {
+    "nome": "Amora",
+    "resumo": "Fruta de baixa caloria e carga glicêmica. Rica em antocianinas, que combatem inflamações e protegem a saúde cerebral.",
+    "link": "frutas.html?slug=amora"
+  },
+  "framboesa": {
+    "nome": "Framboesa",
+    "resumo": "Extraordinária fonte de fibras e cetonas naturais. Ajuda no controle da glicemia e possui forte ação antioxidante.",
+    "link": "frutas.html?slug=framboesa"
+  },
+  "mirtilo": {
+    "nome": "Mirtilo (Blueberry)",
+    "resumo": "Rei dos antioxidantes. Protege a memória, melhora a saúde dos vasos sanguíneos e auxilia no controle do colesterol.",
+    "link": "frutas.html?slug=mirtilo"
+  },
+  "pera": {
+    "nome": "Pera",
+    "resumo": "Fruta de digestão leve e rica em pectina. Ajuda a prolongar a saciedade e regula os níveis de açúcar no sangue.",
+    "link": "frutas.html?slug=pera"
+  },
+  "textura-de-fita-continua": {
+    "nome": "Textura de Fita contínua",
+    "resumo": "É o ponto máximo de aeração e viscosidade de uma mistura líquida ou cremosa.",
+    "link": "termos.html?slug=textura-de-fita-continua"
+  },
+  "ponto-de-pomada": {
+    "nome": "ponto de pomada",
+    "resumo": "É o estado em que a gordura fica com textura pastosa, macia e moldável, semelhante a um creme dental ou pomada labial.",
+    "link": "termos.html?slug=ponto-de-pomada"
+  },
+  "ponto-de-bala-mole": {
+    "nome": "Ponto de Bala Mole",
+    "resumo": "Uma calda de açúcar que quando em água fria, forma uma esfera moldável e macia.",
+    "link": "termos.html?slug=ponto-de-bala-mole"
+  },
+  "ponto-de-bala-dura": {
+    "nome": "Ponto de Bala Dura",
+    "resumo": "É uma calda de açúcar que forma uma esfera rígida e firme após o resfriar.",
+    "link": "termos.html?slug=ponto-de-bala-dura"
+  },
+  "ponto-de-derretimento-chocolate": {
+    "nome": "Ponto de Derretimento (Chocolate)",
+    "resumo": "Estado líquido do chocolate onde os cristais de gordura estão totalmente desfeitos.",
+    "link": "termos.html?slug=ponto-de-derretimento-chocolate"
+  },
+  "ponto-de-temperagem-chocolate": {
+    "nome": "Ponto de Temperagem (Chocolate)",
+    "resumo": "Chocolate resfriado e reaquecido controlado para induzir a cristalização correta da manteiga de cacau.",
+    "link": "termos.html?slug=ponto-de-temperagem-chocolate"
+  },
+  "ponto-de-veu": {
+    "nome": "Ponto de Véu",
+    "resumo": "Estágio de desenvolvimento máximo do glúten onde a massa de pão fica elástica e translúcida.",
+    "link": "termos.html?slug=ponto-de-veu"
+  }
+}

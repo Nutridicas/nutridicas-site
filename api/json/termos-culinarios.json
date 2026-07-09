@@ -1,0 +1,812 @@
+ {
+ "Arquivo" : "Criado em 10/06/2026 - termos culinários",
+ "Versão" : "1.1",
+
+   "mise-en-place": {
+    "nome": "Mise en Place",
+    "slug": "mise-en-place",
+    "categoria": "Técnica",
+    "descricao_curta": "Organização prévia de ingredientes, utensílios e equipamentos antes do preparo.",
+    "descricao": "Princípio fundamental da gastronomia que consiste em separar, medir, cortar e organizar todos os ingredientes e utensílios necessários antes de iniciar uma receita.",
+    "como_identificar": "Todos os componentes da preparação estão prontos e acessíveis antes do início do preparo."
+  },
+
+  "branquear": {
+    "nome": "Branquear",
+    "slug": "branquear",
+    "categoria": "Técnica",
+    "descricao_curta": "Cozimento rápido seguido de resfriamento imediato.",
+    "descricao": "Técnica que consiste em mergulhar alimentos em água fervente por um curto período e, em seguida, transferi-los para água gelada para interromper o cozimento.",
+    "como_identificar": "O alimento mantém cor viva, textura firme e sabor fresco."
+  },
+
+  "selar": {
+    "nome": "Selar",
+    "slug": "selar",
+    "categoria": "Técnica",
+    "descricao_curta": "Dourar rapidamente a superfície de um alimento em alta temperatura.",
+    "descricao": "Processo que promove reação de Maillard, criando sabor, aroma e coloração na superfície dos alimentos.",
+    "como_identificar": "Forma crosta dourada sem cozinhar totalmente o interior."
+  },
+
+  "reduzir": {
+    "nome": "Reduzir",
+    "slug": "reduzir",
+    "categoria": "Técnica",
+    "descricao_curta": "Concentrar sabores pela evaporação de líquidos.",
+    "descricao": "Cozimento prolongado que reduz volume do líquido e intensifica sabor e textura.",
+    "como_identificar": "Menor volume e consistência mais encorpada."
+  },
+
+   "emulsionar": {
+    "nome": "Emulsionar",
+    "slug": "emulsionar",
+    "categoria": "Técnica",
+    "descricao_curta": "Unir líquidos que normalmente não se misturam.",
+    "descricao": "Dispersão de um líquido em outro, formando mistura estável como maionese ou hollandaise.",
+    "como_identificar": "Mistura homogênea sem separação de fases."
+  },
+
+  "incorporar": {
+    "nome": "Incorporar",
+    "slug": "incorporar",
+    "categoria": "Técnica",
+    "descricao_curta": "Misturar ingredientes até homogeneizar.",
+    "descricao": "Integração cuidadosa de ingredientes para manter estrutura e leveza.",
+    "como_identificar": "Mistura uniforme sem grumos ou separação."
+  },
+
+  "dobrar-folding": {
+    "nome": "Dobrar (Folding)",
+    "slug": "dobrar-folding",
+    "categoria": "Técnica",
+    "descricao_curta": "Mistura delicada para preservar ar incorporado.",
+    "descricao": "Movimento suave que evita perda de volume em massas aeradas.",
+    "como_identificar": "Massa leve e volumosa após mistura."
+  },
+
+  "macaronagem": {
+    "nome": "Macaronagem",
+    "slug": "macaronagem",
+    "categoria": "Técnica",
+    "descricao_curta": "Ajuste de textura da massa de macarons.",
+    "descricao": "Mistura controlada entre merengue e ingredientes secos até atingir fluidez correta.",
+    "como_identificar": "Massa cai em fita contínua."
+  },
+
+  "sova": {
+    "nome": "Sovar",
+    "slug": "sovar",
+    "categoria": "Técnica",
+    "descricao_curta": "Trabalhar massa para desenvolver glúten.",
+    "descricao": "Processo mecânico de esticar e dobrar a massa.",
+    "como_identificar": "Massa elástica e lisa."
+  },
+
+   "autolise": {
+    "nome": "Autólise",
+    "slug": "autolise",
+    "categoria": "Técnica",
+    "descricao_curta": "Descanso da farinha com água antes da sova.",
+    "descricao": "Melhora desenvolvimento do glúten e extensibilidade da massa.",
+    "como_identificar": "Massa mais fácil de trabalhar."
+  },
+
+  "fermentacao": {
+    "nome": "Fermentação",
+    "slug": "fermentacao",
+    "categoria": "Técnica",
+    "descricao_curta": "Processo biológico de crescimento da massa.",
+    "descricao": "Produção de gases por leveduras que expandem a massa.",
+    "como_identificar": "Aumento de volume e aroma fermentado."
+  },
+
+   "fermentacao-fria": {
+    "nome": "Fermentação Fria",
+    "slug": "fermentacao-fria",
+    "categoria": "Técnica",
+    "descricao_curta": "Fermentação em baixa temperatura.",
+    "descricao": "Processo lento que desenvolve sabor e estrutura.",
+    "como_identificar": "Fermentação lenta e aromática."
+  },
+   
+  "fermentacao-natural": {
+    "nome": "Fermentação Natural",
+    "slug": "fermentacao-natural",
+    "categoria": "Técnica",
+    "descricao_curta": "Uso de fermento natural (levain).",
+    "descricao": "Fermentação por leveduras selvagens.",
+    "como_identificar": "Aroma ácido e complexo."
+  },
+
+  "degaseificacao": {
+    "nome": "Degaseificação",
+    "slug": "degaseificacao",
+    "categoria": "Técnica",
+    "descricao_curta": "Remoção parcial de gases da massa.",
+    "descricao": "Redistribui fermentação e estrutura.",
+    "como_identificar": "Massa mais uniforme."
+  },
+
+   "banho-maria": {
+    "nome": "Banho-Maria",
+    "slug": "banho-maria",
+    "categoria": "Técnica",
+    "descricao_curta": "Cozimento indireto com água quente.",
+    "descricao": "Método suave para preparações delicadas.",
+    "como_identificar": "Calor indireto constante."
+  },
+
+   "caramelizacao": {
+    "nome": "Caramelização",
+    "slug": "caramelizacao",
+    "categoria": "Técnica",
+    "descricao_curta": "Transformação do açúcar pelo calor.",
+    "descricao": "Reação química que gera cor e sabor caramelizado.",
+    "como_identificar": "Cor âmbar e aroma tostado."
+  },
+
+   "flambar": {
+    "nome": "Flambar",
+    "slug": "flambar",
+    "categoria": "Técnica",
+    "descricao_curta": "Queimar álcool de uma preparação.",
+    "descricao": "Uso de chama para evaporar álcool e intensificar sabor.",
+    "como_identificar": "Chama breve na panela."
+  },
+
+  "confitar": {
+    "nome": "Confitar",
+    "slug": "confitar",
+    "categoria": "Técnica",
+    "descricao_curta": "Cozimento lento em gordura ou calda.",
+    "descricao": "Preserva textura e sabor em baixa temperatura.",
+    "como_identificar": "Textura macia e suculenta."
+  },
+
+   
+
+  "ponto-de-veu": {
+    "nome": "Ponto de Véu",
+    "slug": "ponto-de-veu",
+    "categoria": "Textura",
+    "descricao_curta": "Estágio do merengue ou claras em neve em que se formam picos finos e maleáveis.",
+    "descricao": "Ocorre quando as claras ou o merengue são batidos até formar picos suaves que se mantêm sem quebrar facilmente. Indicado para misturas delicadas.",
+    "como_identificar": "Ao levantar o batedor, a mistura forma uma ponta que se dobra suavemente sobre si mesma."
+  },
+
+  "ponto-de-bico-mole": {
+    "nome": "Ponto de Bico Mole",
+    "slug": "ponto-de-bico-mole",
+    "categoria": "Textura",
+    "descricao_curta": "Textura de glacês e merengues que permite extrusão suave por saco de confeitar.",
+    "descricao": "Consistência ideal para preenchimento e decorações que devem se espalhar levemente.",
+    "como-identificar": "Ao apertar o saco de confeitar, a massa sai formando um fio contínuo mas maleável."
+  },
+
+  "ponto-de-bico-firme": {
+    "nome": "Ponto de Bico Firme",
+    "slug": "ponto-de-bico-firme",
+    "categoria": "Textura",
+    "descricao_curta": "Glacês ou merengues que mantêm forma ao serem extrudados.",
+    "descricao": "Textura adequada para decorações detalhadas, que não se deformam facilmente.",
+    "como-identificar": "Ao pressionar o saco, o fio mantém a forma e não escorre."
+  },
+
+  "ponto-de-neve": {
+    "nome": "Ponto de Neve",
+    "slug": "ponto-de-neve",
+    "categoria": "Textura",
+    "descricao_curta": "Claras batidas até formar picos firmes e brilhantes.",
+    "descricao": "Estágio no qual as claras ou merengues mantêm a estrutura aerada necessária para incorporar a massa ou assar.",
+    "como-identificar": "Os picos formados ao levantar o batedor permanecem eretos sem escorrer."
+  },
+
+  "ponto-de-bala-mole": {
+    "nome": "Ponto de Bala Mole",
+    "slug": "ponto-de-bala-mole",
+    "categoria": "Textura",
+    "descricao_curta": "Estágio do açúcar cozido onde forma fios maleáveis.",
+    "descricao": "Quando uma pequena quantidade de calda é mergulhada em água fria, forma uma bola macia e maleável.",
+    "como-identificar": "Ao tocar a calda fria, ela pode ser moldada com os dedos mas ainda é pegajosa."
+  },
+
+  "ponto-de-bala-dura": {
+    "nome": "Ponto de Bala Dura",
+    "slug": "ponto-de-bala-dura",
+    "categoria": "Textura",
+    "descricao_curta": "Açúcar cozido em ponto firme e quebradiço.",
+    "descricao": "Calda atingiu temperatura suficiente para formar uma bola dura ao ser mergulhada em água fria.",
+    "como-identificar": "A bola formada mantém forma e quebra facilmente ao ser pressionada."
+  },
+
+  "ponto-de-fio": {
+    "nome": "Ponto de Fio",
+    "slug": "ponto-de-fio",
+    "categoria": "Textura",
+    "descricao_curta": "Calda de açúcar que escorre formando fios finos e contínuos.",
+    "descricao": "Indica a consistência ideal para preparar doces e cremes que precisam de leve espessura.",
+    "como-identificar": "Ao levantar a calda, ela escorre lentamente formando um fio fino que se mantém."
+  },
+
+  "ponto-de-perola": {
+    "nome": "Ponto de Pérola",
+    "slug": "ponto-de-perola",
+    "categoria": "Textura",
+    "descricao_curta": "Calda de açúcar levemente espessa que forma pequenas gotas arredondadas ao cair.",
+    "descricao": "Usado para coberturas e doces que exigem leve consistência para aderência.",
+    "como-identificar": "Ao cair na água fria, a calda forma gotas redondas que mantêm parcialmente o formato."
+  },
+
+  "ponto-de-esfera-mole": {
+    "nome": "Ponto de Esfera Mole",
+    "slug": "ponto-de-esfera-mole",
+    "categoria": "Textura",
+    "descricao_curta": "Calda de açúcar que forma esfera macia na água fria.",
+    "descricao": "Indicativo de ponto ideal para caramelos moles e balas maleáveis.",
+    "como-identificar": "Ao mergulhar a calda em água, forma uma esfera que pode ser amassada com o dedo."
+  },
+
+  "ponto-de-esfera-dura": {
+    "nome": "Ponto de Esfera Dura",
+    "slug": "ponto-de-esfera-dura",
+    "categoria": "Textura",
+    "descricao_curta": "Calda de açúcar que cria esfera firme ao mergulhar em água fria.",
+    "descricao": "Usado para balas duras e coberturas crocantes.",
+    "como-identificar": "Ao mergulhar, a esfera mantém forma e é difícil de moldar."
+  },
+
+  "ponto-nape": {
+    "nome": "Ponto Napê",
+    "slug": "ponto-nape",
+    "categoria": "Textura",
+    "descricao_curta": "Molho ou creme com consistência que cobre as costas da colher.",
+    "descricao": "Indica redução e viscosidade ideais de molhos e cremes.",
+    "como-identificar": "Ao passar a colher, a mistura forma uma camada uniforme e consistente sobre a superfície."
+  },
+
+  "ponto-de-fita": {
+    "nome": "Ponto de Fita",
+    "slug": "ponto-de-fita",
+    "categoria": "Textura",
+    "descricao_curta": "Mistura aerada que escorre formando uma fita contínua.",
+    "descricao": "Alcançado ao bater ovos ou massas aeradas; a mistura escorre lentamente formando fita que se mantém visível por alguns segundos.",
+    "como-identificar": "Ao levantar o batedor, a massa cai formando uma fita contínua e uniforme."
+  },
+
+  "textura-aveludada": {
+    "nome": "Textura Aveludada",
+    "slug": "textura-aveludada",
+    "categoria": "Textura",
+    "descricao_curta": "Preparação com toque macio e suave na boca.",
+    "descricao": "Indica que o alimento ou molho tem acabamento liso, cremoso e agradável ao paladar.",
+    "como-identificar": "Ao provar, a sensação é suave, sem grumos ou asperezas."
+  },
+
+  "textura-aerada": {
+    "nome": "Textura Aerada",
+    "slug": "textura-aerada",
+    "categoria": "Textura",
+    "descricao_curta": "Preparação leve com bolhas de ar incorporadas.",
+    "descricao": "Característica de massas e mousses onde a incorporação de ar proporciona leveza e volume.",
+    "como-identificar": "Ao tocar ou cortar, a estrutura é fofa e cheia de pequenas bolhas de ar."
+  },
+
+  "textura-cremosa": {
+    "nome": "Textura Cremosa",
+    "slug": "textura-cremosa",
+    "categoria": "Textura",
+    "descricao_curta": "Preparação lisa, uniforme e maleável.",
+    "descricao": "Indica equilíbrio de líquidos e sólidos em cremes, purês e molhos.",
+    "como-identificar": "Ao mexer ou espalhar, o alimento mantém consistência uniforme e sedosa."
+  },
+
+  "textura-crocante": {
+    "nome": "Textura Crocante",
+    "slug": "textura-crocante",
+    "categoria": "Textura",
+    "descricao_curta": "Preparação firme que quebra com som ao ser mastigada.",
+    "descricao": "Resultado de fritura, assamento ou caramelização adequada, criando contraste de textura.",
+    "como-identificar": "Ao morder, o alimento oferece resistência inicial e som característico de crocância."
+  },
+  "textura-de-fita-continua": {
+    "nome": "Textura de Fita Contínua",
+    "slug": "textura-de-fita-continua",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Mistura aerada ou cremosa que escorre formando uma fita contínua sobre a superfície.",
+    "descricao": "Indicada em massas que dependem da aeração dos ovos, como pão de ló, chiffon ou genoise. Ao levantar o batedor, a mistura cai lentamente, formando uma fita visível por alguns segundos antes de se incorporar novamente à massa.",
+    "como_identificar": "A mistura mantém volume e leveza, escorrendo lentamente em fita contínua.",
+    "aplicacoes": [
+      "Massas aeradas de bolos",
+      "Merengues",
+      "Macarons"
+    ]
+  },
+
+  "sabayon": {
+    "nome": "Sabayon",
+    "slug": "sabayon",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Creme leve feito com gemas, açúcar e vinho ou licor.",
+    "descricao": "Bate-se gemas com açúcar sobre banho-maria até obter um creme espesso e aerado, incorporando vinho ou licor.",
+    "como_identificar": "Textura leve, cremosa e espessa, que forma leves fitas ao escorrer da colher."
+  },
+
+  "ganache": {
+    "nome": "Ganache",
+    "slug": "ganache",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Preparação de chocolate e creme de leite.",
+    "descricao": "Mistura homogênea de chocolate e creme de leite, utilizada para recheios, coberturas e bombons.",
+    "como_identificar": "Textura lisa, brilhante e cremosa; ao esfriar, pode ser moldada ou batida para aerar."
+  },
+
+  "creme-patissiere": {
+  "nome": "Crème Pâtissière",
+    "slug": "creme-patissiere",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Creme de confeitaria à base de leite, gemas, açúcar e amido.",
+    "descricao": "Cozido lentamente até engrossar, usado como recheio de bolos, tortas e doces variados.",
+    "como_identificar": "Textura firme, lisa e cremosa, sem grumos."
+  },
+
+  "creme-anglaise": {
+  "nome": "Crème Anglaise",
+    "slug": "creme-anglaise",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Molho doce à base de leite, gemas e açúcar, fluido e aveludado.",
+    "descricao": "Preparado em banho-maria, deve ficar liso e sem coagular, servido frio ou quente como acompanhamento.",
+    "como_identificar": "Textura líquida, suave e aveludada, que cobre a colher uniformemente."
+  },
+
+  "creme-diplomate": {
+  "nome": "Crème Diplomate",
+    "slug": "creme-diplomate",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Creme pâtissière aerado com chantilly.",
+    "descricao": "Combina creme pâtissière resfriado com chantilly batido, tornando o creme mais leve e macio.",
+    "como_identificar": "Textura cremosa, leve e volumosa, adequada para recheios de bolos e tortas."
+  },
+
+  "creme-mousseline": {
+  "nome": "Crème Mousseline",
+    "slug": "creme-mousseline",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Creme pâtissière enriquecido com manteiga.",
+    "descricao": "O creme é batido com manteiga para criar uma textura suave, aerada e rica, ideal para recheios e bolos.",
+    "como_identificar": "Textura macia, cremosa e estruturada, fácil de espalhar."
+  },
+
+  "merengue-frances": {
+    "nome": "Merengue Francês",
+    "slug": "merengue-frances",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Claras batidas com açúcar até formar picos firmes.",
+    "descricao": "Simples de preparar, é batido até atingir o ponto de neve e utilizado para coberturas ou base de doces.",
+    "como-identificar": "Textura leve, brilhante e firme, que mantém picos ao levantar o batedor."
+  },
+
+  "merengue-suico": {
+    "nome": "Merengue Suíço",
+    "slug": "merengue-suico",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Claras e açúcar aquecidos antes de bater.",
+    "descricao": "O aquecimento do açúcar dissolve completamente os cristais, resultando em merengue estável e brilhante.",
+    "como_identificar": "Textura lisa, brilhante, firme e estável, ideal para coberturas e decorações."
+  },
+
+  "merengue-italiano": {
+    "nome": "Merengue Italiano",
+    "slug": "merengue-italiano",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Claras batidas com calda de açúcar quente.",
+    "descricao": "A calda quente coagula parcialmente as claras, garantindo estabilidade máxima.",
+    "como-identificar": "Textura firme, brilhante e resistente à umidade, usada para mousses, recheios e decorações."
+  },
+
+  "praline": {
+  "nome": "Praliné",
+  "slug": "praline",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Preparação de nozes ou amêndoas caramelizadas.",
+    "descricao": "Os frutos secos são caramelizados e triturados, formando uma pasta ou pedaços crocantes.",
+    "como_identificar": "Textura quebradiça quando sólida ou lisa e cremosa quando triturada em pasta."
+  },
+
+  "gianduia": {
+    "nome": "Gianduia",
+    "slug": "gianduia",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Chocolate misturado com pasta de avelãs.",
+    "descricao": "Combinação de chocolate ao leite ou meio amargo com pasta de avelã, criando sabor suave e textura cremosa.",
+    "como_identificar": "Textura lisa e macia, aroma característico de avelãs."
+  },
+
+  "pate-a-choux": {
+    "nome": "Pâte à Choux",
+    "slug": "pate-a-choux",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Massa leve usada em doces como éclairs e profiteroles.",
+    "descricao": "Preparada cozinhando farinha com líquidos e manteiga antes de adicionar ovos, desenvolvendo leveza e estrutura oca interna.",
+    "como_identificar": "Massa aerada e firme ao assar, com interior oco para recheios."
+  },
+
+  "frangipane": {
+    "nome": "Frangipane",
+    "slug": "frangipane",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Creme de amêndoas usado como recheio.",
+    "descricao": "Mistura de manteiga, açúcar, ovos e amêndoas moídas, assada em tortas e doces.",
+    "como_identificar": "Textura cremosa, sabor adocicado e aroma de amêndoas."
+  },
+
+  "dacquoise": {
+    "nome": "Dacquoise",
+    "slug": "dacquoise",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Biscoito de amêndoas ou avelãs com claras em neve.",
+    "descricao": "Assado até ficar firme e levemente crocante, usado em camadas de bolos e sobremesas.",
+    "como_identificar": "Textura crocante por fora e macia por dentro, sabor de frutos secos."
+  },
+
+  "joconde": {
+    "nome": "Joconde",
+    "slug": "joconde",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Biscuit leve de amêndoas usado em camadas de bolos finos.",
+    "descricao": "Massa aerada com amêndoas moídas, ideal para bolos laminados e tortas delicadas.",
+    "como_identificar": "Textura leve e flexível, fácil de enrolar ou cortar em camadas."
+  },
+
+  "genoise": {
+  "nome": "Genoise",
+  "slug": "genoise",
+  "categoria": "Confeitaria",
+  "descricao_curta": "Bolo clássico da confeitaria francesa preparado sem fermento químico.",
+  "descricao": "Massa aerada obtida pelo batimento prolongado de ovos e açúcar até atingir grande volume, seguido da incorporação delicada de farinha e, em algumas versões, manteiga derretida. Sua leveza depende exclusivamente do ar incorporado durante o batimento.",
+  "como_identificar": "Apresenta miolo fino, uniforme e elástico, com textura leve e esponjosa, ideal para bolos recheados, tortas e sobremesas em camadas.",
+  "aplicacoes": [
+    "Tortas clássicas",
+    "Entremets",
+    "Bolos recheados",
+    "Bolo Ópera",
+    "Bolo Fraisier"
+  ]
+ },
+  "poolish": {
+    "nome": "Poolish",
+    "slug": "poolish",
+    "categoria": "Panificação",
+    "descricao_curta": "Pré-fermento líquido de farinha, água e fermento, usado para melhorar sabor e estrutura do pão.",
+    "descricao": "Mistura de farinha, água e uma pequena quantidade de fermento, deixada fermentar lentamente por algumas horas. Desenvolve sabor complexo, aroma agradável e melhora a textura da massa final.",
+    "como_identificar": "A mistura apresenta bolhas visíveis, leve aroma fermentado e consistência líquida/espessa, semelhante a massa de panqueca densa."
+  },
+
+  "biga": {
+    "nome": "Biga",
+    "slug": "biga",
+    "categoria": "Panificação",
+    "descricao_curta": "Pré-fermento firme italiano que dá estrutura e sabor ao pão.",
+    "descricao": "Massa pré-fermentada mais seca que o poolish, geralmente 50-60% de hidratação, fermentada por várias horas. Contribui para alveolamento, aroma e conservação.",
+    "como_identificar": "Massa firme, elástica, com bolhas visíveis e aroma levemente ácido e fermentado."
+  },
+
+  "levain": {
+    "nome": "Levain",
+    "slug": "levain",
+    "categoria": "Panificação",
+    "descricao_curta": "Fermento natural à base de farinha e água, cultivado com leveduras selvagens.",
+    "descricao": "Massa fermentada naturalmente, sem fermento industrial, que adiciona sabor complexo, acidez equilibrada e estrutura ao pão.",
+    "como_identificar": "A massa apresenta bolhas grandes e pequenas, aroma ácido-levemente doce, textura elástica e pegajosa."
+  },
+
+  "hidratacao": {
+    "nome": "Hidratação",
+    "slug": "hidratacao",
+    "categoria": "Panificação",
+    "descricao_curta": "Proporção de água em relação à farinha em uma massa.",
+    "descricao": "Expressa em porcentagem, a hidratação influencia a textura do pão, desenvolvimento do glúten e alveolamento. Massas mais hidratadas produzem miolos abertos e macios.",
+    "como_identificar": "Massa úmida e pegajosa para alta hidratação; mais firme e densa para baixa hidratação."
+  },
+
+  "alveolos": {
+    "nome": "Alvéolos",
+    "slug": "alveolos",
+    "categoria": "Panificação",
+    "descricao_curta": "Cavidades ou buracos no miolo do pão.",
+    "descricao": "Resultado da fermentação e expansão de gases durante o crescimento da massa. Indicadores de bom desenvolvimento de glúten e fermentação adequada.",
+    "como_identificar": "Miolo aerado, com bolhas visíveis e regulares; o tamanho varia conforme a hidratação e fermentação."
+  },
+
+  "forca-da-farinha-w": {
+    "nome": "Força da Farinha (W)",
+    "slug": "forca-da-farinha-w",
+    "categoria": "Panificação",
+    "descricao_curta": "Medida da capacidade da farinha de formar glúten e suportar fermentação.",
+    "descricao": "O valor W indica resistência da farinha; quanto maior, mais força para massas longas e enriquecidas.",
+    "como_identificar": "Farinha de força alta produz massas elásticas e miolo estruturado; farinhas fracas resultam em pães menores e miolo mais compacto."
+  },
+
+  "gluten": {
+    "nome": "Glúten",
+    "slug": "gluten",
+    "categoria": "Panificação",
+    "descricao_curta": "Proteína formada pela mistura de água e farinha, responsável pela elasticidade da massa.",
+    "descricao": "Redes de glúten retêm gases da fermentação, permitindo expansão da massa. Desenvolvimento adequado é essencial para textura e estrutura do pão.",
+    "como_identificar": "Massa elástica que estica sem rasgar; ao abrir, forma filme fino (teste da janela)."
+  },
+
+  "spring-oven": {
+    "nome": "Oven Spring",
+    "slug": "oven-spring",
+    "categoria": "Panificação",
+    "descricao_curta": "Expansão rápida da massa nos primeiros minutos de forno.",
+    "descricao": "O calor ativa rapidamente a fermentação e vapor interno, aumentando volume antes do endurecimento da crosta.",
+    "como_identificar": "Pão cresce visivelmente nos primeiros 10–15 minutos de forno, formando miolo aerado e crosta inicial."
+  },
+
+  "scoring": {
+    "nome": "Scoring",
+    "slug": "scoring",
+    "categoria": "Panificação",
+    "descricao_curta": "Cortes feitos na superfície da massa antes do forno.",
+    "descricao": "Permite expansão controlada do pão, decorando e direcionando o crescimento da crosta.",
+    "como_identificar": "Linhas superficiais na massa que se abrem durante o forno, formando padrão decorativo e funcional."
+  },
+
+  "shaping": {
+    "nome": "Shaping",
+    "slug": "shaping",
+    "categoria": "Panificação",
+    "descricao_curta": "Processo de modelar a massa antes da fermentação final ou forno.",
+    "descricao": "Dá forma ao pão ou viennoiserie, consolidando tensão superficial para estrutura uniforme e crescimento controlado.",
+    "como_identificar": "Massa com superfície lisa e tensa, pronta para fermentação final."
+  },
+
+  "bulk-fermentation": {
+    "nome": "Bulk Fermentation",
+    "slug": "bulk-fermentation",
+    "categoria": "Panificação",
+    "descricao_curta": "Primeira fermentação em massa inteira após mistura e sovamento.",
+    "descricao": "Permite que leveduras se desenvolvam, formando gás e sabores complexos antes de dividir ou modelar.",
+    "como_identificar": "Massa cresce visivelmente, apresenta bolhas uniformes, aroma fermentado e elasticidade adequada."
+  },
+  "roux": {
+    "nome": "Roux",
+    "slug": "roux",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Mistura de farinha e gordura cozida usada para engrossar molhos e sopas.",
+    "descricao": "Preparado cozinhando-se farinha com manteiga ou outra gordura até atingir a cor desejada (branca, loira ou escura). Serve como base para béchamel, velouté e outros molhos clássicos.",
+    "como_identificar": "Textura lisa e espessa, cor varia conforme tempo de cozimento.",
+    "aplicacoes": [
+      "Béchamel",
+      "Velouté",
+      "Molhos escuros",
+      "Sopas cremosas"
+    ]
+  },
+
+  "mirepoix": {
+    "nome": "Mirepoix",
+    "slug": "mirepoix",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Mistura de vegetais aromáticos cortados em cubos para bases de molhos, caldos e ensopados.",
+    "descricao": "Geralmente cebola, cenoura e aipo, refogados suavemente para extrair aroma antes de adicionar líquidos ou carnes.",
+    "como_identificar": "Aromáticos dourados, levemente caramelizados e macios."
+  },
+
+  "bouquet-garni": {
+    "nome": "Bouquet Garni",
+    "slug": "bouquet-garni",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Feixe de ervas amarrado ou em sachê usado para aromatizar caldos e molhos.",
+    "descricao": "Contém normalmente tomilho, louro e salsinha; pode incluir alho-poró ou ervas adicionais dependendo da receita.",
+    "como_identificar": "Ervas amarradas ou dentro de sachê, removidas antes de servir."
+  },
+
+  "liaison": {
+    "nome": "Liaison",
+    "slug": "liaison",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Mistura de gemas e creme usada para engrossar e enriquecer molhos.",
+    "descricao": "Adicionada ao final do cozimento, conferindo textura cremosa e brilho aos molhos sem ferver demais, evitando coagulação.",
+    "como_identificar": "Molho liso, aveludado e brilhante."
+  },
+
+  "deglacear": {
+    "nome": "Deglacear",
+    "slug": "deglacear",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Técnica de dissolver os resíduos de cozimento de uma panela com líquido.",
+    "descricao": "Após selar carnes ou vegetais, adiciona-se vinho, caldo ou água para soltar sabores caramelizados da panela, formando base para molhos.",
+    "como_identificar": "Sólidos no fundo da panela se dissolvem, formando líquido aromático e saboroso."
+  },
+
+  "demi-glace": {
+    "nome": "Demi-Glace",
+    "slug": "demi-glace",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Molho escuro reduzido à base de fundo escuro e molho demi-glace.",
+    "descricao": "Preparado a partir de fundo escuro e roux, cozido lentamente até obter consistência aveludada e concentrada, muito usado na alta gastronomia.",
+    "como_identificar": "Textura espessa, brilhante, sabor intenso e aroma profundo.",
+    "aplicacoes": [
+      "Molhos para carnes",
+      "Reduções",
+      "Entremets salgados"
+    ]
+  },
+
+  "veloute": {
+    "nome": "Velouté",
+    "slug": "veloute",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Molho claro feito com roux e fundo branco (frango, peixe ou vegetais).",
+    "descricao": "Cozinhado até obter textura lisa e cremosa, servindo como base para outros molhos derivados.",
+    "como_identificar": "Textura aveludada e cor clara, sabor suave e delicado."
+  },
+
+  "bechamel": {
+    "nome": "Béchamel",
+    "slug": "bechamel",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Molho branco clássico feito com roux e leite.",
+    "descricao": "Engrossado com roux branco, cozido lentamente para não formar grumos. Pode ser aromatizado com noz-moscada.",
+    "como_identificar": "Textura cremosa, branca e lisa.",
+    "aplicacoes": [
+      "Gratinar",
+      "Lasanha",
+      "Suflês",
+      "Molhos brancos"
+    ]
+  },
+
+  "espagnole": {
+    "nome": "Espagnole",
+    "slug": "espagnole",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Molho escuro feito com roux, fundo escuro e vegetais aromáticos.",
+    "descricao": "Reduzido lentamente até consistência espessa e rica, base para molhos derivados.",
+    "como_identificar": "Textura aveludada, cor marrom escura e sabor profundo."
+  },
+
+  "hollandaise": {
+    "nome": "Hollandaise",
+    "slug": "hollandaise",
+    "categoria": "Molhos e Cozinha Clássica",
+    "descricao_curta": "Molho emulsionado quente à base de gemas, manteiga e limão.",
+    "descricao": "Preparado batendo gemas sobre banho-maria e incorporando manteiga derretida, mantendo a emulsão estável. Pode ser temperado com limão e especiarias.",
+    "como_identificar": "Textura cremosa, brilhante e levemente espessa, sabor rico e amanteigado.",
+    "aplicacoes": [
+      "Eggs Benedict",
+      "Legumes cozidos",
+      "Peixes e frutos do mar"
+    ]
+  },
+  "gratinar": {
+    "nome": "Gratinar",
+    "slug": "gratinar",
+    "categoria": "Técnica",
+    "descricao_curta": "Dourar superfície de preparo.",
+    "descricao": "Formação de crosta dourada por calor intenso.",
+    "como_identificar": "Camada superior dourada e crocante."
+  },
+  "ponto-de-pomada": {
+    "nome": "Ponto de Pomada (Manteiga ou Margarina)",
+    "slug": "ponto-de-pomada",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Também conhecida como 'beurre pommade'. É a gordura em temperatura ambiente com consistência macia, moldável e sem derreter.",
+    "descricao": "Estado ideal da gordura para métodos de creme (creaming), onde ela retém o ar ao ser batida com açúcar. A textura é semelhante a um creme dental ou pomada labial, estando maleável mas ainda sólida o suficiente para manter sua estrutura.",
+    "como_identificar": "A Textura fica levemente resistente ao toque ao pressionar com o dedo, e tem pouco brilho de derretimento.Temperatura é atingido entre 20°C e 23°C.",
+    "aplicacoes": [
+      "Biscoitos amanteigados",
+      "Creme de manteiga (Buttercream)",
+      "Massas de bolo pelo método cremoso"
+    ]
+  },
+  "ponto-de-areia": {
+    "nome": "Ponto de Areia (Sablage)",
+    "slug": "ponto-de-areia",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Mistura de farinha e gordura fria que resulta em uma textura granulada semelhante à areia úmida.",
+    "descricao": "Técnica que envolve impermeabilizar a farinha com pedaços de gordura fria antes de adicionar líquidos. Isso impede o desenvolvimento excessivo do glúten, garantindo uma massa final extremamente crocante e quebradiça.",
+    "como_identificar": "A mistura perde o aspecto de pó e forma grânulos soltos e finos que se unem apenas quando pressionados com as mãos.",
+    "aplicacoes": [
+      "Massa Sablée",
+      "Massa Brisée",
+      "Farofas doces (Crumble)"
+    ]
+  },
+  "ponto-de-fio": {
+    "nome": "Ponto de Fio",
+    "slug": "ponto-de-fio",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Estágio de calda de açúcar que forma um fio fino e resistente quando separada pelos dedos.",
+    "descricao": "Alcançado quando a calda de açúcar atinge aproximadamente 103°C a 105°C. A quantidade de água evaporada é ideal para dar corpo a xaropes sem que o açúcar cristalize ou caramelize.",
+    "como_identificar": "Ao esfriar uma gota entre o polegar e o indicador e afastá-los, forma-se um fio fino que não se quebra imediatamente.",
+    "aplicacoes": [
+      "Calda para pudim (fina)",
+      "Compotas de frutas",
+      "Preparo de licores"
+    ]
+  },
+  "ponto-de-pico-firme": {
+    "nome": "Ponto de Pico Firme",
+    "slug": "ponto-de-pico-firme",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Mistura aerada que forma pontas rígidas que mantêm a forma ao levantar o batedor.",
+    "descricao": "Estágio de aeração de claras ou creme de leite onde a estrutura de proteínas e gordura retém o máximo de ar estável. Os picos apontam diretamente para cima sem dobrar ou cair.",
+    "como_identificar": "Ao virar a tigela de cabeça para baixo, a mistura não se move, e o batedor deixa pontas retas e fixas.",
+    "aplicacoes": [
+      "Merengue Suíço e Italiano",
+      "Marshmallow",
+      "Decorações com chantilly"
+    ]
+  },
+  "ponto-de-bala-mole": {
+    "nome": "Ponto de Bala Mole",
+    "slug": "ponto-de-bala-mole",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Calda de açúcar que, ao esfriar em água fria, forma uma esfera moldável e macia.",
+    "descricao": "Alcançado quando a calda atinge entre 112°C e 116°C. Nesse estágio, a concentração de açúcar é ideal para conferir elasticidade e estrutura sem endurecer completamente após o resfriamento.",
+    "como_identificar": "Ao pingar a calda em um copo de água fria, formam-se pedaços que podem ser moldados com os dedos em uma bolinha macia que achata ao ser pressionada.",
+    "aplicacoes": [
+      "Merengue Italiano",
+      "Fondant",
+      "Balas de caramelo macias"
+    ]
+  },
+  "ponto-de-bala-dura": {
+    "nome": "Ponto de Bala Dura",
+    "slug": "ponto-de-bala-dura",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Calda de açúcar que forma uma esfera rígida e firme após o resfriamento rápido.",
+    "descricao": "Estágio atingido entre 121°C e 130°C. A maior evaporação da água deixa o xarope denso o suficiente para manter um formato sólido, mas ainda retém uma leve flexibilidade sob forte pressão.",
+    "como_identificar": "Ao colocar a calda em água fria, ela solidifica em uma bola rígida que não perde o formato facilmente, mas ainda cede ligeiramente ao dente.",
+    "aplicacoes": [
+      "Marshmallows caseiros",
+      "Balas de coco",
+      "Torrones"
+    ]
+  },
+  "ponto-de-derretimento-chocolate": {
+    "nome": "Ponto de Derretimento (Chocolate)",
+    "slug": "ponto-de-derretimento-chocolate",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Estado líquido do chocolate onde os cristais de gordura estão totalmente desfeitos.",
+    "descricao": "Primeira etapa do trabalho com chocolate nobre, onde ele é aquecido até desmanchar todos os pedaços e liberar a manteiga de cacau. Exige controle rígido de temperatura para não queimar as proteínas do leite ou o cacau.",
+    "como_identificar": "Fluido homogêneo, sem grumos, atingindo de 45°C a 50°C (chocolates amargos) ou 40°C a 45°C (ao leite e branco).",
+    "applications": [
+      "Início da temperagem",
+      "Preparo de ganaches",
+      "Misturas para brownies e bolos"
+    ]
+  },
+  "ponto-de-temperagem-chocolate": {
+    "nome": "Ponto de Temperagem (Chocolate)",
+    "slug": "ponto-de-temperagem-chocolate",
+    "categoria": "Confeitaria",
+    "descricao_curta": "Chocolate resfriado e reaquecido controlado para induzir a cristalização correta da manteiga de cacau.",
+    "descricao": "Estado em que o chocolate alcança a estabilidade térmica ideal através do movimento e choque térmico. Garante que o produto final tenha brilho, estalo (snap) ao quebrar e não derreta ao toque.",
+    "como_identificar": "O chocolate atinge a temperatura final de trabalho (28°C a 32°C conforme o tipo) e, ao ser testado em uma espátula, seca e endurece uniformemente em menos de 3 minutos.",
+    "aplicacoes": [
+      "Moldagem de bombons",
+      "Ovos de Páscoa",
+      "Decorações de chocolate"
+    ]
+  },
+  "ponto-de-veu": {
+    "nome": "Ponto de Véu",
+    "slug": "ponto-de-veu",
+    "categoria": "Panificação",
+    "descricao_curta": "Estágio de desenvolvimento máximo do glúten onde a massa de pão fica elástica e translúcida.",
+    "descricao": "Indica que a rede de glúten foi perfeitamente desenvolvida pelo processo de sova ou hidratação. A estrutura retém os gases da fermentação, permitindo o crescimento correto e o alvéolo perfeito do pão.",
+    "como_identificar": "Ao esticar um pedaço da massa com os dedos, ela se expande até virar uma película fina e transparente (semelhante a um véu) antes de rasgar.",
+    "aplicacoes": [
+      "Pão de forma",
+      "Panetones e Brioches",
+      "Massas de longa fermentação"
+    ]
+  }
+}
+
+   

@@ -33,7 +33,7 @@
       {
         "titulo": "Pasta de Cenoura e Ervas",
         "slug": "pasta-de-cenoura-e-ervas",
-        "imagem": "pÃ£o-com-abacate.jpg"
+        "imagem": "pao-com-abacate.jpg"
       },
       {
         "titulo": "Maionese Vegana",
@@ -50,7 +50,7 @@
       {
         "data": "2025-01-01",
         "conteudo": {
-          "categoria": "Zero Lactose",
+          "categoria": "Zero-Lactose",
           "tempoPreparoReceita": "10 min",
           "tempoPreparoForno": "30 min",
           "tempoPreparoTotal": "40 min",
@@ -168,7 +168,7 @@
       {
         "data": "2026-02-04",
         "conteudo": {
-          "categoria": "Zero Lactose",
+          "categoria": "Zero-Lactose",
           "tempoPreparoReceita": "10 min",
           "tempoPreparoForno": "30 min",
           "tempoPreparoTotal": "40 min",
@@ -369,7 +369,7 @@
       {
         "data": "2026-02-09",
         "conteudo": {
-          "categoria": "Zero Lactose",
+          "categoria": "Zero-Lactose",
           "tempoPreparoReceita": "10 min",
           "tempoPreparoForno": "30 min",
           "tempoPreparoTotal": "40 min",
@@ -465,7 +465,7 @@
       {
         "data": "2026-02-09",
         "conteudo": {
-          "categoria": "Zero Lactose",
+          "categoria": "Zero-Lactose",
           "tempoPreparoReceita": "5 min",
           "tempoPreparoForno": "10 min",
           "tempoPreparoTotal": "15 min",
@@ -1188,7 +1188,7 @@
       },
       {
         "titulo": "Catchup Vegano",
-        "slug": "maionece-vegana-funcional",
+        "slug": "catchup-vegano-funcional",
         "imagem": "maionese-vegana-2.jpg"
       }
     ],
@@ -1714,10 +1714,10 @@
       "sem lactose",
       "legumes"
     ],
-    "imagem": "1772202646285-vegetables.jpg",
+    "imagem": "vegetables.jpg",
     "autor": {
-      "nome": "Portal Anônimo",
-      "credencial": "Portal Anônimo",
+      "nome": "Anônimo",
+      "credencial": "Anônimo",
       "registro": "27/02/26"
     },
     "avaliacoes": {
@@ -1963,6 +1963,7 @@
     "titulo": "Sanduíche Mediterrâneo Antioxidante",
     "status": "publicada",
     "topSemana": true,
+    "imagem": "sanduiche-natural.jpg",
     "premium": true,
     "restricoes": [
       "Zero lactose"
@@ -1974,7 +1975,7 @@
       "lanche",
       "Antioxidante"
     ],
-    "imagem": "1772303841197-sanduiche natural.jpg",
+    
     "autor": {
       "nome": "Anônimo",
       "credencial": "Anônimo",
@@ -1994,7 +1995,7 @@
       {
         "titulo": "Pasta de Cenoura e Ervas",
         "slug": "pasta-de-cenoura-e-ervas",
-        "imagem": "pÃ£o-com-abacate.jpg"
+        "imagem": "pao-com-abacate.jpg"
       },
       {
         "titulo": "Maionese Vegana",
@@ -2017,11 +2018,11 @@
           "tempoPreparoTotal": "5 a 7 minutos",
           "rendimento": "1 sanduíche",
           "dificuldade": "Muito Fácil",
-          "custoMedio": "Em torno de R$ 6,00 a R$ 10,00 ",
+          "custoMedio": "Entre R$ 6,00 a R$ 10,00 ",
           "enviadaPor": "Anônimo",
-          "comoServir": "Servir imediatamente para manter frescor, comer com ma bebida funcional",
+          "comoServir": "Servir imediatamente para manter o frescor, comer com ma bebida funcional",
           "miseEnPlace": [
-            "Fatie os vegetais (tomate, pepino) em tamanhos finos para facilitar a montagem.",
+            "Fatie os vegetais (tomate e pepino) em tamanhos finos para facilitar a montagem.",
             "Tenha o homus pronto para espalhar.",
             "Lave e seque as folhas."
           ],
@@ -2211,7 +2212,7 @@
       "lanche",
       "massa"
     ],
-    "imagem": "1772307040793-pÃ£o-com-abacate.jpg",
+    "imagem": "pao-com-abacate.jpg",
     "autor": {
       "nome": "Anônimo",
       "credencial": "Anônimo",

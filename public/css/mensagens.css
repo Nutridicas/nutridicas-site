@@ -1,0 +1,21 @@
+/* Mnesagem para o usuário - Criado em 21/03/2026
+Atualizado em 25/03/2026 */
+
+.toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* O segredo para centralizar */
+    padding: 15px 30px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+}
+
+.toast.show {
+    opacity: 1;
+}
+
+.erro { background-color: #ff4d4d; color: white; }
+.sucesso { background-color: #4CAF50; color: white; }

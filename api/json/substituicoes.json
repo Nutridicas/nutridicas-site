@@ -1,0 +1,285 @@
+{
+  "schemaVersion": "1.0",
+  "description": "Motor de substituições culinárias contextualizado por restrição, ingrediente e tipo de preparação",
+
+  "ingredientes": [
+    {
+      "id": "mascarpone",
+      "nome": "Queijo Mascarpone",
+      "categoria": "derivados-leite",
+
+      "restricoes": ["sem-lactose", "sem-gluten"],
+
+      "contextos": [
+        "tiramisu",
+        "sobremesas_cremosas",
+        "recheios_frios",
+        "cremes_aerados"
+      ],
+
+      "substituicoes": [
+        {
+          "id": "mascarpone_creme_cheese_nata",
+          "nome": "Cream Cheese com Nata",
+          "tipo": "preparacao",
+
+          "proporcao": {
+            "cream_cheese": "400g",
+            "nata_ou_creme_fresco": "100g"
+          },
+
+          "modo_preparo": "Bata até obter um creme liso e homogêneo. Deve ficar leve e aerado para sobremesas frias.",
+
+          "resultado_esperado": "Textura cremosa próxima ao mascarpone, ideal para tiramisu e sobremesas frias.",
+
+          "nivel_fidelidade": "alto",
+
+          "restricoes_atendidas": ["sem-lactose"],
+
+          "contextos_validos": [
+            "tiramisu",
+            "cremes_aerados",
+            "sobremesas_frias"
+          ]
+        },
+
+        {
+          "id": "mascarpone_ricota_cremosa",
+          "nome": "Ricota batida com creme",
+          "tipo": "preparacao",
+
+          "proporcao": {
+            "ricota": "300g",
+            "creme_de_leite": "150ml"
+          },
+
+          "modo_preparo": "Bata até ficar completamente lisa e sem grânulos.",
+
+          "resultado_esperado": "Mais leve, menos gorduroso, textura menos densa.",
+
+          "nivel_fidelidade": "medio",
+
+          "restricoes_atendidas": ["mais_leve"],
+
+          "contextos_validos": [
+            "recheios_frios",
+            "sobremesas_leves"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "vinho_marsala",
+      "nome": "Vinho Marsala",
+      "categoria": "alcool",
+
+      "restricoes": ["sem_alcool"],
+
+      "contextos": [
+        "tiramisu",
+        "sobremesas_classicas"
+      ],
+
+      "substituicoes": [
+        {
+          "id": "marsala_conhaque",
+          "nome": "Conhaque",
+          "tipo": "direto",
+          "ratio": "1:1",
+          "resultado_esperado": "Mantém aroma alcoólico semelhante com notas mais intensas",
+          "nivel_fidelidade": "alto"
+        },
+
+        {
+          "id": "marsala_omitido",
+          "nome": "Omitido",
+          "tipo": "remoção",
+          "resultado_esperado": "Versão sem álcool, levemente menos complexa no sabor",
+          "nivel_fidelidade": "medio"
+        }
+      ]
+    },
+
+    {
+      "id": "biscoito_champanhe",
+      "nome": "Biscoito Champanhe",
+      "categoria": "farinhas",
+
+      "restricoes": ["sem_gluten"],
+
+      "contextos": [
+        "tiramisu",
+        "sobremesas_em_camadas"
+      ],
+
+      "substituicoes": [
+        {
+          "id": "pao_de_lo_sem_gluten",
+          "nome": "Pão de ló sem glúten",
+          "tipo": "preparacao",
+
+          "proporcao": {
+            "farinha_arroz": "2 xícaras",
+            "amido_milho": "2/3 xícara",
+            "polvilho_doce": "1/3 xícara"
+          },
+
+          "adicional": "1 colher de chá de goma xantana",
+
+          "modo_preparo": "Asse massa leve e corte em tiras para absorver líquidos como café.",
+
+          "nivel_fidelidade": "alto"
+        }
+      ]
+    },
+    {
+  "schemaVersion": "1.0",
+  "description": "Motor de substituições culinárias contextualizado por restrição, ingrediente e tipo de preparação",
+  "ingredientes": [
+    {
+      "id": "farinha_de_arroz",
+      "nome": "Farinha de Arroz",
+      "categoria": "farinhas",
+      "restricoes": ["sem-gluten"],
+      "contextos": [
+        "paes_sem_gluten",
+        "massas_caseiras",
+        "bolos_funcionais"
+      ],
+      "substituicoes": []
+    },
+    {
+      "id": "polvilho_azedo",
+      "nome": "Polvilho Azedo",
+      "categoria": "amidos",
+      "restricoes": ["sem-gluten"],
+      "contextos": [
+        "paes_sem_gluten",
+        "pao_de_queijo",
+        "biscoitos_polvilho"
+      ],
+      "substituicoes": [
+        {
+          "id": "polvilho_azedo_polvilho_doce",
+          "nome": "Polvilho Doce",
+          "tipo": "direto",
+          "proporcao": {
+            "polvilho_doce": "100%"
+          },
+          "resultado_esperado": "Massa mais macia, compacta e menos aerada. Reduz a expansão no forno.",
+          "nivel_fidelidade": "alto",
+          "restricoes_atendidas": ["sem-gluten"],
+          "contextos_validos": [
+            "paes_sem_gluten",
+            "massas_caseiras"
+          ]
+        },
+        {
+          "id": "polvilho_azedo_amido_milho",
+          "nome": "Amido de Milho (Maizena)",
+          "tipo": "direto",
+          "proporcao": {
+            "amido_milho": "100%"
+          },
+          "resultado_esperado": "Estrutura mais leve e miolo denso, porém perde a elasticidade característica da mandioca.",
+          "nivel_fidelidade": "medio",
+          "restricoes_atendidas": ["sem-gluten"],
+          "contextos_validos": [
+            "paes_sem_gluten",
+            "bolos_funcionais"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psyllium",
+      "nome": "Psyllium em Pó",
+      "categoria": "fibras",
+      "restricoes": ["sem-gluten"],
+      "contextos": [
+        "paes_sem_gluten",
+        "substituto_gluten",
+        "estruturante_massas"
+      ],
+      "substituicoes": [
+        {
+          "id": "psyllium_goma_xantana",
+          "nome": "Goma Xantana",
+          "tipo": "direto",
+          "proporcao": {
+            "goma_xantana": "0.5 colher (chá)"
+          },
+          "nota_conversao": "Reduzir a proporção de 1 colher de sopa para 0.5 colher de chá devido à alta potência aglutinante.",
+          "resultado_esperado": "Garante a viscosidade e retenção de gases, mas a massa pode reter menos umidade a longo prazo.",
+          "nivel_fidelidade": "alto",
+          "restricoes_atendidas": ["sem-gluten"],
+          "contextos_validos": [
+            "paes_sem_gluten",
+            "estruturante_massas"
+          ]
+        },
+        {
+          "id": "psyllium_linhaca_gelatinada",
+          "nome": "Farinha de Linhaça Gelatinada",
+          "tipo": "preparacao",
+          "proporcao": {
+            "farinha_linhaca": "1 colher (sopa)",
+            "agua_morna": "3 colheres (sopa)"
+          },
+          "modo_preparo": "Misture a linhaça com a água morna e deixe descansar por 15 minutos até formar um gel espesso.",
+          "resultado_esperado": "Confere elasticidade e umidade, alterando levemente a cor e o sabor final com pontos escuros na massa.",
+          "nivel_fidelidade": "medio",
+          "restricoes_atendidas": ["sem-gluten"],
+          "contextos_validos": [
+            "paes_sem_gluten",
+            "bolos_funcionais"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azeite_oliva",
+      "nome": "Azeite de Oliva",
+      "categoria": "oleos",
+      "restricoes": ["sem-lactose", "vegano"],
+      "contextos": [
+        "paes_sem_gluten",
+        "confeitaria_funcional",
+        "massas_salgadas"
+      ],
+      "substituicoes": [
+        {
+          "id": "azeite_oleo_vegetal",
+          "nome": "Óleo Vegetal (Girassol, Milho ou Coco)",
+          "tipo": "direto",
+          "proporcao": {
+            "oleo_vegetal": "1 colher (sopa)"
+          },
+          "resultado_esperado": "Mantém a umidade e a maciez da gordura, entregando um sabor mais neutro na massa.",
+          "nivel_fidelidade": "alto",
+          "restricoes_atendidas": ["sem-lactose", "vegano"],
+          "contextos_validos": [
+            "paes_sem_gluten",
+            "confeitaria_funcional"
+          ]
+        },
+        {
+          "id": "azeite_manteiga_derretida",
+          "nome": "Manteiga Derretida",
+          "tipo": "direto",
+          "proporcao": {
+            "manteiga": "1 colher (sopa)"
+          },
+          "resultado_esperado": "Aumenta a maciez e confere sabor amanteigado, mas invalida restrições restritas de lactose/vegano.",
+          "nivel_fidelidade": "alto",
+          "restricoes_atendidas": [],
+          "contextos_validos": [
+            "paes_sem_gluten",
+            "massas_salgadas"
+          ]
+        }
+      ]
+    }
+  ]
+}

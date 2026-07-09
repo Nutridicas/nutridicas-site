@@ -1,0 +1,330 @@
+/* novo layout do dicas.html criado 22/04/2026 */
+
+body {
+     background-color: var(--bg-light);
+      font-family: 'Inter', sans-serif;
+ }
+ /* Garante que as variáveis existam */
+:root {
+    --primary: #2d5a27 !important;
+    --accent: #f2994a !important;
+    --bg-body: #f8faf8;
+    --white: #ffffff;
+}
+
+/*============
+Tipografia */
+#conteudo h2 {
+    font-family: 'Playfair Display', serif; /* Opcional: importe do Google Fonts */
+    font-size: 2.2rem;
+    color: #1a3318;
+}
+
+#conteudo p, #conteudo li {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+}
+
+
+/* Estilo para a área detalhada (Arroz Soltinho) */
+article#conteudo {
+    background: var(--white);
+    border-radius: 30px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 850px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.03);
+    border: 1px solid #eee;
+}
+
+#conteudo h2 {
+    color: var(--primary);
+    font-size: 1.8rem;
+    border-left: 5px solid var(--accent);
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+#conteudo ul {
+    list-style: none;
+    padding: 0;
+}
+
+#conteudo li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f9fbf9;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+#conteudo li:hover {
+    background: #f0f7f0;
+    transform: translateX(10px);
+}
+
+/* O GRID DE CARDS (Onde o renderizarCard atua) */
+#lista-dicas-completas {
+    display: grid !important;
+    /*grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;*/
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 24px !important;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+    align-items: start;
+    display: grid;
+}
+
+/* Container que organiza os cards */
+#lista-dicas {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    gap: 25px !important;
+    padding: 30px 0 !important;
+}
+
+/* O Card em si */
+
+.dica-item-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e0eadd !important;
+    border-radius: 20px !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-shadow: 0 4px 120px rgba(0,0,0,0.06) !important;
+    height: 100% !important;
+    transition: all 0.3s ease; /* 🔥 ESSENCIAL */
+    height: 100%;
+}
+    
+.dica-item-card:hover  {
+   transform: translateY(-8px);
+    border-color: #f2994a !important; /* Cor accent */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.dica-card-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.dica-card-item:hover {
+    transform: translateY(-8px);
+    border-color: #f2994a !important;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.10);
+}
+
+.badge-dica{
+    margin-bottom:12px;
+}
+
+/* Título e Tags */
+.dica-tag {
+    font-weight: 800 !important;
+    color: #2d5a27 !important;
+    text-transform: uppercase !important;
+    font-size: 0.75rem !important;
+}
+
+.dica-card-item h3{
+    margin:0 0 12px;
+    line-height:1.4;
+
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    overflow:hidden;
+
+    min-height:4.2em;   /* 3 linhas */
+}
+
+.dica-item-card h4 {
+    margin: 15px 0 10px 0 !important;
+    color: #333 !important;
+}
+
+/* O BOTÃO AZUL (O ponto principal) */
+.btn-detalhes {
+    display: block !important;
+    background-color: #0056b3 !important; /* Azul */
+    color: #ffffff !important;
+    padding: 12px 20px !important;
+    border-radius: 10px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin-top: auto; /* 🔥 GRUDA no fundo */
+    width: fit-content !important;
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.3) !important;
+}
+
+/* novo layout dicas.html - 24/04/2026 */
+
+.header-dica {
+  margin-bottom: 24px;
+}
+
+.header-dica h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.header-dica .subinfo {
+  font-size: 14px;
+  color: #777;
+}
+
+/* ajustar parte de baixo do dicas.html - 24/04/2026 */
+
+.dica-card-item p{
+    flex:1;
+    margin:0 0 20px;
+    line-height:1.6;
+}
+
+.btn-detalhes-dica,
+.btn-detalhes {
+     margin-top:auto;
+    align-self:flex-start;
+}
+
+.dica-card-item a {
+    margin-top: auto;
+}
+
+/* Responsivo 29/04/2026 */
+@media (max-width: 600px) {
+  .bloco-dica {
+    flex-direction: column;
+  }
+
+  .imagem-dica {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*  Exibir FAQ no dicas.html - inserida 05/05/2026 */
+.faq-container {
+  margin-top: 20px;
+}
+
+.faq-container h2 {
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+}
+
+.faq-pergunta {
+  width: 100%;
+  text-align: left;
+  padding: 18px;
+  font-size: 17px;
+  font-weight: 600; /* 🔥 destaque */
+  background: #f9fafb;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.faq-pergunta:hover {
+  background: #f1f5f9;
+}
+
+.faq-resposta {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-item.ativo .faq-resposta {
+  max-height: 200px;
+  padding: 0 16px 16px;
+}
+
+.faq-item.ativo .icone {
+  transform: rotate(45deg);
+}
+
+/* Estilizar busca de dicas específicas em dicas.html - inserida 23/05/2026 */
+
+/* Posicionamento do campo na listagem de dicas */
+.search-box-dicas {
+  position: relative;
+  max-width: 600px;
+  margin: 15px 0 25px 0; /* Alinhado à esquerda na seção */
+}
+
+#searchDicasInput {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 30px; /* Layout arredondado e moderno */
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+#searchDicasInput:focus {
+  border-color: #4CAF50; /* Verde nutri/cozinha */
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.15);
+}
+
+/* Dropdown de resultados suspensos */
+.search-results-dicas {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  z-index: 1100;
+  display: none;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.search-item-dica {
+  display: block;
+  padding: 14px 18px;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #f5f5f5;
+  transition: background 0.2s ease;
+}
+
+.search-item-dica:last-child {
+  border-bottom: none;
+}
+
+.search-item-dica:hover {
+  background-color: #f9fff9; /* Destaque sutil esverdeado */
+}
+
+.search-dica-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.search-dica-meta {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+

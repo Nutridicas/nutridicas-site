@@ -1,5 +1,5 @@
 // ===============================================
-// 🔎 BUSCA WORKER NUTRIDICAS - Criado 03/06/2026
+// 🔎 BUSCA WORKER NUTRIDICAS - Criado 03/06/2025
 // otimizado para grandes volumes
 // ===============================================
 

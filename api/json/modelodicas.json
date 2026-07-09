@@ -1,0 +1,114 @@
+{
+  "dicaSeq" : 1,
+  "categoria" : "refeicao",
+  "faixaEtaria" : [
+    "crianca" {
+     "alimentacao" : [
+        {
+          "cafeManha" : "coma frutas, sucos",
+          "sugestaoReceita" : "suco de limão",
+          "link": "frutas.html?slug=suco-limao" 
+        },
+        {
+          "almoco" : "coma arroz, feijao, carnes ou frango",
+          "sugestaoReceita" : "arroz refogado",
+          "link": "ingredientes.html?slug=arroz-refogado" 
+        },
+        {
+          "jantar" : "coma uma comida leve, frutas, iogurte",
+          "sugestaoReceita" : "arroz refogado",
+          "link": "ingredientes.html?slug=sopa-carne" 
+        }
+       ],
+      "exercioFisico" :  "corrida, caminhada, volei",
+      "sono" : "dormir de 8 a 12 horas por dia"
+      },
+      "adulto" {
+      "alimentacao" : [
+        {
+          "cafeManha" : "coma frutas, sucos",
+          "sugestaoReceita" : "suco de limão",
+          "link": "ingredientes.html?slug=suco-limao" 
+        },
+        {
+          "almoco" : "coma arroz, feijao, carnes ou frango",
+          "sugestaoReceita" : "arroz refogado",
+          "link": "ingredientes.html?slug=arroz-refogado" 
+        },
+        {
+          "jantar" : "coma uma comida leve, frutas, iogurte",
+          "sugestaoReceita" : "arroz refogado",
+          "link": "ingredientes.html?slug=sopa-carne" 
+        }
+       ],
+      "exercioFisico" :  "corrida, caminhada, volei",
+      "sono" : "dormir de 8 a 12 horas por dia",
+      "consumoCalorias" : "deve consumir até 2.000 por dia"
+      },
+      "idoso" {
+      "alimentacao" : [
+        {
+          "cafeManha" : "coma frutas, sucos",
+          "sugestaoReceita" : "suco-de-limão",
+          "link": "frutas.html?slug=sanduiche-limao",
+          "receitasSugeridas" : {
+          "link": "receitas.html?slug=suco-limao",
+          "link": "receitas.html?slug=sanduiche-saldavel" 
+         }
+        },
+        {
+          "almoco" : "coma arroz, feijao, carnes ou frango",
+          "sugestaoReceita" : "arroz refogado",
+          "receitasSugeridas" : {
+          "link": "receitas.html?slug=arroz-refogado",
+          "link": "receitas.html?slug=salda-verde",
+          "link": "receitas.html?slug=frango-molhopesto",
+           }
+        },
+        {
+          "jantar" : "coma uma comida leve, frutas, iogurte",
+          "sugestaoReceita" : "arroz refogado",
+          "link": "ingredientes.html?slug=sopa-carne" 
+        }
+       ],
+      "exercioFisico" :  "corrida, caminhada, volei",
+      "sono" : "dormir de 8 a 12 horas por dia",
+      "consumoCalorias" : "deve consumir até 2.000 por dia"
+      },
+  ],
+    "diretrizes_gerais": [
+    "Beba pelo menos 2 litros de água por dia para manter o corpo hidratado.",
+    "Monte um prato colorido: metade dele deve ser composto por vegetais.",
+    "Evite ultraprocessados e reduza o consumo de sal e açúcar refinado."
+  ],
+  "nutrientes": {
+    "vitaminas": [
+      {
+        "nome": "Vitamina C",
+        "funcao": "Fortalece o sistema imunológico e ajuda na absorção de ferro.",
+        "fontes_gerais": ["Frutas cítricas", "Brócolis", "Morango"]
+      },
+      {
+        "nome": "Vitamina A",
+        "funcao": "Essencial para a saúde dos olhos e renovação celular.",
+        "fontes_gerais": ["Cenoura", "Abóbora", "Espinafre"]
+      }
+    ],
+    "sais_minerais": [
+      {
+        "nome": "Ferro",
+        "funcao": "Previne anemia e transporta oxigênio no sangue.",
+        "fontes_gerais": ["Carnes vermelhas", "Leguminosas", "Vegetais escuros"]
+      },
+      {
+        "nome": "Cálcio",
+        "funcao": "Importante para a saúde dos ossos e dentes.",
+        "fontes_gerais": ["Laticínios", "Gergelim", "Couve"]
+      }
+    ]
+  },
+  "sugestoes_consumo": {
+    "frutas": "Consumir de 3 a 5 porções diárias, preferencialmente frescas e com casca.",
+    "legumes_verduras": "Garantir pelo menos duas porções generosas no almoço e no jantar."
+  }
+}

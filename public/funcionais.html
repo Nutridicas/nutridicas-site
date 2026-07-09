@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- 🔁 ALTERE APENAS ESTE TÍTULO -->
-  <title> Funcionais | Nutrichef Online</title>
+  <title> Funcionais | NutriDicas Online</title>
 
   <!-- Fonte -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -20,76 +20,87 @@
      HEADER (NÃO ALTERAR)
 ================================== -->
 <header class="header">
-  <div class="header-container ">
-    <p>🍴</p>
-    <a href="index.html" class="logo">Nutrichef Online</a>
-    <p style="color: white;"> 🌱  | </p>
 
-    <nav id="menu">
-      <ul class="menu-principal">
-        <li><a href="index.html" class="active">Inicial</a></li>
+    <!-- TOPO: LOGO + BUSCA -->
+    <div class="header-top">
+        <div class="logo-area">
+            <span class="icon">🍴</span>
+            <a href="index.html" class="logo">NutriDicas</a>
+            <span class="icon">🌱</span>
+        </div>
 
-        <!-- Receitas -->
+       <div class="search-box">
+         <input type="search" id="searchInput" placeholder="Buscar receita...">
 
-        <li class="has-mega">
-          <button class="submenu-btn">Receitas</button>
-          <ul class="mega-menu">
-            <li><a href="menu-zerolac.html">🥛 <span>Zero Lactose</span></a></li>
-            <li><a href="zero-acucar.html">🍬 <span>Zero Açúcar</span></a></li>
-            <li><a href="zero-gluten.html">🌾 <span>Zero Glúten</span></a></li>
-            <li><a href="funcionais.html">🍅 <span>Funcionais </span></a></li>
-            <li><a href="veganas.html"> 🥦 <span>Veganas </span></a></li>
-            <li><a href="veganas.html"> 🥚 <span>Sem Ovo </span></a></li>
-          </ul>
-        </li>
-
-        <!-- Produtos -->
+        <!-- Resultados -->
+        <div id="searchResults" class="search-results"></div>
         
-        <li class="has-mega">
-          <button class="submenu-btn">Produtos/Serviços</button>
-          <ul class="mega-menu">
-            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
-            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
-            <li><a href="assessoria.html">📚 Assessoria e Consultoria Nutricional</a></li>
-          </ul>
-        </li>
-
-        <!-- Nutrição -->
-
-       <li class="has-mega">
-          <button class="submenu-btn">Área da Nutrição</button>
-          <<ul class="mega-menu">
-            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
-            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
-            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
-            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
-          </ul>
-        </li>
-
-        <li class="has-mega">
-          <button class="submenu-btn">Colabore</button>
-          <<ul class="mega-menu">
-            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
-            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
-          </ul>
-        </li>
-
-      </ul>
-    </nav>
-
-   <!-- BUSCA -->
-    <div class="search-box">
-      <input type="search" id="searchInput" placeholder="Buscar receitas...">
+    </div>
     </div>
 
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+    <!-- MENU -->
+    <div class="header-menu">
 
-  </div>
-</header>
+      <nav id="menu">
+        <ul class="menu-principal">
+
+          <li><a href="index.html" class="active">Inicial</a></li>
+
+          <li class="has-mega">
+            <button class="submenu-btn">Receitas</button>
+            <ul class="mega-menu">
+              <li><a href="menu-tradicional.html">Receitas Tradicionais</a></li>
+              <li><a href="menu-zerolac.html">Zero Lactose</a></li>
+              <li><a href="menu-zero-gluçiten.html">Zero Glúten</a></li>
+               <li><a href="menu-Zero-acucar.html">Zero Açúcar</a></li>
+               <li><a href="menu-funcional.html">Funcionais</a></li>
+               <li><a href="menu-semovo.html">Sem ovo</a></li>
+               <li><a href="menu-vegano.html">Veganas</a></li>
+            </ul>
+          </li>
+
+          <li class="has-mega">
+            <button class="submenu-btn">Produtos</button>
+            <ul class="mega-menu">
+              <li><a href="ebooks.html">📚 Ebooks de Receitas</a></li>
+              <li><a href="produtos.html">📚 Dicas Nutricionais</a></li>
+            </ul>
+          </li>
+
+          <li class="has-mega">
+            <button class="submenu-btn">Aprenda Mais</button>
+            <ul class="mega-menu">
+              <li><a href="frutas.html">Frutas</a></li>
+              <li><a href="Legumes.html">Legumes e Verduras</a></li>
+              <li><a href="dicas.html">Dicas de Cozinha</a></li>
+              <li><a href="util-nutri.html">Utilidades</a></li>
+              <li><a href="">Legumes e Verduras</a></li>
+            </ul>
+          </li>
+
+          <li class="has-mega">
+            <button class="submenu-btn">Colabore</button>
+            <ul class="mega-menu">
+              <li><a href="opiniao.html">Dê sua opinião</a></li>
+              <li><a href="form-receita.html">Envie sa ua receita</a></li>
+            </ul>
+          </li>
+
+          <!-- Área do usuário -->
+          <li class="has-mega">
+            <button class="submenu-btn">Área do Usuário</button>
+            <ul class="mega-menu">
+              <li><a href="cadastro.html">Cadastre-se</a></li>
+              <li><a href="favoritos.html">❤️ Favoritos</a></li>
+              <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </header>
 
 <!-- ==================================
      HERO DA PÁGINA
@@ -160,7 +171,7 @@
 ================================== -->
 <footer class="footer">
   <div class="container">
-    <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+    <p>© 2026 NutriDicas Online · Todos os direitos reservados</p>
   </div>
 </footer>
 

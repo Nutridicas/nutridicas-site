@@ -1,0 +1,382 @@
+/* Arquivo criado para a estilzação do index.html - 27/05/2026 */
+
+/* Categoras para o index, abertura - inserida 12/04/2026 */
+.categorias{
+  padding: 40px 20px;
+}
+
+.categorias h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.categoria-atual {
+  font-size: 18px;
+  color: #666; /* Cor mais suave para destacar do h2 */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* GRID DE CATEGORIAS */
+.categorias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* todos alteraados 12/04/2026 para index.html */
+
+/* Garante que cada card seja um bloco isolado vertical */
+.categoria-card {
+  flex: 0 0 calc((100% - 40px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+  scroll-snap-align: start;
+  box-sizing: border-box;
+}
+
+/* IMAGEM */
+.categoria-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 20px;
+  transition: transform .3s ease;
+} 
+
+.categoria-card:active {
+  transform: scale(0.97);
+}
+
+/* Texto */
+/* Corrige o texto impedindo que ele suma ou embole */
+
+.categoria-card span {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+   position: relative;
+  overflow: hidden;
+}
+
+/* HOVER */
+.categoria-card:hover img {
+  transform: scale(1.05);
+}
+
+/* ✨ Hover bonito */ 
+  .categoria-card:hover { 
+   transform: scale(1.1); 
+}
+
+/* ============================ 
+carrosssel index.html 12/04/2026 
+------------------------------------*/
+/* Container que segura os cards */
+
+.carrossel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 70px; /* espaço pros botões */
+}
+
+.carrossel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 0 20px;
+  scrollbar-width: none;
+  align-items: stretch;
+  padding-right: 80px;
+}
+
+.carrossel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Bloco dos cards do carrossel */
+.card-index {
+  flex: 0 0 280px;
+  width: 280px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+  min-height: 340px;
+}
+
+.card-index-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 15px;
+}
+
+.card-index-body h3 {
+  height: 72px;
+  margin: 0 0 15px;
+  overflow: hidden;
+}
+
+.card-index-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Botões - inserida 12/04/2026 para carrossel no index.html */
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev {
+  left: 5px;
+}
+
+.next {
+  right: 5px;
+}
+
+.btn:disabled {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.btn-card{
+  border-radius: 10px;
+  background: blue;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+  cursor: pointer;
+  z-index: 10;
+  margin-top: auto;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.0rem;
+  transition: background 0.3s ease;
+}
+
+.btn-card:hover {
+  background: #256f46;
+}
+
+/* indicadores de bolinha - inserida 12/04/2026 */
+
+/* INDICADORES */
+.indicadores {
+  text-align: center;
+  margin-top: 10px;
+}
+  
+.indicadores span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.indicadores .ativo {
+  background: #333;
+}
+
+
+/* =====================
+   Card das receitas em destaque index.
+   iNSERIDA 08/03/2026 */
+
+.receitas-destaque{
+    padding:40px 20px;
+    background:#fafafa;
+    text-align:center;
+     max-width: 100%;
+}
+
+/* RECEITAS EM DESTAQUE (CARDS COM IMAGEM) Alterada 12/04/2026
+Alterada 27/05/2026 */
+
+.receitas-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:24px;
+  margin-top:30px;
+}
+
+/* Força o botão de favoritos a ficar fixo no canto superior direito do card */
+.card-receita {
+  position: relative; /* Mantém o botão ancorado aqui */
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  transition: .3s;
+}
+
+/* Remove a necessidade do pseudo-elemento anterior */
+.card-link::after {
+  display: none; 
+}
+
+.card-receita:hover{
+  transform:translateY(-5px);
+}
+
+/* Garante que o container da imagem não deixe a foto "vazar" ao crescer */
+.img-wrap {
+  position: relative;
+  overflow: hidden; 
+}
+
+/* Estado inicial da imagem com transição suave */
+.card-receita img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out; /* 👈 Controla a suavidade da animação */
+}
+
+/* ✨ Efeito de Zoom: Quando passar o mouse em QUALQUER LUGAR do card, a imagem cresce */
+.card-receita:hover img {
+  transform: scale(1.06); /* 👈 Aumenta a imagem levemente em 6% */
+}
+
+/* O botão precisa de um z-index alto para ficar visível e clicável sobre a imagem */
+.fav-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.15);
+  z-index: 10; /* Garante que ele fique acima de tudo */
+}
+
+.card-conteudo{
+  padding:18px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-conteudo h3{
+  font-size:18px;
+  margin-top:12px;
+  color:#222;
+}
+
+.tags{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.tag{
+  background:#f5f5f5;
+  padding:6px 12px;
+  border-radius:30px;
+  font-size:12px;
+}
+
+/* Garante que o link ocupe o espaço inteiro do card */
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+/* antigo iNSERIDA 08/03/2026 */
+.receita-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+}
+
+.receita-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Faz a foto da receita ficar perfeita */
+}
+
+.receita-card:hover {
+    transform: scale(1.02);
+}
+
+.receita-card h3 {
+    padding: 15px;
+    font-size: 1.1rem;
+    color: #444;
+    margin: 0;
+}
+
+/* PRODUTOS E EBOOKS (ESTILO LISTA LIMPA) */
+.produtos-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto-card {
+    background: #fff4f0; /* Tom pêssego suave */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 250px;
+    border: 1px dashed #ff7043;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+    .main-grid {
+        grid-template-columns: 1fr; /* Em celulares, fica tudo uma coluna só */
+    }
+}
+
+/* Ajuste para celulares (Exibe 1 card por vez para não esmagar) */
+
+@media (max-width: 768px) {
+  .categoria-card {
+    flex: 0 0 100%;
+  }
+}
+
+/*=======================
+   Naegação com teclado - inserida 10/03/2026
+===================*/
+
+.resultado-item.ativo{
+  background:#eee;
+}

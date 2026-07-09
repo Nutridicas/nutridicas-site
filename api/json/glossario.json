@@ -1,0 +1,53 @@
+{
+  "glossario_expandido": {
+    "farinha-de-aveia": {
+      "termo": "Farinha de Aveia",
+      "etimologia": "Do latim 'avena'.",
+      "resumo": "O cereal da resistência escocesa.",
+      "historia": "Diferente do trigo, a aveia era o grão dos povos do norte. Samuel Johnson, em seu dicionário de 1755, definiu aveia como 'um grão dado a cavalos na Inglaterra, mas que sustenta o povo na Escócia'. É o pilar das receitas fit por sua fibra beta-glucana.",
+      "categoria": "Grãos e Farinhas"
+    },
+    "farinha-de-amendoas": {
+      "termo": "Farinha de Amêndoas",
+      "etimologia": "Do árabe 'al-manda', que significa 'o dom precioso'.",
+      "historia": "Essencial na confeitaria conventual portuguesa e francesa (como nos Macarons). Na culinária funcional, resgata a tradição mediterrânea de usar gorduras boas para substituir a estrutura do amido de trigo.",
+      "categoria": "Grãos e Farinhas"
+    },
+    "psyllium": {
+      "termo": "Psyllium",
+      "etimologia": "Do grego 'psyllos' (pulga), devido ao tamanho minúsculo de suas sementes.",
+      "historia": "Extraído da casca da semente da *Plantago ovata*, é usado há milênios na medicina Ayurveda (Índia). Na panificação sem glúten, ele é o 'mago' que retém a umidade e cria a elasticidade que a falta do trigo retira.",
+      "categoria": "Fibras e Estruturantes"
+    },
+    "tahine": {
+      "termo": "Tahine",
+      "etimologia": "Do árabe 'tahina', derivado do verbo 'tahana' (moer).",
+      "historia": "A 'manteiga do Oriente Médio'. Registros de 4.000 anos indicam que o gergelim era cultivado para produzir este óleo/pasta real. É a base do Homus e um dos alimentos mais ricos em cálcio do planeta.",
+      "categoria": "Pastas e Gorduras"
+    },
+    "sovar": {
+      "termo": "Sovar",
+      "etimologia": "Do latim 'subigere' (domar, trabalhar com as mãos).",
+      "historia": "Mais que um esforço físico, sovar é o ato de alinhar as proteínas do glúten. Antigamente, era um trabalho comunitário onde se dizia que o 'calor das mãos' transferia a vida para o pão.",
+      "categoria": "Técnicas Manuais"
+    },
+    "deglassar": {
+      "termo": "Deglassar",
+      "etimologia": "Do francês 'déglacer'.",
+      "historia": "A técnica de recuperar os 'sucos' (fond) que grudam no fundo da panela após grelhar algo. É o segredo da alta gastronomia para criar molhos profundos, transformando o que parece queimado em puro sabor (umami).",
+      "categoria": "Técnicas de Cocção"
+    },
+    "infusao-e-cha": {
+      "termo": "Infusão vs. Chá",
+      "etimologia": "'Chá' vem do chinês 'chá'. 'Infusão' vem do latim 'infundere' (derramar sobre).",
+      "historia": "Tecnicamente, 'Chá' só existe se vier da planta *Camellia sinensis*. Tudo o mais (hortelã, camomila) é 'Infusão'. O chá mudou o mapa do mundo, sendo o motivo de guerras e da famosa Revolta do Chá em Boston.",
+      "categoria": "Bebidas e Extrações"
+    },
+    "plantas-uteis-panc": {
+      "termo": "Plantas Úteis e PANC",
+      "etimologia": "PANC é a sigla para Plantas Alimentícias Não Convencionais.",
+      "historia": "Resgata a sabedoria dos nossos avós e dos povos originários que sabiam que o 'mato' no quintal (como ora-pro-nóbis ou beldroega) era, na verdade, uma farmácia viva e um alimento riquíssimo.",
+      "categoria": "Botânica Alimentar"
+    }
+  }
+}

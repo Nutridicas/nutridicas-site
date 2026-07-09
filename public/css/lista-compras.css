@@ -1,0 +1,119 @@
+/* ===============================================================
+   ESTILIZAÇÃO DA LISTA SAAS E COMPONENTES PREMIUM
+   Arquivo lista-compra.html - criado 17/05/2026
+   ============================================================= */
+
+/* Container de ações que organiza os botões lado a lado */
+.acoes-saas {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  padding: 10px 0;
+}
+
+/* Botões Modernos e Minimalistas */
+.btn-premium {
+  background-color: #ffffff;
+  color: #1f2937;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Efeito Hover Geral */
+.btn-premium:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Customização de Cores para Botões de Destaque */
+#btnPDF {
+  background-color: #f0fdf4; /* Verde suave */
+  color: #166534;
+  border-color: #bbf7d0;
+}
+#btnPDF:hover {
+  background-color: #dcfce7;
+  border-color: #86efac;
+}
+
+#btnWhats {
+  background-color: #f0fdfa; /* Azul/Verde água suave */
+  color: #0f766e;
+  border-color: #99f6e4;
+}
+#btnWhats:hover {
+  background-color: #ccfbf1;
+  border-color: #5dd5c4;
+}
+
+#btnLimpar {
+  background-color: #fef2f2; /* Vermelho suave */
+  color: #991b1b;
+  border-color: #fee2e2;
+}
+#btnLimpar:hover {
+  background-color: #fee2e2;
+  border-color: #fca5a5;
+}
+
+/* Container do QR Code Oculto por padrão */
+.qr-code-box {
+  display: none; 
+  text-align: center;
+  margin: 25px auto 0 auto;
+  padding: 20px;
+  border: 2px dashed #2f8f83;
+  border-radius: 12px;
+  background-color: #fcfdfd;
+  max-width: 240px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  font-family: sans-serif;
+  animation: escorregarParaBaixo 0.3s ease-out;
+}
+
+.qr-code-box h4 {
+  margin: 0 0 12px 0;
+  color: #2f8f83;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.qr-code-box p {
+  font-size: 11px;
+  color: #6b7280;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+#canvasQR {
+  background: white;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Animação de surgimento suave */
+@keyframes escorregarParaBaixo {
+  from { transform: translateY(-10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Oculta os botões e o QR Code na folha de impressão real */
+@media print {
+  .acoes-saas, .qr-code-box, .progresso, #contador {
+    display: none !important;
+  }
+}

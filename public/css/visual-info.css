@@ -1,0 +1,168 @@
+/* novo visual 28/04/2026 */
+.info-receita {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #222;
+}
+
+/* GRID DE INFORMAÇÕES */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-item span {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #777;
+}
+
+.info-item p {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.info-item strong {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* TEMPO DE PREPARO CARD PRINCIPAL - Alterado 15/06/2026 */
+.card-tempo {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.06);
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+/* TÍTULO */
+.card-tempo .label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #ff6b57, #ff4d3d);
+    color: white;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 10px 18px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(255, 77, 61, .25);
+}
+
+/* LINHAS */
+.tempo-linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    background: #f8fafc;
+    border: 1px solid #edf2f7;
+    border-radius: 12px;
+    transition: all .2s ease;
+}
+
+.tempo-linha:hover {
+    background: #f1f5f9;
+    transform: translateX(4px);
+}
+
+.tempo-linha span {
+    color: #475569;
+    font-weight: 500;
+}
+
+.tempo-linha strong {
+    color: #0f172a;
+    font-weight: 700;
+}
+
+/* REMOVE AS LINHAS DE ESPAÇO */
+.linha-espaco {
+    display: none;
+}
+
+/* TOTAL */
+.tempo-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    padding: 18px;
+    background: linear-gradient(
+        135deg,
+        #ecfdf5,
+        #f0fdf4
+    );
+    border: 1px solid #bbf7d0;
+    border-radius: 14px;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.tempo-total span {
+    color: #166534;
+}
+
+.tempo-linha strong {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: .9rem;
+}
+
+.linha-espaco {
+  height: 15px; /* Altura do espaço em branco */
+  margin-top: 8px;
+  background-color:  #f8f9fa; ; /* Cor de fundo branca */
+  border-bottom: 1px solid #e0e0e0; /* Opcional: linha fina estilo planilha */
+ border-bottom: 1px solid #e2e8f0; 
+}
+
+/* Tentar deixar o texto "tempo preparo" efeito pendurado
+   em receita.html - 13/05/2026 
+
+.card-tempo {
+   width: 100%;
+  max-width: 650px;
+  min-height: 170px;
+  border: 3px solid #333;
+  padding: 20px;
+  position: relative;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.label {
+  position: absolute;
+  top: -14px;
+  left: 20px;
+  background: linear-gradient(135deg, #ff6b6b, #e74c3c); 
+  color: black;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  border: 2px solid white; 
+}*/

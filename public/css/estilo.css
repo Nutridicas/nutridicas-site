@@ -1,6 +1,7 @@
 /* ==============================
    RESET E BASE
 ================================ */
+@import url('https://googleapis.com');
 
 * {
   margin: 0;
@@ -9,7 +10,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family:  'Inter', sans-serif;
   background-color: #fafafa;
   color: #333;
   line-height: 1.6;
@@ -20,6 +21,13 @@ body {
   --verde-claro: #e6f4ed;
   --texto-escuro: #333;
   --texto-claro: #666;
+  --azul-principal: #007bff;
+  --azul-fundo: #f0f7ff;
+  --texto-cor: #2c3e50;
+  --texto-suave: #64748b;
+  --primary-color: #2563eb;
+  --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --transition: all 0.3s ease;
 }
 
 img {
@@ -31,6 +39,17 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+section {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+/* Seções 20/04/2026 */
+
+section {
+  margin-bottom: 30px;
 }
 
 /* ==============================
@@ -46,24 +65,31 @@ a {
    HERO
 ================================ */
 .hero {
-  background: linear-gradient(135deg, #e8f5ee, #ffffff);
+  background: white; /*linear-gradient(135deg, #e8f5ee, #ffffff);*/
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   gap: 3rem;
 }
 
+.hero-text {
+  align-items: center;
+  margin: 0;
+}
+
 .hero-text h1 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #2e8b57;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
 }
 
 .hero-text p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
   color: #555;
 }
@@ -82,6 +108,115 @@ a {
   background: #256f46;
 }
 
+/*===============
+  Hero para index.html para exibir "bem-vindo"
+  Criado 17/06/2026 */
+
+.hero-welcome {
+  background-color: #fafbfa; /* Fundo off-white com toque verde sutil */
+  padding: 80px 24px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow: hidden;
+}
+
+.hero-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px; /* Espaço elegante entre texto e imagem */
+}
+
+.hero-content {
+  flex: 1.1; /* Texto ganha um pouco mais de peso visual */
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  color: #163e32; /* Verde floresta fechado e elegante */
+  font-size: 2.8rem;
+  line-height: 1.25;
+  font-weight: 500;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.hero-lead {
+  color: #55625c;
+  font-size: 1.15rem;
+  line-height: 1.65;
+  margin-bottom: 40px;
+}
+
+/* Indicador sutil para o usuário rolar a página até o carrossel */
+.hero-action {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Seta */
+.scroll-invite {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #8fa89b;
+  font-weight: 500;
+}
+
+.arrow-down {
+  color: #163e32;
+  font-size: 1.2rem;
+  animation: bounce 2s infinite; /* Pequena animação elegante de pulso */
+}
+
+.hero-display {
+  flex: 0.9;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-display img {
+  width: 100%;
+  max-width: 480px;
+  height: 520px; /* Imagem verticalizada e imponente */
+  object-fit: cover; 
+  position: relative;
+  margin: 0 auto;
+  border-radius: 40px 4px 40px 4px; /* Corte moderno assimétrico nas bordas */
+  box-shadow: 0 30px 60px rgba(22, 62, 50, 0.06); /* Sombra leve com tom esverdeado */
+}
+
+/* Animação suave da setinha */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-6px); }
+  60% { transform: translateY(-3px); }
+}
+
+/* Responsivo para Tablets e Celulares */
+@media (max-width: 992px) {
+  .hero-wrapper {
+    flex-direction: column-reverse; /* Imagem passa para cima no mobile */
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  
+  .hero-display img {
+    height: 350px;
+    max-width: 100%;
+    border-radius: 24px; /* Bordas normais no mobile para melhor encaixe */
+  }
+  
+  .hero-action {
+    align-items: center;
+  }
+}
+
 /*===============================================*/ 
 /*Deixar os botões lado a lado na fale com a nutri */
 
@@ -89,16 +224,20 @@ a {
   display: flex;       /* Ativa o alinhamento lado a lado */
   gap: 15px;          /* Cria o espaço entre os botões */
   align-items: center; /* Alinha os botões verticalmente */
-  /* justify-content: center; */ /* Descomente esta linha se quiser centralizar os dois na tela */
+  /* justify-content: center; Descomente esta linha se quiser centralizar os dois na tela */
 }
 
 /* ==============================
-   MAIN GRID
+   MAIN GRID - alterado 27/05/2026
 ================================ */
 .main-grid {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 2.5rem;
+   max-width: 1050px; /* antes 1200 */
+   margin: 0 auto;
+   padding: 30px 16px;
+   background-color: #ffffff;
+   display: block;
+   border-radius: 18px;
+   box-shadow: 0 4px 20px rgba(0,0,0,0.04);
 }
 
 /* ==============================
@@ -119,6 +258,17 @@ a {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* TÍTULOS */
+h2 {
+    font-size: 1.6rem;
+    color: #2a7d72;
+    margin: 30px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    border-left: 5px solid #ff7043;
+    padding-left: 15px;
+    text-align: left; /* Garante que não fique centralizado estranho */
+}
+
 /* ==============================
    AJUSTE DE IMAGENS DOS CARDS
 ================================ */
@@ -129,7 +279,6 @@ a {
   border-radius: 12px 12px 0 0;
   margin-top: 20px;
 }
-
 
 .card:hover {
   transform: translateY(-5px);
@@ -167,12 +316,19 @@ a {
 }
 
 /* ==============================
-   SIDEBAR
+   SIDEBAR - Atualizado 20/04/2026
 ================================ */
-.sidebar {
+.sidebar-blog {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 20px;
+}
+
+.card-sidebar {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
 .box {
@@ -185,6 +341,7 @@ a {
 .box h3 {
   font-size: 1rem;
   margin-bottom: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .box p {
@@ -226,21 +383,6 @@ a {
 /* ==============================
    RESPONSIVO
 ================================ */
-@media (max-width: 900px) {
-
-  .hero-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .hero-image {
-    order: -1;
-  }
-
-  .main-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 
 /* ===== FALE COM A NUTRI ===== */
@@ -260,7 +402,6 @@ a {
 .nutri__header h2 {
   margin-bottom: 10px;
 }
-
 
 /* ===== CONTEÚDO PRINCIPAL ===== */
 .nutri__conteudo {
@@ -342,31 +483,6 @@ a {
   background: #267a70;
 }
 
-
-/* ===== MOBILE ===== */
-@media (max-width: 768px) {
-  .nutri__conteudo {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* No Celular: remove o efeito para não atrapalhar a leitura */
-@media (max-width: 768px) {
-    .nutri__conteudo {
-        grid-template-columns: 1fr;
-    }
-    
-    .nutri__mascote {
-        position: static;
-        text-align: center;
-    }
-    
-    .nutri__mascote img {
-        max-width: 200px; /* Mascote menor no celular */
-    }
-}
-
-
 /* Para área de perguntas respondidas Fale com a nutri*/
 /* ===== PERGUNTAS RESPONDIDAS ===== */
 
@@ -417,7 +533,6 @@ a {
   color: #333;
   margin-top: 20px;
 }
-
 
 .consulta-feedback ul {
   margin-top: 10px;
@@ -532,7 +647,6 @@ textarea:invalid {
   gap: 6px;
 }
 
-
 /* deixar escolja em linha */
 .field-linha {
   display: flex;          /* coloca os itens em linha */
@@ -554,17 +668,50 @@ label {
 }
 
 /*=========================================
-páginas das receitas
+páginas das receitas - receita.html
 ==========================================*/
 .receita-header {
   margin-bottom: 20px;
 }
 
 .receita-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
 }
+
+/* Para index.html
+Para fazer o card dos destaques  - 11/04/2026 */
+/* O Card controla o conteúdo interno (imagem em cima, texto embaixo) */
+.receita-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden; /* Corta a imagem nas bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; /* FORÇA O TÍTULO PARA BAIXO DA IMAGEM */
+    transition: transform 0.3s ease;
+}
+
+.receita-card:hover {
+    transform: translateY(-10px);
+}
+
+.receita-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover; /* Mantém a proporção da foto sem esticar */
+}
+.receita-card h3 {
+    padding: 15px;
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+    background: #fff;
+}
+/* Final */
 
 .receita-imagem img {
   width: 100%;
@@ -574,34 +721,6 @@ páginas das receitas
 .receita-ingredientes ul,
 .receita-preparo ol {
   padding-left: 20px;
-}
-
-@media (max-width: 768px) {
-  .receita-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Para os accordions */
-.receita-info {
-  margin-top: 40px;
-}
-
-.accordion details {
-  background: #f9f9f9;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  padding: 12px 16px;
-}
-
-.accordion summary {
-  cursor: pointer;
-  font-weight: 600;
-  list-style: none;
-}
-
-.accordion summary::-webkit-details-marker {
-  display: none;
 }
 
 .tabela-nutricional {
@@ -617,10 +736,80 @@ páginas das receitas
   text-align: left;
 }
 
-/* Para o template das receitas */
-.receita {
-  max-width: 900px;
-  margin: auto;
+/* ===============
+Todas as seções da receita respeitam a mesma largura 
+Inserida - 20/04/2026  Modificada - 25/04/2026 
+receita.html */
+
+ .page-content {
+   max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Centraliza só o que precisa */
+#titulo,
+#meta {
+   text-align: center;
+}
+
+/* para mudar layout receita.html 25/04/2026 */
+#titulo {
+    font-size: 2.5rem;
+    color: #2d3436;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+#meta {
+    color: #636e72;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+/* Grida para melhorar o layout da página de receitas.html 
+Inserida - 20/04/2026 */
+
+/* Mudanças feitas 25/04/2026 */
+/* Cabeçalho da Seção */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 15px;
+}
+
+.header-section h2 {
+    font-size: 1.5rem;
+    color: #2d3436;
+    display: flex;
+    /*align-items: center;*/
+    gap: 10px;
+}
+
+.receita__imagem {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 20px; /* Bordas arredondadas modernas */
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.layout-receita {
+   max-width: 800px; /* Largura ideal para leitura */
+   margin: 40px auto; /* Centraliza na página */
+   padding: 0 10px;
+   font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.section-receita {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+ box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Sombra suave e moderna */
 }
 
 .receita-principal {
@@ -633,165 +822,105 @@ páginas das receitas
   margin-top: 40px;
 }
 
+.badge-count {
+    background: #e8f0fe;
+    color: #1a73e8;
+    padding: 4px 6px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+   margin-left: auto; /* 👈 empurra para a direita */
+}
+
+/* Lista de Ingredientes */
+.lista-check {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.lista-check li {
+    padding: 12px 0;
+    border-bottom: 1px solid #fafafa;
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+    transition: 0.2s;
+}
+
+/* Ações/Botões */
+.acoes-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide em duas colunas */
+    gap: 12px;
+}
+
+/* ===== RESPONSIVO GERAL 25/04/2026 ===== */
+
+/* Tablets e dispositivos médios (até 900px) */
+@media (max-width: 900px) {
+    .hero-grid { 
+        grid-template-columns: 1fr; 
+        text-align: center; 
+    }
+    .hero-image { 
+        order: -1; 
+    }
+    .main-grid,
+    .layout-receita { 
+        grid-template-columns: 1fr; 
+    }
+}
+
+/* Celulares e Tablets (até 768px) */
+@media (max-width: 768px) {
+    .receita-principal,
+    .nutri__conteudo,
+    .receita-grid { 
+        grid-template-columns: 1fr; 
+    }
+
+    .nutri__mascote { 
+        position: static; 
+        text-align: center; 
+    }
+    .nutri__mascote img { 
+        max-width: 200px; 
+    }
+}
+
+/* Celulares Pequenos (até 600px) */
+@media (max-width: 600px) {
+    .acoes-lista { 
+        grid-template-columns: 1fr; 
+    }
+    .btn-azul { 
+        grid-column: span 1; 
+    }
+}
+
+/* ================/=============
+Accordions de receita.html */
+
+ .receita-info {
+  margin-top: 40px;
+}
+
 .accordion details {
-  background: #f8f8f8;
+  background: #f8f8f8; /*#f9f9f9;*/
   border-radius: 8px;
   margin-bottom: 12px;
-  padding: 14px;
+  padding: 12px 16px;
 }
 
 .accordion summary {
-  font-weight: 600;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .receita-principal {
-    grid-template-columns: 1fr;
-  }
-}
-
-/*===================================
-Bloqueio de acesso ao conteudo dos accordions
-=============================================*/
-
-
-.btn-premium {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1.4rem;
-  background: #2e8b57;
-  color: #fff;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-/*=================*/
-/* Accordion base */
-.accordion {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-}
-
-.accordion summary {
-  padding: 14px 18px;
   cursor: pointer;
   font-weight: 600;
+  list-style: none;
 }
 
-
-/*===================
-Para as redes sociais
-======================*/
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 12px;
-}
-
-.social-links a {
-  padding: 8px 14px;
-  border-radius: 20px;
-  background: #e6f4ed;
-  color: #2e8b57;
-  font-size: 14px;
-}
-
-/* ======================
-   Criar carrosel estilo netflix
-   ==============================*/
-
-.netflix-section {
-  margin-top: 50px;
-}
-
-.netflix-title {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin: 25px 0 10px;
-}
-
-.carousel {
-  display: flex;
-  gap: 15px;
-  overflow-x: auto;
-  padding-bottom: 10px;
-  scroll-snap-type: x mandatory;
-}
-
-.carousel::-webkit-scrollbar {
-  height: 8px;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.2);
-  border-radius: 10px;
-}
-
-.recipe-card {
-  min-width: 200px;
-  background: white;
-  border-radius: 18px;
-  overflow: hidden;
-  scroll-snap-align: start;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  position: relative;
-  transition: transform 0.25s ease;
-}
-
-.recipe-card:hover {
-  transform: translateY(-6px);
-}
-
-.recipe-card img {
-  width: 100%;
-  height: 140px;  
-  object-fit: cover;
-}
-
-.recipe-info {
-  padding: 12px;
-}
-
-.recipe-info h3 {
-  font-size: 1rem;
-  margin: 0 0 6px;
-}
-
-/* Tags  Atualizada 27/02/2026 */
-.tags {
-  margin-top: auto;
-}
-
-.tag {
-  font-size: 12px;
-  background: #e6f4ea;
-  color: #2e7d32;
-  padding: 4px 8px;
-  border-radius: 20px;
-  margin-right: 6px;
-}
-
-/* Favorito ❤️  Atualizxada 27/02/2026*/
-.fav-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  border: none;
-  background: #fff;
-  border-radius: 50%;
-  padding: 6px 8px;
-  cursor: pointer;
-  font-size: 14px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.fav-btn.active {
-  color: red;
+.accordion summary::-webkit-details-marker {
+  display: none;
 }
 
 /*==================
@@ -855,9 +984,48 @@ mark {
  font-weight: bold; 
 }
 
-/*==============================
+/*============================== */
+/*bloco da busca miniaturas das imagens das receitas na caixa de resultados-grid
+criado em 29/05/2026 */
+.search-item{
+display:flex;
+align-items:center;
+gap:12px;
 
-=================================*/
+padding:12px 14px;
+
+cursor:pointer;
+transition:.2s;
+border-bottom:1px solid #f1f1f1;
+}
+
+.search-item:hover{
+background:#f8f8f8;
+}
+
+.search-thumb{
+width:60px;
+height:60px;
+object-fit:cover;
+border-radius:12px;
+flex-shrink:0;
+}
+
+.search-info{
+flex:1;
+}
+
+.search-info strong{
+display:block;
+font-size:15px;
+margin-bottom:4px;
+}
+
+.search-info small{
+color:#777;
+font-size:13px;
+}
+/*=================================*/
 
 .item-lista {
   display: flex;
@@ -884,49 +1052,80 @@ mark {
   font-size: 16px;
 }
 
-/*  ==========================
-Modal para enviar mensagens 
-===============================*/
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
+/*==============================
+Hero da receita.html - Criada 20/04/2026 
+*/
+
+.receita-hero {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.receita-hero img {
   width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
+  height: 380px;
+  object-fit: cover;
 }
 
-.modal.hidden {
-  display: none;
-}
-
-.modal-box {
-  background: white;
-  padding: 25px;
-  border-radius: 18px;
-  max-width: 350px;
-  text-align: center;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}
-
-.modal-box h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: #2a7d4f;
-}
-
-.modal-box button {
-  margin-top: 15px;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 12px;
-  background: #2a7d4f;
+.receita-hero h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
   color: white;
-  cursor: pointer;
+  font-size: 2rem;
+  background: rgba(0,0,0,0.4);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+/* fim do hero */
+
+/*MediumSeaGreen; /*
+
+/* Cards modernos receita.html - inserida 20/04/2026 */
+
+.card-bloco {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+  margin-bottom: 25px;
+}
+
+/* Cards e Ingredientes com UX moderno - inserida 20/04/2026 */
+.lista-check li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.lista-check li:hover {
+  background: #f9f9f9;
+}
+
+/*. Caixa de informações (topo estilo app) - 20/04/2026 */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+.stat-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/*Sidebar fixa (efeito profissional) 20/04/2026 */
+.col-lateral {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
 }
 
 /* Para a página de busca 12/02/26
@@ -992,12 +1191,16 @@ Modal para enviar mensagens
   object-fit: cover;
 }
 
-/* Para a lista de compras - lsita-compras.html 20/02/26*/
+
+/* responsivo  - 20/04/2026*/
 .lista-saas {
   max-width: 800px;
   margin: auto;
   padding: 30px;
 }
+/* fim do responsivo */
+
+/* Para a lista de compras - lsita-compras.html 20/02/26*/
 
 .topo-saas {
   background: linear-gradient(135deg,#ff3d00,#ff9100);
@@ -1080,7 +1283,7 @@ Modal para enviar mensagens
 }
 
 /*=======================
-/* Card padronizado (resolve o problema de tamanhos diferentes)*/
+/* Card padronizado (resolve o problema de tamanhos diferentes) index
 /* 27/02/2026 - 16h11min */
 
 /* Card */
@@ -1128,139 +1331,6 @@ Modal para enviar mensagens
   overflow: hidden;
 }
 
-/* Meta (tempo e porções) */
-/* 27/02/2026 */
-.meta {
-  font-size: 13px;
-  color: #666;
-  margin-top: auto;
-}
-
-#caixatempo {
-  background-color: #91df98; /*#50d84everde bem claro*/
-  border: 3px solid; /* Uma borda normal */
-  
-  /* Use padding para dar espaço entre o texto e a borda */
-  padding: 20px; 
-  
-  /* Remova o height fixo para a caixa crescer com o texto */
-  width: auto; 
-  max-width: 500px; /* Limita a largura máxima */
-  
-  /* Garante que o texto não quebre de forma estranha */
-  overflow: hidden; 
-  border-radius: 28px;
-}
-
-
-/* ==============================
-   Aparecer eceitas relacionadas ao final da página e as imagens lado a lado
-   Bloco inserido em 28/02/2026
-   =============================*/
-
-#receitasRelacionadas {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-#receitasRelacionadas li {
-  /* text-align: center;  -- pode manter, mas a centralização do link já resolve */
-}
-
-/* NOVO: para fazer link ser bloco e empilhar imagem + texto */
-#receitasRelacionadas li a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-}
-
-#receitasRelacionadas img {
-  width: 100%;
-  max-width: 180px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 25px;
-}
-
-/*Mobile celular*/
-@media (max-width: 768px) {
-  #receitasRelacionadas {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* pequeno */
-@media (max-width: 480px) {
-  #receitasRelacionadas {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* efeito hover */
-#receitasRelacionadas li {
-  transition: transform 0.2s ease;
-}
-
-#receitasRelacionadas li:hover {
-  transform: translateY(-5px);
-}
-
-/*=============================
-Para gerar tooltips na receita.html - 04/03/2026
-==============================*/
-
-.tooltip {
-  position: relative;
-  cursor: pointer;
-  color: #0066cc;
-  text-decoration: underline;
-}
-
-.tooltip::after {
-  content: attr(data-title);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 125%; /* acima do texto */
-  background-color: #333;
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 6px;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s, bottom 0.3s;
-  z-index: 1000;
-  font-size: 14px;
-}
-
-.tooltip::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 115%; /* seta da tooltip */
-  border-width: 6px;
-  border-style: solid;
-  border-color: #333 transparent transparent transparent;
-  opacity: 0;
-  transition: opacity 0.3s, bottom 0.3s;
-  pointer-events: none;
-  z-index: 1000;
-}
-
-.tooltip:hover::after,
-.tooltip:hover::before {
-  opacity: 1;
-  bottom: 135%;
-}
-
 /*=================
   Busca, destacar termo
   ================*/
@@ -1270,26 +1340,66 @@ Para gerar tooltips na receita.html - 04/03/2026
   border-radius: 3px;
 }
 
-/*===============
-// PAra o dasboard - inserida 06/03/2026
-*/
+/* para dica destaque em receita.html - inserida 15/04/2026 */
 
-.status{
-margin-left:10px;
-font-size:12px;
-padding:3px 6px;
-border-radius:6px;
+.dica-essencial {
+  border: 2px solid #f1c40f;
+  background: #fff9e6;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
+/* =========================================
+   WRAPPER PROFISSIONAL DA PÁGINA DE RECEITA
+   - inserida 20/04/2026
+========================================= */
 
-.status-publicado{
-background:#c9f7d1;
-padding:3px 6px;
-border-radius:6px;
+.page-wrap {
+  width: 100%;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
 }
 
-.status-rascunho{
-background:#ffe6a7;
-padding:3px 6px;
-border-radius:6px;
+/* Card para o tempo do preparo - 20/04/2026 */
+.col-lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-lateral {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.tempo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.tempo-item.total {
+  font-weight: bold;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}
+
+.footer-receita {
+  display: flex;
+  justify-content: space-between; /* separa os dois lados */
+  align-items: center; /* alinha verticalmente */
+  gap: 20px; /* espaço entre eles */
+  flex-wrap: wrap; /* quebra em telas pequenas */
+}
+
+.autor-info {
+  flex: 1;
+}
+
+.avaliacao-container {
+  flex-shrink: 0; /* impede que a avaliação encolha */
 }

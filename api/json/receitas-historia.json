@@ -1,0 +1,771 @@
+{
+  "mousse-chocolate-fit": {
+    "historiaBase": "mousse",
+    "etimologia": "Do francês <em>'mousse'</em>, que significa literalmente <strong>'espuma'</strong>. O termo descreve a estrutura instável e leve criada por bolhas de ar presas em uma base líquida.",
+    "personagemChave": "Henri Toulouse-Lautrec, pintor pós-impressionista que, além de frequentar o Moulin Rouge, era um cozinheiro entusiasta e criou a 'mayonnaise de chocolat'.",
+    "contextoGeopolitico": "A ascensão da culinária clássica francesa no século XVIII, onde a técnica de aerar alimentos passou a ser sinal de sofisticação nas cortes europeias.",
+    "evolucaoTecnica": "A transição das claras batidas manualmente com batedores de galhos de árvore para a utilização de bases funcionais como aquafaba e batedeiras elétricas de alta precisão.",
+    "origem": "Surgiu na França no século XVIII.",
+    "curiosidade": "Originalmente salgada, hoje as versões fit utilizam gorduras boas (abacate ou coco) para replicar a cremosidade sem o uso de natas animais.",
+    "historia": [
+      "No início, era uma técnica de textura para carnes e vegetais.",
+      "<em>Toulouse-Lautrec</em>, artista francês revolucionou ao introduzir o chocolate, elevando o prato ao status de sobremesa icônica.",
+      "ele chamou a sua criação originalmente de <em>'Mayonnaise de Chocolat'</em>. O nome <em>'mousse'</em> só se tornou popular décadas depois.",
+      "Como era um artista, gostava de ver a arte da culinária com a mesma liberdade criativa que via na pintura, por isso, o usou elementos improváveis para criar algo sensorial.",
+      "A versão fit contemporânea cria a oportunidade de experimentar o doce para diabéticos e alérgicos à lactose."
+    ],
+    "imagemReceita": "mousse-tela.jpg",
+    "credito" : "Fonte:",
+    "end" : ""
+  },
+  "pave-de-morango-funcional-zerotriplo": {
+    "historiaBase": "pave",
+    "etimologia": "Do francês 'pavé', que significa pavimentação ou paralelepípedo. Refere-se à montagem que lembra o calçamento de pedras de ruas antigas.",
+    "personagemChave": "As donas de casa brasileiras do século XX, que adaptaram técnicas de charlottes francesas para os ingredientes disponíveis no Brasil.",
+    "contextoGeopolitico": "A urbanização do Brasil e o surgimento das geladeiras domésticas, que permitiram a popularização de sobremesas geladas e em camadas.",
+    "evolucaoTecnica": "A substituição do biscoito de champagne industrializado por versões sem glúten e do açúcar refinado por reduções de frutas ou adoçantes naturais.",
+    "origem": "Brasil, meados do século XX.",
+    "curiosidade": "É a sobremesa mais presente no humor brasileiro (a piada do 'pave ou pra comê'), mas tecnicamente é um 'trifle' adaptado aos trópicos.",
+    "historia": [
+      "Surgiu da necessidade de uma sobremesa que rendesse para famílias grandes e fosse servida gelada.",
+      "A versão funcional 'Zero Triplo' surgiu na última década com o boom da nutrição integrativa.",
+      "O morango foi introduzido como o contraste ácido perfeito para os cremes doces."
+    ],
+    "imagemReceita": "pave_morango_funcional.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "biscoito-de-banana-e-aveia-sem-gluten": {
+    "historiaBase": "biscoito",
+    "etimologia": "O termo  <strong>'aveia'</strong> vem do latim 'avena', enquanto 'banana' tem origem provável nas línguas da África Ocidental (Wolof), significando 'dedo'.",
+    "personagemChave": "Agricultores escoceses, que elevaram a aveia de alimento para gado a pilar da nutrição humana.",
+    "contextoGeopolitico": "A resistência da aveia ao clima frio da Escócia fez dela a principal fonte de energia durante as guerras de independência no século XIV.",
+    "evolucaoTecnica": "A descoberta de que a pectina da banana madura pode substituir a função estrutural do ovo e do glúten na panificação natural.",
+    "origem": "O biscoito foi Inspirado nas 'oatcakes', literalmente, 'bolos de aveia' escocesas medievais.",
+    "curiosidade": "Não precisa de farinha; a própria aveia moída e a banana criam uma estrutura de 'cozimento lento' que preserva fibras.",
+    "historia": [
+      "A aveia era usada como o lanche de soldados por não mofar facilmente.",
+      "A banana entrou na receita quando o Brasil se tornou um grande exportador mundial no século XX.",
+      "Hoje é o padrão ouro do 'snack pré-treino' por sua liberação lenta de energia e a banana por ser riva em potássio."
+    ],
+    "imagemReceita": "historia-biscoito.jpg",
+    "credito": "Fonte: AprendinoSenac. A linha do tempo do biscoito",
+      "end": "https://aprendinosenac.com.br/a-linha-do-tempo-do-biscoito/"
+  },
+  "pao-frances-funcional": {
+    "historiaBase": "pao",
+    "etimologia": "No Brasil, o nome <strong>'francês'</strong> foi dado para diferenciar o pão de farinha branca refinada dos pães rústicos e escuros disponíveis anteriormente.",
+    "personagemChave": "A elite cafeeira brasileira da Belle Époque, que trazia de Paris o desejo por uma crosta dourada e miolo alvo.",
+    "contextoGeopolitico": "O início do século XX no Brasil, marcado pela tentativa de 'europeizar' os costumes das grandes cidades como Rio de Janeiro e São Paulo.",
+    "evolucaoTecnica": "A inclusão de fibras e farinhas de baixo índice glicêmico para transformar um carboidrato simples em um alimento de absorção lenta.",
+    "origem": "Os padeiros no Brasil, inspirado na <em>'baguette'</em> e no <em>'pain de campagne'</em> da França.",
+    "curiosidade": "O pão francês não existe na França com esse nome; lá, o processo de fermentação é muito mais longo e não leva gordura ou açúcar.",
+    "historia": [
+      "Quando a elite viajou para a Europa na <em>Belle Époque</em>, voltou encantada com a brancura da farinha refinada, que na época era sinônimo de status e pureza.",
+      "Padeiros brasileiros tentaram <strong>copiar</strong> o pão de Paris a pedido da elite brasileira, mas criaram algo único: menor, mais arredondado e com casca mais fina.",
+      "Tornou-se a base do café da manhã nacional após a industrialização da moagem de trigo no país.",
+      "A versão funcional reintroduz os nutrientes que o processo de refinamento do século XX retirou."
+    ],
+    "imagemReceita": "Pao-Frances.jpg",
+    "credito": "Fonte: Jornal Estadão",
+      "end": "https://www.estadao.com.br/paladar/comida/o-surgimento-do-pao-frances-no-brasil-e-o-pao-na-franca/?srsltid=AfmBOopuybTsI3txsRTiPofFlufbf7ue_Uc-CiT8YBK7zgOZWYwNKCrN"
+  },
+  "homus-funcional-proteico": {
+    "historiaBase": "homus",
+    "etimologia": "Do árabe 'hummus', que significa apenas 'grão-de-bico'. O nome completo tradicional é 'hummus bi tahina' (grão-de-bico com pasta de gergelim).",
+    "personagemChave": "Saladino, o sultão curdo a quem lendas atribuem a criação de uma das primeiras receitas documentadas de homus.",
+    "contextoGeopolitico": "As rotas comerciais do Levante, onde especiarias, limões e sementes de gergelim se encontravam nos mercados de Damasco e Beirute.",
+    "evolucaoTecnica": "A evolução do pilão de pedra manual para os processadores modernos, que permitem uma emulsão muito mais leve e estável.",
+    "origem": "Antigo Egito e Levante (século XIII).",
+    "curiosidade": "É motivo de 'guerras gastronômicas' entre países do Oriente Médio que reivindicam sua autoria, mas é, acima de tudo, um símbolo de união à mesa.",
+    "historia": [
+      "Era a comida dos camponeses por ser barata e sustentar o dia inteiro de trabalho.",
+      "Atravessou séculos quase inalterada, provando a perfeição da combinação de leguminosa + gordura boa.",
+      "A versão proteica moderna pode incluir 'whey' isolado ou reforço de sementes para atender atletas veganos."
+    ],
+    "imagemReceita": "homus_proteico.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "bolo-fofo-zero-lactose": {
+    "historiaBase": "bolo-fofo",
+    "etimologia": "O termo 'bolo' vem do latim 'bullar' (objeto redondo), enquanto 'fofo' deriva do latim 'fofus', uma onomatopeia para algo macio e cheio de ar.",
+    "personagemChave": "Giovan Battista Carbonera, o cozinheiro italiano que serviu à corte espanhola e teria sido um dos primeiros a dominar a técnica de aerar massas.",
+    "contextoGeopolitico": "O Renascimento Europeu, época em que o domínio sobre as técnicas de confeitaria era símbolo de poder econômico entre as cortes da Itália e França.",
+    "evolucaoTecnica": "A mudança drástica ocorreu com a invenção do batedor de arame (fouet) e, posteriormente, do fermento químico de ação rápida, que eliminou a necessidade de horas batendo ovos à mão.",
+    "origem": "Aperfeiçoado no Renascimento por confeiteiros italianos a partir da técnica do Pão de Ló.",
+    "curiosidade": "A leveza original vinha exclusivamente da força física: batiam-se os ovos por até uma hora para que as bolhas de ar suportassem o peso da farinha.",
+    "historia": [
+      "Antigamente, bolos eram densos e pesados, mais parecidos com pães rústicos do que com sobremesas.",
+      "A separação de gemas e claras permitiu massas que 'subiam' sozinhas, uma revolução para a época.",
+      "A versão zero lactose contemporânea utiliza leites vegetais de castanhas ou coco, que trazem gorduras boas sem perder a maciez característica.",
+      "Tornou-se a base afetiva do café da tarde brasileiro, adaptando-se a todas as restrições alimentares modernas."
+    ],
+    "imagemReceita": "bolo_fofo_lactose_zero.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "escondidinho-de-legumes": {
+    "historiaBase": "escondidinho",
+    "etimologia": "Nome de origem popular brasileira. O termo 'escondidinho' é um diminutivo carinhoso que descreve o recheio oculto sob a cobertura.",
+    "personagemChave": "Os tropeiros e camponeses do Nordeste brasileiro, que adaptaram pratos de forno europeus à realidade da macaxeira (mandioca) local.",
+    "contextoGeopolitico": "A colonização e o intercâmbio culinário: o encontro da técnica de tortas salgadas britânicas (Shepherd's Pie) com a mandioca, raiz nativa da América do Sul.",
+    "evolucaoTecnica": "A evolução do purê, que passou de uma massa rústica pilada para uma textura aveludada graças ao uso de processadores e mixers domésticos.",
+    "origem": "Adaptação brasileira do 'Shepherd's Pie' britânico.",
+    "curiosidade": "Diferente da versão inglesa que usa batata inglesa, o escondidinho clássico usa a mandioca, que tem mais fibras e maior valor energético.",
+    "historia": [
+      "Surgiu como uma forma de reaproveitar o charque nas fazendas, mas sua versatilidade permitiu a criação de versões vegetarianas.",
+      "A variante de legumes foca na cromatografia: vegetais de cores vibrantes são usados para criar impacto visual ao 'descobrir' o recheio.",
+      "É um exemplo de 'comfort food' que une a nutrição dos legumes à saciedade do purê de raízes."
+    ],
+    "imagemReceita": "escondidinho_legumes.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "pao-forma-zero-lactose": {
+    "historiaBase": "pao-forma",
+    "etimologia": "Chamado de 'Pullman Bread' nos EUA devido ao formato dos vagões de trem. No Brasil, o nome deriva da forma retangular usada no cozimento.",
+    "personagemChave": "Otto Rohwedder, o engenheiro que sacrificou a saúde e as economias para inventar a máquina de fatiar pães, mudando a logística alimentar do mundo.",
+    "contextoGeopolitico": "A industrialização americana pós-Primeira Guerra Mundial, que buscava eficiência, rapidez e padronização para o trabalhador urbano.",
+    "evolucaoTecnica": "A criação de formas com tampa (Pullman pans), que impedem o pão de crescer para cima, forçando-o a ocupar os cantos e criar o formato quadrado perfeito.",
+    "origem": "Europa (final do séc. XIX), popularizado nos EUA na década de 1920.",
+    "curiosidade": "A expressão 'o melhor desde o pão fatiado' surgiu porque a invenção de Rohwedder foi considerada o maior avanço em conveniência doméstica do século.",
+    "historia": [
+      "O objetivo era criar um pão de crosta fina e macia, ideal para sanduíches uniformes.",
+      "A versão zero lactose utiliza óleos vegetais prensados a frio em vez de manteiga, garantindo durabilidade sem conservantes pesados.",
+      "Hoje, o pão de forma funcional é essencial para quem busca praticidade com ingredientes integrais."
+    ],
+    "imagemReceita": "pao-forma.png",
+    "credito" : "Fonte: site Anos dourados imagens e fatos",
+    "end" : "https://www.anosdourados.blog.br/2020/06/imagens-anuncio-pao-pullman.html"
+  },
+  "bolo-niver-sem-acucar": {
+    "historiaBase": "bolo-niver",
+    "etimologia": "A palavra 'aniversário' vem do latim 'anniversarius' (que volta todos os anos). O bolo simboliza o ciclo completo da vida.",
+    "personagemChave": "Ártemis, a deusa grega da caça e da lua, em cuja homenagem os primeiros bolos circulares e iluminados foram criados.",
+    "contextoGeopolitico": "A transição das celebrações religiosas pagãs para o 'Kinderfest' alemão, que secularizou o bolo como símbolo de proteção à infância.",
+    "evolucaoTecnica": "O desenvolvimento de edulcorantes naturais que podem ser levados ao forno (como o xilitol), permitindo a caramelização da massa sem o uso de açúcar.",
+    "origem": "Raízes na Grécia Antiga e tradições camponesas alemãs da Idade Média.",
+    "curiosidade": "Na tradição original alemã, acreditava-se que as velas deveriam ficar acesas o dia todo para afastar espíritos ruins até o momento de comer o bolo.",
+    "historia": [
+      "As velas simbolizavam a luz da lua e levavam as preces através da fumaça.",
+      "Com a Revolução Industrial, o bolo deixou de ser exclusividade da nobreza devido à produção em massa de farinha fina.",
+      "A versão sem açúcar atende à necessidade moderna de celebração inclusiva para diabéticos e pessoas em reeducação alimentar."
+    ],
+    "imagemReceita": "bolo_aniversario_fit.jpg",
+    "credito" : "Fonte: Site PixBay",
+    "end" : ""
+  },
+  "sorvete-cremoso-triplo-zero": {
+    "historiaBase": "sorveete",
+    "etimologia": "Do italiano 'sorbetto', que por sua vez deriva do árabe 'sharbat' (bebida gelada/xarope).",
+    "personagemChave": "Catarina de Médici, que levou seus mestres sorveteiros da Itália para a França, transformando o sorvete em símbolo da alta gastronomia.",
+    "contextoGeopolitico": "A Rota da Seda, por onde as técnicas chinesas de resfriamento de alimentos viajaram até chegar à bacia do Mediterrâneo.",
+    "evolucaoTecnica": "A passagem da 'neve picada' para a refrigeração por compressão de amônia, que permitiu o controle exato da cristalização da água.",
+    "origem": "China antiga (neve com mel), refinado na Itália e França.",
+    "curiosidade": "O primeiro 'sorvete' era essencialmente uma raspadinha de gelo; a cremosidade só veio séculos depois com a emulsão de gorduras leiteiras ou vegetais.",
+    "historia": [
+      "Antes da eletricidade, o gelo era cortado de lagos congelados e enterrado em fossos profundos para durar até o verão.",
+      "No Brasil imperial, o sorvete era um evento: as pessoas esperavam os navios de gelo para poder consumir a iguaria.",
+      "A versão 'Triplo Zero' (sem açúcar, lactose e gordura trans) utiliza fibras como a inulina para manter a textura sedosa sem as calorias tradicionais."
+    ],
+    "imagemReceita": "sorvete_cremoso_fit.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "massa-base-de-pizza-funcional-duplozero": {
+    "historiaBase": "pizza",
+    "etimologia": "Do latim 'pitsa' ou 'picea', que se refere ao escurecimento do pão no forno, ou do grego 'pitta', que significa pão achatado.",
+    "personagemChave": "Raffaele Esposito, o pizzaiolo napolitano que em 1889 preparou a pizza patriótica para a Rainha Margherita.",
+    "contextoGeopolitico": "A unificação da Itália; a pizza serviu como um símbolo de identidade nacional em um momento de fragmentação política.",
+    "evolucaoTecnica": "A transição das farinhas de trigo brancas refinadas para o conceito 'Duplo Zero Funcional', que utiliza moagens de grãos antigos ou fibras isoladas para reduzir o impacto glicêmico.",
+    "origem": "Nápoles, Itália, século XVIII (embora bases achatadas existam desde o Egito Antigo).",
+    "curiosidade": "Antes de ser um prato nobre, a pizza era vendida por 'pizzaioli' que carregavam estufas de cobre na cabeça, servindo fatias baratas para trabalhadores portuários.",
+    "historia": [
+      "Originalmente vendida em fatias 'a libretto' (dobradas como um livro) nas ruas de Nápoles.",
+      "A aprovação da Rainha Margherita foi o primeiro grande 'marketing' gastronômico da história, elevando o prato de comida de rua a banquete real.",
+      "Com a imigração italiana pós-Guerra, a pizza se tornou o primeiro alimento verdadeiramente globalizado.",
+      "A versão funcional substitui o glúten ou reduz carboidratos, preservando o ritual milenar de compartilhar a massa."
+    ],
+    "imagemReceita": "pizza_base_funcional.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "maionese-vegana-funcional": {
+    "historiaBase": "maionese",
+    "etimologia": "Existem duas versões: a mais aceita vem de 'Mahón', cidade espanhola, e outra do francês antigo 'moyeu', que significa gema de ovo.",
+    "personagemChave": "O Duque de Richelieu, que em 1756, após capturar o porto de Mahón, teria levado a receita da emulsão de volta para a França.",
+    "contextoGeopolitico": "A Guerra dos Sete Anos entre França e Grã-Bretanha, que facilitou o intercâmbio de técnicas culinárias entre o Mediterrâneo e Paris.",
+    "evolucaoTecnica": "A descoberta da 'aquafaba' (água do cozimento de leguminosas), que possui proteínas e amidos capazes de criar uma emulsão estável idêntica à da clara de ovo.",
+    "origem": "França ou Espanha (Mahón), século XVIII.",
+    "curiosidade": "A maionese é uma 'emulsão instável', uma proeza da física onde dois líquidos que não se misturam (água e óleo) tornam-se um creme homogêneo.",
+    "historia": [
+      "Diz-se que o chef de Richelieu, na falta de creme de leite para um molho de vitória, improvisou com azeite e ovos.",
+      "A versão funcional moderna elimina o colesterol dos ovos e utiliza óleos ricos em ômega-3, como o de linhaça ou abacate.",
+      "Tornou-se o molho base da culinária ocidental por sua capacidade de carregar sabores de ervas e especiarias."
+    ],
+    "imagemReceita": "maionese_vegana.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "catchup-vegano-funcional": {
+    "historiaBase": "catchup",
+    "etimologia": "Do dialeto Hokkien (China) <em>'kê-tsiap'</em>, que descrevia uma salmoura de peixe fermentado.",
+    "personagemChave": "James Mease, o cientista que em 1812 publicou a primeira receita de ketchup à base de tomate, referindo-se a eles como 'maçãs do amor'.",
+    "contextoGeopolitico": "O comércio marítimo britânico na Ásia, que levou molhos fermentados para a Europa, onde foram adaptados com ingredientes locais.",
+    "evolucaoTecnica": "A industrialização por Henry Heinz, que introduziu o uso de vinagre destilado para conservar o molho sem a necessidade de conservantes tóxicos comuns no século XIX.",
+    "origem": "Ásia (como molho de peixe), transformado em molho de tomate nos EUA no início do séc. XIX.",
+    "curiosidade": "Até o século XIX, o tomate era considerado venenoso por muitos europeus (por pertencer à família das beladonas); o ketchup ajudou a popularizar o consumo da fruta.",
+    "historia": [
+      "Originalmente, não levava tomate, mas sim nozes, cogumelos ou ostras fermentadas.",
+      "A receita evoluiu para uma base doce e ácida que conquistou o paladar americano e, depois, o mundo.",
+      "O catchup funcional utiliza tâmaras ou maçãs para adoçar, eliminando o xarope de milho de alta frutose da versão industrial."
+    ],
+    "imagemReceita": "catchup_funcional.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "sanduiche-mediterraneo-antioxidante": {
+    "historiaBase": "sanduiche",
+    "etimologia": "Homenagem direta a John Montagu, o 4º Conde de Sandwich. 'Mediterrâneo' vem do latim 'medius' (meio) e 'terra', o mar no meio das terras.",
+    "personagemChave": "John Montagu, o Conde de Sandwich, que era um jogador inveterado e precisava de uma refeição que não exigisse talheres nem suclasse as cartas.",
+    "contextoGeopolitico": "A ascensão da dieta mediterrânea como patrimônio imaterial da humanidade (UNESCO), baseada nos hábitos de saúde de Creta e do sul da Itália nos anos 60.",
+    "evolucaoTecnica": "A técnica de 'stacking' (empilhamento) nutricional, onde cada camada do sanduíche é pensada para maximizar a biodisponibilidade de antioxidantes (como o licopeno do tomate com a gordura do azeite).",
+    "origem": "Inglaterra (formato) e Bacia do Mediterrâneo (recheio).",
+    "curiosidade": "O sanduíche foi criado para ser uma comida de 'vício' (nas mesas de jogo), mas tornou-se o símbolo mundial da praticidade alimentar.",
+    "historia": [
+      "O Conde de Sandwich popularizou o ato de colocar carne entre fatias de pão no século XVIII para manter uma das mãos livre.",
+      "A versão mediterrânea adapta o conceito inglês para os ingredientes do 'Mare Nostrum': azeite, manjericão, queijos frescos e vegetais grelhados.",
+      "É a escolha definitiva para quem busca uma refeição rápida que combate radicais livres através de ervas frescas e gorduras monoinsaturadas."
+    ],
+    "imagemReceita": "sanduiche_mediterraneo.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+  "sanduiche-verde-detox": {
+    "historiaBase": "sanduiche",
+    "etimologia": "'Detox' é uma abreviação do termo médico 'desintoxicação' (do latim 'de' - fora, e do grego 'toxikon' - veneno). O termo 'verde' remete à clorofila, pigmento vital das plantas.",
+    "personagemChave": "Ann Wigmore, uma das pioneiras do movimento de alimentação viva e sucos verdes no século XX, que inspirou a transição desses ingredientes para o formato de sanduíches.",
+    "contextoGeopolitico": "O surgimento do movimento 'Wellness' na Califórnia nos anos 70 e 80, que buscava alternativas naturais à dieta industrializada do pós-guerra.",
+    "evolucaoTecnica": "A utilização de 'wraps' de folhas (como couve ou acelga) ou pães de fermentação natural (Sourdough) para substituir pães processados, maximizando o aporte de enzimas vivas.",
+    "origem": "Movimento de alimentação funcional e naturalista (século XX).",
+    "curiosidade": "O conceito de 'limpeza' através de ervas amargas e folhas verdes é milenar, mas o formato de sanduíche detox é uma solução moderna para unir nutrição profunda à falta de tempo do dia a dia.",
+    "historia": [
+      "Nasceu da necessidade de transformar o 'suco verde' em uma refeição sólida e saciante.",
+      "Ingredientes como abacate e brotos, antes restritos a lojas de produtos naturais, tornaram-se os protagonistas dessa receita.",
+      "Hoje é o símbolo da culinária 'plant-based' que foca na densidade nutricional por caloria ingerida."
+    ],
+    "imagemReceita": "sanduiche_verde_detox.jpg",
+    "credito": "Fonte:",
+     "end": ""
+  },
+  "macarrao-integral-artesanal": {
+    "historiaBase": "macarrao",
+    "etimologia": "Do grego 'makaria', que designava um caldo de cevada e, mais tarde, um prato de massa servido em rituais em honra aos mortos.",
+    "personagemChave": "Marco Polo, embora a lenda diga que ele trouxe o macarrão da China, historiadores apontam que os árabes já haviam introduzido a massa seca na Sicília muito antes.",
+    "contextoGeopolitico": "A expansão das rotas comerciais no Mediterrâneo, onde o macarrão seco se tornou a comida ideal para navegantes por sua durabilidade extrema.",
+    "evolucaoTecnica": "A invenção da prensa mecânica e da trefilagem de bronze, que permite que a superfície da massa fique rugosa para 'segurar' melhor o molho.",
+    "origem": "Registros na China (4000 a.C.) e refinamento na Itália (especialmente na região da Sicília).",
+    "curiosidade": "Existem mais de 600 formatos de massa catalogados; cada um foi desenhado para interagir com um tipo específico de densidade de molho.",
+    "historia": [
+      "Na Idade Média, era comum comer macarrão com as mãos, polvilhado com queijo e especiarias doces.",
+      "A adição do tomate (vindo das Américas) só ocorreu no século XVIII, criando o casamento clássico da culinária italiana.",
+      "A versão integral resgata a forma rústica do grão, mantendo o farelo e o germe que se perdiam no refinamento industrial do século XX."
+    ],
+    "imagemReceita": "macarrao_integral.jpg",
+    "credito": "Fonte:",
+    "end": ""
+  },
+  "lasanha-de-berinjela-funcional": {
+    "historiaBase": "lasanha",
+    "etimologia": "Do grego 'lasanon', que se referia ao tripé de metal sobre o qual se colocava a panela, e mais tarde ao próprio recipiente de cozimento.",
+    "personagemChave": "Os cozinheiros da corte de Nápoles, que no século XIV documentaram a 'Lasana' no Liber de Coquina, um dos livros de culinária mais antigos da Europa.",
+    "contextoGeopolitico": "A região da Emilia-Romagna, na Itália, consolidou a lasanha como um prato festivo de domingo, unindo a produção local de trigo, laticínios e carnes.",
+    "evolucaoTecnica": "A técnica de 'montagem em estratos' (camadas), que permite o cozimento lento e a infusão de sabores entre a massa (ou vegetais) e os molhos.",
+    "origem": "Região de Emilia-Romagna, Itália.",
+    "curiosidade": "O nome 'lasanha' originalmente designava apenas a massa ou o recipiente; o recheio de carne e molho bechamel é uma evolução renascentista.",
+    "historia": [
+      "Foi uma das primeiras massas a serem cozidas em água e depois assadas com outros ingredientes.",
+      "A versão de berinjela surgiu como uma alternativa leve, aproveitando a textura esponjosa do vegetal para absorver o molho.",
+      "Atualmente, é a favorita em dietas 'low-carb', substituindo a farinha de trigo por lâminas de vegetais grelhados."
+    ],
+    "imagemReceita": "lasanha_funcional.jpg",
+    "credito": "Fonte:",
+    "end": ""
+  },
+  "cacau-puro-e-derivados": {
+    "historiaBase": "cacau",
+    "etimologia": "Do náuatle (língua asteca) 'cacahuatl'. O nome científico dado por Linneu, *Theobroma*, significa 'alimento dos deuses'.",
+    "personagemChave": "Montezuma II, o imperador asteca que bebia até 50 taças de chocolate por dia, acreditando em suas propriedades afrodisíacas e revigorantes.",
+    "contextoGeopolitico": "O Império Asteca, onde o cacau era tão valioso que as sementes eram usadas para pagar impostos e comprar escravos.",
+    "evolucaoTecnica": "A invenção da 'Prensa de Cacau' por Casparus van Houten em 1828, que permitiu separar a manteiga do pó de cacau, dando origem ao chocolate sólido.",
+    "origem": "Bacia Amazônica, mas cultivado e divinizado na América Central pelos Maias e Astecas.",
+    "curiosidade": "Os maias preparavam o cacau com água, pimenta e milho, criando uma bebida espumosa e picante, muito diferente do chocolate doce atual.",
+    "historia": [
+      "Cristóvão Colombo foi o primeiro europeu a ver as sementes de cacau, mas não lhes deu importância.",
+      "Hernán Cortés levou o cacau para a Espanha, onde foi adicionado açúcar e canela para agradar ao paladar europeu.",
+      "O cacau funcional (acima de 70%) é hoje reconhecido como um superalimento por sua alta concentração de polifenóis."
+    ],
+    "imagemReceita": "cacau_puro.jpg",
+    "credito": "Fonte:",
+    "end": ""
+  },
+  "pudim-de-coco-e-baunilha": {
+    "historiaBase": "pudim",
+    "etimologia": "Do francês 'boudin', que por sua vez vem do latim 'botellus' (enchido ou salsicha), referindo-se à forma como os primeiros pudins eram cozidos.",
+    "personagemChave": "A Rainha Vitória da Inglaterra, durante cujo reinado o pudim tornou-se a sobremesa nacional britânica, evoluindo de pratos de carne para doces.",
+    "contextoGeopolitico": "O intercâmbio colonial britânico e português: o coco das colônias tropicais encontrou a técnica do pudim de ovos europeu.",
+    "evolucaoTecnica": "A técnica de 'banho-maria', essencial para coagular as proteínas do ovo de forma lenta e suave, criando a textura de seda típica da sobremesa.",
+    "origem": "Europa medieval (inicialmente salgado), refinado como sobremesa na Inglaterra e Portugal.",
+    "curiosidade": "O pudim clássico brasileiro é uma derivação direta do 'Pudim de Abade de Priscos' português, adaptado com leite condensado e coco nas fazendas coloniais.",
+    "historia": [
+      "Na Idade Média, o pudim era uma mistura de carnes e cereais cozida dentro de estômagos de animais.",
+      "Com a introdução do açúcar das Antilhas, tornou-se a sobremesa preferida da burguesia europeia.",
+      "Esta versão de coco e baunilha foca na gordura saturada saudável do coco e no aroma natural da fava de baunilha, evitando essências artificiais."
+    ],
+    "imagemReceita": "pudim_coco_baunilha.jpg",
+    "credito": "Fonte:",
+      "end": ""
+  },
+    "creme-de-chocolate-natural": {
+      "historiaBase": "creme-chocolate",
+      "etimologia": "A palavra 'chocolate' vem do náuatle 'xocolatl' (xoco = amargo + atl = água). O creme, do latim 'chrisma', refere-se a uma substância ungulada ou pastosa.",
+      "personagemChave": "Coenraad van Houten, químico holandês que inventou o processo de alcalinização do cacau, permitindo que ele se misturasse perfeitamente a líquidos para criar cremes estáveis.",
+      "contextoGeopolitico": "A Revolução Industrial na Europa, que transformou o chocolate de uma bebida ritualística asteca em uma iguaria pastosa e moldável para consumo em massa.",
+      "evolucaoTecnica": "A substituição das gorduras hidrogenadas e do açúcar refinado por gorduras naturais (como a do próprio cacau ou avelãs) e adoçantes de baixo índice glicêmico.",
+      "origem": "Baseado nos métodos de processamento de cacau da Europa do século XIX.",
+      "curiosidade": "O chocolate natural, sem adição de leite, é rico em teobromina, um alcaloide que estimula o sistema nervoso de forma mais suave e duradoura que a cafeína.",
+      "historia": [
+        "Originalmente consumido como uma infusão picante e fria pelos povos pré-colombianos.",
+        "A adição de baunilha e açúcar pelos espanhóis no século XVI mudou o destino do ingrediente no mundo ocidental.",
+        "O creme de chocolate moderno busca resgatar a pureza do grão, focando em emulsões que preservam os flavonoides do cacau bruto."
+      ],
+      "imagemReceita": "creme_chocolate_natural.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+    "pao-de-queijo-artesanal": {
+      "historiaBase": "pao-de-queijo",
+      "etimologia": "O termo 'polvilho' vem do latim 'pulvis' (pó), referindo-se ao amido fino extraído da mandioca, raiz cujo nome vem do tupi 'mani-oca' (casa de Mani).",
+      "personagemChave": "As cozinheiras das fazendas mineiras do século XVIII, que transformaram a escassez de trigo em uma oportunidade criativa usando recursos locais.",
+      "contextoGeopolitico": "O Ciclo do Ouro em Minas Gerais. Como o trigo era importado da Europa e chegava caro e mofado, o polvilho da mandioca tornou-se a base da panificação regional.",
+      "evolucaoTecnica": "A técnica de 'escaldar' o polvilho com óleo e água fervente, o que pré-gelatiniza o amido e garante a elasticidade e o crescimento característicos sem glúten.",
+      "origem": "Minas Gerais, Brasil, século XVIII.",
+      "curiosidade": "Diferente do pão comum, o pão de queijo não cresce por fermentação biológica, mas sim pela expansão do vapor de água preso na massa elástica de polvilho.",
+      "historia": [
+        "Surgiu da mistura de sobras de queijo endurecido (que não servia para venda) com o polvilho de mandioca e ovos.",
+        "Era servido originalmente como acompanhamento para o café dos senhores de terra antes de se tornar o lanche mais popular do Brasil.",
+        "A versão artesanal funcional prioriza queijos curados (com menos lactose) e polvilho orgânico, resgatando o sabor autêntico das fazendas."
+      ],
+      "imagemReceita": "pao_de_queijo.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+    "torta-de-maca-medieval": {
+      "historiaBase": "torta-maca",
+      "etimologia": "Maçã vem do latim 'mala matiana', em homenagem a Gaius Matius, um agrônomo romano famoso por cultivar pomares de qualidade.",
+      "personagemChave": "Geoffrey Chaucer, o pai da literatura inglesa, que em 1381 escreveu uma das primeiras menções documentadas a uma torta de maçã (apple pyne).",
+      "contextoGeopolitico": "A Inglaterra medieval, onde a torta de maçã era uma forma de conservar a fruta colhida no outono dentro de uma 'caixa' de massa resistente.",
+      "evolucaoTecnica": "A evolução da massa 'coffyn' (uma crosta dura e intragável usada apenas para proteger a fruta) para a massa *brisée* amanteigada que comemos hoje.",
+      "origem": "Inglaterra (registros de 1381).",
+      "curiosidade": "Apesar da expressão 'tão americano quanto uma torta de maçã', as maçãs nem eram nativas da América; foram levadas para lá pelos colonos europeus.",
+      "historia": [
+        "Na Idade Média, as tortas de maçã raramente levavam açúcar (que era caríssimo), dependendo apenas da doçura natural das frutas maduras.",
+        "A receita viajou pela Europa, ganhando canela do Oriente e técnicas de massa folhada na França.",
+        "Hoje, a versão fit utiliza farinhas integrais e especiarias para realçar o sabor sem a necessidade de açúcares adicionados."
+      ],
+      "imagemReceita": "torta_maca_fit.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+     "pao-de-queijo": {
+      "historiaBase": "pao-de-qeijo",
+    "etimologia": "Do latim 'pulvis' (pó/polvilho) e do tupi 'mani-oca' (casa de Mani/mandioca). O nome reflete a fusão entre a técnica europeia de panificação e a base amilácea nativa da América do Sul.",
+    "personagemChave": "As cozinheiras escravizadas e as donas de casa das fazendas mineiras do século XVIII, que desenvolveram a técnica do escaldado para lidar com ingredientes rústicos.",
+    "contextoGeopolitico": "O Ciclo do Ouro em Minas Gerais. O isolamento geográfico da região e o alto custo de importação do trigo europeu forçaram a criação de uma culinária de substituição e resistência.",
+    "evolucaoTecnica": "A transição do polvilho pilado manualmente para o polvilho doce e azedo processado, que permite diferentes níveis de expansão e acidez na massa.",
+    "origem": "Minas Gerais, Brasil, meados do século XVIII.",
+    "curiosidade": "O pão de queijo é um dos poucos 'pães' do mundo que cresce sem fermento biológico ou químico; ele utiliza a expansão do vapor de água preso na rede elástica de amido pré-gelatinizado.",
+    "historia": [
+      "Surgiu como alternativa ao pão de trigo, que chegava de Portugal caro e muitas vezes impróprio para consumo.",
+      "O queijo era inicialmente um resíduo: usavam-se as bordas endurecidas do queijo Minas para não desperdiçar alimento.",
+      "A receita só se tornou um fenômeno nacional na década de 1960, com a popularização das misturas prontas e a industrialização do setor de laticínios.",
+      "Hoje, a versão artesanal busca retornar ao uso do queijo 'meia cura' ou 'canastra', valorizando o pequeno produtor e a maturação natural."
+    ],
+    "imagemReceita": "pao_de_queijo_mineiro.jpg",
+    "credito": "Fonte:",
+      "end": ""
+    },
+    "bolo-de-leite-tradicional-e-fit": {
+      "historiaBase": "bolo-leite",
+      "etimologia": "O termo 'leite' vem do latim 'lactem'. O bolo de leite, em muitas regiões do Brasil, é chamado de 'Bolo Mole' ou 'Bolo de Engorda-Marido' pela sua consistência densa que lembra um pudim.",
+      "personagemChave": "As boleiras do Nordeste brasileiro, que adaptaram as receitas de bolos europeus retirando o fermento para criar uma textura cremosa única.",
+      "contextoGeopolitico": "A herança das 'Casas de Farinha' e das cozinhas de engenho, onde a abundância de leite e açúcar criava sobremesas que não precisavam de técnicas de aeração francesas.",
+      "evolucaoTecnica": "A versão funcional substitui o leite de vaca por leites de oleaginosas (amêndoas ou castanhas) e utiliza farinha de arroz para manter a estrutura 'pesada' e macia sem o glúten.",
+      "origem": "Interior do Brasil, com raízes na doçaria portuguesa colonial.",
+      "curiosidade": "Diferente do pão de ló, este bolo não leva fermento. Sua estrutura é mantida pela coagulação das proteínas do ovo e do leite durante o cozimento lento.",
+      "historia": [
+        "Nasceu como uma forma de aproveitar o leite fresco das fazendas antes de azedar.",
+        "A versão com coco (Cremoso) é uma influência direta da culinária afro-brasileira, que introduziu o leite de coco na doçaria nacional.",
+        "A variante com limão surgiu para equilibrar o dulçor acentuado, utilizando o ácido cítrico para quebrar as moléculas de gordura e trazer frescor."
+      ],
+      "imagemReceita": "bolo_leite_tradicional.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+    "pao-de-forno-com-queijo-funcional": {
+      "historiaBase": "pao-de-queijo",
+      "etimologia": "Do latim 'panis'. A combinação com queijo (*caseus*) é uma das uniões gastronômicas mais antigas da humanidade, citada em textos de Roma Antiga.",
+      "personagemChave": "Os padeiros artesanais da Europa Central, que criaram a técnica de rechear massas antes do forneamento.",
+      "contextoGeopolitico": "A Idade Média, onde o pão era a base da pirâmide alimentar e o queijo era a forma mais prática de conservar proteína para as estações frias.",
+      "evolucaoTecnica": "O uso de farinhas integrais e a técnica de 'autólise' (descanso da massa) para melhorar a digestibilidade do glúten, ou substituição por mixes de fibras no caso do pão zero glúten.",
+      "origem": "Europa (Tradição mediterrânea).",
+      "curiosidade": "O queijo derretido dentro do pão cria um ambiente úmido que preserva o miolo macio por muito mais tempo do que um pão simples.",
+      "historia": [
+        "Surgiu como uma refeição completa e portátil para trabalhadores do campo.",
+        "Os 'Pães de queijo minuto' são uma evolução moderna que utiliza o bicarbonato de sódio ou fermento químico para eliminar o tempo de espera da fermentação biológica.",
+        "A versão 'Zero Glúten' utiliza gomas naturais (como a xantana) para replicar a elasticidade que o glúten providenciava originalmente."
+      ],
+      "imagemReceita": "pao_forno_queijo.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+    "panetone-artesanal-funcional": {
+      "historiaBase": "panetone",
+      "etimologia": "Do milanês 'pan del Ton' (O Pão do Toni). 'Pane' (pão) + 'one' (sufixo aumentativo), significando 'pão grande'.",
+      "personagemChave": "Toni, um humilde ajudante de cozinha na corte de Ludovico, o Mouro, que teria inventado o doce na véspera de Natal após a sobremesa oficial queimar.",
+      "contextoGeopolitico": "O Ducado de Milão no século XV. O panetone era um pão de luxo, pois levava frutas cristalinas e mel, ingredientes caros na época.",
+      "evolucaoTecnica": "A técnica de fermentação natural (*levain* ou *lievito madre*), que leva até 72 horas para garantir a leveza extrema e o aroma característico.",
+      "origem": "Milão, Itália.",
+      "curiosidade": "Originalmente, o panetone não era tão alto. O formato de 'cúpula' que conhecemos hoje foi popularizado por Angelo Motta na década de 1920, usando papel para envolver a massa.",
+      "historia": [
+        "Era considerado um 'pão de festa' compartilhado entre patrões e empregados como gesto de paz.",
+        "Chegou ao Brasil com os imigrantes italianos pós-Segunda Guerra, tornando-se o símbolo absoluto do Natal brasileiro.",
+        "A versão funcional substitui as frutas cristalizadas por nuts e chocolate amargo, reduzindo o índice glicêmico sem perder a tradição."
+      ],
+      "imagemReceita": "panetone_funcional.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+    "pao-7-graos-ancestrais": {
+      "historiaBase": "pao",
+      "etimologia": "O termo 'grão' vem do latim 'granum'. O número sete é historicamente associado à perfeição e à totalidade em diversas culturas antigas.",
+      "personagemChave": "Os camponeses da Mesopotâmia, que realizavam colheitas mistas de cereais (policultivo) para garantir a segurança alimentar caso uma espécie falhasse.",
+      "contextoGeopolitico": "O Crescente Fértil, onde a domesticação de diferentes gramíneas permitiu que a humanidade deixasse de ser nômade e estabelecesse as primeiras civilizações.",
+      "evolucaoTecnica": "A transição da moagem em pedras manuais, que mantinha o farelo e o gérmen (versão integral), para a panificação funcional que seleciona grãos por seus índices glicêmicos específicos.",
+      "origem": "Oriente Médio e bacia do Mediterrâneo.",
+      "curiosidade": "Cada um dos 7 grãos traz uma textura diferente: enquanto o trigo dá estrutura, grãos como a linhaça e a semente de girassol adicionam gorduras boas e crocância histórica.",
+      "history": [
+        "Originalmente, os pães multigrãos eram uma mistura de sobrevivência, aproveitando o que restava nos silos.",
+        "Com a Revolução Industrial, o pão branco tornou-se símbolo de status, mas o 'pão preto' de grãos resistiu como símbolo de vigor físico.",
+        "A versão moderna foca na densidade de micronutrientes, unindo sementes ancestrais como chia e quinoa à base de trigo integral."
+      ],
+      "imagemReceita": "pao_sete_graos.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+    "pao-italiano-integral-e-parmesao": {
+      "historiaBase": "pao-integral",
+      "etimologia": "A palavra 'italiano' refere-se ao estilo de casca dura e miolo aerado. 'Parmesão' deriva de 'Parma', a cidade italiana que deu nome ao queijo 'Parmigiano-Reggiano'.",
+      "personagemChave": "Os monges beneditinos e cistercienses dos séculos XII e XIII, que criaram o queijo parmesão para conservar o leite por longos períodos.",
+      "contextoGeopolitico": "A Itália medieval, onde o pão de fermentação natural e os queijos curados eram os itens mais valiosos para trocas comerciais entre feudos.",
+      "evolucaoTecnica": "O uso do 'Lievito Madre' (fermento natural) em conjunto com a farinha integral, que exige mais hidratação e um tempo de fermentação prolongado para quebrar as fibras do grão.",
+      "origem": "Regiões de Parma e Reggio Emilia, Itália.",
+      "curiosidade": "O verdadeiro parmesão demora no mínimo 12 meses para curar. Quando ralado sobre a massa do pão integral, ele cria uma crosta umami que é um dos cinco sabores básicos percebidos pela língua humana.",
+      "historia": [
+        "O pão italiano clássico era feito com sobras de massa de fornadas anteriores (o 'crescente').",
+        "A versão integral resgata o pão rústico consumido pelos trabalhadores italianos antes da popularização das farinhas ultra-refinadas.",
+        "A adição do parmesão funcional busca trazer sabor intenso com menos sódio, utilizando queijos de longa maturação onde a lactose é quase inexistente."
+      ],
+      "imagemReceita": "pao_italiano_parmesao.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+    "sonho-saudavel-sem-acucar-e-sem-lactose": {
+      "historiaBase": "sonho",
+      "etimologia": "O nome <em>'sonho'</em> remete à ideia de algo leve, macio e desejável. Acredita-se que a inspiração venha do doce alemão <strong>'Berliner Pfannkuchen'</strong>, conhecido simplesmente como <em>'Berliner'</em>, trazido por imigrantes europeus ao Brasil.",
+      "personagemChave": "Imigrantes alemães e portugueses tiveram papel importante na adaptação do sonho europeu às padarias brasileiras do século XX.",
+      "contextoGeopolitico": "A forte imigração europeia para o Brasil entre os séculos XIX e XX trouxe técnicas de panificação enriquecidas com manteiga, fermentação longa e doces recheados, influenciando diretamente a cultura das padarias brasileiras.",
+      "evolucaoTecnica": "O sonho evoluiu da fritura em gordura animal para óleos vegetais refinados e, mais recentemente, para versões assadas, integrais, sem lactose e sem açúcar utilizando fermentação controlada e ingredientes funcionais.",
+      "origem": "Tem origem inspirada nos doces fermentados da Alemanha do século XVI, sendo popularizado no Brasil pelas padarias de influência europeia.",
+      "curiosidade": "Na Alemanha, existe a tradição de rechear um único Berliner com mostarda durante festas de Carnaval como brincadeira entre amigos.",
+      "historia": [
+        "Os primeiros doces semelhantes ao sonho surgiram na Europa Central como massas fermentadas fritas em gordura animal.",
+        "O <em>Berliner</em>, segundo a lenda, foi obra de um padeiro alemão. que  não pode lutar  na guerra, foi servir como padeiro no exército alemão e sem forno disponível, decidiu fazer uma adaptação de uma massa de pão fermentada. Ele pegou essa massa e fritando-a em tachos", 
+        "de gordura quente. Depois o pão tornou-se extremamente popular por sua textura leve e recheio doce, principalmente de frutas vermelhas.",
+        "O sonho chegou ao Brasil por volta das décadas de 1920 e 1930, em São Paulo.E aqui a receita foi adaptada pelas padarias portuguesas e alemãs, ganhando recheios como creme de confeiteiro, doce de leite e goiabada.",
+        "Durante o século XX, o sonho tornou-se símbolo clássico das padarias brasileiras, frequentemente associado ao café da tarde.",
+        "Conta-se que os padeiros começaram a fritar as sobras da massa dos pães doces, cortá-las ao meio e recheá-las com creme de baunilha.",
+        "A industrialização trouxe melhorias na fermentação e padronização do tamanho, permitindo produção em larga escala.",
+        "As versões contemporâneas fit e sem lactose utilizam bebidas vegetais, adoçantes naturais e métodos assados para reduzir gordura e açúcar sem perder maciez.",
+        "Hoje, o sonho saudável representa a união entre tradição da panificação europeia e adaptações modernas voltadas à alimentação funcional."
+      ],
+      "imagemReceita": "sonho-padaria.jpg",
+      "credito": "Fonte: Sonho de Padaria: História, Origem e Receita Tradicional",
+      "end": "https://gatinhadesofa.com.br/sonho-de-padaria/"
+    },
+      "cafe-latte-cafe-com-leite-cremoso" : {
+       "historiaBase": "café latte",
+      "etimologia": "Do italiano <em>'Caffè e Latte'</em>, que significa literalmente <strong>'café e leite'</strong>. No contexto técnico, refere-se à emulsão do leite vaporizado despejado sobre uma dose de espresso.",
+      "personagemChave": "William Dean Howells, escritor americano que, em seu ensaio 'Italian Journeys' (1867), foi um dos primeiros a usar o termo em inglês para descrever a bebida que consumia na Europa.",
+      "contextoGeopolitico": "A democratização do café na Europa do século XVII e a posterior 'revolução do espresso' na Itália do pós-guerra, que padronizou a vaporização do leite para o paladar internacional.",
+      "evolucaoTecnica": "A passagem do leite fervido domesticamente para a microespuma sedosa criada por bicos de vapor de alta pressão em máquinas de espresso profissionais.",
+      "origem": "Originou-se na Europa, com raízes profundas na Áustria (Kapuziner) e popularização comercial na Itália.",
+      "curiosidade": "Diferente do Cappuccino, que segue proporções rígidas de espuma, o Latte foi criado para ser uma bebida mais longa e suave, ideal para acompanhar o café da manhã prolongado.",
+      "historia": [
+        "O hábito de misturar leite ao café começou em Viena no século XVII, após a Batalha de Viena, para suavizar o amargor dos grãos deixados pelos otomanos.",
+        "Embora os italianos já bebessem café com leite em casa, o <em>Latte</em> como conhecemos hoje foi adaptado para turistas americanos que achavam o espresso puro forte demais.",
+        "Com a ascensão da cultura das cafeterias nos anos 80, a técnica do <em>Latte Art</em> transformou a superfície da bebida em uma tela para baristas.",
+        "A versão cremosa contemporânea foca na textura do leite; ele não deve ser apenas quente, mas 'estirado' para criar uma microestrutura que brilha como seda.",
+        "Hoje, a evolução permite o uso de leites vegetais de alta performance, mantendo a cremosidade característica sem a necessidade de laticínios."
+      ],
+      "imagemReceita": "cafe-latte.jpg",
+      "credito": "Fonte:",
+      "end": ""
+    },
+      "sonho-tradicional-pao-doce-frito" : {
+      "historiaBase": "sonho",
+      "etimologia": "O nome <em>'sonho'</em> remete à ideia de algo leve, macio e desejável. Acredita-se que a inspiração venha do doce alemão <strong>'Berliner Pfannkuchen'</strong>, conhecido simplesmente como <em>'Berliner'</em>, trazido por imigrantes europeus ao Brasil.",
+      "personagemChave": "Imigrantes alemães e portugueses tiveram papel importante na adaptação do sonho europeu às padarias brasileiras do século XX.",
+      "contextoGeopolitico": "A forte imigração europeia para o Brasil entre os séculos XIX e XX trouxe técnicas de panificação enriquecidas com manteiga, fermentação longa e doces recheados, influenciando diretamente a cultura das padarias brasileiras.",
+      "evolucaoTecnica": "O sonho evoluiu da fritura em gordura animal para óleos vegetais refinados e, mais recentemente, para versões assadas, integrais, sem lactose e sem açúcar utilizando fermentação controlada e ingredientes funcionais.",
+      "origem": "Tem origem inspirada nos doces fermentados da Alemanha do século XVI, sendo popularizado no Brasil pelas padarias de influência europeia.",
+      "curiosidade": "Na Alemanha, existe a tradição de rechear um único Berliner com mostarda durante festas de Carnaval como brincadeira entre amigos.",
+      "historia": [
+        "Os primeiros doces semelhantes ao sonho surgiram na Europa Central como massas fermentadas fritas em gordura animal.",
+        "O <em>Berliner</em>, segundo a lenda, foi obra de um padeiro alemão. que  não pode lutar  na guerra, foi servir como padeiro no exército alemão e sem forno disponível, decidiu fazer uma adaptação de uma massa de pão fermentada. Ele pegou essa massa e fritando-a em tachos", 
+        "de gordura quente. Depois o pão tornou-se extremamente popular por sua textura leve e recheio doce, principalmente de frutas vermelhas.",
+        "O sonho chegou ao Brasil por volta das décadas de 1920 e 1930, em São Paulo.E aqui a receita foi adaptada pelas padarias portuguesas e alemãs, ganhando recheios como creme de confeiteiro, doce de leite e goiabada.",
+        "Durante o século XX, o sonho tornou-se símbolo clássico das padarias brasileiras, frequentemente associado ao café da tarde.",
+        "Conta-se que os padeiros começaram a fritar as sobras da massa dos pães doces, cortá-las ao meio e recheá-las com creme de baunilha.",
+        "A industrialização trouxe melhorias na fermentação e padronização do tamanho, permitindo produção em larga escala.",
+        "As versões contemporâneas fit e sem lactose utilizam bebidas vegetais, adoçantes naturais e métodos assados para reduzir gordura e açúcar sem perder maciez.",
+        "Hoje, o sonho saudável representa a união entre tradição da panificação europeia e adaptações modernas voltadas à alimentação funcional."
+      ],
+      "imagemReceita": "sonho-padaria.jpg",
+      "credito": "Fonte: Sonho de Padaria: História, Origem e Receita Tradicional",
+      "end": "https://gatinhadesofa.com.br/sonho-de-padaria/"
+     },
+    "capuccino-funcional-zero-lactose": {
+      "historiaBase": "cappuccino",
+      "etimologia": "Do italiano <em>'Cappuccio'</em> (capuz). O nome refere-se à cor marrom-avermelhada dos hábitos usados pelos frades da <strong>Ordem dos Frades Menores Capuchinhos</strong>.",
+      "personagemChave": "Marco d'Aviano, um monge capuchinho lendário que, segundo a tradição popular, teria adoçado e suavizado com leite o café forte abandonado pelos turcos em Viena em 1683.",
+      "contextoGeopolitico": "A transição das cafeterias vienenses do século XVIII para os bares de espresso de Milão e Trieste no início do século XX, consolidando-se como ícone global após a II Guerra Mundial.",
+      "evolucaoTecnica": "A invenção da máquina de espresso por Luigi Bezzera em 1901 permitiu a pressurização do vapor, essencial para criar a espuma densa e persistente que define a bebida.",
+      "origem": "Raízes na Áustria como 'Kapuziner', mas aperfeiçoado e batizado tecnicamente na Itália.",
+      "curiosidade": "Na Itália, existe uma regra não escrita de etiqueta: o cappuccino é estritamente uma bebida matinal, raramente consumida após as 11h da manhã.",
+      "historia": [
+        "A semente do cappuccino foi o <em>Kapuziner</em> servido em Viena nos anos 1700, que consistia em café com creme de leite e açúcar, apresentando a cor das vestes monásticas.",
+        "A versão moderna nasceu com a popularização das máquinas de espresso italianas, que substituíram o creme de leite pesado pela espuma de leite aerada.",
+        "Nas décadas de 1930 e 1940, a bebida era servida com uma 'coroa' de espuma firme e, por vezes, polvilhada com canela ou cacau, estilo que se espalhou pelo mundo.",
+        "A padronização internacional definiu a regra de ouro dos terços: 1/3 de espresso, 1/3 de leite vaporizado e 1/3 de espuma de leite consistente.",
+        "Atualmente, o cappuccino 'Third Wave' foca na doçura natural do leite e em uma integração mais homogênea entre a crema do café e a microespuma."
+      ],
+      "imagemReceita": "cappuccino-tradicional.jpg",
+      "credito": "Fonte: Italian Espresso National Institute",
+      "end": ""
+    },
+    "espresso-macchiato-classico": {
+      "historiaBase": "espresso macchiato",
+      "etimologia": "Do italiano <em>'Macchiato'</em>, que significa <strong>'manchado'</strong> ou 'marcado'. Refere-se ao café espresso que foi 'marcado' por um toque de leite.",
+      "personagemChave": "Baristas italianos dos anos 80, que criaram o termo para que os garçons pudessem distinguir, visualmente e no pedido, um espresso puro de um espresso com apenas um pingo de leite.",
+      "contextoGeopolitico": "A cultura dos bares italianos de meados do século XX, onde a rapidez do serviço exigia nomes curtos e descritivos para variações mínimas nas receitas clássicas.",
+      "evolucaoTecnica": "A técnica consiste em usar apenas a 'cabeça' da espuma de leite (a parte mais densa e aerada), depositada delicadamente com uma colher sobre a crema do espresso.",
+      "origem": "Itália, consolidando-se como uma alternativa para quem buscava suavizar a acidez do café sem a diluição de um cappuccino.",
+      "curiosidade": "Existe o <em>Latte Macchiato</em>, que é o inverso: uma grande quantidade de leite 'manchada' por uma dose de espresso, criando camadas visuais distintas.",
+      "historia": [
+        "O nome surgiu da necessidade prática de diferenciar pedidos nos balcões lotados da Itália, onde um espresso com leite precisava ser visualmente 'marcado'.",
+        "Diferente do Cortado espanhol, que mistura partes iguais de leite e café, o Macchiato mantém o café como protagonista absoluto.",
+        "A mancha de leite serve para cortar a intensidade inicial do espresso e realçar notas adocicadas de chocolate ou caramelo presentes no grão.",
+        "Com a globalização, redes americanas ressignificaram o termo, criando bebidas longas e doces que se distanciam da receita minimalista original.",
+        "Hoje, em cafeterias de especialidade, a 'mancha' é frequentemente uma microespuma sedosa capaz de permitir pequenas artes (Latte Art) mesmo em xícaras de 60ml."
+      ],
+      "imagemReceita": "espresso-macchiato.jpg",
+      "credito": "Fonte: [Aventuras da Barista](https://aventurasdabarista.wordpress.com/2018/03/20/qual-a-diferenca-entre-cappuccino-mocaccino-cortado-macchiato-latte-mocha-e-tantos-outros-guia-completo/)",
+      "end": ""
+    },
+    "flat-white-especialidade": {
+    "historiaBase": "flat white",
+    "etimologia": "Termo em inglês que significa <strong>'branco plano'</strong>. Refere-se à superfície lisa da bebida, sem a 'montanha' de espuma firme comum nos cappuccinos da época.",
+    "personagemChave": "Alan Preston, um barista de Sydney que afirma ter colocado o nome no menu de sua cafeteria (Moors Espresso Bar) em 1985, embora baristas da Nova Zelândia também reivindiquem a criação.",
+    "contextoGeopolitico": "A ascensão da cultura de cafés na Austrália e Nova Zelândia pós-guerra, influenciada por imigrantes italianos e refinada pela 'Segunda Onda' do café no Hemisfério Sul.",
+    "evolucaoTecnica": "O segredo está na microespuma: leite vaporizado a uma temperatura levemente inferior para criar uma textura de 'tinta líquida' que se mistura completamente ao café.",
+    "origem": "Disputada entre Austrália e Nova Zelândia; tornou-se um fenômeno global ao ser exportada para Londres e Nova York nos anos 2000.",
+    "curiosidade": "O Flat White é frequentemente descrito como a 'tosa de um poodle': enquanto o cappuccino é o poodle peludo (cheio de espuma), o Flat White é o poodle tosado (liso e compacto).",
+    "historia": [
+      "Surgiu como uma resposta de clientes que queriam um café com leite cremoso, mas achavam a espuma do cappuccino muito seca e volumosa.",
+      "A receita clássica utiliza uma dose dupla de espresso (ou ristretto) em uma xícara menor, garantindo um sabor de café muito mais presente que no Latte.",
+      "Diferente de outras bebidas, o leite não é servido em camadas; ele é vertido de forma que a microespuma e a crema do café tornem-se uma emulsão única.",
+      "A bebida tornou-se o estandarte da 'Terceira Onda' do café, onde a doçura natural do leite vaporizado é tão importante quanto a qualidade do grão.",
+      "Sua popularização mundial foi impulsionada por celebridades australianas e por grandes redes que adotaram a receita para atrair consumidores mais exigentes."
+    ],
+    "imagemReceita": "flat-white-art.jpg",
+    "credito": "Fonte: [Perfect Daily Grind Brasil](https://perfectdailygrind.com/pt/2020/02/05/o-que-e-flat-white-como-ele-se-diferencia-do-latte/)",
+    "end": ""
+   },
+   "mocha-chocolat-espresso": {
+    "historiaBase": "caffè mocha",
+    "etimologia": "Nomeado em homenagem à cidade portuária de <strong>Mocha (Al-Mukha)</strong>, no Iêmen, que foi o principal centro de exportação de café do mundo e cujos grãos tinham notas naturais de chocolate.",
+    "personagemChave": "Betty Friedan e o movimento das cafeterias americanas de meados do século XX, que popularizaram a adição de calda de chocolate para criar uma bebida de sobremesa.",
+    "contextoGeopolitico": "A herança do <em>Bicerin</em> de Turim (Itália) e do <em>Einspänner</em> de Viena, que combinavam café e chocolate, adaptados para o paladar moderno e doce das grandes redes globais.",
+    "evolucaoTecnica": "A integração de ganache de chocolate ou cacau em pó diretamente no shot de espresso antes da adição do leite vaporizado, garantindo uma emulsão homogênea.",
+    "origem": "Inspirado em receitas clássicas europeias, mas formalizado como 'Mocha' nos Estados Unidos dentro da cultura de bebidas customizadas.",
+    "curiosidade": "Diferente do chocolate quente, o Mocha deve obrigatoriamente conter uma base de espresso, servindo como uma ponte entre uma bebida energética e uma sobremesa.",
+    "historia": [
+      "A conexão histórica vem dos grãos iemenitas que chegavam à Europa com um perfil sensorial que lembrava o cacau, criando a associação mental entre 'Mocha' e chocolate.",
+      "No século XVIII, em Turim, o <em>Bicerin</em> já misturava camadas de café, chocolate quente e creme, sendo o ancestral direto do Mocha moderno.",
+      "A versão contemporânea geralmente substitui o creme de leite por leite vaporizado e espuma, assemelhando-se a um latte achocolatado.",
+      "Com o tempo, surgiram variações como o 'White Mocha' (chocolate branco) e o 'Zebra' (mistura de chocolate amargo e branco).",
+      "A estética é um ponto forte: frequentemente é finalizado com chantilly e raspas de chocolate, distanciando-se do minimalismo purista das bebidas italianas."
+    ],
+    "imagemReceita": "caf-mocha-copo.jpg",
+    "credito": "Fonte: pixbay.com",
+    "end": "https://pixabay.com/pt/"
+  },
+      "cortado-equilibrado-espanhol": {
+      "historiaBase": "cortado",
+      "etimologia": "Do espanhol <em>'Cortar'</em>. Refere-se ao ato de <strong>'cortar'</strong> a acidez e a intensidade do espresso com uma quantidade igual de leite morno.",
+      "personagemChave": "Baristas bascos da Espanha, que popularizaram o hábito de consumir o café em copos pequenos de vidro (<em>gibraltar</em>) para apreciar a cor e a textura.",
+      "contextoGeopolitico": "Surgido na Espanha e disseminado por Cuba e América Latina, o Cortado tornou-se a resposta latina ao café com leite, priorizando o equilíbrio sem o volume de espuma do cappuccino.",
+      "evolucaoTecnica": "Diferente do Flat White, o leite no Cortado é apenas levemente vaporizado (sem muita aeração/espuma), mantendo a proporção estrita de 1:1 entre café e leite.",
+      "origem": "Espanha (País Basco), com forte presença na cultura cafeeira de Madrid e Barcelona antes de ganhar o mundo.",
+      "curiosidade": "Nos Estados Unidos, o Cortado é frequentemente chamado de 'Gibraltar', nome dado devido ao modelo específico de copo de vidro em que é servido.",
+      "historia": [
+        "Nasceu da preferência espanhola por um café menos leitoso que o <em>Café con Leche</em>, mas menos agressivo que o <em>Solo</em> (espresso puro).",
+        "A bebida cruzou o oceano e tornou-se parte essencial da cultura matinal em países como Argentina e Cuba (onde é chamado de <em>Cordadito</em>).",
+        "A ausência de uma camada espessa de espuma permite que o sabor do grão brilhe, sendo a bebida favorita de muitos entusiastas de café de especialidade.",
+        "Sua temperatura de serviço é geralmente mais baixa que a de um Latte, permitindo que a bebida seja consumida rapidamente.",
+        "Na hierarquia de intensidade, o Cortado situa-se exatamente entre o Macchiato (muito forte) e o Flat White (mais suave)."
+      ],
+      "imagemReceita": "cafe-cortado.jpg",
+      "credito": "Fonte: [Perfect Daily Grind](https://perfectdailygrind.com)",
+      "end": ""
+    },
+    "farinha-de-coco": {
+    "nome": "Farinha de Coco",
+    "slug": "farinha-de-coco",
+    "categoria": "Farinhas Funcionais",
+    "descricao_curta": "Farinha versátil, rica em fibras e com baixo teor de carboidratos líquidos.",
+    "descricao_longa": [
+      "A farinha de coco é feita a partir da polpa do coco seco e desengordurado.",
+      "É naturalmente livre de glúten, sendo uma excelente opção para celíacos e sensíveis.",
+      "Possui um alto teor de fibras, o que ajuda na saciedade e saúde intestinal.",
+      "Tem a característica única de absorver muito líquido, exigindo mais ovos ou água nas receitas.",
+      "É muito utilizada em dietas Low Carb e Paleo devido ao seu baixo índice glicêmico.",
+      "Confere um sabor levemente adocicado e uma textura macia aos preparos.",
+      "Contém gorduras saudáveis (TCM), que são rapidamente convertidas em energia.",
+      "Pode ser usada tanto em receitas doces quanto salgadas como substituto parcial de outras farinhas."
+    ],
+    "beneficios": [
+      "Rica em fibras alimentares",
+      "Auxilia no controle da glicemia",
+      "Livre de glúten e grãos",
+      "Promove maior saciedade"
+    ],
+    "como_usar": [
+      "Substituir parte da farinha de trigo em bolos e panquecas",
+      "Usar para empanar alimentos de forma saudável",
+      "Adicionar em iogurtes ou frutas para aumentar o teor de fibras"
+    ],
+    "receitas": [
+      { "nome": "Muffin de Coco Low Carb", "link": "receita.html?slug=muffin-coco-low-carb" },
+      { "nome": "Panqueca de Banana Funcional", "link": "receita.html?slug=panqueca-banana-farinha-coco" }
+    ],
+    "imagem": "imagens/ingredientes/farinha-de-coco.jpg"
+  },
+    "agua-funcional-refrescante-de-limao-e-hortela" : {
+    "historiaBase": "água saborizada",
+    "etimologia": "A 'água funcional' combina o solvente universal com compostos bioativos. O termo 'limão' vem do árabe <em>'laymun'</em>, e 'hortelã' do latim <em>'mentha'</em>, ligada ao frescor mentolado.",
+    "personagemChave": "Thomas Henry, farmacêutico que, em 1782, pioneirizou a produção de águas carbonatadas industriais, abrindo caminho para a adição posterior de sabores como limão (1830) para fins medicinais.",
+    "contextoGeopolitico": "Práticas ancestrais do Mediterrâneo e Oriente Médio, onde a escassez de água potável segura levava à adição de ervas e cítricos para purificação simbólica e melhora do paladar.",
+    "evolucaoTecnica": "A transição de infusões rudimentares em jarros de argila para o conceito moderno de 'detox' e águas funcionais, utilizando técnicas de maceração a frio e cortes específicos para liberar óleos essenciais.",
+    "origem": "Raízes na Antiguidade (Grécia e Roma), mas popularizada como categoria funcional na virada do século XXI.",
+    "curiosidade": "Na mitologia grega, a hortelã teria surgido da ninfa Mintha; hoje, a combinação com limão é cientificamente reconhecida por alcalinizar o sangue e auxiliar na digestão enzimática.",
+    "historia": [
+      "Desde a antiguidade, egípcios e romanos já aromatizavam a água com ervas para aliviar o calor e tratar males digestivos.",
+      "No século XIX, farmacêuticos começaram a vender águas com essência de limão e gengibre como tônicos revigorantes nas boticas.",
+      "A hortelã entrou na mistura clássica por seu efeito térmico, enganando os receptores de frio do corpo para uma sensação de frescor imediato.",
+      "Com o boom do bem-estar nos anos 2010, o que era apenas 'água com gosto' passou a ser estudada como veículo de micronutrientes hidrossolúveis.",
+      "A versão funcional moderna prioriza a ausência de açúcares, usando a acidez do limão para conservar as propriedades antioxidantes das folhas frescas de hortelã."
+    ],
+    "imagemReceita": "agua-funcional-limao-hortela.jpg",
+    "credito" : "Fonte:",
+    "end" : ""
+  },
+    "cuca-de-banana-tradicional": {
+    "historiaBase": "cuca",
+    "etimologia": "Do alemão <em>'Kuchen'</em>, que significa literalmente <strong>'bolo'</strong>. O termo foi aportuguesado pelos colonos no Sul do Brasil até se transformar na palavra 'cuca'.",
+    "personagemChave": "Os imigrantes alemães das regiões da Silésia e Prússia que, ao colonizarem o Sul do Brasil, adaptaram suas receitas ancestrais com os ingredientes locais.",
+    "contextoGeopolitico": "O fluxo migratório germânico para o Brasil no século XIX, impulsionado por promessas de terras, que resultou no forte isolamento cultural e na preservação de tradições culinárias nas colônias.",
+    "evolucaoTecnica": "A transformação do tradicional <em>'Streuselkuchen'</em> de massa fermentada biológica (estilo pão doce) para versões modernas e rápidas de liquidificador com fermento químico.",
+    "origem": "Surgiu na Europa Central (antiga Prússia) e foi adaptada no Sul do Brasil no século XIX.",
+    "curiosidade": "Na Alemanha original, o bolo levava apenas farofa ou frutas de clima frio (como maçã e ameixa). A introdução da banana foi uma pura adaptação de sobrevivência e abundância tropical.",
+    "historia": [
+      "Nasceu na Europa como <em>Streuselkuchen</em>, um bolo de tabuleiro coberto por uma farofa de manteiga, açúcar e canela.",
+      "Com a imigração para o Sul do Brasil, os colonos alemães mantiveram o hábito de assar o doce para os tradicionais cafés de domingo.",
+      "A falta de frutas europeias nos quintais tropicais forçou a substituição por bananas maduras, criando uma combinação perfeita de umidade e crocância.",
+      "A receita tornou-se um símbolo de identidade cultural e resistência nas colônias germânicas de Santa Catarina e Rio Grande do Sul.",
+      "A versão contemporânea expandiu-se por todo o país, transformando um prato típico europeu em um patrimônio da culinária afetiva brasileira."
+    ],
+    "imagemReceita": "cuca-banana-tela.jpg",
+    "credito": "Fonte:",
+    "end": ""
+  },
+    "pao-doce-caseiro": {
+    "historiaBase": "pao-doce",
+    "etimologia": "Do latim <em>'panis'</em> (alimento assado de farinha) combinado com o adjetivo <em>'dulcis'</em>. O termo evoluiu para designar massas enriquecidas que diferem do pão de consumo diário.",
+    "personagemChave": "Os padeiros da Roma Antiga e, posteriormente, os confeiteiros europeus do Renascimento, que transformaram o pão básico em iguarias festivas adicionando mel, ovos e gordura.",
+    "contextoGeopolitico": "A popularização do açúcar refinado nas Américas a partir do século XVI e a evolução dos métodos de panificação caseira, transformando o pão doce em um símbolo de hospitalidade nas áreas rurais.",
+    "evolucaoTecnica": "A transição do uso de 'iscas' de fermentação natural (levain) e longos descansos para o uso do fermento biológico seco instantâneo, que garantiu rapidez e padronização na cozinha doméstica.",
+    "origem": "Origem na Antiguidade Clássica, com forte evolução e popularização na Europa Ocidental e Américas.",
+    "curiosidade": "Historicamente, o pão doce era um alimento exclusivo de celebrações (como casamentos e Natal) devido ao alto custo do açúcar, da manteiga e das especiarias.",
+    "historia": [
+      "Surgiu na antiguidade quando os egípcios e romanos começaram a adoçar massas de pão com mel, frutas secas e especiarias.",
+      "Durante a Idade Média, os mosteiros europeus refinaram as técnicas de panificação doce, associando esses pães a festividades religiosas.",
+      "A receita chegou ao Brasil através dos colonizadores portugueses e, mais tarde, foi enriquecida pelas tradições de panificação italianas e alemãs.",
+      "Nas cozinhas rurais brasileiras, o ato de 'bater o pão' e esperar a massa crescer sob um pano limpo tornou-se um ritual clássico de afeto familiar.",
+      "Hoje, o pão doce caseiro evoca a memória afetiva do 'café da tarde na casa dos avós', mantendo viva a tradição do preparo artesanal."
+    ],
+    "imagemReceita": "pao-doce-tela.jpg",
+    "credito": "Fonte:",
+    "end": ""
+  },
+    "macaron": {
+    "historiaBase": "macaron",
+    "etimologia": "Derivado do italiano medieval <em>'maccherone'</em> ou <em>'maccarone'</em>, que na época era um termo genérico usado para designar qualquer tipo de massa fina ou mole feita à base de grãos ou amêndoas.",
+    "personagemChave": "Catarina de Médici, nobre italiana que ao se casar com o Rei Henrique II em 1533, levou seus chefs confeiteiros particulares de Florença para a corte da França, introduzindo o doce no país.",
+    "contextoGeopolitico": "O intercâmbio cultural e gastronômico do Renascimento Europeu, onde as rotas comerciais árabes introduziram a amêndoa na Itália, que posteriormente exportou suas técnicas de confeitaria refinada para a nobreza francesa.",
+    "evolucaoTecnica": "A transformação de um biscoito simples e rústico de amêndoas (conhecido como 'umbigo de padre') para o requintado <em>'Macaron Parisien'</em> na década de 1830, quando a confeitaria Ladurée teve a ideia de unir duas conchas usando ganache.",
+    "origem": "Surgiu nos mosteiros da Itália (com possíveis raízes árabes) no século VIII e foi totalmente reinventado na França no século XIX.",
+    "curiosidade": "Durante a Revolução Francesa, duas freiras carmelitas (as 'Irmãs Macaron') ganharam fama e asilo político em Nancy ao assar e vender esses biscoitos para conseguir sobreviver fora do convento destruído.",
+    "historia": [
+      "Embora seja o maior ícone da confeitaria francesa, suas primeiras versões estruturais nasceram nos mosteiros venezianos por volta do século VIII.",
+      "A receita original consistia em um biscoito seco, crocante por fora e macio por dentro, feito estritamente de amêndoas, clara de ovo e açúcar.",
+      "Ao chegar à França com a corte de Catarina de Médici, o doce virou um segredo de estado consumido exclusivamente pela realeza e pela elite.",
+      "Apenas no século XIX o doce ganhou cores pastéis e o formato de sanduíche recheado que conhecemos hoje, popularizado pela icônica grife parisiense Ladurée.",
+      "Atualmente, o doce é considerado uma das técnicas mais difíceis do mundo, exigindo precisão cirúrgica na temperatura e no processo de 'macaronagem'."
+    ],
+    "imagemReceita": "macaron-tela.jpg",
+    "credito": "Fonte:",
+    "end" : ""
+  },
+    "tiramisu": {
+    "historiaBase": "tiramisu",
+    "etimologia": "Do dialeto trevisano <em>'tireme sù'</em>, aportuguesado para o italiano <em>'tiramisù'</em>, que significa literalmente <strong>'puxa-me para cima'</strong> ou <strong>'eleva-me'</strong>. Uma alusão ao seu alto teor energético.",
+    "personagemChave": "Amedeo Coleoni, proprietário do restaurante 'Le Beccherie' em Treviso, junto com sua esposa Alba di Pillo e o chef Roberto 'Loly' Linguanotto, que oficializaram a receita na década de 1970.",
+    "contextoGeopolitico": "O milagre econômico italiano pós-Segunda Guerra Mundial, período de grande efervescência cultural e gastronômica na região do Vêneto, impulsionando a modernização de sobremesas tradicionais.",
+    "evolucaoTecnica": "A transição de uma mistura caseira e energética de gema de ovo e açúcar (o 'sbatudin') para uma sofisticada sobremesa em camadas montada com queijo mascarpone e biscoitos savoiardi embebidos em café espresso.",
+    "origem": "Surgiu na região do Vêneto, na cidade de Treviso (Itália), no final da década de 1960.",
+    "curiosidade": "Lendas urbanas populares na Itália afirmam que o doce foi originalmente criado pelas madonas de casas de tolerância em Treviso para servir como um afrodisíaco e revigorante aos clientes.",
+    "historia": [
+      "Suas raízes estão no <em>'sbatudin'</em>, uma gemada energética que as mães do Vêneto preparavam para crianças, idosos e recém-casados.",
+      "A receita moderna e estruturada como sobremesa de restaurante foi desenvolvida e testada exaustivamente na cozinha do 'Le Beccherie'.",
+      "O prato foi incluído oficialmente no menu do restaurante em 1972, tornando-se um sucesso imediato na culinária local.",
+      "A combinação precisa do amargor do café e do cacau com a cremosidade untuosa do mascarpone conquistou críticos gastronômicos e rapidamente se espalhou pelo mundo.",
+      "Hoje, o Tiramisù é reconhecido mundialmente como o maior ícone da confeitaria italiana moderna, possuindo até uma Copa do Mundo própria."
+    ],
+    "imagemReceita": "tiramisu-tela.jpg",
+    "credito": "Fonte:",
+    "end": ""
+  }
+}

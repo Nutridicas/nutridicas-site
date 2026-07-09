@@ -1,0 +1,382 @@
+/* Arquivo para estilizar as dicas no index.html 
+Criado em 14/04/2026 01h03m manhã */
+
+/* Isso garante que tudo que vier DEPOIS do header tenha fundo branco */
+main,
+article {
+  background-color: #ffffff !important;
+  position: relative;
+  z-index: 10;
+}
+
+/* padding individual */
+
+main {
+  padding: 40px 20px;
+}
+
+article {
+  padding: 0;
+}
+
+section {
+  padding: 0;
+}
+
+/* Força o fundo da página inteira a ser cinza claro ou branco, NÃO a maçã */
+body {
+    background: #f4f4f4 !important;
+    background-image: none !important; /* Remove qualquer herança da maçã */
+} 
+
+.card-dica {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card-dica h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.card-dica p {
+  font-size: 14px;
+  color: #555;
+}
+
+.categoria {
+  font-size: 12px;
+  color: #fff;
+  background: #2a9d8f;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #e76f51;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ver-todas {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+/* destaque visual para a dica do dia index.html */
+.destaque {
+  border: 2px solid #f4a261;
+  background: #fff8f2;
+   transform: scale(1.02);
+}
+
+.dica-dia h2 {
+  color: #e76f51;
+}
+
+
+/* para a página dicas.html - 17/04/2026 */
+.container-dicas {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+#titulo {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Alinhar imagem à direita e texto continuar depois da imagem abaixo
+   30/04/2026 */
+
+/* CARD PRINCIPAL */
+
+.bloco-dica {
+  background: #fff;
+  padding: 28px;
+  border-radius: 18px;
+  margin-bottom: 28px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+/* FLEX PRINCIPAL */
+
+.bloco-dica:hover {
+  transform: translateY(-4px);
+}
+
+/* TÍTULO */
+
+.bloco-dica h2 {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #2f5d2f;
+  font-size: 1.9rem;
+}
+
+/* TEXTO */
+
+.texto-fluido {
+  line-height: 1.9;
+  font-size: 1.08rem;
+}
+
+.titulo-pagina {
+  font-size: 2.4rem;
+  margin-bottom: 24px;
+  color: #2f5d2f;
+}
+
+/* IMAGEM FLUTUANDO */
+
+.imagem-flutuante {
+  float: right;
+ width: 240px;
+  max-width: 40%;
+  height: 220px;
+  object-fit: cover;
+  margin-left: 24px;
+  margin-bottom: 18px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.14);
+}
+
+/* LISTA */
+
+.bloco-dica ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+/* REMOVE MINI-CARDS */
+
+.bloco-dica li {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-bottom: 18px;
+  border-radius: 0 !important;
+  line-height: 1.9;
+}
+
+.texto-fluido {
+  display: block;
+  width: 100%;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+  .imagem-flutuante {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 220px;
+    margin: 0 0 20px 0;
+  }
+}
+
+/* Inserida 30/04/2026 dicas.html */
+
+.conteudo-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-texto h2{
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.conteudo-texto ul{
+   padding-left: 20px;
+}
+
+.conteudo-texto li{
+  margin-bottom: 18px;
+  line-height: 1.8;
+  font-size: 1.08rem;
+}
+
+/* DA GALERIA - 30/04/2026 */
+
+.galeria-cortes{
+   float: right;
+  width: 320px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.galeria-cortes img {
+  width: 100%;
+  margin-bottom: 12px;
+  border-radius: 14px;
+  display: block;
+}
+
+.galeria-cortes img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.galeria-cortes .imagem-dica {
+  float: none;
+  width: 160px;
+  max-width: none;
+  margin: 0;
+}
+
+/* 01/05/2026 */
+
+.item-lista {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.item-com-imagem {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f8f8f8;
+  border-radius: 14px;
+  padding: 16px;
+  transition: 0.25s ease;
+}
+
+.item-com-imagem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.imagem-dica-item {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.texto-item {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* responsivo */
+@media (max-width: 600px) {
+  .item-com-imagem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .imagem-dica-item {
+    width: 100%;
+    height: 140px;
+  }
+}
+
+/* Modal para zoom de imagens de dicas de corete - 01/05/2026 */
+
+#modal-imagem {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+
+.modal-box {
+  background: #fff;
+  padding: 18px;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 700px;
+  position: relative;
+  animation: zoomIn 0.25s ease;
+}
+
+.modal-box img {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.modal-titulo {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.fechar-modal {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* responsivo */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Animação suave ao aparecer (efeito profissional) 
+   - lazing 01/05/2026 */
+
+.item-com-imagem {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.item-com-imagem:nth-child(1) { animation-delay: 0.05s; }
+.item-com-imagem:nth-child(2) { animation-delay: 0.1s; }
+.item-com-imagem:nth-child(3) { animation-delay: 0.15s; }
+.item-com-imagem:nth-child(4) { animation-delay: 0.2s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*Extra: efeito de clique na imagem - 01/05/2026*/
+
+.imagem-dica-item {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.imagem-dica-item:hover {
+  transform: scale(1.05);
+}

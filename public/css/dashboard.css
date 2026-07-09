@@ -72,11 +72,11 @@
  ================================*/
 
 .tab {
-  display: none;
+  display: none !important;
 }
 
 .tab.active {
-  display: block;
+  display: block !important;
 }
 
 .admin-tabs button.active {
@@ -229,4 +229,62 @@ flex:1;
 
 flex:1;
 
+}
+
+/*===============
+// PAra o dasboard - inserida 06/03/2026
+*/
+
+.status{
+margin-left:10px;
+font-size:12px;
+padding:3px 6px;
+border-radius:6px;
+}
+
+.status-publicado{
+background:#c9f7d1;
+padding:3px 6px;
+border-radius:6px;
+}
+
+.status-rascunho{
+background:#ffe6a7;
+padding:3px 6px;
+border-radius:6px;
+}
+
+/* Sugerido para história e informações de 
+    ingredientes em dashboard.html - 10/05/2026 
+    dia das mães */
+.card-historia,
+.card-ingrediente {
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.img-historia,
+.img-ingrediente {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.card-ingrediente h3 {
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+.card-ingrediente ul,
+.card-historia ul {
+    padding-left: 20px;
+}
+
+.card-ingrediente li,
+.card-historia li {
+    margin-bottom: 8px;
 }

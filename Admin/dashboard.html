@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/css/estilo.css">
   <link rel="stylesheet" href="/css/dashboard.css">
   <link rel="stylesheet" href="/css/nutri.css">
+   <link rel="stylesheet" href="/css/mensagens.css">
 
 </head>
 
@@ -30,6 +31,8 @@ if (localStorage.getItem("nutri_admin") !== "true") {
       <button data-tab="ingredientes">Ingredientes</button>
       <button data-tab="receitas">Receitas</button>
       <button data-tab="premium">Premium</button>
+      <button data-tab="historia">História da Receitas</button>
+      <button data-tab="infoIngredientes">infoI ngredientes</button>
     </nav>
 
     <a href="/index.html">← Voltar ao site</a>
@@ -44,8 +47,100 @@ if (localStorage.getItem("nutri_admin") !== "true") {
 <section id="consultas" class="tab active">
   <h2>Consultas</h2>
 </section>
+<!-- Foram acrescidas duas história e informação dos ingredientes 08/05/2026 -->
 <section id="ingredientes" class="tab"></section>
 <section id="premium" class="tab"></section>
+
+
+<!-- Seções história e informação dos ingredientes 10/05/2026 -->
+<section id="historia" class="tab">
+  <h2>História da Receita</h2>
+  <form id="formhistoria">
+    <div class="field">
+       <h3>Slug da Receita</h3>
+       <input id="slug" name="slug" placeholder="slug para busca">
+    </div> 
+    
+    <div class="grade-linha"> 
+        <div class="field">
+          <h3>História Base</h3>
+          <input id="historiaBase" name="historiaBase" placeholder="Nome da Receita base.Ex,: mousse">
+        </div>
+        <div class="field">
+            <h3>Etimologia do nome da Receita</h3>
+            <input id="etimologia"
+             name="etimologia"
+             placeholder="Digite a origem do nome da receita">
+        </div>
+      
+        <div class="field">
+          <h3>Personagem chave para a receitaTipo</h3>
+          <input id="personagemChave" name="personagemChave" placeholder="Autor ou divulgador da receita">
+        </div>
+     </div> 
+
+     <div class="grade-linha"> 
+        <div class="field">
+          <h3>Contexto Geopolitico</h3>
+          <input id="contextoGeopolitico" name="contextoGeopolitico" placeholder="Digite aqui">
+        </div>
+        <div class="field">
+            <h3>Evolução técnica da Receita</h3>
+             <input id="evolucaoTecnica"
+             name="evolucaoTecnica"
+             placeholder="Digite aqui">
+        </div>
+      
+        <div class="field">
+          <h3>Origem da receita</h3>
+          <input id="origem" name="origem" placeholder="Digite aqui">
+        </div>
+     </div> 
+
+        <div class="field">
+          <h3>Curiosidades</h3>
+          <input id="ccuriosidade" name="curiosidade" placeholder="Digite aqui">
+        </div>
+
+        <div class="field">
+            <h3>A história da Receita</h3>
+            <textarea id="historia"
+              name="historia"
+              rows="8"
+              placeholder="Uma linha por item da história"></textarea>
+        </div>
+  
+     <h3>Imagem da Receita</h3>
+      <input type="file" id="imagemReceitaInput" accept="image/*">
+      <button type="button" id="btnUpload" onclick="uploadImagem()">Enviar imagem</button>
+      <p id="uploadStatus" style="font-weight:bold;"></p>
+      document
+           .getElementById('previewImagem')
+            .dataset.nomeImagem = nomeArquivo;
+
+      <img id="previewImagem" 
+           style="max-width:300px; display:none; margin-top:10px; border-radius:8px;">
+
+      <hr>
+
+     <input id="credito"
+       name="credito"
+       placeholder="Digite aqui a fonte">
+
+     <input id="end" name="end" placeholder="Digite aqui a url">
+     <!-- Botões para salvar -->
+      <button type="button" onclick="salvarHistoria()" class="btn-gravar">
+      💾 Salvar História
+      </button>
+  </form>  
+
+</section>
+
+<section id="infoIgredientes" class="tab active">
+  <h2>Informações sobre ingredientes da Receita</h2>
+
+  <div id="ingredientesContainer"></div>
+</section>
 
 <!-- RECEITAS -->
 <section id="receitas" class="tab">
@@ -82,7 +177,7 @@ if (localStorage.getItem("nutri_admin") !== "true") {
       <!-- Upload da imagem 25/02/26 -->
       <h3>Imagem da Receita</h3>
       <input type="file" id="imagemInput" accept="image/*">
-      <button id="btnUpload" onclick="uploadImagem()">Enviar imagem</button>
+      <button type="button" id="btnUpload" onclick="uploadImagem()">Enviar imagem</button>
       <p id="uploadStatus" style="font-weight:bold;"></p>
       <img id="previewImagem" 
            style="max-width:300px; display:none; margin-top:10px; border-radius:8px;">
@@ -91,18 +186,18 @@ if (localStorage.getItem("nutri_admin") !== "true") {
     
     <h3 id="editorTitulo">Nova Receita</h3>
     <br>
+    <div class="field">
+       <h3>Nome da Receita</h3>
+       <input id="titulo" name="titulo" placeholder="Título">
+    </div> 
+    
     <div class="grade-linha"> 
         <div class="field">
-            <h3>Nome da Receita</h3>
-            <input id="titulo" name="titulo" placeholder="Título">
-        </div> 
-        <div class="field">
-            <h3>Categoria da Receita</h3>
-            <input id="categoria" name="categoria" placeholder="Categoria">
+          <h3>Categoria da Receita</h3>
+          <input id="categoria" name="categoria" placeholder="Categoria">
         </div>
         <div class="field">
-            <h3>subcategoria da Receita</h3>
-            
+            <h3>Subcategoria da Receita</h3>
             <select id="subcategoria" name="Subcategoria">
                <option value="">Selecione</option>
                <option value="bolos">Bolos</option>
@@ -111,30 +206,63 @@ if (localStorage.getItem("nutri_admin") !== "true") {
                 <option value="lanches">Lanches</option>
                 <option value="sobremesas">Sobremesas</option>
                 <option value="bebidas">Bebidas</option>
-                 <option value="molhos">Molhos</option>
+                <option value="molhos">Molhos</option>
+                <option value="pasta">Pasta</option>
             </select>
+        </div>
+      
+        <div class="field">
+          <h3>Tipo</h3>
+          <input id="tipo" type="text" placeholder="tipo da receita">
         </div>
      </div> 
       <br>
        <div class="grid-row">  
+
+        <div class="field">
+            <h3>Versão da Receita</h3>
+            <select id="versao" name="versaoReceita">
+               <option value="">Selecione</option>
+               <option value="tradicional">Tradiciona</option>
+                <option value="zeroAcucar">Zero Açúcar</option>
+                <option value="zerogluten">Zero glúten</option>
+                <option value="zerolactose">Zero lactose</option>
+                <option value="vegana">Vegana</option>
+            </select>
+        </div>
           <div class="field">
-               <p> Tags</p>
+               <h3> Tags</h3>
                <input id="tags" name="tags" placeholder="Tags separadas por vírgula">
           </div>
         
           <div class="field">
-              <p> Restrições</p>
+              <h3> Restrições</h3>
               <input id="restricoes" name="restricoes" placeholder="Restrições">
           </div> 
-         <div class="field">
-            <label>
-               <input type="checkbox" id="premium"> Conteúdo Premium
-            </label>
-            <label>
-              <input type="checkbox" id="topSemana"> Top da Semana
-            </label>
-         </div>
        </div>
+       
+       <div class="grid-row"> 
+          <div class="field">
+              <label>
+                 <input type="checkbox" id="premium"> Conteúdo Premium
+              </label>
+
+              <label>
+                <input type="checkbox" id="topSemana"> Top da Semana
+              </label>
+
+              <label>
+                <input type="checkbox" id="alimento"> É um alimento?
+              </label>
+
+           </div>
+
+          <div class="field">
+              <h3>Menu</h3>
+              <input id="tipoMenu" type="text" placeholder="Posição no Menu">
+          </div>
+       </div>   
+
         <div class="grid-row"> 
             <div class="field">
                <h3>Autoria</h3>
@@ -153,24 +281,39 @@ if (localStorage.getItem("nutri_admin") !== "true") {
               <input id="total" name="total">
           </div>
        </div>   
-        <hr>
-        <br>
-        <h3 align="center"> Informações Gerais 
-        da Receita</h3>
+      <hr>
+       <h3 align="center"> Informações Gerais da Receita</h3>
         <div class="grade-linha"> 
             <div class="field">
               <h3>Tempo de preparo da Receita</h3>
               <input id="tempoPreparoReceita" name="tempoPreparoReceita" placeholder="Tempo da Receita">
             </div>
             <div class="field">
-              <h3>Tempo de preparo Forno/Geladeira</h3>
-              <input id="tempoPreparoForno" name="tempoPreparoForno" placeholder="Tempo de Forno ou Geladeira">
+              <h3>Tempo de preparo no Forno</h3>
+              <input id="tempoPreparoForno" name="tempoPreparoForno" placeholder="Tempo de Forno">
              </div> 
+
+             <div class="field">
+              <h3>Tempo de Geladeira</h3>
+              <input id="tempoPreparoGeladeira" name="tempoPreparoForno" placeholder="Tempo de Geladeira">
+             </div> 
+          </div>
+         <div class="grade-linha">  
+           <div class="field">
+                <h3>Tempo de preparo Fogão</h3>
+                <input id="tempoPreparoFogao" name="tempoPreparoFogao" placeholder="Tempo de preparo Fogão">
+            </div>
+
+            <div class="field">
+                <h3>Tempo de Descanso da massa</h3>
+                <input id="tempoPreparoDescanso" name="tempoPreparoDescanso" placeholder="Tempo de descanso da Massa">
+            </div>
+
             <div class="field">
                 <h3>Tempo de preparo Total</h3>
                 <input id="tempoPreparoTotal" name="tempoPreparoTotal" placeholder="Tempo de preparo Total">
-            </div>
-        </div>
+             </div>
+          </div>
 
           <div class="grade-linha">         
               <div class="field">
@@ -189,7 +332,7 @@ if (localStorage.getItem("nutri_admin") !== "true") {
          <br>
          <div class="grade-linha">  
           <div class="field">
-            <h3>Como pode ser servida</h3>
+            <h3>Como Servir</h3>
             <input id="comoServir" name="comoServir" placeholder="Como Servir">
           </div>
           <div class="field">
@@ -216,22 +359,26 @@ if (localStorage.getItem("nutri_admin") !== "true") {
       <ul id="listaRelacionadas"></ul>
 
       <div id="relacionadasContainer"></div>
-      <button onclick="adicionarRelacionada()" class="btn-gravar">+ Adicionar relacionada</button>
+      <button type="button" onclick="adicionarRelacionada()">
+      Adicionar relacionada
+      </button>
 
        <br>
-       
-
+    
         <!-- Sugerir relacionadas -->
         <h3>Sugestões automáticas</h3>
 
-      <div id="sugestoesAutomaticas">
-          <hr style="height: 3px; background-color: red; border: none;">
+      <div id="sugestoesAutomaticas"></div>
+      <hr style="height: 3px; background-color: red; border: none;">
+      
+      <div class="grid-row">
           <div class="field">
-             <div id="listaMise"></div>
+            <h3> Mise en place </h3>
+            <div id="listaMise"></div>
                 <button type="button" onclick="adicionarMise()" class="btn-gravar">
                 + Adicionar item
                 </button>
-          </div>    
+           </div>    
           <div class="field">
              <h3>Conservação</h3>
              <div id="listaConservacao"></div>
@@ -240,7 +387,7 @@ if (localStorage.getItem("nutri_admin") !== "true") {
               + Adicionar item
               </button>
           </div>
-   </div>
+        </div>
        <hr style="height: 3px; background-color: red; border: none;">
        <br>
         
@@ -259,12 +406,18 @@ if (localStorage.getItem("nutri_admin") !== "true") {
         + Adicionar passo
         </button>
 
-        <h3>Medidas Caseiras</h3>
-        <textarea id="medidas" name="medidas"  rows="10"></textarea>
         <hr style="height: 3px; background-color: red; border: none;">
         <br>
 
         <h3>Tabela Nutricional</h3>
+        <p>Frase nutricional</p>
+        <!- frase acrescida em 08/05/2026 -->
+          
+        <input 
+          id="fraseNutricional" 
+          name="fraseNutricional"
+          placeholder="Valores aproximados para uma dieta de 2.000 Cal diárias">
+
         <p> Porção</p>
         <input id="porcao" name="porcao"  placeholder="Porção">
         <p> Calorias</p>
@@ -283,7 +436,17 @@ if (localStorage.getItem("nutri_admin") !== "true") {
         <input id="sodio" name="sodio" placeholder="Sódio">
         <p> Açucar</p>
         <input id="acucar" name="acucar" placeholder="Açúcar">
-
+        <p> Cafeína</p>
+        <input id="cafeina" name="cafeina" placeholder="cafeina">
+         <p> Gorduras Trans</p>
+          <input id="gordurasTran" name="gordurasTran" placeholder="Gorduras Trans">
+         <p> Colesterol</p>
+         <input id="colesterol" name="colesterol" placeholder="Colesterol">
+          <p> Cãlcio</p>
+         <input id="calcio" name="calcio" placeholder="Cálcio">
+         <p> Potássio</p>
+         <input id="potassio" name="potassio" placeholder="Potássio">
+        
       <h3>Premium</h3>
       <h3>Substituições na receita</h3>
       <textarea id="substituicoes" name="substituicoes" placeholder="Substituições"></textarea>
@@ -292,33 +455,60 @@ if (localStorage.getItem("nutri_admin") !== "true") {
       <textarea id="dicas" name="dicas" placeholder="Dicas"></textarea>
       <br>
       <h3>Comentário Nutricional</h3>
-      <textarea id="comentario" name="comentario" placeholder="Comentário Nutricional"></textarea>
+      <textarea id="comentarioNutri" name="comentarioNutri" placeholder="Comentário Nutricional"></textarea>
 
       <h3>Lista de Compras</h3>
       <div id="listaComprasContainer"></div>
-
       <button type="button" onclick="addCompra()" class="btn-gravar">
       + Adicionar item
       </button>
 
-        <div id="acoesEditor"></div>
-        <br><br>
+     <div id="acoesEditor"></div>
+      <br>
 
-      <button onclick="salvarReceita('rascunho')" class="btn-gravar">
+      <!-- inserir novos campos - 08/05/2026 -->
+      <hr style="height: 3px; background-color: #ff9800; border: none;">
+
+      <h3> 📖 Texto para card e introdução</h3>
+
+      <div class="field">
+        <h3>Frase Curta</h3>
+        <input 
+          id="fraseCurta" 
+          name="fraseCurta"
+          placeholder="Resumo curto da receita">
+      </div>
+
+      <div class="field">
+        <h3>Introdução</h3>
+        <textarea 
+          id="introducao" 
+          name="introducao"
+          rows="6"
+          placeholder="Digite a introdução da receita. Uma linha por parágrafo."></textarea>
+      </div>
+
+      <!-- Botões para salvar -->
+      <button type="button" onclick="salvarReceita('rascunho')" class="btn-gravar">
       💾 Salvar rascunho
       </button>
 
-      <button onclick="salvarReceita('publicado')" class="btn-gravar">
+      <button type="button" onclick="salvarReceita('publicado')" class="btn-gravar">
       🚀 Publicar receita
       </button>
-        <button onclick="previewReceita()" class="btn-gravar">👁 Preview</button>
+      <button type="button" onclick="duplicarReceita()" class="btn-gravar">
+      📄 Duplicar receita
+      </button>
+        <button type="button" onclick="previewReceita()" class="btn-gravar">👁 Preview</button>
     </form>
 </section>
 
 </main>
 
+<script src="js/mensagens.js" defer></script>
 <script src="/admin/js/dashboard.js" defer></script>
 <script src="/admin/js/admin-auth.js" defer></script>
+
 <script>
 function logout() {
   localStorage.removeItem("nutri_admin");

@@ -53,3 +53,52 @@ function preencherFormulario(data) {
   document.querySelector('[name="calorias"]').value =
     data.nutricional.calorias;
 }
+
+//
+function ativarListaCompras(receita, conteudo) {
+
+  const btn = document.getElementById("btnListaCompras");
+  if (!btn) return;
+
+  btn.addEventListener("click", () => {
+
+    let lista = JSON.parse(localStorage.getItem("listaCompras")) || [];
+    let ingredientes = [...(conteudo.ingredientes || [])];
+
+    ingredientes.forEach(item => {
+      if (!lista.includes(item)) lista.push(item);
+    });
+
+    localStorage.setItem("listaCompras", JSON.stringify(lista));
+    window.location.href = "lista-compras.html";
+
+  });
+
+}
+
+//
+/ ===============================
+// LISTA DE COMPRAS
+// ===============================
+function ativarListaCompras(receita, conteudo) {
+
+  const btn = document.getElementById("btnListaCompras");
+  if (!btn) return;
+
+  btn.addEventListener("click", () => {
+
+    const listaAtual = JSON.parse(localStorage.getItem("listaCompras")) || [];
+
+    const novosItens = (conteudo.ingredientes || []).map(item => ({
+      nome: item,
+      categoria: "Outros"
+    }));
+
+    const listaAtualizada = [...listaAtual, ...novosItens];
+
+    localStorage.setItem("listaCompras", JSON.stringify(listaAtualizada));
+    localStorage.setItem("ultimaReceita", receita.titulo);
+
+    window.location.href = "lista-compras.html";
+  });
+}

@@ -1,0 +1,84 @@
+/* Tentativa de melhorar a aparência de história. receita.html - Criado 26/04/2026 */
+
+..editorial {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #2c3e50;
+}
+
+/* ORIGEM (tipo citação elegante) */
+.editorial-origem {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #1e293b;
+  border-left: 4px solid #007bff;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* CURIOSIDADE (bloco leve, sem parecer card) */
+.editorial-curiosidade {
+  background: #f8fafc;
+  padding: 15px 18px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: #334155;
+}
+
+/* SUBTÍTULO */
+.editorial-subtitulo {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+/* LISTA */
+.editorial-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ITEM */
+.editorial-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+/* NÚMERO DISCRETO (estilo revista) */
+.editorial-num {
+  font-weight: 700;
+  color: #007bff;
+  min-width: 30px;
+}
+
+/* TEXTO */
+.editorial-item p {
+  margin: 0;
+  color: #444;
+}
+
+.editorial-img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.editorial-img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.editorial-img img:hover {
+  transform: scale(1.03);
+}

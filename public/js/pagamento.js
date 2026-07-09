@@ -57,7 +57,7 @@ app.post("/checkout", async (req, res) => {
   const preference = {
     items: [
       {
-        title: "Assinatura Nutrichef Premium",
+        title: "Assinatura NutriDicas Premium",
         quantity: 1,
         unit_price: 19.90
       }

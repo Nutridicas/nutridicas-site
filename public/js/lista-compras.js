@@ -1,413 +1,507 @@
-document.addEventListener("DOMContentLoaded", () => {
+// 1. DECLARE AS VARIÁVEIS NO TOPO (GLOBAL)
+// ==========================================================================
+// 1. MOTOR DE CAPTURA PARA RECEITA.HTML (Executa na página da receita)
+// alterada 17/05/2026
+// ==========================================================================
 
-  const container = document.getElementById("listaCategorias");
-  const contador = document.getElementById("contador");
+function ativarBotaoListaCompras(receita, versaoAtual) {
+  const btn = document.getElementById("btnListaCompras");
+  if (!btn) return;
+
+  btn.addEventListener("click", () => {
+    let listaAtual = JSON.parse(localStorage.getItem("listaCompras")) || [];
+
+    let novosIngredientes = [];
+    if (versaoAtual.conteudo && Array.isArray(versaoAtual.conteudo.ingredientes)) {
+      novosIngredientes = versaoAtual.conteudo.ingredientes;
+    } else if (versaoAtual.ingredientes && Array.isArray(versaoAtual.ingredientes)) {
+      novosIngredientes = versaoAtual.ingredientes;
+    } else if (versaoAtual.conteudo && typeof versaoAtual.conteudo === "string") {
+      novosIngredientes = processarIngredientes(versaoAtual.conteudo);
+    }
+
+    if (novosIngredientes.length === 0) {
+      if (typeof mostrarAvisoToast === "function") {
+        mostrarAvisoToast("Nenhum ingrediente encontrado para adicionar!");
+      } else {
+        alert("Nenhum ingrediente encontrado para adicionar!");
+      }
+      return;
+    }
+
+    novosIngredientes.forEach(ingNome => {
+      listaAtual.push({
+        nome: ingNome.trim(),
+        quantidade: 1,
+        categoria: "Outros",
+        unidade: "",
+        receitaOrigem: `${receita.titulo} (${versaoAtual.nome || "Versão Padrão"})`
+      });
+    });
+
+    localStorage.setItem("listaCompras", JSON.stringify(listaAtual));
+
+    if (typeof mostrarAvisoToast === "function") {
+      mostrarAvisoToast("Ingredientes adicionados à Lista de Compras! 🛒");
+    } else {
+      alert("Ingredientes adicionados à Lista de Compras! 🛒");
+    }
+  });
+}
+window.ativarBotaoListaCompras = ativarBotaoListaCompras;
+
+// ==========================================================================
+// 2. DECLARAÇÃO DE VARIÁVEIS GLOBAIS
+// ==========================================================================
+let itens = JSON.parse(localStorage.getItem("listaCompras")) || [];
+let comprados = JSON.parse(localStorage.getItem("comprados")) || [];
+
+// ==========================================================================
+// 3. FUNÇÕES DE APOIO E NORMALIZAÇÃO
+// ==========================================================================
+function limparTexto(txt) {
+  if (!txt) return "";
+  return txt
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .replace("madura", "")
+    .replace("maduro", "")
+    .replace("picado", "")
+    .replace("picada", "")
+    .replace("ralado", "")
+    .replace("ralada", "")
+    .trim();
+}
+
+function identificarIngrediente(txt) {
+  return {
+    nome: txt,
+    categoria: "Outros",
+    unidade: ""
+  };
+}
+
+function organizarCategorias(lista) {
+  return lista.reduce((acc, item) => {
+    const cat = item.categoria || "Outros";
+    if (!acc[cat]) acc[cat] = [];
+    return acc;
+  }, {});
+}
+
+function normalizarItens() {
+  const mapa = {};
+
+  itens
+    .filter(Boolean)
+    .forEach(item => {
+      if (typeof item === "string") {
+        item = { nome: item, quantidade: 1 };
+      }
+
+      const textoLimpo = limparTexto(item.nome);
+      const ingrediente = identificarIngrediente(textoLimpo);
+      const chave = item.nome.trim().toLowerCase();
+
+      if (!mapa[chave]) {
+        mapa[chave] = {
+          nome: item.nome, 
+          categoria: ingrediente.categoria,
+          unidade: ingrediente.unidade,
+          quantidade: item.quantidade || 1,
+          receitaOrigem: item.receitaOrigem || "" 
+        };
+      } else {
+        mapa[chave].quantidade += item.quantidade || 1;
+      }
+    });
+
+  itens = Object.values(mapa);
+  localStorage.setItem("listaCompras", JSON.stringify(itens));
+}
+
+function atualizarProgresso() {
   const barra = document.getElementById("barraProgresso");
-
-  let itens = JSON.parse(localStorage.getItem("listaCompras")) || [];
-  let comprados = JSON.parse(localStorage.getItem("comprados")) || [];
-
-  // ============================
-  // 🧠 NORMALIZAR DADOS ANTIGOS
-  // ============================
-  if (itens.length && typeof itens[0] === "string") {
-    itens = itens.map(nome => ({
-      nome,
-      categoria: "Outros"
-    }));
-    localStorage.setItem("listaCompras", JSON.stringify(itens));
-  }
-
-// ============================
-// 🛡️ GARANTIR CATEGORIA - 21/02/26
-// ============================
-
-itens = itens
-  .filter(item => item && item.nome)
-  .map(item => ({
-    nome: item.nome,
-    categoria: item.categoria || "Outros"
-  }));
-
-localStorage.setItem("listaCompras", JSON.stringify(itens));
-
-
-  // ============================
-  // 📊 PROGRESSO
-  // ============================
-  function atualizarProgresso() {
-
-  const nomesValidos = itens.map(i => i.nome);
-  comprados = comprados.filter(nome => nomesValidos.includes(nome));
-
-  localStorage.setItem("comprados", JSON.stringify(comprados));
+  const contador = document.getElementById("contador");
 
   const total = itens.length;
   const feitos = itens.filter(i => comprados.includes(i.nome)).length;
+  const porcentagem = total === 0 ? 0 : Math.round((feitos / total) * 100);
 
-  const porcentagem = total === 0 ? 0 : (feitos / total) * 100;
-
-  if (barra) barra.style.width = porcentagem + "%";
+  if (barra) barra.style.width = `${porcentagem}%`;
   if (contador) contador.textContent = `${feitos} de ${total} comprados`;
 }
 
-//
-// ============================
-// 🧠 NORMALIZAR FORMATO (STRING → OBJETO)
-// ============================
-itens = itens
-  .filter(item => item) // remove null/undefined
-  .map(item => {
+function processarIngredientes(texto) {
+  return texto
+    .split("\n")
+    .map(l => l.trim())
+    .filter(l => l.length > 0)
+    .filter(l => !/^(creme:|camadas:|modo|preparo)/i.test(l))
+    .map(l => l
+      .replace(/\(.*?\)/g, "")
+      .replace(/\d+\s*(ml|g|colher|xícara)?/gi, "")
+      .trim()
+    );
+}
 
-    // Se for string antiga
-    if (typeof item === "string") {
-      return {
-        nome: item,
-        categoria: "Outros"
-      };
-    }
+function toggleItem(nome) {
+  if (comprados.includes(nome)) {
+    comprados = comprados.filter(i => i !== nome);
+  } else {
+    comprados.push(nome);
+  }
+  localStorage.setItem("comprados", JSON.stringify(comprados));
+  renderizar();
+}
+window.toggleItem = toggleItem;
 
-    // Se já for objeto correto
-    if (item.nome) {
-      return {
-        nome: item.nome,
-        categoria: item.categoria || "Outros"
-      };
-    }
-
-    return null;
-  })
-  .filter(Boolean);
-
-localStorage.setItem("listaCompras", JSON.stringify(itens));
-
-
-  // ============================
-  // 🎨 RENDERIZAR - Atualizada para somar unidades - 22/02/26
-  // ============================
-  function renderizar() {
-
-  const itens = JSON.parse(localStorage.getItem("listaCompras")) || [];
+// ==========================================================================
+// 4. RENDERIZAÇÃO DA PÁGINA (ORGANIZADA POR BLOCOS DE RECEITAS)
+// ==========================================================================
+function renderizar() {
   const container = document.getElementById("listaCategorias");
-
   if (!container) return;
-
+  
   container.innerHTML = "";
-
+  itens = JSON.parse(localStorage.getItem("listaCompras")) || [];
+  
   if (itens.length === 0) {
-    container.innerHTML = "<p style='opacity:.6'>Nenhum item na lista</p>";
+    container.innerHTML = "<p style='opacity:.6; font-family: sans-serif;'>Nenhum item na lista</p>";
+    atualizarProgresso();
     return;
   }
 
-  const categorias = {};
-
+  // Filtro anti-duplicação de renderização
+  const itensUnicos = [];
+  const nomesVistos = new Set();
+  
   itens.forEach(item => {
-    const cat = item.categoria || "Outros";
-
-    if (!categorias[cat]) {
-      categorias[cat] = [];
+    if (!item || !item.nome) return;
+    const nomeChave = item.nome.trim().toLowerCase();
+    if (!nomesVistos.has(nomeChave)) {
+      nomesVistos.add(nomeChave);
+      itensUnicos.push(item);
     }
+  });
+  
+  itens = itensUnicos;
 
-    categorias[cat].push(item);
+  // Agrupa os ingredientes por receita de origem
+  const receitasAgrupadas = {};
+  itens.forEach(item => {
+    const nomeReceita = item.receitaOrigem || "Minhas Receitas";
+    if (!receitasAgrupadas[nomeReceita]) {
+      receitasAgrupadas[nomeReceita] = [];
+    }
+    receitasAgrupadas[nomeReceita].push(item);
   });
 
-  Object.keys(categorias).forEach(cat => {
+  // Renderiza cada receita em seu bloco correspondente
+  Object.keys(receitasAgrupadas).forEach(nomeDaReceita => {
+    const blocoReceita = document.createElement("div");
+    blocoReceita.className = "receita-bloco-grupo";
+    blocoReceita.style.cssText = "margin-bottom: 35px; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e5e7eb; font-family: sans-serif;";
 
-    const bloco = document.createElement("div");
-    bloco.className = "categoria-bloco";
+    const tituloHeader = document.createElement("h2");
+    tituloHeader.style.cssText = "color: #2f8f83; font-size: 18px; margin: 0 0 15px 0; border-left: 4px solid #2f8f83; padding-left: 10px; font-weight: 700;";
+    tituloHeader.innerText = `📋 Ingredientes de: ${nomeDaReceita}`;
+    blocoReceita.appendChild(tituloHeader);
 
-    const titulo = document.createElement("div");
-    titulo.className = "categoria-titulo";
-    titulo.textContent = "📦 " + cat;
-
-    bloco.appendChild(titulo);
-
-    categorias[cat].forEach(item => {
-
-      const card = document.createElement("div");
-      card.className = "item-card";
-
-      if (comprados.includes(item.nome)) {
-        card.classList.add("comprado");
-      }
-
-      const span = document.createElement("span");
-
-      // 🔥 AQUI ESTÁ A MUDANÇA
-      let texto;
-
-      if (item.quantidade > 1) {
-        texto = `${item.quantidade} ${pluralizar(item.unidade || item.nome, item.quantidade)} ${item.unidade ? item.nome : ""}`;
-      } else {
-        texto = `1 ${item.unidade ? item.unidade + " " + item.nome : item.nome}`;
-      }
-
-      span.textContent = texto.trim();
-
-      const btn = document.createElement("button");
-      btn.textContent = "✔️";
-      btn.addEventListener("click", () => toggleItem(item.nome));
-
-      card.appendChild(span);
-      card.appendChild(btn);
-      bloco.appendChild(card);
+    const categorias = {};
+    receitasAgrupadas[nomeDaReceita].forEach(item => {
+      const cat = item.categoria || "Outros";
+      if (!categorias[cat]) categorias[cat] = [];
+      categorias[cat].push(item);
     });
 
-    container.appendChild(bloco);
+    Object.keys(categorias).forEach(cat => {
+      const subBloco = document.createElement("div");
+      subBloco.style.margin = "10px 0";
+      
+      if (Object.keys(categorias).length > 1 || cat !== "Outros") {
+        subBloco.innerHTML = `<div style="font-weight: 600; color: #4b5563; font-size: 13px; margin-bottom: 6px; text-transform: uppercase;">📦 ${cat}</div>`;
+      }
+
+      categorias[cat].forEach(item => {
+        const card = document.createElement("div");
+        card.className = `item-card ${comprados.includes(item.nome) ? 'comprado' : ''}`;
+       
+        const jaTemNumeroNoInicio = /^\d/.test(item.nome);
+        const textoExibicao = (item.quantidade > 1 && !jaTemNumeroNoInicio)
+         ? `${item.quantidade} ${item.unidade || ""} ${item.nome}` 
+         : item.nome;
+
+        card.innerHTML = `<span>${textoExibicao}</span><button onclick="toggleItem('${item.nome}')" style="cursor:pointer;">✔️</button>`;
+        subBloco.appendChild(card);
+      });
+      
+      blocoReceita.appendChild(subBloco);
+    });
+
+    container.appendChild(blocoReceita);
   });
 
   atualizarProgresso();
 }
 
-//===========================
-// Função adicionar Receitas
-//============================
-function adicionarReceita(receitaSelecionada) {
-
- console.log("Receita recebida:", receitaSelecionada);
- 
-  const itensAtuais = JSON.parse(localStorage.getItem("listaCompras")) || [];
-
-  const novosItens = receitaSelecionada.ingredientes.map(i => ({
-    nome: i,
-    categoria: "Outros"
-  }));
-
-  const listaAtualizada = [...itensAtuais, ...novosItens];
-
-  localStorage.setItem("listaCompras", JSON.stringify(listaAtualizada));
-
-  renderizar();
-}
-
-  // ============================
-  // ✔️ TOGGLE ITEM
-  // ============================
-  function toggleItem(nome) {
-
-    if (comprados.includes(nome)) {
-      comprados = comprados.filter(i => i !== nome);
-    } else {
-      comprados.push(nome);
-    }
-
-    localStorage.setItem("comprados", JSON.stringify(comprados));
-    renderizar();
+// ==========================================================================
+// 5. EVENTOS DO PAINEL SAAS (DOM CONTENT LOADED)
+// ==========================================================================
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof normalizarItens === "function" && document.getElementById("listaCategorias")) {
+    normalizarItens();
   }
-
-  window.toggleItem = toggleItem;
-
   
-// ============================
-// 🔁 UNIFICAR AUTOMATICAMENTE (VERSÃO SEGURA)
-// ============================
-function agruparPendentes(lista) {
+  renderizar();
 
-  const mapa = {};
+    // ------------------------------------------------------------------------
+  // 🖨️ EXPORTAR PDF (VERSÃO FINAL COM RODAPÉ CORPORATIVO E HORÁRIO)
+  //  inserida e alterado 17/05/2026
+  // ------------------------------------------------------------------------
+  document.getElementById("btnPDF")?.addEventListener("click", () => {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
 
-  lista.forEach(item => {
-
-    if (!item) return;
-
-    let nome = typeof item === "string" ? item : item.nome;
-    let categoria = typeof item === "object" ? (item.categoria || "Outros") : "Outros";
-
-    const match = nome.match(/^(\d+)\s+(.*)$/);
-
-    let quantidade = 1;
-    let nomeLimpo = nome.toLowerCase().trim();
-
-    if (match) {
-      quantidade = parseInt(match[1]);
-      nomeLimpo = match[2].toLowerCase().trim();
+  function sanitizarParaPDF(texto) {
+      if (!texto) return "";
+      return texto
+        .replace(/[\x00-\x1F\x7F-\x9F]/g, "") 
+        .replace(/[^\x20-\x7E\xA0-\xFF]/g, "")
+        .trim();
     }
 
-    if (!mapa[nomeLimpo]) {
-      mapa[nomeLimpo] = {
-        quantidade: 0,
-        categoria
-      };
+    // 1. CABEÇALHO: Barra verde principal do topo
+    doc.setFillColor(47, 143, 131); 
+    doc.rect(0, 0, 210, 35, "F"); 
+
+    doc.setTextColor(255, 255, 255);
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(22);
+    doc.text("NutriDicas", 20, 22);
+
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(10);
+    doc.text("Sua Lista de Compras Saudável", 20, 29);
+
+    // Data e Hora no canto direito do cabeçalho
+    const agora = new Date();
+    const dataHoje = agora.toLocaleDateString("pt-BR");
+    const horaHoje = agora.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+    
+    doc.setFontSize(9);
+    doc.text(`Gerado em: ${dataHoje}`, 160, 20);
+    doc.text(`Horário: ${horaHoje}`, 160, 26); // Adiciona a hora abaixo da data
+
+    let linhaVertical = 50; 
+    doc.setTextColor(51, 51, 51);
+
+    const receitasAgrupadas = {};
+    itens.forEach(item => {
+      const nomeReceita = item.receitaOrigem || "Outras Receitas";
+      if (!receitasAgrupadas[nomeReceita]) receitasAgrupadas[nomeReceita] = [];
+      receitasAgrupadas[nomeReceita].push(item);
+    });
+
+    Object.keys(receitasAgrupadas).forEach(nomeDaReceita => {
+      if (linhaVertical > 250) { doc.addPage(); linhaVertical = 25; }
+
+      const tituloReceitaTratado = sanitizarParaPDF(nomeDaReceita);
+
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(13);
+      doc.setTextColor(47, 143, 131);
+      
+      doc.text(`Lista de: ${tituloReceitaTratado}`, 20, linhaVertical, { maxWidth: 170 });
+      linhaVertical += 10;
+
+      doc.setDrawColor(229, 231, 235);
+      doc.line(20, linhaVertical - 5, 190, linhaVertical - 5);
+
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(11);
+      doc.setTextColor(75, 85, 99);
+
+      receitasAgrupadas[nomeDaReceita].forEach(item => {
+        if (linhaVertical > 265) { doc.addPage(); linhaVertical = 25; }
+
+        const jaTemNumero = /^\d/.test(item.nome);
+        const textoItemRaw = (item.quantidade > 1 && !jaTemNumero)
+          ? `${item.quantidade} ${item.unidade || ""} ${item.nome}`
+          : item.nome;
+
+        const ingredienteTratado = sanitizarParaPDF(textoItemRaw);
+
+        doc.rect(20, linhaVertical - 3.5, 4, 4); 
+        doc.text(ingredienteTratado, 28, linhaVertical, { maxWidth: 160 });
+        linhaVertical += 8; 
+      });
+      linhaVertical += 6; 
+    });
+
+    // 2. CONFIGURAÇÃO DO RODAPÉ EM TODAS AS PÁGINAS (Com cor suave e endereço)
+    const totalPaginas = doc.internal.getNumberOfPages();
+    for (let i = 1; i <= totalPaginas; i++) {
+      doc.setPage(i);
+      
+      // Barra decorativa inferior com cor verde bem suave
+      doc.setFillColor(240, 253, 244); 
+      doc.rect(0, 280, 210, 17, "F"); 
+
+      // Linha fina divisória superior no rodapé
+      doc.setDrawColor(220, 252, 231);
+      doc.line(0, 280, 210, 280);
+
+      // Link do site no canto esquerdo do rodapé suave
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(9);
+      doc.setTextColor(47, 143, 131);
+      doc.text("www.nutridicas.com.br", 20, 290);
+
+      // Paginação no canto direito do rodapé suave
+      doc.setFont("helvetica", "normal");
+      doc.setTextColor(107, 114, 128);
+      doc.text(`Página ${i} de ${totalPaginas}`, 170, 290);
     }
 
-    mapa[nomeLimpo].quantidade += quantidade;
+    doc.save("lista-de-compras-nutridicas.pdf");
   });
 
-  return Object.keys(mapa).map(nome => ({
-    nome,
-    quantidade: mapa[nome].quantidade,
-    categoria: mapa[nome].categoria
-  }));
-}
 
-  // ============================
-  // 🗑️ LIMPAR
-  // ============================
+  // 📱 GERAR QR CODE
+  document.getElementById("btnQR")?.addEventListener("click", () => {
+    const container = document.getElementById("qrContainer");
+    const canvas = document.getElementById("canvasQR");
+    if (!container || !canvas) return;
+
+    if (container.style.display === "block") {
+      container.style.display = "none";
+      return;
+    }
+
+    if (itens.length === 0) {
+      alert("Adicione ingredientes antes de gerar o QR Code!");
+      return;
+    }
+
+    let textoParaCelular = "🛒 MINHA LISTA NUTRIDICAS:\n\n";
+    const receitasAgrupadas = {};
+    
+    itens.forEach(item => {
+      const nomeReceita = item.receitaOrigem || "Outras Receitas";
+      if (!receitasAgrupadas[nomeReceita]) receitasAgrupadas[nomeReceita] = [];
+      receitasAgrupadas[nomeReceita].push(item);
+    });
+
+    Object.keys(receitasAgrupadas).forEach(nome => {
+      textoParaCelular += `🔹 ${nome.toUpperCase()}\n`;
+      receitasAgrupadas[nome].forEach(item => {
+        const jaTemNumero = /^\d/.test(item.nome);
+        const textoItem = (item.quantidade > 1 && !jaTemNumero)
+          ? `${item.quantidade} ${item.unidade || ""} ${item.nome}`
+          : item.nome;
+        textoParaCelular += `[ ] ${textoItem}\n`;
+      });
+      textoParaCelular += "\n";
+    });
+
+    window.QRCode.toCanvas(canvas, textoParaCelular, {
+      width: 200,
+      margin: 1,
+      color: { dark: "#111827", light: "#ffffff" }
+    }, (erro) => {
+      if (erro) {
+        console.error("Erro no QR Code:", erro);
+      } else {
+        container.style.display = "block";
+      }
+    });
+  });
+
+  /// 📲 ENVIAR PARA WHATSAPP - 17/05/2026
+  // ------------------------------------------------------------------------
+  
+     document.getElementById("btnWhats")?.addEventListener("click", () => {
+
+      const itensAtuais = JSON.parse(localStorage.getItem("listaCompras")) || [];
+      const itensPendentes = itensAtuais.filter(
+        i => i && i.nome && !comprados.includes(i.nome)
+      );
+
+      if (itensPendentes.length === 0) {
+        alert("Sua lista está vazia ou você já comprou tudo! 🎉");
+        return;
+      }
+
+      const receitasAgrupadas = {};
+      itensPendentes.forEach(item => {
+        const nomeReceita = item.receitaOrigem || "Outras Receitas";
+
+        if (!receitasAgrupadas[nomeReceita]) {
+          receitasAgrupadas[nomeReceita] = [];
+        }
+        receitasAgrupadas[nomeReceita].push(item);
+      });
+
+      let mensagem = "🛒 *MINHA LISTA DE COMPRAS - NUTRIDICAS*\n\n";
+
+      Object.keys(receitasAgrupadas).forEach(nomeDaReceita => {
+
+        const tituloLimpo = nomeDaReceita
+          .replace(/[\x00-\x1F\x7F-\x9F]/g, "")
+          .trim();
+
+        mensagem += `📋 *${tituloLimpo.toUpperCase()}*\n`;
+
+        receitasAgrupadas[nomeDaReceita].forEach(item => {
+          const jaTemNumero = /^\d/.test(item.nome);
+
+          let textoItem = (
+            item.quantidade > 1 && !jaTemNumero
+          )
+            ? `${item.quantidade} ${item.unidade || ""} ${item.nome}`
+            : item.nome;
+
+          textoItem = textoItem
+            .replaceAll("<strong>", "*")
+            .replaceAll("</strong>", "*")
+            .replaceAll("<b>", "*")
+            .replaceAll("</b>", "*");
+
+          const textoItemLimpo = textoItem
+            .replace(/[\x00-\x1F\x7F-\x9F]/g, "")
+            .trim();
+
+          mensagem += `◽ ${textoItemLimpo}\n`;
+        });
+
+        mensagem += "\n";
+      });
+
+      mensagem += "_Gerado por NutriDicas.com.br_ 🌾";
+
+      // Copia em background
+      navigator.clipboard.writeText(mensagem).catch(() => {});
+
+      // Abre WhatsApp com mensagem pronta
+      const url = `https://wa.me/?text=${encodeURIComponent(mensagem)}`;
+
+      window.open(url, "_blank");      
+    })
+
+  // 🗑️ LIMPAR LISTA
   document.getElementById("btnLimpar")?.addEventListener("click", () => {
     localStorage.removeItem("listaCompras");
     localStorage.removeItem("comprados");
     itens = [];
     comprados = [];
+    
+    const qrContainer = document.getElementById("qrContainer");
+    if (qrContainer) qrContainer.style.display = "none";
+    
     renderizar();
   });
-
-  // ============================
-  // 🖨️ IMPRIMIR
-  // ============================
-  document.getElementById("btnPrint")?.addEventListener("click", () => {
-    window.print();
-  });
-
-  // ============================
-  // 🖨️ BOTÃO PDF
-  // ============================
-  document.getElementById("btnPDF")?.addEventListener("click", () => {
-
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF();
-
-  const nomeReceita =
-    localStorage.getItem("ultimaReceita") || "Lista-Nutrichef";
-
-  const pendentesRaw = itens.filter(i => !comprados.includes(i.nome));
-
-  if (pendentesRaw.length === 0) {
-    alert("Tudo comprado 🎉");
-    return;
-  }
-// começo
-   const tipoSelecionado = document.getElementById("tipoPDF").value;
-
-  // salva preferência
-  localStorage.setItem("tipoPDFPreferido", tipoSelecionado);
-
-  if (tipoSelecionado === "cupom") {
-    gerarPDFCupom();
-  } else {
-    gerarPDFPremium();
-  }
-
-});
-// fim
-  const pendentes = agruparPendentes(pendentesRaw);
-
-  // ===== CABEÇALHO MODERNO DO PDF =====
-  doc.setFillColor(16, 185, 129); // verde moderno
-  doc.rect(0, 0, 210, 35, "F");
-
-  doc.setTextColor(255, 255, 255);
-  doc.setFontSize(18);
-  doc.text("Nutrichef", 20, 18);
-
-  doc.setFontSize(12);
-  doc.text(nomeReceita, 20, 27);
-
-  // Reset cor
-  doc.setTextColor(0, 0, 0);
-
-  let y = 50;
-
-  const categorias = {};
-
-  pendentes.forEach(item => {
-    if (!categorias[item.categoria]) {
-      categorias[item.categoria] = [];
-    }
-    categorias[item.categoria].push(item);
-  });
-
-  Object.keys(categorias).forEach(cat => {
-
-    doc.setFont(undefined, "bold");
-    doc.setFontSize(13);
-    doc.text(cat.toUpperCase(), 20, y);
-    y += 10;
-
-    doc.setFont(undefined, "normal");
-    doc.setFontSize(12);
-
-    categorias[cat].forEach(item => {
-
-      const texto =
-  item.quantidade > 1
-    ? `☐ ${item.quantidade} ${pluralizar(item.unidade || item.nome, item.quantidade)} ${item.unidade ? item.nome : ""}`
-    : `☐ 1 ${item.unidade ? item.unidade + " " + item.nome : item.nome}`;
-
-      doc.text(texto, 25, y);
-      y += 8;
-
-      if (y > 270) {
-        doc.addPage();
-        y = 20;
-      }
-    });
-
-    y += 5;
-  });
-
-  // ===== RODAPÉ PREMIUM =====
-  doc.setFontSize(9);
-  doc.setTextColor(120);
-  doc.text(
-    "Gerado por Nutrichef • Lista inteligente de compras",
-    20,
-    290
-  );
-
-
-// Abrir PDF em nova aba
-  const blob = doc.output("blob");
-  const url = URL.createObjectURL(blob);
-  window.open(url, "_blank");
 });
 
-
-  // ============================
-  // 📲 WHATSAPP
-  // ============================
-  document.getElementById("btnWhats")?.addEventListener("click", () => {
-
-    const pendentes = itens
-      .filter(i => !comprados.includes(i.nome))
-      .map(i => `☐ ${i.nome}`)
-      .join("\n");
-
-    if (!pendentes) {
-      alert("Tudo comprado 🎉");
-      return;
-    }
-
-    const mensagem = `🛒 Minha Lista Nutrichef:\n\n${pendentes}`;
-
-    window.open(
-      `https://wa.me/?text=${encodeURIComponent(mensagem)}`,
-      "_blank"
-    );
-  });
-
-  renderizar();
-});
-
-//=============================
-// PLURAL INTELIGENTE DAS QUANTIDADES - 22/02/26
-//==================
-
-function pluralizar(palavra, quantidade) {
-
-  if (quantidade <= 1) return palavra;
-
-  if (palavra.endsWith("r"))
-    return palavra + "es"; // colher → colheres
-
-  if (palavra.endsWith("ão"))
-    return palavra.replace("ão", "ões");
-
-  if (palavra.endsWith("s"))
-    return palavra;
-
-  return palavra + "s";
-}
-
-//=======================
-//
 
 

@@ -1,0 +1,1834 @@
+/* Arquivo criado em 29/03/2026
+// Objetivo incial - carrossel*/
+
+/* Aplicando no site todo */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; /* Tamanho base ideal */
+    color: #334155;
+    line-height: 1.6;
+}
+
+/* Aplicando nos Títulos (H1, H2, H3) e nomes de destaque */
+h1, h2, h3, strong, .value-total {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.5px; /* Deixa o título mais "compacto" e moderno */
+}
+
+/* Ajuste fino para os detalhes da receita */
+.label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: #94a3b8; /* Cinza suave para não brigar com o valor */
+}
+
+.value, #avaliacaoMedia {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+/* Fim  */
+
+/* Novo design carrossel  */
+
+/* ===== SEÇÃO ===== */
+.related-section {
+  max-width: 1100px;
+  margin: 25px auto;
+  padding: 0 20px;
+}
+
+.section-title {
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: #1f2937;
+ margin-bottom: 24px;
+ text-align: center;
+}
+
+/* ===== Código do carrossel de receita.html */
+
+/* ===== WRAPPER ===== */
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+/* ===== VIEWPORT ===== */
+.carousel-viewport {
+   width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.carousel-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+/* ===== TRACK (lista) Carrossel de receita.html
+ relaciondas - Modidicado 26/04/2026    ===== */
+
+/* ===== TRACK ===== */
+.carousel-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  /* espaço extra no final */
+  padding: 12px 20px 12px 12px; /* aumentou 2 em cada  4 do valor original*/
+}
+
+/* ===== CARD ===== */
+
+.carousel-track > li {
+  flex: 0 0 140px; /* 140 */
+  list-style: none;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* ===== HOVER ===== */
+.carousel-track li:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.15),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  border: 1.5px solid red;
+}
+
+.carousel-track a {
+  text-decoration: none;
+  color: #334155;
+}
+
+/* ===== IMAGEM ===== */
+.carousel-track img {
+  width: 100%;
+  height: 140px; /* 140 */
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.carousel-track li:hover img {
+  transform: scale(1.05);
+}
+
+/* ===== TÍTULO ===== */
+.carousel-track p {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 900px) {
+  .carousel-track > li {
+    flex: 0 0 45%;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+
+  .nav-btn {
+    display: none;
+  }
+
+  .carousel-viewport {
+    scroll-snap-type: x mandatory;
+  }
+
+  .carousel-track > li {
+    flex: 0 0 80%;
+    scroll-snap-align: start;
+  }
+}
+
+/* ===== BOTÕES ===== */
+
+.nav-btn {
+     background: #ffffff !important; /* Branco sólido */
+    color: #333 !important; /* Seta escura */
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra visível */
+    opacity: 1 !important; /* Força a opacidade máxima */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+/* Para as variãveis no receitas.html 25/08/2026 */ 
+
+.nav-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: scale(1.1);
+}
+
+.nav-btn:hover:not(:disabled) {
+    background: #2563eb; /* Azul vibrante ao passar o mouse */
+    color: white;
+    border-color: #2563eb;
+    transform: scale(1.1);
+}
+
+.nav-btn:disabled {
+    opacity: 0.3 !important; /* Só fica claro quando não houver mais fotos */
+    cursor: not-allowed;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .carousel-track li {
+    flex: 0 0 70%;
+  }
+}
+
+@media (max-width: 768px) {
+    .nav-btn { display: none; } /* Em mobile, melhor usar scroll natural */
+    .carousel-viewport { overflow-x: auto; scroll-snap-type: x mandatory; }
+    .carousel-track li { scroll-snap-align: start; }
+}
+}
+/* fim */
+
+button {
+  cursor: pointer;
+  border: none;
+  background: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+
+/*  ==========================
+Modal para enviar mensagens 
+===============================*/
+
+.modal-mens {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-mens.hidden {
+  display: none;
+}
+
+.btn-util {
+    background: #ffffff;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+}
+
+.btn-util:hover {
+    background: #f1f5f9;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+/* Esconder o resto do site ao imprimir (apenas o modal aparece) */
+@media print {
+    body * { visibility: hidden; }
+    #meuModal, #meuModal * { visibility: visible; }
+    #meuModal { position: absolute; left: 0; top: 0; width: 100%; }
+    .close-modal, .modal-footer { display: none; }
+}
+.modal-box {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.modal-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2a7d4f;
+}
+
+.modal-box button {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 12px;
+  background: #2a7d4f;
+  color: white;
+  cursor: pointer;
+}
+/*===============================
+ Atualizado 30/03/2026 */
+
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px; /* 🔹 menor largura */
+  border-radius: 20px;
+  max-height: 80vh;
+  overflow-y: auto;
+
+  /* animação inicial */
+  transform: scale(0.85);
+  opacity: 0;
+  transition: all 0.25s ease;
+   position: relative; /* 🔥 ISSO resolve */
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* 🔹 Título principal */
+.modal-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2a7d4f;
+  text-align: center;
+}
+
+.modal-overlay {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.6); /* Azul marinho escuro translúcido */
+    backdrop-filter: blur(8px); /* Efeito de vidro foscado */
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+}
+
+/* 🔹 Cards */
+.card-secao {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card-secao h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* 🔹 Lista estilizada */
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item-lista {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+/* 🔹 Tabela bonita */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+thead {
+  background: #2a7d4f;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+/* 🔹 Scroll bonito */
+.modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px); /* efeito moderno */
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* ==============================
+Caixa do Modal */
+
+.modal-container {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: translateY(0);
+    animation: slideUp 0.4s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+/* quando abrir */
+.modal.show {
+  display: flex;
+  opacity: 1;
+   animation: fadeBg 0.3s ease;
+}
+
+/* animação ao abrir */
+.modal.show .modal-content {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*botão de fechar modal */
+.close-btn {
+ position: absolute;
+  top: 10px;
+  right: 15px;
+
+  background: #eee;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+
+  font-size: 20px;
+  color: #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  z-index: 10;
+}
+
+.close-btn:hover {
+  background: #2a7d4f;
+  color: white;
+}
+
+@keyframes fadeBg {
+  from { background: rgba(0,0,0,0); }
+  to   { background: rgba(0,0,0,0.6); }
+}
+
+/* Cabeçalho do Modal */
+.modal-header {
+    background: #f8fafc;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.modal-header h3 {
+    margin: 0;
+    color: #007bff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.close-modal {
+    background: #e2e8f0;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #64748b;
+    transition: 0.2s;
+}
+
+.close-modal:hover {
+    background: #f1f5f9;
+    color: #ef4444;
+}
+
+/* Conteúdo das Medidas */
+.modal-body {
+    padding: 25px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.medida-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px dashed #e2e8f0;
+}
+
+.medida-item:last-child { border: none; }
+
+.medida-nome { font-weight: 500; color: #475569; }
+.medida-valor { font-weight: 700; color: #007bff; }
+
+/* Rodapé */
+.modal-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 15px 25px;
+    background: #f8fafc;
+
+    text-align: right;
+   }
+
+.btn-fechar-footer {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Animações */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { 
+    from { transform: translateY(30px); opacity: 0; } 
+    to { transform: translateY(0); opacity: 1; } 
+}
+
+/* para implementar uma mudanã no details da receita*/
+
+
+/* Estilo do Container (Grid) */
+.grid-row-rec {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo da "Caixa" Details */
+details {
+    background: #f0f7ff; /* Azul bem clarinho */
+    border: 1px solid #d1e3f8;
+    border-radius: 12px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+details[open] {
+    background: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do Título (Summary) */
+summary {
+    list-style: none; /* Esconde a seta padrão */
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Adicionando uma setinha customizada que gira */
+summary::after {
+    content: '▼';
+    margin-left: auto;
+    font-size: 0.8rem;
+    transition: transform 0.3s;
+    color: #3498db;
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+/* Estilo da Lista Interna */
+ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #546e7a;
+    line-height: 1.6;
+}
+
+summary::-webkit-details-marker {
+    display: none; /* Esconde seta no Safari */
+}
+
+/* Melhorar aparência na páginda da receita  - inseridas 31/03/2026 */
+
+.info-receita-container {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--texto-cor);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Card dos Tempos de preparo */
+.glass-card {
+    background: var(--azul-fundo);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #d1e3f8;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 90px;
+}
+
+.glass-card h3 {
+    margin-top: 0;
+    color: var(--azul-principal);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tempo-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tempo-item .label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--texto-suave);
+}
+
+.tempo-item .value {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.value-total {
+    color: var(--azul-principal);
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+/* Grid de Stats (Rendimento, Dificuldade, etc) */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+.stat-box i {
+    color: var(--azul-principal);
+    font-size: 1.2rem;
+}
+
+.stat-box small {
+    display: block;
+    color: var(--texto-suave);
+    font-size: 0.8rem;
+}
+
+/* Avaliação e Estrelas */
+.avaliacao-container {
+    background: #fff9e6; /* Tom leve de dourado */
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.nota-numero {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f1c40f;
+    margin-right: 10px;
+}
+
+.interactive-stars span {
+    cursor: pointer;
+    font-size: 1.4rem;
+    filter: grayscale(1);
+    transition: 0.2s;
+}
+
+.interactive-stars span:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+/* configurar o badge-count receita.html na seção de ingredients */
+.header-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+/* =======================
+Seção dos ingredientes e preparo - 31/03/2026 
+visualização melhorada */
+
+/* Container das Seções */
+.section-receita {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    border: 1px solid #f0f4f8;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.header-section h2 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1e293b;
+    font-size: 1.5rem;
+} */
+
+/* Lista de Ingredientes com Check */
+.lista-check {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-check li {
+    padding: 10px 13px;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.lista-check li:hover {
+    background-color: #f8fafc;
+}
+
+/* Timeline do Modo de Preparo */
+.timeline-preparo {
+    list-style: none;
+    padding-left: 40px;
+    position: relative;
+      /* ESSA LINHA É A CHAVE: Cria um novo contador chamado 'passo' */
+    counter-reset: passo; 
+}
+
+/* 2. Incrementar o contador em cada item */
+.timeline-preparo li {
+    position: relative;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    color: #475569;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Números Estilizados em Azul */
+
+/* 3. Exibir o número sequencial */
+.timeline-preparo li::before {
+    /* INCREMENTA e EXIBE o contador 'passo' */
+    content: counter(passo);
+    counter-increment: passo;
+    
+    position: absolute;
+    left: -45px;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background: #007bff; /* Seu azul moderno */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+    z-index: 2;
+}
+
+/* 4. Linha vertical conectando os círculos (Opcional, fica lindo!) */
+.timeline-preparo li::after {
+    content: '';
+    position: absolute;
+    left: -29px; /* Alinhado ao centro do círculo */
+    top: 32px;
+    width: 2px;
+    height: calc(100% - 32px);
+    background: #e2e8f0;
+    z-index: 1;
+}
+
+/* Remove a linha do último item */
+.timeline-preparo li:last-child::after {
+    display: none;
+}
+
+/* Botões Modernos */
+.acoes-lista {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-moderno {
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(-2px);
+    opacity: 0.95;
+    will-change: transform;
+}
+
+.btn-moderno:active {
+    transform: scale(0.97);
+}
+
+.btn-azul {
+    background: #007bff;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.btn-azul:hover { background: #1557b0; transform: translateY(-2px); }
+
+.btn-suave {
+    background: #eef6ff;
+    color: #007bff;
+    border: 1px solid #d1e3f8;
+}
+
+.btn-suave:hover { background: #f1f3f4; }
+
+/* 10/04/2026 alteraado o botão */
+.btn-moderno:hover {
+    transform: translateY(-5px) scale(1.05);/* Sobe e cresce 5%Aumentamos de -2px para -5px */
+    filter: brightness(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra que surge ao subir */
+ }
+
+/* Meta (tempo e porções) */
+/* 27/02/2026*/
+.meta {
+  font-size: 13px;
+  color: #666;
+  margin-top: auto;
+}
+
+#caixatempo {
+   background-color: #e8f7e9; /* Um verde bem suave para não cansar a vista */
+  border: 2px solid #91df98; /* Borda verde um pouco mais escura que o fundo */
+  padding: 20px;
+  width: 100%;
+  max-width: 400px; /* Reduzi para ficar mais elegante, como um card lateral */
+  border-radius: 20px;
+  margin: 20px 0; /* Espaço em cima e embaixo */
+  font-family: sans-serif;
+}
+.meta-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.linha-tempo {
+  border: 0;
+  border-top: 1px solid #91df98;
+  margin: 10px 0;
+}
+
+.meta-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d5a27; /* Verde escuro para o resultado final */
+}
+
+/* O Itálico que você pediu no Total */
+.meta-total em {
+  font-style: italic;
+  color: #1b1b1b;
+}
+/* fim do teste */
+#caixaInfo {
+  background-color: #f0f0f0; /*#50d84everde bem claro*/
+  border: 3px solid; /* Uma borda normal */
+  
+  /* Use padding para dar espaço entre o texto e a borda */
+  padding: 5px; 
+  
+  /* Remova o height fixo para a caixa crescer com o texto */
+  width: auto; 
+  max-width: 800px; /* Limita a largura máxima 500 para 700*/
+  
+  /* Garante que o texto não quebre de forma estranha */
+  overflow: hidden; 
+  border-radius: 28px;
+}
+
+/*===================================
+Bloqueio de acesso ao conteudo dos accordions
+=============================================*/
+
+.btn-premium {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  background: #2e8b57;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/*=================*/
+/* Accordion base */
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.accordion summary {
+  padding: 14px 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+/*===================
+Para as redes sociais
+======================*/
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.social-links a {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #e6f4ed;
+  color: #2e8b57;
+  font-size: 14px;
+}
+
+
+
+.recipe-card {
+  min-width: 200px;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  position: relative;
+  transition: transform 0.25s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-6px);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 140px;  
+  object-fit: cover;
+}
+
+.recipe-info {
+  padding: 12px;
+}
+
+.recipe-info h3 {
+  font-size: 1rem;
+  margin: 0 0 6px;
+}
+
+/* Tags  Atualizada 27/02/2026 */
+.tags {
+  margin-top: auto;
+}
+
+.tag {
+  font-size: 12px;
+  background: #e6f4ea;
+  color: #2e7d32;
+  padding: 4px 8px;
+  border-radius: 20px;
+  margin-right: 6px;
+}
+
+/* Favorito ❤️  Atualizxada 27/02/2026*/
+.fav-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  padding: 6px 8px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.fav-btn.active {
+  color: red;
+}
+
+/*=====================
+  Melhorar aparência parte final do receita.html - inseria 05/04/2026 */
+
+  /* Layout Geral */
+.related-section, .info-footer-grid, .share-section {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px 20px;
+}
+
+.section-header { text-align: center; margin-bottom: 30px; }
+.section-header .subtitle { color: #ff6b6b; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
+
+/* Botões de Navegação Estilo Apple */
+.nav-btn {
+  background: #eee;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.nav-btn:hover { background: #ff6b6b; color: white; transform: scale(1.1); }
+
+/* Grid de Informações Inferior */
+.info-footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.info-card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  transition: 0.3s;
+}
+.info-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+.card-icon { font-size: 1.5rem; margin-bottom: 10px; }
+
+/* Botões de Compartilhamento */
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.share-link {
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+.insta { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.face { background: #1877f2; }
+.whats { background: #25d366; }
+.share-link:hover { transform: scale(1.05); filter: brightness(1.1); }
+
+@media (max-width: 768px) {
+  .info-footer-grid { grid-template-columns: 1fr; }
+  .share-buttons { flex-direction: column; align-items: center; }
+}
+
+/* para mostrar a historia da receita 07/04/2026*/
+
+.curiosity-box p {
+  font-size: 1rem;
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.historia-list {
+  padding-left: 20px;
+  margin-top: 4px;
+}
+
+.historia-list li {
+  margin-bottom: 6px;
+}
+
+/* Novo layout da hsitória das receitas - receita.html 
+  inserida - 23/04/2026 */
+
+  .curiosity-container {
+    background: linear-gradient(145deg, #ffffff, #f9fbf9);
+    border-radius: 30px;
+    padding: 40px;
+    border-left: 8px solid var(--primary);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    margin: 40px auto;
+    max-width: 850px;
+    position: relative;
+}
+
+.curiosity-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.pulse-icon {
+    font-size: 2rem;
+    background: #fff4e6;
+    padding: 10px;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.curiosity-body {
+    font-family: 'Georgia', serif; /* Fonte serifada para parecer história */
+    line-height: 1.3;
+    color: #444;
+    font-size: 1.1rem;
+}
+
+/* Estilo para a lista de "Quer saber mais?" */
+.historia-list {
+    margin-top: 20px;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.historia-list li {
+    list-style: none;
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    font-size: 0.95rem;
+    font-family: 'Inter', sans-serif;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+
+/* Bloco de Origem com destaque - inserida 23/04/2026*/
+.origem-texto {
+    font-size: 1.25rem;
+    color: var(--primary);
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 20px;
+    border-left: 4px solid var(--accent);
+}
+
+/* Citação da Curiosidade */
+blockquote.curiosidade-destaque {
+    font-size: 1.1rem;
+    color: #555;
+    background: #fdfaf6;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px 0;
+    border: 1px dashed #e0d5c5;
+}
+
+/* Título das curiosidades extras */
+.saiba-mais-header {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+/* Container Geral */
+.origem-wrapper {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Estilo para textos CURTOS (Ex: "Origem: França") */
+.origem-curta {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    min-width: 200px;
+}
+
+.origem-curta .origem-texto {
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilo para textos LONGOS (Aquelas explicações históricas) 
+Inserida 23/04/2026 */
+
+.origem-longa {
+    background: #fdfdfd;
+    border-left: 5px solid var(--accent);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+}
+
+.origem-longa .origem-texto {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Box de Curiosidade Refinado */
+.curiosidade-box-modern {
+    background: #fff8f0;
+    border: 1px solid #ffe8cc;
+    padding: 10px;
+    border-radius: 18px;
+    position: relative;
+    margin: 25px 0;
+}
+
+.label-curiosidade {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background: var(--accent);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 900;
+    padding: 3px 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.historia-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.historia-list li {
+    list-style: none;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #f0f0f0;
+    position: relative; /* Para posicionar o número */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+    transition: all 0.3s ease;
+}
+
+.historia-list li:hover {
+    border-color: var(--accent);
+    transform: translateY(-5px);
+}
+
+/* O Número Estilizado dos cards das dicas extras - receita.html 
+23/04/2026 */
+
+.card-number {
+   position: absolute;
+    top: -18px;            /* Faz ele "pendurar" na borda superior */
+    left: 20px;
+    
+    background-color: #0056b3 !important; /* Azul Moderno */
+    color: #ffffff !important;            /* Número Branco */
+    
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.1rem !important;         /* Aumentado para melhor leitura */
+    font-weight: 900 !important;
+    
+    padding: 8px 16px !important;
+    border-radius: 12px !important;
+    
+    /* Sombra intensa para efeito de profundidade (flutuante) */
+    box-shadow: 0 8px 15px rgba(0, 86, 179, 0.3) !important;
+    
+    z-index: 50 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia-list li p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Ajuste no card para não cortar o número r ficar pendurado*/
+
+.historia-list li {
+    position: relative !important;
+    overflow: visible !important; /* ESSENCIAL para o número aparecer fora */
+    margin-top: 25px !important;  /* Espaço para o número não bater no card acima */
+    background: #fff;
+    border: 1px solid #eef2ef;
+    padding: 35px 25px 25px 25px !important; /* Padding superior maior para o texto não bater no número */
+    border-radius: 20px;
+}
+
+/* Exibir a introduçaõ da receita, em rceita.html - inserida 06/05/2026 */
+/* Caixa moderna da introdução */
+.introducao-receita {
+   margin: 20px 0;
+   display: flex;
+   justify-content: center;
+}
+
+.intro-box {
+   max-width: 850px;
+   width: 100%;
+   background: linear-gradient(135deg, #ffffff, #f8f8f8);
+   border: 1px solid #ececec;
+   border-left: 6px solid #ffb347;
+   border-radius: 18px;
+   padding: 15px;
+   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+
+   font-size: 1.08rem;
+   line-height: 1.9;
+   color: #444;
+
+   text-align: justify;
+   text-justify: inter-word;
+
+   position: relative;
+}
+
+.intro-box p {
+   margin: 0;
+}
+
+.intro-box::before {
+   content: "✦";
+   position: absolute;
+   top: 14px;
+   right: 18px;
+   font-size: 2rem;
+   color: rgba(255, 179, 71, 0.25);
+}
+
+.intro-box p:last-child {
+   margin-bottom: 0;
+}
+
+.intro-box::first-letter {
+   font-size: 2rem;
+   font-weight: bold;
+   color: #ff9f1c;
+   float: left;
+   margin-right: 6px;
+   line-height: 1;
+}
+
+/* alinhas texto abaixo da imagem sobre história da rceitas
+    em receita.html - inserira 07/05/2026 */
+
+.texto-centralizado {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.84rem;
+}
+
+/* Bloco do botão para trocar a versão da receita em
+receita.html - inserida 16/05/2026 */
+
+/* Container que organiza os botões */
+#versoesReceita {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+/* Estilo moderno do botão */
+.btn-versao {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  width: 300px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Efeito ao passar o mouse */
+.btn-versao:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Efeito ao clicar */
+.btn-versao:active {
+  transform: translateY(0);
+  background-color: #d1d5db;
+}
+
+/* Classe opcional para destacar a versão que está ativa no momento */
+.btn-versao.ativo {
+  background-color: #e67e22; /* Cor de destaque (ex: laranja cenoura) */
+  color: white;
+  border-color: #d35400;
+}
+
+/* Estilo para quando o botão estiver desativado */
+.btn-versao:disabled {
+  background-color: #f3f4f6; /* Cor cinza clara */
+  color: #9ca3af;            /* Texto opaco/apagado */
+  border-color: #e5e7eb;
+  cursor: not-allowed;       /* Muda o cursor para um símbolo de proibido */
+  transform: none;           /* Remove os efeitos de movimento */
+  box-shadow: none;          /* Remove a sombra */
+  opacity: 0.6;              /* Deixa o botão levemente transparente */
+}
+
+/* Bloco do menu dropdown para trocar a versão da receita em
+receita.html - inserida 16/05/2026 */
+
+/* Container relativo para posicionar a lista */
+.dropdown-versoes {
+  position: relative;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+/* Botão principal de gatilho */
+.dropdown-trigger {
+  background-color: #ffffff;
+  color: #1f2937;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+
+.dropdown-trigger:hover {
+  border-color: #d1d5db;
+  background-color: #f9fafb;
+}
+
+/* Ícone de seta giratória */
+.dropdown-trigger::after {
+  content: '▼';
+  font-size: 10px;
+  transition: transform 0.2s;
+}
+.dropdown-versoes.aberto .dropdown-trigger::after {
+  transform: rotate(180deg);
+}
+
+/
+/* Menu flutuante oculto por padrão */
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: none;
+  min-width: 220px;
+  z-index: 50;
+  overflow: hidden;
+}
+
+/* Exibe o menu quando o container tiver a classe 'aberto' */
+.dropdown-versoes.aberto .dropdown-menu {
+  display: block;
+}
+
+/* Opções de dentro do menu */
+.dropdown-item {
+  width: 100%;
+  padding: 12px 16px;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #4b5563;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.dropdown-item:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+/* Destaque para a versão que já está ativa na tela */
+.dropdown-item.ativo {
+  background-color: #fff7ed;
+  color: #ea580c;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   1. ESTILOS BASE (Comportamento Padrão: MOBILE / CELULAR)
+    A ideia é mostrar dropdow no desktop e carrossel 'pilulas' no celular
+    inserida 16/05/2026 22h57m
+   ========================================================================== */
+
+/* No celular, o botão de gatilho vira apenas uma etiqueta discreta */
+
+.hibrido-trigger {
+  display: block;
+  background: none; 
+  border: none;
+  color: #6b7280;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0 4px 4px 4px;
+  cursor: default;
+}
+
+/* Remove a setinha no mobile */
+.hibrido-trigger::after { display: none; } 
+
+/* No celular, a lista vira um carrossel horizontal de pílulas */
+.hibrido-menu {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto; /* Permite arrastar para o lado */
+  padding: 6px 4px;
+  scrollbar-width: none; /* Esconde barra no Firefox */
+}
+.hibrido-menu::-webkit-scrollbar { display: none; } /* Esconde barra no Chrome/Safari */
+
+/* Estilo das pílulas no celular */
+.hibrido-item {
+  flex: 0 0 auto; /* Impede os botões de esmagarem */
+  background-color: #f3f4f6;
+  color: #4b5563;
+  padding: 8px 16px;
+  border-radius: 9999px; /* Formato pílula */
+  border: 1px solid #e5e7eb;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+/* Versão ativa no celular */
+.hibrido-item.ativo {
+  background-color: #111827; /* Cor preta/escura para destaque */
+  color: #ffffff;
+  border-color: #111827;
+}
+
+/* ==========================================================================
+   2. MEDIA QUERY (Transição automática para DESKTOP / COMPUTADOR)
+   ========================================================================== */
+@media (min-width: 768px) {
+  .comp-hibrido-versoes {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Botão principal com fundo verde bem suave */
+  .hibrido-trigger {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #1af413 ; /* Verde ultra suave */
+    color: #166534;            /* Texto verde escuro para contraste */
+    padding: 10px 18px;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: normal;
+    border: 1px solid #bbf7d0; /* Borda verde clara */
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(22, 101, 52, 0.04);
+    transition: all 0.2s ease;
+  }
+  
+  /* Efeito de passar o mouse no botão principal */
+  .hibrido-trigger:hover {
+    border-color: #86efac;     /* Borda um pouco mais firme */
+    background-color: #dcfce7; /* Fundo levemente mais verde */
+  }
+  
+  /* Setinha flutuante verde */
+  .hibrido-trigger::after {
+    display: inline-block;
+    content: '▼';
+    font-size: 9px;
+    color: #166534;
+    transition: transform 0.2s;
+  }
+  .comp-hibrido-versoes.aberto .hibrido-trigger::after {
+    transform: rotate(180deg);
+  }
+  
+  /* Menu suspenso (caixinha flutuante) */
+  .hibrido-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+    min-width: 220px;
+    z-index: 100;
+    overflow: hidden;
+    padding: 0;
+  }
+  .comp-hibrido-versoes.aberto .hibrido-menu {
+    display: flex;
+  }
+  
+  /* Itens normais dentro do menu */
+  .hibrido-item {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: none;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #4b5563;
+  }
+  
+  /* Efeito ao passar o mouse nas opções */
+  .hibrido-item:hover {
+    background-color: #f0fdf4; /* Fundo verde suave na seleção */
+    color: #166534;
+  }
+  
+  /* Item da versão que está ativa no momento */
+  .hibrido-item.ativo {
+    background-color: #dcfce7; /* Destaque verde para a versão aberta */
+    color: #15803d;
+    font-weight: 600;
+  }
+}
+
+/* fim do bloco */
+
+/* Animação de feedback para troca de conteúdo  16/05/2026*/
+/* Animação para a receita piscar ao mudar */
+
+.efeito-mudanca {
+  animation: piscarSuave 0.4s ease-out;
+}
+
+@keyframes piscarSuave {
+  0% { opacity: 0.3; transform: translateY(2px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   ESTILO DA NOTIFICAÇÃO FLUTUANTE (TOAST) - 16/05/2026
+   ========================================================================== */
+/* Notificação flutuante centralizada no topo */
+.toast-notificacao {
+  position: fixed;
+  top: 24px;                  /* Distância do topo da tela */
+  left: 50%;                  /* Centraliza na horizontal */
+  transform: translateX(-50%); /* Ajuste fino de centralização */
+  background-color: #10b981;  /* Verde moderno */
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;        /* Formato pílula elegante */
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  z-index: 2000;              /* Fica por cima de tudo, inclusive modais */
+  animation: surgirDoTopo 0.3s ease-out;
+}
+
+/* Nova animação: surge de cima para baixo */
+@keyframes surgirDoTopo {
+  from { transform: translate(-50%, -20px); opacity: 0; }
+  to { transform: translate(-50%, 0); opacity: 1; }
+}
+
+/* Exibir restrições receita.html - 09/06/2026 */
+
+/* Container principal que organiza o título e as tags */
+.container-restricoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff5f5; /* Fundo vermelho bem claro */
+    border-left: 4px solid #e53e3e; /* Barra lateral vermelha de destaque */
+}
+
+/* Estilo do título "Atenção:" */
+.titulo-restricoes {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #c53030;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Alinha as tags lado a lado e quebra linha se faltar espaço */
+.wrapper-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+/* Estilo de cada tag individual */
+.tag-restricao {
+    background-color: #fed7d7; /* Fundo vermelho suave */
+    color: #9b2c2c; /* Texto vinho escuro para contraste */
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 16px; /* Bordas arredondadas (estilo pílula) */
+    border: 1px solid #feb2b2;
+}
+
+/* Estilo caso a receita não tenha restrições */
+.container-restricoes.livre {
+    background-color: #f0fff4; /* Fundo verde claro */
+    border-left: 4px solid #38a169;
+}
+.tag-livre {
+    color: #22543d;
+    font-weight: 600;
+    font-size: 0.9rem;
+}

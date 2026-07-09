@@ -9,7 +9,7 @@
   <meta property="og:image" id="ogImg">
 
   <!-- 🔁 ALTERE APENAS ESTE TÍTULO -->
-  <title> Zero Lactose | Nutrichef Online</title>
+  <title> Zero Lactose | NutriDicas Online</title>
 
   <!-- Fonte -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -23,92 +23,94 @@
 <!-- ==================================
      HEADER (NÃO ALTERAR)
 ================================== -->
+<!-- HEADER Atualizado 08/03/2026 -->
 <header class="header">
-  <div class="header-container ">
-    <p>🍴</p>
-    <a href="index.html" class="logo">Nutrichef Online</a>
-    <p style="color: white;"> 🌱  | </p>
 
-    <nav id="menu">
-      <ul class="menu-principal">
-        <li><a href="index.html" class="active">Inicial</a></li>
+  <!-- TOPO: LOGO + BUSCA -->
+  <div class="header-top">
+      <div class="logo-area">
+          <span class="icon">🍴</span>
+          <a href="index.html" class="logo">NutriDicas</a>
+          <span class="icon">🌱</span>
+      </div>
 
-        <!-- Receitas -->
-
-        <li class="has-mega">
-          <button class="submenu-btn"> Gastronomia</button>
-          <ul class="mega-menu">
-            <li><a href="menu-tradicional.html"> <span> Receitas Tradicionais</span></a></li>
-            <li><a href="menu-restritivas.html">🍬 <span>Receitas para restrições Alimentares</span></a></li>
-          </ul>
-        </li>
-
-        <!-- Produtos -->
-        
-        <li class="has-mega">
-          <button class="submenu-btn">Produtos</button>
-          <ul class="mega-menu">
-            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
-            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
-          </ul>
-        </li>
-
-         <!-- Curiosidades e informação -->
-
-       <li class="has-mega">
-          <button class="submenu-btn"> Aprenda Mais +</button>
-          <ul class="mega-menu">
-            <li><a href="fale-nutri.html"> Aprenda mais sobre as frutas</a></li>
-            <li><a href="fale-nutri.html"> Aprenda mais sobre os legumes e verdurs</a></li>
-            <li><a href="dicas-nutri.html">🖋️ Dicas de Cozinha</a></li>
-            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
-          </ul>
-        </li>
-
-        <!-- Colabore -->
-
-        <li class="has-mega">
-          <button class="submenu-btn">Colabore</button>
-          <ul class="mega-menu">
-            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
-            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
-          </ul>
-        </li>
-
-        <!-- Favoritos e lista de compras-->
-        <li class="has-mega">
-          <button class="submenu-btn">Área do Usuário</button>
-          <ul class="mega-menu">
-            <li><a href="favoritos.html">❤️ Favoritos</a></li>
-            <li><a href="lista-compras.html">✉️ Sua lista de Compras</a></li>
-          </ul>
-        </li>
-        
-      </ul>
-    </nav>
-
-   <!-- BUSCA -->
-   <div class="search-box">
+     <div class="search-box">
        <input type="search" id="searchInput" placeholder="Buscar receita...">
 
       <!-- Resultados -->
       <div id="searchResults" class="search-results"></div>
       
   </div>
+  </div>
 
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+  <!-- MENU -->
+  <div class="header-menu">
+
+    <nav id="menu">
+      <ul class="menu-principal">
+
+        <li><a href="index.html" class="active">Inicial</a></li>
+
+        <li class="has-mega">
+          <button class="submenu-btn">Receitas</button>
+          <ul class="mega-menu">
+            <li><a href="menu-tradicional.html">Receitas Tradicionais</a></li>
+            <li><a href="menu-zerolac.html">Zero Lactose</a></li>
+            <li><a href="menu-zero-gluçiten.html">Zero Glúten</a></li>
+             <li><a href="menu-Zero-acucar.html">Zero Açúcar</a></li>
+             <li><a href="menu-funcional.html">Funcionais</a></li>
+             <li><a href="menu-semovo.html">Sem ovo</a></li>
+             <li><a href="menu-vegano.html">Veganas</a></li>
+          </ul>
+        </li>
+
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="ebooks.html">📚 Ebooks de Receitas</a></li>
+            <li><a href="produtos.html">📚 Dicas Nutricionais</a></li>
+          </ul>
+        </li>
+
+        <li class="has-mega">
+            <button class="submenu-btn">Aprenda Mais</button>
+            <ul class="mega-menu">
+              <li><a href="frutas.html">Frutas</a></li>
+              <li><a href="Legumes.html">Legumes e Verduras</a></li>
+              <li><a href="dicas.html">Dicas de Cozinha</a></li>
+              <li><a href="util-nutri.html">Utilidades</a></li>
+              <li><a href="">Legumes e Verduras</a></li>
+            </ul>
+          </li>
+
+        <li class="has-mega">
+          <button class="submenu-btn">Colabore</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html">Dê sua opinião</a></li>
+            <li><a href="form-receita.html">Envie sa ua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Área do usuário -->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="cadastro.html">Cadastre-se</a></li>
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
 
   </div>
+
 </header>
 
 <!-- ==================================
      HERO DA PÁGINA
 ================================== -->
-<section class="hero">
+<section>
   <div class="container hero-grid">
 
     <!-- 🔁 ALTERE TÍTULO E TEXTO -->

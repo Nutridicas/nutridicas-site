@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Páginas das fRUTAS - CRIADO EM 19/05/2026 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" id="metaDescription" content="">
+  <meta property="og:title" id="ogTitle">
+  <meta property="og:description" id="ogDesc">
+  <meta property="og:image" id="ogImg">
+  <meta id="metaDesc" name="description" content="Receita deliciosa e saudável">
+
+  <title></title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/frutas.css">
+
+ <!-- title id="tituloPagina"></title>-->
+ <title id="pageTitle">🌿 Enciclopédia de Frutas | NutriDicas</title>
+  <meta id="metaDesc" name="description" content="Conheça masi sobre as frutas">
+
+</head>
+
+<body>
+
+  <main class="container-frutas">
+
+    <!-- HEADER Atualizado 12/03/2026 -->
+
+   <header class="header">
+  <div class="header-top">
+      <div class="logo-area">
+          <a href="index.html" class="logo">NutriDicas</a>
+          <p class="tagline">Nutrição e Gastronomia</p>
+      </div>
+
+     <div class="search-box">
+        <input type="search" id="searchInput" placeholder="Buscar receita...">
+        
+        <!-- Alterado o ID para bater com o JavaScript e adicionado uma classe para o estilo -->
+        <div id="resultadosLista" class="search-results"></div>
+    </div>
+
+
+  <!-- MENU -->
+  <div class="header-menu">
+
+    <nav id="menu">
+        <ul class="menu-principal">
+
+          <li><a href="index.html" class="active">Inicial</a></li>
+
+         <li class="has-mega menu-receitas">
+            <button class="submenu-btn">🍽️ Receitas</button>
+            <div class="mega-menu">
+              <!-- TRADICIONAIS -->
+              <div class="mega-column">
+                <h4>🍲 Tradicionais</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sopas">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=molhos">🏺 Molhos</a></li>
+                </ul>
+              </div>
+              <!-- ZERO LACTOSE -->
+              <div class="mega-column">
+                <h4>🥛 Zero Lactose</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=Bebidas">🍮 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=massas">🍫 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=pastas">🍮 Pastas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=caldas">🍮 Caldas </a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO GLÚTEN -->
+              <div class="mega-column">
+                <h4>🌾 Zero Glúten</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=molhos">🌿 Molhos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO AÇÚCAR -->
+              <div class="mega-column">
+                <h4>🍭 Zero Açúcar</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=massas">🍝 Massas</a></li>
+                </ul>
+              </div>
+              <!-- VEGANAS -->
+              <div class="mega-column">
+                <h4>🌱 Veganas</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- FUNCIONAIS -->
+              <div class="mega-column">
+                <h4>💪 Funcionais</h4>
+                <ul>
+                  <li><a href="receitas.html?subcategoria=bolos&tag=Funcional">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?subcategoria=paes&tag=Funcional">🏋️ Pães</a></li>
+                  <li><a href="receitas.html?subcategoria=bebidas&tag=Funcional">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?subcategoria=lanches&tag=Funcional">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?subcategoria=massas&tag=Funcional">🥚 Massas</a></li>
+                  <li><a href="receitas.html?subcategoria=sobremesas&tag=Funcional">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?subcategoria=sopas&tag=Funcional">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?subcategoria=molhos&tag=Funcional">🏺 Molhos</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+        <!-- Fim -->
+
+        <li class="has-mega">
+          <button class="submenu-btn">Produtos</button>
+          <ul class="mega-menu">
+            <li><a href="">📚 Ebooks de Receitas</a></li> 
+          </ul>
+        </li>
+
+       <li class="has-mega">
+            <!-- Nomenclatura melhorada: de "+Mais Informações" para "Guia Gourmet" ou "Ingredientes & Dicas" -->
+            <button class="submenu-btn">💡 Guia Prático</button>
+            <ul class="mega-menu">
+              <li><a href="frutas.html">🍓 Frutas</a></li>
+              <li><a href="legumes.html">🥦 Legumes e Verduras</a></li>
+              <li><a href="dicas.html">🍳 Dicas de Cozinha</a></li>
+              <li><a href="nutridicas.html">🍎 Dicas Nutricionais</a></li>
+              <li><a href="termos.html"> 👨‍🍳📖Termos Gastrômicos</a></li>
+              <li><a href="utensilios.html">🔪 Utensílios</a></li>
+        </ul>
+      </li>
+        <li class="has-mega">
+          <button class="submenu-btn">Compartilhe</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html">Dê sua opinião</a></li>
+            <li><a href="form-receita.html">Envie sua receita</a></li>
+          </ul>
+        </li>
+
+        <!-- Área do usuário -->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="cadastro.html">👩‍🍳 Cadastre-se 🍳</a></li>
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+    <h1>🌿 Mini Dicionário Nutricional de Frutas</h1>
+    <p>Consulte propriedades, benefícios, vitaminas e tabelas de consumo.</p>
+    
+    <div class="search-wrapper">
+      <input type="search" id="buscaFruta" placeholder="Digite o nome de uma fruta... (Ex: Abacaxi)">
+      <div id="sugestoesBusca" class="sugestoes-box"></div>
+    </div>
+
+    <!-- 🚀 NOVO: Botão alternativo para exibir a lista completa de frutas -->
+    <div class="alternativa-wrapper" style="margin-top: 15px; text-align: center;">
+      <button id="btnListaCompleta" class="btn-alternativo">📋 Ver lista completa de frutas</button>
+    </div>
+
+    <!-- 🚀 NOVO: Container da paginação de frutas (Oculto por padrão) -->
+    <div id="containerPaginacao" class="paginacao-box" style="display: none;">
+      <div id="listaItensPaginados" class="grid-botoes-frutas"></div>
+      <div class="controles-paginacao">
+        <button id="btnPrev" class="btn-nav">← Anterior</button>
+        <span id="infoPagina">Página 1 de 1</span>
+        <button id="btnNext" class="btn-nav">Próximo →</button>
+      </div>
+    </div>
+   
+    <!-- Estado Inicial Vazio -->
+    <div id="estadoVazio" class="estado-vazio">
+      <p>🔍 Digite o nome de uma fruta acima ou use a lista completa para carregar o relatório nutricional.</p>
+    </div>
+    <div class="hero-action">
+            <span class="scroll-invite">As informações selcionadas estão listads abaixo</span>
+            <div class="arrow-down">↓</div>
+          </div>
+     </div>
+
+    <!-- PAINEL DE INFORMAÇÕES DA FRUTA (Oculto até pesquisar) -->
+    <section id="painelFruta" class="painel-fruta" style="display: none;">
+      
+      <img id="frutaImagem" class="fruta-imagem" />
+
+      <!-- Linha Principal: Título, Família e Descrição -->
+      <div class="fruta-card-topo">
+        <div class="info-texto">
+          <h2 id="frutaNome"></h2>
+          <p id="frutaCientifico" class="sub-identidade"></p>
+          <div id="frutaDescricao" class="box-descricao"></div>
+        </div>
+        
+        <!-- Tabela Nutricional Lateral Estilo Rótulo -->
+        <div class="tabela-nutricional-rotulo">
+          <h3>Tabela Nutricional (<span id="nutriPorcao"></span>)</h3>
+          <div class="linha-rotulo"><span>Calorias</span><strong id="nutriCalorias"></strong></div>
+          <div class="linha-rotulo"><span>Carboidratos</span><strong id="nutriCarbo"></strong></div>
+          <div class="linha-rotulo"><span>Proteínas</span><strong id="nutriProteina"></strong></div>
+          <div class="linha-rotulo"><span>Gorduras</span><strong id="nutriGordura"></strong></div>
+          <div class="linha-rotulo"><span>Fibras</span><strong id="nutriFibra"></strong></div>
+        </div>
+      </div>
+
+      <!-- Grid de Benefícios e Contraindicações -->
+      <div class="fruta-grid-duplo">
+        <div class="bloco-card verde-suave">
+          <h3>✅ Benefícios para a Saúde</h3>
+          <ul id="frutaBeneficios"></ul>
+        </div>
+        <div class="bloco-card vermelho-suave">
+          <h3>⚠️ Contraindicações e Cuidados</h3>
+          <ul id="frutaContraindicacoes"></ul>
+        </div>
+      </div>
+
+      <!-- Vitaminas e Sais Minerais Ativos -->
+      <div class="bloco-card">
+        <h3>🔬 Compostos Bioativos e Micronutrientes</h3>
+        <div class="micronutrientes-flex">
+          <div class="micro-coluna">
+            <h4>Vitaminas Presentes</h4>
+            <ul id="frutaVitaminas" class="lista-detalhada"></ul>
+          </div>
+          <div class="micro-coluna">
+            <h4>Sais Minerais</h4>
+            <ul id="frutaMinerais" class="lista-detalhada"></ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Consumo e Receitas Relacionadas -->
+      <div class="fruta-grid-duplo">
+        <div class="bloco-card">
+          <h3>🍽️ Consumo Recomendado</h3>
+          <ul id="frutaConsumo"></ul>
+          <h3>💡 Como Utilizar no Dia a Dia</h3>
+          <ul id="frutaComoUsar"></ul>
+        </div>
+        
+        <div class="bloco-card">
+          <h3>🍰 Sugestões de Receitas Saudáveis</h3>
+          <ul id="frutaReceitas" class="lista-receitas-links"></ul>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 NutriDicas Online · Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+
+  <script src="js/frutas.js"></script>
+  <script src="js/busca.js"></script>
+
+  </body>
+</html>

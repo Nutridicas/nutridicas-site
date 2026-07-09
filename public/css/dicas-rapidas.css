@@ -1,0 +1,144 @@
+/*Arquivo para estilizar dicas rápidas - 23/04/2026 */
+
+/* Fallback caso as fontes do Google falhem */
+body, h3, h4, p, a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+/* Tentativa de limitar a largura da tela - 27/05/2026 */
+
+.dica-dia,
+.dicas,
+.receitas-destaque {
+   max-width: 100%;
+}
+
+/* Container da Seção */
+
+#dica-do-dia {
+   width: fit-content;
+   max-width: 760px;
+}
+
+.dicas-receita {
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f9fbf9, #ffffff);
+    border-radius: 40px;
+    margin: 40px 0;
+}
+
+.dicas-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dicas-header h3 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+/* ===========
+receitas.html - Cards das dicas rápidas  */
+
+/* Grid Moderno */
+.dicas-grid-moderno {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Container que organiza os cards lado a lado */
+#lista-dicas {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 25px !important;
+    padding: 20px 0;
+}
+
+/* Card Estilizado */
+.dica-item-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e0eadd !important;
+    border-radius: 20px !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06) !important;
+    height: 100% !important;
+    transition: all 0.3s ease;
+}
+
+/* Efeito de Vidro no Hover */
+.dica-item-card:hover {
+    transform: translateY(-8px);
+    border-color: #f2994a !important;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.10);
+}
+
+/* Ícone/Tag de Categoria */
+.dica-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.dica-item-card p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+}
+
+/* Detalhe visual: Aspas ou Ícone no fundo */
+.dica-item-card::after {
+    content: '✨';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    opacity: 0.2;
+}
+
+/* Cards */
+/* Cabeçalho do Card */
+.dica-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.dica-icone {
+    font-size: 1.5rem;
+}
+
+.dica-tag {
+    font-weight: 700;
+    color: #2d5a27;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Título e Texto */
+.dica-item-card h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Link Saiba Mais */
+.btn-saiba-mais {
+    margin-top: auto;
+    color: #f2994a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}

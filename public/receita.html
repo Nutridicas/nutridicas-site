@@ -7,77 +7,173 @@
   <meta property="og:description" id="ogDesc">
   <meta property="og:image" id="ogImg">
 
-  <title id="pageTitle">Receita</title>
+  <title id="pageTitle">NutriDicas - Receitas</title>
   <meta id="metaDesc" name="description" content="Receita deliciosa e saudável">
 
   <!--<title id="tituloPagina"></title>-->
 
+  <link rel="stylesheet" href="css/tooltip.css">
   <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/dicas-rapidas.css">
+  <link rel="stylesheet" href="css/dicas-detalhes.css">
   <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/receita.css">
+ <link rel="stylesheet" href="css/historia.css">
   <link rel="stylesheet" href="css/nutri.css">
-   <link rel="stylesheet" href="css/premium.css">
+  <link rel="stylesheet" href="css/visual-info.css">
+  <link rel="stylesheet" href="css/breadcrumb.css">
 
+
+ <!-- Adicione isso no seu <head> - inserida 361/03/2026 -->
+ <link rel="stylesheet" href="https://cloudflare.com">
+
+  <!-- Google Fonts: Montserrat (Títulos) e Inter (Textos) -->
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+
+  <!-- Favion -->
+  <llink rel="icon" href="/favicon.ico">
+  <link rel="icon" type="imagens/favicon.jpg" sizes="32x32" href="/imagens/favicon-32.png">
+  <link rel="icon" type="imagens/png" sizes="16x16" href="/imagens/favicon-16.png">
+
+<script src="js/ingredientes-db.js" defer></script>
 </head>
-<body>
- <!-- HEADER Atuakuzadi 08/03/2026 -->
-<header class="header">
+ <body>
+  <!-- HEADER Atualizado 12/03/2026 -->
 
-  <!-- TOPO: LOGO + BUSCA -->
+  <header class="header">
   <div class="header-top">
       <div class="logo-area">
-          <span class="icon">🍴</span>
           <a href="index.html" class="logo">NutriDicas</a>
-          <span class="icon">🌱</span>
+          <p class="tagline">Nutrição e Gastronomia</p>
       </div>
 
      <div class="search-box">
-      <p>🔎</p>
-    <input type="search" id="searchInput" placeholder="Buscar receita...">
-    <div id="searchResults" class="search-results"></div>
-</div>
-  </div>
+        <input type="search" id="searchInput" placeholder="Buscar receita...">
+        
+        <!-- Alterado o ID para bater com o JavaScript e adicionado uma classe para o estilo -->
+        <div id="resultadosLista" class="search-results"></div>
+    </div>
 
 
   <!-- MENU -->
   <div class="header-menu">
 
     <nav id="menu">
-      <ul class="menu-principal">
+        <ul class="menu-principal">
 
-        <li><a href="index.html" class="active">Inicial</a></li>
+          <li><a href="index.html" class="active">Inicial</a></li>
 
-        <li class="has-mega">
-          <button class="submenu-btn">Gastronomia</button>
-          <ul class="mega-menu">
-            <li><a href="menu-tradicional.html">Receitas Tradicionais</a></li>
-            <li><a href="menu-restritivas.html">Receitas para Restrições</a></li>
-          </ul>
-        </li>
+         <li class="has-mega menu-receitas">
+            <button class="submenu-btn">🍽️ Receitas</button>
+            <div class="mega-menu">
+              <!-- TRADICIONAIS -->
+              <div class="mega-column">
+                <h4>🍲 Tradicionais</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sopas">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=molhos">🏺 Molhos</a></li>
+                </ul>
+              </div>
+              <!-- ZERO LACTOSE -->
+              <div class="mega-column">
+                <h4>🥛 Zero Lactose</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=Bebidas">🍮 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=massas">🍫 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=pastas">🍮 Pastas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=caldas">🍮 Caldas </a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO GLÚTEN -->
+              <div class="mega-column">
+                <h4>🌾 Zero Glúten</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=molhos">🌿 Molhos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO AÇÚCAR -->
+              <div class="mega-column">
+                <h4>🍭 Zero Açúcar</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=massas">🍝 Massas</a></li>
+                </ul>
+              </div>
+              <!-- VEGANAS -->
+              <div class="mega-column">
+                <h4>🌱 Veganas</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- FUNCIONAIS -->
+              <div class="mega-column">
+                <h4>💪 Funcionais</h4>
+                <ul>
+                  <li><a href="receitas.html?subcategoria=bolos&tag=Funcional">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?subcategoria=paes&tag=Funcional">🏋️ Pães</a></li>
+                  <li><a href="receitas.html?subcategoria=bebidas&tag=Funcional">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?subcategoria=lanches&tag=Funcional">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?subcategoria=massas&tag=Funcional">🥚 Massas</a></li>
+                  <li><a href="receitas.html?subcategoria=sobremesas&tag=Funcional">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?subcategoria=sopas&tag=Funcional">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?subcategoria=molhos&tag=Funcional">🏺 Molhos</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+        <!-- Fim -->
 
         <li class="has-mega">
           <button class="submenu-btn">Produtos</button>
           <ul class="mega-menu">
-            <li><a href="ebooks.html">📚 Ebooks de Receitas</a></li>
-            <li><a href="produtos.html">📚 Dicas Nutricionais</a></li>
+            <li><a href="">📚 Ebooks de Receitas</a></li> 
           </ul>
         </li>
 
+       <li class="has-mega">
+            <!-- Nomenclatura melhorada: de "+Mais Informações" para "Guia Gourmet" ou "Ingredientes & Dicas" -->
+            <button class="submenu-btn">💡 Guia Prático</button>
+            <ul class="mega-menu">
+              <li><a href="frutas.html">🍓 Frutas</a></li>
+              <li><a href="legumes.html">🥦 Legumes e Verduras</a></li>
+              <li><a href="dicas.html">🍳 Dicas de Cozinha</a></li>
+              <li><a href="nutridicas.html">🍎 Dicas Nutricionais</a></li>
+              <li><a href="termos.html"> 👨‍🍳📖Termos Gastrômicos</a></li>
+              <li><a href="utensilios.html">🔪 Utensílios</a></li>
+        </ul>
+      </li>
         <li class="has-mega">
-          <button class="submenu-btn">Aprenda Mais</button>
-          <ul class="mega-menu">
-            <li><a href="verduras.html">Frutas</a></li>
-            <li><a href="Legumes-verde.html">Legumes e Verduras</a></li>
-            <li><a href="Artigos.html">Legumes e Verduras</a></li>
-            <li><a href="dicas-Cozinha.html">Dicas de Cozinha</a></li>
-            <li><a href="util-nutri.html">Utilidades</a></li>
-          </ul>
-        </li>
-
-        <li class="has-mega">
-          <button class="submenu-btn">Colabore</button>
+          <button class="submenu-btn">Compartilhe</button>
           <ul class="mega-menu">
             <li><a href="opiniao.html">Dê sua opinião</a></li>
-            <li><a href="form-receita.html">Envie sa ua receita</a></li>
+            <li><a href="form-receita.html">Envie sua receita</a></li>
           </ul>
         </li>
 
@@ -85,12 +181,11 @@
         <li class="has-mega">
           <button class="submenu-btn">Área do Usuário</button>
           <ul class="mega-menu">
-            <li><a href="cadastro.html">Cadastre-se</a></li>
+            <li><a href="cadastro.html">👩‍🍳 Cadastre-se 🍳</a></li>
             <li><a href="favoritos.html">❤️ Favoritos</a></li>
             <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
           </ul>
         </li>
-
       </ul>
     </nav>
 
@@ -98,179 +193,348 @@
 
 </header>
 
-!-- HERO CAPA Atualizado 08/03/2026-->
-<section class="hero">
-  <h1>Descubra receitas saudáveis e deliciosas</h1>
-  <p>Dicas nutricionais, receitas especiais e muito mais.</p>
+<!-- HERO CAPA apagado 11/03/2026-->
+ <!-- Breadcrumb -->
+<nav class="breadcrumb-nav" id="breadcrumb"></nav>
 
-  <!--
-  <div class="hero-search">
-    <input type="search" placeholder="Buscar receitas, ingredientes...">
-    <button> Buscar</button>
-  </div>
-  -->
-  
-</section>
+<!-- Mostrar algumas informações sobre as receitas 11/03/2026-->
+<section id="historiaReceita"></section>
 
-<main class="container receita">
-   <!-- Breadcrumb -->
-      <nav class="breadcrumb" id="breadcrumb"></nav>
-  
-  <h1 id="titulo"></h1>
-  
-  
-  <p id="meta"></p>
+<div id="tooltipIngrediente" class="tooltip"></div>
 
-  <img id="imagem" class="receita__imagem" width="780" height="480">
-   <br>
-   <!-- Botão salvar como favorita - teste -->
-<button id="btnFavorito" class="btn-premium">🤍 Favoritar</button>
-<br><br>
- <section id="conteudo-gratis">
-  <!-- Alteração 19/02/26 00:30 -->
-  <section class="info-receita">
-      <div id="caixatempo">
-        <h3> Tempo de Preparo das Etapas</h3>
-        <hr>
-        <p><strong>⏱ Tempo da Receita:</strong> <span id="tempoPreparoReceita"></span></p>
-        <p><strong>⏱ Tempo de Forno/Geladeira:</strong> <span id="tempoPreparoForno"></span></p>
-        <p><strong>⏱ Tempo total de preparo:</strong> <span id="tempoPreparoTotal"></span></p>
-      </div> 
-      <br>
-      <div class="grid-row">
-         <div> 
-          <p><strong>🍽 Rendimento:</strong> <span id="rendimento"></span></p>
-          <p><strong>🔥 Dificuldade:</strong> <span id="dificuldade"></span></p>
-          <p><strong>💰 Custo médio:</strong> <span id="custoMedio"></span></p>
-         </div>
-         <div> 
-          <p><strong>👤 Enviada por:</strong> <span id="enviadaPor"></span></p>
-          <!-- Novo 27/02/2026-->
-          <p><strong>⭐ Avaliação:</strong> 
-              <span id="avaliacaoMedia"></span> 
-              (<span id="avaliacaoTotal"></span> avaliações)
-              <!-- Usuário avaliar -->
-              <div class="avaliar">
-                <p><strong>Deixe sua nota:</strong></p>
-                <div id="estrelas">
-                  <span data-nota="1">⭐</span>
-                  <span data-nota="2">⭐</span>
-                  <span data-nota="3">⭐</span>
-                  <span data-nota="4">⭐</span>
-                  <span data-nota="5">⭐</span>
+<main class="page-wrap">
+    <div class="page-content">
+    
+    <h1 id="titulo"></h1>
+ 
+    <p id="meta"></p>
+
+    <img id="imagem" class="receita__imagem" width="680" height="450">
+     <br>
+   
+    <div id="meuModal" class="modal-overlay" onclick="fecharModal()">
+       <div class="modal-container" onclick="event.stopPropagation()"> 
+          <div class="modal-header">
+            <h3><i class="fas fa-balance-scale-left"></i> Medidas Caseiras</h3>
+            <button class="close-modal" onclick="fecharModal()">&times;</button>
+          </div>
+
+          <div class="modal-body">
+            <div id="conteudoMedidas">
+              <!-- Exemplo de como o conteúdo aparecerá -->
+              <div class="medida-item">
+                <span class="medida-nome">1 xícara de chá</span>
+                <span class="medida-valor">240ml</span>
               </div>
-           </div>
-         </p>
-        <p><strong>👩‍🍳 Autor:</strong> 
-          <span id="autorNome"></span>
-        </p>
+              <div class="medida-item">
+                <span class="medida-nome">1 colher de sopa</span>
+                <span class="medida-valor">15ml</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+              <button class="btn-util" onclick="copiarMedidas()">
+                <i class="fas fa-copy"></i> Copiar
+            </button>
+            <button class="btn-util" onclick="window.print()">
+                <i class="fas fa-print"></i> PDF/Imprimir
+            </button>
+              <button class="btn-fechar-footer" onclick="fecharModal()">Entendi</button>
+          </div>
         </div>
-    </div> 
-  </section>
+    </div>
 
-  <details>
-    <summary>🧰 Mise en Place</summary>
-    <ul id="miseEnPlace"></ul>
-  </details>
+      <!-- Exibir uma pequena introdução da receita - 06/05/2026 -->
+      <section class="introducao-receita">
+        <div id="introducao" class="intro-box"></div>
+    </section>
 
-  <details>
-    <summary>❄️ Conservação</summary>
-    <ul id="conservacao"></ul>
-  </details>
-  <!-- Fim alteração -->
-  <br>
+    <!-- Alterado para exibir Restrições - 08/06/2026 -->
+    <div class="grid-2">
+    <!-- Botão para mudar versão da receita - 16/05/2026 -->
+    <div id="versoesReceita"></div>
 
-  <!-- Ingredientes -->
-  <section>
-    <h2>🧾 Ingredientes</h2>
-    <hr>
-    <ul id="ingredientes"></ul>
+    <!-- HTML corrigido aqui -->
+ <div id="exibirRestricoes">
+    <div class="bloco-restricoes">
+        <h3>Restrições alimentares:</h3>
+        <ul>
+            <li>Contém glúten</li>
+            <li>Contém lactose</li>
+            <li>Contém açúcar</li>
+            <li>Contém ovo</li>
+        </ul>
+    </div>
+</div>
 
-    <!-- Botão imprimir lista de compras -->
-     <!--console.log("Receita que está sendo enviada:",  -->
-     <!--receitaSelecionada);-->
+</div>
 
-    <button id="btnListaCompras" class="btn-lista">
-     🛒 Adicionar ingredientes à Lista de Compras
+       
+        
+     <!-- Rodapé de Autoria e Avaliação -->
+      <section class="grid-row-rec">
+        <div class="footer-receita">
+            <div class="autor-info">
+                <p><strong>Enviada por:</strong> <span id="enviadaPor"></span></p>
+                <p><strong>👩‍🍳 Autor:</strong> <span id="autorNome"></span></p>
+            </div>
+            
+            <div class="avaliacao-container">
+                <div class="rating-display">
+                    <span class="nota-numero" id="avaliacaoMedia">0.0</span>
+                    <div class="estrelas-wrapper">
+                        <div id="estrelas" class="interactive-stars">
+                            <span data-nota="1">⭐</span><span data-nota="2">⭐</span><span data-nota="3">⭐</span><span data-nota="4">⭐</span><span data-nota="5">⭐</span>
+                        </div>
+                        <small>(<span id="avaliacaoTotal">0</span> avaliações)</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section> <!-- fecha grid-row -->
+      <hr> <br>
 
-    </button>
+      <!-- Barra lateral 20/04/2026  -->
+                           
+      <section class="info-receita">
 
+        <!-- Linha de informações - Atualizada 28/04/2026-->
+        <div class="info-grid">
+            <div class="info-item">
+              <span>Rendimento</span>
+              <strong id="rendimento">--</strong>
+            </div>
 
-  </section>
-  <br>
-  <section>
-    <h2>👩‍🍳 Modo de Preparo</h2>
-    <ol id="preparo"></ol>
-  </section>
-  <br> <hr>
+            <div class="info-item">
+              <span>Dificuldade</span>
+              <strong id="dificuldade">--</strong>
+            </div>
 
-   <!-- ✅ GRÁTIS -->
-      <details>
-        <summary>🥄 Medidas Caseiras</summary>
-        <ul id="medidas"></ul>
-      </details>
-</section>
+            <div class="info-item">
+              <span>Custo médio</span>
+               <strong id="custoMedio">--</strong>
+            </div>
+        </div> <!-- Fim do info-grid -->
 
-<section class="accordion">
-
+           <div class="info-item">
+              <span>Como servir</span>
+              <strong id="comoServir">--</strong>
+           </div>
            
-          <!-- Conteúdo Premium real📊 Conteúdo Premium -->
-          <!-- 📊 Nutricional -->
-              <h3></h3>
-           <details> 
+           <div class="tempo-preparo">
+                <div class="card-tempo">
+                    <span class="label">⏱ Tempos de preparo</span>
+                     
+                    <div class="tempo-linha" style="display: none;">
+                       <span>Preparo dos ingredientes</span>
+                       <strong id="tempoPreparoReceita">--</strong>
+                    </div>
+                    
+                    <!-- Linha de espaço no estilo planilha -->
+                    <div class="linha-espaco"></div>
+              
+                    <div class="tempo-linha" style="display: none;">
+                       <span>Descanso da massa</span>
+                       <strong id="tempoPreparoDescanso">--</strong>
+                    </div>
+              
+                    <div class="linha-espaco"></div>
+              
+                    <div class="tempo-linha" style="display: none;">
+                       <span>Fogão</span>
+                       <strong id="tempoPreparoFogao">--</strong>
+                    </div>
+              
+                    <div class="linha-espaco"></div>
+              
+                    <div class="tempo-linha" style="display: none;">
+                       <span>Forno</span>
+                       <strong id="tempoPreparoForno">--</strong>
+                    </div>
+              
+                    <div class="linha-espaco"></div>
+              
+                    <div class="tempo-linha" style="display: none;">
+                       <span>Geladeira</span>
+                       <strong id="tempoPreparoGeladeira">--</strong>
+                    </div>
+              
+                    <div class="linha-espaco"></div>
+              
+                    <div class="tempo-total" style="display: none;">
+                       <span>Total</span>
+                       <strong id="tempoPreparoTotal">--</strong>
+                    </div>
+                 </div>
+              </div>
+                    
+          <hr> <br>
+
+         <!-- alteração 29/03/2026 2h03m - mover conteúdos -->
+         <div class="grid-row-rec">
+            <div>
+             <details>
+                <i class="fas fa-utensils" style="color: #3498db; margin-right: 10px;"></i>
+                  <summary>🧰<strong>Antes de começar (Mise en Place)</strong></summary>
+                  <ul id="miseEnPlace"></ul>
+              </details>
+           </div>
+           
+            <div>
+               <details>
+                 <i class="fas fa-snowflake" style="color: #3498db; margin-right: 10px;"></i>
+
+                  <summary>❄️<strong>Como conservar</strong></summary>
+                 <ul id="conservacao"></ul>
+               </details>
+            </div>
+       </div>
+
+       </section> <!-- fecha conteúdo grátis -->
+      <!-- Fim alteração -->
+          
+      <br>
+     
+      <div class="layout-receita-principal"> 
+         <div class="col-principal">
+              <!-- Seção de Ingredientes -->
+              <section class="section-receita">
+                <div class="header-badge">
+                  <h2><i class="fas fa-clipboard-list"></i> Ingredientes</h2>
+                  <span class="badge-count">Itens necessários</span>
+                </div>
+            
+                <ul id="ingredientes" class="lista-check"></ul>
+
+                <div class="acoes-lista">
+                    <button id="btnListaCompras" class="btn-moderno btn-azul">
+                      <i class="fas fa-cart-plus"></i> Adicionar à Lista de Compras
+                    </button>
+                    <button class="btn-moderno btn-suave" onclick="abrirModal()">
+                      <i class="fas fa-balance-scale"></i> Ver medidas caseiras
+                    </button>
+                     <!-- Botão salvar como favorita - teste -->
+                    <button id="btnFavorito" class="btn-moderno btn-suave">🤍 Favoritar</button>
+                 </div>
+              </section>
+
+              <!-- Seção de Modo de Preparo -->
+              <section class="section-receita">
+                <div class="header-section">
+                  <h2><i class="fas fa-fire-burner"></i> Modo de Preparo</h2>
+                </div>
+                
+                <ol id="preparo" class="timeline-preparo"></ol>
+              </section>
+      </div><!-- fim da seção de ingredientges e preapro -->
+
+      <!-- modal era aqui -->
+
+      <section class="accordion">
+               
+        <!-- Conteúdo Premium real📊 Conteúdo Premium -->
+         <!-- 📊 Nutricional -->
+        <h3></h3>
+         <details> 
             <summary>  📊 Tabela Nutricional </summary>
-              <table class="tabela-nutricional">
-                <tr><th>Porção</th><td id="porcao"></td></tr>
-                <tr><th>Calorias</th><td id="calorias"></td></tr>
-                <tr><th>Carboidratos</th><td id="carboidratos"></td></tr>
-                <tr><th>Proteínas</th><td id="proteinas"></td></tr>
-                <tr><th>Gorduras Totais</th><td id="gordurasTotais"></td></tr>
-                <tr><th>Gorduras Saturadas</th><td id="gordurasSaturadas"></td></tr>
-                <tr><th>Fibras alimentares</th><td id="fibras"></td></tr>
-                <tr><th>Sódio</th><td id="sodio"></td></tr>
-                <tr><th>Açucar</th><td id="acucar"></td></tr>
+               <table class="tabela-nutricional">
+                  <tr><th></th><td id="frase"></td></tr>
+                  <tr><th>Porção</th><td id="porcao"></td></tr>
+                  <tr><th>Calorias</th><td id="calorias"></td></tr>
+                  <tr><th>Carboidratos</th><td id="carboidratos"></td></tr>
+                  <tr><th>Proteínas</th><td id="proteinas"></td></tr>
+                  <tr><th>Gorduras Totais</th><td id="gordurasTotais"></td></tr>
+                  <tr><th>Gorduras Saturadas</th><td id="gordurasSaturadas"></td></tr>
+                  <tr><th>Fibras alimentares</th><td id="fibras"></td></tr>
+                  <tr><th>Sódio</th><td id="sodio"></td></tr>
+                  <tr><th>Açúcar</th><td id="acucar"></td></tr>
+                  
+                  <!-- 🆕 Novos campos opcionais (Ocultos por padrão) -->
+                  <tr style="display: none;"><th>Cafeína</th><td id="cafeina"></td></tr>
+                  <tr style="display: none;"><th>Gorduras Trans</th><td id="gordurasTrans"></td></tr>
+                  <tr style="display: none;"><th>Colesterol</th><td id="colesterol"></td></tr>
+                  <tr style="display: none;"><th>Cálcio</th><td id="calcio"></td></tr>
+                  <tr style="display: none;"><th>Potássio</th><td id="potassio"></td></tr>
+                  <tr style="display: none;"><th>Magnésio</th><td id="magnesio"></td></tr>
+                  <tr style="display: none;"><th>Ferro</th><td id="ferro"></td></tr>
+                  <tr style="display: none;"><th>Zinco</th><td id="zinco"></td></tr>
               </table>
-           </details>
+          </details>
 
-              <!-- 🔄 Substituições -->
-              <details>
-                <summary>🔄 Substituições Inteligentes</summary>
-                <ul id="substituicoes"></ul>
-              </details>
-              <!-- 💡 Dicas Extras -->
-              <details>
-                 <summary> 💡 Dicas Extras</summary>
-                 <ul id="dicas"></ul>
-              </details>
-              <details>
-                  <!-- 👩‍⚕️ Comentário da Nutri -->
-                   <summary>👩‍⚕️ Comentário da Nutri</summary>
-                  <p id="comentarioNutri"></p>
-              </details>
+          <!-- 🔄 Substituições -->
+          <details>
+             <summary>🔄 Substituições Inteligentes</summary>
+              <ul id="substituicoes"></ul>
+          </details>
+               <!-- 💡 Dicas Extras -->
+           <details>
+               <summary> 💡 Dicas nutricionais Extras</summary>
+               <ul id="dicas"></ul>
+            </details>
+            <details>
+              <!-- 👩‍⚕️ Comentário da Nutri -->
+              <summary>👩‍⚕️ Comentários da Nutri</summary>
+              <p id="comentarioNutri"></p>
+            </details>
+        </section>
+
+      <!-- Cards de Curiosidades e Navegação atualizado 26/04/2026 -->
       
+      <section class="historia-section">
+          <div class="curiosity-container">
+            <div class="curiosity-header">
+              <span class="pulse-icon">💡</span>
+              <h3>Relatos da Receita. Saiba um pouco mais</h3>
+            </div>
+            <div id="caaixainfo" class="curiosity-body">
+              <!-- O JS injetará o conteúdo aqui -->
+            </div>
+          </div>
+      </section>
 
-   </section>
-   <br> <hr>
-   <section>
+      <!-- Cards de dicas-rápidas variadas inserido 14/04/2026 -->
+      <section class="dicas-receita">
+          <div class="dicas-header">
+              <h3>💡 Dicas de Cozinheiro(a)</h3>
+              <p>Pequenas dicas que podem melhorar o resultado</p>
+          </div>
+          <div id="lista-dicas" class="dicas-grid-moderno"></div>
+      </section>
 
-      <h3 >🔗 Receitas que combinam com a sua escolha</h3>
-      <ul id="receitasRelacionadas"></ul>
-      
-   </section>
-    <!-- Breadcrumb -->
-      <div class="breadcrumbs" id="breadcrumbsfooter"></div>
+      <!-- Teste novo carrossel -->
+      <section class="related-section">
+          <h3 class="section-title">Receitas que combinam com a sua escolha</h3>
+
+          <div class="carousel-wrapper">
+              <button id="prev" class="nav-btn prev" aria-label="Anterior"><span>&lsaquo;</span></button>
+              
+              <div class="carousel-viewport">
+                  <ul id="receitasRelacionadas" class="carousel-track">
+                      <!-- Os cards entram aqui -->
+                  </ul>
+              </div>
+
+              <button id="next" class="nav-btn next" aria-label="Próximo"><span>&rsaquo;</span></button>
+          </div>
+      </section>
+
+     </div>
 </main>
 
-
-<!-- Redes sociais -->
-<section class="box" style="margin-top:40px; text-align:center;">
-
-  <h3>📲 Compartilhe esta receita</h3>
-
-  <div class="social-links">
-    <a href="#" aria-label="Instagram">📸 Instagram</a>
-    <a href="#" aria-label="Facebook">📘 Facebook</a>
-    <a href="#" aria-label="WhatsApp">💬 WhatsApp</a>
+<!-- Compartilhamento Moderno -->
+<section class="share-section">
+  <h3>📲 Compartilhe o sabor</h3>
+  <div class="share-buttons">
+    <a href="#" class="share-link insta" title="Instagram">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="#" class="share-link face" title="Facebook">
+      <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a href="#" class="share-link whats" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
   </div>
 </section>
 
@@ -283,7 +547,6 @@
   </div>
 </div>
 
-
 <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
@@ -291,13 +554,37 @@
       </div>
     </footer>
 
+     <!-- Carregar tooltip - Inserido 11/03/2026 1h36m -->
+    <div id="tooltipIngrediente"></div>
+
     <!-- JS -->
-    <script src="js/receita.js" defer></script>
-    <script src="js/premium.js" defer></script>
-    <script src="js/favoritos.js" defer></script>
-    <script src="js/menu.js" defer></script>
-    <script src="js/busca.js" defer></script>
-    <script src="js/buscaworker.js" defer></script>
-   </body>
+    <!-- 2. UTILIDADES -->
+
+
+      <script src="js/lista-compras.js" defer></script>
+       <script src="js/favoritos.js" defer></script>
+      <script src="js/somar.js" defer></script>
+      <script src="js/historia.js" defer></script>  
+      <script src="js/ingredientes-info.js" defer></script>   
+      <script src="js/dicas-rapidas.js" defer></script>
+
+
+       <script src="js/receita.js" defer></script>
+     <script src="js/ingredientes.js" defer></script>
+    
+    
+      <!-- 3. LÓGICA -->
+     <script src="js/medidas.js" defer></script>
+    
+      <!-- 4. UI / extras -->
+      <script src="js/breadcrumb.js" defer></script>
+      <script src="js/busca.js" defer></script>
+      <script src="js/buscaworker.js" defer></script>
+      <script src="js/menu.js" defer></script>
+          
+      <script src="js/premium.js" defer></script>
+      
+
+  </body>
 
 </html>

@@ -1,0 +1,100 @@
+/*========================
+Menu de retorno - 
+=========================*/
+
+.breadcrumbs {
+  font-size: 14px;
+  margin: 15px 0 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: #666;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--verde);
+  font-weight: 500;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  background: pink ;
+  color: black;
+}
+
+.pagina-atual {
+  color: var(--texto-escuro);
+  font-weight: bold;
+}
+
+.breadcrumbs span {
+  color: #999;
+   margin:0 6px;
+}
+
+/* Novo menu breadcrumb - Insserida 14/03/2026 */
+
+.breadcrumb-nav{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:6px;
+  font-size:14px;
+  margin:10px 0 20px;
+
+  color:#666;
+  line-height:1.4;
+}
+
+.breadcrumb-nav a{
+  color:#16a34a;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.breadcrumb-nav a:hover{
+  text-decoration:underline;
+}
+
+.breadcrumb-nav span{
+  margin:0 6px;
+}
+
+.breadcrumb-nav .current{
+  /*color:#555;*/
+  font-weight:600;
+  color:#333;
+}
+
+.btn-voltar{
+  margin-right:10px;
+  padding:4px 10px;
+  border-radius:6px;
+  border:none;
+  background:#16a34a;
+  color:white;
+  cursor:pointer;
+}
+
+/**/
+.breadcrumb-nav{
+  font-size:14px;
+  margin:10px 0 20px;
+  color:#666;
+}
+
+.breadcrumb-nav a{
+  color:#16a34a;
+  text-decoration:none;
+}
+
+.breadcrumb-nav span{
+  margin:0 4px;
+}
+
+.breadcrumb-nav .current{
+  font-weight:600;
+  color:#333;
+}

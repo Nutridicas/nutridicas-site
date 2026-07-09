@@ -1,0 +1,44 @@
+{
+  "psyllium": {
+    "nome": "Psyllium",
+    "resumo": "Fibra solúvel extraída da planta Plantago ovata. Ajuda na saúde intestinal.",
+    "alias": ["Psillium"],
+    "link": "ingredientes.html?slug=psyllium"
+  },
+  "xilitol": {
+    "nome": "Xilitol",
+    "resumo": "Adoçante natural com baixo índice glicêmico.",
+    "alias": ["xilito", "Chilitol"],
+    "link": "ingredientes.html?slug=xilitol"
+  },
+  "farinha de amendoas": {
+    "nome": "farinha de amêndoas",
+    "resumo": "Farinha low carb rica em gorduras boas e proteínas.",
+    "alias": ["farinha de amendoa", "farinha de amêndoa"],
+    "link": "ingredientes.html?slug=farinha-de-amendoas"
+  },
+  "vinagre de maca": {
+    "nome": "vinagre de maçã",
+    "resumo": "serve principalmente para auxiliar na digestão, controlar os níveis de açúcar no sangue.",
+    "alias": ["vinagre de maça", "vinagre de macã"],
+    "link": "ingredientes.html?slug=vinagre-de-maca"
+  },
+  "tahine": {
+    "nome": "tahine",
+    "resumo": "E uma pasta feita de sementes de gergelim (sésamo) muito usado na cozinha do Oriente Médio .",
+    "alias": ["taine"],
+    "link": "ingredientes.html?slug=tahine"
+  },
+  "polvilho doce":  {
+    "nome": "polvilho doce",
+    "resumo": "Também chamado de fécula de mandioca, é obtido pela decantação, moagem e secagem direta da mandioca",
+    "alias": [""],
+    "link": "ingredientes.html?slug=tahine"
+  },
+  "oleo vegetal":  {
+    "nome": "óleo vegetal",
+    "resumo": " substância gordurosa líquida extraída de diferentes partes das plantas, como sementes, frutos ou grão",
+    "alias": ["oleo vegetal", "Óleo Vegetal"],
+    "link": "ingredientes.html?slug=tahine"
+  }
+}

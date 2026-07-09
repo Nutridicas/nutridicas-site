@@ -1,0 +1,1051 @@
+{
+  "versao": "2.0",
+  "objetivoArquivo": "Dicas Nutricionais Gerais",
+  "relatodescricao": "Conteúdo nutricional educativo para apoio às receitas do portal gastronômico.",
+  "ultimaAtualizacao": "2026-05-25",
+  "titulo": "✨ Conteúdo Nutricional Educativo",
+  "avisoLegal": "💡 As informações nutricionais disponibilizadas nesta página possuem caráter educativo e informativo. Os conteúdos apresentados não substituem orientação médica, nutricional ou profissional individualizada.⚖️",
+  "descricao": "🩺 Necessidades nutricionais podem variar conforme idade, condições de saúde, rotina e objetivos pessoais. Gestantes, lactantes, idosos, crianças e pessoas com restrições alimentares ou condições médicas específicas devem buscar acompanhamento de profissionais habilitados antes de realizar mudanças significativas na alimentação.",
+  "diretrizesGerais": [
+    {
+      "titulo": "Hidratação",
+      "descricao": "Beba entre 2 e 3 litros de água por dia para manter o corpo hidratado."
+    },
+    {
+      "titulo": "Prato Colorido",
+      "descricao": "Monte refeições coloridas com verduras, legumes e proteínas variadas."
+    },
+    {
+      "titulo": "Ultraprocessados",
+      "descricao": "Evite alimentos ultraprocessados ricos em sódio, açúcar e gorduras trans."
+    },
+    {
+      "titulo": "Fibras",
+      "descricao": "Inclua fibras diariamente para melhorar a digestão e aumentar a saciedade."
+    }
+  ],
+  "faixasEtarias": [
+    {
+      "tipo": "crianca",
+      "idade": "2-12 anos",
+      "alimentacao": {
+        "cafeDaManha": {
+          "dica": "Inclua frutas, leite, iogurte e cereais integrais.",
+          "receitasSugeridas": [
+            {
+              "nome": "Suco Natural de Limão",
+              "link": "receitas.html?slug=suco-natural-limao"
+            },
+            {
+              "nome": "Vitamina de Banana",
+              "link": "receitas.html?slug=vitamina-banana"
+            }
+          ]
+        },
+        "almoco": {
+          "dica": "Priorize arroz, feijão, proteínas magras e legumes.",
+          "receitasSugeridas": [
+            {
+              "nome": "Arroz Refogado",
+              "link": "receitas.html?slug=arroz-refogado"
+            },
+            {
+              "nome": "Frango Grelhado",
+              "link": "receitas.html?slug=frango-grelhado"
+            }
+          ]
+        },
+        "jantar": {
+          "dica": "Prefira refeições leves como sopas, frutas e iogurtes.",
+          "receitasSugeridas": [
+            {
+              "nome": "Sopa de Legumes",
+              "link": "receitas.html?slug=sopa-legumes"
+            }
+          ]
+        },
+        "frutasIndicadas": [
+          {
+            "nome": "Pêra: Ricas em fibras que regulam o intestino infantil.",
+            "slug": "pera",
+            "link": "frutas.html?slug=pera"
+          },
+          {
+            "nome": "Kiwi: Rico em vitamina K, essencial para a coagulação do sangue e saúde dos ossos.",
+            "slug": "kiwi",
+            "link": "frutas.html?slug=kiwi"
+          },
+          {
+            "nome": "Banana: Fornece energia rápida e é fácil de mastigar",
+            "slug": "banana",
+            "link": "frutas.html?slug=banana"
+          },
+          {
+            "nome": "Maçã: Ricas em fibras que regulam o intestino infantil.",
+            "slug": "maca",
+            "link": "frutas.html?slug=mamao"
+          },
+          {
+            "nome": "Mamão: Excelente para evitar a prisão de ventre comum em bebês.",
+            "slug": "mamao",
+            "link": "frutas.html?slug=mamao"
+          },
+          {
+            "nome": "Laranja: Fonte de vitamina C que auxiliam na imunidade.",
+            "slug": "laranja",
+            "link": "frutas.html?slug=laranja"
+          },
+          {
+            "nome": "tangerina (Mexerica): Fonte de vitamina C que auxiliam na imunidade.",
+            "slug": "tangerina",
+            "link": "frutas.html?slug=tangerina"
+          }
+        ]
+      },
+      "atividadeFisica": [
+        "Corrida",
+        "Caminhada",
+        "Vôlei",
+        "Brincadeiras ao ar livre"
+      ],
+      "sono": {
+        "horasRecomendadas": "8 a 12 horas por dia"
+      },
+      "consumoCalorico": {
+        "mediaDiaria": "1.800 a 2.500 kcal"
+      }
+    },
+    {
+      "tipo": "adolescente",
+      "idade": "13-17 anos",
+      "alimentacao": {
+        "cafeDaManha": {
+          "dica": "Foco em energia: pães integrais e frutas.",
+          "receitasSugeridas": [
+            {
+              "nome": "Panqueca de Aveia",
+              "link": "#"
+            }
+          ]
+        },
+        "almoco": {
+          "dica": "Proteínas para crescimento.",
+          "receitasSugeridas": [
+            {
+              "nome": "Bowl de Quinoa",
+              "link": "#"
+            }
+          ]
+        },
+        "jantar": {
+          "dica": "Evite lanches gordurosos à noite.",
+          "receitasSugeridas": [
+            {
+              "nome": "Wrap de Frango",
+              "link": "#"
+            }
+          ]
+        },
+        "frutasIndicadas": [
+          {
+            "nome": "Pêra: Ricas em fibras que regulam o intestino infantil.",
+            "slug": "pera",
+            "link": "frutas.html?slug=pera"
+          },
+          {
+            "nome": "Kiwi: Possui vitamina C para a síntese de colágeno da pele",
+            "slug": "kiwi",
+            "link": "frutas.html?slug=kiwi"
+          },
+          {
+            "nome": "Abacate: Gorduras boas que auxiliam na produção hormonal saudável.",
+            "slug": "abacate",
+            "link": "frutas.html?slug=abacate"
+          },
+          {
+            "nome": "Açaí: Rico em antioxidantes que combatem a acne",
+            "slug": "acai",
+            "link": "frutas.html?slug=acai"
+          },
+          {
+            "nome": "Uva: Ricas em antioxidantes que combatem a acne.",
+            "slug": "uva",
+            "link": "frutas.html?slug=uva"
+          },
+          {
+            "nome": "Morango : fonte de vitamina C que ajuda a síntizar o colágeno da pele.",
+            "slug": "morango",
+            "link": "frutas.html?slug=morango"
+          },
+          {
+            "nome": "Coco: A água de coco repõe eletrólitos após atividades físicas.",
+            "slug": "coco",
+            "link": "frutas.html?slug=coco"
+          }
+        ],
+        "atividadeFisica": [
+          "Esportes coletivos",
+          "Natação",
+          "Skate"
+        ],
+        "sono": {
+          "horasRecomendadas": "9 a 10 horas"
+        },
+        "consumoCalorico": {
+          "mediaDiaria": "1.800 a 2.500 kcal"
+        }
+      }
+    },
+    {
+      "tipo": "adulto",
+      "idade": "18-59 anos",
+      "alimentacao": {
+        "cafeDaManha": {
+          "dica": "Consuma frutas, ovos, fibras e bebidas naturais.",
+          "receitasSugeridas": [
+            {
+              "nome": "Suco Detox Verde",
+              "link": "receitas.html?slug=suco-detox-verde"
+            }
+          ]
+        },
+        "almoco": {
+          "dica": "Mantenha equilíbrio entre carboidratos, proteínas e vegetais.",
+          "receitasSugeridas": [
+            {
+              "nome": "Arroz Integral",
+              "link": "receitas.html?slug=arroz-integral"
+            },
+            {
+              "nome": "Frango ao Molho Pesto",
+              "link": "receitas.html?slug=frango-molho-pesto"
+            }
+          ]
+        },
+        "jantar": {
+          "dica": "Evite refeições pesadas próximo ao horário de dormir.",
+          "receitasSugeridas": [
+            {
+              "nome": "Salada Verde Completa",
+              "link": "receitas.html?slug=salada-verde"
+            }
+          ]
+        },
+        "frutasIndicadas": [
+          {
+            "nome": "Pêra: Ricas em fibras que regulam o intestino infantil.",
+            "slug": "pera",
+            "link": "frutas.html?slug=pera"
+          },
+          {
+            "nome": "Kiwi: Rico em vitamina K, essencial para a coagulação do sangue e saúde dos ossos.",
+            "slug": "kiwi",
+            "link": "frutas.html?slug=kiwi"
+          },
+          {
+            "nome": "Mirtilo: Protegem as células contra o envelhecimento precoce",
+            "slug": "mirtilo",
+            "link": "frutas.html?slug=Mirtilo"
+          },
+          {
+            "nome": "Framboesa: Protegem as células contra o envelhecimento precoce",
+            "slug": "framboesa",
+            "link": "frutas.html?slug=Framboesa"
+          },
+          {
+            "nome": "Abacaxi: Contém bromelina, uma enzima que melhora a digestão pesada",
+            "slug": "abacaxi",
+            "link": "frutas.html?slug=abacaxi"
+          },
+          {
+            "nome": "Melancia: Altamente hidratante e rica em licopeno para o coração.",
+            "slug": "melancia",
+            "link": "frutas.html?slug=melancia"
+          },
+          {
+            "nome": "Maracujá: Possui propriedades calmantes que ajudam a reduzir a ansiedade.",
+            "slug":  "maracuja", 
+            "link": "frutas.html?slug=maracuja"        
+          }  
+        ]
+      },
+      "atividadeFisica": [
+        "💪 Musculação:  Aumenta a massa magra e fortalece a musculatura",
+        "🏃 Corrida:  Ajuda a fortalecer o coração e melhorar a resistência rapidamente. Permite um condicionamento cardiorrespiratório e um gasto calórico",
+        "🚶 Caminhada: leve ajuda no controle da pressão arterial e glicose de forma suave.",
+        "🚴 Ciclismo: Trabalha a musculatura das pernas, melhorando a resistência muscular dos membros inferiores e fôlego"
+      ],
+      "sono": {
+        "horasRecomendadas": "7 a 9 horas por dia"
+      },
+      "consumoCalorico": {
+        "mediaDiaria": "1.800 a 2.500 kcal"
+      }
+    },
+    {
+      "tipo": "idoso",
+      "idade": "60+ anos",
+      "alimentacao": {
+        "cafeDaManha": {
+          "dica": "Inclua alimentos ricos em cálcio, vitaminas e proteínas leves.",
+          "receitasSugeridas": [
+            {
+              "nome": "Vitamina de Mamão",
+              "link": "receitas.html?slug=vitamina-mamao"
+            }
+          ]
+        },
+        "almoco": {
+          "dica": "Prefira alimentos de fácil digestão e ricos em nutrientes.",
+          "receitasSugeridas": [
+            {
+              "nome": "Peixe Assado",
+              "link": "receitas.html?slug=peixe-assado"
+            },
+            {
+              "nome": "Purê de Batata",
+              "link": "receitas.html?slug=pure-batata"
+            }
+          ]
+        },
+        "jantar": {
+          "dica": "Realize refeições leves para melhorar a qualidade do sono.",
+          "receitasSugeridas": [
+            {
+              "nome": "Sopa de Frango",
+              "link": "receitas.html?slug=sopa-frango"
+            }
+          ]
+        },
+        "frutasIndicadas": [
+          {
+            "nome": "Pêra: Ricas em fibras que regulam o intestino infantil.",
+            "slug": "pera",
+            "link": "frutas.html?slug=pera"
+          },
+          {
+            "nome": "Kiwi: Rico em vitamina K, essencial para a coagulação do sangue e saúde dos ossos.",
+            "slug": "kiwi",
+            "link": "frutas.html?slug=kiwi"
+          },
+          {
+            "nome": "Ameixa preta: Estimula o trânsito intestinal que tende a ser mais lento.",
+            "slug": "ameixa_preta",
+            "link": "frutas.html?slug=ameixa_preta"
+          },
+          {
+            "nome": " Melão: Alta concentração de água para idosos que sentem pouca sede.",
+            "slug": "melão",
+            "link": "frutas.html?slug=melão"
+          },
+          {
+           "nome": " Uva Roxa: Contém resveratrol, substância que protege a saúde cerebral e do coração.",
+            "slug": "uva_roxa",
+            "link": "frutas.html?slug=uva_roxa"
+          },
+          {
+            "nome": "Goiaba: Rica em vitamina C e fibras, além de ser macia.",
+            "slug": "goiaba",
+            "link": "frutas.html?slug=goiaba"
+          }
+        ]
+      },
+      "atividadeFisica": [
+        "Caminhada leve e moderada por pelo menos 30 minutos por dia",
+        "Alongamento: É Importante Alongar os músculos antes da atividae fisica",
+        "Hidroginástica: Òtimo exercício porque não gera impacto nas articulações"
+      ],
+      "sono": {
+        "horasRecomendadas": "7 a 8 horas por dia"
+      },
+      "consumoCalorico": {
+        "mediaDiaria": "1600 a 2200 kcal"
+      }
+    }
+  ],
+  "mulheres": [
+    {
+      "tipo": "gravidas",
+      "idade": "Adultas",
+      "alimentacao": {
+        "cafeDaManha": {
+          "dica": "Inclua alimentos ricos em cálcio, vitaminas e proteínas leves.",
+          "receitasSugeridas": [
+            {
+              "nome": "Vitamina de Mamão com Aveia",
+              "link": "receitas.html?slug=vitamina-mamao"
+            },
+            {
+              "nome": "Ovos Mexidos com Torrada Integral",
+              "link": "receitas.html?slug=ovos-mexidos"
+            }
+          ]
+        },
+        "almoco": {
+          "dica": "Prefira alimentos de fácil digestão e ricos em ferro e ácido fólico.",
+          "receitasSugeridas": [
+            {
+              "nome": "Peixe Assado",
+              "link": "receitas.html?slug=peixe-assado"
+            },
+            {
+              "nome": "Purê de Batata",
+              "link": "receitas.html?slug=pure-batata"
+            },
+            {
+              "nome": "Arroz Integral com Feijão e Espinafre",
+              "link": "receitas.html?slug=arroz-feijao-espinafre"
+            }
+          ]
+        },
+        "jantar": {
+          "dica": "Realize refeições leves para evitar o refluxo e melhorar a qualidade do sono.",
+          "receitasSugeridas": [
+            {
+              "nome": "Sopa de Frango com Legumes",
+              "link": "receitas.html?slug=sopa-frango"
+            },
+            {
+              "nome": "Omelete de Forno com Brócolis",
+              "link": "receitas.html?slug=omelete-brocolis"
+            }
+          ]
+        },
+        "frutasIndicadas": [
+            {
+              "nome": "Melão: Tem efeito diurético natural, ajudando a combater a retenção de líquidos",
+              "slug": "melao",
+              "link": "frutas.html?slug=melao"
+            },
+            {
+              "nome": "Maçã: Rica em pectina, uma fibra que melhora o funcionamento do intestino",
+              "slug": "maca",
+              "link": "frutas.html?slug=maca"
+            },
+            {
+              "nome": "Abacate: Fonte de ácido fólico, crucial para o tubo neural do bebê.",
+              "slug": "abacate",
+              "link": "frutas.html?slug=abacate"
+            },
+            {
+              "nome": "Limão: O sabor ácido ajuda a aliviar os enjoos matinais.Acerola e Caju: Vitamina C pura, necessária para absorver o ferro das refeições.",
+              "slug": "limao",
+              "link": "frutas.html?slug=limao"
+            },
+            {
+              "nome": "Figo: Ajuda a suprir as necessidades de cálcio e ferro da gestação.",
+              "slug": "figo",
+              "link": "frutas.html?slug=figo"
+            },
+             {
+              "nome": "Laranja: Fonte de vitamina C que auxiliam na imunidade.",
+              "slug": "laranja",
+              "link": "frutas.html?slug=laranja"
+            },
+              {
+              "nome": "Morango : fonte de vitamina C que ajuda a síntizar o colágeno da pele.",
+              "slug": "morango",
+              "link": "frutas.html?slug=morango"
+            }
+          ]
+      },
+      "atividadeFisica": [
+        "Caminhada leve e moderada por pelo menos 30 minutos por dia, com liberação médica",
+        "Alongamento: É importante alongar os músculos suavemente para aliviar tensões na lombar",
+        "Hidroginástica: Ótimo exercício porque reduz o peso nas costas e não gera impacto nas articulações"
+      ],
+      "sono": {
+        "horasRecomendadas": "8 a 9 horas por dia, preferencialmente deitada de lado esquerdo"
+      },
+      "consumoCalorico": {
+        "mediaDiaria": "1800 a 2400 kcal, variando conforme o trimestre da gestação"
+      }
+    }
+  ],
+  "nutrientes": {
+    "vitaminas": [
+      {
+        "nome": "Vitamina A",
+        "funcao": "Importante para visão, pele e imunidade.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Essencial para o crescimento e visão."
+          },
+          {
+            "Adolescentes": "Necessária para o desenvolvimento."
+          },
+          {
+            "Adultos": "Manutenção da integridade celular."
+          },
+          {
+            "Idosos": "Proteção da visão e integridade celular."
+          },
+          {
+            "Mulheres grávidas": "Necessária com moderação para evitar toxicidade."
+          },
+          {
+            "Mulheres": "Saúde da pele e visão."
+          },
+          {
+            "Quem quer emagrecer": "Auxilia na regulação da expressão genética adiposa."
+          },
+          {
+            "Ganhar peso": "Mantém a síntese de proteínas estruturais."
+          },
+          {
+            "Massa muscular": "Essencial para o reparo e crescimento dos tecidos."
+          }
+        ],
+        "fontes": [
+          "Cenoura: consuma preferencialmente cozida no vapor ou consuma a água do cozimento. Como a B1 é hidrossolúvel, cozidos longos em muita água descartada reduzem o nutriente.",
+          "Abóbora: consuma assada ou cozida com pouca água. Evite combinar com alimentos excessivamente ricos em sulfitos (como alguns conservantes), que podem destruir a tiamina.",
+          "Espinafre: consuma levemente refogado ou cozido no vapor. O calor moderado reduz os oxalatos do vegetal, melhorando a digestão geral sem destruir a vitamina B1."
+        ]
+      },
+      {
+        "nome": "Vitamina B1",
+        "funcao": "Tiamina. Essencial para o metabolismo de carboidratos e o funcionamento do sistema nervoso.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Essencial para o crescimento e a conversão de alimentos em energia celular."
+          },
+          {
+            "Adolescentes": "Suporta o metabolismo energético acelerado nessa fase de crescimento."
+          },
+          {
+            "Adultos": "Auxilia na clareza mental e na manutenção dos níveis diários de energia."
+          },
+          {
+            "Idosos": "Ajuda a manter as funções cognitivas e a integridade do sistema nervoso periférico."
+          },
+          {
+            "Mulheres grávidas": "Importante para o desenvolvimento cerebral do feto e metabolismo materno."
+          },
+          {
+            "Mulheres": "Garante a eficiência metabólica celular diária."
+          },
+          {
+            "Quem quer emagrecer": "Otimiza a queima e a transformação de carboidratos em energia digerível."
+          },
+          {
+            "Ganhar peso": "Melhora o apetite e garante o bom uso das calorias extras ingeridas."
+          },
+          {
+            "Massa muscular": "Atua diretamente no ciclo de geração de energia para a contração muscular."
+          }
+        ],
+        "fontes": [
+          "Carne de porco (classificada como carne vermelha): rica em B1. Consuma grelhada ou cozida em fogo médio. Evite calor excessivo e não tome café ou chá logo após a refeição, pois os taninos reduzem a absorção.",
+          "Gergelim: consuma levemente tostado ou como tahine. Tostar ou triturar quebra a casca rígida, tornando a vitamina B1 muito mais disponível para o corpo absorver.",
+          "Sementes de girassol: consuma cruas ou tostadas em saladas e iogurtes. Evite ferver em água, pois a vitamina B1 é hidrossolúvel e se perde no líquido descartado.",
+          "Arroz integral: preserva a B1 na película do grão. Cozinhe com a quantidade exata de água até secar. Nunca escorra a água após o cozimento para não jogar o nutriente fora."
+        ]
+      },
+      {
+        "nome": "Vitamina B2",
+        "funcao": "Riboflavina. Crucial para a produção de energia ATP e para a proteção antioxidante celular.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Auxilia no crescimento físico geral e na manutenção da saúde visual."
+          },
+          {
+            "Adolescentes": "Indispensável para o desenvolvimento saudável da pele e dos tecidos musculares."
+          },
+          {
+            "Adultos": "Combate o cansaço diário através da respiração celular eficiente."
+          },
+          {
+            "Idosos": "Atua na prevenção de catarata e protege contra danos oxidativos precoces."
+          },
+          {
+            "Mulheres grávidas": "Necessária para o crescimento celular adequado do embrião."
+          },
+          {
+            "Mulheres": "Mantém a integridade da pele, unhas e a saúde dos olhos."
+          },
+          {
+            "Quem quer emagrecer": "Potencializa a queima de gorduras e proteínas na atividade física."
+          },
+          {
+            "Ganhar peso": "Garante que os macronutrientes extras sejam metabolizados sem gerar sobrecarga celular."
+          },
+          {
+            "Massa muscular": "Participa ativamente na reparação tecidual após treinos intensos de força."
+          }
+        ],
+        "fontes": [
+          "Fígado bovino (grelhado ou cozido): evite torrar ou usar calor excessivo, pois a B1 é sensível a altas temperaturas. Consuma sem café ou chá por perto para que os taninos não barrem a absorção do nutriente e do ferro.",
+          "Leite (direto ou em preparações): consuma preferencialmente fresco ou pasteurizado. Evite fervuras longas e repetidas, pois o calor prolongado degrada a tiamina presente na bebida.",
+          "Ovos (de preferência cozidos): o cozimento leve é ideal porque neutraliza a avidina (proteína do ovo cru que atrapalha a absorção de vitaminas do complexo B), mantendo a tiamina biodisponível.",
+          "Amêndoas: consuma cruas, levemente tostadas ou picadas. Evite processos industriais com muito sal ou conservantes à base de sulfitos, que destroem a molécula de vitamina B1."
+        ]
+      },
+      {
+        "nome": "Vitamina B3",
+        "funcao": "Niacina. Essencial para a reparação do DNA, saúde da pele e modulação do colesterol.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Suporta as funções gastrointestinais e o desenvolvimento do sistema nervoso."
+          },
+          {
+            "Adolescentes": "Ajuda a regular a oleosidade da pele e previne episódios severos de acne."
+          },
+          {
+            "Adultos": "Melhora a circulação sanguínea e auxilia no controle dos níveis de lipídios."
+          },
+          {
+            "Idosos": "Promove a proteção das funções cerebrais e previne o declínio cognitivo."
+          },
+          {
+            "Mulheres grávidas": "Garante o desenvolvimento saudável dos órgãos e tecidos do feto."
+          },
+          {
+            "Mulheres": "Contribui diretamente para o rejuvenescimento e barreira de proteção da pele."
+          },
+          {
+            "Quem quer emagrecer": "Ajuda a regular os níveis de açúcar no sangue durante restrições calóricas."
+          },
+          {
+            "Ganhar peso": "Participa da síntese de hormônios esteroides associados ao ganho de massa."
+          },
+          {
+            "Massa muscular": "Promove vasodilatação, melhorando o fluxo de nutrientes para os músculos estimulados."
+          }
+        ],
+        "fontes": [
+          "Peito de frango: excelente fonte de B3 e fonte de B1. O cozimento moderado preserva a B1, enquanto a B3 permanece intacta e altamente biodisponível para a reconstrução muscular.",
+          "Atum: fonte excepcional de B3 e fonte de B1. Evite o cozimento excessivo em água para não perder a B1 hidrossolúvel. A B3 resiste bem ao enlatamento e grelhados rápidos.",
+          "Amendoim: altíssima densidade de B3 e fonte de B1. O consumo tostado mantém a B3 intacta e melhora a digestão, mas evite conservantes químicos como sulfitos que destroem a B1.",
+          "Extrato de tomate: contém B1 e B3 concentradas pelo processo de redução do fruto. Aqueça moderadamente para não degradar a B1; a B3 e o antioxidante licopeno resistem bem ao calor."
+        ]
+      },
+      {
+        "nome": "Vitamina B5",
+        "funcao": "Ácido Pantotênico. Fundamental para a síntese da coenzima A e produção de hormônios.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Auxilia na cicatrização de ferimentos e formação de anticorpos protetores."
+          },
+          {
+            "Adolescentes": "Essencial no suporte às glândulas suprarrenais durante picos de estresse acadêmico."
+          },
+          {
+            "Adultos": "Ajuda no gerenciamento do estresse crônico através do suporte ao cortisol."
+          },
+          {
+            "Idosos": "Atua na manutenção das articulações e na renovação celular contínua."
+          },
+          {
+            "Mulheres grávidas": "Reduz cãibras musculares gestacionais e ajuda a prevenir náuseas matinais."
+          },
+          {
+            "Mulheres": "Fundamental para a síntese adequada de hormônios sexuais femininos."
+          },
+          {
+            "Quem quer emagrecer": "Facilita o transporte e a oxidação dos ácidos graxos estocados."
+          },
+          {
+            "Ganhar peso": "Importante para a construção estrutural de novas células no corpo."
+          },
+          {
+            "Massa muscular": "Reduz a fadiga física e acelera a recuperação neuromuscular pós-esforço."
+          }
+        ],
+        "fontes": [
+          "Cogumelos: excelente fonte de B5. Cozinhe no vapor ou grelhe rapidamente. Evite fervuras longas com descarte de água, pois o nutriente migra facilmente para o líquido.",
+          "Abacate: fonte prática de B5 por ser consumido cru. Isso garante 100% de preservação da vitamina, que não sofre nenhuma degradação pelo calor do cozimento.",
+          "Gema de ovo: rica em B5 e gorduras boas que auxiliam o trato digestivo. Consuma cozida ou ponche para garantir a digestibilidade total das proteínas e absorção dos nutrientes.",
+          "Carne bovina: ótima fonte de B5. Grelhe ou asse em temperatura moderada. Evite o ponto excessivamente tostado ou frito, que destrói parte do ácido pantotênico."
+        ]
+      },
+      {
+        "nome": "Vitamina B6",
+        "funcao": "Piridoxina. Atua diretamente no metabolismo de aminoácidos e na síntese de neurotransmissores.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Crucial para a maturação e funcionamento adequado do sistema imunológico infantil."
+          },
+          {
+            "Adolescentes": "Ajuda a estabilizar as oscilações de humor causadas por variações hormonais."
+          },
+          {
+            "Adultos": "Essencial para a produção de serotonina e melatonina, regulando humor e sono."
+          },
+          {
+            "Idosos": "Auxilia na redução da homocisteína, protegendo a saúde cardiovascular global."
+          },
+          {
+            "Mulheres grávidas": "Alivia significativamente os enjoos e vômitos comuns no primeiro trimestre."
+          },
+          {
+            "Mulheres": "Ameniza os sintomas físicos e psicológicos da Tensão Pré-Menstrual (TPM)."
+          },
+          {
+            "Quem quer emagrecer": "Regula o uso do glicogênio estocado, mantendo o rendimento físico alto."
+          },
+          {
+            "Ganhar peso": "Permite que a alta ingestão de proteínas seja digerida e absorvida corretamente."
+          },
+          {
+            "Massa muscular": "Indispensável na quebra de proteínas para construir novas fibras musculares."
+          }
+        ],
+        "fontes": [
+          "Banana: excelente fonte de B6 estável por ser consumida crua. Garante 100% de aproveitamento do nutriente, que não sobre por perdas térmicas ou lixiviação em água.",
+          "Salmão: riquíssimo em B6 e ômega-3. Grelhe rapidamente ou asse em temperatura moderada. Evite o cozimento excessivo em água ou fritura intensa para não degradar a piridoxina.",
+          "Batata com casca: a casca e a polpa concentram a B6. Cozinhe inteira no vapor ou asse. Evite descascar e picar antes de ferver, pois o nutriente dissolve-se e perde-se na água.",
+          "Castanha-de-caju: ótima fonte vegetal de B6. Consuma crua ou levemente tostada sem sal. Evite processos industriais de alta temperatura que possam oxidar as gorduras e reduzir as vitaminas."
+        ]
+      },
+      {
+        "nome": "Vitamina B9",
+        "funcao": "Ácido Fólico / Folato. Crucial para a replicação do DNA, divisão celular e formação de novas células.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Essencial para a replicação celular contínua durante surtos de crescimento rápido."
+          },
+          {
+            "Adolescentes": "Suporta a rápida expansão dos tecidos esqueléticos e musculares na puberdade."
+          },
+          {
+            "Adultos": "Mantém a renovação celular diária de tecidos de alta rotatividade, como pele e sangue."
+          },
+          {
+            "Idosos": "Previne anemias megaloblásticas e atua na preservação das funções da memória."
+          },
+          {
+            "Mulheres grávidas": "Obrigatório para o fechamento do tubo neural do feto e prevenção de anomalias congênitas."
+          },
+          {
+            "Mulheres": "Fundamental em idade fértil para preparar o corpo para uma possível gestação."
+          },
+          {
+            "Quem quer emagrecer": "Garante o funcionamento metabólico celular ideal para sustentar déficits alimentares."
+          },
+          {
+            "Ganhar peso": "Indispensável para o crescimento equilibrado de tecidos e multiplicação celular saudável."
+          },
+          {
+            "Massa muscular": "Atua na síntese de novas fitas de DNA necessárias para a hipertrofia muscular."
+          }
+        ],
+        "fontes": [
+          "Espinafre: riquíssimo em folato. Consuma cru em saladas ou cozido rapidamente no vapor. O cozimento longo em água destrói até 50% da vitamina B9 presente nas folhas.",
+          "Lentilha: excelente fonte vegetal de B9. Deixe de molho por 12 horas antes de cozinhar para reduzir os fitatos que barram a absorção de minerais, e cozinhe com a água na quantidade exata para secar.",
+          "Aspargos: ótima densidade de B9. Grelhe rapidamente ou cozinhe no vapor mantendo-os crocantes. Evite ferver em muita água para impedir que o nutriente se perca no líquido descartado.",
+          "Couve-de-bruxelas: excelente fonte de B9. Cozinhe no vapor ou asse cortada ao meio em temperatura moderada. Evite o supercozimento que deixa o vegetal mole e sem as propriedades da vitamina."
+        ]
+      },
+      {
+        "nome": "Vitamina B12",
+        "funcao": "Sistema nervoso e energia.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Crucial para o desenvolvimento cognitivo."
+          },
+          {
+            "Adolescentes": "Importante para o metabolismo energético."
+          },
+          {
+            "Adultos": "Saúde nervosa e produção de energia."
+          },
+          {
+            "Idosos": "Consumo adequado é desafiador devido à menor absorção estomacal."
+          },
+          {
+            "Mulheres grávidas": "Fundamental na prevenção de defeitos do tubo neural."
+          },
+          {
+            "Mulheres": "Saúde do sistema nervoso."
+          },
+          {
+            "Quem quer emagrecer": "Essencial para manter os níveis de energia e disposição nos treinos."
+          },
+          {
+            "Ganhar peso": "Auxilia na metabolização correta dos nutrientes."
+          },
+          {
+            "Massa muscular": "Atua na produção de glóbulos vermelhos, otimizando a oxigenação dos tecidos."
+          }
+        ],
+        "fontes": [
+          "Carnes: excelentes fontes de B12 ativa (especialmente fígado e carnes vermelhas). Evite queimar ou torrar demais o alimento. Consuma sem tomar café ou chá logo em seguida para não prejudicar a absorção gástrica.",
+          "Leite: ótima fonte de B12 com alta biodisponibilidade. Evite ferver o leite repetidas vezes, pois o superaquecimento prolongado pode reduzir o teor da vitamina em até 30%.",
+          "Suplementos (se necessário): indispensáveis para veganos, vegetarianos estritos e idosos com baixa acidez gástrica. Prefira a forma de metilcobalamina e, se indicado, o uso sublingual para absorção direta na mucosa da boca."
+        ]
+      },
+      {
+        "nome": "Vitamina C",
+        "funcao": "Fortalece o sistema imunológico e auxilia na absorção de ferro.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Necessidades diárias variam conforme a idade."
+          },
+          {
+            "Adolescentes": "Necessidades aumentadas para desenvolvimento."
+          },
+          {
+            "Adultos": "Necessária para o funcionamento imunológico e antioxidante."
+          },
+          {
+            "Idosos": "Foco na imunidade e síntese de colágeno."
+          },
+          {
+            "Mulheres grávidas": "Essencial para o desenvolvimento fetal."
+          },
+          {
+            "Mulheres": "Fundamental para a saúde geral."
+          },
+          {
+            "Quem quer emagrecer": "Atua como antioxidante no estresse oxidativo do treino."
+          },
+          {
+            "Ganhar peso": "Mantém o metabolismo celular saudável."
+          },
+          {
+            "Massa muscular": "Contribui para combater radicais livres causados por exercícios intensos."
+          }
+        ],
+        "fontes": [
+          "Laranja: excelente fonte. Consuma a fruta fresca ou beba o suco imediatamente após o preparo. Deixar o suco exposto ao ar e à luz por poucas horas oxida e destrói a vitamina C.",
+          "Limão: ótima fonte consumida crua. Evite adicionar o suco de limão em preparações ferventes ou chás muito quentes, pois a alta temperatura quebra a molécula da vitamina C rapidamente.",
+          "Morango: riquíssimo em vitamina C e consumido cru, o que garante 100% de aproveitamento. Lave os morangos inteiros antes de cortar para evitar que o nutriente escorra na água.",
+          "Brócolis: excelente fonte vegetal. Consuma cru em pedaços pequenos ou cozido levemente no vapor por poucos minutos. Nunca ferva em muita água, pois a vitamina C migra para o líquido descartado."
+        ]
+      },
+      {
+        "nome": "Vitamina D",
+        "funcao": "Saúde óssea e imunidade.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Fundamental para absorção de cálcio."
+          },
+          {
+            "Adolescentes": "Importante para o pico de densidade óssea."
+          },
+          {
+            "Adultos": "Manutenção óssea e imunidade."
+          },
+          {
+            "Idosos": "Necessidade aumentada para prevenção de osteoporose e quedas."
+          },
+          {
+            "Mulheres grávidas": "Crucial na formação do esqueleto fetal."
+          },
+          {
+            "Mulheres": "Saúde óssea e hormonal."
+          },
+          {
+            "Quem quer emagrecer": "Níveis adequados estão associados à melhor queima de gordura."
+          },
+          {
+            "Ganhar peso": "Mantém a regulação hormonal estável."
+          },
+          {
+            "Massa muscular": "Atua diretamente nos receptores musculares, otimizando a força e a síntese proteica."
+          }
+        ],
+        "fontes": [
+          "Sol: principal fonte de síntese da vitamina D3 na pele. Exponha braços e pernas de 15 a 20 minutos diariamente sem protetor solar (em horários seguros). Evite tomar banho com sabonete imediatamente após, pois a conversão na pele leva tempo.",
+          "Ovos: a vitamina D está concentrada na gema. Consuma o ovo inteiro cozido ou mexido acompanhado de uma fonte de gordura saudável, o que potencializa a absorção intestinal dessa vitamina por ser lipossolúvel.",
+          "Peixes gordos: excelentes fontes (como salmão, atum e sardinha). Grelhe ou asse moderadamente para preservar os ácidos graxos ômega-3. A própria gordura natural do peixe já garante o veículo perfeito para o corpo absorver a vitamina D."
+        ]
+      },
+      {
+        "nome": "Vitamina E",
+        "funcao": "Atua como poderoso antioxidante, protegendo as células contra danos dos radicais livres.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Essencial para o desenvolvimento saudável das células e proteção do sistema imunológico."
+          },
+          {
+            "Adolescentes": "Importante para a maturação celular e defesa antioxidante global."
+          },
+          {
+            "Adultos": "Prevenção do envelhecimento celular precoce e manutenção da saúde cardiovascular."
+          },
+          {
+            "Idosos": "Auxilia na integridade das membranas celulares e suporte às funções cognitivas."
+          },
+          {
+            "Mulheres grávidas": "Auxilia no desenvolvimento do sistema neurológico e vascular do feto."
+          },
+          {
+            "Mulheres": "Favorece a saúde da pele, cabelos e oferece proteção contra o estresse oxidativo."
+          },
+          {
+            "Quem quer emagrecer": "Combate a inflamação de baixo grau associada ao tecido adiposo."
+          },
+          {
+            "Ganhar peso": "Assegura o equilíbrio metabólico durante o aumento do consumo calórico."
+          },
+          {
+            "Massa muscular": "Reduz o dano muscular induzido pelo treino, otimizando a recuperação do tecido."
+          }
+        ],
+        "fontes": [
+          "Amêndoas e azeite de oliva: excelentes fontes. Consuma o azeite cru e as amêndoas sem processamento térmico agressivo. A própria gordura natural desses alimentos atua como o veículo perfeito para o intestino absorver a vitamina E.",
+          "Sementes de girassol: riquíssimas neste antioxidante. Consuma cruas ou levemente tostadas. Evite a exposição prolongada à luz e ao ar após descascadas, pois a vitamina E oxida facilmente quando entra em contato direto com o oxigênio.",
+          "Abacate: fonte prática que combina a vitamina E com gorduras monoinsaturadas saudáveis. Consumir a fruta crua garante 100% de aproveitamento do nutriente, protegendo as membranas das suas células contra danos."
+        ]
+      },
+      {
+        "nome": "Vitamina K",
+        "funcao": "Essencial para a coagulação sanguínea e para a fixação correta do cálcio na matriz óssea.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Fundamental para o desenvolvimento e mineralização da estrutura óssea em crescimento."
+          },
+          {
+            "Adolescentes": "Atua em conjunto com a vitamina D para construir ossos densos e fortes."
+          },
+          {
+            "Adultos": "Manutenção da saúde arterial ao prevenir a calcificação das artérias."
+          },
+          {
+            "Idosos": "Essencial na prevenção da osteoporose e redução do risco de fraturas por fragilidade."
+          },
+          {
+            "Mulheres grávidas": "Crucial para evitar hemorragias na mãe e garantir os estoques do recém-nascido."
+          },
+          {
+            "Mulheres": "Contribui para a saúde esquelética, especialmente no período pré e pós-menopausa."
+          },
+          {
+            "Quem quer emagrecer": "Participa do metabolismo da glicose e melhora a sensibilidade à insulina."
+          },
+          {
+            "Ganhar peso": "Garante o suporte esquelético necessário para sustentar a nova carga corporal."
+          },
+          {
+            "Massa muscular": "Indiretamente associada à integridade vascular que transporta nutrientes aos músculos."
+          }
+        ],
+        "fontes": [
+          "Couve e espinafre: fontes excepcionais de vitamina K1. Consuma as folhas levemente refogadas ou regadas com um fio de azeite de oliva. A presença de uma gordura saudável na refeição aumenta drasticamente a taxa de absorção intestinal deste nutriente.",
+          "Brócolis: ótima fonte vegetal. Cozinhe rapidamente no vapor para manter a textura e adicione uma fonte de lipídio (como castanhas ou óleo) no prato. Isso garante que a vitamina K seja extraída e metabolizada corretamente.",
+          "Alimentos fermentados (como queijos maduros): ótimas fontes de vitamina K2 (menaquinona). A matriz de gordura natural do queijo serve como veículo ideal para a absorção direta, auxiliando na fixação correta do cálcio nos ossos."
+        ]
+      }
+    ],
+    "minerais": [
+      {
+        "nome": "Ferro",
+        "funcao": "Ajuda no transporte de oxigênio no sangue.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Necessário para o desenvolvimento cognitivo."
+          },
+          {
+            "Adolescentes": "Necessidades aumentadas, especialmente em mulheres."
+          },
+          {
+            "Adultos": "Manutenção do transporte de oxigênio."
+          },
+          {
+            "Idosos": "Suporta a energia geral."
+          },
+          {
+            "Mulheres grávidas": "Demanda muito alta devido à expansão do volume sanguíneo."
+          },
+          {
+            "Mulheres": "Necessidade elevada em idade fértil."
+          },
+          {
+            "Quem quer emagrecer": "Evita a fadiga extrema que prejudica o rendimento físico."
+          },
+          {
+            "Ganhar peso": "Suporta a oxigenação celular."
+          },
+          {
+            "Massa muscular": "Fundamental para o transporte de oxigênio até as células musculares."
+          }
+        ],
+        "fontes": [
+          "Feijão",
+          "Carnes",
+          "Vegetais verdes escuros"
+        ]
+      },
+      {
+        "nome": "Cálcio",
+        "funcao": "Essencial para ossos e dentes.",
+        "quem pode consumir": [
+          {
+            "Crianças": "Essencial para o crescimento ósseo."
+          },
+          {
+            "Adolescentes": "Pico de densidade óssea."
+          },
+          {
+            "Adultos": "Manutenção da estrutura óssea."
+          },
+          {
+            "Idosos": "Estratégico no combate à perda de massa óssea cronológica."
+          },
+          {
+            "Mulheres grávidas": "Garante a integridade óssea materna e do bebê."
+          },
+          {
+            "Mulheres": "Saúde óssea contínua."
+          },
+          {
+            "Quem quer emagrecer": "O cálcio atua no metabolismo lipídico."
+          },
+          {
+            "Ganhar peso": "Estruturação esquelética para suportar o ganho de peso corporal."
+          },
+          {
+            "Massa muscular": "Essencial para o mecanismo de contração e relaxamento muscular."
+          }
+        ],
+        "fontes": [
+          "Leite",
+          "Queijos",
+          "Couve"
+        ]
+      }
+    ]
+  },
+  "sugestoesDeConsumo": {
+    "frutas": {
+      "quantidadeDiaria": "3 a 5 porções",
+      "recomendacao": "Consumir preferencialmente frescas."
+    },
+    "verdurasELegumes": {
+      "quantidadeDiaria": "2 ou mais porções",
+      "recomendacao": "Variar cores e tipos diariamente."
+    },
+    "agua": {
+      "quantidadeDiaria": "2 litros ou mais"
+    }
+  },
+  "restricoesAlimentares": [
+    {
+      "tipo": "diabetico",
+      "descricao": "Reduzir consumo de açúcar refinado e carboidratos simples."
+    },
+    {
+      "tipo": "hipertenso",
+      "descricao": "Evitar excesso de sódio e alimentos industrializados."
+    },
+    {
+      "tipo": "intoleranteLactose",
+      "descricao": "Optar por versões sem lactose ou bebidas vegetais."
+    }
+  ],
+  "objetivosAlimentares": [
+    {
+      "objetivo": "emagrecimento",
+      "descricao": "Priorizar alimentos naturais, fibras e proteínas magras."
+    },
+    {
+      "objetivo": "ganhoMassaMuscular",
+      "descricao": "Aumentar ingestão proteica e manter alimentação equilibrada."
+    },
+    {
+      "objetivo": "qualidadeVida",
+      "descricao": "Manter rotina alimentar balanceada e hidratação adequada."
+    }
+  ]
+}

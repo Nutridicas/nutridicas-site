@@ -1,176 +1,433 @@
 // ===============================================
-// BUSCA NUTRIDICAS ULTRA RÁPIDA - Compatível Chrome/Edge/Firefox
+// 🔎 BUSCA PROFISSIONAL NUTRIDICAS
+// versão otimizada 03/06/2025
 // ===============================================
 
 const sinonimos = {
-  aipim: "mandioca",
-  macaxeira: "mandioca",
-  jerimum: "abobora",
-  mexerica: "tangerina",
-  bergamota: "tangerina",
-  frango: "galinha",
-  galinha: "frango"
+aipim:"mandioca",
+macaxeira:"mandioca",
+jerimum:"abobora",
+
+mexerica:"tangerina",
+bergamota:"tangerina",
+
+frango:"galinha",
+galinha:"frango",
+
+linguica:"linguiça",
+linguiça:"linguica",
+
+bode:"ovino",
+ovelha:"ovino"
 };
 
-let receitas = [];
-let indice = {};
-let palavras = [];
+let receitasCache = [];
+let indiceBusca = {};
+let debounceTimer;
 
-// =====================
-// NORMALIZAR
-// =====================
-function normalizar(txt) {
-  return (txt || "")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase();
+// ==========================
+// NORMALIZAR TEXTO
+// ==========================
+
+function normalizarTexto(texto){
+
+if(!texto) return "";
+
+return texto
+.normalize("NFD")
+.replace(/[\u0300-\u036f]/g,"")
+.toLowerCase();
+
 }
 
-// =====================
-// TOKENIZAR
-// =====================
-function tokenizar(txt) {
-  return normalizar(txt)
-    .split(/[^a-z0-9]+/)
-    .filter(Boolean)
-    .map(p => sinonimos[p] || p);
+// ==========================
+// CARREGAR RECEITAS (CACHE)
+// ==========================
+
+async function carregarReceitas(){
+
+
+
+	if(receitasCache.length) return;
+
+	try{
+
+		let cache = localStorage.getItem("receitasIndex");
+
+		if(cache){
+
+		receitasCache = JSON.parse(cache);
+
+		}else{
+
+		const res = await fetch("/receitas-index");
+
+		if(!res.ok) {
+			throw new Error("JSON não encontrado");
+		}
+			receitasCache = await res.json();
+
+			localStorage.setItem(
+			"receitasIndex",
+			JSON.stringify(receitasCache)
+	  );
+
+	}
+	  criarIndice(receitasCache);
+
+	}catch(err){
+
+		console.error("Erro ao carregar receitas:",err);
+	}
 }
 
-// =====================
-// CARREGAR RECEITAS
-// =====================
-async function carregarReceitas() {
-  if (receitas.length) return;
+// ==========================
+// CRIAR INDICE INVERTIDO
+// ==========================
 
-  try {
-    const res = await fetch("/receitas-index.json"); // verifique se o JSON está em /api/receitas.json
-    if (!res.ok) throw new Error("JSON não encontrado");
-    receitas = await res.json();
-    criarIndice();
-  } catch (err) {
-    console.error("Erro ao carregar receitas:", err);
-  }
-}
+function criarIndice(receitas){
 
-// =====================
-// CRIAR INDICE
-// =====================
-function criarIndice() {
-  indice = {};
+	indiceBusca = {};
 
-  receitas.forEach(r => {
-    const texto = `${r.t} ${r.c} ${r.i} ${r.g}`;
-    const tokens = tokenizar(texto);
-    tokens.forEach(p => {
-      if (!indice[p]) indice[p] = new Set();
-      indice[p].add(r);
-    });
-  });
+	receitas.forEach(r=>{
 
-  palavras = Object.keys(indice);
-}
+	const campos=[r.t,r.c,r.i,r.g];
 
-// =====================
-// BUSCA
-// =====================
-function buscar(termo) {
-  const tokens = tokenizar(termo);
-  let resultados = [];
+	campos.forEach(campo=>{
 
-  tokens.forEach(t => {
-    if (indice[t]) {
-      resultados.push(...indice[t]);
-    } else {
-      const corr = corrigir(t);
-      if (indice[corr]) resultados.push(...indice[corr]);
-    }
-  });
+	if(!campo) return;
 
-  const unicos = [...new Map(resultados.map(r => [r.s, r])).values()];
-  return rankear(unicos, tokens);
-}
+		normalizarTexto(campo)
+		.split(/\s+/)
+		.forEach(p=>{
 
-// =====================
-// RANKING
-// =====================
-function rankear(lista, tokens) {
-  return lista
-    .map(r => {
-      let score = 0;
-      const texto = normalizar(`${r.t} ${r.c} ${r.i} ${r.g}`);
-      tokens.forEach(t => {
-        if (texto.includes(t)) score++;
+		if(!indiceBusca[p]) indiceBusca[p]=[];
+
+			indiceBusca[p].push(r);
+
       });
-      return { ...r, score };
-    })
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 20);
+
+   });
+
+ });
+
 }
 
-// =====================
-// AUTOCOMPLETE
-// =====================
-function sugestoes(termo) {
-  termo = normalizar(termo);
-  return palavras.filter(p => p.startsWith(termo)).slice(0, 6);
+// ==========================
+// BUSCA PRINCIPAL
+// ==========================
+
+function buscarReceitas(termo){
+
+termo = normalizarTexto(termo);
+
+termo = aplicarSinonimos(termo);
+
+const palavras = termo.split(" ");
+
+let resultados=[];
+
+palavras.forEach(p=>{
+
+if(indiceBusca[p]){
+
+resultados.push(...indiceBusca[p]);
+
+}else{
+
+const corrigido = corrigirBusca(p);
+
+if(indiceBusca[corrigido])
+resultados.push(...indiceBusca[corrigido]);
+
 }
 
-// =====================
-// CORREÇÃO DE DIGITAÇÃO
-// =====================
-function corrigir(t) {
-  let melhor = t;
-  let menor = 999;
-  palavras.forEach(p => {
-    const d = lev(t, p);
-    if (d < menor && d <= 2) {
-      menor = d;
-      melhor = p;
-    }
-  });
-  return melhor;
-}
-
-// =====================
-// LEVENSHTEIN
-// =====================
-function lev(a, b) {
-  const m = [];
-  for (let i = 0; i <= b.length; i++) m[i] = [i];
-  for (let j = 0; j <= a.length; j++) m[0][j] = j;
-  for (let i = 1; i <= b.length; i++) {
-    for (let j = 1; j <= a.length; j++) {
-      m[i][j] =
-        b[i - 1] === a[j - 1]
-          ? m[i - 1][j - 1]
-          : Math.min(m[i - 1][j - 1] + 1, m[i][j - 1] + 1, m[i - 1][j] + 1);
-    }
-  }
-  return m[b.length][a.length];
-}
-
-// =====================
-// EVENTO DO CAMPO DE BUSCA
-// =====================
-document.addEventListener("DOMContentLoaded", () => {
-  const campo = document.getElementById("searchInput");
-  const resultados = document.getElementById("searchResults");
-
-  campo.addEventListener("input", async e => {
-    const termo = e.target.value;
-    if (!termo) {
-      resultados.innerHTML = "";
-      return;
-    }
-
-    await carregarReceitas();
-    const lista = buscar(termo);
-
-    resultados.innerHTML = lista
-      .slice(0, 10)
-      .map(
-        r => `<a href="receita.html?slug=${r.s}" class="resultado-item">${r.t}</a>`
-      )
-      .join("");
-  });
 });
+
+const unicos=[...new Map(
+resultados.map(r=>[r.s,r])
+).values()];
+
+return calcularScore(unicos,termo).slice(0,20);
+
+}
+
+// ==========================
+// SCORE + POPULARIDADE
+// ==========================
+
+function calcularScore(lista,termo){
+
+const ranking =
+JSON.parse(localStorage.getItem("rankingReceitas")) || {};
+
+return lista
+.map(r=>{
+
+let score=0;
+
+if(normalizarTexto(r.t).includes(termo)) score+=5;
+if(normalizarTexto(r.c).includes(termo)) score+=3;
+if(normalizarTexto(r.g||"").includes(termo)) score+=2;
+if(normalizarTexto(r.i||"").includes(termo)) score+=1;
+
+score += ranking[r.s] || 0;
+
+return {...r,score};
+
+})
+.sort((a,b)=>b.score-a.score);
+
+}
+
+// ==========================
+// AUTOCOMPLETE
+// ==========================
+
+function gerarSugestoes(termo){
+
+termo = normalizarTexto(termo);
+
+return Object.keys(indiceBusca)
+.filter(p=>p.startsWith(termo))
+.slice(0,5);
+
+}
+
+// ==========================
+// CORREÇÃO AUTOMÁTICA
+// ==========================
+
+function corrigirBusca(termo){
+
+	const palavras = Object.keys(indiceBusca);
+
+	let melhor = termo;
+	let menor = Infinity;
+
+	palavras.forEach(p=>{
+
+	const d = levenshtein(termo,p);
+
+	if(d < menor && d<=2){
+
+	menor=d;
+	melhor=p;
+
+    }
+
+  });
+
+  return melhor;
+
+}
+
+// ==========================
+// LEVENSHTEIN
+// ==========================
+
+function levenshtein(a,b){
+
+const matrix=[];
+
+for(let i=0;i<=b.length;i++) matrix[i]=[i];
+
+for(let j=0;j<=a.length;j++) matrix[0][j]=j;
+
+for(let i=1;i<=b.length;i++){
+
+for(let j=1;j<=a.length;j++){
+
+matrix[i][j] =
+b[i-1]==a[j-1]
+? matrix[i-1][j-1]
+: Math.min(
+matrix[i-1][j-1]+1,
+matrix[i][j-1]+1,
+matrix[i-1][j]+1
+);
+
+}
+
+}
+
+return matrix[b.length][a.length];
+
+}
+
+// ==========================
+// SINÔNIMOS
+// ==========================
+
+function aplicarSinonimos(termo){
+
+return termo
+.split(" ")
+.map(p=> sinonimos[p] || p)
+.join(" ");
+
+}
+
+// ==========================
+// HISTÓRICO
+// ==========================
+
+function salvarBusca(termo){
+
+let historico =
+JSON.parse(localStorage.getItem("historicoBusca")) || [];
+
+historico.unshift(termo);
+
+historico=[...new Set(historico)].slice(0,10);
+
+localStorage.setItem(
+"historicoBusca",
+JSON.stringify(historico)
+);
+
+}
+
+// ==========================
+// RANKING
+// ==========================
+
+function registrarClique(slug){
+
+let ranking =
+JSON.parse(localStorage.getItem("rankingReceitas")) || {};
+
+ranking[slug]=(ranking[slug]||0)+1;
+
+localStorage.setItem(
+"rankingReceitas",
+JSON.stringify(ranking)
+);
+
+}
+
+// ==========================
+// DESTACAR TEXTO
+// ==========================
+
+function destacarTexto(texto,termo){
+
+if(!texto||!termo) return texto;
+
+const regex =
+new RegExp(`(${termo})`,"gi");
+
+return texto.replace(regex,"<mark>$1</mark>");
+
+}
+
+// ==========================
+// RENDER RESULTADOS
+// ==========================
+
+function renderResultados(lista,termo,container){
+
+if(!lista.length){
+
+	container.innerHTML=
+	`<div class="search-item">Nenhuma receita encontrada</div>`;
+
+	container.classList.add("active");
+
+	return;
+ }
+
+	container.innerHTML = lista.slice(0,8).map(r=>`
+
+	<div class="search-item"
+		onclick="registrarClique('${r.s}');
+		window.location.href='receita.html?slug=${r.s}'">
+
+		<img
+		class="search-thumb"
+		src="imagens/receitas/${r.img || 'sem-foto.jpg'}"
+		alt="${r.t}">
+	    <div class="search-info">
+
+			<strong>${destacarTexto(r.t,termo)}</strong>
+			<small>${destacarTexto(r.c,termo)}</small>
+
+		</div>
+
+	</div>
+
+	`).join("");
+
+	container.classList.add("active");
+
+ }
+
+// ==========================
+// INIT BUSCA
+// ==========================
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+	const input =
+	document.getElementById("searchInput");
+
+	const results =
+	document.getElementById("resultadosLista");
+
+	if(!input||!results) return;
+
+	input.addEventListener("input",()=>{
+
+	clearTimeout(debounceTimer);
+
+	debounceTimer=setTimeout(async()=>{
+
+	const termo = input.value.trim();
+
+	if(termo.length<2){
+
+	results.classList.remove("active");
+	results.innerHTML="";
+
+     return;
+	}
+
+	await carregarReceitas();
+
+	salvarBusca(termo);
+
+	// autocomplete
+
+	const sugestoes = gerarSugestoes(termo);
+
+	if(sugestoes.length){
+
+	results.innerHTML=sugestoes.map(s=>`
+
+	<div class="search-item sugestao"
+		onclick="document.getElementById('searchInput').value='${s}'">
+
+		${s}
+
+	</div>
+
+	`).join("");
+
+	}
+
+	// busca
+
+		const resultados =
+		buscarReceitas(termo);
+
+		renderResultados(
+		resultados,
+		termo,
+		results
+	 );
+
+	 },150);
+
+   });
+
+ });

@@ -1,5 +1,5 @@
 // ======================================================
-// MENU PROFISSIONAL – NUTRICHEF
+// MENU PROFISSIONAL – NutriDicas
 // ======================================================
 
 document.addEventListener("DOMContentLoaded", () => {

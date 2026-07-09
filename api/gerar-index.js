@@ -19,11 +19,13 @@ c: `${v.categoria || ""} ${v.subcategoria || ""} ${v.dificuldade || ""}`,
 
 i: (v.ingredientes || []).join(" "),
 
-g: `${(r.restricoes || []).join(" ")} ${(r.tags || []).join(" ")}`
+g: `${(r.restricoes || []).join(" ")} ${(r.tags || []).join(" ")}`,
+
+img: r.imagem || "sem-foto.jpg"
 
 };
 
-});
+}); // ← faltava isso
 
 fs.writeFileSync(
 "./public/receitas-index.json",

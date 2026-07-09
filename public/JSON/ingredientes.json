@@ -1,0 +1,23 @@
+{
+  "ovo": {
+    "porcao": 50,
+    "calorias": 70,
+    "carboidratos": 1,
+    "proteinas": 6,
+    "gorduras": 5
+  },
+  "farinha_trigo": {
+    "porcao": 50,
+    "calorias": 180,
+    "carboidratos": 38,
+    "proteinas": 5,
+    "gorduras": 1
+  },
+  "oleo": {
+    "porcao": 10,
+    "calorias": 90,
+    "carboidratos": 0,
+    "proteinas": 0,
+    "gorduras": 10
+  }
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nutrichef Online</title>
+  <title>NutriDicas Online</title>
 
   <!-- Fonte -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -17,76 +17,157 @@
 
 <body>
 
- <!-- HEADER -->
-<header class="header">
-  <div class="header-container ">
-    <p>🍴</p>
-    <a href="index.html" class="logo">Nutrichef Online</a>
-    <p style="color: white;"> 🌱  | </p>
+<!-- HEADER Atualizado 08/03/2026 -->
+  <!-- TOPO: BANNER COM LOGO + BUSCA -->
+  <header class="header">
+  <div class="header-top">
+      <div class="logo-area">
+          <a href="index.html" class="logo">NutriDicas</a>
+          <p class="tagline">Nutrição e Gastronomia</p>
+      </div>
+
+     <div class="search-box">
+        <input type="search" id="searchInput" placeholder="Buscar receita...">
+        
+        <!-- Alterado o ID para bater com o JavaScript e adicionado uma classe para o estilo -->
+        <div id="resultadosLista" class="search-results"></div>
+    </div>
+
+
+  <!-- MENU -->
+  <div class="header-menu">
 
     <nav id="menu">
-      <ul class="menu-principal">
-        <li><a href="index.html" class="active">Inicial</a></li>
+        <ul class="menu-principal">
 
-        <!-- Receitas -->
+          <li><a href="index.html" class="active">Inicial</a></li>
 
-        <li class="has-mega">
-          <button class="submenu-btn">Receitas</button>
-          <ul class="mega-menu">
-            <li><a href="menu-zerolac.html">🥛 <span>Zero Lactose</span></a></li>
-            <li><a href="zero-acucar.html">🍬 <span>Zero Açúcar</span></a></li>
-            <li><a href="zero-gluten.html">🌾 <span>Zero Glúten</span></a></li>
-            <li><a href="funcionais.html">🍅 <span>Funcionais </span></a></li>
-            <li><a href="veganas.html"> 🥦 <span>Veganas </span></a></li>
-            <li><a href="sem-ovo.html"> 🥚 <span>Sem Ovo </span></a></li>
-          </ul>
-        </li>
+         <li class="has-mega menu-receitas">
+            <button class="submenu-btn">🍽️ Receitas</button>
+            <div class="mega-menu">
+              <!-- TRADICIONAIS -->
+              <div class="mega-column">
+                <h4>🍲 Tradicionais</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=sopas">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?categoria=Tradicional&subcategoria=molhos">🏺 Molhos</a></li>
+                </ul>
+              </div>
+              <!-- ZERO LACTOSE -->
+              <div class="mega-column">
+                <h4>🥛 Zero Lactose</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=Bebidas">🍮 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=massas">🍫 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=pastas">🍮 Pastas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=caldas">🍮 Caldas </a></li>
+                  <li><a href="receitas.html?categoria=Zero-Lactose&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO GLÚTEN -->
+              <div class="mega-column">
+                <h4>🌾 Zero Glúten</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=molhos">🌿 Molhos</a></li>
+                  <li><a href="receitas.html?categoria=zero-Gluten&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- ZERO AÇÚCAR -->
+              <div class="mega-column">
+                <h4>🍭 Zero Açúcar</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?categoria=Zero-Acucar&subcategoria=massas">🍝 Massas</a></li>
+                </ul>
+              </div>
+              <!-- VEGANAS -->
+              <div class="mega-column">
+                <h4>🌱 Veganas</h4>
+                <ul>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bolos">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=paes">🍞 Pães</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=bebidas">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=lanches">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=massas">🍝 Massas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=saladas">🥗 Saladas</a></li>
+                  <li><a href="receitas.html?categoria=Vegana&subcategoria=sobremesas">🍮 Sobremesas</a></li>
+                </ul>
+              </div>
+              <!-- FUNCIONAIS -->
+              <div class="mega-column">
+                <h4>💪 Funcionais</h4>
+                <ul>
+                  <li><a href="receitas.html?subcategoria=bolos&tag=Funcional">🎂 Bolos</a></li>
+                  <li><a href="receitas.html?subcategoria=paes&tag=Funcional">🏋️ Pães</a></li>
+                  <li><a href="receitas.html?subcategoria=bebidas&tag=Funcional">🥤 Bebidas</a></li>
+                  <li><a href="receitas.html?subcategoria=lanches&tag=Funcional">🥪 Lanches</a></li>
+                  <li><a href="receitas.html?subcategoria=massas&tag=Funcional">🥚 Massas</a></li>
+                  <li><a href="receitas.html?subcategoria=sobremesas&tag=Funcional">🍮 Sobremesas</a></li>
+                  <li><a href="receitas.html?subcategoria=sopas&tag=Funcional">🍜 Sopas</a></li>
+                  <li><a href="receitas.html?subcategoria=molhos&tag=Funcional">🏺 Molhos</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
 
-        <!-- Produtos -->
-        
+        <!-- Fim -->
+
         <li class="has-mega">
           <button class="submenu-btn">Produtos</button>
           <ul class="mega-menu">
-            <li><a href="ebooks.html">📚 Ebooks de Receitas </a></li>
-            <li><a href="produtos.html">📚 Ebooks de Dicas Nutricionais</a></li>
+            <li><a href="">📚 Ebooks de Receitas</a></li> 
           </ul>
         </li>
-
-        <!-- Nutrição -->
 
        <li class="has-mega">
-          <button class="submenu-btn">Área da Nutrição</button>
-          <<ul class="mega-menu">
-            <li><a href="fale-nutri.html"> 👩🏻‍⚕️ Fale com a Nutri</a></li>
-            <li><a href="dicas-nutri.html">🖋️ Dicas</a></li>
-            <li><a href="consulta.html"> 🩺 Consulta Nutricional Online</a></li>
-            <li><a href="util-nutri.html"> 🧰 Utilidades</a></li>
-          </ul>
-        </li>
-
+            <!-- Nomenclatura melhorada: de "+Mais Informações" para "Guia Gourmet" ou "Ingredientes & Dicas" -->
+            <button class="submenu-btn">💡 Guia Prático</button>
+            <ul class="mega-menu">
+              <li><a href="frutas.html">🍓 Frutas</a></li>
+              <li><a href="legumes.html">🥦 Legumes e Verduras</a></li>
+              <li><a href="dicas.html">🍳 Dicas de Cozinha</a></li>
+              <li><a href="nutridicas.html">🍎 Dicas Nutricionais</a></li>
+              <li><a href="termos.html"> 👨‍🍳📖Termos Gastrômicos</a></li>
+              <li><a href="utensilios.html">🔪 Utensílios</a></li>
+        </ul>
+      </li>
         <li class="has-mega">
-          <button class="submenu-btn">Colabore</button>
-          <<ul class="mega-menu">
-            <li><a href="opiniao.html"> ✍️ Dê a sua opinião</a></li>
-            <li><a href="form-receita.html">✉️ Envie sua receita</a></li>
+          <button class="submenu-btn">Compartilhe</button>
+          <ul class="mega-menu">
+            <li><a href="opiniao.html">Dê sua opinião</a></li>
+            <li><a href="form-receita.html">Envie sua receita</a></li>
           </ul>
         </li>
 
+        <!-- Área do usuário -->
+        <li class="has-mega">
+          <button class="submenu-btn">Área do Usuário</button>
+          <ul class="mega-menu">
+            <li><a href="cadastro.html">👩‍🍳 Cadastre-se 🍳</a></li>
+            <li><a href="favoritos.html">❤️ Favoritos</a></li>
+            <li><a href="lista-compras.html">🛒 Lista de Compras</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
 
-   <!-- BUSCA -->
-    <div class="search-box">
-      <input type="search" id="searchInput" placeholder="Buscar receitas...">
-    </div>
-
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-
   </div>
+
 </header>
 
   
@@ -94,96 +175,194 @@
     <!-- CONTEÚDO PRINCIPAL -->
    <div class="nutri__header">
       <h2>Fale cnosco</h2>
-      <p>Colabore enviando a sua receita preferida.</p>
+      <p>Compartilhe sua receita com a comunidade 🍴</p>
     </div>
 
-    <section class="nutri__conteudo">
-      
-          <!-- MASCOTE -->
-          <div class="nutri__mascote">
-              <img src="imagens/Ednutri.jpg" alt="Mascote Nutrichef">
-              <p align="justify"> Olá! Agradecemos a sua colaboração,  para fazer-mos o Nutrichef cada vez melhor. Esse também é seu espaço, por isso, mande quantas receitas desejar. 🌱  
-              </p>
-          </div>
-                   
-          <!-- FORMULÁRIO -->
-      
-           <section class="nutri">
+    <section class="layout-receita">
 
-              <h2>Mande-nos a sua reeita preferida.💬</h2>
-              <p> <strong> Escreva abaixo, os igrediente, o modo de prepro, rendimento e as informações necessárias para publicarmos a sua receita.</strong></p>
+    <!-- LATERAL -->
+    <aside class="receita-sidebar">
 
-              <form class="nutri__form" action="https://formspree.io/f/xjggkkwn"  method="POST" data-form="gratuito">
+        <img src="imagens/Ednutri.jpg" alt="Mascote NutriDicas">
 
-                  <label> Nome
-                      <input type="text" name="nome" placeholder="Digite seu nome ou apelido" required>
-                   </label>
+        <div class="sidebar-texto">
+            <h3>Olá! 👋</h3>
 
-                   <label> Cidade e Estado                      <input type="text" name="cidade" placeholder="Digite o nome de sua cidade e estado aqui" required>
-                   </label>
+            <p>
+                Agradecemos sua colaboração para tornar o
+                NutriDicas cada vez melhor.
+            </p>
 
-                    <label> E-mail
-                      <input type="email" name="email" placeholder="Ex.: meumail@servidor.com.br" required>
-                    </label>
-                    <div class="grade-linha"> 
-                      <div class="field-linha">  
-                        <label> Tempo de preparo da receita
-                          <textarea name="tempopreparoreceita" required placeholder=" 20 minutos."></textarea>
-                        </label>
-                      </div>
-                      <label> Tempo de preparo Forno/Geladeira
-                        <textarea name="tempopreparoroforno" required placeholder=" 50 min. forno ou geladeira."></textarea>
-                      </label>
-                      <label> Tempo de preparo Total
-                        <textarea name="tempopreparorototal" required placeholder=" 50 min. forno ou geladeira."></textarea>
-                      </label>
+            <p>
+                Esse espaço também é seu 💚
+                Envie quantas receitas desejar.
+            </p>
+        </div>
+
+    </aside>
+
+    <!-- FORM -->
+    <section class="receita-box">
+
+        <div class="form-header">
+            <h2>Compartilhe sua receita 🍽️</h2>
+
+            <p>
+                Sua receita pode aparecer no NutriDicas.
+            </p>
+        </div>
+
+        <form class="receita-form">
+
+            <!-- DADOS -->
+            <div class="form-section">
+
+                <h3>👤 Seus dados</h3>
+
+                <div class="grid-2">
+
+                    <div class="campo">
+                        <label>Nome</label>
+                        <input type="text" placeholder="Seu nome">
                     </div>
-                    <label> Rendimento
-                        <textarea name="rendimento" required placeholder=" 4 porções."></textarea>
-                      </label>
 
-                      <label> Categoria
-                        <textarea name="categoria" required placeholder=" zero lactose, zero glúten, funcional..."></textarea>
-                      </label>
+                    <div class="campo">
+                        <label>Cidade / Estado</label>
+                        <input type="text">
+                    </div>
 
-                      <label> Custo médio para produzir
-                        <textarea name="custo" required placeholder=" Custa R$ 30"></textarea>
-                      </label>
-                       <label> Conservação
-                        <textarea name="custo" required placeholder="Pode consumir até 3 dias"></textarea>
-                      </label>
-
-                         <label> Dicas de substituições de ingredientes
-                        <textarea name="custo" required placeholder=" Pode substituit a farinha por ..."></textarea>
-                      </label>
-
-                    <label> Ingredientes
-                      <textarea name="ingredientes" required placeholder="Rx.: 1. 3 ovos 2. 1 xícara de farinha de trigo."></textarea>
-                    </label>
-
-                    <label> Modo de preparo
-                      <textarea name="preparo" required placeholder="Ex.: 1. peé-aqueça o forno 2. xícara de farinha de trigo."></textarea>
-                    </label>
-
-
-                     <label> Algumas observções
-                      <textarea name="observacoes" required placeholder="Digite aqui."></textarea>
-                    </label>
-
-                    <label>
-                        <!-- IDENTIFICAÇÃO -->
-                        <input type="hidden" name="tipo" value="receitas">
-                    </label>
-
-                    <button type="submit">Enviar a receita</button>
-              </form>  
-
-                 <div class="feedback feedback--gratuito">
-                    <p>✅ Mensagem enviada com sucesso!</p>
-                    <p>Agradecemos a sua colaboração 💚</p>
                 </div>
 
-      </section>
+                <div class="campo">
+                    <label>E-mail</label>
+                    <input type="email">
+                </div>
+
+            </div>
+
+            <!-- RECEITA -->
+            <div class="form-section">
+
+                <h3>🍴 Receita</h3>
+
+                <div class="grid-3">
+
+                    <div class="campo">
+                        <label>Tempo preparo</label>
+                        <input type="text" placeholder="20 min">
+                    </div>
+
+                    <div class="campo">
+                        <label>Forno</label>
+                        <input type="text" placeholder="40 min">
+                    </div>
+
+                    <div class="campo">
+                        <label>Fogão</label>
+                        <input type="text" placeholder="40 min">
+                    </div>
+               </div>
+               <div class="grid-3">
+
+                   <div class="campo">
+                        <label>Descanso da massa(se houver)</label>
+                        <input type="text" placeholder="40 min">
+                    </div>
+
+                     <div class="campo">
+                        <label>Geladeira (se usar)</label>
+                        <input type="text" placeholder="40 min">
+                    </div>
+
+                    <div class="campo">
+                        <label>Tempo total</label>
+                        <input type="text" placeholder="1 hora">
+                    </div>
+
+             </div>
+
+                <div class="grid-3">
+
+                    <div class="campo">
+                        <label>Rendimento</label>
+                        <input type="text" placeholder="5 porções de 5g">
+                    </div>
+
+                    <div class="campo">
+                        <label>Categoria</label>
+
+                        <select>
+                            <option>Funcional</option>
+                            <option>Vegana</option>
+                            <option>Zero Lactose</option>
+                            <option>Zero Glúten</option>
+                            <option>Zero Açúcar</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label>Custo médio R$</label>
+                        <input type="text">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- INGREDIENTES -->
+            <div class="form-section">
+
+                <h3>🥕 Ingredientes</h3>
+
+                <textarea></textarea>
+
+            </div>
+
+            <!-- PREPARO -->
+            <div class="form-section">
+
+                <h3>👨‍🍳 Modo de preparo</h3>
+
+                <textarea></textarea>
+
+            </div>
+
+            <!-- CONSERVAÇÃO -->
+            <div class="form-section">
+
+                <h3>🧊 Conservação (depois de pronta)</h3>
+
+                <textarea></textarea>
+
+            </div>
+
+            <!-- SUBSTITUIÇÕES -->
+            <div class="form-section">
+
+                <h3>🔄 Substituições (ingredientes)</h3>
+
+                <textarea></textarea>
+
+            </div>
+
+            <!-- OBS -->
+            <div class="form-section">
+
+                <h3>📝 Observações</h3>
+
+                <textarea></textarea>
+
+            </div>
+
+            <button class="btn-enviar">
+                Enviar Receita ✨
+            </button>
+
+        </form>
+
+    </section>
+
+</section>
 
     <!-- Fim -->
 
@@ -192,7 +371,7 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <p>© 2026 Nutrichef Online · Todos os direitos reservados</p>
+        <p>© 2026 NutriDicas Online · Todos os direitos reservados</p>
       </div>
     </footer>
 

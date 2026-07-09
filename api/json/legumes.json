@@ -1,0 +1,3505 @@
+{
+  "Cenoura": {
+    "slug" :   "Cenoura",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Daucus carota",
+    "familia": "Apiaceae",
+    "OutrosNomes": [
+      "Cenoura-selvagem"
+    ],
+    "variedades": [
+      "Cenoura Laranja",
+      "Cenoura Roxa",
+      "Cenoura Amarela",
+      "Cenoura Baby"
+    ],
+    "imagem": "",
+    "descricao": [
+      "A cenoura é um vegetal de raiz extremamente popular, famoso por sua cor alaranjada vibrante e textura crocante.",
+      "Seu sabor levemente adocicado a torna um ingrediente versátil tanto em pratos salgados quanto em sobremesas.",
+      "É uma das maiores fontes vegetais de betacaroteno, um poderoso antioxidante que o corpo converte em vitamina A.",
+      "Originária da região do atual Afeganistão, as primeiras variedades cultivadas eram roxas e amarelas."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "41 kcal",
+      "carboidratos": "9.6g",
+      "proteinas": "0.9g",
+      "gorduras": "0.2g",
+      "fibras": "2.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Altíssima concentração na forma de betacaroteno, essencial para a saúde visual.",
+        "vitamina B": "Contém vitaminas B1, B3 e B6 que auxiliam no bom funcionamento do sistema nervoso.",
+        "vitamina C": "Presença moderada que atua no fortalecimento do sistema imunológico.",
+        "vitamina D": "",
+        "vitamina E": "Atua de forma secundária na proteção das membranas celulares.",
+        "vitamina K": "Boa quantidade, auxiliando nos processos de coagulação sanguínea."
+      },
+      "saisMinerais": {
+        "calcio": "Auxilia na manutenção da integridade de ossos e dentes.",
+        "cobre": "Atua como cofator na produção de energia celular.",
+        "fosforo": "Trabalha em conjunto com o cálcio na mineralização óssea.",
+        "sodio": "Quantidade baixa e segura para o consumo diário.",
+        "potassio": "Excelente teor, auxiliando no controle da pressão arterial.",
+        "magnesio": "Participa em diversas reações enzimáticas do organismo.",
+        "ferro": "Presença leve que contribui na formação de células vermelhas.",
+        "selenio": "Traços que reforçam a ação antioxidante celular.",
+        "zinco": "Dá suporte ao sistema imune e processos metabólicos.",
+        "iodo": "",
+        "fluor": "Suporte básico microestrutural."
+      }
+    },
+    "beneficios": [
+      "Saúde ocular: O betacaroteno previne a degeneração macular e a cegueira noturna.",
+      "Digestão eficiente: O alto teor de fibras estimula o peristaltismo e combate a prisão de ventre.",
+      "Pele radiante: Os antioxidantes protegem contra danos solares e previnem o envelhecimento precoce.",
+      "Função imunitária: Vitaminas combinadas aumentam a resistência do organismo contra infecções."
+    ],
+    "comoUsar": [
+      "Consumo cru: Ralada em saladas, em palitos para petiscos com pastas ou em sucos naturais.",
+      "Cozimento: Cozida no vapor, assada com ervas, em sopas, purês e refogados.",
+      "Confeitaria: Base para o tradicional bolo de cenoura, muffins e pães doces.",
+      "Conservas: Muito utilizada em picles agridoce para acompanhar lanches."
+    ],
+    "contraindicacoes": [
+      "O consumo excessivo pode causar carotenemia, uma condição benigna que deixa a pele amarelada.",
+      "Pessoas com propensão a cálculos renais de oxalato de cálcio devem moderar o consumo."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 cenoura média (aprox. 100g) por dia.",
+      "Preferir o consumo com casca (bem higienizada) para preservar o máximo de fibras."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Sopa cremosa de cenoura com gengibre",
+        "slug": "sopa-cremosa-de-cenoura",
+        "imagem": "sopa-cenoura.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Espinafre": {
+    "slug" : "Espinafre",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Spinacia oleracea",
+    "familia": "Amaranthaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Espinafre-da-Nova-Zelândia (Tetragonia tetragonioides): Variedade muito vendida no Brasil com folhas grossas e formato triangular.",
+      "Bertalha (Basella alba): Popular no Norte e Nordeste, é uma trepadeira de folhas grossas e suculentas.",
+      "Espinafre-amazônico (Alternanthera sessilis): Comum na região Norte, também conhecida como orelha-de-macaco.",
+      "Espinafre-do-mato: Planta rústica encontrada em quase todo o território nacional."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O espinafre é uma hortaliça de folhas verdes escuras, amplamente reconhecida por seu alto valor nutricional.",
+      "Possui um sabor suave com um toque terroso, que se intensifica sutilmente quando cozido.",
+      "É rico em ferro, cálcio e antioxidantes como a luteína, fundamentais para a saúde celular.",
+      "Tornou-se culturalmente famoso mundialmente através do personagem de desenho animado Popeye."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "23 kcal",
+      "carboidratos": "3.6g",
+      "proteinas": "2.9g",
+      "gorduras": "0.4g",
+      "fibras": "2.2g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente fonte de carotenoides que protegem os tecidos oculares.",
+        "vitamina B": "Rico em folato (B9), essencial para a replicação celular e gestantes.",
+        "vitamina C": "Alta concentração que melhora a absorção do ferro presente na folha.",
+        "vitamina D": "",
+        "vitamina E": "Atua como forte escudo antioxidante lipossolúvel.",
+        "vitamina K": "Teor altíssimo, sendo crucial para a saúde dos ossos e coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade expressiva, embora sua absorção seja limitada pelos oxalatos.",
+        "cobre": "Auxilia na manutenção dos vasos sanguíneos e sistema imune.",
+        "fosforo": "Atua na regeneração de tecidos e células do corpo.",
+        "sodio": "Quantidade moderada natural, sem riscos à saúde.",
+        "potassio": "Concentração elevada que ajuda a reduzir a pressão arterial.",
+        "magnesio": "Abundante, essencial para a função muscular e cardíaca.",
+        "ferro": "Boa quantidade de ferro não-heme, ideal para dietas vegetarianas.",
+        "selenio": "Protege as células contra o estresse oxidativo crônico.",
+        "zinco": "Importante para o crescimento celular e defesa imunológica.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns da folha."
+      }
+    },
+    "beneficios": [
+      "Ação antioxidante: A luteína e a zeaxantina protegem os olhos contra a luz azul.",
+      "Saúde muscular: Os nitratos naturais ajudam na eficiência dos músculos durante exercícios.",
+      "Controle de pressão: O magnésio e o potássio relaxam os vasos sanguíneos.",
+      "Prevenção de anemia: O ferro combinado com a vitamina C auxilia na oxigenação do sangue."
+    ],
+    "comoUsar": [
+      "Saladas: Folhas jovens (baby spinach) consumidas cruas com azeite e limão.",
+      "Refogados: Rápido cozimento em frigideira com alho e um fio de azeite.",
+      "Massas e recheios: Ingrediente clássico em quiches, lasanhas, raviólis e tortas.",
+      "Sucos verdes: Batido cru com frutas cítricas para potencializar os nutrientes."
+    ],
+    "contraindicacoes": [
+      "Rico em oxalatos, deve ser evitado por pessoas com histórico de pedras nos rins.",
+      "Por conter muita vitamina K, pessoas que usam anticoagulantes devem controlar o consumo."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 xícara de espinafre cozido ou 2 xícaras dele cru por dia.",
+      "Cozinhar levemente no vapor ajuda a reduzir os oxalatos e libera mais nutrientes."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Quiche leve de espinafre com queijo branco",
+        "slug": "quiche-leve-de-espinafre",
+        "imagem": "quiche-espinafre.jpg",
+        "credito": "Receitas Globo",
+        "urlOrigem": "https://globo.com"
+      }
+    ]
+  },
+  "Brocolis": {
+    "slug" :"Brocolis",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Brassica oleracea var. italica",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Brócolis Ninja (ou Japonês): Possui cabeça única, compacta e formato de buquê.",
+      "Brócolis Ramoso: Variedade com vários talos longos e folhas comestíveis, muito comum no Brasil."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O brócolis é uma hortaliça da família das couves, cujas flores e talos são consumidos.",
+      "É famoso por conter altos teores de sulforafano, um composto químico estudado por suas propriedades anticancerígenas.",
+      "Possui textura firme e sabor marcante que varia de acordo com o tempo de cozimento."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "34 kcal",
+      "carboidratos": "6.6g",
+      "proteinas": "2.8g",
+      "gorduras": "0.4g",
+      "fibras": "2.6g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença na forma de betacaroteno para tecidos celulares.",
+        "vitamina B": "Contém folato (B9), importante para a saúde cardiovascular.",
+        "vitamina C": "Altíssima concentração, superando a quantidade presente na laranja por porção.",
+        "vitamina D": "",
+        "vitamina E": "Presença leve com propriedades antioxidantes.",
+        "vitamina K": "Excelente concentração, fundamental para a estrutura e fixação do cálcio nos ossos."
+      },
+      "saisMinerais": {
+        "calcio": "Boa fonte biodisponível de cálcio vegetal.",
+        "cobre": "Atua na proteção celular.",
+        "fosforo": "Auxilia no metabolismo energético.",
+        "sodio": "Teor residual irrelevante.",
+        "potassio": "Ajuda a regular os fluidos corporais.",
+        "magnesio": "Importante na modulação do relaxamento muscular.",
+        "ferro": "Contribui moderadamente no transporte de oxigênio.",
+        "selenio": "Ação sinérgica com compostos antioxidantes.",
+        "zinco": "Atua na barreira imunológica.",
+        "iodo": "",
+        "fluor": "Teor comum a vegetais crucíferos."
+      }
+    },
+    "beneficios": [
+      "Desintoxicação celular: O sulforafano estimula enzimas hepáticas protetoras.",
+      "Fortalecimento ósseo: A dupla cálcio e vitamina K melhora a densidade mineral dos ossos.",
+      "Imunidade em alta: A alta carga de vitamina C protege o corpo contra infecções agudas."
+    ],
+    "comoUsar": [
+      "Cozido no vapor: Mantém a crocância e preserva a maior parte dos nutrientes hidrossolúveis.",
+      "Assado: Ganha notas amendoadas quando grelhado com azeite de oliva e alho.",
+      "Arroz de brócolis: Picado bem fino para acompanhar pratos tradicionais brasileiros."
+    ],
+    "contraindicacoes": [
+      "Por ser rico em compostos contendo enxofre, pode causar gases e desconforto abdominal em pessoas sensíveis.",
+      "Pessoas com hipotireoidismo severo descontrolado devem evitar o consumo cru em excesso."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 1 xícara (aprox. 90g) de brócolis cozido de 3 a 4 vezes por semana.",
+      "Não descarte as folhas e talos, pois concentram grande quantidade de fibras e nutrientes."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Brócolis alho e óleo crocante",
+        "slug": "brocolis-alho-e-oleo",
+        "imagem": "brocolis-alho.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Abobora": {
+    "slug" : "Abobora",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Cucurbita moschata",
+    "familia": "Cucurbitaceae",
+    "OutrosNomes": [
+      "Jerimum"
+    ],
+    "variedades": [
+      "Abóbora Cabotiá (ou Japonesa): Casca verde escura e polpa bem densa e adocicada.",
+      "Abóbora Menina (ou Seca): Muito alongada, excelente para fazer doces caseiros.",
+      "Abóbora Paulista: Formato semelhante à de pescoço, mas consumida ainda jovem."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A abóbora é um fruto consumido como legume, nativo das Américas e amplamente cultivado.",
+      "Sua polpa é rica em carotenoides, o que confere a sua tradicional coloração amarela ou alaranjada.",
+      "Praticamente todas as suas partes são aproveitáveis, incluindo a polpa, casca, sementes e flores."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "26 kcal",
+      "carboidratos": "6.5g",
+      "proteinas": "1.0g",
+      "gorduras": "0.1g",
+      "fibras": "0.5g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Altíssima concentração na forma de alfa e betacaroteno.",
+        "vitamina B": "Contém vitaminas do complexo B que auxiliam no metabolismo energético.",
+        "vitamina C": "Concentração moderada que atua na síntese de colágeno.",
+        "vitamina D": "",
+        "vitamina E": "Presente em pequenas quantidades na polpa e em alta concentração nas sementes.",
+        "vitamina K": "Presença sutil que auxilia no sistema circulatório."
+      },
+      "saisMinerais": {
+        "calcio": "Contribui para a ingestão diária recomendada.",
+        "cobre": "Atua na saúde celular.",
+        "fosforo": "Trabalha no suporte estrutural básico.",
+        "sodio": "Quantidade insignificante.",
+        "potassio": "Excelente fonte, ajudando no controle e regulação da pressão arterial.",
+        "magnesio": "Níveis saudáveis para suporte metabólico.",
+        "ferro": "Presença discreta na polpa.",
+        "selenio": "Traços antioxidantes.",
+        "zinco": "Presente (especialmente concentrado em suas sementes).",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Baixo valor calórico: Excelente alimento para estratégias de perda ou controle de peso.",
+      "Saúde do coração: O potássio e as fibras apoiam a integridade do sistema cardiovascular.",
+      "Proteção celular: Os carotenoides reduzem os danos causados por radicais livres."
+    ],
+    "comoUsar": [
+      "Purês e Sopas: Textura cremosa perfeita para caldos e acompanhamentos de carnes.",
+      "Assada: Cortada em cubos com casca, azeite, alecrim e pimenta-do-reino.",
+      "Doces: Famoso doce de abóbora em coração ou cremoso com coco ralado."
+    ],
+    "contraindicacoes": [
+      "Não possui contraindicações graves conhecidas, sendo considerada segura para todas as idades.",
+      "O consumo exagerado em curtos períodos pode causar alteração temporária na cor da pele (carotenodermia)."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumida diariamente, cerca de 100g a 150g por refeição.",
+      "As sementes podem ser tostadas no forno e consumidas como petisco rico em zinco."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Creme de abóbora cabotiá simples",
+        "slug": "creme-de-abobora-cabotia",
+        "imagem": "creme-abobora.jpg",
+        "credito": "Panela Terapia",
+        "urlOrigem": "https://panelaterapia.com"
+      }
+    ]
+  },
+  "Batata-doce": {
+    "slug" : "Batata-doce",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Ipomoea batatas",
+    "familia": "Convolvulaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Batata-doce Roxa: Casca e polpa roxas, muito rica em antocianinas.",
+      "Batata-doce Branca (ou Alhada): Polpa bem seca e menos doce.",
+      "Batata-doce Alaranjada: Rica em betacaroteno, textura mais úmida."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A batata-doce é uma raiz tuberosa de alto valor energético e nutricional.",
+      "É amplamente conhecida por ser uma fonte de carboidratos de baixo índice glicêmico.",
+      "Seu sabor adocicado característico a torna popular em dietas esportivas e receitas tradicionais."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "86 kcal",
+      "carboidratos": "20.1g",
+      "proteinas": "1.6g",
+      "gorduras": "0.1g",
+      "fibras": "3.0g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Altíssima concentração nas variedades de polpa alaranjada.",
+        "vitamina B": "Excelente fonte de vitamina B6, que apoia o metabolismo celular.",
+        "vitamina C": "Boa presença, auxiliando na imunidade e síntese de colágeno.",
+        "vitamina D": "",
+        "vitamina E": "Atua como antioxidante protetor das células.",
+        "vitamina K": "Traços mínimos presentes na raiz."
+      },
+      "saisMinerais": {
+        "calcio": "Contribui moderadamente para a saúde dos ossos.",
+        "cobre": "Auxilia na produção de energia celular.",
+        "fosforo": "Trabalha junto ao cálcio na estrutura óssea.",
+        "sodio": "Quantidade insignificante e segura.",
+        "potassio": "Teor elevado, excelente para evitar cãibras e regular a pressão.",
+        "magnesio": "Importante para o relaxamento e recuperação muscular.",
+        "ferro": "Presença leve que auxilia na oxigenação do sangue.",
+        "selenio": "Ação antioxidante secundária.",
+        "zinco": "Dá suporte básico ao sistema de defesa do organismo.",
+        "iodo": "",
+        "fluor": "Suporte microestrutural comum."
+      }
+    },
+    "beneficios": [
+      "Energia prolongada: Fornece carboidratos que são absorvidos de forma lenta pelo organismo.",
+      "Saúde intestinal: O alto teor de fibras melhora o trânsito digestivo.",
+      "Ação antioxidante: Protege as células contra o envelhecimento precoce e radicais livres."
+    ],
+    "comoUsar": [
+      "Cozida ou Assada: Preparo clássico, excelente com um fio de azeite ou manteiga.",
+      "Purês e Escondidinhos: Base perfeita para pratos salgados e refeições fitness.",
+      "Doces: Matéria-prima para o tradicional doce de batata-doce em pasta."
+    ],
+    "contraindicacoes": [
+      "Pessoas com diabetes devem moderar as porções, embora o índice glicêmico seja favorável.",
+      "O consumo excessivo pode causar desconfortos por gases em indivíduos propensos."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 unidade média (aprox. 150g) por refeição.",
+      "Consumir com a casca bem higienizada maximiza a ingestão de fibras minerais."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Batata-doce assada com alecrim",
+        "slug": "batata-doce-assada-com-alecrim",
+        "imagem": "batata-doce-alecrim.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Chuchu": {
+    "slug" : "Chuchu",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Sechium edule",
+    "familia": "Cucurbitaceae",
+    "OutrosNomes": [
+      "Machucho"
+    ],
+    "variedades": [
+      "Chuchu Comum: Verde claro, formato de pera, com ou sem espinhos na casca.",
+      "Chuchu Branco: Variedade menor, de coloração creme ou esbranquiçada."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O chuchu é uma hortaliça do tipo fruto, famosa por seu sabor extremamente suave.",
+      "É um dos vegetais mais ricos em água, sendo ideal para hidratação e dietas restritivas.",
+      "Sua neutralidade o torna um excelente condutor de sabores em refogados e caldos."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "19 kcal",
+      "carboidratos": "4.5g",
+      "proteinas": "0.8g",
+      "gorduras": "0.1g",
+      "fibras": "1.7g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços leves que auxiliam os tecidos corporais.",
+        "vitamina B": "Boa fonte de folato (B9), essencial para a renovação celular.",
+        "vitamina C": "Presença moderada que ajuda a combater radicais livres.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Contribui levemente para os fatores de coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade básica para suporte mineral.",
+        "cobre": "Atua de forma secundária no metabolismo.",
+        "fosforo": "Auxilia na integridade celular.",
+        "sodio": "Teor extremamente baixo, ideal para hipertensos.",
+        "potassio": "Excelente diurético natural devido à boa concentração de potássio.",
+        "magnesio": "Ajuda no equilíbrio das funções enzimáticas.",
+        "ferro": "Presença leve para o suporte sanguíneo.",
+        "selenio": "Quantidade residual.",
+        "zinco": "Suporte básico imunitário.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Efeito diurético: Ajuda a combater a retenção de líquidos e reduz o inchaço.",
+      "Controle de peso: Altíssimo volume de água e calorias muito baixas garantem saciedade.",
+      "Saúde digestiva: Suas fibras leves são fáceis de digerir e não agridem o estômago."
+    ],
+    "comoUsar": [
+      "Refogado: Preparado com alho, cebola, azeite e ervas frescas como salsinha.",
+      "Caldos e Sopas: Picado para dar volume e leveza a sopas de legumes.",
+      "Saladas: Cozido 'al dente', resfriado e temperado com limão e vinagrete."
+    ],
+    "contraindicacoes": [
+      "Não possui contraindicações conhecidas, sendo seguro para bebês e idosos.",
+      "Pessoas com restrição severa de potássio devido a problemas renais devem moderar."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido livremente, cerca de metade de um chuchu grande por refeição.",
+      "A casca pode ser consumida se o fruto for jovem e bem cozido."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Chuchu refogado simples com alho",
+        "slug": "chuchu-refogado-simples",
+        "imagem": "chuchu-refogado.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Couve-flor": {
+    "slug" : "Couve-flor",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Brassica oleracea var. botrytis",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Couve-flor Branca: Variedade tradicional e mais consumida no mercado brasileiro.",
+      "Couve-flor Roxa: Rica em antocianinas, mantém a cor se cozida rapidamente.",
+      "Couve-flor Romana (Romanesco): Formato geométrico fractal e sabor amendoado."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A couve-flor é uma hortaliça da mesma família do brócolis, da qual se consomem as inflorescências.",
+      "Destaca-se pela versatilidade na culinária moderna como substituta de carboidratos pesados.",
+      "Possui um perfil denso em nutrientes e compostos sulfurados benéficos à saúde celular."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "25 kcal",
+      "carboidratos": "5.0g",
+      "proteinas": "1.9g",
+      "gorduras": "0.3g",
+      "fibras": "2.0g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Presença mínima na variedade branca.",
+        "vitamina B": "Excelente fonte de colina e folato (B9), importantes para o cérebro.",
+        "vitamina C": "Rica fonte de vitamina C, fortalecendo a barreira de imunidade.",
+        "vitamina D": "",
+        "vitamina E": "Atua de forma secundária como antioxidante celular.",
+        "vitamina K": "Boa concentração para suporte ósseo e cardiovascular."
+      },
+      "saisMinerais": {
+        "calcio": "Boa biodisponibilidade para o tecido ósseo.",
+        "cobre": "Auxilia nos processos enzimáticos corporais.",
+        "fosforo": "Trabalha no suporte estrutural das células.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Ajuda no equilíbrio osmótico e controle pressórico.",
+        "magnesio": "Importante para o bom funcionamento neuromuscular.",
+        "ferro": "Teor moderado comum às plantas crucíferas.",
+        "selenio": "Proteção celular contra o estresse oxidativo.",
+        "zinco": "Suporte básico para o sistema de defesas.",
+        "iodo": "",
+        "fluor": "Traços minerais residuais."
+      }
+    },
+    "beneficios": [
+      "Proteção celular: Contém antioxidantes e glicosinolatos que auxiliam na prevenção de mutações.",
+      "Saúde cerebral: Fonte de colina, nutriente essencial para a memória e aprendizado.",
+      "Aliada do emagrecimento: Pouco calórica, substitui arroz ou massas em dietas de baixo carboidrato."
+    ],
+    "comoUsar": [
+      "Grelhada ou Assada: Inteira ou em floretes no forno com azeite, sal e páprica.",
+      "Arroz de Couve-flor: Triturada crua e refogada rapidamente como substituta do arroz.",
+      "Creme ou Purê: Cozida e batida com temperos para criar uma textura aveludada."
+    ],
+    "contraindicacoes": [
+      "Pode provocar gases e estufamento em pessoas com digestão sensível a crucíferas.",
+      "Indivíduos com distúrbios graves de tireoide devem evitar o consumo cru exagerado."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 1 xícara de floretes cozidos (aprox. 100g) de duas a três vezes por semana.",
+      "O cozimento rápido preserva a vitamina C e evita o cheiro forte de enxofre."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Couve-flor de forno gratinada",
+        "slug": "couve-flor-de-forno-gratinada",
+        "imagem": "couve-flor-gratinada.jpg",
+        "credito": "Receitas Globo",
+        "urlOrigem": "https://globo.com"
+      }
+    ]
+  },
+  "Rucula": {
+    "slug" : "Rucula",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Eruca sativa",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [
+      "Eruca"
+    ],
+    "variedades": [
+      "Rúcula Cultivada (Comum): Folhas mais largas e sabor picante moderado.",
+      "Rúcula Selvagem: Folhas mais finas, recortadas e com sabor picante muito mais acentuado."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A rúcula é uma hortaliça folhosa famosa por seu sabor picante, amargo e levemente amendoado.",
+      "Pertence à mesma família dos brócolis e da couve, compartilhando de seus compostos saudáveis.",
+      "É amplamente utilizada na culinária mediterrânea para quebrar o sabor de queijos e carnes gordas."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "25 kcal",
+      "carboidratos": "3.7g",
+      "proteinas": "2.6g",
+      "gorduras": "0.7g",
+      "fibras": "1.6g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente teor de betacaroteno para a saúde dos tecidos e da visão.",
+        "vitamina B": "Boa fonte de folato (B9), crucial para o sistema nervoso.",
+        "vitamina C": "Concentração expressiva que melhora a imunidade corporal.",
+        "vitamina D": "",
+        "vitamina E": "Atua de forma secundária na proteção antioxidante.",
+        "vitamina K": "Teor altíssimo, essencial para a coagulação e densidade óssea."
+      },
+      "saisMinerais": {
+        "calcio": "Excelente fonte de cálcio vegetal com boa absorção pelo organismo.",
+        "cobre": "Atua no suporte metabólico celular.",
+        "fosforo": "Auxilia na manutenção estrutural dos tecidos.",
+        "sodio": "Quantidade natural baixa e segura.",
+        "potassio": "Boa concentração, auxiliando no controle da pressão arterial.",
+        "magnesio": "Importante para funções musculares e vasculares.",
+        "ferro": "Teor moderado que contribui para o transporte de oxigênio.",
+        "selenio": "Traços que reforçam a barreira antioxidante.",
+        "zinco": "Dá suporte básico às defesas do organismo.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns das folhas."
+      }
+    },
+    "beneficios": [
+      "Estímulo digestivo: As substâncias amargas ativam a produção de suco gástrico.",
+      "Saúde dos ossos: A alta carga de vitamina K atua diretamente na fixação do cálcio.",
+      "Ação detox: Contém glicosinolatos que auxiliam o fígado no processo de desintoxicação."
+    ],
+    "comoUsar": [
+      "Saladas: Consumida crua combinada com tomate seco, queijos e vinagre balsâmico.",
+      "Pizzas e Recheios: Adicionada fresca sobre pizzas logo após saírem do forno.",
+      "Pesto de Rúcula: Batida com azeite, castanhas e queijo para substituir o manjericão."
+    ],
+    "contraindicacoes": [
+      "Por conter elevado teor de vitamina K, pessoas em uso de anticoagulantes devem moderar o consumo.",
+      "Pode causar leve irritação gástrica em pessoas com quadros severos de gastrite se consumida em excesso."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 a 2 xícaras de folhas cruas por dia.",
+      "Consumir crua e bem fresca garante a integridade total da vitamina C."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada de rúcula com tomate seco e lascas de parmesão",
+        "slug": "salada-de-rucula-com-tomate-seco",
+        "imagem": "salada-rucula.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Agriao": {
+    "slug" : "Agriao",
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Nasturtium officinale",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [
+      "Agrião-d'água"
+    ],
+    "variedades": [
+      "Agrião-d'água: Variedade tradicional cultivada em solos muito úmidos ou hidropônicos.",
+      "Agrião-da-terra (ou de jardim): Folhas menores, cultivado em terra firme, sabor igualmente picante."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O agrião é uma hortaliça folhosa aquática ou semiaquática de sabor intensamente picante e refrescante.",
+      "É historicamente reconhecido por suas propriedades medicinais associadas ao sistema respiratório.",
+      "Considerado um dos vegetais de maior densidade nutricional por caloria do planeta."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "11 kcal",
+      "carboidratos": "1.3g",
+      "proteinas": "2.3g",
+      "gorduras": "0.1g",
+      "fibras": "1.5g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Riquíssimo em betacaroteno, excelente para os olhos e renovação celular.",
+        "vitamina B": "Contém boas concentrações de B6 e folato.",
+        "vitamina C": "Altíssima concentração, auxiliando fortemente o sistema imune.",
+        "vitamina D": "",
+        "vitamina E": "Apoio antioxidante secundário para os tecidos corporais.",
+        "vitamina K": "Níveis astronômicos, superando a necessidade diária em uma porção pequena."
+      },
+      "saisMinerais": {
+        "calcio": "Excelente fonte vegetal de cálcio de alta absorção.",
+        "cobre": "Auxilia na integridade dos vasos e articulações.",
+        "fosforo": "Atua na regeneração celular.",
+        "sodio": "Quantidade residual segura.",
+        "potassio": "Ajuda no controle da pressão e eliminação de líquidos.",
+        "magnesio": "Suporte básico para as funções musculares.",
+        "ferro": "Boa concentração, potencializada pela própria vitamina C da folha.",
+        "selenio": "Proteção celular contra radicais livres.",
+        "zinco": "Fortalece a barreira imunitária celular.",
+        "iodo": "Contém traços naturais decorrentes do cultivo em água.",
+        "fluor": "Suporte microestrutural comum."
+      }
+    },
+    "beneficios": [
+      "Ação expectorante: Seus compostos ajudam a fluidificar o muco nas vias respiratórias.",
+      "Super antioxidante: Combate os danos celulares causados pelo estresse do dia a dia.",
+      "Saúde cardiovascular: Ajuda a manter as artérias flexíveis e limpas."
+    ],
+    "comoUsar": [
+      "Saladas: Folhas e talos finos consumidos crus com azeite e limão.",
+      "Sopas e Cremes: Adicionado ao final do cozimento em sopas de batata ou mandioquinha.",
+      "Xaropes Caseiros: Tradicionalmente batido com mel para aliviar tosses."
+    ],
+    "contraindicacoes": [
+      "Mulheres grávidas devem evitar o consumo excessivo devido ao potencial efeito abortivo de óleos essenciais.",
+      "Pessoas com problemas inflamatórios graves na bexiga ou rins devem moderar o consumo."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 1 xícara de folhas cruas por dia é suficiente para colher seus benefícios.",
+      "Lavar muito bem em água corrente devido ao seu ambiente de cultivo úmido."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Sopa cremosa de batata com agrião",
+        "slug": "sopa-cremosa-de-batata-com-agriao",
+        "imagem": "sopa-agriao.jpg",
+        "credito": "Receitas Globo",
+        "urlOrigem": "https://globo.com"
+      }
+    ]
+  },
+  "Abobrinha": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Cucurbita pepo var. cylindrica",
+    "familia": "Cucurbitaceae",
+    "OutrosNomes": [
+      "Abobrinha-italiana"
+    ],
+    "variedades": [
+      "Abobrinha Italiana: Formato alongado, casca verde clara com estrias escuras (mais comum).",
+      "Abobrinha Menina (ou Brasileira): Formato de pescoço, colhida ainda verde para o consumo."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A abobrinha é um fruto colhido antes da maturação total, consumido amplamente como legume.",
+      "Tem digestão facílima e sabor neutro, o que a torna um curinga na cozinha saudável.",
+      "Apresenta baixíssimo teor calórico, sendo composta por quase 95% de água."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "17 kcal",
+      "carboidratos": "3.1g",
+      "proteinas": "1.2g",
+      "gorduras": "0.3g",
+      "fibras": "1.0g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença de luteína e zeaxantina, protetores oculares.",
+        "vitamina B": "Fonte de vitaminas do complexo B, especialmente B6 e riboflavina.",
+        "vitamina C": "Presença moderada que atua na proteção celular.",
+        "vitamina D": "",
+        "vitamina E": "Traços mínimos com ação antioxidante sutil.",
+        "vitamina K": "Pequenas quantidades que auxiliam no sistema circulatório."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico mineral para ossos e dentes.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Trabalha na manutenção celular.",
+        "sodio": "Quantidade desprezível, excelente para controle de hipertensão.",
+        "potassio": "Excelente teor de potássio, ajudando a regular a pressão arterial.",
+        "magnesio": "Participa em reações metabólicas e musculares do corpo.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Fácil digestão: Alimento leve, ideal para quem sofre de sensibilidade gástrica.",
+      "Aliada do coração: O potássio e as fibras solúveis ajudam no controle do colesterol.",
+      "Hidratação corporal: Ajuda a repor líquidos de forma natural devido ao alto teor de água."
+    ],
+    "comoUsar": [
+      "Refogada: Cortada em rodelas ou cubos, preparada com cebola, alho e ervas.",
+      "Macarrão de Abobrinha: Cortada em tiras finas longas para substituir massas tradicionais.",
+      "Grelhada: Fatiada longitudinalmente e dourada na chapa com azeite e sal."
+    ],
+    "contraindicacoes": [
+      "Geralmente segura para todos os indivíduos, sem contraindicações graves conhecidas.",
+      "Pessoas com restrição severa de potássio (doença renal crônica avançada) devem moderar."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumida diariamente, cerca de 1 abobrinha pequena por pessoa.",
+      "Evite descascar, pois a maior parte das fibras e antioxidantes fica na casca verde."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Abobrinha refogada com alho e tomate",
+        "slug": "abobrinha-refogada-com-alho",
+        "imagem": "abobrinha-refogada.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Cebolinha": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Allium schoenoprasum",
+    "familia": "Amaryllidaceae",
+    "OutrosNomes": [
+      "Cebolinha-francesa",
+      "Cebolete"
+    ],
+    "variedades": [
+      "Cebolinha Comum: Folhas cilíndricas e ocas, a mais cultivada no Brasil.",
+      "Cebolinha-europeia (Giro): Folhas extremamente finas e sabor mais delicado."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A cebolinha é uma erva aromática cujas folhas verdes e tubulares são amplamente usadas como tempero.",
+      "Possui um sabor suave que lembra a cebola tradicional, mas de forma muito mais discreta e fresca.",
+      "Junto com o coentro ou a salsa, forma a base do tradicional 'cheiro-verde' da culinária brasileira."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "30 kcal",
+      "carboidratos": "4.4g",
+      "proteinas": "3.3g",
+      "gorduras": "0.7g",
+      "fibras": "2.5g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente concentração de betacaroteno, atuando na proteção dos tecidos.",
+        "vitamina B": "Contém pequenas quantidades de piridoxina (B6) e folato.",
+        "vitamina C": "Altíssima concentração quando consumida fresca e crua.",
+        "vitamina D": "",
+        "vitamina E": "Atua de forma secundária como antioxidante celular.",
+        "vitamina K": "Teor extremamente alto, essencial para o sistema de coagulação do sangue."
+      },
+      "saisMinerais": {
+        "calcio": "Boa quantidade vegetal para o suporte de tecidos ósseos.",
+        "cobre": "Atua como cofator metabólico secundário.",
+        "fosforo": "Trabalha no suporte estrutural das células.",
+        "sodio": "Quantidade insignificante.",
+        "potassio": "Excelente concentração, auxiliando no equilíbrio hídrico das células.",
+        "magnesio": "Participa em diversas reações enzimáticas básicas.",
+        "ferro": "Boa presença que auxilia na formação de hemoglobina.",
+        "selenio": "Traços que reforçam a ação antioxidante celular.",
+        "zinco": "Dá suporte básico ao sistema imunológico.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Ação antimicrobiana: Seus compostos sulfurados ajudam a combater bactérias nocivas.",
+      "Estímulo digestivo: Auxilia na produção de enzimas que facilitam a quebra dos alimentos.",
+      "Proteção celular: Os flavonoides presentes combatem os radicais livres no organismo."
+    ],
+    "comoUsar": [
+      "Finalização de pratos: Adicionada crua e picada sobre arroz, feijão, carnes e sopas na hora de servir.",
+      "Molhos e Patês: Misturada a queijos cremosos, maioneses ou vinagrets para dar frescor.",
+      "Omeletes e Tortas: Incorporada diretamente nos ovos batidos antes do cozimento."
+    ],
+    "contraindicacoes": [
+      "O consumo exagerado pode causar azia ou leve desconforto estomacal em pessoas com gastrite severa.",
+      "Indivíduos com alergia conhecida a plantas do gênero Allium (alho e cebola) devem evitar."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumida diariamente como tempero, cerca de 1 a 2 colheres de sopa picadas.",
+      "Deve ser usada preferencialmente crua, pois o calor prolongado destrói seu sabor e aroma."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Molho de iogurte com cebolinha fresca",
+        "slug": "molho-de-iogurte-com-cebolinha",
+        "imagem": "molho-cebolinha.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Coentro": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Coriandrum sativum",
+    "familia": "Apiaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Coentro de Folha Português: Variedade tradicional de folhas largas e aroma muito intenso.",
+      "Coentro Marroquino: Mais cultivado pela produção de suas sementes aromáticas."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O coentro é uma erva aromática controversa, cujo sabor divide opiniões devido a fatores genéticos humanos.",
+      "Suas folhas possuem um sabor cítrico marcante, enquanto suas sementes têm notas amendoadas.",
+      "É um pilar fundamental da culinária das regiões Norte e Nordeste do Brasil, além da cozinha asiática."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "23 kcal",
+      "carboidratos": "3.7g",
+      "proteinas": "2.1g",
+      "gorduras": "0.5g",
+      "fibras": "2.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Altíssima concentração na forma de betacaroteno para proteção ocular.",
+        "vitamina B": "Contém pequenas concentrações de riboflavina (B2) e niacina (B3).",
+        "vitamina C": "Excelente fonte, auxiliando no fortalecimento imunológico corporal.",
+        "vitamina D": "",
+        "vitamina E": "Presença sutil com propriedades antioxidantes teciduais.",
+        "vitamina K": "Teor elevado, auxiliando nos processos de coagulação do sangue."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade expressiva que contribui para a ingestão diária mineral.",
+        "cobre": "Atua de forma secundária na produção celular.",
+        "fosforo": "Auxilia na integridade estrutural das membranas celulares.",
+        "sodio": "Quantidade natural baixa e segura.",
+        "potassio": "Excelente teor, auxiliando no controle da pressão e ritmo cardíaco.",
+        "magnesio": "Participa em diversas reações enzimáticas do organismo.",
+        "ferro": "Boa presença, auxiliando no transporte interno de oxigênio.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Suporte básico ao sistema de defesa do corpo.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Eliminação de metais pesados: Estudos apontam que ajuda o corpo a excretar toxinas como o mercúrio.",
+      "Saúde digestiva: Seus óleos essenciais reduzem gases, cólicas e estimulam o estômago.",
+      "Ação anti-inflamatória: Reduz o estresse oxidativo nas articulações e tecidos."
+    ],
+    "comoUsar": [
+      "Pratos com frutos do mar: Essencial na moqueca baiana, capixaba e caldos de peixe.",
+      "Culinária mexicana: Ingrediente indispensável no guacamole e no vinagrete pico de gallo.",
+      "Sementes tostadas: Moídas para temperar carnes vermelhas e compor pós de curry."
+    ],
+    "contraindicacoes": [
+      "Não possui contraindicações graves, mas pessoas com estômago muito sensível devem evitar excessos.",
+      "Algumas pessoas possuem o gene OR6A2, que faz o coentro ter gosto residual de sabão."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido diariamente em saladas e temperos, cerca de 1 maço pequeno por semana.",
+      "Adicionar no final do preparo preserva seus óleos essenciais voláteis."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Moqueca de peixe tradicional com coentro",
+        "slug": "moqueca-de-peixe-tradicional",
+        "imagem": "moqueca-peixe.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Batata-inglesa": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Solanum tuberosum",
+    "familia": "Solanaceae",
+    "OutrosNomes": [
+      "Batata-comum",
+      "Batata-branca"
+    ],
+    "variedades": [
+      "Batata Ágata: Casca lisa e polpa amarelada, ideal para cozer e fazer purês (mais comum).",
+      "Batata Asterix: Casca rosada e polpa mais seca, excelente para frituras crocantes.",
+      "Batata Monalisa: Formato ovalado, muito versátil para assados."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A batata-inglesa é um tubérculo originário da Cordilheira dos Andes e um dos alimentos mais consumidos do mundo.",
+      "Apresenta sabor neutro e textura macia quando cozida, absorvendo facilmente os temperos.",
+      "É uma fonte rica de amido e carboidratos de rápida absorção, fornecendo energia imediata."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "85 kcal",
+      "carboidratos": "19.1g",
+      "proteinas": "2.0g",
+      "gorduras": "0.1g",
+      "fibras": "1.5g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos na polpa amarelada comum.",
+        "vitamina B": "Excelente fonte de vitamina B6, que atua na saúde do sistema nervoso.",
+        "vitamina C": "Boa quantidade presente na polpa, embora parte seja perdida no cozimento.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil nos tecidos.",
+        "vitamina K": "Presença mínima apenas para equilíbrio estrutural."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade básica para suporte da matriz óssea.",
+        "cobre": "Auxilia nos processos metabólicos e síntese de energia.",
+        "fosforo": "Trabalha ativamente em conjunto com o cálcio.",
+        "sodio": "Teor natural extremamente baixo.",
+        "potassio": "Altíssima concentração, superando a banana por porção equivalente.",
+        "magnesio": "Importante para funções de relaxamento muscular e vascular.",
+        "ferro": "Presença discreta que auxilia no transporte de oxigênio.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Dá suporte básico aos processos de divisão celular.",
+        "iodo": "",
+        "fluor": "Suporte microestrutural sutil."
+      }
+    },
+    "beneficios": [
+      "Fonte de energia rápida: Ideal para atletas e reposição de glicogênio após treinos intensos.",
+      "Controle de pressão: O elevado teor de potássio estimula a eliminação do excesso de sódio.",
+      "Conforto gástrico: O purê de batata é de digestão leve e acalma a mucosa do estômago."
+    ],
+    "comoUsar": [
+      "Purê clássico: Cozida, amassada e misturada com leite, manteiga e noz-moscada.",
+      "Assada: Cortada em rústica com casca, azeite, sal grosso e dentes de alho inteiros.",
+      "Frita ou Airfryer: Cortada em palitos finos e dourada até atingir crocância externa."
+    ],
+    "contraindicacoes": [
+      "Possui alto índice glicêmico; diabéticos devem controlar rigorosamente as porções.",
+      "Partes esverdeadas na casca contêm solanina, um composto tóxico, e devem ser descartadas."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 unidade média (aprox. 120g) por refeição.",
+      "Cozinhar com a casca preserva uma quantidade significativamente maior de vitamina C."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Batata rústica assada com alecrim e alho",
+        "slug": "batata-rustica-assada",
+        "imagem": "batata-rustica.jpg",
+        "credito": "Panela Terapia",
+        "urlOrigem": "https://panelaterapia.com"
+      }
+    ]
+  },
+  "Alho": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Allium sativum",
+    "familia": "Amaryllidaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Alho Roxo (ou Nobre): Casca arroxeada, dentes grandes e sabor muito marcante (mais comum no Brasil).",
+      "Alho Branco: Casca totalmente clara, sabor ligeiramente mais suave."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O alho é um bulbo comestível composto por vários dentes, famoso por seu aroma pungente e sabor picante.",
+      "Contém alicina, um composto sulfurado volátil liberado quando o dente é esmagado ou mastigado.",
+      "É um dos temperos mais antigos e universais da humanidade, usado tanto na culinária quanto na medicina tradicional."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "149 kcal",
+      "carboidratos": "33.0g",
+      "proteinas": "6.4g",
+      "gorduras": "0.5g",
+      "fibras": "2.1g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes no bulbo.",
+        "vitamina B": "Excelente fonte de vitamina B6, essencial para o metabolismo e sistema nervoso.",
+        "vitamina C": "Boa concentração, embora parte seja reduzida no cozimento longo.",
+        "vitamina D": "",
+        "vitamina E": "Presença sutil com função antioxidante celular.",
+        "vitamina K": "Traços mínimos para equilíbrio biológico."
+      },
+      "saisMinerais": {
+        "calcio": "Boa quantidade vegetal que apoia a estrutura óssea.",
+        "cobre": "Auxilia na integridade dos tecidos e vasos sanguíneos.",
+        "fosforo": "Trabalha ativamente no metabolismo energético celular.",
+        "sodio": "Quantidade residual segura.",
+        "potassio": "Excelente teor, auxiliando no equilíbrio osmótico e cardiovascular.",
+        "magnesio": "Participa em diversas reações enzimáticas do corpo.",
+        "ferro": "Contribui moderadamente para o transporte de oxigênio.",
+        "selenio": "Altíssima concentração para um vegetal, potencializando a defesa celular.",
+        "zinco": "Dá suporte básico à barreira imunológica.",
+        "iodo": "",
+        "fluor": "Traços microestruturais comuns."
+      }
+    },
+    "beneficios": [
+      "Ação antibiótica natural: A alicina atua combatendo bactérias, fungos e vírus.",
+      "Saúde do coração: Auxilia na redução da pressão arterial e no equilíbrio dos níveis de colesterol.",
+      "Fortalecimento imune: Seus compostos de enxofre ativam as células de defesa do organismo."
+    ],
+    "comoUsar": [
+      "Refogados: Picado ou esmagado para iniciar o preparo de arroz, feijão e carnes.",
+      "Assado inteiro: A cabeça de alho assada no forno com azeite vira uma pasta doce e suave.",
+      "Cru em molhos: Ralado finamente em molhos para salada, vinagretes ou maionese caseira."
+    ],
+    "contraindicacoes": [
+      "O consumo excessivo cru pode causar azia, queimação estomacal e mau hálito acentuado.",
+      "Pessoas que farão cirurgias devem moderar o consumo dias antes devido ao seu efeito anticoagulante."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 a 2 dentes de alho por dia para colher os benefícios.",
+      "Deixar o alho picado descansar por 10 minutos antes de aquecer ajuda a preservar a alicina."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Pasta de alho assado para torreiras",
+        "slug": "pasta-de-alho-assado",
+        "imagem": "pasta-alho.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Cebola": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Allium cepa",
+    "familia": "Amaryllidaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Cebola Pêra (Amarela): Casca dourada e polpa clara, a mais versátil para refogados (comum).",
+      "Cebola Roxa: Sabor mais suave e adocicado, ideal para consumo cru ou em conserva.",
+      "Cebola Branca: Casca muito clara, polpa crocante e sabor intensamente picante."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A cebola é um bulbo em camadas, pilar aromático indispensável na gastronomia global.",
+      "Contém quercetina, um potente antioxidante flavonoide concentrado nas camadas externas.",
+      "Libera compostos voláteis de enxofre quando cortada, o que estimula as glândulas lacrimais."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "40 kcal",
+      "carboidratos": "9.3g",
+      "proteinas": "1.1g",
+      "gorduras": "0.1g",
+      "fibras": "1.7g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes nas variedades comuns.",
+        "vitamina B": "Fonte de vitaminas B6 e folato, essenciais para a energia celular.",
+        "vitamina C": "Boa presença, atuando na proteção e integridade dos tecidos.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Traços mínimos regulatórios."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização óssea.",
+        "cobre": "Atua de forma secundária no metabolismo.",
+        "fosforo": "Auxilia na integridade estrutural das membranas.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Boa concentração que apoia o equilíbrio de fluidos e pressão.",
+        "magnesio": "Importante para funções musculares básicas.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços que auxiliam na defesa contra o estresse oxidativo.",
+        "zinco": "Dá suporte básico ao sistema de defesa.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Ação anti-inflamatória: A quercetina atua reduzindo processos inflamatórios crônicos.",
+      "Saúde digestiva: Rica em inulina, uma fibra prebiótica que alimenta as bactérias boas do intestino.",
+      "Controle glicêmico: Compostos como o cromo auxiliam na regulação do açúcar no sangue."
+    ],
+    "comoUsar": [
+      "Base de pratos: Picada fina (brunoise) para iniciar molhos, arroz e guisados.",
+      "Crua em saladas: Fatiada em rodelas finas, excelente quando combinada com tomates.",
+      "Grelhada ou Caramelizada: Cozida lentamente até liberar seus açúcares naturais."
+    ],
+    "contraindicacoes": [
+      "Pode provocar gases, azia e refluxo em pessoas diagnosticadas com a síndrome do intestino irritável.",
+      "Indivíduos com estômago altamente sensível devem evitar o consumo excessivo da cebola crua."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumida diariamente, cerca de metade de uma cebola média por dia.",
+      "Consumir variedades roxas cruas maximiza a ingestão de compostos antioxidantes intactos."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Cebola caramelizada simples de frigideira",
+        "slug": "cebola-caramelizada-simples",
+        "imagem": "cebola-caramelizada.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Abobrinha": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Cucurbita pepo var. cylindrica",
+    "familia": "Cucurbitaceae",
+    "OutrosNomes": [
+      "Abobrinha-italiana"
+    ],
+    "variedades": [
+      "Abobrinha Italiana: Formato alongado, casca verde clara com estrias escuras (mais comum).",
+      "Abobrinha Menina (ou Brasileira): Formato de pescoço, colhida ainda verde para o consumo."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A abobrinha é um fruto colhido antes da maturação total, consumido amplamente como legume.",
+      "Tem digestão facílima e sabor neutro, o que a torna um curinga na cozinha saudável.",
+      "Apresenta baixíssimo teor calórico, sendo composta por quase 95% de água."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "17 kcal",
+      "carboidratos": "3.1g",
+      "proteinas": "1.2g",
+      "gorduras": "0.3g",
+      "fibras": "1.0g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença de luteína e zeaxantina, protetores oculares.",
+        "vitamina B": "Fonte de vitaminas do complexo B, especialmente B6 e riboflavina.",
+        "vitamina C": "Presença moderada que atua na proteção celular.",
+        "vitamina D": "",
+        "vitamina E": "Traços mínimos com ação antioxidante sutil.",
+        "vitamina K": "Pequenas quantidades que auxiliam no sistema circulatório."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico mineral para ossos e dentes.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Trabalha na manutenção celular.",
+        "sodio": "Quantidade desprezível, excelente para controle de hipertensão.",
+        "potassio": "Excelente teor de potássio, ajudando a regular a pressão arterial.",
+        "magnesio": "Participa em reações metabólicas e musculares do corpo.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Fácil digestão: Alimento leve, ideal para quem sofre de sensibilidade gástrica.",
+      "Aliada do coração: O potássio e as fibras solúveis ajudam no controle do colesterol.",
+      "Hidratação corporal: Ajuda a repor líquidos de forma natural devido ao alto teor de água."
+    ],
+    "comoUsar": [
+      "Refogada: Cortada em rodelas ou cubos, preparada com cebola, alho e ervas.",
+      "Macarrão de Abobrinha: Cortada em tiras finas longas para substituir massas tradicionais.",
+      "Grelhada: Fatiada longitudinalmente e dourada na chapa com azeite e sal."
+    ],
+    "contraindicacoes": [
+      "Geralmente segura para todos os indivíduos, sem contraindicações graves conhecidas.",
+      "Pessoas com restrição severa de potássio (doença renal crônica avançada) devem moderar."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumida diariamente, cerca de 1 abobrinha pequena por pessoa.",
+      "Evite descascar, pois a maior parte das fibras e antioxidantes fica na casca verde."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Abobrinha refogada com alho e tomate",
+        "slug": "abobrinha-refogada-com-alho",
+        "imagem": "abobrinha-refogada.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Pimentao": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Capsicum annuum",
+    "familia": "Solanaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Pimentão Verde: Colhido antes de amadurecer, sabor mais picante e ácido.",
+      "Pimentão Amarelo: Estágio intermediário de maturação, sabor adocicado e suave.",
+      "Pimentão Vermelho: Totalmente maduro, sabor adocicado marcante e rico em licopeno."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O pimentão é um fruto consumido largamente como legume, famoso por suas cores vibrantes.",
+      "Pertence à mesma família das pimentas, porém não possui a ardência característica devido à quase ausência de capsaicina.",
+      "É um ingrediente aromático indispensável em refogados, molhos e assados da culinária tropical."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "20 kcal",
+      "carboidratos": "4.6g",
+      "proteinas": "0.9g",
+      "gorduras": "0.2g",
+      "fibras": "1.7g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente concentração, especialmente nas variedades amarela e vermelha.",
+        "vitamina B": "Contém vitamina B6 e folato, que auxiliam no metabolismo celular.",
+        "vitamina C": "Altíssima concentração, superando a maioria das frutas cítricas por porção.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante secundária que protege as membranas das células.",
+        "vitamina K": "Boa quantidade, auxiliando na regulação da coagulação sanguínea."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização óssea.",
+        "cobre": "Atua como cofator na produção de energia celular.",
+        "fosforo": "Trabalha no suporte estrutural básico das células.",
+        "sodio": "Quantidade insignificante e segura.",
+        "potassio": "Excelente teor, auxiliando no equilíbrio de fluidos corporais.",
+        "magnesio": "Importante para funções musculares e vasculares.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Poder antioxidante elevado: A carga de vitamina C protege o corpo contra o estresse oxidativo.",
+      "Saúde da visão: Rico em luteína e zeaxantina, que previnem a degeneração macular.",
+      "Estímulo metabólico: Contém compostos que auxiliam na queima calórica e controle de peso."
+    ],
+    "comoUsar": [
+      "Consumo cru: Fatiado em rodelas ou cubos em saladas e vinagretes.",
+      "Cozimento: Grelhado, refogado, assado ou como base para molhos estruturados.",
+      "Pimentão recheado: Preparado clássico no forno com carnes, arroz ou queijos."
+    ],
+    "contraindicacoes": [
+      "O pimentão verde pode ser de difícil digestão para pessoas com estômago sensível.",
+      "Pode causar azia ou refluxo em indivíduos com quadros de gastrite severa."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido diariamente, cerca de metade de uma unidade média por refeição.",
+      "Preferir as variedades vermelha e amarela se o objetivo for uma digestão mais leve."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Pimentão recheado com carne moída de forno",
+        "slug": "pimentao-recheado-com-carne",
+        "imagem": "pimentao-recheado.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Tomate": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Solanum lycopersicum",
+    "familia": "Solanaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Tomate Italiano: Formato alongado, polpa densa e pouca água, perfeito para molhos.",
+      "Tomate Carmem: Redondo e firme, excelente durabilidade pós-colheita, ideal para saladas.",
+      "Tomate Cereja: Pequeno, arredondado e com sabor adocicado concentrado."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O tomate é um fruto botanicamente classificado como tal, mas amplamente consumido como legume no mundo todo.",
+      "É a principal fonte alimentar de licopeno, um poderoso antioxidante associado a diversos benefícios cardiovasculares.",
+      "Sua acidez natural equilibrada o torna a base culinária mais versátil para molhos mundiais."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "18 kcal",
+      "carboidratos": "3.9g",
+      "proteinas": "0.9g",
+      "gorduras": "0.2g",
+      "fibras": "1.2g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença na forma de betacaroteno, crucial para os tecidos oculares.",
+        "vitamina B": "Contém folato (B9) e piridoxina (B6) em quantidades moderadas.",
+        "vitamina C": "Excelente fonte, auxiliando no fortalecimento do sistema imunológico.",
+        "vitamina D": "",
+        "vitamina E": "Atua de forma secundária na proteção das membranas celulares.",
+        "vitamina K": "Boa concentração, auxiliando nos processos de saúde óssea e vascular."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização óssea.",
+        "cobre": "Auxilia na integridade dos vasos sanguíneos.",
+        "fosforo": "Trabalha no suporte estrutural das células.",
+        "sodio": "Quantidade extremamente baixa e segura.",
+        "potassio": "Excelente teor, auxiliando no controle da pressão arterial.",
+        "magnesio": "Participa em reações metabólicas e musculares do corpo.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Proteção cardiovascular: O licopeno auxilia na redução do colesterol LDL e oxidação arterial.",
+      "Prevenção celular: Associado à redução de riscos em mutações celulares crônicas.",
+      "Saúde da pele: Os antioxidantes protegem contra danos UV e o envelhecimento precoce."
+    ],
+    "comoUsar": [
+      "Consumo cru: Fatiado em saladas, vinagretes, bruschettas e sanduíches.",
+      "Molhos caseiros: Cozido lentamente com ervas para formar bases concentradas.",
+      "Assado: Tomates confitados no azeite com dentes de alho e ramos de tomilho."
+    ],
+    "contraindicacoes": [
+      "A acidez natural pode causar desconforto em pessoas com refluxo gastroesofágico severo.",
+      "Pessoas com propensão a cálculos renais de oxalato devem moderar o consumo das sementes."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido diariamente, cerca de 1 a 2 unidades médias por dia.",
+      "O cozimento do tomate com um fio de azeite aumenta drasticamente a absorção do licopeno."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Molho de tomate caseiro rústico",
+        "slug": "molho-de-tomate-caseiro",
+        "imagem": "molho-tomate.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Alface": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Lactuca sativa",
+    "familia": "Asteraceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Alface Crespa: Folhas onduladas com textura macia, a mais consumida no Brasil.",
+      "Alface Americana: Cabeça compacta, folhas crocantes e excelente para sanduíches.",
+      "Alface Roxa: Coloração escura decorrente do alto teor de antocianinas antioxidantes."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A alface é a hortaliça folhosa mais popular do mundo, pilar de saladas cruas diárias.",
+      "Possui baixíssimo valor calórico e alta densidade hídrica, sendo perfeita para hidratação.",
+      "Contém lactucina nas variedades de folhas mais firmes, um composto com propriedades calmantes."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "15 kcal",
+      "carboidratos": "2.9g",
+      "proteinas": "1.4g",
+      "gorduras": "0.2g",
+      "fibras": "1.3g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente fonte de betacaroteno, especialmente nas folhas externas mais escuras.",
+        "vitamina B": "Contém pequenas concentrações de folato (B9).",
+        "vitamina C": "Boa presença que atua no fortalecimento imunológico corporal.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil nos tecidos.",
+        "vitamina K": "Teor elevado, fundamental para a integridade da coagulação sanguínea."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade básica vegetal para suporte mineral.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Auxilia na integridade das membranas celulares.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Boa concentração que ajuda a regular os fluidos corporais.",
+        "magnesio": "Importante para a modulação do relaxamento neuromuscular.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Efeito relaxante sutil: Seus compostos naturais auxiliam no relaxamento e qualidade do sono.",
+      "Controle de peso: Garante volume e saciedade nas refeições com impacto calórico quase nulo.",
+      "Regulação hídrica: Ajuda no funcionamento renal graças ao seu alto teor de água estruturada."
+    ],
+    "comoUsar": [
+      "Saladas: Base crua clássica temperada com azeite de oliva, limão ou vinagrete.",
+      "Wraps naturais: Utilização de folhas grandes inteiras para embrulhar recheios leves.",
+      "Sucos verdes: Batida crua combinada com frutas cítricas e hortelã."
+    ],
+    "contraindicacoes": [
+      "Geralmente segura para todas as idades, sem contraindicações graves conhecidas.",
+      "Requer higienização rigorosa para evitar contaminações bacterianas comuns em folhas cruas."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumida livremente, cerca de 1 a 2 xícaras de folhas picadas por refeição.",
+      "Evitar descartar as folhas externas mais escuras, pois concentram mais nutrientes."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada verde clássica com molho de mostarda e mel",
+        "slug": "salada-verde-classica",
+        "imagem": "salada-alface.jpg",
+        "credito": "Panela Terapia",
+        "urlOrigem": "https://panelaterapia.com"
+      }
+    ]
+  },
+  "Couve": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Brassica oleracea var. acephala",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [
+      "Couve-manteiga"
+    ],
+    "variedades": [
+      "Couve Manteiga: Folhas largas, lisas e macias, a favorita na culinária brasileira.",
+      "Couve Crespa (Kale): Folhas extremamente crespas, muito popular em sucos detox e chips."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A couve é uma hortaliça folhosa verde-escura considerada um superalimento de alta densidade.",
+      "É rica em glicosinolatos, compostos sulfurados que auxiliam nos processos metabólicos do fígado.",
+      "É o acompanhamento tradicional obrigatório da feijoada e base essencial para sucos verdes."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "28 kcal",
+      "carboidratos": "4.3g",
+      "proteinas": "2.9g",
+      "gorduras": "0.6g",
+      "fibras": "3.1g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Riquíssima em carotenoides que protegem os tecidos e a saúde ocular.",
+        "vitamina B": "Excelente fonte de folato (B9), crucial para a síntese celular.",
+        "vitamina C": "Altíssima concentração, superando a maioria dos vegetais folhosos comuns.",
+        "vitamina D": "",
+        "vitamina E": "Forte escudo antioxidante lipossolúvel tecidual.",
+        "vitamina K": "Teor astronômico, sendo vital para a densidade dos ossos e coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Excelente fonte de cálcio vegetal de alta biodisponibilidade.",
+        "cobre": "Auxilia no suporte metabólico celular.",
+        "fosforo": "Atua na regeneração de tecidos do corpo.",
+        "sodio": "Quantidade baixa e totalmente segura.",
+        "potassio": "Concentração elevada que ajuda a mitigar o excesso de sódio circulante.",
+        "magnesio": "Abundante, essencial para a função neuromuscular estável.",
+        "ferro": "Boa presença, ideal para suporte em dietas plant-based.",
+        "selenio": "Protege as células contra o estresse oxidativo.",
+        "zinco": "Importante para o crescimento celular e defesa imune.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Desintoxicação hepática: Os compostos de enxofre otimizam a eliminação de toxinas.",
+      "Proteção dos ossos: A combinação de cálcio biodisponível e magnésio fortalece o esqueleto.",
+      "Melhora intestinal: O alto teor de fibras insolúveis estimula o peristaltismo saudável."
+    ],
+    "comoUsar": [
+      "Couve refogada: Cortada em tiras finíssimas (chiffonade) e salteada rapidamente no alho.",
+      "Sucos detox: Batida crua com laranja, limão, maçã ou gengibre.",
+      "Chips de couve: Folhas assadas no forno com azeite e sal até ficarem crocantes."
+    ],
+    "contraindicacoes": [
+      "Indivíduos que utilizam medicamentos anticoagulantes devem controlar o consumo pela alta carga de vitamina K.",
+      "Pessoas com hipotireoidismo severo devem evitar o consumo cru em excesso (compostos goitrogênicos)."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 xícara de couve refogada ou crua de 3 a 4 vezes por semana.",
+      "O refogado rápido preserva a maior parte das propriedades minerais e fibras."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Couve refogada na manteiga com alho",
+        "slug": "couve-refogada-na-manteiga",
+        "imagem": "couve-refogada.jpg",
+        "credito": "Receitas Globo",
+        "urlOrigem": "https://globo.com"
+      }
+    ]
+  },
+  "Mandioca": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Manihot esculenta",
+    "familia": "Euphorbiaceae",
+    "OutrosNomes": [
+      "Aipim",
+      "Macaxeira"
+    ],
+    "variedades": [
+      "Mandioca-mansa (Mesa): Teor baixíssimo de ácido cianídrico, cozimento rápido e seguro para consumo direto.",
+      "Mandioca-brava: Alto teor de toxinas, utilizada exclusivamente pela indústria para fabricação de farinhas e polvilho após processos de prensagem."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A mandioca é uma raiz tuberosa nativa da América do Sul e uma das principais fontes de carboidratos nos trópicos.",
+      "Apresenta polpa densa e rica em amido, com textura macia e sabor amanteigado quando bem cozida.",
+      "É historicamente a base alimentar da cultura indígena e da culinária tradicional brasileira."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "160 kcal",
+      "carboidratos": "38.1g",
+      "proteinas": "1.4g",
+      "gorduras": "0.3g",
+      "fibras": "1.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos na variedade branca; boa presença nas variedades de polpa amarela intensa.",
+        "vitamina B": "Fonte de vitaminas B1, B3 e B6 que apoiam o metabolismo de energia.",
+        "vitamina C": "Excelente concentração na raiz crua, atuando como protetor celular.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante secundária sutil.",
+        "vitamina K": "Traços estruturais básicos."
+      },
+      "saisMinerais": {
+        "calcio": "Boa quantidade vegetal para suporte ósseo.",
+        "cobre": "Atua nos processos enzimáticos de respiração celular.",
+        "fosforo": "Trabalha com o cálcio na mineralização do esqueleto.",
+        "sodio": "Teor natural insignificante.",
+        "potassio": "Excelente concentração, auxiliando no controle da pressão e ritmo cardíaco.",
+        "magnesio": "Importante na modulação do relaxamento muscular pós-esforço.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Energia de longo prazo: Carboidratos complexos fornecem combustível constante sem picos bruscos de insulina.",
+      "Livre de glúten: Naturalmente segura para indivíduos celíacos ou com restrições à proteína do trigo.",
+      "Melhora digestiva: Amido resistente atua como prebiótico, alimentando a microbiota intestinal saudável."
+    ],
+    "comoUsar": [
+      "Cozida clássica: Servida quente com manteiga derretida ou acompanhando carnes.",
+      "Frita ou Assada: Cortada em palitos após o cozimento e dourada até atingir crocância.",
+      "Purês e Caldos: Base perfeita para cremes espessos, escondidinhos e bobós."
+    ],
+    "contraindicacoes": [
+      "Nunca deve ser consumida crua devido à presença de compostos cianogênicos que exigem cozimento.",
+      "Diabéticos devem monitorar as porções pelo alto teor total de carboidratos por porção."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 pedaço médio (aprox. 100g) substituindo outras fontes de amido.",
+      "O descarte correto da água de cozimento garante a eliminação total de qualquer resíduo tóxico."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Creme de macaxeira com carne de sol",
+        "slug": "creme-de-macaxeira-com-carne-de-sol",
+        "imagem": "creme-mandioca.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Rabanete": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Raphanus sativus",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Rabanete Vermelho Comum: Pequeno, arredondado, casca escarlate e polpa branca picante.",
+      "Rabanete Daikon (Branco): Variedade alongada oriental, sabor mais suave e textura suculenta."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O rabanete é uma raiz comestível de textura extremamente crocante e sabor picante característico.",
+      "Sua ardência natural decorre de compostos sulfurados voláteis (isotiocianatos) liberados na mastigação.",
+      "Apresenta baixíssimo valor calórico, sendo um excelente aliado para dietas de alta saciedade."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "16 kcal",
+      "carboidratos": "3.4g",
+      "proteinas": "0.7g",
+      "gorduras": "0.1g",
+      "fibras": "1.6g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes na polpa clara.",
+        "vitamina B": "Contém folato (B9) e pequenas quantidades de riboflavina.",
+        "vitamina C": "Boa fonte antioxidante, protegendo as células contra o estresse oxidativo.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Presença sutil reguladora."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização do esqueleto.",
+        "cobre": "Atua de forma secundária no metabolismo.",
+        "fosforo": "Trabalha no suporte estrutural das membranas celulares.",
+        "sodio": "Quantidade residual baixa.",
+        "potassio": "Excelente concentração, auxiliando no controle hídrico e da pressão.",
+        "magnesio": "Importante para funções celulares básicas.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Estímulo biliar: Auxilia o funcionamento do fígado e da vesícula, melhorando a digestão de gorduras.",
+      "Ação desinfetante: Isotiocianatos combatem o crescimento microbiano excessivo no estômago.",
+      "Efeito diurético: Alto teor de água e potássio estimulam a filtragem renal e reduzem o inchaço."
+    ],
+    "comoUsar": [
+      "Cru em saladas: Fatiado em lâminas ultrafinas para dar crocância e picância a pratos verdes.",
+      "Conserva (Picles): Curtido em vinagre, sal e açúcar para acompanhar sanduíches e pratos orientais.",
+      "Assado: Cozido no forno com azeite, o que suaviza drasticamente o sabor picante original."
+    ],
+    "contraindicacoes": [
+      "Pode causar desconforto por gases e queimação em pessoas com úlceras ou gastrite ativa.",
+      "Indivíduos com síndrome do intestino irritável devem testar a tolerância individual."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 3 a 5 unidades pequenas por refeição são suficientes.",
+      "As folhas verdes do rabanete também são comestíveis e podem ser refogadas como couve."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada refrescante de rabanete com limão",
+        "slug": "salada-refrescante-de-rabanete",
+        "imagem": "salada-rabanete.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Berinjela": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Solanum melongena",
+    "familia": "Solanaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Berinjela Comum: Formato ovalado, casca roxo-escura brilhante e polpa macia (mais tradicional).",
+      "Berinjela Japonesa: Mais alongada e fina, casca escura e sabor ligeiramente mais adocicado.",
+      "Berinjela Branca: Variedade exótica de casca clara e polpa densa."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A berinjela é um fruto consumido como legume, famoso por sua capacidade de absorver sabores como uma esponja.",
+      "Sua casca escura é riquíssima em nasunin, um potente antioxidante que protege as membranas das células cerebrais.",
+      "Possui textura carnuda após o cozimento, sendo muito utilizada como substituta de carne em pratos vegetarianos."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "25 kcal",
+      "carboidratos": "5.9g",
+      "proteinas": "1.0g",
+      "gorduras": "0.2g",
+      "fibras": "3.0g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes na polpa clara.",
+        "vitamina B": "Boa fonte de vitaminas B5 e B6, que atuam no metabolismo energético.",
+        "vitamina C": "Presença moderada que auxilia na proteção antioxidante celular.",
+        "vitamina D": "",
+        "vitamina E": "Atua de forma secundária na proteção dos tecidos.",
+        "vitamina K": "Boa quantidade, auxiliando nos processos de coagulação sanguínea."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização óssea.",
+        "cobre": "Auxilia na produção de energia celular e integridade dos tecidos.",
+        "fosforo": "Trabalha no suporte estrutural básico.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Excelente teor, auxiliando no controle da pressão arterial.",
+        "magnesio": "Participa em diversas reações enzimáticas do organismo.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Controle do colesterol: As fibras solúveis ajudam a reduzir a absorção de gorduras no intestino.",
+      "Proteção cerebral: O antioxidante nasunin combate os radicais livres nas células do sistema nervoso.",
+      "Auxílio no emagrecimento: O alto teor de fibras associado às poucas calorias garante saciedade prolongada."
+    ],
+    "comoUsar": [
+      "Assada ou Grelhada: Fatiada em rodelas ou tiras longitudinais com azeite, alho e ervas.",
+      "Antepastos: Base para o famoso Babaganuche ou caponatas rústicas com pimentões.",
+      "Lasanha de Berinjela: Fatias finas substituindo as lâminas de massa tradicional."
+    ],
+    "contraindicacoes": [
+      "Contém solanina quando crua, um composto tóxico, por isso nunca deve ser consumida sem cozimento.",
+      "Pessoas com propensão a cálculos renais de oxalato de cálcio devem moderar o consumo."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 xícara de berinjela cozida ou assada por refeição.",
+      "Consumir sempre com a casca para garantir a ingestão do antioxidante nasunin."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Caponata de berinjela ao forno tradicional",
+        "slug": "caponata-de-berinjela-ao-forno",
+        "imagem": "caponata-berinjela.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Repolho": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Brassica oleracea var. capitata",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Repolho Branco (ou Verde): Cabeça compacta de folhas claras, o mais comum em saladas brasileiras.",
+      "Repolho Roxo: Rico em antocianinas, sabor ligeiramente mais adocicado e visual vibrante.",
+      "Repolho Crespo (Coração de Boi): Folhas enrugadas e textura mais suave."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O repolho é uma hortaliça de cabeça compacta formada por folhas densamente sobrepostas.",
+      "Pertence à poderosa família das crucíferas, sendo rico em compostos sulfurados benéficos ao fígado.",
+      "Apresenta excelente durabilidade pós-colheita e grande versatilidade, consumido cru ou cozido."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "25 kcal",
+      "carboidratos": "5.8g",
+      "proteinas": "1.3g",
+      "gorduras": "0.1g",
+      "fibras": "2.5g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços leves na variedade branca; boa presença na roxa.",
+        "vitamina B": "Boa fonte de folato (B9) e piridoxina (B6), essenciais para as células.",
+        "vitamina C": "Altíssima concentração, especialmente quando consumido cru e fresco.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Teor elevado, fundamental para a saúde óssea e processos de coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Boa fonte de cálcio vegetal de fácil absorção.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Auxilia na integridade das membranas celulares.",
+        "sodio": "Quantidade residual segura.",
+        "potassio": "Boa concentração que apoia o equilíbrio de fluidos corporais.",
+        "magnesio": "Importante para a modulação do relaxamento muscular.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Saúde estomacal: Contém glutamina, um aminoácido que atua na proteção e restauração da mucosa gástrica.",
+      "Fortalecimento imune: A alta carga de vitamina C protege o organismo contra infecções agudas.",
+      "Ação detox celular: Glicosinolatos auxiliam o fígado a neutralizar e eliminar substâncias tóxicas."
+    ],
+    "comoUsar": [
+      "Saladas: Cortado em tiras finíssimas (chiffonade) cru, combinado com cenoura e maionese.",
+      "Refogado: Salteado rapidamente na frigideira com alho, cebola e um fio de azeite.",
+      "Fermentados (Chucrute): Conserva tradicional de repolho fermentado rica em probióticos."
+    ],
+    "contraindicacoes": [
+      "Por conter enxofre e fibras complexas, pode causar gases e estufamento em pessoas com digestão sensível.",
+      "Indivíduos com distúrbios graves de tireoide devem evitar o consumo cru exagerado."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 1 a 2 xícaras de repolho cru ou refogado de 2 a 3 vezes por semana.",
+      "Consumir a variedade roxa crua garante o máximo de antioxidantes intactos."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada de repolho roxo com maçã e iogurte",
+        "slug": "salada-de-repolho-roxo-com-maca",
+        "imagem": "salada-repolho.jpg",
+        "credito": "Panela Terapia",
+        "urlOrigem": "https://panelaterapia.com"
+      }
+    ]
+  },
+  "Beterraba": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Beta vulgaris",
+    "familia": "Amaranthaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Beterraba Roxa: Variedade tradicional intensamente pigmentada por betalaínas.",
+      "Beterraba Açucareira: Variedade branca usada industrialmente para a extração de açúcar.",
+      "Beterraba Golden: Variedade amarelada de sabor mais suave e menos terroso."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A beterraba é uma raiz tuberosa famosa por sua cor carmim vibrante e sabor terroso adocicado.",
+      "É riquíssima em nitratos lineares naturais, compostos que o corpo converte em óxido nítrico.",
+      "Sua cor marcante decorre das betalaínas, potentes pigmentos com alta ação antioxidante."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "43 kcal",
+      "carboidratos": "9.6g",
+      "proteinas": "1.6g",
+      "gorduras": "0.2g",
+      "fibras": "2.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços leves que auxiliam os tecidos celulares.",
+        "vitamina B": "Excelente fonte de folato (B9), crucial para gestantes e renovação celular.",
+        "vitamina C": "Boa presença, atuando na proteção e integridade dos tecidos corporais.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Presença sutil reguladora."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização do esqueleto.",
+        "cobre": "Auxilia nos processos enzimáticos corporais.",
+        "fosforo": "Trabalha no suporte estrutural das membranas celulares.",
+        "sodio": "Quantidade natural ligeiramente maior que outros vegetais, mas totalmente segura.",
+        "potassio": "Excelente concentração, auxiliando no controle da pressão arterial.",
+        "magnesio": "Boa quantidade para o bom funcionamento neuromuscular.",
+        "ferro": "Teor moderado; sua absorção é potencializada se consumida com fontes de vitamina C.",
+        "selenio": "Proteção celular contra o estresse oxidativo.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Performance esportiva: O óxido nítrico dilata os vasos sanguíneos, melhorando o fluxo de oxigênio para os músculos.",
+      "Controle pressórico: Auxilia ativamente na redução da pressão arterial devido ao relaxamento vascular.",
+      "Combate ao envelhecimento: As betalaínas neutralizam os radicais livres, protegendo a integridade celular."
+    ],
+    "comoUsar": [
+      "Crua ralada: Excelente em saladas com filetes de laranja ou limão para quebrar oçúcar.",
+      "Cozida ou Assada: Desenvolve notas caramelizadas intensas quando assada embrulhada em papel alumínio.",
+      "Sucos funcionais: Batida crua com cenoura e laranja (tradicional suco 'limpa-sangue')."
+    ],
+    "contraindicacoes": [
+      "Por ser rica em oxalatos, deve ser consumida com moderação por pessoas propensas a pedras nos rins.",
+      "Pode causar betúria (urina ou fezes avermelhadas), uma condição inofensiva que assusta quem consome pela primeira vez."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 unidade pequena (aprox. 80g) de 3 a 4 vezes por semana.",
+      "Consumir crua ou em sucos preserva a totalidade dos nitratos benéficos à circulação."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada de beterraba cozida com fios de azeite e vinagre",
+        "slug": "salada-de-beterraba-cozida",
+        "imagem": "salada-beterraba.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Beterraba": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Beta vulgaris",
+    "familia": "Amaranthaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Beterraba Roxa: Variedade tradicional intensamente pigmentada por betalaínas.",
+      "Beterraba Açucareira: Variedade branca usada industrialmente para a extração de açúcar.",
+      "Beterraba Golden: Variedade amarelada de sabor mais suave e menos terroso."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A beterraba é uma raiz tuberosa famosa por sua cor carmim vibrante e sabor terroso adocicado.",
+      "É riquíssima em nitratos lineares naturais, compostos que o corpo converte em óxido nítrico.",
+      "Sua cor marcante decorre das betalaínas, potentes pigmentos com alta ação antioxidante."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "43 kcal",
+      "carboidratos": "9.6g",
+      "proteinas": "1.6g",
+      "gorduras": "0.2g",
+      "fibras": "2.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços leves que auxiliam os tecidos celulares.",
+        "vitamina B": "Excelente fonte de folato (B9), crucial para gestantes e renovação celular.",
+        "vitamina C": "Boa presença, atuando na proteção e integridade dos tecidos corporais.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Presença sutil reguladora."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização do esqueleto.",
+        "cobre": "Auxilia nos processos enzimáticos corporais.",
+        "fosforo": "Trabalha no suporte estrutural das membranas celulares.",
+        "sodio": "Quantidade natural ligeiramente maior que outros vegetais, mas totalmente segura.",
+        "potassio": "Excelente concentração, auxiliando no controle da pressão arterial.",
+        "magnesio": "Boa quantidade para o bom funcionamento neuromuscular.",
+        "ferro": "Teor moderado; sua absorção é potencializada se consumida com fontes de vitamina C.",
+        "selenio": "Proteção celular contra o estresse oxidativo.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Performance esportiva: O óxido nítrico dilata os vasos sanguíneos, melhorando o fluxo de oxigênio para os músculos.",
+      "Controle pressórico: Auxilia ativamente na redução da pressão arterial devido ao relaxamento vascular.",
+      "Combate ao envelhecimento: As betalaínas neutralizam os radicais livres, protegendo a integridade celular."
+    ],
+    "comoUsar": [
+      "Crua ralada: Excelente em saladas com filetes de laranja ou limão para quebrar o açúcar.",
+      "Cozida ou Assada: Desenvolve notas caramelizadas intensas quando assada embrulhada em papel alumínio.",
+      "Sucos funcionais: Batida crua com cenoura e laranja (tradicional suco 'limpa-sangue')."
+    ],
+    "contraindicacoes": [
+      "Por ser rica em oxalatos, deve ser consumida com moderação por pessoas propensas a pedras nos rins.",
+      "Pode causar betúria (urina ou fezes avermelhadas), uma condição inofensiva que assusta quem consome pela primeira vez."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 unidade pequena (aprox. 80g) de 3 a 4 vezes por semana.",
+      "Consumir crua ou em sucos preserva a totalidade dos nitratos benéficos à circulação."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada de beterraba cozida com fios de azeite e vinagre",
+        "slug": "salada-de-beterraba-cozida",
+        "imagem": "salada-beterraba.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Grao-de-bico": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Cicer arietinum",
+    "familia": "Fabaceae",
+    "OutrosNomes": [
+      "Ervilhaca-de-bengala"
+    ],
+    "variedades": [
+      "Grão-de-bico Kabuli: Grãos grandes, claros e de casca fina, o mais consumido nas Américas e Europa.",
+      "Grão-de-bico Desi: Grãos menores, escuros e de casca áspera, muito popular na culinária indiana."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O grão-de-bico é uma leguminosa em grão, famosa por sua textura firme e sabor amendoado.",
+      "É uma das melhores fontes de proteína vegetal e aminoácidos essenciais como o triptofano.",
+      "Sua água de cozimento reduzida (aquafaba) possui propriedades emulsionantes usadas na confeitaria vegana."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "164 kcal",
+      "carboidratos": "27.4g",
+      "proteinas": "8.9g",
+      "gorduras": "2.6g",
+      "fibras": "7.6g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes nos grãos.",
+        "vitamina B": "Excelente fonte de folato (B9) e piridoxina (B6), cruciais para a energia celular.",
+        "vitamina C": "Quantidade residual muito baixa após o cozimento.",
+        "vitamina D": "",
+        "vitamina E": "Presença sutil com propriedades antioxidantes lipossolúveis.",
+        "vitamina K": "Pequenas quantidades que auxiliam no equilíbrio circulatório."
+      },
+      "saisMinerais": {
+        "calcio": "Boa concentração mineral para o suporte ósseo.",
+        "cobre": "Atua ativamente nos processos enzimáticos metabólicos.",
+        "fosforo": "Excelente teor, trabalhando em conjunto com o cálcio na mineralização.",
+        "sodio": "Quantidade insignificante (quando preparado sem sal adicionado).",
+        "potassio": "Ótima fonte, ajudando a regular fluidos e a pressão arterial.",
+        "magnesio": "Abundante, essencial para o relaxamento muscular e síntese proteica.",
+        "ferro": "Excelente fonte de ferro não-heme para dietas vegetarianas.",
+        "selenio": "Boa quantidade, agindo na proteção das células contra danos.",
+        "zinco": "Ótimo teor, fortalecendo a barreira imunológica e cicatrização.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Saciedade prolongada: A forte combinação de fibras e proteínas regula o apetite e o esvaziamento gástrico.",
+      "Bem-estar mental: Sendo rico em triptofano, estimula a produção de serotonina, o hormônio do bom humor.",
+      "Controle glicêmico: Seus carboidratos complexos são digeridos lentamente, evitando picos de açúcar no sangue."
+    ],
+    "comoUsar": [
+      "Pastas (Homus): Batido com tahine, alho, limão e azeite de oliva até virar um creme.",
+      "Saladas e Cozidos: Grãos inteiros cozidos misturados a vegetais frescos ou em ensopados com legumes.",
+      "Petisco assado: Grãos cozidos levados ao forno com azeite e especiarias (páprica, cominho) até ficarem crocantes."
+    ],
+    "contraindicacoes": [
+      "Contém oligossacarídeos fermentáveis, podendo causar gases e distensão abdominal em pessoas com digestão sensível.",
+      "Exige remolho longo (mínimo 12 horas) para reduzir os antinutrientes (fitatos) que atrapalham a absorção de minerais."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 xícara de grãos cozidos (aprox. 130g) de 2 a 3 vezes por semana.",
+      "O descarte da água do remolho antes do cozimento é indispensável para evitar o desconforto por gases."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Homus de grão-de-bico tradicional árabe",
+        "slug": "homus-de-grao-de-bico-tradicional",
+        "imagem": "homus-pasta.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Acelga": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Beta vulgaris var. cicla",
+    "familia": "Amaranthaceae",
+    "OutrosNomes": [
+      "Couve-chinesa"
+    ],
+    "variedades": [
+      "Acelga Comum (Branca): Talos brancos largos e folhas verdes onduladas (mais tradicional no mercado).",
+      "Acelga Arco-Íris: Variedade com talos de cores vibrantes (vermelho, amarelo, rosa) ricos em fitonutrientes."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A acelga é uma hortaliça folhosa parente próxima da beterraba, mas cultivada por suas folhas e talos.",
+      "Apresenta folhas verdes brilhantes e talos carnudos muito crocantes, com sabor suave e levemente salgado.",
+      "É um ingrediente clássico em refogados orientais e sopas devido à sua excelente capacidade de reter textura."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "19 kcal",
+      "carboidratos": "3.7g",
+      "proteinas": "1.8g",
+      "gorduras": "0.2g",
+      "fibras": "1.6g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente fonte de betacaroteno e luteína para a proteção dos tecidos e da visão.",
+        "vitamina B": "Contém pequenas quantidades de vitaminas do complexo B, como a B6 e a riboflavina.",
+        "vitamina C": "Altíssima concentração na folha fresca, agindo como forte escudo antioxidante.",
+        "vitamina D": "",
+        "vitamina E": "Boa presença lipossolúvel que protege os tecidos contra oxidação celular.",
+        "vitamina K": "Teor extraordinariamente alto, vital para os ossos e fatores de coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade expressiva que dá suporte à estrutura óssea do corpo.",
+        "cobre": "Atua de forma secundária no metabolismo do ferro.",
+        "fosforo": "Auxilia na integridade das membranas e regeneração das células.",
+        "sodio": "Teor natural ligeiramente maior que outras folhas, conferindo seu sabor característico.",
+        "potassio": "Excelente concentração, auxiliando no controle pressórico e cardiovascular.",
+        "magnesio": "Abundante, essencial para a função neuromuscular e contração cardíaca.",
+        "ferro": "Boa presença vegetal para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Suporte básico ao sistema de defesas.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns das folhas."
+      }
+    },
+    "beneficios": [
+      "Regulação glicêmica: Contém ácido siríngico, um composto estudado por ajudar a estabilizar os níveis de açúcar no sangue.",
+      "Saúde dos ossos: A massiva quantidade de vitamina K atua diretamente na mineralização e fixação do cálcio.",
+      "Visão protegida: A carga de luteína e zeaxantina atua como filtro natural contra os danos da luz azul nos olhos."
+    ],
+    "comoUsar": [
+      "Refogada: Cortada em tiras largas e salteada rapidamente na frigideira com alho, óleo de gergelim e shoyu.",
+      "Crua em saladas: Folhas jovens fatiadas finamente e temperadas com limão e azeite.",
+      "Charutos de acelga: Folhas grandes fervidas rapidamente e usadas para embrulhar recheios de carne ou arroz."
+    ],
+    "contraindicacoes": [
+      "Por apresentar elevado teor de vitamina K, pessoas que usam medicamentos anticoagulantes devem controlar as porções.",
+      "É rica em oxalatos, devendo ser consumida com moderação por quem possui histórico de cálculos renais."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 a 2 xícaras de acelga picada cozida ou crua de 2 a 3 vezes por semana.",
+      "Cozinhar os talos um pouco antes das folhas garante que todo o prato atinja o ponto ideal de maciez."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Acelga refogada ao estilo oriental com alho",
+        "slug": "acelga-refogada-ao-estilo-oriental",
+        "imagem": "acelga-oriental.jpg",
+        "credito": "Receitas Globo",
+        "urlOrigem": "https://globo.com"
+      }
+    ]
+  },
+  "Alho-poro": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Allium ampeloprasum var. porrum",
+    "familia": "Amaryllidaceae",
+    "OutrosNomes": [
+      "Alho-porro"
+    ],
+    "variedades": [
+      "Alho-poró de Verão: Talos mais finos, crescimento rápido e sabor mais suave.",
+      "Alho-poró de Inverno: Talos grossos, folhas verde-escuras azuladas e sabor mais concentrado."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O alho-poró é um vegetal de talo composto por camadas concêntricas de folhas sobrepostas.",
+      "Pertence à mesma família do alho e da cebola, mas apresenta um perfil aromático muito mais doce e delicado.",
+      "Apenas o talo branco e as partes verdes claras são tradicionalmente consumidos, sendo a base de sopas e quiches nobres."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "61 kcal",
+      "carboidratos": "14.2g",
+      "proteinas": "1.5g",
+      "gorduras": "0.3g",
+      "fibras": "1.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença na forma de betacaroteno, concentrada nas transições para as folhas verdes.",
+        "vitamina B": "Excelente fonte de folato (B9) e vitamina B6 para o suporte celular.",
+        "vitamina C": "Concentração moderada que atua no fortalecimento do sistema imune.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante secundária sutil.",
+        "vitamina K": "Teor altíssimo, fundamental para a densidade óssea e coagulação estável."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a manutenção do esqueleto.",
+        "cobre": "Atua de forma secundária no metabolismo celular.",
+        "fosforo": "Trabalha com o cálcio na integridade das membranas.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Excelente concentração que auxilia no equilíbrio hídrico e controle da pressão.",
+        "magnesio": "Participa em diversas reações enzimáticas do organismo.",
+        "ferro": "Boa presença vegetal que contribui na oxigenação do sangue.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Dá suporte básico ao sistema de defesas.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Saúde cardiovascular: Contém kaempferol, um flavonoide que protege os vasos sanguíneos contra danos.",
+      "Equilíbrio intestinal: Rico em inulina, uma fibra prebiótica que estimula o crescimento de bactérias boas.",
+      "Proteção antioxidante: Os compostos sulfurados auxiliam o fígado nos processos de eliminação de toxinas."
+    ],
+    "comoUsar": [
+      "Base de Refogados: Cortado em rodelas finas para substituir ou complementar a cebola tradicional.",
+      "Sopas Clássicas: Ingrediente principal da famosa sopa francesa Vichyssoise (batata com alho-poró).",
+      "Assado ou Grelhado: Talos inteiros dourados no forno com azeite de oliva e finalizados com queijo."
+    ],
+    "contraindicacoes": [
+      "Pode provocar gases em indivíduos sensíveis a carboidratos fermentáveis (FODMAPs).",
+      "Pessoas com restrição severa de oxalatos devem consumir de forma moderada."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido diariamente, cerca de metade de um talo médio por refeição.",
+      "Lavar minuciosamente cortando ao meio longitudinalmente, pois a terra costuma ficar presa entre as camadas."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Risoto cremoso de alho-poró com queijo",
+        "slug": "risoto-cremoso-de-alho-poro",
+        "imagem": "risoto-alho-poro.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Aspargo": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Asparagus officinalis",
+    "familia": "Asparagaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Aspargo Verde: O mais comum, cresce ao sol e possui sabor fresco e herbáceo pronunciado.",
+      "Aspargo Branco: Cultivado no escuro (sob a terra), textura mais macia e sabor muito delicado.",
+      "Aspargo Roxo: Variedade frutada e adocicada devido ao alto teor de antocianinas."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O aspargo é um vegetal de broto jovem e reto, colhido na primavera logo ao emergir do solo.",
+      "É mundialmente valorizado na alta gastronomia por sua textura crocante única e sabor sofisticado.",
+      "Apresenta um aminoácido característico chamado asparagina, que atua diretamente nas funções renais."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "20 kcal",
+      "carboidratos": "3.9g",
+      "proteinas": "2.2g",
+      "gorduras": "0.1g",
+      "fibras": "2.1g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa fonte de betacaroteno para a proteção de tecidos e da visão.",
+        "vitamina B": "Excelente concentração de folato (B9), altamente recomendado para gestantes.",
+        "vitamina C": "Boa presença antioxidante para o fortalecimento imunológico.",
+        "vitamina D": "",
+        "vitamina E": "Forte escudo antioxidante lipossolúvel celular.",
+        "vitamina K": "Teor elevado, agindo na regulação e fixação do cálcio nos ossos."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização óssea.",
+        "cobre": "Auxilia na produção de energia celular corporais.",
+        "fosforo": "Trabalha no suporte estrutural das membranas celulares.",
+        "sodio": "Quantidade residual baixa.",
+        "potassio": "Excelente diurético natural devido à ótima concentração de potássio.",
+        "magnesio": "Importante para funções neuromusculares básicas.",
+        "ferro": "Presença moderada que auxilia no transporte de oxigênio.",
+        "selenio": "Ação sinérgica com compostos antioxidantes.",
+        "zinco": "Atua na barreira de defesas imunológicas.",
+        "iodo": "",
+        "fluor": "Traços minerais residuais."
+      }
+    },
+    "beneficios": [
+      "Potente diurético: A asparagina estimula a filtragem renal, eliminando o excesso de fluidos e toxinas.",
+      "Saúde digestiva: Suas fibras insolúveis evitam a prisão de ventre e alimentam as bactérias benéficas.",
+      "Suporte à gestação: O alto teor de folato previne defeitos no tubo neural do feto."
+    ],
+    "comoUsar": [
+      "Grelhado na Frigideira: Salteado rapidamente com azeite de oliva, alho e lascas de parmesão.",
+      "Assado: Envolvido em fatias finas de presunto cru e levado ao forno até dourar.",
+      "Cozido no Vapor: Servido morno como acompanhamento de peixes grelhados."
+    ],
+    "contraindicacoes": [
+      "Contém purinas, devendo ser consumido com moderação por portadores de gota ou ácido úrico elevado.",
+      "Causa um odor característico na urina logo após o consumo, decorrente da quebra do ácido aspargúsico (efeito benigno)."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 6 a 8 lanças de aspargos (aprox. 100g) de 1 a 2 vezes por semana.",
+      "O cozimento deve ser rápido ('al dente') para preservar a crocância e os nutrientes."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Aspargos grelhados na manteiga de ervas",
+        "slug": "aspargos-grelhados-na-manteiga",
+        "imagem": "aspargos-grelhados.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Berinjela": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Solanum melongena",
+    "familia": "Solanaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Berinjela Comum: Formato ovalado, casca roxo-escura brilhante e polpa macia (mais tradicional).",
+      "Berinjela Japonesa: Mais alongada e fina, casca escura e sabor ligeiramente mais adocicado.",
+      "Berinjela Branca: Variedade exótica de casca clara e polpa densa."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A berinjela é um fruto consumido como legume, famoso por sua capacidade de absorver sabores como uma esponja.",
+      "Sua casca escura é riquíssima em nasunin, um potente antioxidante que protege as membranas das células cerebrais.",
+      "Possui textura carnuda após o cozimento, sendo muito utilizada como substituta de carne em pratos vegetarianos."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "25 kcal",
+      "carboidratos": "5.9g",
+      "proteinas": "1.0g",
+      "gorduras": "0.2g",
+      "fibras": "3.0g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes na polpa clara.",
+        "vitamina B": "Boa fonte de vitaminas B5 e B6, que atuam no metabolismo energético.",
+        "vitamina C": "Presença moderada que auxilia na proteção antioxidante celular.",
+        "vitamina D": "",
+        "vitamina E": "Atua de forma secundária na proteção dos tecidos.",
+        "vitamina K": "Boa quantidade, auxiliando nos processos de coagulação sanguínea."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização óssea.",
+        "cobre": "Auxilia na produção de energia celular e integridade dos tecidos.",
+        "fosforo": "Trabalha no suporte estrutural básico.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Excelente teor, auxiliando no controle da pressão arterial.",
+        "magnesio": "Participa em diversas reações enzimáticas do organismo.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Controle do colesterol: As fibras solúveis ajudam a reduzir a absorção de gorduras no intestino.",
+      "Proteção cerebral: O antioxidante nasunin combate os radicais livres nas células do sistema nervoso.",
+      "Auxílio no emagrecimento: O alto teor de fibras associado às poucas calorias garante saciedade prolongada."
+    ],
+    "comoUsar": [
+      "Assada ou Grelhada: Fatiada em rodelas ou tiras longitudinais com azeite, alho e ervas.",
+      "Antepastos: Base para o famoso Babaganuche ou caponatas rústicas com pimentões.",
+      "Lasanha de Berinjela: Fatias finas substituindo as lâminas de massa tradicional."
+    ],
+    "contraindicacoes": [
+      "Contém solanina quando crua, um composto tóxico, por isso nunca deve ser consumida sem cozimento.",
+      "Pessoas com propensão a cálculos renais de oxalato de cálcio devem moderar o consumo."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 xícara de berinjela cozida ou assada por refeição.",
+      "Consumir sempre com a casca para garantir a ingestão do antioxidante nasunin."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Caponata de berinjela ao forno tradicional",
+        "slug": "caponata-de-berinjela-ao-forno",
+        "imagem": "caponata-berinjela.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Quiabo": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Abelmoschus esculentus",
+    "familia": "Malvaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Quiabo Comum: Formato alongado, angular e com casca levemente aveludada (mais tradicional no Brasil).",
+      "Quiabo Liso: Variedade sem as quinas marcantes, de textura externa mais suave."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O quiabo é um fruto consumido largamente como legume, originário da África e muito popular no Brasil.",
+      "É famoso por sua secreção viscosa natural (a famosa 'baba'), rica em fibras mucilaginosas altamente benéficas.",
+      "Possui sabor suave e textura macia com sementes tenras, sendo base de pratos tradicionais como o frango com quiabo e o caruru."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "33 kcal",
+      "carboidratos": "7.5g",
+      "proteinas": "1.9g",
+      "gorduras": "0.2g",
+      "fibras": "3.2g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença na forma de betacaroteno e luteína para a integridade ocular.",
+        "vitamina B": "Excelente fonte de folato (B9) e piridoxina (B6), essenciais para o sistema nervoso.",
+        "vitamina C": "Ótima concentração antioxidante que apoia o sistema imunológico.",
+        "vitamina D": "",
+        "vitamina E": "Presença sutil com propriedades protetoras celulares.",
+        "vitamina K": "Teor elevado, fundamental para os processos saudáveis de coagulação sanguínea."
+      },
+      "saisMinerais": {
+        "calcio": "Boa fonte de cálcio vegetal biodisponível para a integridade óssea.",
+        "cobre": "Atua de forma secundária no suporte metabólico celular.",
+        "fosforo": "Trabalha com o cálcio na mineralização do esqueleto.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Excelente teor, auxiliando no equilíbrio hídrico e controle da pressão.",
+        "magnesio": "Abundante, essencial para o bom funcionamento muscular e cardíaco.",
+        "ferro": "Presença moderada que auxilia no transporte interno de oxigênio.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Dá suporte básico à barreira imunológica celular.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Controle glicêmico: As mucilagens retardam a absorção de carboidratos, ajudando a estabilizar a glicose.",
+      "Saúde digestiva: As fibras solúveis protegem a mucosa do estômago e melhoram o trânsito intestinal.",
+      "Integridade cardiovascular: Auxilia na redução da absorção do colesterol LDL no trato digestivo."
+    ],
+    "comoUsar": [
+      "Refogado clássico: Salteado com alho, cebola e tomate (pode-se usar limão ou vinagre para reduzir a baba).",
+      "Cozido em ensopados: Adicionado inteiro a pratos de cozimento lento com carnes ou frango.",
+      "Grelhado ou Assado: Cortado ao meio, pincelado com azeite e tostado até ficar levemente crocante."
+    ],
+    "contraindicacoes": [
+      "Geralmente seguro para todos, sem contraindicações graves conhecidas.",
+      "Pessoas com propensão a cálculos renais de oxalato de cálcio devem consumir com moderação."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 1 xícara de quiabos picados (aprox. 100g) de 2 a 3 vezes por semana.",
+      "Consumir com as sementes internas, pois concentram fibras e compostos antioxidantes."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Quiabo refogado sequinho sem baba",
+        "slug": "quiabo-refogado-sequinho",
+        "imagem": "quiabo-refogado.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Maxixe": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Cucumis anguria",
+    "familia": "Cucurbitaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Maxixe Com Espinho: Variedade tradicional com pequenas protuberâncias macias na casca (comum).",
+      "Maxixe Liso: Variedade de casca totalmente lisa, mais comum em cultivos selecionados."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O maxixe é um fruto consumido como legume, parente próximo do pepino e da melancia, nativo da África.",
+      "Possui sabor suave, refrescante e ligeiramente ácido, com uma textura interna muito aquosa e sementes macias.",
+      "É um ingrediente histórico e identitário da culinária das regiões Norte e Nordeste do Brasil."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "14 kcal",
+      "carboidratos": "2.7g",
+      "proteinas": "1.4g",
+      "gorduras": "0.1g",
+      "fibras": "1.4g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços leves que auxiliam na manutenção dos tecidos.",
+        "vitamina B": "Contém pequenas concentrações de vitaminas B1, B2 e B3.",
+        "vitamina C": "Boa fonte antioxidante que auxilia na absorção do ferro das refeições.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Presença sutil reguladora."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização óssea.",
+        "cobre": "Atua de forma secundária nos processos metabólicos.",
+        "fosforo": "Auxilia na integridade estrutural das membranas celulares.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Excelente concentração hídrica, ótimo para controle de fluidos e pressão.",
+        "magnesio": "Níveis saudáveis que apoiam as funções enzimáticas básicas.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Altíssimo teor comparado a outros frutos, excelente para o sistema imune.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Fortalecimento imunitário: O excelente teor de zinco estimula a produção de células de defesa.",
+      "Altamente hidratante: Composto por quase 95% de água, ajuda a repor líquidos naturais do corpo.",
+      "Aliado do emagrecimento: Teor calórico extremamente baixo com boa densidade de fibras reguladoras."
+    ],
+    "comoUsar": [
+      "Maxixada: Cozido lentamente junto com feijão, carnes, abóbora e leite de coco (tradicional).",
+      "Refogado simples: Raspado para retirar os espinhos e salteado com alho e cebola.",
+      "Cru em saladas: Descascado e fatiado finamente em rodelas, consumido de forma similar ao pepino."
+    ],
+    "contraindicacoes": [
+      "Não possui contraindicações graves conhecidas, sendo considerado seguro para todas as idades.",
+      "Recomenda-se raspar levemente a casca das variedades com espinho para melhorar a textura ao mastigar."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido livremente, cerca de 4 a 5 unidades médias por refeição.",
+      "Consumir cru preserva a totalidade da vitamina C e sua capacidade máxima de hidratação."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Maxixada tradicional nordestina com legumes",
+        "slug": "maxixada-tradicional-nordestina",
+        "imagem": "maxixada.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Vagem": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Phaseolus vulgaris",
+    "familia": "Fabaceae",
+    "OutrosNomes": [
+      "Feijão-vagem"
+    ],
+    "variedades": [
+      "Vagem Macarrão: Formato cilíndrico, muito tenra e sem fibras duras nas laterais (mais comum).",
+      "Vagem Manteiga: Formato achatado e largo, textura macia e sabor levemente amanteigado."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A vagem é o fruto verde e imaturo do feijoeiro, consumido integralmente com suas sementes em formação.",
+      "Une os benefícios das hortaliças folhosas (fibras e água) com a riqueza mineral das leguminosas.",
+      "Possui sabor herbáceo delicado e textura muito crocante quando preparada no ponto correto."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "31 kcal",
+      "carboidratos": "7.0g",
+      "proteinas": "1.8g",
+      "gorduras": "0.2g",
+      "fibras": "3.4g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente fonte de carotenoides como a luteína para a integridade ocular.",
+        "vitamina B": "Ótima fonte de folato (B9), essencial para a replicação celular saudável.",
+        "vitamina C": "Boa presença antioxidante que atua no fortalecimento imunológico.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil nos tecidos.",
+        "vitamina K": "Teor elevado, auxiliando nos processos de fixação de cálcio e coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Boa fonte vegetal para o suporte estrutural dos ossos.",
+        "cobre": "Atua de forma secundária no metabolismo de energia.",
+        "fosforo": "Trabalha com o cálcio na mineralização do esqueleto.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Excelente concentração que ajuda a regular os fluidos corporais.",
+        "magnesio": "Importante para o bom funcionamento neuromuscular.",
+        "ferro": "Boa presença mineral, ideal para suporte em dietas plant-based.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias celulares.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Saúde digestiva: O alto teor de fibras insolúveis previne a constipação e limpa o trato intestinal.",
+      "Proteção metabólica: Apresenta baixo índice glicêmico, auxiliando na regulação da insulina pós-refeição.",
+      "Ação antioxidante: Rica em flavonoides que combatem os radicais livres e protegem os vasos."
+    ],
+    "comoUsar": [
+      "Cozida no vapor: Cortada em pedaços e cozida rapidamente para manter a cor verde viva e a crocância.",
+      "Refogada com bacon ou alho: Salteada na frigideira para acompanhar pratos do dia a dia.",
+      "Em saladas frias: Cozida 'al dente', resfriada e misturada com maionese ou vinagrete."
+    ],
+    "contraindicacoes": [
+      "Contém fitatos e lectinas comuns às leguminosas; deve ser sempre consumida cozida para neutralizar esses compostos.",
+      "Pode causar gases em pessoas muito propensas a fermentações intestinais."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 xícara de vagens picadas (aprox. 100g) de 2 a 3 vezes por semana.",
+      "Evitar o cozimento excessivo em água, pois causa perda de nutrientes hidrossolúveis (vitamina C e complexo B)."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Vagem salteada no alho e óleo crocante",
+        "slug": "vagem-salteada-no-alho",
+        "imagem": "vagem-salteada.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Chicoria": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Cichorium intybus",
+    "familia": "Asteraceae",
+    "OutrosNomes": [
+      "Escarola",
+      "Chicória-do-pará"
+    ],
+    "variedades": [
+      "Chicória de Folhas Lisas (Escarola): Folhas largas, macias e sabor amargo mais suave.",
+      "Chicória Crespa: Folhas muito recortadas, textura firme e amargor pronunciado.",
+      "Chicória-do-pará: Muito popular na região Norte do Brasil, com folhas longas e aroma marcante."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A chicória é uma hortaliça folhosa famosa por seu sabor amargo característico e propriedades tônicas.",
+      "Suas raízes e folhas são riquíssimas em inulina, uma fibra prebiótica de excelente qualidade.",
+      "É amplamente utilizada na culinária tradicional para equilibrar pratos gordurosos e compor caldos regionais."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "23 kcal",
+      "carboidratos": "4.7g",
+      "proteinas": "1.7g",
+      "gorduras": "0.2g",
+      "fibras": "4.0g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente fonte de betacaroteno e luteína para a saúde dos tecidos e da visão.",
+        "vitamina B": "Boa presença de folato (B9) e piridoxina (B6), essenciais para o metabolismo.",
+        "vitamina C": "Ótima concentração na folha fresca, agindo como protetor celular.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante secundária sutil.",
+        "vitamina K": "Teor altíssimo, fundamental para a densidade dos ossos e coagulação estável."
+      },
+      "saisMinerais": {
+        "calcio": "Boa quantidade vegetal para o suporte e manutenção do esqueleto.",
+        "cobre": "Atua de forma secundária no metabolismo energético celular.",
+        "fosforo": "Trabalha com o cálcio na integridade das membranas.",
+        "sodio": "Quantidade residual irrelevante e segura.",
+        "potassio": "Excelente concentração, auxiliando no controle da pressão arterial.",
+        "magnesio": "Participa em diversas reações enzimáticas e no relaxamento muscular.",
+        "ferro": "Boa presença vegetal que contribui na oxigenação do sangue.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Dá suporte básico ao sistema de defesas imunológicas.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Estímulo digestivo: As substâncias amargas (lactucopicrina) ativam a vesícula biliar e o estômago.",
+      "Saúde intestinal: A alta carga de inulina serve de alimento para a microbiota benéfica.",
+      "Ação diurética: Auxilia o bom funcionamento dos rins, combatendo a retenção de líquidos."
+    ],
+    "comoUsar": [
+      "Refogada: Cortada em tiras e salteada rapidamente no alho e azeite (tradicional escarola).",
+      "Crua em saladas: Misturada com folhas mais suaves e temperada com limão ou vinagre balsâmico.",
+      "Caldos regionais: Pilar aromático indispensável no pato no tucupi e no tacacá (variedade do Pará)."
+    ],
+    "contraindicacoes": [
+      "Pessoas com cálculos biliares ativos devem consumir com moderação devido ao estímulo na vesícula.",
+      "Por conter muita vitamina K, indivíduos que usam anticoagulantes devem controlar o consumo."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 a 2 xícaras de folhas picadas cruas ou refogadas por refeição.",
+      "O consumo cru preserva integralmente a vitamina C e suas propriedades digestivas."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Escarola refogada com alho e fios de azeite",
+        "slug": "escarola-refogada-com-alho",
+        "imagem": "escarola-refogada.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Fava": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Vicia faba",
+    "familia": "Fabaceae",
+    "OutrosNomes": [
+      "Feijão-fava"
+    ],
+    "variedades": [
+      "Fava Branca: Grãos grandes, achatados e de textura muito cremosa após o cozimento.",
+      "Fava Verde: Consumida ainda jovem e fresca, sabor mais herbáceo e cozimento rápido.",
+      "Fava Rajada: Grãos com manchas escuras, muito comum na culinária nordestina."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A fava é uma leguminosa de grãos grandes e achatados, parente próxima dos feijões tradicionais.",
+      "Apresenta textura densa, aveludada e sabor robusto que absorve muito bem embutidos e carnes salgadas.",
+      "Contém levodopa (L-dopa), um composto natural precursor do neurotransmissor dopamina no cérebro."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "110 kcal",
+      "carboidratos": "19.7g",
+      "proteinas": "7.6g",
+      "gorduras": "0.4g",
+      "fibras": "5.4g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes nos grãos maduros.",
+        "vitamina B": "Excelente fonte de folato (B9) e tiamina (B1), essenciais para a energia e sistema nervoso.",
+        "vitamina C": "Presença leve na versão fresca; quase nula após o cozimento na versão seca.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil nos tecidos.",
+        "vitamina K": "Pequenas quantidades reguladoras para o sistema circulatório."
+      },
+      "saisMinerais": {
+        "calcio": "Boa concentração mineral para o suporte e manutenção óssea.",
+        "cobre": "Auxilia ativamente nos processos enzimáticos corporais.",
+        "fosforo": "Excelente teor, trabalhando com o cálcio na mineralização estrutural.",
+        "sodio": "Quantidade residual irrelevante e segura.",
+        "potassio": "Ótima fonte, ajudando a regular os fluidos corporais e a pressão arterial.",
+        "magnesio": "Abundante, essencial para a função neuromuscular e síntese de proteínas.",
+        "ferro": "Excelente teor de ferro não-heme, ideal para dietas vegetarianas e plant-based.",
+        "selenio": "Proteção celular contra o estresse oxidativo.",
+        "zinco": "Fortalece a barreira de defesas imunológicas do organismo.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Aporte proteico elevado: Excelente construtor muscular para dietas sem proteína animal.",
+      "Suporte cognitivo: A presença natural de L-dopa auxilia nas funções de foco, humor e coordenação.",
+      "Prevenção de anemia: Rica em ferro e cobre, que dão suporte à formação de células vermelhas."
+    ],
+    "comoUsar": [
+      "Ensopado Nordestino: Cozida lentamente com maxixe, abóbora, coentro e carnes secas.",
+      "Salada de Favas: Grãos cozidos frios temperados com cebola roxa, azeite, hortelã e limão.",
+      "Purê de Fava: Grãos cozidos batidos e temperados para acompanhar peixes ou aves."
+    ],
+    "contraindicacoes": [
+      "Pessoas com a condição genética rara chamada favismo (deficiência de G6PD) devem evitar estritamente, pois causa hemólise.",
+      "Exige remolho longo (mínimo 12 horas) com descarte da água para eliminar antinutrientes e reduzir gases."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 xícara de favas cozidas (aprox. 120g) de 1 a 2 vezes por semana.",
+      "O descarte correto da água do remolho é indispensável para uma boa digestão."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Fava cozida com calabresa e coentro",
+        "slug": "fava-cozida-com-calabresa",
+        "imagem": "fava-calabresa.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Inhame": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Dioscorea cayennensis",
+    "familia": "Dioscoreaceae",
+    "OutrosNomes": [
+      "Cará"
+    ],
+    "variedades": [
+      "Inhame da Costa (da Guiné): Grande, casca áspera e escura, polpa branca e muito amilácea (comum no Nordeste).",
+      "Inhame Chinês (Cará-moela): Formato menor e arredondado, casca fina e textura muito mucilaginosa."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O inhame é um tubérculo subterrâneo de alto valor energético e tradicional na culinária tropical.",
+      "Apresenta polpa firme, branca ou amarelada, rica em carboidratos complexos de excelente digestão.",
+      "Contém diosgenina, uma substância estudada por se converter em precursora de hormônios no organismo."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "118 kcal",
+      "carboidratos": "27.9g",
+      "proteinas": "1.5g",
+      "gorduras": "0.2g",
+      "fibras": "4.1g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes na polpa comum.",
+        "vitamina B": "Excelente fonte de vitamina B1 (tiamina) e B6, essenciais para o sistema nervoso.",
+        "vitamina C": "Boa quantidade presente no tubérculo cru, auxiliando na integridade dos tecidos.",
+        "vitamina D": "",
+        "vitamina E": "Presença sutil com propriedades antioxidantes teciduais.",
+        "vitamina K": "Traços mínimos regulatórios."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade básica vegetal para o suporte e manutenção óssea.",
+        "cobre": "Auxilia na integridade dos tecidos e vasos sanguíneos.",
+        "fosforo": "Trabalha no suporte estrutural básico em conjunto com o cálcio.",
+        "sodio": "Teor natural extremamente baixo.",
+        "potassio": "Altíssima concentração, excelente para o controle hídrico e relaxamento vascular.",
+        "magnesio": "Boa quantidade para o bom funcionamento neuromuscular corporal.",
+        "ferro": "Presença leve que auxilia na oxigenação celular do sangue.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias e cicatrização.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Energia limpa: Seus carboidratos complexos possuem baixo índice glicêmico, liberando glicose de forma lenta.",
+      "Apoio hormonal: A diosgenina auxilia na modulação de sintomas da menopausa e TPM em mulheres.",
+      "Ação depurativa: Historicamente associado ao fortalecimento do sangue e eliminação de toxinas do organismo."
+    ],
+    "comoUsar": [
+      "Cozido clássico: Preparado com casca, descascado após o cozimento e servido com manteiga ou mel.",
+      "Sopas e Caldos: Batido no liquidificador para dar cremosidade e textura a caldos de legumes.",
+      "Pães e Bolos: Utilizado cozido e amassado como substituto parcial da farinha em massas saudáveis."
+    ],
+    "contraindicacoes": [
+      "Nunca deve ser consumido cru, pois contém cristais de oxalato de cálcio que causam coceira extrema e irritação na boca.",
+      "Diabéticos devem monitorar as porções pelo alto teor total de carboidratos por porção."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 pedaço médio (aprox. 120g) substituindo outras fontes de amido.",
+      "Descascar sob água corrente ou após o cozimento evita a coceira nas mãos provocada pelos oxalatos cru."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Sopa cremosa de inhame com alho-poró",
+        "slug": "sopa-cremosa-de-inhame",
+        "imagem": "sopa-inhame.jpg",
+        "credito": "Panela Terapia",
+        "urlOrigem": "https://panelaterapia.com"
+      }
+    ]
+  },
+  "Mostarda-folha": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Brassica juncea",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Mostarda Lisa: Folhas largas e verdes, de textura macia e sabor picante moderado.",
+      "Mostarda Crespa: Folhas muito enrugadas nas bordas, textura firme e picância acentuada."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A mostarda é uma hortaliça folhosa famosa por seu sabor intensamente picante, herbáceo e marcante.",
+      "Pertence à família das crucíferas, compartilhando dos mesmos compostos sulfurados benéficos que o brócolis e a couve.",
+      "Seus óleos essenciais voláteis (isotiocianatos) são liberados ao mastigar, gerando calor na boca."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "27 kcal",
+      "carboidratos": "4.7g",
+      "proteinas": "2.6g",
+      "gorduras": "0.4g",
+      "fibras": "3.2g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente fonte de betacaroteno, crucial para a saúde dos tecidos e da visão.",
+        "vitamina B": "Boa presença de folato (B9) e piridoxina (B6), essenciais para o metabolismo.",
+        "vitamina C": "Altíssima concentração na folha fresca, atuando como potente protetor celular.",
+        "vitamina D": "",
+        "vitamina E": "Forte escudo antioxidante lipossolúvel celular.",
+        "vitamina K": "Teor extraordinariamente alto, vital para a densidade dos ossos e coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Excelente fonte de cálcio vegetal de alta biodisponibilidade para o esqueleto.",
+        "cobre": "Atua de forma secundária no suporte metabólico celular.",
+        "fosforo": "Trabalha com o cálcio na integridade das membranas celulares.",
+        "sodio": "Quantidade residual irrelevante.",
+        "potassio": "Boa concentração, auxiliando no controle da pressão arterial.",
+        "magnesio": "Abundante, essencial para a função neuromuscular corporal.",
+        "ferro": "Boa presença, ideal para suporte em dietas vegetarianas.",
+        "selenio": "Protege as células contra o estresse oxidativo.",
+        "zinco": "Importante para o crescimento celular e defesa imune.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Desintoxicação celular: Glicosinolatos auxiliam o fígado no processo de neutralização de toxinas.",
+      "Estímulo metabólico: Seus compostos picantes ativam a circulação e estimulam a digestão gástrica.",
+      "Fortalecimento ósseo: A massiva quantidade de vitamina K atua diretamente na fixação do cálcio."
+    ],
+    "comoUsar": [
+      "Refogada: Cortada em tiras largas e salteada rapidamente na frigideira com alho e azeite.",
+      "Crua em saladas: Folhas jovens fatiadas finamente e temperadas com limão para suavizar a picância.",
+      "Caldos e Sopas: Adicionada ao final do cozimento de caldos de carne ou costelinha suína."
+    ],
+    "contraindicacoes": [
+      "Por conter elevado teor de vitamina K, pessoas em uso de anticoagulantes devem controlar as porções.",
+      "Pode causar leve queimação ou irritação estomacal em pessoas com gastrite ativa se consumida em excesso."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 a 2 xícaras de folhas picadas de duas a três vezes por semana.",
+      "O refogado rápido preserva a maior parte das propriedades minerais e reduz o amargor."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Mostarda refogada simples com alho e cebola",
+        "slug": "mostarda-refogada-simples",
+        "imagem": "mostarda-refogada.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Nabo": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Raphanus sativus var. longipinnatus",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Nabo Comum (Redondo): Pequeno, casca branca e roxa na parte superior, sabor picante moderado.",
+      "Nabo Daikon (Branco Alongado): Variedade oriental longa, muito suculenta e de sabor adocicado suave."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O nabo é uma raiz comestível de textura firme e crocante, parente próximo do rabanete.",
+      "Apresenta sabor refrescante com notas picantes sutis que desaparecem quase por completo após o cozimento.",
+      "É amplamente valorizado na culinária oriental como elemento de equilíbrio em pratos fritos ou pesados."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "18 kcal",
+      "carboidratos": "4.1g",
+      "proteinas": "0.6g",
+      "gorduras": "0.1g",
+      "fibras": "1.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes na polpa branca.",
+        "vitamina B": "Contém pequenas concentrações de folato (B9) e piridoxina (B6).",
+        "vitamina C": "Excelente fonte antioxidante, auxiliando no fortalecimento imunológico.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante sutil nos tecidos.",
+        "vitamina K": "Presença mínima apenas para regulação biológica."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização do esqueleto.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Trabalha no suporte estrutural das membranas celulares.",
+        "sodio": "Quantidade residual baixa e segura.",
+        "potassio": "Excelente concentração hídrica, ótimo para controle de fluidos e pressão.",
+        "magnesio": "Níveis saudáveis para suporte das funções enzimáticas básicas.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Efeito diurético: Alto volume de água e potássio estimulam a filtragem renal e reduzem o inchaço.",
+      "Auxílio digestivo: Contém enzimas que ajudam na quebra e digestão de amidos e gorduras pesadas.",
+      "Controle de peso: Teor calórico extremamente baixo com boa densidade de fibras reguladoras."
+    ],
+    "comoUsar": [
+      "Cru em saladas: Ralado ou fatiado em lâminas finas para acompanhar peixes ou carnes assadas.",
+      "Conserva (Sunomono): Curtido em vinagre de arroz, sal e açúcar no estilo oriental.",
+      "Sopas e Cozidos: Absorve perfeitamente o sabor de caldos quentes de legumes ou carnes."
+    ],
+    "contraindicacoes": [
+      "Pode causar desconforto por gases em pessoas com digestão sensível a crucíferas.",
+      "Indivíduos com distúrbios graves de tireoide devem evitar o consumo cru exagerado."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido livremente, cerca de metade de uma unidade média por refeição.",
+      "As folhas verdes do nabo concentram mais ferro e cálcio que a própria raiz e podem ser refogadas."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Nabo cozido simples em cubos ao vapor",
+        "slug": "nabo-cozido-simples",
+        "imagem": "nabo-cozido.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Ora-pro-nobis": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Pereskia aculeata",
+    "familia": "Cactaceae",
+    "OutrosNomes": [
+      "Lobisbucha"
+    ],
+    "variedades": [
+      "Ora-pro-nóbis Branca: Variedade tradicional de flores claras, totalmente segura para consumo (comum).",
+      "Ora-pro-nóbis Rosa: Cultivada frequentemente como ornamental; exige cozimento obrigatório das folhas."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A ora-pro-nóbis é uma Planta Alimentícia Não Convencional (PANC) do tipo cacto trepador com folhas comestíveis.",
+      "É culturalmente apelidada de 'carne dos pobres' devido ao seu teor proteico extraordinariamente elevado para um vegetal.",
+      "Apresenta uma textura ligeiramente mucilaginosa quando picada, sendo um pilar da culinária tradicional mineira."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "26 kcal",
+      "carboidratos": "5.0g",
+      "proteinas": "2.7g",
+      "gorduras": "0.4g",
+      "fibras": "3.8g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Altíssima concentração na forma de betacaroteno e luteína, superando a cenoura.",
+        "vitamina B": "Boa fonte de folato (B9) e riboflavina (B2) para o suporte celular.",
+        "vitamina C": "Teor elevado, superando a laranja e auxiliando fortemente a imunidade corporal.",
+        "vitamina D": "",
+        "vitamina E": "Forte escudo antioxidante protetor das membranas celulares.",
+        "vitamina K": "Excelente concentração para o suporte ósseo e cardiovascular."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade expressiva e altamente biodisponível para o tecido ósseo.",
+        "cobre": "Auxilia nos processos enzimáticos e metabólicos corporais.",
+        "fosforo": "Trabalha no suporte estrutural das células.",
+        "sodio": "Quantidade residual insignificante.",
+        "potassio": "Excelente concentração que ajuda a regular os fluidos corporais.",
+        "magnesio": "Abundante, essencial para a função neuromuscular estável.",
+        "ferro": "Altíssimo teor mineral para uma folha, excelente contra a fadiga.",
+        "selenio": "Proteção celular contra o estresse oxidativo.",
+        "zinco": "Importante para o crescimento celular e defesa imune.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Prevenção de anemia: Seu impressionante teor de ferro e vitamina C otimiza a oxigenação do sangue.",
+      "Aporte proteico vegetal: Auxilia no ganho e manutenção da massa magra em dietas plant-based.",
+      "Melhora intestinal: As mucilagens associadas às fibras insolúveis regulam o trânsito digestivo."
+    ],
+    "comoUsar": [
+      "Ensopados tradicionais: Adicionada inteira ou rasgada em pratos com frango ou costelinha suína (estilo mineiro).",
+      "Refogada simples: Salteada rapidamente na frigideira com alho e fios de azeite de oliva.",
+      "Massas funcionais: Desidratada em pó ou batida crua para enriquecer massas de pães e bolos verdes."
+    ],
+    "contraindicacoes": [
+      "Não possui contraindicações graves conhecidas, sendo considerada segura para todas as idades.",
+      "A colheita requer cuidado devido aos espinhos agudos presentes nos ramos da planta."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumida diariamente, cerca de 1 a 2 xícaras de folhas por refeição.",
+      "O consumo cru ou levemente refogado preserva a totalidade de sua expressiva carga de vitamina C."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Frango com ora-pro-nóbis tradicional mineiro",
+        "slug": "frango-com-ora-pro-nobis",
+        "imagem": "frango-ora-pro-nobis.jpg",
+        "credito": "Receitas Globo",
+        "urlOrigem": "https://globo.com"
+      }
+    ]
+  },
+  "Pepino": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Cucumis sativus",
+    "familia": "Cucurbitaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Pepino Japonês (Aodai): Mais alongado, casca fina verde-escura e sementes quase imperceptíveis, ideal para conservas.",
+      "Pepino Comum (Caipira): Mais curto e grosso, casca com estrias claras e sabor ligeiramente mais ácido.",
+      "Pepino Holandês: Casca muito lisa, cultivado em estufas e consumido integralmente com a casca."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O pepino é um fruto consumido largamente como legume, famoso por seu frescor e alta capacidade de hidratação.",
+      "Pertence à mesma família da melancia e da abóbora, sendo composto por quase 95% de água estruturada.",
+      "Contém cucurbitacinas em sua casca e extremidades, compostos químicos responsáveis pelo toque amargo sutil."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "15 kcal",
+      "carboidratos": "3.6g",
+      "proteinas": "0.7g",
+      "gorduras": "0.1g",
+      "fibras": "0.5g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença de betacaroteno e luteína concentrados na casca verde.",
+        "vitamina B": "Contém pequenas concentrações de vitaminas B1, B5 e B6.",
+        "vitamina C": "Presença moderada que atua no fortalecimento do sistema imune corporal.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil nos tecidos.",
+        "vitamina K": "Excelente concentração, localizada principalmente na casca, auxiliando na coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização do esqueleto.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Trabalha no suporte estrutural básico das membranas celulares.",
+        "sodio": "Quantidade residual baixa e segura.",
+        "potassio": "Excelente concentração hídrica, ótimo para o controle de fluidos e pressão.",
+        "magnesio": "Níveis saudáveis que apoiam as funções neuromusculares básicas.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Alta hidratação: Excelente para repor líquidos corporais de forma natural em dias quentes.",
+      "Ação refrescante e anti-inflamatória: O ácido caféico e a água reduzem o inchaço e acalmam tecidos.",
+      "Auxílio no emagrecimento: Teor calórico extremamente baixo que promove saciedade mecânica pelo volume de água."
+    ],
+    "comoUsar": [
+      "Cru em saladas: Fatiado em rodelas ou cubos finos combinados com folhas ou iogurte (molho tzatziki).",
+      "Conserva (Sunomono): Tradicional salada agridoce japonesa com vinagre de arroz e gergelim.",
+      "Detox e Sucos: Batido cru com casca junto com limão, hortelã e água de coco."
+    ],
+    "contraindicacoes": [
+      "Pode causar indigestão ou eructação (arrotos) em pessoas com estômago altamente sensível devido às cucurbitacinas.",
+      "Descartar as pontas extremas do fruto ajuda a reduzir a concentração de compostos amargos."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido livremente, cerca de 1 unidade média por dia.",
+      "Consumir com casca maximiza drasticamente a ingestão de fibras e vitamina K."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada sunomono de pepino japonês agridoce",
+        "slug": "salada-sunomono-de-pepino",
+        "imagem": "sunomono-pepino.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  },
+  "Palmito": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Euterpe oleracea",
+    "familia": "Arecaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Palmito Pupunha: Cultivo sustentável, textura macia, sabor adocicado e não escurece facilmente após o corte.",
+      "Palmito Juçara: Nativo da Mata Atlântica, sabor extremamente nobre, hoje com extração rigidamente controlada por risco de extinção.",
+      "Palmito Açaí: Textura firme e sabor marcante, muito produzido na região Norte do Brasil."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O palmito é um vegetal extraído do miolo (cerne) do topo de determinantes espécies de palmeiras.",
+      "Apresenta cor branca leitosa, textura macia com leve resistência ao morder e sabor sutilmente ácido.",
+      "É mundialmente comercializado em conservas de salmoura ou in natura em cortes longitudinais (toletes)."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "28 kcal",
+      "carboidratos": "5.5g",
+      "proteinas": "2.5g",
+      "gorduras": "0.2g",
+      "fibras": "2.4g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços mínimos presentes no tecido claro.",
+        "vitamina B": "Boa fonte de vitaminas B6 e riboflavina (B2) que atuam no metabolismo celular.",
+        "vitamina C": "Presença moderada na versão fresca; bastante reduzida nas conservas industriais.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante secundária sutil.",
+        "vitamina K": "Traços estruturais básicos."
+      },
+      "saisMinerais": {
+        "calcio": "Boa quantidade vegetal que apoia a estrutura óssea.",
+        "cobre": "Auxilia nos processos metabólicos e síntese celular.",
+        "fosforo": "Trabalha com o cálcio na mineralização do esqueleto.",
+        "sodio": "Teor elevado nas versões em conserva de salmoura; baixíssimo in natura.",
+        "potassio": "Boa fonte, auxiliando no equilíbrio de fluidos corporais.",
+        "magnesio": "Níveis saudáveis importantes para a regulação neuromuscular.",
+        "ferro": "Teor moderado que auxilia na oxigenação das células.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Excelente teor para um caule vegetal, fortalecendo a cicatrização e imunidade.",
+        "iodo": "",
+        "fluor": "Traços comuns."
+      }
+    },
+    "beneficios": [
+      "Imunidade fortalecida: O bom teor de zinco otimiza a maturação das células de defesa.",
+      "Cicatrização ágil: Minerais combinados atuam na regeneração rápida de tecidos da pele.",
+      "Aliado digestivo: Suas fibras insolúveis auxiliam na motilidade intestinal sem causar gases."
+    ],
+    "comoUsar": [
+      "Saladas frias: Toletes cortados em rodelas servidos com azeite, ervas ou vinagrete.",
+      "Assado in natura: O palmito pupunha assado na própria casca no forno ou churrasqueira.",
+      "Recheios: Ingrediente nobre picado para quiches, empadões, pastéis e pizzas."
+    ],
+    "contraindicacoes": [
+      "Versões em conserva possuem alto teor de sódio, exigindo moderação por hipertensos (lavar em água ajuda).",
+      "Exige atenção rigorosa à procedência da conserva para evitar riscos de botulismo."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 2 a 3 toletes médios (aprox. 100g) de 2 a 3 vezes por semana.",
+      "Ferver as conservas industriais por 10 minutos antes de usar elimina o risco de toxinas biológicas."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada de palmito pupunha com tomate cereja",
+        "slug": "salada-de-palmito-com-tomate",
+        "imagem": "salada-palmito.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Repolho": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Brassica oleracea var. capitata",
+    "familia": "Brassicaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Repolho Branco (ou Verde): Cabeça compacta de folhas claras, o mais comum em saladas brasileiras.",
+      "Repolho Roxo: Rico em antocianinas, sabor ligeiramente mais adocicado e visual vibrante.",
+      "Repolho Crespo (Coração de Boi): Folhas enrugadas e textura mais suave."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O repolho é uma hortaliça de cabeça compacta formada por folhas densamente sobrepostas.",
+      "Pertence à poderosa família das crucíferas, sendo rico em compostos sulfurados benéficos ao fígado.",
+      "Apresenta excelente durabilidade pós-colheita e grande versatilidade, consumido cru ou cozido."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "25 kcal",
+      "carboidratos": "5.8g",
+      "proteinas": "1.3g",
+      "gorduras": "0.1g",
+      "fibras": "2.5g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Traços leves na variedade branca; boa presença na roxa.",
+        "vitamina B": "Boa fonte de folato (B9) e piridoxina (B6), essenciais para as células.",
+        "vitamina C": "Altíssima concentração, especialmente quando consumido cru e fresco.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil.",
+        "vitamina K": "Teor elevado, fundamental para a saúde óssea e processos de coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Boa fonte de cálcio vegetal de fácil absorção.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Auxilia na integridade das membranas celulares.",
+        "sodio": "Quantidade residual segura.",
+        "potassio": "Boa concentração que apoia o equilíbrio de fluidos corporais.",
+        "magnesio": "Importante para a modulação do relaxamento muscular.",
+        "ferro": "Presença leve para o suporte circulatório.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Saúde estomacal: Contém glutamina, um aminoácido que atua na proteção e restauração da mucosa gástrica.",
+      "Fortalecimento imune: A alta carga de vitamina C protege o organismo contra infecções agudas.",
+      "Ação detox celular: Glicosinolatos auxiliam o fígado a neutralizar e eliminar substâncias tóxicas."
+    ],
+    "comoUsar": [
+      "Saladas: Cortado em tiras finíssimas (chiffonade) cru, combinado com cenoura e maionese.",
+      "Refogado: Salteado rapidamente na frigideira com alho, cebola e um fio de azeite.",
+      "Fermentados (Chucrute): Conserva tradicional de repolho fermentado rica em probióticos."
+    ],
+    "contraindicacoes": [
+      "Por conter enxofre e fibras complexas, pode causar gases e estufamento em pessoas com digestão sensível.",
+      "Indivíduos com distúrbios graves de tireoide devem evitar o consumo cru exagerado."
+    ],
+    "consumoRecomendado": [
+      "Cerca de 1 a 2 xícaras de repolho cru ou refogado de 2 a 3 vezes por semana.",
+      "Consumir a variedade roxa crua garante o máximo de antioxidantes intactos."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Salada de repolho roxo com maçã e iogurte",
+        "slug": "salada-de-repolho-roxo-com-maca",
+        "imagem": "salada-repolho.jpg",
+        "credito": "Panela Terapia",
+        "urlOrigem": "https://panelaterapia.com"
+      }
+    ]
+  },
+  "Taioba": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Xanthosoma sagittifolium",
+    "familia": "Araceae",
+    "OutrosNomes": [
+      "Taiá",
+      "Orelha-de-elefante"
+    ],
+    "variedades": [
+      "Taioba Mansa: Totalmente verde (folhas e talos), segura para o consumo após cozimento (mais comum).",
+      "Taioba Brava: Possui talos arroxeados ou manchas escuras, com altíssima concentração de oxalato de cálcio, sendo tóxica e não comestível."
+    ],
+    "imagem": "",
+    "descricao": [
+      "A taioba é uma Planta Alimentícia Não Convencional (PANC) folhosa, com folhas gigantes em formato de seta.",
+      "Apresenta sabor suave e textura aveludada após o preparo, assemelhando-se a uma combinação de couve e espinafre.",
+      "É um ingrediente histórico e muito tradicional na culinária caipira dos estados de Minas Gerais e Rio de Janeiro."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "24 kcal",
+      "carboidratos": "4.3g",
+      "proteinas": "2.0g",
+      "gorduras": "0.2g",
+      "fibras": "2.1g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Altíssima concentração na forma de betacaroteno, essencial para a saúde dos tecidos e da visão.",
+        "vitamina B": "Boa fonte de riboflavina (B2) e niacina (B3) para o suporte celular.",
+        "vitamina C": "Excelente teor na folha fresca, atuando no fortalecimento do sistema imunológico.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante secundária sutil.",
+        "vitamina K": "Teor muito elevado, fundamental para a densidade dos ossos e processos de coagulação."
+      },
+      "saisMinerais": {
+        "calcio": "Excelente fonte de cálcio vegetal, auxiliando na integridade de ossos e dentes.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Trabalha com o cálcio na mineralização e suporte estrutural do esqueleto.",
+        "sodio": "Quantidade residual baixa.",
+        "potassio": "Ótimo teor, auxiliando no equilíbrio de fluidos corporais e regulação arterial.",
+        "magnesio": "Abundante, essencial para a função neuromuscular e contração muscular.",
+        "ferro": "Altíssimo teor mineral para uma folha, ideal para combater a fadiga corporal.",
+        "selenio": "Traços antioxidantes residuais.",
+        "zinco": "Auxílio básico nas funções imunitárias celulares.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Prevenção de anemia: Seu impressionante teor de ferro combinado com a vitamina C otimiza a oxigenação do sangue.",
+      "Fortalecimento ósseo: A massiva quantidade de cálcio e vitamina K atua diretamente na mineralização do esqueleto.",
+      "Visão protegida: A carga de carotenoides atua como filtro natural contra os danos causados por radicais livres nos olhos."
+    ],
+    "comoUsar": [
+      "Refogada clássica: Rasgada ou cortada em tiras largas e salteada rapidamente na frigideira com alho e azeite.",
+      "Rasgada em ensopados: Adicionada nos minutos finais do cozimento de feijão, caldos de legumes ou carnes.",
+      "Bolinhos e Recheios: Incorporada picada na massa de bolinhos de arroz, polenta ou recheios de tortas."
+    ],
+    "contraindicacoes": [
+      "Nunca deve ser consumida crua; o cozimento ou refogado é obrigatório para destruir os cristais de oxalato de cálcio.",
+      "Pessoas com histórico de cálculos renais de oxalato ou em uso de anticoagulantes devem moderar o consumo."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 a 2 xícaras de folhas refogadas de duas a três vezes por semana.",
+      "Certificar-se de remover o talo central mais grosso se a folha for muito madura para melhorar a textura."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Taioba refogada no alho ao estilo mineiro",
+        "slug": "taioba-refogada-no-alho",
+        "imagem": "taioba-refogada.jpg",
+        "credito": "Receitas Globo",
+        "urlOrigem": "https://globo.com"
+      }
+    ]
+  },
+  "Milho": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Zea mays",
+    "familia": "Poaceae",
+    "OutrosNomes": [
+      "Milho-verde"
+    ],
+    "variedades": [
+      "Milho Verde (Doce): Colhido ainda jovem e macio, possui alto teor de umidade e sabor adocicado (comum para consumo direto).",
+      "Milho de Pipoca: Variedade de grãos duros e pequenos com alto teor de amido cristalino, que estoura ao aquecer.",
+      "Milho Flint (Duro): Grãos rígidos utilizados industrialmente para a fabricação de fubá, canjica e farinhas."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O milho é um cereal consumido amplamente como legume em seu estágio verde, nativo das Américas.",
+      "Apresenta grãos amarelos brilhantes dispostos em espigas, ricos em carboidratos amiláceos e energia.",
+      "É a base identitária de dezenas de pratos da cultura festiva e gastronômica brasileira (Festa Junina)."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "98 kcal",
+      "carboidratos": "19.0g",
+      "proteinas": "3.2g",
+      "gorduras": "1.2g",
+      "fibras": "2.4g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Excelente fonte de carotenoides como a zeaxantina, que confere sua cor amarela marcante.",
+        "vitamina B": "Rico em vitaminas B1 (tiamina) e B3 (niacina), essenciais para o metabolismo de energia.",
+        "vitamina C": "Boa presença na espiga fresca, auxiliando na barreira de defesas do corpo.",
+        "vitamina D": "",
+        "vitamina E": "Presença moderada, especialmente concentrada no germe do grão com ação antioxidante.",
+        "vitamina K": "Traços mínimos regulatórios."
+      },
+      "saisMinerais": {
+        "calcio": "Quantidade básica para suporte mineral.",
+        "cobre": "Auxilia nos processos enzimáticos corporais.",
+        "fosforo": "Excelente teor, trabalhando de forma ativa no armazenamento de energia celular.",
+        "sodio": "Quantidade residual insignificante (quando preparado in natura).",
+        "potassio": "Ótima fonte, ajudando a regular os fluidos corporais e a pressão arterial.",
+        "magnesio": "Boa quantidade, essencial para as funções neuromusculares básicas.",
+        "ferro": "Teor moderado que apoia a formação de células vermelhas do sangue.",
+        "selenio": "Proteção celular contra o estresse oxidativo.",
+        "zinco": "Auxílio básico nas funções imunitárias e processos metabólicos.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Energia constante: Seus carboidratos fornecem combustível de excelente qualidade para as atividades diárias.",
+      "Proteção da mácula ocular: A zeaxantina presente nos pigmentos protege os olhos contra danos da luz azul.",
+      "Trânsito intestinal regulado: Suas fibras insolúveis aumentam o bolo fecal e estimulam o peristaltismo saudável."
+    ],
+    "comoUsar": [
+      "Cozido na espiga: Preparo clássico em água fervente com sal, servido quente com manteiga derretida.",
+      "Cremes e Curau: Grãos batidos e cozidos com leite até atingirem textura espessa e aveludada.",
+      "Assado na churrasqueira: Espigas tostadas diretamente na brasa até os grãos ficarem levemente tostados."
+    ],
+    "contraindicacoes": [
+      "Indivíduos diabéticos devem monitorar as porções pelo teor expressivo de amido de rápida absorção.",
+      "Versões em conserva enlatada possuem alto teor de sódio adicionado e devem ser lavadas antes do uso."
+    ],
+    "consumoRecomendado": [
+      "Recomenda-se o consumo de 1 espiga média ou 1 xícara de grãos (aprox. 100g) por refeição.",
+      "Consumir o grão inteiro (com a película externa) garante o máximo aproveitamento das fibras solúveis."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Creme de milho verde cremoso tradicional",
+        "slug": "creme-de-milho-verde-cremoso",
+        "imagem": "creme-milho.jpg",
+        "credito": "TudoGostoso",
+        "urlOrigem": "https://tudogostoso.com.br"
+      }
+    ]
+  },
+  "Jilo": {
+    "dataInclusao": "2026-05-19",
+    "nomeCientifico": "Solanum gilo",
+    "familia": "Solanaceae",
+    "OutrosNomes": [],
+    "variedades": [
+      "Jiló Comum (Redondo): Formato esférico, casca verde brilhante e sabor amargo característico (mais comum).",
+      "Jiló Comprido: Formato alongado, polpa ligeiramente mais macia e amargor um pouco mais suave."
+    ],
+    "imagem": "",
+    "descricao": [
+      "O jiló é um fruto consumido exclusivamente como legume, parente próximo da berinjela e do tomate.",
+      "É famoso por seu marcante e potente sabor amargo, decorrente da presença de alcaloides naturais benéficos.",
+      "É colhido e consumido ainda verde; quando amadurece, sua casca fica alaranjada e o sabor torna-se excessivamente desagradável."
+    ],
+    "informacaoNutricional": {
+      "porcao": "100g",
+      "calorias": "27 kcal",
+      "carboidratos": "6.2g",
+      "proteinas": "1.4g",
+      "gorduras": "0.2g",
+      "fibras": "2.6g"
+    },
+    "compostos": {
+      "vitaminas": {
+        "vitamina A": "Boa presença na forma de betacaroteno nas camadas externas próximas à casca.",
+        "vitamina B": "Contém pequenas concentrações de vitaminas B1, B3 e B6 que apoiam as funções metabólicas.",
+        "vitamina C": "Boa fonte antioxidante, auxiliando na barreira imunitária celular.",
+        "vitamina D": "",
+        "vitamina E": "Ação antioxidante muito sutil nos tecidos.",
+        "vitamina K": "Presença sutil reguladora."
+      },
+      "saisMinerais": {
+        "calcio": "Suporte básico para a mineralização do esqueleto.",
+        "cobre": "Atua de forma secundária no metabolismo energético.",
+        "fosforo": "Trabalha no suporte estrutural das membranas das células.",
+        "sodio": "Quantidade residual insignificante.",
+        "potassio": "Excelente teor, auxiliando no controle de líquidos e estabilização da pressão arterial.",
+        "magnesio": "Níveis saudáveis importantes para a regulação enzimática básica.",
+        "ferro": "Presença leve que auxilia na oxigenação do sangue.",
+        "selenio": "Quantidade residual mínima.",
+        "zinco": "Auxílio básico nas funções imunitárias celulares.",
+        "iodo": "",
+        "fluor": "Traços minerais comuns."
+      }
+    },
+    "beneficios": [
+      "Estímulo digestivo e biliar: As substâncias amargas ativam as enzimas gástricas e a produção de bile no fígado.",
+      "Controle de peso: Altíssimo volume hídrico com calorias quase nulas e bom teor de fibras saciantes.",
+      "Ação protetora das artérias: Contém flavonoides que auxiliam no controle da oxigenação celular e colesterol."
+    ],
+    "comoUsar": [
+      "Refogado simples: Fatiado em rodelas ou meias-luas finas e salteado rapidamente com alho, cebola e azeite.",
+      "Frito ou Empanado: Passado na farinha e dourado na frigideira ou na airfryer para quebrar a textura aquosa.",
+      "Em conserva: Curtido em vinagre, sal e pimenta para servir como petisco ou acompanhamento de carnes."
+    ],
+    "contraindicacoes": [
+      "Pessoas com quadros severos de refluxo gastroesofágico devem moderar o consumo, pois o amargor pode estimular os sucos gástricos.",
+      "Evitar o consumo dos frutos que já iniciaram a transição para a cor amarela ou vermelha."
+    ],
+    "consumoRecomendado": [
+      "Pode ser consumido de 2 a 3 vezes por semana, cerca de 4 a 5 unidades pequenas por refeição.",
+      "Cozinhar o jiló destampado ou deixá-lo de molho em água salgada antes ajuda a mitigar o excesso de amargor."
+    ],
+    "sugestaoReceita": [
+      {
+        "nome": "Jiló refogado acebolado simples de frigideira",
+        "slug": "jilo-refogado-acebolado",
+        "imagem": "jilo-refogado.jpg",
+        "credito": "Panelinha",
+        "urlOrigem": "https://panelinha.com.br"
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

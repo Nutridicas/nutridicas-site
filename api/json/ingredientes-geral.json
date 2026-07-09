@@ -1,0 +1,1682 @@
+{
+    "psyllium": {
+    "nome": "Psyllium",
+    "slug": "psyllium",
+    "categoria": "Fibras",
+    "descricao_curta": "Fibra solúvel que auxilia o intestino e aumenta a saciedade.",
+    "descricao_longa": [
+        "O psyllium é uma fibra natural solúvel extraída da casca das sementes da planta Plantago ovata.",
+        "Ele tem a capacidade de absorver grande quantidade de água, formando um gel no sistema digestivo.",
+        "Esse gel ajuda a regular o trânsito intestinal, sendo muito utilizado em dietas para constipação.",
+        "Também contribui para o controle da glicemia, pois reduz a velocidade de absorção de açúcares.",
+        "Outro benefício importante é o auxílio na redução do colesterol LDL.",
+        "É bastante utilizado em receitas low carb e sem glúten para dar estrutura a massas.",
+        "Seu consumo deve sempre ser acompanhado de bastante água.",
+        "Pode ser encontrado em pó, cápsulas ou farelo."
+    ],
+    "beneficios": [
+        "Melhora o funcionamento intestinal",
+        "Aumenta a saciedade",
+        "Ajuda no controle da glicemia",
+        "Contribui para reduzir o colesterol"
+    ],
+    "riscos": [
+      "Risco de obstrução intestinal <strong>se não for ingerido com muita água.</strong>",
+      "Pode causar gases e inchaço no início do consumo.",
+      "Pode reduzir a absorção de certos medicamentos se tomados juntos."
+    ],
+    "naoRecomenda": [
+      "Pessoas com dificuldade de deglutição (engolir)",
+      "Indivíduos com obstruções intestinais conhecidas",
+      "Crianças sem orientação pediátrica específica"
+    ],
+        "consumoMaximo": "Recomenda-se começar com quantidades menores e aumentar gradualmente, garantindo a ingestão de bastante água para evitar efeitos colaterais intestinais.",
+    "como_usar": [
+        "Adicionar em massas de pão e bolo",
+        "Misturar em sucos ou iogurtes",
+        "Utilizar como espessante natural"
+     ],
+    "receitas": [
+        {
+        "nome": "Pão francês Funcional",
+        "link": "receita.html?slug=pao-frances-zero-lactose"
+        },
+        {
+        "nome": "Bolo funcional",
+        "link": "receita.html?slug=pao-frances-zero-lactose"
+        }
+    ],
+        "imagem": "imagens/ingredientes/psyllium.jpg",
+        "credito" : "Fonte",
+        "endereco" : ""
+    },
+    "tahine": {
+    "nome": "Tahine",
+    "slug": "tahine",
+    "categoria": "Pastas",
+    "descricao_curta": "Pasta de gergelim rica em cálcio e gorduras boas.",
+    "descricao_longa": [
+    "O tahine é uma pasta feita a partir de sementes de gergelim moídas.",
+    "É muito utilizado na culinária do Oriente Médio, especialmente em pratos como homus.",
+    "Possui alto teor de cálcio, sendo excelente para a saúde óssea.",
+    "Também é rico em gorduras boas que ajudam na saúde cardiovascular.",
+    "Contém antioxidantes importantes como vitamina E.",
+    "É uma ótima opção para dietas vegetarianas e veganas.",
+    "Pode ser usado tanto em receitas doces quanto salgadas.",
+    "Seu sabor é levemente amargo e marcante."
+    ],
+    "beneficios": [
+        "Fortalece ossos e dentes",
+        "Rico em gorduras saudáveis",
+        "Fonte de antioxidantes"
+    ],
+    "riscos": [
+       "Alto valor calórico (pode levar ao ganho de peso se em excesso)",
+       "Pode causar desconforto em pessoas com sensibilidade a sementes",
+       "Risco de oxidação se mal conservado"
+    ],
+    "naoRecomenda": [
+        "Pessoas com alergia severa a gergelim",
+        "Indivíduos com pedras nos rins de oxalato (consumir com moderação)",
+        "Pessoas com restrição calórica muito severa"
+    ],
+        "consumoMaximo": "O consumo deve ser moderado, idealmente inserido dentro do contexto de uma dieta equilibrada e de acordo com as necessidades calóricas individuais.",
+    "como_usar": [
+        "Base para homus",
+        "Molhos e pastas",
+        "Cobertura para torradas"
+    ],
+    "receitas": [
+        {
+        "nome": "Homus tradicional",
+        "link": "receita-homus.html"
+        }
+    ],
+    "imagem": "imagens/ingredientes/tahine.jpg"
+    },
+ "farinha-de-amendoas": {
+   "nome": "Farinha de Amêndoas",
+   "slug": "farinha-de-amendoas",
+    "categoria": "Oleaginosas",
+    "descricao_curta": "Alternativa nutritiva e low carb, rica em gorduras boas e proteínas.",
+    "descricao_longa": [
+        "A farinha de amêndoa é obtida através da moagem de amêndoas sem casca.",
+        "É uma das opções favoritas em dietas low carb devido ao seu baixo índice glicêmico.",
+        "Possui uma textura fina que confere umidade e maciez extrema a massas de bolos e doces.",
+        "É uma excelente fonte de vitamina E, um poderoso antioxidante para as células.",
+        "Ajuda na saúde cardiovascular devido ao alto teor de gorduras monoinsaturadas.",
+        "Por ser naturalmente livre de glúten, é ideal para celíacos ou quem busca reduzir o trigo.",
+        "Diferente de outras farinhas funcionais, ela adiciona um sabor levemente adocicado às receitas.",
+        "Deve ser armazenada preferencialmente na geladeira para evitar a oxidação das gorduras."
+    ],
+    "beneficios": [
+        "Baixo teor de carboidratos (Low Carb)",
+        "Rica em vitamina E e magnésio",
+        "Promove a saúde do coração",
+        "Auxilia no controle do açúcar no sangue"
+    ],
+    "riscos": [
+      "Muito calórica e densa em gorduras",
+      "Rápida oxidação das gorduras se exposta ao calor e luz",
+      "Pode conter traços de aflatoxinas se a procedência for ruim"
+    ],
+    "naoRecomenda": [
+      "Pessoas com alergia a oleaginosas (amêndoas, nozes, castanhas)",
+      "Indivíduos com sensibilidade a oxalatos",
+      "Quem busca dietas de baixíssima gordura"
+    ],
+    "consumoMaximo": "O consumo deve ser moderado, considerado uma fonte de gorduras saudáveis, ajustado ao total de calorias diárias.",
+  "como_usar": [
+        "Base para massas de tortas e quiches",
+        "Substituta da farinha de trigo em bolos e brownies",
+        "Empanamento de proteínas para uma crosta crocante"
+  ],
+  "receitas": [
+     {
+        "nome": "Macarons Clássicos",
+        "link": "receita.html?slug=macarons-franceses"
+     },
+     {
+        "nome": "Bolo Low Carb de Laranja",
+        "link": "receita.html?slug=bolo-laranja-amendoa"
+    }
+ ],
+    "imagem": "imagens/ingredientes/farinha-amendoas.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"farinha-de-aveia": {
+    "nome": "Farinha de Aveia",
+    "slug": "farinha-de-aveia",
+    "categoria": "Cereais",
+    "descricao_curta": "Cereal versátil rico em fibras que garante energia prolongada.",
+    "descricao_longa": [
+        "A farinha de aveia é produzida a partir da moagem dos grãos integrais de aveia.",
+        "É extremamente rica em beta-glucana, uma fibra solúvel que reduz o colesterol.",
+        "Proporciona uma absorção lenta de carboidratos, evitando picos de insulina.",
+        "É uma das melhores opções para dar estrutura a panquecas e pães caseiros.",
+        "Diferente do farelo, a farinha possui uma textura mais delicada e uniforme.",
+        "Contribui significativamente para a saúde digestiva e o crescimento da microbiota do bem.",
+        "Ajuda a prolongar a saciedade, sendo uma aliada estratégica no emagrecimento.",
+        "Embora a aveia não tenha glúten, é preciso verificar se há contaminação cruzada no processamento."
+    ],
+    "beneficios": [
+        "Reduz os níveis de colesterol ruim (LDL)",
+        "Fonte de energia de longa duração",
+        "Melhora a digestão e o trânsito intestinal",
+        "Fonte natural de ferro e vitaminas do complexo B"
+    ],
+     "riscos": [
+      "Pode causar gases e inchaço em quem não está acostumado com fibras",
+      "Contaminação cruzada com glúten (comum no processamento)",
+      "Alto índice glicêmico se consumida isoladamente em grandes porções"
+    ],
+    "naoRecomenda": [
+      "Celíacos (devem consumir apenas aveia com selo 'Gluten Free')",
+      "Pessoas com sensibilidade à avenina (proteína da aveia)",
+      "Indivíduos em crise de doenças inflamatórias intestinais"
+    ],
+    "consumoMaximo": "Cerca de 3 a 4 colheres de sopa por dia (aproximadamente 30g a 40g).",
+    "como_usar": [
+        "Preparação de mingaus e shakes proteicos",
+        "Substituta parcial da farinha de trigo em pães integrais",
+        "Espessante para sopas e cremes nutritivos"
+    ],
+    "receitas": [
+        {
+            "nome": "Panqueca de Banana e Aveia",
+            "link": "receita.html?slug=panqueca-fit-manha"
+        },
+        {
+            "nome": "Pão de Aveia de Frigideira",
+            "link": "receita.html?slug=pao-aveia-rapido"
+        }
+    ],
+    "imagem": "imagens/ingredientes/farinha-aveia.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+   },
+   "leite-vegetal": {
+    "nome": "Leite Vegetal",
+    "slug": "leite-vegetal",
+    "categoria": "Bebidas",
+    "descricao_curta": "Alternativa sem lactose e de origem vegetal para substituir o leite animal.",
+    "descricao_longa": [
+        "O leite vegetal pode ser extraído de grãos, oleaginosas ou sementes como amêndoas, coco, aveia e soja.",
+        "É a base ideal para dietas veganas, vegetarianas ou para pessoas com intolerância à lactose.",
+        "Cada tipo de leite vegetal oferece um perfil nutricional diferente e um sabor característico.",
+        "Leites de castanhas costumam ser mais cremosos, enquanto os de cereais são naturalmente mais doces.",
+        "Ajudam a reduzir o consumo de gorduras saturadas de origem animal.",
+        "São versáteis tanto em receitas doces quanto em preparos salgados.",
+        "Podem ser enriquecidos industrialmente com cálcio e vitamina B12.",
+        "Muitas versões caseiras são simples de fazer e não levam conservantes."
+    ],
+    "beneficios": [
+        "Zero lactose e colesterol",
+        "Opção sustentável e ética",
+        "Variedade de sabores e texturas",
+        "Fácil digestão"
+    ],
+    "riscos": [
+      "Marcas industrializadas podem conter muito açúcar e espessantes (goma guar/xantana)",
+      "Baixo teor proteico comparado ao leite de vaca",
+      "Pode causar picos de insulina se for leite de arroz ou aveia com açúcar"
+    ],
+    "naoRecomenda": [
+      "Pessoas com alergia específica à base do leite (amêndoas, soja, etc)",
+      "Crianças pequenas como substituto exclusivo do leite materno ou fórmulas"
+    ],
+    "consumoMaximo": "1 a 2 copos por dia, preferindo sempre as versões 'zero açúcar' ou caseiras.",
+   "como_usar": [
+        "Substituir o leite de vaca em cafés e vitaminas",
+        "Base para molhos brancos veganos",
+        "Ingrediente líquido em bolos e panquecas"
+    ],
+    "receitas": [
+        {
+            "nome": "Vitamina de Morango Vegana",
+            "link": "receita.html?slug=vitamina-morango-vegana"
+        },
+        {
+            "nome": "Molho Branco de Castanhas",
+            "link": "receita.html?slug=molho-branco-fit"
+        }
+    ],
+    "imagem": "imagens/ingredientes/leite-vegetal.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"baunilha": {
+   "nome": "Baunilha",
+   "slug": "baunilha",
+   "categoria": "Especiarias",
+   "descricao_curta": "Aromatizante clássico que eleva o sabor de sobremesas e bebidas.",
+   "descricao_longa": [
+      "A baunilha verdadeira é extraída das favas de orquídeas do gênero Vanilla.",
+      "É considerada uma das especiarias mais valiosas do mundo devido ao seu cultivo delicado.",
+      "Seu aroma característico vem da vanilina, que possui propriedades relaxantes.",
+      "Pode ser utilizada na forma de extrato, essência, fava natural ou pasta.",
+      "Tem o poder de realçar a percepção de doçura das receitas, permitindo usar menos açúcar.",
+      "Além de doces, pode ser usada sutilmente em pratos salgados refinados.",
+      "Ajuda a mascarar sabores residuais de adoçantes em receitas fit.",
+      "O extrato natural oferece um sabor muito mais complexo que a essência artificial."
+    ],
+    "beneficios": [
+        "Efeito calmante e aromático",
+        "Rica em antioxidantes",
+        "Ajuda a reduzir o uso de açúcar",
+        "Propriedades anti-inflamatórias leves"
+    ],
+    "riscos": [
+      "Irritação gástrica se consumida pura em grandes quantidades",
+      "Essências artificiais (imitação) podem conter corantes e aditivos ruins",
+      "Pode causar dermatite em contato direto com a pele em pessoas sensíveis"
+    ],
+    "naoRecomenda": [
+      "Pessoas com sensibilidade severa a compostos fenólicos",
+      "Indivíduos que evitam qualquer teor alcoólico (no caso de extratos à base de álcool)"
+    ],
+    "consumoMaximo": "Geralmente usada em gotas ou colheres de chá. Não há uma restrição severa, mas o equilíbrio é a chave.",
+    "como_usar": [
+        "Aromatizar leites, chás e cafés",
+        "Adicionar gotas em massas de bolos e biscoitos",
+        "Infundir a fava em cremes e pudins"
+    ],
+    "receitas": [
+        {
+            "nome": "Creme de Confeiteiro Real",
+            "link": "receita.html?slug=creme-confeiteiro-baunilha"
+        },
+        {
+            "nome": "Biscoitos Amanteigados",
+            "link": "receita.html?slug=biscoitos-baunilha"
+        }
+    ],
+    "imagem": "imagens/ingredientes/baunilha.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+ },
+"chia": {
+    "nome": "Chia",
+    "slug": "chia",
+    "categoria": "Superalimentos",
+    "descricao_curta": "Pequena semente com alto poder de hidratação e rica em ômega-3.",
+    "descricao_longa": [
+        "A chia é uma semente originária do México, cultivada desde a época dos Astecas.",
+        "É uma das melhores fontes vegetais de ácidos graxos ômega-3.",
+        "Quando em contato com líquidos, forma um gel que ajuda na saciedade.",
+        "Essa capacidade de formar gel permite que ela substitua o ovo em receitas veganas.",
+        "É excelente para o controle da glicemia e melhora da saúde cardiovascular.",
+        "Rica em cálcio, fósforo e magnésio, essenciais para a saúde óssea.",
+        "Pode ser consumida inteira, moída ou na forma de óleo.",
+        "Não altera o sabor dos alimentos, facilitando sua inclusão na rotina."
+    ],
+    "beneficios": [
+        "Altíssimo teor de fibras",
+        "Fonte de ômega-3 vegetal",
+        "Auxilia no emagrecimento pela saciedade",
+        "Contém cálcio, magnésio e fósforo para a saúde óssea",
+        "Regula os níveis de açúcar no sangue"
+    ],
+    "riscos": [
+      "Pode causar desconforto abdominal se consumida seca em excesso",
+      "Risco de asfixia se ingerida seca por pessoas com problemas de deglutição",
+      "Pode reduzir demais a pressão arterial em pessoas já hipotensas"
+    ],
+    "naoRecomenda": [
+      "Pessoas com diverticulite em fase aguda",
+      "Indivíduos que utilizam medicamentos anticoagulantes (consultar médico)",
+      "Pessoas com alergia a sementes de sálvia ou similares"
+    ],
+    "consumoMaximo": "Cerca de 2 colheres de sopa (25g) por dia. Importante: sempre hidratar em líquidos ou consumir com muita água.",
+    "como_usar": [
+        "Preparo de 'Chia Pudding' (pudim de chia)",
+        "Adicionar sobre frutas e iogurtes",
+        "Substituir ovos em bolos (1 colher de chia + 3 de água)"
+    ],
+    "receitas": [
+        {
+            "nome": "Pudim de Chia com Coco",
+            "link": "receita.html?slug=pudim-chia-coco"
+        },
+        {
+            "nome": "Geleia Caseira de Morango e Chia",
+            "link": "receita.html?slug=geleia-fit-morango"
+        }
+    ],
+    "imagem": "imagens/ingredientes/chia.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+
+"linhaca": {
+    "nome": "Linhaça",
+    "slug": "linhaca",
+    "categoria": "Sementes",
+    "descricao_curta": "Semente funcional poderosa para a saúde hormonal e digestiva.",
+    "descricao_longa": [
+        "A linhaça está disponível nas variedades dourada e marrom, ambas muito nutritivas.",
+        "É a principal fonte de lignanas, compostos que auxiliam no equilíbrio hormonal.",
+        "Ajuda a reduzir processos inflamatórios no corpo graças ao ômega-3.",
+        "Para melhor absorção dos nutrientes, o ideal é consumir a semente triturada.",
+        "Funciona como um excelente laxante natural devido às suas fibras insolúveis.",
+        "Contribui para a saúde da pele e dos cabelos.",
+        "Assim como a chia, pode formar um gel ('ovo de linhaça') para ligar massas.",
+        "Ajuda a baixar a pressão arterial e proteger o coração."
+    ],
+    "beneficios": [
+        "Equilíbrio hormonal (Lignanas)",
+        "Melhora o trânsito intestinal",
+        "Ação anti-inflamatória",
+        "Proteção cardiovascular"
+    ],
+    "riscos": [
+      "Pode causar desconforto intestinal se não houver hidratação adequada",
+      "Interferência na absorção de medicamentos se ingerida no mesmo horário",
+      "Oxida rapidamente se for comprada já triturada (perde propriedades)"
+    ],
+    "naoRecomenda": [
+          "Pessoas com obstrução ou estreitamento do esôfago/intestino",
+          "Indivíduos com diverticulite em fase inflamatória aguda",
+          "Crianças pequenas sem orientação (devido ao alto teor de fibras)"
+    ],
+        "consumoMaximo": "Cerca de 1 a 2 colheres de sopa por dia. Dica: triture na hora para aproveitar os nutrientes.",
+    "como_usar": [
+        "Misturar a farinha no feijão ou sopas",
+        "Adicionar em sucos detox e batidas",
+        "Ingrediente para pães integrais e granolas"
+    ],
+    "receitas": [
+        {
+            "nome": "Pão de Linhaça Low Carb",
+            "link": "receita.html?slug=pao-linhaca-lowcarb"
+        },
+        {
+            "nome": "Crackers de Sementes",
+            "link": "receita.html?slug=biscoito-salgado-sementes"
+        }
+    ],
+    "imagem": "imagens/ingredientes/linhaca.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"leite-de-coco": {
+    "nome": "Leite de Coco",
+    "slug": "leite-de-coco",
+    "categoria": "Bebidas",
+    "descricao_curta": "Líquido cremoso e gorduroso extraído da polpa do coco maduro.",
+    "descricao_longa": [
+        "O leite de coco é amplamente usado na culinária tropical e asiática.",
+        "É rico em ácido láurico, uma gordura de cadeia média de fácil absorção pelo fígado.",
+        "Possui propriedades antivirais e antifúngicas naturais.",
+        "Confere uma textura aveludada e sabor marcante a qualquer prato.",
+        "É uma excelente base para sobremesas cremosas sem lactose.",
+        "Na culinária salgada, equilibra sabores picantes e ácidos.",
+        "Pode ser encontrado em versões concentradas (garrafinha) ou prontas para beber.",
+        "A versão caseira preserva melhor o sabor e os nutrientes originais do fruto."
+    ],
+    "beneficios": [
+        "Fornece energia rápida para o corpo",
+        "Fortalece o sistema imunológico",
+        "Livre de lactose e caseína",
+        "Rico em potássio e eletrólitos"
+    ],
+    "riscos": [
+      "Muito calórico (excesso pode impactar a dieta)",
+      "Versões enlatadas podem conter bisfenol A (BPA) e conservantes",
+      "Pode causar desconforto digestivo em pessoas sensíveis a gorduras"
+        ],
+        "naoRecomenda": [
+          "Pessoas com restrição severa de gorduras saturadas",
+          "Indivíduos com alergia específica ao coco",
+          "Quem apresenta problemas de má absorção de lipídios"
+        ],
+        "consumoMaximo": "Cerca de 100ml a 150ml por dia, dependendo do objetivo calórico individual.",
+    "como_usar": [
+        "Base para moquecas e curries",
+        "Ingrediente para sorvetes caseiros",
+        "Substituir o creme de leite em diversas receitas"
+    ],
+    "receitas": [
+        {
+            "nome": "Moqueca de Banana da Terra",
+            "link": "receita.html?slug=moqueca-banana-vegana"
+        },
+        {
+            "nome": "Mousse de Chocolate com Coco",
+            "link": "receita.html?slug=mousse-coco-fit"
+        }
+    ],
+    "imagem": "imagens/ingredientes/leite-de-coco.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"polvilho-doce": {
+    "nome": "Polvilho Doce",
+    "slug": "polvilho-doce",
+    "categoria": "Féculas",
+    "descricao_curta": "Amido extraído da mandioca que confere elasticidade e leveza às massas.",
+    "descricao_longa": [
+        "O polvilho doce é obtido através da decantação da água da mandioca ralada.",
+        "Diferente da versão azeda, ele não passa por processo de fermentação.",
+        "É o ingrediente chave para dar a textura 'puxa-puxa' característica do pão de queijo.",
+        "Atua como um excelente espessante para molhos e cremes, ficando transparente ao cozinhar.",
+        "Por não ter glúten, é uma base fundamental na culinária inclusiva e funcional.",
+        "Ajuda a dar liga em massas de biscoitos, deixando-os mais crocantes e delicados.",
+        "É de fácil digestão e fornece energia rápida para o organismo.",
+        "Deve ser armazenado em local seco para evitar a formação de grumos."
+    ],
+    "beneficios": [
+        "Naturalmente livre de glúten",
+        "Fonte de energia rápida",
+        "Confere elasticidade às massas",
+        "De fácil digestão"
+    ],
+    "riscos": [
+      "Alto índice glicêmico (pode causar picos de açúcar no sangue)",
+      "Baixo teor de fibras, proteínas e minerais",
+      "Consumo excessivo pode contribuir para o ganho de peso"
+    ],
+    "naoRecomenda": [
+          "Diabéticos (devem consumir associado a fibras ou proteínas)",
+          "Pessoas em dietas de restrição calórica severa",
+          "Indivíduos com resistência à insulina"
+    ],
+        "consumoMaximo": "Não há uma dose fixa, mas deve ser consumido com moderação dentro do total de carboidratos do dia.",
+    "como_usar": [
+        "Base para pão de queijo e chipas",
+        "Espessante para molhos e pudins",
+        "Mistura para farinhas sem glúten caseiras"
+    ],
+    "receitas": [
+        {
+            "nome": "Biscoito de Polvilho Assado",
+            "link": "receita.html?slug=biscoito-polvilho-doce"
+        },
+        {
+            "nome": "Pão de Queijo Tradicional",
+            "link": "receita.html?slug=pao-de-queijo-mineiro"
+        }
+    ],
+    "imagem": "imagens/ingredientes/polvilho-doce.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"margarina": {
+    "nome": "Margarina",
+    "slug": "margarina",
+    "categoria": "Gorduras",
+    "descricao_curta": "Emulsão de óleos vegetais usada para untar e dar maciez a preparos.",
+    "descricao_longa": [
+        "A margarina é um produto criado a partir da hidrogenação ou interesterificação de óleos vegetais.",
+        "É utilizada na culinária para conferir umidade e estender a validade de bolos e pães.",
+        "Possui um ponto de fusão que facilita o manuseio em massas folhadas e biscoitos.",
+        "Versões modernas costumam ser enriquecidas com vitaminas A e D.",
+        "Muitas opções no mercado hoje são livres de gorduras trans.",
+        "Atua como agente estruturante em cremes e coberturas de confeitaria.",
+        "É uma alternativa econômica e de origem vegetal em relação à manteiga animal.",
+        "Deve ser mantida sob refrigeração para preservar sua textura e sabor."
+    ],
+    "beneficios": [
+        "Fonte de vitaminas lipossolúveis",
+        "Livre de colesterol (origem vegetal)",
+        "Melhora a textura de massas assadas",
+        "Custo-benefício acessível"
+    ],
+    "riscos": [
+      "Presença de gorduras interesterificadas ou trans (prejudiciais ao coração)",
+      "Alto grau de processamento industrial e aditivos químicos",
+      "Desequilíbrio na proporção de Ômega-6, que pode ser pró-inflamatório"
+    ],
+    "naoRecomenda": [
+      "Pessoas com doenças cardiovasculares ou colesterol alto",
+      "Indivíduos que buscam uma dieta de base natural (comida de verdade)",
+      "Quem possui sensibilidade a corantes e conservantes artificiais"
+    ],
+    "consumoMaximo": "O menor possível. Recomenda-se substituir por manteiga (com moderação) ou óleos vegetais prensados a frio.",
+    "como_usar": [
+        "Untar formas e assadeiras",
+        "Base para refogados simples",
+        "Ingrediente para massas de tortas e bolos"
+    ],
+    "receitas": [
+        {
+            "nome": "Bolo de Fubá Fofinho",
+            "link": "receita.html?slug=bolo-fuba-margarina"
+        },
+        {
+            "nome": "Empadinha de Frango",
+            "link": "receita.html?slug=empada-massa-podre"
+        }
+    ],
+    "imagem": "imagens/ingredientes/margarina.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"polvilho-azedo": {
+    "nome": "Polvilho Azedo",
+    "slug": "polvilho-azedo",
+    "categoria": "Féculas",
+    "descricao_curta": "Fécula de mandioca fermentada que promove expansão e aeração.",
+    "descricao_longa": [
+        "O polvilho azedo passa por um processo de fermentação antes da secagem ao sol.",
+        "Essa fermentação confere um sabor levemente ácido e um aroma característico.",
+        "Sua principal propriedade é a capacidade de expansão, fazendo as massas crescerem sem fermento.",
+        "É essencial para pães de queijo que ficam ocos por dentro e crocantes por fora.",
+        "Ajuda a criar a 'casquinha' crocante em biscoitos de polvilho.",
+        "Assim como o doce, é totalmente isento de glúten.",
+        "Reage de forma diferente ao calor, criando bolhas de ar maiores na massa.",
+        "É um ingrediente clássico da culinária regional brasileira."
+    ],
+    "beneficios": [
+        "Agente de crescimento natural",
+        "Cria texturas crocantes e aeradas",
+        "Livre de glúten",
+        "Sabor intenso e característico"
+    ],
+    "riscos": [
+      "Índice glicêmico elevado",
+      "Passa por um processo de fermentação que pode causar azia em sensíveis",
+      "Baixo valor nutricional (basicamente carboidrato puro)"
+    ],
+    "naoRecomenda": [
+        "Pessoas com refluxo gastroesofágico ou gastrite (devido à acidez)",
+        "Diabéticos descompensados",
+        "Indivíduos em dietas de emagrecimento restritivas"
+    ],
+    "consumoMaximo": "Consumir ocasionalmente em preparações, evitando o uso como base principal diária da dieta.",
+   "como_usar": [
+        "Preparo de biscoitos de vento (voador)",
+        "Mistura com polvilho doce para pão de queijo",
+        "Receitas de tapioca granulada"
+    ],
+    "receitas": [
+        {
+            "nome": "Pão de Queijo de Frigideira",
+            "link": "receita.html?slug=pao-queijo-azedo-rapido"
+        },
+        {
+            "nome": "Biscoito de Polvilho de Sal",
+            "link": "receita.html?slug=biscoito-polvilho-azedo"
+        }
+    ],
+    "imagem": "imagens/ingredientes/polvilho-azedo.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"farinha-de-arroz": {
+    "nome": "Farinha de Arroz",
+    "slug": "farinha-de-arroz",
+    "categoria": "Cereais",
+    "descricao_curta": "Farinha leve e hipoalergênica, base principal para substituição do trigo.",
+    "descricao_longa": [
+        "Obtida através da moagem de grãos de arroz polido ou integral.",
+        "É a substituta mais comum da farinha de trigo em dietas para celíacos.",
+        "Por ter sabor neutro, não interfere no resultado final das receitas.",
+        "Proporciona uma textura mais seca e quebradiça, sendo ideal para empanados.",
+        "Possui baixo teor de gordura e é facilmente digerida pelo organismo.",
+        "Em bolos, recomenda-se combinar com amidos para evitar que a massa fique seca.",
+        "Pode ser usada para engrossar sopas e caldos sem alterar a cor do prato.",
+        "Rica em carboidratos complexos, fornecendo energia de forma gradual."
+    ],
+    "beneficios": [
+        "Hipoalergênica e sem glúten",
+        "Sabor neutro e versátil",
+        "Baixo teor de sódio e gorduras",
+        "Ótima para empanados crocantes"
+    ],
+    "riscos": [
+      "Alto índice glicêmico (eleva rapidamente o açúcar no sangue)",
+      "Pobre em fibras e proteínas na versão branca",
+      "Pode levar à constipação se consumida em excesso sem fibras"
+    ],
+    "naoRecomenda": [
+      "Diabéticos (devem priorizar a versão integral ou misturar com fibras)",
+      "Pessoas em dietas Low Carb (devido ao alto teor de amido)",
+      "Indivíduos com resistência à insulina"
+    ],
+        "consumoMaximo": "Não há uma dose fixa, mas deve ser equilibrada com fontes de fibras (como linhaça ou psyllium).",
+   "como_usar": [
+        "Empanar frangos e peixes",
+        "Base para massas de pizza sem glúten",
+        "Engrossar molhos e cremes brancos"
+    ],
+    "receitas": [
+        {
+            "nome": "Bolo de Arroz com Coco",
+            "link": "receita.html?slug=bolo-farinha-arroz"
+        },
+        {
+            "nome": "Nuggets Caseiros Fit",
+            "link": "receita.html?slug=nuggets-farinha-arroz"
+        }
+    ],
+    "imagem": "imagens/ingredientes/farinha-arroz.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"bebida-vegetal": {
+    "nome": "Bebida Vegetal",
+    "slug": "bebida-vegetal",
+    "categoria": "Bebidas",
+    "descricao_curta": "Extrato líquido nutritivo derivado de plantas, sementes ou grãos.",
+    "descricao_longa": [
+        "Frequentemente chamada de leite vegetal, é a solução para dietas sem proteína animal.",
+        "Pode ser feita de soja, aveia, arroz, amêndoas, castanhas ou amendoim.",
+        "Oferece uma densidade nutricional variada conforme o ingrediente base.",
+        "Livre de hormônios e antibióticos comuns na pecuária leiteira tradicional.",
+        "Contribui para uma pegada ecológica menor no consumo de recursos hídricos.",
+        "Muitas versões são fortificadas com cálcio e vitaminas para equivaler ao leite.",
+        "Excelente para manter a leveza em preparos de confeitaria.",
+        "O sabor varia do adocicado (aveia/arroz) ao neutro/amanteigado (castanhas)."
+    ],
+    "beneficios": [
+        "Zero lactose e caseína",
+        "Rica em fitoquímicos",
+        "Melhor digestibilidade",
+        "Amiga do meio ambiente"
+    ],
+    "riscos": [
+      "Muitas marcas contêm açúcares escondidos e aditivos (espessantes)",
+      "Pobre em proteínas se comparada ao leite animal",
+      "Pode conter antinutrientes dependendo da base (ex: fitatos na soja/aveia)"
+    ],
+    "naoRecomenda": [
+          "Pessoas com alergia à base da bebida (castanhas, soja, amêndoas)",
+          "Crianças em fase de crescimento sem acompanhamento nutricional",
+          "Indivíduos que precisam de alto aporte proteico exclusivo via líquidos"
+    ],
+        "consumoMaximo": "1 a 2 copos (200ml a 400ml) por dia, preferindo as versões sem açúcar.",
+    "como_usar": [
+        "Base para smoothies e shakes proteicos",
+        "Substituir o leite em qualquer receita de bolo",
+        "Acompanhamento para cereais e granolas"
+    ],
+    "receitas": [
+        {
+            "nome": "Chocolate Quente Vegano",
+            "link": "receita.html?slug=chocolate-quente-vegetal"
+        },
+        {
+            "nome": "Overnight Oats de Maçã",
+            "link": "receita.html?slug=overnight-oats-aveia"
+        }
+    ],
+    "imagem": "imagens/ingredientes/bebida-vegetal.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"mostarda": {
+    "nome": "Mostarda",
+    "slug": "mostarda",
+    "categoria": "Condimentos",
+    "descricao_curta": "Condimento picante e aromático feito a partir das sementes da planta mostarda.",
+    "descricao_longa": [
+        "A mostarda é um dos condimentos mais antigos e populares do mundo.",
+        "Feita a partir de sementes moídas misturadas com água, vinagre ou suco de limão.",
+        "Contém compostos como a isotiocianato, que aceleram o metabolismo.",
+        "Possui baixíssimas calorias, sendo um tempero ideal para dietas de emagrecimento.",
+        "Ajuda na digestão ao estimular a produção de sucos gástricos.",
+        "Disponível em versões em grãos, em pó ou pasta (Dijon, amarela, escura).",
+        "Rica em selênio e magnésio, minerais com propriedades anti-inflamatórias.",
+        "Pode ser usada tanto como acompanhamento quanto ingrediente em molhos complexos."
+    ],
+    "beneficios": [
+        "Acelera o metabolismo (Termogênico)",
+        "Baixo valor calórico",
+        "Auxilia no processo digestivo",
+        "Propriedades antioxidantes"
+    ],
+    "como_usar": [
+        "Base para molhos de salada (Honey Mustard)",
+        "Tempero para marinadas de carnes brancas",
+        "Acompanhamento para sanduíches e petiscos"
+    ],
+    "receitas": [
+        {
+            "nome": "Molho de Mostarda e Mel",
+            "link": "receita.html?slug=molho-mostarda-mel"
+        },
+        {
+            "nome": "Frango ao Creme de Mostarda",
+            "link": "receita.html?slug=frango-mostarda-dijon"
+        }
+    ],
+    "imagem": "imagens/ingredientes/mostarda.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"paprica-doce": {
+    "nome": "Páprica Doce",
+    "slug": "paprica-doce",
+    "categoria": "Especiarias",
+    "descricao_curta": "Especiaria suave e levemente adocicada feita a partir de pimentões secos,disponível nas versões doce, defumada ou picante.",
+    "descricao_longa": [
+        "A páprica doce é produzida a partir da moagem de pimentões vermelhos secos e pimentas vermelhas secas.",
+        "Muito utilizada na culinária europeia, especialmente na Hungria e Espanha.",
+        "Possui sabor suave, sem ardência, ideal para realçar pratos.",
+        "Rica em antioxidantes como carotenoides, em vitamina A,E que protegem a saúde dos olhos.",
+        "Possui propriedades anti-inflamatórias e auxilia na circulação sanguínea e contribui para a saúde da pele.",
+        "É o ingrediente central de pratos clássicos como o goulash e batatas rústicas.",
+        "Ajuda a dar cor avermelhada vibrante e atraente às receitas  aos alimentos, além do sabor.",
+        "A versão defumada é seca sobre fumaça de madeira, conferindo um aroma único aos pratos.",
+        "Auxilia na redução da oxidação do colesterol nas artérias.",
+        "Pode ser usada em pratos quentes e frios e deve ser adicionada ao final do cozimento ou em fogo baixo para não amargar."
+    ],
+    "beneficios": [
+        "Rica em antioxidantes",
+        "Auxilia na saúde ocular (visão)",
+        "Contribui para a saúde da pele",
+        "Ação anti-inflamatória",
+        "Estimula a circulação",
+        "Baixo valor calórico"
+    ],
+    "como_usar": [
+        "Tempero para carnes e aves e peixes",
+        "Finalização de pratos como ovos, batatas ou homus",
+        "Base para molhos e ensopados",
+        "Dar cor e sabor a batatas assadas"
+    ],
+    "receitas": [
+        {
+            "nome": "Frango com Páprica",
+            "link": "receita.html?slug=frango-paprica"
+        },
+        {
+            "nome": "Batatas Temperadas com Páprica",
+            "link": "receita.html?slug=batatas-paprica"
+        },
+        {
+            "nome": "Batatas Rústicas Defumadas",
+            "link": "receita.html?slug=batata-rustica-paprica"
+        },
+        {
+            "nome": "Frango com Páprica e Ervas",
+            "link": "receita.html?slug=frango-paprica"
+        }
+    ],
+    "imagem": "imagens/ingredientes/paprica.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+
+"paprica-picante": {
+    "nome": "Páprica Picante",
+    "slug": "paprica-picante",
+    "categoria": "Especiarias",
+    "descricao_curta": "Versão mais intensa da páprica, com sabor picante e marcante.",
+    "descricao_longa": [
+        "A páprica picante é feita com variedades mais ardidas de pimentão.",
+        "Muito usada para dar sabor e leve ardência aos pratos.",
+        "Contém capsaicina, responsável pela sensação de picância.",
+        "Possui propriedades termogênicas.",
+        "Ajuda a estimular o metabolismo.",
+        "Também é rica em antioxidantes.",
+        "Muito utilizada em carnes, embutidos e pratos defumados.",
+        "Adiciona cor e intensidade ao preparo."
+    ],
+    "beneficios": [
+        "Ação termogênica",
+        "Estimula o metabolismo",
+        "Propriedades antioxidantes",
+        "Auxilia na circulação sanguínea"
+    ],
+    "riscos": [
+      "Pode causar irritação na mucosa do estômago e intestino",
+      "Risco de azia e refluxo em pessoas sensíveis",
+      "Pode causar queimação na pele ou olhos se manuseada incorretamente"
+    ],
+    "naoRecomenda": [
+      "Pessoas com gastrite, úlceras ou hemorroidas",
+      "Indivíduos com sensibilidade extrema a pimentas",
+      "Crianças pequenas (devido à ardência intensa)"
+    ],
+    "consumoMaximo": "Uso moderado como tempero, ajustado à tolerância digestiva individual.",
+    "como_usar": [
+        "Temperar carnes vermelhas",
+        "Adicionar em molhos e ensopados",
+        "Finalizar pratos com toque picante"
+    ],
+    "receitas": [
+        {
+            "nome": "Carne Picante com Páprica",
+            "link": "receita.html?slug=carne-paprica-picante"
+        },
+        {
+            "nome": "Molho Picante Caseiro",
+            "link": "receita.html?slug=molho-picante-paprica"
+        }
+    ],
+    "imagem": "imagens/ingredientes/paprica.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"noz-moscada": {
+    "nome": "Noz Moscada",
+    "slug": "noz-moscada",
+    "categoria": "Especiarias",
+    "descricao_curta": "Especiaria aromática com sabor quente e levemente adocicado.",
+    "descricao_longa": [
+        "A noz-moscada é a semente do fruto de uma árvore tropical, Myristica fragrans.",
+        "Muito usada em receitas doces e salgadas.",
+        "Possui aroma e sabor intensos e característicos, principalmente quando ralada na hora do preparo.",
+        "É conhecida por combinar bem com molhos à base de leite (molhos brancos) e queijos.",
+        "Rica em compostos antioxidantes, possui propriedades digestivas e auxilia no relaxamento muscular.",
+        "Contém compostos como a miristicina, que em pequenas doses ajuda no sono.",
+        "Deve ser usada com moderação devido ao sabor forte.",
+        "Pode ter propriedades calmantes e ajuda a combater o mau hálito e tem propriedades antibacterianas.",
+        "Muito utilizada também em sobremesas."
+    ],
+    "beneficios": [
+        "Auxilia na digestão",
+        "Propriedades antioxidantes e relaxantes",
+        "Efeito calmante leve",
+        "Ação anti-inflamatória",
+        "Melhora a saúde cerebral",
+        "Ação antibacteriana"
+    ],
+      "riscos": [
+      "Altamente tóxica em grandes quantidades (efeito alucinógeno e náuseas)",
+      "Pode causar palpitações e tonturas se usada em excesso",
+      "Risco de intoxicação grave se ingerida uma semente inteira de uma vez"
+    ],
+    "naoRecomenda": [
+      "Gestantes e lactantes",
+      "Crianças pequenas",
+      "Pessoas com histórico de convulsões"
+    ],
+    "consumoMaximo": "Uso culinário apenas (pitadas). Não ultrapassar 2g a 3g em um único dia para evitar toxicidade.",
+    "como_usar": [
+        "Ralada em molhos como bechamel",
+        "Temperar purês e massas",
+        "Adicionar em bolos e sobremesas",
+        "Finalizar molho bechamel (branco)",
+        "Ralar sobre purês de batata ou abóbora",
+        "Adicionar em bolos de especiarias e tortas"
+    ],
+    "receitas": [
+        {
+            "nome": "Molho Branco com Noz-moscada",
+            "link": "receita.html?slug=molho-branco-noz-moscada"
+        },
+        {
+            "nome": "Purê de Batata Temperado",
+            "link": "receita.html?slug=pure-noz-moscada"
+        },
+        {
+            "nome": "Molho Branco Clássico",
+            "link": "receita.html?slug=molho-branco-noz-moscada"
+        },
+        {
+            "nome": "Quiche de Espinafre",
+            "link": "receita.html?slug=quiche-espinafre-fit"
+        }
+    ],
+    "imagem": "imagens/ingredientes/noz-moscada.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"grao-de-bico": {
+    "nome": "Grão-de-bico Cozido",
+    "slug": "grao-de-bico",
+    "categoria": "Leguminosas",
+    "descricao_curta": "Leguminosa rica em proteínas e fibras, muito versátil na culinária mediterrânea,e veganas e vegetariana",
+    "descricao_longa": [
+        "O grão-de-bico é amplamente consumido no mundo todo.",
+        "Rico em proteínas vegetais, carboidratos complexos e fibras.",
+        "Ajuda na saciedade e controle do apetite.",
+        "Quando cozido, apresenta uma textura macia e um sabor amendoado suave.",
+        "Possui baixo índice glicêmico, por isso ajuda a manter a saciedade por longos períodos.",
+        "É rico em triptofano, aminoácido que auxilia na produção de serotonina (bem-estar).",
+        "Possui um alto teor de fibras solúveis, que ajudam no controle do colesterol.",
+        "Fonte de ferro, magnésio e vitaminas do complexo B.",
+        "Sua água de cozimento (aquafaba) pode ser batida em neve para substituir claras de ovos.",
+        "É o ingrediente principal do homus e do falafel.",
+        "Pode ser consumido em saladas, pastas e pratos quentes.",
+        "Auxilia na saúde intestinal, mas deve ser bem cozido para garantir a melhor digestão das fibras."
+    ],
+    "beneficios": [
+        "Alto teor de proteínas",
+        "Auxilia na saciedade prolongada",
+        "Melhora a saúde intestinal",
+        "Ajuda no controle glicêmico",
+        "Rico em ferro e magnésio",
+        "Melhora o humor (Triptofano)"
+    ],
+    "riscos": [
+      "Pode causar gases e flatulência (devido aos oligossacarídeos)",
+      "Presença de antinutrientes (fitatos) que podem dificultar a absorção de minerais",
+      "O remolho que é deixaro grão de bico na água por 12h reduz o risco de gases."
+    ],
+    "naoRecomenda": [
+      "Pessoas com insuficiência renal (devido ao teor de potássio)",
+      "Indivíduos com crises de Síndrome do Intestino Irritável (SII)",
+      "Pessoas com sensibilidade severa a leguminosas"
+    ],
+    "consumoMaximo": "Cerca de 1 concha ou 1/2 xícara por dia é uma porção padrão equilibrada.",
+    "como_usar": [
+        "Base para para pastas e patês (homus)",
+        "Adicionar em saladas",
+        "Preparar ensopados e sopas",
+       "Assar com temperos para um snack crocante"
+    ],
+    "receitas": [
+        {
+            "nome": "Homus Tradicional",
+            "link": "receita.html?slug=homus"
+        },
+        {
+            "nome": "Salada de Grão-de-bico",
+            "link": "receita.html?slug=salada-grao-de-bico"
+        },
+        {
+            "nome": "Homus Tradicional",
+            "link": "receita.html?slug=homus-grao-de-bico"
+        },
+        {
+            "nome": "Snack de Grão-de-bico",
+            "link": "receita.html?slug=snack-crocante-grao"
+        }
+    ],
+    "imagem": "imagens/ingredientes/grao-de-bico.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"canela": {
+    "nome": "Canela",
+    "slug": "canela",
+    "categoria": "Especiarias",
+    "descricao_curta": "Especiaria termogênica e aromática com sabor doce e levemente picante que auxilia no controle da glicemia.",
+    "descricao_longa": [
+        "A canela é extraída da casca de árvores do gênero Cinnamomum.",
+        "Pode ser encontrada em pau (casca enrolada) ou em pó fino.",
+        "Muito usada em preparações doces e bebidas.",
+        "Possui propriedades antioxidantes.",
+        "Ajuda no controle dos níveis de açúcar no sangue.",
+        "Tem propriedades termogênicas que aceleram o metabolismo.",
+        "Ajuda significativamente a controlar os níveis de açúcar no sangue.",
+        "Pode auxiliar na digestão.",
+         "Possui um aroma marcante e agradável com efeito reconfortante que reduz o desejo por doces.",
+        "Rica em antioxidantes polifenóis, que combatem radicais livres.",
+        "Muito usada em chás e sobremesas.",
+        "Tem ação antimicrobiana e antifúngica natural.",
+        "É um ingrediente clássico tanto na confeitaria quanto em pratos orientais."
+    ],
+    "beneficios": [
+        "Ajuda no controle glicêmico",
+        "Ação antioxidante",
+        "Auxilia na digestão",
+        "Leve efeito termogênico",
+        "Acelera o metabolismo",      
+        "Reduz vontade de comer doce"
+    ],
+    "riscos": [
+      "Pode causar danos hepáticos se consumida em excesso (tipo Cassia)",
+      "Risco de alergias de contato ou irritação na boca",
+      "Pode interagir com medicamentos anticoagulantes"
+    ],
+    "naoRecomenda": [
+      "Gestantes (pode estimular contrações uterinas em altas doses)",
+      "Pessoas com doenças hepáticas graves",
+      "Indivíduos com úlceras gástricas ativas"
+    ],
+    "consumoMaximo": "Cerca de 1 a 2 colheres de chá (até 6g) por dia para adultos saudáveis.",
+    "como_usar": [
+        "Polvilhar sobre frutas e iogurtes",
+        "Adicionar em cafés e chás para aromatizar",
+        "Usar em bolos e sobremesas como tortas de maçã"
+    ],
+    "receitas": [
+        {
+            "nome": "Bolo de Canela",
+            "link": "receita.html?slug=bolo-canela"
+        },
+        {
+            "nome": "Chá de Canela",
+            "link": "receita.html?slug=cha-canela"
+        },
+        {
+            "nome": "Banana Assada com Canela",
+            "link": "receita.html?slug=banana-canela-fit"
+        },
+        {
+            "nome": "Bolo de Maçã Integral",
+            "link": "receita.html?slug=bolo-maca-canela"
+        }
+    ],
+    "imagem": "imagens/ingredientes/canela.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},  
+"acucar-de-coco": {
+    "nome": "Açúcar de Coco",
+    "slug": "acucar-de-coco",
+    "categoria": "Adoçantes",
+    "descricao_curta": "Adoçante natural obtido da seiva do coqueiro com baixo índice glicêmico.",
+    "descricao_longa": [
+        "O açúcar de coco é produzido a partir da seiva das flores do coqueiro e não passa por refinamento químico.",
+        "Possui índice glicêmico mais baixo que o açúcar refinado, evitando picos de insulina..",
+        "O seu sabor é caramelizado que lembra levemente o açúcar mascavo.",
+        "Contém minerais como ferro, zinco, cálcio e potássio.",
+        "Rico em fibra inulina, que retarda a absorção da glicose.",
+        "É considerado um dos adoçantes mais sustentáveis do mundo e alternativa mais natural ao açúcar comum.",
+        "Pode ser usado na mesma proporção (1:1) que o açúcar comum em receitas.",
+        "Pode ser usado em diversas receitas.",
+        "Menos processado que açúcares tradicionais.",
+        "Muito utilizado em dietas naturais.",
+        "Apesar de mais saudável, ainda é um açúcar e deve ser consumido com moderação."
+    ],
+    "beneficios": [
+        "Menor índice glicêmico",
+        "Contém minerais essenciais",
+        "Menos processado que o açúcar branco",
+        "Alternativa natural ao açúcar",
+        "Sabor natural de caramelo"
+    ],
+     "riscos": [
+      "Continua sendo um açúcar e pode causar ganho de peso se em excesso",
+      "Pode elevar a glicemia se consumido em grandes quantidades",
+      "Alto teor de frutose, que em excesso sobrecarrega o fígado"
+    ],
+    "naoRecomenda": [
+      "Diabéticos descontrolados (deve ser usado com muita cautela)",
+      "Pessoas em dietas de emagrecimento restritivas",
+      "Indivíduos com resistência à insulina"
+    ],
+    "consumoMaximo": "O ideal é não ultrapassar 1 colher de chá por dia, tratando-o como um substituto moderado.",
+    "como_usar": [
+        "Substituir o açúcar refinado em receitas",
+        "Adoçar cafés e outras bebidas quentes",
+        "Substituir açúcar em massas de bolos e sobremesas",
+        "Base para caldas e caramelos saudáveis"
+    ],
+    "receitas": [
+        {
+            "nome": "Bolo com Açúcar de Coco",
+            "link": "receita.html?slug=bolo-acucar-coco"
+        },
+        {
+            "nome": "Cookies Saudáveis",
+            "link": "receita.html?slug=cookies-acucar-coco"
+        }
+    ],
+    "imagem": "imagens/ingredientes/acucar-de-coco.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"pasta-de-amendoim": {
+    "nome": "Pasta de Amendoim",
+    "slug": "pasta-de-amendoim",
+    "categoria": "Oleaginosas",
+    "descricao_curta": "Creme proteico e energético feito a partir de amendoim moído, rico em gorduras boas.",
+    "descricao_longa": [
+        "A pasta de amendoim é rica em gorduras monoinsaturadas.",
+        "A pasta integral é obtida apenas através da moagem do grão seco.",
+        "Fonte de proteínas vegetais e uma excelente fonte de gorduras monoinsaturadas.",
+        "Ajuda na saciedade.",
+        "Muito utilizada em dietas fitness por atletas devido ao seu alto valor energético e saciedade.",
+        "Contém vitaminas do complexo B,E e potássio, auxiliando na recuperação muscular.",
+        "Pode conter adição de açúcar ou ser integral.",
+        "Versátil para receitas doces e salgadas.",
+        "Contribui para energia rápida.",
+        "Pode ter textura cremosa ou 'crunchy' (com pedaços de amendoim).",
+        "Não contém glúten e, nas versões puras, é livre de açúcar e conservantes.",
+        "Ajuda na saúde do coração ao equilibrar os níveis de colesterol.",
+        "Deve ser consumida com cuidado por ser um alimento densamente calórico."
+    ],
+    "beneficios": [
+        "Fonte de energia de longa duração",
+        "Rica em gorduras boas",
+        "Auxilia na saciedade",
+        "Boa fonte de proteína",
+        "Rica em antioxidantes"
+    ],
+    "riscos": [
+      "Extremamente calórica (fácil de ultrapassar o limite da dieta)",
+      "Versões comerciais podem conter açúcar e óleos hidrogenados",
+      "Risco de contaminação por aflatoxinas se a marca não for certificada"
+    ],
+    "naoRecomenda": [
+      "Pessoas com alergia severa a amendoim",
+      "Indivíduos com tendência a inflamações na pele (acne) em excesso",
+      "Pessoas com restrição calórica muito baixa"
+    ],
+    "consumoMaximo": "Cerca de 1 a 2 colheres de sopa por dia (aproximadamente 15g a 30g).",
+    "como_usar": [
+        "Passar no pão ou torradas",
+        "Adicionar em vitaminas, shakes e smoothies",
+        "Usar em receitas fitness",
+        "Recheio para tapiocas e sanduíches",
+        "Comer com frutas como maçã e banana"
+    ],
+    "receitas": [
+        {
+            "nome": "Vitamina com Pasta de Amendoim",
+            "link": "receita.html?slug=vitamina-amendoim"
+        },
+        {
+            "nome": "Cookies de Amendoim",
+            "link": "receita.html?slug=cookies-amendoim"
+        },
+        {
+            "nome": "Smoothie Proteico de Pasta de Amendoim",
+            "link": "receita.html?slug=smoothie-amendoim"
+        },
+        {
+            "nome": "Brownie de Pasta de Amendoim",
+            "link": "receita.html?slug=brownie-fit-amendoim"
+        }
+    ],
+    "imagem": "imagens/ingredientes/pasta_de_amendoim.jpg",
+    "credito" : "Sem crédito ainda",
+    "endereco" : "Não definido"
+},
+"gengibre": {
+    "nome": "Gengibre",
+    "slug": "gengibre",
+    "categoria": "Raízes",
+    "descricao_curta": "Raiz aromática com sabor picante e propriedades medicinais.",
+    "descricao_longa": [
+        "O gengibre é uma raiz amplamente utilizada na culinária e medicina natural.",
+        "É um rizoma (caule subterrâneo horizontal que armazena nutriente) conhecido mundialmente por seu sabor ardente e cítrico.",
+        "Possui sabor picante e refrescante.",
+         "Contém gingerol, substância com potentes efeitos anti-inflamatórios e antioxidantes.",
+        "É um excelente remédio natural para náuseas e problemas digestivos.",
+        "Pode fortalecer o sistema imunológico.",
+        "Atua como termogênico, auxiliando na queima de gordura e aceleração do metabolismo.",
+        "Ajuda a aliviar dores musculares e sintomas de resfriados.",
+        "Pode ser consumido fresco, em pó, em conserva ou como chá.",
+        "Na culinária, traz frescor e profundidade a pratos orientais e sucos detox.",
+        "Muito usado em chás e sucos.",
+        "Versátil em pratos doces e salgados.",
+        "Contribui para a redução do açúcar no sangue e melhora fatores de risco cardíaco."
+    ],
+    "beneficios": [
+        "Ação anti-inflamatória",
+        "Fortalece a imunidade",
+        "Efeito termogênico",
+        "Alivia náuseas e má digestão",
+        "Efeito termogênico",
+        "Fortalece o sistema imunológico"
+    ],
+    "riscos": [
+      "Pode causar queimação estomacal em pessoas sensíveis",
+      "Risco de afinar o sangue (efeito anticoagulante)",
+      "Pode causar insônia se consumido próximo ao horário de dormir"
+    ],
+    "naoRecomenda": [
+      "Pessoas com pedras na vesícula",
+      "Indivíduos que usam medicamentos anticoagulantes",
+      "Hipertensos que sentem palpitações com termogênicos",
+      "Gestantes próximas ao parto (devido ao risco de hemorragia)"
+    ],
+    "consumoMaximo": "Cerca de 2g a 4g por dia (uma fatia pequena ou 1 colher de chá do pó).",
+    "como_usar": [
+       "Temperar carnes e legumes",
+        "Adicionar em sucos verdes e detox",
+        "Infusão para chás quentes ou gelados",
+        "Tempero para frangos e peixes grelhados"
+    ],
+    "receitas": [
+        {
+            "nome": "Chá de Gengibre",
+            "link": "receita.html?slug=cha-gengibre"
+        },
+        {
+            "nome": "Suco Detox com Gengibre",
+            "link": "receita.html?slug=suco-gengibre"
+        },
+        {
+            "nome": "Suco Detox de Gengibre e Limão",
+            "link": "receita.html?slug=suco-detox-gengibre"
+        },
+        {
+            "nome": "Frango Xadrez Saudável",
+            "link": "receita.html?slug=frango-xadrez-fit"
+        }
+    ],
+    "imagem": "imagens/ingredientes/gengibre.jpg"
+},
+"tamara": {
+  "nome": "Tâmara",
+  "slug": "tamara",
+  "categoria": "Frutos Secos",
+  "descricao_curta": "Fruta naturalmente doce, rica em fibras e fonte imediata de energia.",
+  "descricao_longa": [
+    "A tâmara é o fruto da tamareira, cultivada há milênios em regiões áridas.",
+    "É conhecida como o 'caramelo da natureza' devido ao seu alto teor de açúcar natural e textura macia.",
+    "Possui uma densidade nutricional altíssima, sendo rica em potássio, magnésio e cobre.",
+    "Suas fibras auxiliam no bom funcionamento do intestino e garantem uma absorção de energia mais lenta.",
+    "Contém potentes antioxidantes como flavonoides e ácidos fenólicos.",
+    "É o substituto ideal para o açúcar em preparos de doces saudáveis e barrinhas energéticas.",
+    "Existem diversas variedades, sendo a Medjool a mais famosa pela sua cremosidade.",
+    "Pode ser consumida in natura, recheada ou batida em cremes."
+  ],
+  "beneficios": [
+    "Fonte de energia natural e rápida",
+    "Auxilia na saúde digestiva",
+    "Rica em potássio e antioxidantes",
+    "Excelente substituta para o açúcar"
+  ],
+  "como_usar": [
+    "Adoçar smoothies e vitaminas",
+    "Base para 'caramelo' vegano e caldas",
+    "Snack pré-treino recheada com pasta de amendoim"
+  ],
+  "receitas": [
+    {
+      "nome": "Brownie de Tâmara (Sem Açúcar)",
+      "link": "receita.html?slug=brownie-tamara-saudavel"
+    },
+    {
+      "nome": "Barrinha Energética de Nuts",
+      "link": "receita.html?slug=barrinha-energia-caseira"
+    }
+  ],
+  "imagem": "imagens/ingredientes/tamara.jpg"
+},
+"vinagre-de-maca": {
+  "nome": "Vinagre de Maçã",
+  "slug": "vinagre-de-maca",
+  "categoria": "Condimentos",
+  "descricao_curta": "Tônico digestivo natural que ajuda a regular o metabolismo.",
+  "descricao_longa": [
+    "O vinagre de maçã é produzido através da fermentação dos açúcares da maçã por leveduras e bactérias.",
+    "Contém ácido acético, que ajuda a matar bactérias prejudiciais no organismo.",
+    "Estudos sugerem que o consumo antes das refeições pode melhorar a sensibilidade à insulina.",
+    "Auxilia na digestão ao aumentar a acidez estomacal, facilitando a quebra de proteínas.",
+    "Ajuda a promover a saciedade, sendo um aliado em dietas de controle de peso.",
+    "Deve-se preferir as versões orgânicas e 'com a mãe' (sedimentos naturais nutritivos).",
+    "Pode ser usado tanto na culinária quanto em rotinas de autocuidado.",
+    "Deve ser sempre consumido diluído para proteger o esmalte dos dentes e o esôfago."
+  ],
+  "beneficios": [
+    "Melhora a digestão e o refluxo",
+    "Ajuda no controle da glicemia",
+    "Possui propriedades antimicrobianas",
+    "Contribui para o gerenciamento de peso"
+  ],
+  "como_usar": [
+    "Temperar saladas e marinadas",
+    "Diluir 1 colher em água antes das refeições",
+    "Agente fermentador em bolos veganos (reagindo com bicarbonato)"
+  ],
+  "receitas": [
+    {
+      "nome": "Molho de Salada Detox",
+      "link": "receita.html?slug=molho-vinagre-maca-ervas"
+    },
+    {
+      "nome": "Bolo de Chocolate Vegano Fofinho",
+      "link": "receita.html?slug=bolo-vegano-fermentacao"
+    }
+  ],
+  "imagem": "imagens/ingredientes/vinagre-maca.jpg"
+  },
+    "stevia": {
+      "nome": "Stévia",
+      "slug": "estevia",
+      "categoria": "Adoçantes",
+      "descricao_curta": "Adoçante natural extraído da planta Stevia rebaudiana, ideal para substituir o açúcar.",
+      "descricao_longa": [
+        "A estévia é um adoçante natural obtido das folhas da planta Stevia rebaudiana Bertoni.",
+        "Seus componentes ativos são os glicosídeos de esteviol, que possuem alto poder adoçante.",
+        "É considerada uma alternativa segura e saudável ao açúcar e aos adoçantes artificiais.",
+        "Não possui calorias e não eleva os níveis de glicose no sangue, sendo ideal para diabéticos.",
+        "Diferente de alguns adoçantes, a estévia é estável ao calor, podendo ser usada para cozinhar.",
+        "Possui um sabor doce característico, que em altas concentrações pode ter um leve retrogosto amargo.",
+        "É amplamente utilizada na indústria de alimentos e bebidas em versões líquidas, em pó ou gotas.",
+        "A planta é originária da América do Sul, sendo usada há séculos por povos indígenas."
+      ],
+      "beneficios": [
+        "Zero calorias e zero índice glicêmico",
+        "Auxilia no controle do peso corporal",
+        "Segura para diabéticos e hipertensos",
+        "Origem 100% natural sem aditivos químicos"
+      ],
+      "riscos": [
+          "Possível desconforto gastrointestinal (náuseas ou gases) em excesso",
+          "Pode causar queda excessiva de pressão em pessoas hipotensas",
+          "Risco de hipoglicemia se combinada com medicamentos para diabetes",
+          "Potenciais reações alérgicas em pessoas sensíveis a plantas Asteráceas",
+          "Uso de folhas 'in natura' não é recomendado por falta de dados de segurança"
+     ],
+     "naoRecomenda": [
+          "Pessoas com pressão arterial muito baixa (hipotensão)",
+          "Indivíduos com alergia a plantas da família Asteraceae (margaridas, girassol)",
+          "Pacientes com doenças renais crônicas (uso de folha in natura)",
+          "Pessoas em uso de medicamentos para diabetes sem ajuste médico",
+          "Gestantes e lactantes sem orientação específica de um nutricionista"
+        ],
+      "como_usar": [
+        "Adoçar cafés, chás e sucos",
+        "Substituir o açúcar em receitas de bolos e tortas",
+        "Utilizar em preparos culinários que vão ao fogo"
+      ],
+      "receitas": [
+        {
+          "nome": "Bolo de Chocolate Fit",
+          "link": "receita.html?slug=bolo-chocolate-fit-estevia"
+        },
+        {
+          "nome": "Limonada Suíça Zero",
+          "link": "receita.html?slug=limonada-suica-zero-acucar"
+        }
+      ],
+      "imagem": "imagens/ingredientes/stevia.jpg"
+     },
+    "curcuma": {
+      "nome": "Cúrcuma",
+      "slug": "curcuma",
+      "categoria": "Especiarias",
+      "descricao_curta": "Raiz da família do gengibre, famosa por sua cor dourada e ação terapêutica.",
+      "descricao_longa": [
+        "A cúrcuma, também chamada de açafrão-da-terra, é uma raiz da família Zingiberaceae, originária da Ásia.",
+        "Seu principal composto bioativo é a curcumina, responsável pela cor amarela e benefícios medicinais.",
+        "Possui forte ação antioxidante, ajudando a neutralizar radicais livres no organismo.",
+        "É amplamente reconhecida como um dos anti-inflamatórios naturais mais eficazes.",
+        "Para aumentar sua absorção, recomenda-se o consumo com gorduras boas ou pimenta-preta.",
+        "Auxilia na saúde das articulações e pode contribuir para a função cognitiva.",
+        "Na culinária, é o ingrediente base do curry e serve como corante natural para alimentos.",
+        "Pode ser consumida fresca, ralada, em pó ou através de suplementos."
+      ],
+      "beneficios": [
+        "Reduz processos inflamatórios no corpo",
+        "Melhora a imunidade e a saúde digestiva",
+        "Auxilia na proteção cardiovascular",
+        "Promove ação antioxidante celular"
+      ],
+       "riscos": [
+          "Pode causar desconforto gástrico se consumida em excesso",
+          "Risco de afinamento do sangue (efeito anticoagulante)",
+          "Pode estimular contrações na vesícula biliar"
+        ],
+        "naoRecomenda": [
+          "Pessoas com pedras na vesícula ou obstrução biliar",
+          "Pessoas que tomam remédios anticoagulantes",
+          "Gestantes (em doses terapêuticas/suplementos)",
+          "Indivíduos que farão cirurgias em breve"
+      ],
+      "como_usar": [
+        "Adicionar no preparo de arroz, sopas e carnes",
+        "Preparar o 'Golden Milk' (leite dourado)",
+        "Usar em shots matinais com limão e pimenta"
+      ],
+      "receitas": [
+        { "nome": "Shot Matinal Imunidade", "link": "receita.html?slug=shot-imunidade-curcuma" },
+        { "nome": "Arroz Dourado Funcional", "link": "receita.html?slug=arroz-dourado-curcuma" }
+      ],
+      "imagem": "imagens/ingredientes/curcuma.jpg"
+    },
+    "eritritol": {
+      "nome": "Eritritol",
+      "slug": "eritritol",
+      "categoria": "Adoçantes",
+      "descricao_curta": "Álcool de açúcar natural com sabor muito próximo ao açúcar comum.",
+      "descricao_longa": [
+        "O eritritol é um poliol (álcool de açúcar) encontrado naturalmente em algumas frutas e fermentados.",
+        "Possui cerca de 70% do poder adoçante do açúcar refinado, mas com quase zero calorias.",
+        "É um dos adoçantes com melhor tolerância intestinal, pois é absorvido antes de chegar ao cólon.",
+        "Não altera os níveis de glicose ou insulina no sangue, sendo ideal para dietas cetogênicas e diabéticos.",
+        "Tem a característica de deixar uma leve sensação de refrescância na boca após o consumo.",
+        "Ao contrário do açúcar, não contribui para a formação de cáries dentárias.",
+        "É estável sob altas temperaturas, sendo excelente para assar pães e bolos.",
+        "Pode ser encontrado em versões granuladas (cristal) ou em pó fino."
+      ],
+      "beneficios": [
+        "Praticamente zero calorias (0,2 kcal/g)",
+        "Índice glicêmico igual a zero",
+        "Não causa picos de insulina",
+        "Seguro para a saúde bucal"
+      ],
+      "riscos": [
+          "Efeito laxativo se consumido em quantidades muito altas",
+          "Possível inchaço abdominal em pessoas sensíveis",
+          "Estudos recentes investigam ligações com saúde cardiovascular em excesso"
+      ],
+       "naoRecomenda": [
+          "Pessoas com Síndrome do Intestino Irritável (SII)",
+          "Indivíduos com sensibilidade severa a adoçantes polióis",
+          "Crianças pequenas (devido ao risco de diarreia rápida)"
+     ],
+      "como_usar": [
+        "Substituir o açúcar em receitas de confeitaria (proporção aprox. 1.3 para 1)",
+        "Adoçar bebidas quentes ou geladas",
+        "Usar no preparo de coberturas e caldas low carb"
+      ],
+      "receitas": [
+        { "nome": "Brownie Low Carb", "link": "receita.html?slug=brownie-low-carb-eritritol" },
+        { "nome": "Mousse de Maracujá Fit", "link": "receita.html?slug=mousse-maracuja-eritritol" }
+      ],
+      "imagem": "imagens/ingredientes/eritritol.jpg",
+      "credito": "Fonte: temperodaterra.com.br",
+      "endereco": "https://www.temperodaterra.com.br/p-8450427-ERITRITOL-CRISTAL-KG"
+
+    },
+    "farinha-de-coco": {
+      "nome": "Farinha de Coco",
+      "slug": "farinha-de-coco",
+      "categoria": "Farinhas Funcionais",
+      "descricao_curta": "Farinha versátil, rica em fibras e com baixo teor de carboidratos líquidos.",
+      "descricao_longa": [
+        "A farinha de coco é feita a partir da polpa do coco seco e desengordurado.",
+        "É naturalmente livre de glúten, sendo uma excelente opção para celíacos e sensíveis.",
+        "Possui um alto teor de fibras, o que ajuda na saciedade e saúde intestinal.",
+        "Tem a característica única de absorver muito líquido, exigindo mais ovos ou água nas receitas.",
+        "É muito utilizada em dietas Low Carb e Paleo devido ao seu baixo índice glicêmico.",
+        "Confere um sabor levemente adocicado e uma textura macia aos preparos.",
+        "Contém gorduras saudáveis (TCM), que são rapidamente convertidas em energia.",
+        "Pode ser usada tanto em receitas doces quanto salgadas como substituto parcial de outras farinhas."
+      ],
+      "beneficios": [
+        "Rica em fibras alimentares",
+        "Auxilia no controle da glicemia",
+        "Livre de glúten e grãos",
+        "Promove maior saciedade"
+      ],
+      "riscos": [
+      "Pode causar constipação se não houver ingestão adequada de água",
+      "Possível desconforto intestinal devido ao alto teor de fibras",
+      "Altera muito a textura de receitas (absorve muita umidade)"
+    ],
+    "naoRecomenda": [
+      "Pessoas com alergia severa a coco",
+      "Indivíduos com obstruções intestinais ou diverticulite aguda",
+      "Quem possui restrição severa de fibras por recomendação médica"
+    ],
+      "como_usar": [
+        "Substituir parte da farinha de trigo em bolos e panquecas",
+        "Usar para empanar alimentos de forma saudável",
+        "Adicionar em iogurtes ou frutas para aumentar o teor de fibras"
+      ],
+      "receitas": [
+        { "nome": "Muffin de Coco Low Carb", "link": "receita.html?slug=muffin-coco-low-carb" },
+        { "nome": "Panqueca de Banana Funcional", "link": "receita.html?slug=panqueca-banana-farinha-coco" }
+      ],
+      "imagem": "imagens/ingredientes/farinha-de-coco.jpg",
+      "credito": "Fonte:",
+      "endereco": ""
+    },
+    "goma-xantana": {
+      "nome": "Goma Xantana",
+      "slug": "goma-xantana",
+      "categoria": "Espessantes",
+      "descricao_curta": "Polissacarídeo utilizado para dar estrutura, liga e viscosidade aos alimentos.",
+      "descricao_longa": [
+        "A goma xantana é um aditivo natural produzido pela fermentação da bactéria Xanthomonas campestris.",
+        "Na culinária sem glúten, ela desempenha o papel que seria do glúten, dando 'liga' à massa.",
+        "Ajuda a reter a umidade, evitando que pães e bolos esfarelem com facilidade.",
+        "É um poderoso espessante: basta uma pequena quantidade para mudar a textura de molhos.",
+        "Não altera o sabor ou a cor dos alimentos onde é aplicada.",
+        "Ajuda a manter partículas sólidas suspensas em líquidos, como em molhos de salada.",
+        "É solúvel tanto em água fria quanto quente.",
+        "Deve ser usada com cautela, pois o excesso pode deixar a preparação com textura gomosa."
+      ],
+      "beneficios": [
+        "Melhora a textura de massas sem glúten",
+        "Aumenta a estabilidade de molhos e cremes",
+        "Evita que os ingredientes se separem",
+        "Proporciona elasticidade a pães artesanais"
+      ],
+      "como_usar": [
+        "Misturar com as farinhas secas antes de adicionar líquidos",
+        "Usar como espessante em molhos, sopas e sorvetes",
+        "Aplicar em sucos detox para evitar a separação da polpa"
+      ],
+      "receitas": [
+        { "nome": "Pão de Forma Sem Glúten", "link": "receita.html?slug=pao-forma-sem-gluten" },
+        { "nome": "Molho Caesar Caseiro", "link": "receita.html?slug=molho-caesar-funcional" }
+      ],
+      "imagem": "imagens/ingredientes/goma-xantana.jpg"
+    },
+    "vaporizar-o-leite": {
+      "nome": "Vaporização de Leite",
+      "slug": "vaporizacao-leite",
+      "categoria": "Técnicas de Barista",
+      "descricao_curta": "Processo de aquecer o leite criando uma textura aveludada para Cappuccinos e Lattes.",
+      "descricao_longa": [
+        "A vaporização consiste em introduzir ar no leite enquanto ele é aquecido, criando microbolhas.",
+        "Em casa, pode ser feita com o bico de máquinas expressas, espumadores manuais ou prensa francesa.",
+        "Para o Cappuccino, busca-se uma espuma mais densa e persistente no topo.",
+        "Para o Latte ou Moccha, a textura deve ser de 'pintura fresca', sedosa e integrada ao líquido.",
+        "A temperatura ideal é entre 60°C e 65°C; passar disso queima o açúcar natural do leite (lactose).",
+        "O leite integral gelado é o melhor para iniciantes, pois a gordura ajuda a estabilizar a espuma.",
+        "Após vaporizar, bater a leiteira na bancada ajuda a eliminar bolhas grandes indesejadas.",
+        "A técnica permite criar o 'Latte Art', os desenhos feitos com o fluxo do leite no café."
+      ],
+      "beneficios": [
+        "Realça a doçura natural do leite",
+        "Proporciona textura aveludada às bebidas",
+        "Permite preparar clássicos como Moccha e Flat White",
+        "Melhora a apresentação visual do café"
+      ],
+      "como_usar": [
+        "Posicionar o bico de vapor levemente abaixo da superfície do leite",
+        "Usar a prensa francesa movendo o êmbolo rapidamente para criar espuma",
+        "Aquecer o leite no micro-ondas e usar um mixer de mão para aerar"
+      ],
+      "receitas": [
+        { "nome": "Cappuccino Italiano Clássico", "link": "receita.html?slug=cappuccino-classico" },
+        { "nome": "Moccha de Chocolate Belga", "link": "receita.html?slug=moccha-chocolate" }
+      ],
+      "imagem": "imagens/tecnicas/vaporizacao-leite.jpg"
+    },
+    "duplo-shot": {
+      "nome": "Duplo Shot",
+      "slug": "duplo-shot",
+      "categoria": "Conceitos de Café",
+      "descricao_curta": "Uma dose dupla de café expresso, resultando em cerca de 60ml de bebida concentrada.",
+      "descricao_longa": [
+        "O 'Doppio' é o padrão na maioria das cafeterias modernas para base de bebidas com leite.",
+        "Utiliza geralmente entre 14g a 20g de café moído, dependendo do filtro da máquina.",
+        "O tempo de extração deve ser o mesmo de um shot simples (entre 25 a 30 segundos).",
+        "Resulta em uma bebida com corpo mais intenso, maior cafeína e sabor mais pronunciado.",
+        "É a base ideal para quem gosta de sentir o gosto do café em copos grandes de Latte.",
+        "Diferente do 'Longo', o duplo shot mantém a proporção de força sem super-extrair o pó.",
+        "A camada de 'crema' tende a ser mais espessa e rica em um shot duplo bem tirado.",
+        "Pode ser servido puro ou servir de base para Americanos e Macchiatos."
+      ],
+      "beneficios": [
+        "Sabor de café mais intenso em bebidas com leite",
+        "Maior concentração de óleos essenciais e aromas",
+        "Dose ideal de energia para o pré-treino ou manhã",
+        "Base padrão para a maioria das receitas de barista"
+      ],
+      "como_usar": [
+        "Selecionar o filtro duplo na máquina de expresso",
+        "Compactar o pó uniformemente para evitar canalização da água",
+        "Servir como base para um Moccha extra forte"
+      ],
+      "receitas": [
+        { "nome": "Iced Latte de Caramelo", "link": "receita.html?slug=iced-latte-duplo" },
+        { "nome": "Flat White Australiano", "link": "receita.html?slug=flat-white-perfeito" }
+      ],
+      "imagem": "imagens/conceitos/duplo-shot.jpg"
+    },
+    "xilitol": {
+      "nome": "Xilitol",
+      "slug": "xilitol",
+      "categoria": "Adoçantes",
+      "descricao_curta": "Adoçante natural extraído de fibras de plantas, com poder adoçante similar ao açúcar.",
+      "descricao_longa": [
+        "O xilitol é um poliol encontrado em frutas, vegetais e na casca de algumas árvores como a bétula.",
+        "Possui um sabor muito próximo ao do açúcar comum, sem o retrogosto amargo de outros adoçantes.",
+        "Tem cerca de 40% menos calorias que o açúcar refinado e um índice glicêmico muito baixo (7-13).",
+        "É metabolizado de forma independente da insulina, sendo seguro para diabéticos.",
+        "Diferente do açúcar, ele não é fermentado pelas bactérias da boca, prevenindo cáries.",
+        "Pode ser usado na mesma proporção (1:1) do açúcar em receitas culinárias.",
+        "Deve ser introduzido gradualmente na dieta, pois o consumo excessivo pode ter efeito laxativo.",
+        "É extremamente tóxico para cães, portanto, deve-se ter cuidado com animais de estimação."
+      ],
+      "beneficios": [
+        "Baixo índice glicêmico e poucas calorias",
+        "Protege a saúde bucal prevenindo cáries",
+        "Substitui o açúcar na mesma proporção em receitas",
+        "Seguro para diabéticos e dietas de baixo carboidrato"
+      ],
+      "riscos": [],
+      "como_usar": [
+        "Substituir o açúcar em cafés e chás",
+        "Utilizar no preparo de bolos e doces assados",
+        "Adoçar iogurtes, cremes e sobremesas geladas"
+      ],
+      "receitas": [
+        { "nome": "Geléia de Morango Zero Açúcar", "link": "receita.html?slug=geleia-morango-xilitol" },
+        { "nome": "Cookies de Aveia Fit", "link": "receita.html?slug=cookies-aveia-xilitol" }
+      ],
+      "imagem": "imagens/ingredientes/xilitol.jpg",
+      "credito": "Fonte: Uol.com.br",
+      "endereco": "https://www.uol.com.br/vivabem/faq/conheca-o-xilitol-sabor-e-parecido-com-acucar-mas-valor-calorico-e-baixo.htm"
+    },
+      "agar-agar": {
+      "nome": "Ágar-ágar",
+      "slug": "agar-agar",
+      "categoria": "Gelificantes e Fibras",
+      "descricao_curta": "Gelatina vegetal rica em fibras que atua como potente espessante natural.",
+      "descricao_longa": [
+         "O ágar-ágar é um hidrocoloide natural extraído de diversas espécies de algas marinhas vermelhas.",
+         "Sua principal característica é o altíssimo poder gelificante, sendo até dez vezes superior ao da gelatina animal.",
+         "Ao contrário da gelatina comum, ele não derrete facilmente em temperatura ambiente após endurecer.",
+         "Por ser composto quase inteiramente por fibras solúveis, ele cria um gel que preenche o estômago e prolonga a saciedade.",
+         "Auxilia na regulação mecânica do intestino, melhorando o trânsito intestinal de forma natural.",
+         "É um ingrediente indispensável na culinária vegana e vegetariana para substituir tecidos conjuntivos animais.",
+         "Para ativar suas propriedades de gel, ele precisa obrigatoriamente ser fervido junto com o líquido da receita.",
+         "É amplamente comercializado na forma de pó fino, flocos, filamentos ou em cápsulas suplementares."
+        ],
+        "beneficios": [
+           "Excelente substituto vegetal para gelatinas animais",
+           "Promove a saciedade e auxilia no controle do peso",
+           "Regula e melhora o funcionamento do trânsito intestinal",
+          "Livre de glúten, açúcar, corantes artificiais e calorias"
+        ],
+        "riscos": [
+          "Pode causar diarreia ou cólicas se consumido em excesso devido ao efeito laxativo.",
+          "Risco de desidratação ou bloqueio esofágico <strong>se ingerido em pó/cápsula com pouca água.</strong>",
+          "Pode interferir ou reduzir a absorção de nutrientes e medicamentos se consumido junto às refeições principais."
+        ],
+        "naoRecomenda": [
+          "Pessoas com histórico de obstrução intestinal crônica",
+          "Grávidas e lactantes sem supervisão ou indicação médica expressa",
+          "Indivíduos que apresentam dificuldades severas de deglutição"
+        ],
+        "consumoMaximo": "O consumo diário geral recomendado para fins dietéticos varia entre 1g a 2g do pó dissolvido, sempre acompanhado de pelo menos um copo grande de água para garantir a hidratação adequada das fibras.",
+        "como_usar": [
+            "Preparar gelatinas, pudins, flans e mousses veganas",
+            "Espessar molhos, sopas, geleias e caldos caseiros",
+            "Substituir o amido ou ovos em receitas estruturadas"
+        ],
+        "receitas": [
+            {
+            "nome": "Gelatina Vegana de Frutas Naturais",
+            "link": "receita.html?slug=gelatina-vegana-de-frutas-naturais"
+            },
+            {
+            "nome": "Queijo Vegetal Firme de Castanhas",
+            "link": "receita.html?slug=queijo-vegetal-firme-de-castanhas"
+            }
+        ],
+        "imagem": "imagens/ingredientes/agar-agar.jpg",
+        "credito" : "Fonte",
+        "endereco" : ""
+    }
+}

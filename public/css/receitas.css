@@ -1,0 +1,169 @@
+/* Estilizas receitas.html - lista de categorias novo menu 04/06/2026 */
+
+/* 1. Alinha o contêiner principal com as margens dos títulos */
+.page-wrap {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;         /* Garante centralização horizontal */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* 2. Força o Grid a ocupar 100% do contêiner e centraliza na tela */
+.receita-grid-menu {
+    width: 100%;
+    margin: 30px auto;
+     display: grid;
+    grid-template-columns: repeat(3, 320px);
+    gap: 24px;
+    justify-content: center;
+}
+
+/* 3. Força o Card a abrir em toda a largura da coluna do Grid */
+.card-receita-nova {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;       /* Crucial: impede a imagem de vazar as bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0,0,0,.1);
+    width: 100% !important;        
+    min-width: 0 !important; /* Permite que o card se ajuste corretamente ao grid */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* 4. Corrige o container da imagem */
+.card-foto {
+    width: 100% !important;
+    height: 180px !important; /* Altura ligeiramente maior para melhor proporção */
+    background: #f0f0f0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Garante o preenchimento correto da imagem sem distorcer */
+.card-foto img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block;
+}
+
+.card-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;          /* Faz o corpo ocupar o espaço restante */
+}
+
+
+/* Estilo elegante caso a imagem realmente falte no servidor */
+.card-foto.sem-foto::before {
+    content: "🍳 Sem foto";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #999;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-ver {
+    display: inline-block;
+    margin-top: auto;      
+    padding: 10px 16px;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    align-self: flex-start; /* Mantém o botão no tamanho original do texto */
+}
+
+@media (max-width: 992px) {
+    .receita-grid-menu {
+        grid-template-columns: repeat(2, 1fr) !important; /* Responsivo para tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .receita-grid-menu {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* mostrar mensagem de receita não encontrada */
+
+/* Estilo para o aviso de nenhuma receita encontrada */
+.sem-resultados {
+    grid-column: 1 / -1; /* Ocupa todas as colunas do grid do receitas-grid */
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+    border-radius: 16px;
+    border: 2px dashed #e0e0e0;
+}
+
+.sem-resultados span {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.sem-resultados p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Estilizxa a quantidade exibida de receitas - 03/06/2026 */
+#contadorReceitas{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:25px;
+    font-size:16px;
+}
+
+.contador-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    min-width:36px;
+    height:36px;
+
+    border-radius:50%;
+    background:#4CAF50;
+    color:#fff;
+    font-weight:700;
+}
+
+/* Exibir as versões da receita - inserida 06/06/2026 */
+
+.card-categoria{
+    display:inline-block;
+    padding:4px 10px;
+    margin-bottom:10px;
+    border-radius:20px;
+    background:#eef7ee;
+    color:#2e7d32;
+    font-size:12px;
+    font-weight:600;
+}
+/* Cards das versões - inserida 06/06/2026 */
+
+.versoes-receita{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin:10px 0;
+}
+
+.tag-versao{
+    background:#f3f3f3;
+    padding:4px 8px;
+    border-radius:20px;
+    font-size:12px;
+}

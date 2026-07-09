@@ -1,5 +1,5 @@
 // =======================================
-// 🚀 SERVER NUTRICHEF API + FRONTEND
+// 🚀 SERVER NutriDicas API + FRONTEND
 // atualizado 03/03/2026 - versão segura
 // =======================================
 
@@ -58,10 +58,10 @@ const ADMIN_FOLDER = path.join(__dirname, "../admin");
 //const fs = require("fs");
 //const path = require("path");
 
-app.get("/api/receitas", (req, res) => {
+app.get("/receitas", (req, res) => {
   const filePath = path.join(__dirname, "json", "receitas.json");
 
-  fs.readFile(filePath, "utf-8", (err, data) => {
+fs.readFile(filePath, "utf-8", (err, data) => {
     if (err) {
       console.error("Erro ao ler receitas:", err);
       return res.status(500).json({ erro: "Erro ao carregar receitas" });
@@ -76,6 +76,105 @@ app.get("/api/receitas", (req, res) => {
     }
   });
 });
+
+// ler arquivo medidas.json - medidas caseiras - inserida 24/03/2026 00h57m
+app.get("/medidas", (req, res) => {
+  const dados = require("./json/medidas.json");
+  res.json(dados);
+});
+
+// ler arquivo receitas-index.json - busca de receitas inserida 24/03/2026 
+app.get("/receitas-index", (req, res) => {
+  const rdados = require("./json/receitas-index.json");
+  res.json(rdados);
+});
+
+// ler arquivo ingredientes-info.json - busca informações para tooltip 
+// - inserida 30/03/2026 
+app.get("/ingredientes-info", (req, res) => {
+  const idados = require("./json/ingredientes-info.json");
+  res.json(idados);
+});
+
+// ler arquivo receitas-historia.json 
+// - inserida 02/04/2026 
+app.get("/receitas-historia", (req, res) => {
+  const hdados = require("./json/receitas-historia.json");
+  res.json(hdados);
+});
+
+// ler arquivo ingredientes-geral.json - busca informações para tooltip 
+// - inserida 04/04/2026 
+app.get("/ingredientes-geral", (req, res) => {
+  const gdados = require("./json/ingredientes-geral.json");
+  res.json(gdados);
+});
+
+// ler arquivo dicas.json - dicas detlhadas para dicas.html 
+// - inserida 13/04/2026 
+app.get("/dicas", (req, res) => {
+  const ddados = require("./json/dicas.json");
+  res.json(ddados);
+});
+
+/// ler arquivo dicas-rápidas.json - dicas rápidas no index.html 
+// - inserida 13/04/2026 
+app.get("/dicas-rapidas", (req, res) => {
+  const xdados = require("./json/dicas-rapidas.json");
+  res.json(xdados);
+});
+
+// ler arquivo frutas.json - informações sobre frutas, no frutas.html 
+// - inserida 19/05/2026 
+app.get("/frutas", (req, res) => {
+  const fdados = require("./json/frutas.json");
+  res.json(fdados);
+});
+
+// ler arquivo legumes.json - informações sobre legumes no legumes.html 
+// - inserida 19/05/2026 
+app.get("/legumes", (req, res) => {
+  const ldados = require("./json/legumes.json");
+  res.json(ldados);
+});
+
+// ler arquivo nutridicas.json - dicas de nutrição - nutridicas.html 
+// - inserida 25/05/2026 
+app.get("/nutridicas", (req, res) => {
+  const ndados = require("./json/nutridicas.json");
+  res.json(ndados);
+});
+
+// ler arquivo termos-culinarios.json - termos gastronômicos - termos.html 
+// - inserida 10/06/2026 
+app.get("/termos-culinarios", (req, res) => {
+  const tdados = require("./json/termos-culinarios.json");
+  res.json(tdados);
+});
+
+// ler arquivo substituicoess.json - substituições de ingredientes
+// - inserida 10/06/2026 
+app.get("/substituicoess", (req, res) => {
+  const sdados = require("./json/substituicoes.json");
+  res.json(sdados);
+});
+
+// Tentativa de adcionar novas dicas - inserida 13/04/2026
+app.use(express.json());
+
+app.post("/nova-dica-rapida", (req, res) => {
+  const novaDica = req.body;
+
+  const filePath = "./json/dicas-rapidas.json";
+  const data = JSON.parse(fs.readFileSync(filePath));
+
+  data.dicas_rapidas.push(novaDica);
+
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+
+  res.json({ sucesso: true });
+});
+
 /* =======================================
    🔓 ARQUIVOS PÚBLICOS
 ======================================= */

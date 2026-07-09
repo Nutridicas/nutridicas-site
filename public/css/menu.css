@@ -9,40 +9,97 @@
   --menu-sombra: 0 8px 25px rgba(0,0,0,0.2);
 }
 
+
 /* ======================================================
-   HEADER - Atualizado 08/03/2026
+   HEADER - Atualizado 08/03/2026 - CORRIGIDO 11/04/2026
 ====================================================== */
-.header{
-background:#2f8f83;
-color:white;
-font-family: sans-serif;
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/imagens/maca-topo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    min-height: 370px; /* Aumentado para caber tudo confortavelmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Empurra o menu para o pé da maçã */
+    padding: 40px 0 0 0; /* Tira o padding de baixo para o menu encostar */
 }
 
-/* TOPO inserido 08/03/2026 */
+/* TOPO inserido 08/03/2026  - alterado 11/04/2026 incluiu padding, 
+flex-direction max-width, margin e gap, */
 
-.header-top{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 40px;
+ /* Remova o background fixo da header-top para não cobrir a imagem */
+.header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    flex-grow: 1; /* Faz a busca ficar no meio da maçã */
 }
 
 .header-container {
   max-width: 1200px;
-  /*margin: auto;*/
+  margin: auto;
   display: flex;
   align-items: center;
   gap: 20px;
   padding: 12px 20px;
 }
 
+/* inserido 11/04/2026 - aparecer banner com logo */
+
+.header-banner {
+    /* IMPORTANTE: Use o nome exato do arquivo que você salvou */
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('public/imagens/banner-topo.png');*/
+    
+    /* Faz a imagem cobrir todo o espaço sem distorcer */
+    background-size: cover; 
+    
+    /* Centraliza a maçã no meio do banner */
+    background-position: center; 
+    
+    /* Remove espaços brancos extras */
+    margin: 0; 
+    
+    /* Controla a altura do banner (aumente ou diminua conforme o gosto) */
+    padding: 80px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
 /* ======================================================
-   LOGO (DIREITA) Atualizado 08/03/2026
-====================================================== */
-.logo-area{
-display:flex;
-align-items:center;
-gap:10px;
+   LOGO (DIREITA) Atualizado 08/03/2026 - alterado 11/04/2026
+   incluiu font-size, font-weight,color,text-decoration e text-shadow
+=====================,================================= */
+
+.logo-area {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* LOGO E BUSCA */
+.logo-area .logo {
+    font-size: 4rem;
+    color: white !important;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* inserida 11/04/2026 - junto com banner e logo */
+.logo-area .tagline {
+    color: #f0f0f0;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    margin-top: 5px;
+    font-weight: 300;
 }
 
 .logo{
@@ -56,18 +113,34 @@ color:white;
   height: 42px;
 }
 
+
 /* ======================================================
-   BUSCA aqui - Atualizado 08/03/2026
+   BUSCA aqui - Atualizado 08/03/2026 - alterado 11/04/2026
+   padding de 10 e 15 para 12 e 20 width:220 para 300
+   imseriu border e box-shadow
 ====================================================== */
-.search-box input{
-padding:10px 15px;
-border-radius:25px;
-border:none;
-width:220px;
+/* Ajuste da barra de busca para não "flutuar" perdida */
+.search-box {
+    width: 100%;
+    max-width: 550px;
+    position: relative; /* ESSENCIAL */
+    margin: 0 auto;
 }
 
-.search-box {
-  position: relative;
+.search-box input {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+/* 5. MENU DE NAVEGAÇÃO (BARRA ESCURA ABAIXO DO BANNER) */
+.nav-bar {
+    background-color: #004436; /* Verde bem escuro para contraste */
+    padding: 10px 0;
+    width: 100%;
 }
 
 /*=========
@@ -75,19 +148,16 @@ RESULTADOS da busca por receitas
 ======================*/
 .search-results {
   position: absolute;
-  top: 110%;
-  left: 0;
-  width: 100%;
-
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-
-  max-height: 300px;
-  overflow-y: auto;
-
-  display: none;
-  z-index: 9999;
+    top: 100%; /* Cola exatamente embaixo do input */
+    left: 0;
+    width: 100%;
+    background: white;
+    border-radius: 0 0 15px 15px; /* Arredonda só a parte de baixo */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    z-index: 9999; /* Garante que fique por cima de tudo */
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 2px;
 }
 
 .search-results a {
@@ -102,6 +172,19 @@ RESULTADOS da busca por receitas
   background: var(--cor-secundaria);
 }
 
+.resultado-item{
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.resultado-item:hover{
+  background: #f5f5f5;
+}
+
 /* ======================================================
    MENU DESKTOP
 ====================================================== */
@@ -111,25 +194,29 @@ RESULTADOS da busca por receitas
 
 /* MENU Atualizado 08/03/2026*/
 
-.header-menu{
-background:#2a7d72;
+  /* MENU - BARRA ESCURA */
+.header-menu {
+    background-color: rgba(47, 143, 131, 0.95); /* Cor sólida para cortar a maçã */
+    width: 100%;
+    padding: 11px 0;
+    z-index: 100;
 }
 
 .menu-principal{
 
 display:flex;
 justify-content:center;
-gap:30px;
+gap:28px;
 list-style:none;
 margin:0;
-padding:12px 0;
+padding:11px 0;
 }
 
 .menu-principal a,
 .submenu-btn{
 color:white;
 text-decoration:none;
-font-size:16px;
+font-size:18px;
 background:none;
 border:none;
 cursor:pointer;
@@ -167,34 +254,153 @@ position:relative;
 
 
 /* ======================================================
-   MEGA MENU – GRID PREMIUM - Atualizado 08/03/2026
+   MEGA MENU – GRID PREMIUM - Atualizado 17/05/2026 2h36m
 ====================================================== */
+
+/* Estado inicial do Mega Menu (Escondido) */
+/* ======================================================
+   MEGA MENU – GRID AJUSTADO
+====================================================== */
+
+/* ITEM PAI */
+.has-mega {
+  position: relative;
+}
+
+/* Mega-MENU  desktop - alterado 29/05/2026*/
 .mega-menu {
-display:none;
-position:absolute;
-top:40px;
-background:white;
-color:black;
-list-style:none;
-padding:15px;
-border-radius:8px;
-min-width:200px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: auto;
+    min-width: 310px;
+    max-width: min(95vw, 1000px);
+
+    background: #fff;
+    padding: 15px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 15px;
+    align-items: start;
+    z-index: 999;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.25s ease;
+    pointer-events: none;
+     backdrop-filter: blur(8px);
+  }
+
+  /* MENU NO FINAL DA TELA */
+  .menu-principal li:last-child .mega-menu {
+    right: 0;
+    left: auto;
+  }
+
+  /* EXIBIR MENU */
+  .has-mega:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+
+    pointer-events: auto;
+  }
+
+  .menu-receitas .mega-menu {
+    grid-template-columns: repeat(3, 220px);
+  }
+
+  .mega-menu.small {
+    grid-template-columns: 220px;
+  }
+
+  .mega-menu.medium {
+    grid-template-columns: repeat(2, 220px);
+  }
+
+  /* PONTE INVISÍVEL */
+  .mega-menu::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+  }
+
+  /* COLUNA */
+  .mega-column {
+    min-width: 0;
+    align-self: start;
+  }
+
+  /* TITULOS */
+  .mega-column h4 {
+    margin-bottom: 8px;
+    color: #ff6600;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  /* LISTA */
+  .mega-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* ITEM */
+  .mega-column li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* LINKS */
+  .mega-column a {
+    display: block;
+    padding: 6px 8px;
+    color: #444;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  /* HOVER */
+  .mega-column a:hover {
+    background: #f5f5f5;
+    color: #ff6600;
+
+    padding-left: 12px;
+  }
+
+  /* Forçamos as linhas a não terem espaçamentos que bloqueiem o link */
+  .mega-menu li {
+    padding: 0 !important;
+    margin: 2px 0 !important;
+    list-style: none !important;
+  }
+
+
+/* Estilo dos links dentro do menu */
+.mega-menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333333;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
 }
 
-.mega-menu a{
-color:#333;
-text-decoration:none;
+/* Efeito Hover nos links internos */
+.mega-menu li a:hover {
+  background-color: #f5f5f5;
+  color: #ff6b6b; /* Cor de destaque (ex: vermelho/laranja culinário) */
 }
-
-.mega-menu li{
-padding:6px 0;
-}
-
-.has-mega:hover .mega-menu{
-display:block;
-}
-
 
 /* ======================================================
    BOTÃO HAMBÚRGUER
@@ -255,17 +461,23 @@ display:block;
   /* mega menu no mobile */
   .mega-menu {
     position: static;
-    display: none;
-    opacity: 1;
+    opacity: 0;
+    visibility: hidden;
     transform: none;
-    pointer-events: auto;
+    pointer-events: none;
     box-shadow: none;
     background: var(--menu-hover);
-    margin-top: 5px;
+    margin-top: 4px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.25s ease;
   }
 
-  .has-mega.active .mega-menu {
-    display: grid;
+   .has-mega.active .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    max-height: 2000px;
   }
 }
 
@@ -304,21 +516,13 @@ display:block;
     background: rgba(255,255,255,0.15);
   }
 
-  /* ===== MEGA MENU DESKTOP ===== */
-  .mega-menu {
-    top: 100%;
-    left: 0;
-    min-width: 420px;
-
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   /* abertura com hover + focus */
   .has-mega:hover .mega-menu,
   .has-mega:focus-within .mega-menu {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
+    color: #6a5acd;
   }
 }
 
@@ -396,44 +600,11 @@ Nenu no final da receit para retorno
   font-weight: 600;
 }
 
-/*========================
-Menu de retorno
-=========================*/
-
-.breadcrumbs {
-  font-size: 14px;
-  margin: 15px 0 25px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-  color: #666;
-}
-
-.breadcrumbs a {
-  text-decoration: none;
-  color: var(--verde);
-  font-weight: 500;
-}
-
-.breadcrumbs a:hover {
-  text-decoration: underline;
-  background: pink ;
-  color: black;
-}
-
-.pagina-atual {
-  color: var(--texto-escuro);
-  font-weight: bold;
-}
-
-.breadcrumbs span {
-  color: #999;
-}
-
+/*
 .mega-menu a:hover .icon {
   stroke: #1f6f65;
-}
+
+} */
 /*======== 
 Novo menu - Inserida 08/03/2026
 ==========================*/
@@ -483,12 +654,11 @@ ANIMAÇÃO PREMIUM NO HOVER
 }
 
 /* Busca drop down */
-.search-item {
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-  cursor: pointer;
-  border-bottom: 1px solid #eee;
+ .search-item.vazio{
+  padding:15px;
+  color:#777;
+  text-align:center;
+  font-size:14px;
 }
 
 .search-item:hover,
@@ -512,69 +682,5 @@ ANIMAÇÃO PREMIUM NO HOVER
   opacity: 0.7;
 }
 
-/* inserida 08/03/2026 */
-.categorias{
-padding:50px 20px;
-text-align:center;
-}
 
-.categorias-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:20px;
-margin-top:30px;
-}
-
-.categoria-card{
-background:#f5f5f5;
-padding:30px;
-border-radius:12px;
-text-decoration:none;
-color:#333;
-font-size:18px;
-transition:0.3s;
-}
-
-.categoria-card:hover{
-transform:translateY(-5px);
-background:#2f8f83;
-color:white;
-}
-
-/* iNSERIDA 08/03/2026
-.receitas-destaque{
-padding:40px 20px;
-background:#fafafa;
-text-align:center;
-}
-
-.receitas-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:25px;
-margin-top:30px;
-}
-
-.receita-card{
-background:white;
-border-radius:12px;
-overflow:hidden;
-box-shadow:0 5px 15px rgba(0,0,0,0.08);
-transition:0.3s;
-}
-
-.receita-card img{
-width:100%;
-height:180px;
-object-fit:cover;
-}
-
-.receita-card h3{
-padding:15px;
-font-size:18px;
-}
-
-.receita-card:hover{
-transform:translateY(-5px);
-}
 

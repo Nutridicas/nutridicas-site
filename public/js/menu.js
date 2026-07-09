@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let receitas = [];
 
-  fetch("/api/receitas.json")
+  fetch("/receitas-index")
     .then(res => res.json())
     .then(data => receitas = data);
 
-  input.addEventListener("input", () => {
+  input.addEventListener("searchinput", () => {
 
     const termo = input.value.toLowerCase().trim();
 
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //
 document.addEventListener("DOMContentLoaded", async () => {
 
-  const resposta = await fetch("/api/receitas.json");
+  const resposta = await fetch("/receitas-index");
   const receitas = await resposta.json();
 
   renderizarLista(receitas);
