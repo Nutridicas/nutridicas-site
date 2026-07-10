@@ -9,13 +9,12 @@
     "validar": "node scripts/validar-word.js",
     "converter": "node scripts/importar-word.js",
     "importar": "node scripts/importar-receitas.js",
-    "build":"node gerar-index.js",
-    "type": "module"
+    "build": "node gerar-index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
@@ -27,7 +26,6 @@
     "mercadopago": "^2.12.0",
     "multer": "^2.0.2",
     "path": "^0.12.7",
-    "uuid": "^13.0.0",
-    "type": "module"
+    "uuid": "^13.0.0"
   }
 }
