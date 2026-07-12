@@ -152,11 +152,18 @@ app.get("/termos-culinarios", (req, res) => {
   res.json(tdados);
 });
 
-// ler arquivo substituicoess.json - substituições de ingredientes
+// ler arquivo substituicoes.json - substituições de ingredientes
 // - inserida 10/06/2026 
-app.get("/substituicoess", (req, res) => {
+app.get("/substituicoes", (req, res) => {
   const sdados = require("./json/substituicoes.json");
   res.json(sdados);
+});
+
+// ler arquivo utensilios.json - utensilios de cozinha
+// - inserida 12/07/2026 
+app.get("/utensilios", (req, res) => {
+  const udados = require("./json/utensilios.json");
+  res.json(udados);
 });
 
 // Tentativa de adcionar novas dicas - inserida 13/04/2026

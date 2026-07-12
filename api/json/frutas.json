@@ -2521,7 +2521,7 @@
       "dataInclusao":"2026-05-27",
       "nomeCientifico":"Annona muricata",
       "outrosNomes":[
-            "Em algumas áreas do Norte e Nordeste, variantes silvestres ou menores são chamadas de jaca-do-pará ou araticum-manso."
+          "Em algumas áreas do Norte e Nordeste, variantes silvestres ou menores são chamadas de jaca-do-pará ou araticum-manso."
       ],
       "familia":"Annonaceae",
       "imagem":"graviola.jpg",
@@ -2587,6 +2587,7 @@
             "nome":"Suco cremoso de graviola com leite de amêndoas",
             "slug":"suco-de-graviola-cremoso",
             "imagem":"suco-graviola.jpg",
+            "link" : "receitas.html?slug=suco-de-graviola-cremoso",
             "credito":"Receiteria",
             "urlOrigem":"https://receiteria.com.br"
          }
@@ -2597,9 +2598,9 @@
       "dataInclusao":"2026-05-27",
       "nomeCientifico":"Annona squamosa",
       "outrosNomes":[
-           "Pinha especialmente nas regiões Sul e Sudeste : ",
-            "Ata (predominante nas regiões Norte e Nordeste",
-            "Também pode ser chamada de fruta-da-condessa ou quaresma."
+          "Pinha especialmente nas regiões Sul e Sudeste : ",
+          "Ata (predominante nas regiões Norte e Nordeste",
+          "Também pode ser chamada de fruta-da-condessa ou quaresma."
       ],
       "familia":"Annonaceae",
       "imagem":"fruta-do-conde.jpg",
@@ -2665,25 +2666,31 @@
             "nome":"Creme gelado funcional de fruta-do-conde",
             "slug":"creme-gelado-de-fruta-do-conde",
             "imagem":"creme-fruta-do-conde.jpg",
+            "link" : "receitas.html?slug=creme-gelado-de-fruta-do-conde",
             "credito":"Receiteria",
             "urlOrigem":"https://receiteria.com.br"
          }
       ]
    },
+
    "carambola":{
       "slug":"carambola",
       "dataInclusao":"2026-05-27",
       "nomeCientifico":"Averrhoa carambola",
       "outrosNomes":[
-            "Conhecida em algumas localidades rurais como fruta-estrela (tradução direta do inglês star fruit), devido ao seu formato decorativo quando fatiada."
+         "Conhecida em algumas localidades rurais como fruta-estrela (tradução direta do inglês star fruit), devido ao seu formato decorativo quando fatiada."
       ],
       "familia":"Oxalidaceae",
       "imagem":"carambola.jpg",
       "descricao":[
-         "A carambola é um fruto tropical exótico de formato ovalado que, quando cortado transversalmente, assume formato de estrela.",
+         "A carambola é um fruto tropical exótico de formato ovalado único que, quando cortado transversalmente, assume formato de estrela.",
          "Apresenta casca fina e cerosa, coloração amarelo-alaranjada quando madura e uma polpa crocante, aquosa e agridoce.",
-         "Destaca-se pelo valor calórico extremamente baixo e pela elevada concentração de ácido oxálico em seus tecidos.",
-         "Contém uma toxina específica chamada caramboxina, que requer atenção médica rigorosa em grupos populacionais específicos."
+         "Possui um sabor levemente ácido a adocicado, com textura crocante e alto teor de água, sendo muito refrescante para o consumo em climas quentes.",
+         "Destaca-se pelo valor calórico extremamente baixo e uma excelente fonte de vitamina C e de potássio com elevada concentração de ácido oxálico em seus tecidos.",
+         "Destaca-se por sua versatilidade ornamental e culinária, decorando pratos e compondo diversas bebidas.",
+         "Contém uma toxina específica chamada caramboxina, que requer atenção médica rigorosa em grupos populacionais específicos.",
+         "Por isso, apesar de seus compostos saudáveis, contém substâncias específicas que exigem atenção rigorosa em determinados grupos de saúde",
+         " em especial as pessoas com problema renais."
       ],
       "informacaoNutricional":{
          "porcao":"100g",
@@ -2719,19 +2726,25 @@
       "beneficios":[
          "Altíssima hidratação: Seu elevado percentual de água corporativa promove rápida reposição de fluidos biológicos.",
          "Densidade calórica nula: Ideal para planos alimentares restritivos voltados ao gerenciamento de peso corporal.",
+          "Ajuda no trânsito intestinal: O teor de fibras alimentares favorece a motilidade digestiva natural e combate a constipação.",
          "Estímulo imunológico: A excelente concentração de vitamina C otimiza a síntese e proteção das células brancas.",
          "Ação fitoquímica celular: Flavonoides polifenólicos atuam blindando o organismo contra processos inflamatórios."
+         "Auxílio no controle pressórico: A combinação de baixo sódio e presença de potássio apoia a manutenção de níveis saudáveis de pressão arterial."
       ],
       "comoUsar":[
          "In natura: Consumida fresca, inteira e com a casca, fatiada em formato de estrelas decorativas.",
          "Saladas: Excelente componente visual e sensorial para saladas de folhas verdes ou vinagretes exóticos.",
+         "Acompanhamentos salgados: Traz acidez equilibrada e formato decorativo para saladas de folhas verdes e pratos à base de peixes.",
          "Bebidas: Utilizada na extração de sucos puros, águas aromatizadas, smoothies refrescantes ou coquetéis.",
          "Geleias e compotas: Base para o desenvolvimento de conservas agridoces com controle de açúcares simples."
       ],
-      "contraindicacoes":[
-         "Estritamente contraindicada para pacientes com Insuficiência Renal Crônica (IRC) devido ao risco severo de neurotoxicidade pela caramboxina.",
-         "Indivíduos com histórico de cálculos renais (oxalato de cálcio) devem evitar o consumo pelo alto teor de oxalatos."
-      ],
+      "contraindicacoes": [
+       "Pacientes com doença renal crônica ou lesão renal aguda devido à presença da neurotoxina caramboxina, que os rins comprometidos não conseguem filtrar.",
+       "Indivíduos com histórico ou predisposição a cálculos renais em razão do elevado teor de ácido oxálico.",
+       "Pessoas acometidas por artrite, reumatismo ou gota devido à alta concentração de oxalatos.",
+       "Consumo em jejum ou em volumes excessivos mesmo por pessoas hígidas, pelo risco documentado de indução de nefropatia aguda.",
+       "Pacientes diabéticos com complicações renais associadas devem abolir estritamente o consumo do fruto."
+     ],
       "consumoRecomendado":[
          "Para indivíduos saudáveis, recomenda-se o consumo de 1 a 2 unidades médias por dia (cerca de 120g).",
          "Evitar o consumo em jejum prolongado para minimizar o impacto gástrico dos ácidos orgânicos concentrados."
@@ -2741,9 +2754,26 @@
             "nome":"Suco refrescante estrelado de carambola",
             "slug":"suco-de-carambola-refrescante",
             "imagem":"suco-carambola.jpg",
+            "link": "receita.html?slug=suco-de-carambola-com-limao",
             "credito":"Receiteria",
             "urlOrigem":"https://receiteria.com.br"
-         }
-      ]
+         },
+         {
+         "nome": "Suco de carambola com toque de limão",
+         "slug": "suco-de-carambola-com-limao",
+         "imagem": "suco-carambola.jpg",
+         "link": "receita.html?slug=suco-de-carambola-com-limao",
+         "credito": "Nutrição em Foco",
+         "urlOrigem": "https://www.tabelatacoonline.com.br/tabela-nutricional/taco/carambola-crua"
+       },
+       {
+         "nome": "Geleia artesanal de fruta-estrela",
+         "slug": "geleia-de-fruta-estrela",
+         "imagem": "geleia-carambola.jpg",
+         "link": "receita.html?slug=suco-de-carambola-com-limao",
+         "credito": "Horto Didático UFSC",
+         "urlOrigem": "https://hortodidatico.ufsc.br/carambola/"
+       }
+    ]
    }
 }

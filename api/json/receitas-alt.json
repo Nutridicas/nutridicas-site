@@ -26881,6 +26881,898 @@
       }
     }
   ]
+},
+{
+  "id": "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+  "slug": "suco-de-carambola-com-limao",
+  "dataCriacao": "2026-07-10T12:00:00.000Z",
+  "titulo": "Suco de Carambola com Toque de Limão",
+  "status": "publicada",
+  "imagem": "suco-carambola-limao.jpg",
+  "topSemana": false,
+  "premium": false,
+  "tipo": "Bebidas",
+  "tipoMenu": "Tradicional",
+  "categoria": [
+    "Tradicional"
+  ],
+  "subcategoria": "bebodas",
+  "fraseCurta": "Suco natural de carambola super refrescante com as notas cítricas e equilibradas do limão.",
+  "Introducao": [
+    "O suco de carambola com toque de limão é a escolha perfeita para os dias quentes, unindo o sabor suave e tropical da carambola à acidez refrescante do limão.",
+    "Além de formar uma combinação deliciosa, visualmente a carambola proporciona um charme único quando usada em rodelas de estrela para decorar o copo.",
+    "É uma bebida leve, rica em água e excelente para hidratação rápida, contando também com versões sem açúcar e funcional.",
+    "Contudo, a carambola é uma fruta não recomendada para quem tem algum tipo de doença renal"
+  ],
+  
+  "tags": [
+    "Suco Natural",
+    "Carambola",
+    "Limão",
+    "Bebida Refrescante",
+    "Suco Tropical"
+  ],
+  "autor": {
+    "nome": "Cozinha de Vó",
+    "credencial": "Culinária Caseira e Sucos Naturais",
+    "registro": null
+  },
+  "avaliacoes": {
+    "media": 4.8,
+    "total": 18
+  },
+  "relacionadas": [
+    {
+      "titulo": "Suco de Abacaxi com Hortelã",
+      "slug": "suco-abacaxi-hortela",
+      "imagem": "suco-abacaxi-hortela.jpg"
+    },
+    {
+      "titulo": "Limonada Suíça Cremosa",
+      "slug": "limonada-suica-cremosa",
+      "imagem": "limonada-suica.jpg"
+    },
+    {
+      "titulo": "Suco de Maracujá com Manga",
+      "slug": "suco-maracuja-manga",
+      "imagem": "suco-maracuja-manga.jpg"
+    }
+  ],
+  "versoes": [
+    {
+      "data": "2026-07-10T12:00:00.000Z",
+      "id": "tradicional",
+      "nome": "Tradicional",
+      "padrao": true,
+      "restricoes": [
+        "Açúcar: Contém",
+        "Não recomendado para pacientes renais",
+        "Glúten: Não contém",
+        "Lactose: Não contém",
+        "Ovo: Não contém",
+        "Vegana: Sim"
+      ],
+      "conteudo": {
+        "tempoPreparoReceita": "10 minutos",
+        "tempoPreparoForno": "",
+        "tempoPreparoFogao": "",
+        "tempoPreparoDescanso": "",
+        "tempoPreparoGeladeira": "3 minutos",
+        "tempoPreparoTotal": "13 minutos",
+        "rendimento": "4 porções",
+        "dificuldade": "Fácil",
+        "custoMedio": "De R$ 8,00 a R$ 12,00",
+        "enviadaPor": "Cozinha de Vó",
+        "comoServir": [
+          "Sirva imediatamente em copos altos com bastante gelo.",
+          "Decore a borda do copo com uma fatia de carambola em formato de estrela.",
+          "Consuma logo após o preparo para não perder as propriedades da vitamina C."
+        ],
+        "miseEnPlace": [
+          "Lave bem as carambolas e retire as extremidades e as sementes pretas.",
+          "Esprema o suco do limão.",
+          "Separe a água bem gelada e os cubos de gelo.",
+          "Meça o açúcar ou o adoçante de sua preferência."
+        ],
+        "conservacao": [
+          "Geladeira: consumir em até 4 horas (pode oxidar e alterar o sabor após esse período)."
+        ],
+        "ingredientes": [
+          "4 carambolas médias maduras e picadas",
+          "Suco de 1 limão-tahiti médio",
+          "1 litro de água bem gelada",
+          "3 colheres (sopa) de açúcar (ou a gosto)",
+          "Cubos de gelo a gosto"
+        ],
+        "preparo": [
+          "No liquidificador, adicione as carambolas picadas e o suco de limão.",
+          "Despeje a água gelada e adicione o açúcar.",
+          "Bata muito bem por cerca de 2 a 3 minutos até que a fruta esteja completamente dissolvida.",
+          "Passe o suco por uma peneira fina para remover os resquícios de bagaço.",
+          "Transfira para uma jarra, adicione os cubos de gelo e mexa bem.",
+          "Sirva em seguida."
+        ],
+        "nutricional": {
+          "frase": "Valores aproximados por porção",
+          "porcao": "1 copo (250 ml)",
+          "calorias": "65 kcal",
+          "carboidratos": "16 g",
+          "proteinas": "0.6 g",
+          "gordurasTotais": "0.2 g",
+          "gordurasSaturadas": "0 g",
+          "gordurasTrans": "0 g",
+          "fibras": "1.8 g",
+          "sodio": "4 mg",
+          "potassio": "140 mg",
+          "ferro": "0.3 mg",
+          "calcio": "12 mg",
+          "magnesio": "10 mg",
+          "acucar": "13 g"
+        },
+        "substituicoes": [
+          "Açúcar refinado por mel, açúcar demerara ou adoçante de sua preferência.",
+          "A escolha do adoçante deixa a receita mais saudável",
+          "Limão-tahiti por limão-siciliano para um toque mais suave.",
+          "Água mineral comum por água de coco para maior hidratação."
+        ],
+        "dicas": [
+          "Escolha carambolas bem amarelinhas (maduras), pois as verdes podem deixar o suco travando na boca.",
+          "Retire as quinas escuras das arestas da carambola antes de picar para evitar o amargor.",
+          "Atenção: o consumo de carambola deve ser evitado por pessoas que possuem problemas renais crônicos."
+        ],
+        "comentarioNutri": [
+          "A carambola e o limão são excelentes fontes de vitamina C, que atua fortalecendo o sistema imunológico.",
+          "Bebida de baixo teor calórico e altamente hidratante.",
+          "Contém fibras solúveis que auxiliam na digestão."
+        ],
+        "listaCompras": [
+          "Carambolas",
+          "Limão",
+          "Açúcar"
+        ]
+       }
+     }
+   ]
+  },
+ {
+    "id": "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8",
+    "slug": "suco-de-abacaxi-com-hortela",
+    "dataCriacao": "2026-07-10T13:00:00.000Z",
+    "titulo": "Suco de Abacaxi com Hortelã",
+    "status": "publicada",
+    "imagem": "suco-abacaxi-hortela.jpg",
+    "topSemana": true,
+    "premium": false,
+    "tipo": "Bebidas",
+    "tipoMenu": "Tradicional",
+    "categoria": [
+      "Tradicional"
+    ],
+    "subcategoria": "sucos",
+    "fraseCurta": "O clássico e refrescante suco de abacaxi com folhas frescas de hortelã, ideal para qualquer hora do dia.",
+    "Introducao": [
+      "O suco de abacaxi com hortelã é um dos maiores clássicos das bebidas tropicais brasileiras, conhecido por seu sabor marcante e propriedades altamente digestivas.",
+      "A combinação do abacaxi bem maduro com o frescor mentolado da hortelã cria uma sinergia perfeita que sacia a sede e ajuda na digestão pós-refeições.",
+      "Trazemos aqui a receita tradicional perfeitamente equilibrada e dicas para deixá-la ainda mais leve ou funcional."
+    ],
+   
+    "tags": [
+      "Suco Natural",
+      "Abacaxi",
+      "Hortelã",
+      "Bebida Refrescante",
+      "Suco Digestivo"
+    ],
+    "autor": {
+      "nome": "Cozinha de Vó",
+      "credencial": "Culinária Caseira e Sucos Naturais",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.9,
+      "total": 57
+    },
+    "relacionadas": [
+      {
+        "titulo": "Suco de Carambola com Toque de Limão",
+        "slug": "suco-de-carambola-com-limao",
+        "imagem": "suco-carambola-limao.jpg"
+      },
+      {
+        "titulo": "Limonada Suíça Cremosa",
+        "slug": "limonada-suica-cremosa",
+        "imagem": "limonada-suica.jpg"
+      },
+      {
+        "titulo": "Suco de Maracujá com Manga",
+        "slug": "suco-maracuja-manga",
+        "imagem": "suco-maracuja-manga.jpg"
+      }
+    ],
+    "versoes": [
+     {
+       "data": "2026-07-10T13:00:00.000Z",
+       "id": "tradicional",
+       "nome": "Tradicional",
+       "padrao": true,
+        "restricoes": [
+          "Açúcar: Contém",
+          "Glúten: Não contém",
+          "Lactose: Não contém",
+          "Ovo: Não contém",
+          "Vegana: Sim"
+        ],
+        "conteudo": {
+          "tempoPreparoReceita": "5 minutos",
+          "tempoPreparoForno": "",
+          "tempoPreparoFogao": "",
+          "tempoPreparoDescanso": "",
+          "tempoPreparoGeladeira": "5 minutos",
+          "tempoPreparoTotal": "10 minutos",
+          "rendimento": "4 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "De R$ 6,00 a R$ 10,00",
+          "enviadaPor": "Cozinha de Vó",
+          "comoServir": [
+            "Sirva imediatamente em copos altos com cubos de gelo adicionais.",
+            "Decore com um raminho de hortelã ou uma rodela de abacaxi na borda do copo.",
+            "Excelente para acompanhar almoços pesados, como feijoada ou churrasco."
+          ],
+          "miseEnPlace": [
+            "Descasque o abacaxi e corte-o em cubos.",
+            "Lave bem as folhas de hortelã.",
+            "Separe a água bem gelada.",
+            "Meça o açúcar ou separe o adoçante."
+          ],
+          "conservacao": [
+            "Geladeira: Consumir em até 6 horas. O abacaxi pode começar a amargar e soltar água se armazenado por muito tempo."
+          ],
+          "ingredientes": [
+            "1 abacaxi pérola médio, descascado e picado",
+            "12 a 15 folhas de hortelã fresca",
+            "1 litro de água bem gelada",
+            "2 a 3 colheres (sopa) de açúcar (opcional, dependendo da doçura da fruta)",
+            "Cubos de gelo a gosto"
+          ],
+          "preparo": [
+            "No liquidificador, coloque os cubos de abacaxi e as folhas de hortelã.",
+            "Adicione a água gelada e o açúcar.",
+            "Bata em velocidade máxima por cerca de 2 minutos até que tudo fique bem homogêneo.",
+            "Se preferir um suco liso, passe a mistura por uma peneira (se o abacaxi for bem batido e você gostar de fibras, pode servir sem coar).",
+            "Adicione gelo a gosto e mexa.",
+            "Sirva em seguida."
+          ],
+          "nutricional": {
+            "frase": "Valores aproximados por porção",
+            "porcao": "1 copo (250 ml)",
+            "calorias": "78 kcal",
+            "carboidratos": "19 g",
+            "proteinas": "0.7 g",
+            "gordurasTotais": "0.1 g",
+            "gordurasSaturadas": "0 g",
+            "gordurasTrans": "0 g",
+            "fibras": "1.2 g",
+            "sodio": "2 mg",
+            "potassio": "160 mg",
+            "ferro": "0.4 mg",
+            "calcio": "18 mg",
+            "magnesio": "14 mg",
+            "acucar": "15 g"
+          },
+          "substituicoes": [
+            "Açúcar por mel ou adoçante (Stévia/Xilitol).",
+            "Água gelada por água de coco para um sabor ainda mais tropical.",
+            "Adicione um pedaço pequeno de gengibre (2cm) para transformar em um suco termogênico."
+          ],
+          "dicas": [
+            "Para evitar que o suco amargue, retire a parte central mais dura (o miolo) do abacaxi se ele não estiver totalmente maduro.",
+            "Se o abacaxi estiver bem doce, dispense totalmente o uso de açúcar.",
+            "Bata algumas pedras de gelo junto no liquidificador para criar uma consistência do tipo 'smoothie' super refrescante."
+          ],
+          "comentarioNutri": [
+            "O abacaxi contém bromelina, uma enzima poderosa que auxilia na quebra de proteínas e melhora significativamente a digestão.",
+            "A hortelã possui propriedades calmantes para o trato digestivo e ajuda a reduzir gases.",
+            "Rico em vitamina C e excelente antioxidante natural."
+          ],
+          "listaCompras": [
+            "Abacaxi",
+            "Hortelã",
+            "Açúcar"
+           ]
+         }
+       }
+     ]
+   }, 
+  {
+    "id": "d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9",
+    "slug": "limonada-suica-cremosa",
+    "dataCriacao": "2026-07-10T14:00:00.000Z",
+    "titulo": "Limonada Suíça Cremosa",
+    "status": "publicada",
+    "imagem": "limonada-suica-cremosa.jpg",
+    "topSemana": true,
+    "premium": false,
+    "tipo": "Bebidas",
+    "tipoMenu": "Tradicional",
+    "categoria": [
+      "Tradicional"
+    ],
+    "subcategoria": "sucos",
+    "fraseCurta": "Uma limonada surpreendente, batida com o limão inteiro e um toque irresistível de leite condensado.",
+    "Introducao": [
+      "A limonada suíça cremosa eleva o clássico refresco de limão a outro nível, combinando a acidez marcante da fruta com a textura aveludada do leite condensado.",
+      "O grande segredo dessa receita está em bater o limão com a casca rapidamente, garantindo um aroma cítrico incomparável e um leve amargor que equilibra perfeitamente o doce.",
+      "É a bebida ideal para surpreender visitas ou para acompanhar aquele almoço especial de domingo."
+    ],
+    
+    "tags": [
+      "Limonada",
+      "Limão",
+      "Bebida Cremosa",
+      "Refresco",
+      "Suco Diferente"
+    ],
+    "autor": {
+      "nome": "Cozinha de Vó",
+      "credencial": "Culinária Caseira e Sucos Naturais",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 5.0,
+      "total": 42
+    },
+    "relacionadas": [
+      {
+        "titulo": "Suco de Carambola com Toque de Limão",
+        "slug": "suco-de-carambola-com-limao",
+        "imagem": "suco-carambola-limao.jpg"
+      },
+      {
+        "titulo": "Suco de Abacaxi com Hortelã",
+        "slug": "suco-de-abacaxi-com-hortela",
+        "imagem": "suco-abacaxi-hortela.jpg"
+      },
+      {
+        "titulo": "Suco de Maracujá com Manga",
+        "slug": "suco-maracuja-manga",
+        "imagem": "suco-maracuja-manga.jpg"
+      }
+    ],
+    "versoes": [
+     {
+       "data": "2026-07-10T14:00:00.000Z",
+       "id": "tradicional",
+       "nome": "Tradicional",
+       "padrao": true,
+       "restricoes": [
+          "Açúcar: Contém",
+          "Lactose: Contém",
+          "Glúten:  Não contém",
+          "Ovo: Não contém",
+          "Vegana: Não"
+       ],
+       "conteudo": {
+          "tempoPreparoReceita": "5 minutos",
+          "tempoPreparoForno": "",
+          "tempoPreparoFogao": "",
+          "tempoPreparoDescanso": "",
+          "tempoPreparoGeladeira": "",
+          "tempoPreparoTotal": "5 minutos",
+          "rendimento": "4 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "R$ 7,00 a R$ 12,00",
+          "enviadaPor": "Cozinha de Vó",
+          "comoServir": [
+            "Sirva imediatamente após o preparo em copos decorados com rodelas de limão.",
+            "Consuma bem gelada para aproveitar a cremosidade da espuma que se forma no topo.",
+            "Evite deixar descansando, pois a bebida pode amargar com o passar dos minutos."
+          ],
+          "miseEnPlace": [
+            "Lave muito bem a casca dos limões.",
+            "Corte os limões em quatro partes e remova a parte branca central (o miolo).",
+            "Separe o leite condensado e meça a água gelada.",
+            "Separe bastante cubo de gelo."
+          ],
+          "conservacao": [
+            "Não recomendada para conservação. Deve ser consumida na hora para não amargar."
+          ],
+          "ingredientes": [
+            "3 limões-tahiti médios com casca",
+            "1/2 lata de leite condensado (cerca de 200g)",
+            "800 ml de água bem gelada",
+            "Cubos de gelo a gosto"
+          ],
+          "preparo": [
+            "No liquidificador, coloque os pedaços de limão e adicione a água gelada.",
+            "Bata no modo 'Pulsar' de 4 a 5 vezes rapidamente (apenas o suficiente para extrair o suco sem triturar demais a casca).",
+            "Passe o líquido imediatamente por uma peneira fina para remover todos os pedaços de casca e bagaço.",
+            "Devolva o suco coado ao liquidificador limpo.",
+            "Adicione o leite condensado e alguns cubos de gelo.",
+            "Bata novamente por cerca de 30 segundos até ficar homogêneo e bem espumante.",
+            "Sirva imediatamente."
+          ],
+          "nutricional": {
+            "frase": "Valores aproximados por porção",
+            "porcao": "1 copo (250 ml)",
+            "calorias": "175 kcal",
+            "carboidratos": "31 g",
+            "proteinas": "3.8 g",
+            "gordurasTotais": "4.2 g",
+            "gordurasSaturadas": "2.6 g",
+            "gordurasTrans": "0.1 g",
+            "fibras": "0.5 g",
+            "sodio": "65 mg",
+            "potassio": "180 mg",
+            "ferro": "0.1 mg",
+            "calcio": "140 mg",
+            "magnesio": "15 mg",
+            "acucar": "28 g"
+          },
+          "substituicoes": [
+            "Leite condensado tradicional por leite condensado zero lactose ou de coco.",
+            "Água gelada por água com gás (adicione a água com gás apenas no final, misturando delicadamente com uma colher para não perder o gás).",
+            "Limão-tahiti por limão-siciliano (reduz o risco de amargar rapidamente)."
+          ],
+          "dicas": [
+            "Remover a parte branca central do limão é fundamental, pois ela é a maior responsável pelo sabor amargo.",
+            "Bater demais a casca libera óleos essenciais em excesso que amargam o suco; o segredo é bater rápido.",
+            "Se preferir uma bebida menos doce, reduza a quantidade de leite condensado pela metade."
+          ],
+          "comentarioNutri": [
+            "O limão é rico em antioxidantes e vitamina C, auxiliando na absorção do ferro das refeições.",
+            "Por conter leite condensado, é uma opção mais calórica e rica em açúcares simples, devendo ser apreciada como uma sobremesa líquida líquida ou agrado ocasional."
+          ],
+          "listaCompras": [
+            "Limões-tahiti",
+            "Leite condensado"
+          ]
+         }
+       }
+     ]
+   },
+  {
+    "id": "e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a0",
+    "slug": "suco-de-maracuja-com-manga",
+    "dataCriacao": "2026-07-10T14:30:00.000Z",
+    "titulo": "Suco de Maracujá com Manga",
+    "status": "publicada",
+    "imagem": "suco-maracuja-manga.jpg",
+    "topSemana": true,
+    "premium": false,
+    "tipo": "Bebidas",
+    "tipoMenu": "Tradicional",
+    "categoria": [
+      "Tradicional"
+    ],
+    "subcategoria": "bebidas",
+    "fraseCurta": "O equilíbrio perfeito entre a acidez marcante do maracujá e a doçura aveludada da manga.",
+    "Introducao": [
+      "O suco de maracujá com manga é uma verdadeira explosão de sabores tropicais, unindo a vivacidade cítrica de uma fruta com a cremosidade natural da outra.",
+      "Essa combinação resulta em uma bebida encorpada, de cor amarela vibrante, que agrada facilmente a todos os paladares sem a necessidade de muito açúcar, graças à doçura da manga madura.",
+      "Além de incrivelmente saboroso, é um suco reconfortante, calmante e excelente para acompanhar lanches da tarde ou dias ensolarados."
+    ],
+    
+    "tags": [
+      "Suco Natural",
+      "Maracujá",
+      "Manga",
+      "Suco Tropical",
+      "Bebida Encorpada"
+    ],
+    "autor": {
+      "nome": "Cozinha de Vó",
+      "credencial": "Culinária Caseira e Sucos Naturais",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.9,
+      "total": 35
+    },
+    "relacionadas": [
+      {
+        "titulo": "Suco de Carambola com Toque de Limão",
+        "slug": "suco-de-carambola-com-limao",
+        "imagem": "suco-carambola-limao.jpg"
+      },
+      {
+        "titulo": "Suco de Abacaxi com Hortelã",
+        "slug": "suco-de-abacaxi-com-hortela",
+        "imagem": "suco-abacaxi-hortela.jpg"
+      },
+      {
+        "titulo": "Limonada Suíça Cremosa",
+        "slug": "limonada-suica-cremosa",
+        "imagem": "limonada-suica.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-07-10T14:30:00.000Z",
+        "id": "tradicional",
+        "nome": "Tradicional",
+        "padrao": true,
+        "restricoes": [
+          "Açúcar: Contém",
+          "Lactose: Não Contém",
+          "Glúten:  Não contém",
+          "Ovo: Não contém",
+          "Vegana: Sim"
+       ],
+        "conteudo": {
+          "tempoPreparoReceita": "10 minutos",
+          "tempoPreparoForno": "",
+          "tempoPreparoFogao": "",
+          "tempoPreparoDescanso": "",
+          "tempoPreparoGeladeira": "",
+          "tempoPreparoTotal": "10 minutos",
+          "rendimento": "4 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "R$ 8,00 a R$ 13,00",
+          "enviadaPor": "Cozinha de Vó",
+          "comoServir": [
+            "Sirva bem gelado em copos altos decorados com algumas sementes de maracujá no topo.",
+            "Combina muito bem se servido com pedras de gelo feitas com folhinhas de hortelã congeladas dentro.",
+            "Perfeito para acompanhar bolos simples de café da tarde ou petiscos fritos."
+          ],
+          "miseEnPlace": [
+            "Corte o maracujá e extraia a polpa com as sementes.",
+            "Descasque a manga e corte a polpa em cubos.",
+            "Separe a água bem gelada.",
+            "Meça o açúcar ou separe o adoçante se achar necessário."
+          ],
+          "conservacao": [
+            "Geladeira: Manter em jarra tampada por até 12 horas. Misture bem antes de servir novamente, pois a polpa da manga pode decantar."
+          ],
+          "ingredientes": [
+            "Polpa de 2 maracujás grandes (com sementes)",
+            "1 manga Palmer ou Espada grande, madura e picada",
+            "800 ml de água bem gelada",
+            "1 a 2 colheres (sopa) de açúcar ou demerara (opcional)",
+            "Cubos de gelo a gosto"
+          ],
+          "preparo": [
+            "No liquidificador, coloque a polpa do maracujá e a água gelada.",
+            "Bata usando a função 'Pulsar' rapidamente apenas para soltar a polpa das sementes, sem triturá-las completamente (evitando que o suco fique escuro ou com gosto residual de semente).",
+            "Passe esse suco de maracujá por uma peneira fina e descarte as sementes remanescentes.",
+            "Lave o copo do liquidificador e devolva o suco de maracujá coado.",
+            "Adicione os cubos de manga madura e o açúcar.",
+            "Bata na velocidade máxima por 2 minutos até obter um creme sedoso e homogêneo.",
+            "Adicione os cubos de gelo, misture e sirva imediatamente."
+          ],
+          "nutricional": {
+            "frase": "Valores aproximados por porção",
+            "porcao": "1 copo (250 ml)",
+            "calorias": "92 kcal",
+            "carboidratos": "22 g",
+            "proteinas": "1.1 g",
+            "gordurasTotais": "0.3 g",
+            "gordurasSaturadas": "0.1 g",
+            "gordurasTrans": "0 g",
+            "fibras": "2.8 g",
+            "sodio": "3 mg",
+            "potassio": "240 mg",
+            "ferro": "0.3 mg",
+            "calcio": "16 mg",
+            "magnesio": "18 mg",
+            "acucar": "18 g"
+          },
+          "substituicoes": [
+            "Água gelada por água de coco para um perfil mineral mais rico.",
+            "Manga fresca por manga congelada (deixará o suco com textura de smoothie espesso).",
+            "Açúcar por mel ou melado de cana."
+          ],
+          "dicas": [
+            "Dê preferência para mangas sem fiapo, como a variedade Palmer ou Keitt, para garantir um suco incrivelmente aveludado.",
+            "Se a manga estiver bem madura e doce, não adicione açúcar; o sabor natural da fruta já equilibra o azedinho do maracujá.",
+            "O maracujá azedo tradicional (amarelo) entrega o melhor contraste para essa receita."
+          ],
+          "comentarioNutri": [
+            "A manga é uma excelente fonte de vitamina A (betacaroteno) e fibras, excelente para a saúde dos olhos e da pele.",
+            "O maracujá atua com suas propriedades calmantes naturais (passiflora) e fornece uma boa dose de vitamina C.",
+            "As fibras presentes na manga ajudam a modular a absorção das frutoses presentes nas frutas."
+          ],
+          "listaCompras": [
+            "Maracujás",
+            "Manga",
+            "Açúcar"
+          ]
+        }
+      }
+    ]
+   },
+   {
+    "id": "f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b1",
+    "slug": "suco-cremoso-de-graviola-ccremoso",
+    "dataCriacao": "2026-07-10T15:00:00.000Z",
+    "titulo": "Suco Cremoso de Graviola com Leite de Amêndoas",
+    "status": "publicada",
+    "imagem": "suco-graviola-cremoso.jpg",
+    "topSemana": true,
+    "premium": false,
+    "tipo": "Bebidas",
+    "tipoMenu": "Funcional",
+    "categoria": [
+      "funcional"
+    ],
+    "subcategoria": "sucos",
+    "fraseCurta": "Suco funcional e aveludado de graviola, feito com leite de amêndoas e naturalmente livre de lactose.",
+    "Introducao": [
+      "O suco cremoso de graviola com leite de amêndoas é uma bebida requintada que une o sabor marcante e levemente ácido da graviola à suavidade amendoada do leite vegetal.",
+      "Esta combinação surpreende pela textura extremamente aveludada, que lembra um milk-shake, sem a necessidade de usar derivados do leite de origem animal.",
+      "É a opção perfeita para quem busca um lanche nutritivo, anti-inflamatório e perfeitamente adequado para dietas com restrições alimentares."
+    ],
+    
+    "tags": [
+      "Suco Funcional",
+      "Graviola",
+      "Leite de Amêndoas",
+      "Sem Lactose",
+      "Vegano",
+      "Fit"
+    ],
+    "autor": {
+      "nome": "Cozinha de Vó",
+      "credencial": "Nutrição e Culinária Funcional",
+      "registro": null
+    },
+    "avaliacoes": {
+      "media": 4.9,
+      "total": 25
+    },
+    "relacionadas": [
+      {
+        "titulo": "Suco de Carambola com Toque de Limão",
+        "slug": "suco-de-carambola-com-limao",
+        "imagem": "suco-carambola-limao.jpg"
+      },
+      {
+        "titulo": "Suco de Maracujá com Manga",
+        "slug": "suco-maracuja-manga",
+        "imagem": "suco-maracuja-manga.jpg"
+      },
+      {
+        "titulo": "Limonada Suíça Cremosa",
+        "slug": "limonada-suica-cremosa",
+        "imagem": "limonada-suica.jpg"
+      }
+    ],
+    "versoes": [
+      {
+        "data": "2026-07-10T15:00:00.000Z",
+        "id": "funcional-zero",
+        "nome": "Funcional Zero Açúcar",
+        "padrao": true,
+        "restricoes": [
+          "Açúcar: Não contém",
+          "Lactose: Não contém",
+          "Glúten: Não contém",
+          "Ovo: Não contém",
+          "Vegana: Sim"
+        ],
+        "conteudo": {
+          "tempoPreparoReceita": "5 minutos",
+          "tempoPreparoForno": "",
+          "tempoPreparoFogao": "",
+          "tempoPreparoDescanso": "",
+          "tempoPreparoGeladeira": "5 minutos",
+          "tempoPreparoTotal": "10 minutos",
+          "rendimento": "3 porções",
+          "dificuldade": "Fácil",
+          "custoMedio": "R$ 14,00 a R$ 22,00",
+          "enviadaPor": "Cozinha de Vó",
+          "comoServir": [
+            "Sirva imediatamente em copos altos bem decorados.",
+            "Combina muito bem se consumido logo após o treino ou no lanche da manhã.",
+            "Adicione uma pitada de canela por cima para um toque termogênico e aromático."
+          ],
+          "miseEnPlace": [
+            "Separe a polpa de graviola (se for fresca, remova todas as sementes pretas).",
+            "Meça o leite de amêndoas bem gelado.",
+            "Separe o adoçante natural e os cubos de gelo."
+          ],
+          "conservacao": [
+            "Geladeira: Manter em garrafa de vidro bem fechada por até 8 horas. Agite bem antes de consumir novamente."
+          ],
+          "ingredientes": [
+            "300g de polpa de graviola (fresca ou congelada)",
+            "600 ml de leite de amêndoas sem açúcar e bem gelado",
+            "1 colher (sopa) de adoçante natural Eritritol ou Xilitol (ou a gosto)",
+            "Cubos de gelo a gosto"
+          ],
+          "preparo": [
+            "No liquidificador, adicione a polpa de graviola e o leite de amêndoas gelado.",
+            "Adicione o adoçante natural de sua preferência.",
+            "Bata em velocidade máxima por cerca de 2 minutos até que a mistura vire um creme bem liso, espesso e homogêneo.",
+            "Adicione alguns cubos de gelo e use a função pulsar rapidamente para triturá-los de leve.",
+            "Sirva em seguida sem coar para aproveitar todas as fibras da fruta."
+          ],
+          "nutricional": {
+            "frase": "Valores aproximados por porção",
+            "porcao": "1 copo (250 ml)",
+            "calorias": "85 kcal",
+            "carboidratos": "14 g",
+            "proteinas": "1.8 g",
+            "gordurasTotais": "2.8 g",
+            "gordurasSaturadas": "0.2 g",
+            "gordurasTrans": "0 g",
+            "fibras": "3.2 g",
+            "sodio": "35 mg",
+            "potassio": "290 mg",
+            "ferro": "0.4 mg",
+            "calcio": "110 mg",
+            "magnesio": "24 mg",
+            "acucar": "0 g (contém apenas os açúcares naturais da fruta)"
+          },
+          "substituicoes": [
+            "Leite de amêndoas por leite de coco caseiro ou leite de aveia sem glúten (para manter a receita vegana e sem lactose).",
+            "Eritritol por 3 gotas de Stévia pura ou 1 tâmara medjool batida junto (como adoçante integral)."
+          ],
+          "dicas": [
+            "Se usar a fruta fresca, certifique-se de retirar absolutamente todas as sementes, pois batê-las pode deixar o suco com sabor amargo e tóxico.",
+            "Para uma textura de shake ainda mais densa, utilize a polpa da graviola totalmente congelada."
+          ],
+          "comentarioNutri": [
+            "A graviola é rica em compostos antioxidantes conhecidos como acetogeninas, que auxiliam na defesa celular.",
+            "O leite de amêndoas confere gorduras monoinsaturadas saudáveis para o coração e baixo índice glicêmico.",
+            "Uma excelente alternativa hipoalergênica para quem tem intolerância grave à lactose ou sensibilidade ao glúten."
+          ],
+          "listaCompras": [
+            "Polpa de graviola",
+            "Leite de amêndoas sem açúcar",
+            "Adoçante Eritritol ou Xilitol"
+          ]
+        }
+      }
+    ]
+  },
+  {
+  "id": "g7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2",
+  "slug": "creme-gelado-funcional-de-fruta-do-conde",
+  "dataCriacao": "2026-07-10T15:30:00.000Z",
+  "titulo": "Creme Gelado Funcional de Fruta-do-Conde",
+  "status": "publicada",
+  "imagem": "creme-gelado-fruta-do-conde.jpg",
+  "topSemana": false,
+  "premium": false,
+  "tipo": "Sobremesas",
+  "tipoMenu": "Funcional",
+  "categoria": "Saudável",
+  "subcategoria": "doces",
+  "fraseCurta": "Sobremesa gelada, aveludada e funcional feita com a doçura natural da fruta-do-conde e base de coco.",
+  "Introducao": [
+    "O creme gelado funcional de fruta-do-conde (também conhecida como ata ou pinha) é uma sobremesa surpreendente que preserva o sabor doce e marcante dessa fruta tropical de forma leve.",
+    "Utilizando uma base de leite de coco concentrado, este doce atinge uma cremosidade idêntica à de um gelato artesanal, sem precisar de creme de leite ou espessantes artificiais.",
+    "É uma opção rica em nutrientes, naturalmente doce e formulada para atender a pessoas com alergias ou restrições alimentares severas."
+  ],
+  
+  "tags": [
+    "Creme Gelado",
+    "Fruta-do-Conde",
+    "Ata",
+    "Pinha",
+    "Sobremesa Funcional",
+    "Vegano"
+  ],
+  "autor": {
+    "nome": "Cozinha de Vó",
+    "credencial": "Nutrição e Culinária Funcional",
+    "registro": null
+  },
+  "avaliacoes": {
+    "media": 4.8,
+    "total": 12
+  },
+  "relacionadas": [
+    {
+      "titulo": "Suco Cremoso de Graviola com Leite de Amêndoas",
+      "slug": "suco-cremoso-de-graviola-com-leite-de-amendoas",
+      "imagem": "suco-graviola-amendoas.jpg"
+    },
+    {
+      "titulo": "Geleia Artesanal de Fruta-Estrela",
+      "slug": "geleia-artesanal-de-fruta-estrela",
+      "imagem": "geleia-fruta-estrela.jpg"
+    },
+    {
+      "titulo": "Suco de Maracujá com Manga",
+      "slug": "suco-maracuja-manga",
+      "imagem": "suco-maracuja-manga.jpg"
+    }
+  ],
+  "versoes": [
+    {
+      "data": "2026-07-10T15:30:00.000Z",
+      "id": "funcional-zero",
+      "nome": "Funcional Zero Açúcar",
+      "padrao": true,
+      "restricoes": [
+        "Açúcar: Não contém",
+        "Lactose: Não contém",
+        "Glúten: Não contém",
+        "Ovo: Não contém"
+        "Vegana: Sim"
+      ],
+      "conteudo": {
+        "tempoPreparoReceita": "20 minutos",
+        "tempoPreparoForno": "",
+        "tempoPreparoFogao": "",
+        "tempoPreparoDescanso": "",
+        "tempoPreparoGeladeira": "4 horas",
+        "tempoPreparoTotal": "Cerca de 4 horas e 20 minutos",
+        "rendimento": "4 porções",
+        "dificuldade": "Média",
+        "custoMedio": "R$ 16,00 a R$ 24,00",
+        "enviadaPor": "Cozinha de Vó",
+        "comoServir": [
+          "Sirva em taças individuais de vidro bem geladas.",
+          "Decore o topo com sementes de romã, raspas de limão ou folhas de hortelã para contrastar as cores.",
+          "Fica excelente acompanhado por uma calda caseira de frutas vermelhas sem açúcar."
+        ],
+        "miseEnPlace": [
+          "Abra as frutas-do-conde e, com paciência, retire todas as sementes pretas da polpa branca.",
+          "Coloque a lata de leite de coco na geladeira na véspera (para firmar a gordura saudável).",
+          "Separe o extrato de baunilha e o adoçante natural."
+        ],
+        "conservacao": [
+          "Congelador/Freezer: Até 30 dias em pote hermético. Retire 10 minutos antes de consumir para recuperar a cremosidade."
+        ],
+        "ingredientes": [
+          "Polpa limpa de 3 frutas-do-conde grandes (sem sementes)",
+          "1 lata (400 ml) de leite de coco tradicional (utilizar apenas a parte firme/cremosa do topo)",
+          "1 colher (sopa) de adoçante Xilitol ou Eritritol (opcional)",
+          "1 colher (chá) de extrato de baunilha natural",
+          "1 colher (chá) de caldo de limão (para não oxidar)"
+        ],
+        "preparo": [
+          "No liquidificador ou processador, coloque a polpa limpa da fruta-do-conde e o caldo de limão.",
+          "Adicione apenas a parte firme do leite de coco (descarte ou guarde a água do fundo da lata para sucos).",
+          "Acrescente o extrato de baunilha e o adoçante natural.",
+          "Bata muito bem por 3 a 5 minutos até obter um creme perfeitamente liso e aerado.",
+          "Distribua o creme em taças ou transfira para um pote único.",
+          "Leve ao congelador por cerca de 3 a 4 horas.",
+          "Se preferir uma textura de creme de colher (tipo mousse), deixe apenas na geladeira por 4 horas em vez do freezer."
+        ],
+        "nutricional": {
+          "frase": "Valores aproximados por porção",
+          "porcao": "1 taça (120 g)",
+          "calorias": "135 kcal",
+          "carboidratos": "16 g",
+          "proteinas": "1.5 g",
+          "gordurasTotais": "7.5 g",
+          "gordurasSaturadas": "6.8 g",
+          "gordurasTrans": "0 g",
+          "fibras": "3.8 g",
+          "sodio": "12 mg",
+          "potassio": "310 mg",
+          "ferro": "0.5 mg",
+          "calcio": "22 mg",
+          "magnesio": "28 mg",
+          "acucar": "0 g (contém apenas os açúcares naturais da fruta)"
+        },
+        "substituicoes": [
+          "Leite de coco por creme de castanha-de-caju caseiro (entrega uma textura incrivelmente neutra e aveludada).",
+          "Xilitol por raspas finas de chocolate amargo 100% cacau salpicadas no creme."
+        ],
+        "dicas": [
+          "Dica de ouro para tirar sementes: coloque a polpa num escorredor de macarrão limpo e amasse levemente com as mãos ou colher de plástico; as sementes se soltam facilmente sem triturar.",
+          "A fruta-do-conde já é extremamente doce por natureza, por isso o adoçante é opcional. Prove antes de adicionar.",
+          "O toque de limão é essencial para manter a cor do creme clarinha, evitando o tom cinzento da oxidação."
+        ],
+        "comentarioNutri": [
+          "A fruta-do-conde é rica em vitaminas do complexo B e vitamina C, auxiliando no metabolismo energético e na imunidade.",
+          "A gordura proveniente do leite de coco é composta por TCM (Triglicerídeos de Cadeia Média), absorvidos rapidamente pelo corpo para gerar energia limpa.",
+          "Por ser rica em fibras, melhora a saciedade e reduz o impacto glicêmico da sobremesa."
+        ],
+        "listaCompras": [
+          "Fruta-do-Conde (Ata/Pinha)",
+          "Leite de coco em lata",
+          "Extrato de baunilha",
+          "Limão",
+          "Adoçante Xilitol ou Eritritol"
+        ]
+      }
+    }
+  ]
 }
 
 ]

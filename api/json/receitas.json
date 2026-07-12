@@ -24280,5 +24280,153 @@
          }
       }
    ]
-  }
+  },
+  {
+  "id": "g7b8c9d0-e1f2-43a4-b5c6-d7e8f9a0b1c2",
+  "slug": "creme-gelado-funcional-de-fruta-do-conde",
+  "dataCriacao": "2026-07-10T15:30:00.000Z",
+  "titulo": "Creme Gelado Funcional de Fruta-do-Conde",
+  "status": "publicada",
+  "imagem": "creme-gelado-fruta-do-conde.jpg",
+  "topSemana": true,
+  "premium": false,
+  "tipo": "Sobremesas",
+  "tipoMenu": "Funcional",
+  "categoria": "Funcional",
+  "subcategoria": "sobremesas",
+  "fraseCurta": "Sobremesa gelada, aveludada e funcional feita com a doçura natural da fruta-do-conde e base de coco.",
+  "Introducao": [
+    "O creme gelado funcional de fruta-do-conde (também conhecida como ata ou pinha) é uma sobremesa surpreendente que preserva o sabor doce e marcante dessa fruta tropical de forma leve.",
+    "Utilizando uma base de leite de coco concentrado, este doce atinge uma cremosidade idêntica à de um gelato artesanal, sem precisar de creme de leite ou espessantes artificiais.",
+    "É uma opção rica em nutrientes, naturalmente doce e formulada para atender a pessoas com alergias ou restrições alimentares severas."
+  ],
+  "restricoes": [
+    "Sem Açúcar",
+    "Sem Lactose",
+    "Sem Glúten",
+    "Vegana"
+  ],
+  "tags": [
+    "Creme Gelado",
+    "Fruta-do-Conde",
+    "Ata",
+    "Pinha",
+    "Sobremesa Funcional",
+    "Vegano"
+  ],
+  "autor": {
+    "nome": "Cozinha de Vó",
+    "credencial": "Nutrição e Culinária Funcional",
+    "registro": null
+  },
+  "avaliacoes": {
+    "media": 4.8,
+    "total": 12
+  },
+  "relacionadas": [
+    {
+      "titulo": "Suco Cremoso de Graviola com Leite de Amêndoas",
+      "slug": "suco-cremoso-de-graviola-com-leite-de-amendoas",
+      "imagem": "suco-graviola-amendoas.jpg"
+    },
+    {
+      "titulo": "Geleia Artesanal de Fruta-Estrela",
+      "slug": "geleia-artesanal-de-fruta-estrela",
+      "imagem": "geleia-fruta-estrela.jpg"
+    },
+    {
+      "titulo": "Suco de Maracujá com Manga",
+      "slug": "suco-maracuja-manga",
+      "imagem": "suco-maracuja-manga.jpg"
+    }
+  ],
+  "versoes": [
+    {
+      "data": "2026-07-10T15:30:00.000Z",
+      "id": "funcional-zero",
+      "nome": "Zero Açúcar",
+      "padrao": true,
+      "conteudo": {
+        "tempoPreparoReceita": "20 minutos",
+        "tempoPreparoForno": "",
+        "tempoPreparoFogao": "",
+        "tempoPreparoDescanso": "",
+        "tempoPreparoGeladeira": "4 horas",
+        "tempoPreparoTotal": "Cerca de 4 horas e 20 minutos",
+        "rendimento": "4 porções",
+        "dificuldade": "Média",
+        "custoMedio": "R$ 16,00 a R$ 24,00",
+        "enviadaPor": "Cozinha de Vó",
+        "comoServir": [
+          "Sirva em taças individuais de vidro bem geladas.",
+          "Decore o topo com sementes de romã, raspas de limão ou folhas de hortelã para contrastar as cores.",
+          "Fica excelente acompanhado por uma calda caseira de frutas vermelhas sem açúcar."
+        ],
+        "miseEnPlace": [
+          "Abra as frutas-do-conde e, com paciência, retire todas as sementes pretas da polpa branca.",
+          "Coloque a lata de leite de coco na geladeira na véspera (para firmar a gordura saudável).",
+          "Separe o extrato de baunilha e o adoçante natural."
+        ],
+        "conservacao": [
+          "Congelador/Freezer: Até 30 dias em pote hermético. Retire 10 minutos antes de consumir para recuperar a cremosidade."
+        ],
+        "ingredientes": [
+          "Polpa limpa de 3 frutas-do-conde grandes (sem sementes)",
+          "1 lata (400 ml) de leite de coco tradicional (utilizar apenas a parte firme/cremosa do topo)",
+          "1 colher (sopa) de adoçante Xilitol ou Eritritol (opcional)",
+          "1 colher (chá) de extrato de baunilha natural",
+          "1 colher (chá) de caldo de limão (para não oxidar)"
+        ],
+        "preparo": [
+          "No liquidificador ou processador, coloque a polpa limpa da fruta-do-conde e o caldo de limão.",
+          "Adicione apenas a parte firme do leite de coco (descarte ou guarde a água do fundo da lata para sucos).",
+          "Acrescente o extrato de baunilha e o adoçante natural.",
+          "Bata muito bem por 3 a 5 minutos até obter um creme perfeitamente liso e aerado.",
+          "Distribua o creme em taças ou transfira para um pote único.",
+          "Leve ao congelador por cerca de 3 a 4 horas.",
+          "Se preferir uma textura de creme de colher (tipo mousse), deixe apenas na geladeira por 4 horas em vez do freezer."
+        ],
+        "nutricional": {
+          "frase": "Valores aproximados por porção",
+          "porcao": "1 taça (120 g)",
+          "calorias": "135 kcal",
+          "carboidratos": "16 g",
+          "proteinas": "1.5 g",
+          "gordurasTotais": "7.5 g",
+          "gordurasSaturadas": "6.8 g",
+          "gordurasTrans": "0 g",
+          "fibras": "3.8 g",
+          "sodio": "12 mg",
+          "potassio": "310 mg",
+          "ferro": "0.5 mg",
+          "calcio": "22 mg",
+          "magnesio": "28 mg",
+          "acucar": "0 g (contém apenas os açúcares naturais da fruta)"
+        },
+        "substituicoes": [
+          "Leite de coco por creme de castanha-de-caju caseiro (entrega uma textura incrivelmente neutra e aveludada).",
+          "Xilitol por raspas finas de chocolate amargo 100% cacau salpicadas no creme."
+        ],
+        "dicas": [
+          "Dica de ouro para tirar sementes: coloque a polpa num escorredor de macarrão limpo e amasse levemente com as mãos ou colher de plástico; as sementes se soltam facilmente sem triturar.",
+          "A fruta-do-conde já é extremamente doce por natureza, por isso o adoçante é opcional. Prove antes de adicionar.",
+          "O toque de limão é essencial para manter a cor do creme clarinha, evitando o tom cinzento da oxidação."
+        ],
+        "comentarioNutri": [
+          "A fruta-do-conde é rica em vitaminas do complexo B e vitamina C, auxiliando no metabolismo energético e na imunidade.",
+          "A gordura proveniente do leite de coco é composta por TCM (Triglicerídeos de Cadeia Média), absorvidos rapidamente pelo corpo para gerar energia limpa.",
+          "Por ser rica em fibras, melhora a saciedade e reduz o impacto glicêmico da sobremesa."
+        ],
+        "listaCompras": [
+          "Fruta-do-Conde (Ata/Pinha)",
+          "Leite de coco em lata",
+          "Extrato de baunilha",
+          "Limão",
+          "Adoçante Xilitol ou Eritritol"
+        ]
+      }
+    }
+  ]
+}
+
 ]
