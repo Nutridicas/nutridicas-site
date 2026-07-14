@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Utensílios de Cozinha Essenciais - Meu Site de Receitas</title>
-  <style>
-    /* Estilização básica para teste */
-    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
-    .grid-utensilios { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
-    .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-    .card icon { font-size: 3rem; display: block; margin-bottom: 10px; }
-    .card h3 { margin: 10px 0; color: #ff6b6b; }
-  </style>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    id="metaDescription"
+    content="Conheça tudo sobre os utensílios de cozinha, modos de uso, vantagens e manutenção no NutriDicas."
+  >
+
+  <meta
+    property="og:title"
+    id="ogTitle"
+    content="Guia de Utensílios de Cozinha | NutriDicas"
+  >
+
+  <title>NutriDicas - Mini Dicionário de Utensílios</title>
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/utensilios.css">
 </head>
+
 <body>
+
+  <main class="container-utensilios">
+
+ <!-- HEADER Atualizado 12/03/2026 -->
 
    <header class="header">
   <div class="header-top">
@@ -166,44 +185,558 @@
 
 </header>
 
+    <!-- ====================================================
+         TÍTULO DA PÁGINA
+    ===================================================== -->
 
-<main>
+    <div class="cabecalho-pagina-utensilios">
+      <h1>🔪 Mini Dicionário de Utensílios de Cozinha</h1>
 
-    <h1>🔪 Utensílios de Cozinha</h1>
-    <p>Os melhores aliados para preparar suas receitas com perfeição e praticidade.</p>
-
-    <div class="grid-utensilios">
-      
-      <!-- Utensílio 1 -->
-      <div class="card">
-        <span style="font-size: 3rem;">🔪</span>
-        <h3>Facas do Chef</h3>
-        <p>Essenciais para cortes precisos de carnes, legumes e temperos com total segurança.</p>
-      </div>
-
-      <!-- Utensílio 2 -->
-      <div class="card">
-        <span style="font-size: 3rem;">🍳</span>
-        <h3>Frigideiras Antiaderentes</h3>
-        <p>Ideais para grelhados perfeitos e receitas que exigem menos óleo ou gordura.</p>
-      </div>
-
-      <!-- Utensílio 3 -->
-      <div class="card">
-        <span style="font-size: 3rem;">⚖️</span>
-        <h3>Balança Digital</h3>
-        <p>Fundamental para a confeitaria e receitas fit que exigem proporções exatas.</p>
-      </div>
-
-      <!-- Utensílio 4 -->
-      <div class="card">
-        <span style="font-size: 3rem;">🥣</span>
-        <h3>Bowls (Tijelas de Inox)</h3>
-        <p>Para misturar ingredientes, marinar carnes ou organizar o seu 'mise en place'.</p>
-      </div>
-
+      <h3>
+        Os melhores aliados para preparar suas receitas
+        com perfeição, segurança e praticidade.
+      </h3>
     </div>
+
+  <!-- Busca de utensílis - 13/07/2026 -->
+
+  <div class="barra-busca-utensilios">
+
+      <input
+          type="search"
+          id="buscaUtensilio"
+          placeholder="🔍 Pesquisar utensílio..."
+          autocomplete="off">
+
+  </div>
+
+    <!-- ====================================================
+         MENU LATERAL DINÂMICO
+    ===================================================== -->
+
+    <section
+      class="lista-utensilios-sidebar"
+      aria-labelledby="titulo-menu-utensilios"
+    >
+
+      <h2 id="titulo-menu-utensilios">
+        🔪 Utensílios
+      </h2>
+
+      <ul id="menuUtensilios"></ul>
+  </section>
+     <!-- <ul id="menuUtensilios">
+         Gerado dinamicamente pelo JavaScript 
+      </ul>
+
+    </section> -->
+
+    <!-- ====================================================
+         FICHA TÉCNICA PRINCIPAL
+    ===================================================== -->
+
+    <section
+      class="ficha-utensilio-card"
+      id="fichaUtensilio"
+      style="display: none;"
+      aria-live="polite"
+    >
+
+      <!-- ==================================================
+           HERO / IDENTIDADE
+      =================================================== -->
+
+      <div class="card-hero">
+
+        <div class="hero-identidade">
+
+          <span
+            id="utensilio-emoji"
+            class="utensilio-emoji"
+            aria-hidden="true"
+          >
+            🍳
+          </span>
+
+          <div class="hero-titulos">
+
+            <span
+              id="utensilio-categoria"
+              class="tag-categoria"
+            >
+              Categoria
+            </span>
+
+            <h2
+              id="utensilio-nome"
+              class="titulo-nome"
+            >
+              Nome do Utensílio
+            </h2>
+
+          </div>
+
+        </div>
+
+        <p
+          id="utensilio-descricao"
+          class="descricao-texto"
+        >
+          Aguardando dados...
+        </p>
+
+      </div>
+
+      <!-- ==================================================
+           NAVEGAÇÃO POR ABAS
+      =================================================== -->
+
+      <nav
+        class="card-abas-nav"
+        aria-label="Seções da ficha do utensílio"
+      >
+
+        <button
+          type="button"
+          onclick="mudarAba('visao-geral')"
+          id="btn-visao-geral"
+          class="tab-botao ativa"
+        >
+          Visão Geral
+        </button>
+
+        <button
+          type="button"
+          onclick="mudarAba('caracteristicas')"
+          id="btn-caracteristicas"
+          class="tab-botao"
+        >
+          Características
+        </button>
+
+        <button
+          type="button"
+          onclick="mudarAba('uso-seguro')"
+          id="btn-uso-seguro"
+          class="tab-botao"
+        >
+          Manual de Uso
+        </button>
+
+        <button
+          type="button"
+          onclick="mudarAba('manutencao')"
+          id="btn-manutencao"
+          class="tab-botao"
+        >
+          Manutenção & Dicas
+        </button>
+
+      </nav>
+
+      <!-- ==================================================
+           CONTEÚDO DAS ABAS
+      =================================================== -->
+
+      <div class="card-corpo-conteudo">
+
+        <!-- ================================================
+             ABA 1 — VISÃO GERAL
+        ================================================= -->
+
+        <div
+          id="aba-visao-geral"
+          class="conteudo-secao"
+        >
+
+          <!-- Vantagens e desvantagens -->
+
+          <div class="grid-balanco">
+
+            <section class="bloco-vantagens">
+
+              <h3>
+                ✓ Vantagens na Cozinha
+              </h3>
+
+              <ul id="utensilio-vantagens">
+                <!-- Gerado pelo JavaScript -->
+              </ul>
+
+            </section>
+
+            <section class="bloco-desvantagens">
+
+              <h3>
+                ✕ Pontos de Atenção
+              </h3>
+
+              <ul id="utensilio-desvantagens">
+                <!-- Gerado pelo JavaScript -->
+              </ul>
+
+            </section>
+
+          </div>
+
+          <!-- Aplicabilidade culinária -->
+
+          <section class="bloco-culinario">
+
+            <h3> 🍽️ Aplicabilidade Culinária </h3>
+
+            <div class="subgrid-aplicabilidade">
+
+              <div>
+
+                <h4> Recomendado para: </h4>
+
+                <ul id="utensilio-alimentos-sim">
+                  <!-- Gerado pelo JavaScript -->
+                </ul>
+
+              </div>
+
+              <div>
+
+                <h4> Não recomendado para: </h4>
+
+                <ul id="utensilio-alimentos-nao">
+                  <!-- Gerado pelo JavaScript -->
+                </ul>
+
+              </div>
+
+            </div>
+
+          </section>
+
+          <!-- Contexto histórico -->
+
+          <section class="bloco-historico">
+
+            <h3> 📜 História e Origem </h3>
+
+            <p>
+              Inventado em
+              <strong id="utensilio-ano">
+                não informado
+              </strong>
+
+              por
+
+              <strong id="utensilio-inventor">
+                não informado
+              </strong>.
+            </p>
+
+            <p>
+              Nome original:
+
+              <em id="utensilio-nome-original">
+                não informado
+              </em>
+            </p>
+
+            <ul id="utensilio-historico-detalhes"></ul>
+
+          </section>
+
+        </div>
+
+        <!-- ================================================
+             ABA 2 — CARACTERÍSTICAS
+        ================================================= -->
+
+        <div
+          id="aba-caracteristicas"
+          class="conteudo-secao escondido"
+        >
+
+          <!-- Materiais disponíveis -->
+
+          <section class="bloco-materiais">
+
+            <h3>
+              🧱 Materiais Disponíveis
+            </h3>
+
+            <div
+              id="utensilio-materiais"
+              class="grid-cards-tecnicos"
+            >
+              <!-- Gerado pelo JavaScript -->
+            </div>
+
+          </section>
+
+          <!-- Tipos e modelos -->
+
+          <section class="bloco-modelos">
+
+            <h3> 🔎 Tipos e Modelos </h3>
+
+            <div
+              id="utensilio-modelos"
+              class="grid-cards-tecnicos"
+            >
+              <!-- Gerado pelo JavaScript -->
+            </div>
+
+          </section>
+
+          <!-- Capacidades -->
+
+          <section class="bloco-capacidades">
+
+            <h3>
+              📏 Capacidades e Indicações de Uso
+            </h3>
+
+            <ul id="utensilio-capacidades">
+              <!-- Gerado pelo JavaScript -->
+            </ul>
+
+          </section>
+
+          <!-- Compatibilidade -->
+
+          <section class="bloco-compatibilidade">
+
+            <h3>
+              🔥 Compatibilidade
+            </h3>
+
+            <div class="grid-compatibilidade">
+
+              <article class="item-compatibilidade">
+                <h4>🔥 Fogão a Gás</h4>
+                <p id="fogao-gas">
+                  Não informado.
+                </p>
+              </article>
+
+              <article class="item-compatibilidade">
+                <h4>🧲 Indução</h4>
+                <p id="fogao-inducao">
+                  Não informado.
+                </p>
+              </article>
+
+              <article class="item-compatibilidade">
+                <h4>♨️ Vitrocerâmico</h4>
+                <p id="fogao-vitroceramico">
+                  Não informado.
+                </p>
+              </article>
+
+              <article class="item-compatibilidade">
+                <h4>⚡ Elétrico</h4>
+                <p id="fogao-eletrico">
+                  Não informado.
+                </p>
+              </article>
+
+            </div>
+
+          </section>
+
+        </div>
+
+  <!-- ================================================
+             ABA 3 — MANUAL DE USO SEGURO
+  ================================================= -->
+
+        <div
+          id="aba-uso-seguro"
+          class="conteudo-secao escondido"
+        >
+
+          <!-- Limites -->
+
+          <section class="alerta-limites">
+
+            <h3>
+              ⚠️ Atenção aos Limites de Uso
+            </h3>
+
+            <div class="limite-item">
+
+              <h4>
+                Alimentos comuns
+              </h4>
+
+              <p id="limite-comum">
+                Não informado.
+              </p>
+
+            </div>
+
+            <div class="limite-item">
+
+              <h4>
+                Alimentos que expandem ou espumam
+              </h4>
+
+              <p id="limite-espuma">
+                Não aplicável.
+              </p>
+
+            </div>
+
+          </section>
+
+          <!-- Passo a passo -->
+
+          <section class="bloco-passos">
+
+            <h3>
+              📋 Passo a Passo Operacional
+            </h3>
+
+            <ol id="utensilio-passos">
+              <!-- Gerado pelo JavaScript -->
+            </ol>
+
+          </section>
+
+          <!-- Erros críticos -->
+
+          <section class="bloco-erros">
+
+            <h3>
+              🚫 Erros Críticos Comuns
+            </h3>
+
+            <p>
+              Evite as práticas abaixo durante o uso
+              do utensílio:
+            </p>
+
+            <ul id="utensilio-erros">
+              <!-- Gerado pelo JavaScript -->
+            </ul>
+
+          </section>
+
+        </div>
+
+        <!-- ================================================
+             ABA 4 — MANUTENÇÃO E DICAS
+        ================================================= -->
+
+        <div
+          id="aba-manutencao"
+          class="conteudo-secao escondido"
+        >
+
+          <div class="grid-manutencao">
+
+            <!-- Limpeza -->
+
+            <section class="limpeza-rotina">
+
+              <h3>
+                🧼 Rotina de Higienização
+              </h3>
+
+              <p id="utensilio-limpeza">
+                Não informado.
+              </p>
+
+            </section>
+
+
+            <!-- Vida útil -->
+
+            <section class="vida-util-componentes">
+
+              <h3>
+                🔧 Vida Útil dos Componentes
+              </h3>
+
+              <div class="componente-manutencao">
+
+                <h4>
+                  Borracha de vedação
+                </h4>
+
+                <p id="vida-borracha">
+                  Consulte o manual do fabricante.
+                </p>
+
+              </div>
+
+
+              <div class="componente-manutencao">
+
+                <h4>
+                  Válvula de segurança
+                </h4>
+
+                <p id="vida-valvula">
+                  Consulte o manual do fabricante.
+                </p>
+
+              </div>
+
+            </section>
+
+
+            <!-- Dicas -->
+
+            <section class="dicas-chef">
+
+              <h3>
+                💡 Dicas de Especialistas
+              </h3>
+
+              <div id="utensilio-dicas-expert">
+                <!-- Gerado pelo JavaScript -->
+              </div>
+
+            </section>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ==================================================
+           RODAPÉ DA FICHA
+      =================================================== -->
+
+      <footer class="card-rodape">
+
+        <p>
+          📚 Conteúdo informativo do
+          <strong>NutriDicas</strong>.
+          Consulte sempre as instruções específicas
+          do fabricante do utensílio.
+        </p>
+
+      </footer>
+
+    </section>
+
   </main>
 
-</body>
+   <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 NutriDicas Online · Todos os direitos reservados</p>
+      </div>
+   </footer>
+
+  <!-- ======================================================
+       SCRIPTS
+  ======================================================= -->
+
+  <script src="js/utensilios.js"></script>
+  <script src="js/busca.js"></script>
+
+   </body>
+
 </html>

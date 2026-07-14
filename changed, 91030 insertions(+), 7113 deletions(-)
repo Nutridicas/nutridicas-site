@@ -1,0 +1,622 @@
+[33mcommit 33b695aaa5465ef9c6f21fd3a4b6d0a472790722[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Nutridicas <nutridicas2026gmail.com>
+Date:   Thu Jul 9 11:18:49 2026 -0300
+
+    correção da busca
+
+ Admin/admin-login.html                             |     2 [32m+[m[31m-[m
+ Admin/dashboard.html                               |   284 [32m+[m[31m-[m
+ Admin/js/admin-auth.js                             |     4 [32m+[m[31m-[m
+ Admin/js/dashboard.js                              |  1270 [32m+[m[31m-[m
+ Admin/js/dashboard34.js                            |   878 [32m+[m
+ Admin/js/dashboard35.js                            |   551 [32m+[m
+ Admin/login.html                                   |     3 [32m+[m
+ JSON/receitas-index.json                           |   142 [31m-[m
+ api/.env                                           |     3 [32m+[m[31m-[m
+ api/config/produtos.js                             |     2 [32m+[m[31m-[m
+ api/data/receitas.json                             |    31 [32m+[m[31m-[m
+ api/gerar-index.js                                 |     6 [32m+[m[31m-[m
+ api/gerar.js                                       |    13 [32m+[m
+ api/json/atualiza-json.js                          |   105 [32m+[m
+ api/json/corrigir.js                               |    13 [32m+[m
+ api/json/dicas-rapidas.json                        |  1268 [32m+[m
+ api/json/dicas.json                                |  6050 [32m+++++[m
+ api/json/frutas.json                               |  2749 [32m++[m
+ api/json/gerar-faq.js                              |    45 [32m+[m
+ api/json/glossario.json                            |    53 [32m+[m
+ api/json/ingredientes-geral.json                   |  1682 [32m++[m
+ api/json/ingredientes-info.json                    |   282 [32m+[m
+ {JSON => api/json}/ingredientes.json               |     0
+ api/json/ingredientes/farinha-de-amendoa.json      |     6 [32m+[m
+ api/json/ingredientes/psyllium.json                |     6 [32m+[m
+ api/json/ingredientes/xilitol.json                 |     5 [32m+[m
+ api/json/legumes.json                              |  3505 [32m+++[m
+ api/json/medidas.json                              |    85 [32m+[m
+ api/json/modelodicas.json                          |   114 [32m+[m
+ api/json/nutridicas.json                           |  1051 [32m+[m
+ api/json/receitas-alt.json                         | 26886 [32m+++++++++++++++++++[m
+ api/json/receitas-historia.json                    |   771 [32m+[m
+ api/json/receitas-index.json                       |  1074 [32m+[m
+ api/json/receitas.json                             | 23285 [32m+++++++++++++++[m[31m-[m
+ api/json/substituicoes.json                        |   285 [32m+[m
+ api/json/sync-dicas.js                             |    91 [32m+[m
+ api/json/sync-slugs.js                             |    31 [32m+[m
+ api/json/termos-culinarios.json                    |   812 [32m+[m
+ api/package.json                                   |     6 [32m+[m[31m-[m
+ api/public/receitas-index.json                     |   142 [31m-[m
+ api/server.js                                      |   105 [32m+[m[31m-[m
+ package-lock.json                                  |    33 [32m+[m
+ package.json                                       |     5 [32m+[m
+ public/Editor-receitas.html                        |    85 [31m-[m
+ {JSON => public/JSON}/analytics.json               |     0
+ {JSON => public/JSON}/data/receitas/bolo-fofo.json |     0
+ public/JSON/farinha-de-amendoa.json                |     6 [32m+[m
+ public/JSON/ingredientes-info.json                 |    44 [32m+[m
+ public/JSON/ingredientes.json                      |    23 [32m+[m
+ {JSON => public/JSON}/pao-forma.json               |     0
+ public/JSON/psyllium.json                          |     6 [32m+[m
+ public/JSON/receitas-historia.json                 |    13 [32m+[m
+ public/JSON/xilitol.json                           |     5 [32m+[m
+ public/assessoria.html                             |   214 [31m-[m
+ public/bolo-fofo-zero-lactose.html                 |   301 [31m-[m
+ public/buscar.html                                 |     2 [32m+[m[31m-[m
+ public/confirmacao.html                            |     6 [32m+[m[31m-[m
+ public/consulta.html                               |   490 [31m-[m
+ public/consulta3.html                              |   317 [31m-[m
+ public/css/breadcrumb.css                          |   100 [32m+[m
+ public/css/dashboard.css                           |    62 [32m+[m[31m-[m
+ public/css/dicas-detalhes.css                      |   330 [32m+[m
+ public/css/dicas-rapidas.css                       |   144 [32m+[m
+ public/css/dicas.css                               |   382 [32m+[m
+ public/css/estilo.css                              |   904 [32m+[m[31m-[m
+ public/css/frutas.css                              |   246 [32m+[m
+ public/css/historia.css                            |    84 [32m+[m
+ public/css/index.css                               |   382 [32m+[m
+ public/css/informa.css                             |     8 [32m+[m
+ public/css/legumes.css                             |   251 [32m+[m
+ public/css/lista-compras.css                       |   119 [32m+[m
+ public/css/mensagens.css                           |    21 [32m+[m
+ public/css/menu.css                                |   478 [32m+[m[31m-[m
+ public/css/nutri.css                               |   175 [32m+[m[31m-[m
+ public/css/nutridicas.css                          |    67 [32m+[m
+ public/css/receita.css                             |  1834 [32m++[m
+ public/css/receitas.css                            |   169 [32m+[m
+ public/css/termos.css                              |   212 [32m+[m
+ public/css/tooltip.css                             |   253 [32m+[m
+ public/css/visual-info.css                         |   168 [32m+[m
+ public/dicas.html                                  |   223 [32m+[m
+ public/fale-nutri.html                             |    12 [32m+[m[31m-[m
+ public/favoritos.html                              |   154 [32m+[m[31m-[m
+ public/form-receita.html                           |   431 [32m+[m[31m-[m
+ public/frutas.html                                 |   296 [32m+[m
+ public/funcionais.html                             |   147 [32m+[m[31m-[m
+ public/gerenciar-premium.html                      |     6 [32m+[m[31m-[m
+ public/imagens/{receitas => }/Mascotinha.png       |   Bin
+ .../imagens/Orc\314\247amento.pdf"                 |   Bin
+ public/imagens/{receitas => }/Simbolo vegano.jpg   |   Bin
+ public/imagens/akirevarga-egg-7345934_1920.jpg     |   Bin [31m0[m -> [32m314876[m bytes
+ public/imagens/balde-leite.jpg                     |   Bin [31m0[m -> [32m799190[m bytes
+ public/imagens/banner-topo.png                     |   Bin [31m0[m -> [32m1904181[m bytes
+ public/imagens/cafe-mocha-novo.jpg                 |   Bin [31m0[m -> [32m347765[m bytes
+ .../{receitas => }/christmas-3026685_1280.jpg      |   Bin
+ ...lickerhappy-new-year-background-943245_1920.jpg |   Bin [31m0[m -> [32m510376[m bytes
+ .../imagens/dicas/2770862-pitaya-4103906_1920.jpg  |   Bin [31m0[m -> [32m463867[m bytes
+ .../dicas/3centista-papaya-3652074_1920.jpg        |   Bin [31m0[m -> [32m504814[m bytes
+ public/imagens/dicas/Boleto1304.pdf                |   Bin [31m0[m -> [32m69753[m bytes
+ public/imagens/dicas/Pappardelle.jpg               |   Bin [31m0[m -> [32m490521[m bytes
+ public/imagens/dicas/Talharim.jpg                  |   Bin [31m0[m -> [32m622144[m bytes
+ public/imagens/dicas/abacate-recheado.jpg          |   Bin [31m0[m -> [32m540977[m bytes
+ .../imagens/dicas/ajale-smoothie-1578241_1920.jpg  |   Bin [31m0[m -> [32m314972[m bytes
+ .../alexas_fotos-strawberries-1303374_1920.jpg     |   Bin [31m0[m -> [32m909650[m bytes
+ .../alexas_fotos-strawberries-4330211_1920.jpg     |   Bin [31m0[m -> [32m462403[m bytes
+ public/imagens/dicas/alface-americana.jpg          |   Bin [31m0[m -> [32m957286[m bytes
+ public/imagens/dicas/alface-chifonade.jpg          |   Bin [31m0[m -> [32m8782[m bytes
+ public/imagens/dicas/alface-cortada.jpg            |   Bin [31m0[m -> [32m544866[m bytes
+ public/imagens/dicas/alface-horta.jpg              |   Bin [31m0[m -> [32m796142[m bytes
+ public/imagens/dicas/alface-preparo.jpg            |   Bin [31m0[m -> [32m413458[m bytes
+ public/imagens/dicas/alface.jpg                    |   Bin [31m0[m -> [32m558437[m bytes
+ .../dicas/alicja-basil-total-2759319_1920.jpg      |   Bin [31m0[m -> [32m706350[m bytes
+ .../imagens/dicas/altamiro-acerola-234413_1920.jpg |   Bin [31m0[m -> [32m451891[m bytes
+ .../imagens/dicas/alyerika-guava-10236218_1920.jpg |   Bin [31m0[m -> [32m448018[m bytes
+ .../imagens/dicas/alyerika-guava-10236219_1920.jpg |   Bin [31m0[m -> [32m406555[m bytes
+ .../dicas/anaterate-carrot-2523953_1920.jpg        |   Bin [31m0[m -> [32m1024185[m bytes
+ .../dicas/auntmasako-sweet-potato-1615024_1920.jpg |   Bin [31m0[m -> [32m1019505[m bytes
+ .../dicas/autourdupain-bread-6492316_1920.jpg      |   Bin [31m0[m -> [32m982399[m bytes
+ .../imagens/dicas/azeret76-beets-2874369_1920.jpg  |   Bin [31m0[m -> [32m628332[m bytes
+ .../imagens/dicas/b1-foto-bakery-1363023_1920.jpg  |   Bin [31m0[m -> [32m995100[m bytes
+ .../dicas/barbroforsberg-fungus-1194380_1920.jpg   |   Bin [31m0[m -> [32m888885[m bytes
+ public/imagens/dicas/batata-doce.jpg               |   Bin [31m0[m -> [32m805224[m bytes
+ public/imagens/dicas/beterraba-cubo.jpg            |   Bin [31m0[m -> [32m639208[m bytes
+ public/imagens/dicas/betrraba-inteira.jpg          |   Bin [31m0[m -> [32m832685[m bytes
+ public/imagens/dicas/bife-suculento.jpg            |   Bin [31m0[m -> [32m358732[m bytes
+ .../dicas/black17bg-vegetable-5554160_1920.jpg     |   Bin [31m0[m -> [32m251842[m bytes
+ .../dicas/black17bg-vegetables-5554155_1920.jpg    |   Bin [31m0[m -> [32m324176[m bytes
+ .../dicas/black17bg-vegetables-5554161_1920.jpg    |   Bin [31m0[m -> [32m521790[m bytes
+ public/imagens/dicas/cenoura.jpg                   |   Bin [31m0[m -> [32m288704[m bytes
+ .../dicas/cherrylafoto-food-3249037_1920.jpg       |   Bin [31m0[m -> [32m670259[m bytes
+ .../imagens/dicas/chrispla-grape-2911039_1920.jpg  |   Bin [31m0[m -> [32m366995[m bytes
+ public/imagens/dicas/chuchu.jpg                    |   Bin [31m0[m -> [32m746251[m bytes
+ ...lker-free-vector-images-beetroot-32915_1920.png |   Bin [31m0[m -> [32m248348[m bytes
+ ...lker-free-vector-images-recycle-305031_1920.png |   Bin [31m0[m -> [32m346743[m bytes
+ public/imagens/dicas/cogumelos-bandeja.jpg         |   Bin [31m0[m -> [32m386870[m bytes
+ public/imagens/dicas/cogumelos-cortes1.jpg         |   Bin [31m0[m -> [32m646621[m bytes
+ public/imagens/dicas/cogumelos-cortes2.jpg         |   Bin [31m0[m -> [32m751061[m bytes
+ public/imagens/dicas/cogumelos-cozer.jpg           |   Bin [31m0[m -> [32m821751[m bytes
+ public/imagens/dicas/cogumelos-embala.jpg          |   Bin [31m0[m -> [32m1090363[m bytes
+ public/imagens/dicas/cogumelos-preparo.jpg         |   Bin [31m0[m -> [32m433656[m bytes
+ public/imagens/dicas/cogumelos.jpg                 |   Bin [31m0[m -> [32m406707[m bytes
+ public/imagens/dicas/cogumeslos-preparo.jpg        |   Bin [31m0[m -> [32m386870[m bytes
+ ...congerdesign-christmas-cookies-4710717_1920.jpg |   Bin [31m0[m -> [32m465131[m bytes
+ .../dicas/congerdesign-egg-3014817_1920.jpg        |   Bin [31m0[m -> [32m339931[m bytes
+ .../dicas/congerdesign-melon-6191135_1920.jpg      |   Bin [31m0[m -> [32m340584[m bytes
+ public/imagens/dicas/corte-julienne.jpg            |   Bin [31m0[m -> [32m486249[m bytes
+ public/imagens/dicas/corte-rondele.jpg             |   Bin [31m0[m -> [32m1024185[m bytes
+ .../dicas/couleur-beetroot-3463259_1920.jpg        |   Bin [31m0[m -> [32m563288[m bytes
+ .../imagens/dicas/couleur-bread-1510155_1920.jpg   |   Bin [31m0[m -> [32m992244[m bytes
+ .../dicas/couleur-potatoes-1585075_1920 (1).jpg    |   Bin [31m0[m -> [32m775840[m bytes
+ public/imagens/dicas/cozimento-chantilly.jpg       |   Bin [31m0[m -> [32m915255[m bytes
+ public/imagens/dicas/creme-amendoas.png            |   Bin [31m0[m -> [32m2321454[m bytes
+ .../dicas/danielihardt-acerola-2670189_1920.jpg    |   Bin [31m0[m -> [32m526932[m bytes
+ public/imagens/dicas/de-massa.jpg                  |   Bin [31m0[m -> [32m573462[m bytes
+ public/imagens/dicas/descanso-massa.jpg            |   Bin [31m0[m -> [32m569039[m bytes
+ public/imagens/dicas/dica-estabilizar.jpg          |   Bin [31m0[m -> [32m589379[m bytes
+ public/imagens/dicas/dicas-leite.jpg               |   Bin [31m0[m -> [32m547561[m bytes
+ .../eismannhans-ai-generated-8606229_1920.jpg      |   Bin [31m0[m -> [32m600851[m bytes
+ public/imagens/dicas/eladeira-cheia.png            |   Bin [31m0[m -> [32m2163302[m bytes
+ public/imagens/dicas/emidie-cashew-351766_1920.jpg |   Bin [31m0[m -> [32m811732[m bytes
+ public/imagens/dicas/ennelise-coca-924228_1920.jpg |   Bin [31m0[m -> [32m595120[m bytes
+ public/imagens/dicas/espresso-macchiato.jpg        |   Bin [31m0[m -> [32m455522[m bytes
+ .../dicas/explorerbob-salad-2629262_1920.jpg       |   Bin [31m0[m -> [32m430656[m bytes
+ public/imagens/dicas/faca-afiar.jpg                |   Bin [31m0[m -> [32m955670[m bytes
+ public/imagens/dicas/faca-angulo.jpg               |   Bin [31m0[m -> [32m526592[m bytes
+ public/imagens/dicas/faca-chef.jpg                 |   Bin [31m0[m -> [32m495604[m bytes
+ public/imagens/dicas/faca-corte.png                |   Bin [31m0[m -> [32m76063[m bytes
+ public/imagens/dicas/faca-preparo.jpg              |   Bin [31m0[m -> [32m118727[m bytes
+ public/imagens/dicas/fettuccine.jpg                |   Bin [31m0[m -> [32m592521[m bytes
+ public/imagens/dicas/ganache-brilho-pedaco.jpg     |   Bin [31m0[m -> [32m513623[m bytes
+ public/imagens/dicas/ganache-brilho.jpg            |   Bin [31m0[m -> [32m662890[m bytes
+ public/imagens/dicas/garrafas-leite.jpg            |   Bin [31m0[m -> [32m215417[m bytes
+ public/imagens/dicas/geladeira-erro.png            |   Bin [31m0[m -> [32m691465[m bytes
+ public/imagens/dicas/geladeira-organiza.jpg        |   Bin [31m0[m -> [32m641433[m bytes
+ public/imagens/dicas/geladeira-reapro.png          |   Bin [31m0[m -> [32m624409[m bytes
+ .../giampieroruggieri-fridge-5830528_1920.png      |   Bin [31m0[m -> [32m1141798[m bytes
+ .../dicas/gregmontani-cucumbers-1495836_1920.jpg   |   Bin [31m0[m -> [32m570767[m bytes
+ .../imagens/dicas/ha11ok-carrot-1282799_1920.jpg   |   Bin [31m0[m -> [32m486249[m bytes
+ public/imagens/dicas/hans-banana-5734_1920.jpg     |   Bin [31m0[m -> [32m491094[m bytes
+ .../dicas/heikiwi-pineapple-8134236_1920.jpg       |   Bin [31m0[m -> [32m627708[m bytes
+ .../hellio42-ai-generated-9064930_1920 (1).png     |   Bin [31m0[m -> [32m2163302[m bytes
+ .../dicas/ignartonosbg-kiwi-6718889_1920.jpg       |   Bin [31m0[m -> [32m604311[m bytes
+ .../dicas/ignartonosbg-papaya-7743905_1920.jpg     |   Bin [31m0[m -> [32m488084[m bytes
+ public/imagens/dicas/imagem-geral .png             |   Bin [31m0[m -> [32m86366[m bytes
+ public/imagens/dicas/imentao-lavar.jpg             |   Bin [31m0[m -> [32m2245768[m bytes
+ .../dicas/inspiredimages-utensils-1056226_1920.jpg |   Bin [31m0[m -> [32m247913[m bytes
+ .../imagens/dicas/ischaap-healthy-997541_1920.jpg  |   Bin [31m0[m -> [32m579972[m bytes
+ .../dicas/jackmac34-mushrooms-6696816_1920.jpg     |   Bin [31m0[m -> [32m566494[m bytes
+ .../imagens/dicas/jackmac34-wheat-5250128_1920.jpg |   Bin [31m0[m -> [32m692129[m bytes
+ .../dicas/jillwellington-pie-8396728_1920.jpg      |   Bin [31m0[m -> [32m390032[m bytes
+ public/imagens/dicas/kinzi-bowl-4933571_1920.jpg   |   Bin [31m0[m -> [32m244396[m bytes
+ .../imagens/dicas/klimkin-carrot-1565597_1920.jpg  |   Bin [31m0[m -> [32m423575[m bytes
+ public/imagens/dicas/lata-aberta.jpg               |   Bin [31m0[m -> [32m298964[m bytes
+ public/imagens/dicas/leite-cozimento.jpg           |   Bin [31m0[m -> [32m484553[m bytes
+ public/imagens/dicas/leite-no-cafe.jpg             |   Bin [31m0[m -> [32m336267[m bytes
+ public/imagens/dicas/leite-preparo.jpg             |   Bin [31m0[m -> [32m109295[m bytes
+ public/imagens/dicas/limao-casca.jpg               |   Bin [31m0[m -> [32m393011[m bytes
+ public/imagens/dicas/limao-cortelua.jpg            |   Bin [31m0[m -> [32m348280[m bytes
+ public/imagens/dicas/limao-preparo.jpg             |   Bin [31m0[m -> [32m240459[m bytes
+ public/imagens/dicas/limao-suco.jpg                |   Bin [31m0[m -> [32m328179[m bytes
+ public/imagens/dicas/limao.png                     |   Bin [31m0[m -> [32m2789812[m bytes
+ public/imagens/dicas/liquidificador.jpg            |   Bin [31m0[m -> [32m328934[m bytes
+ .../imagens/dicas/lista-de-compras-nutridicas.pdf  |   406 [32m+[m
+ .../imagens/dicas/lk_drak-bread-6292215_1920.jpg   |   Bin [31m0[m -> [32m666674[m bytes
+ public/imagens/dicas/macarrao-concha.jpg           |   Bin [31m0[m -> [32m535514[m bytes
+ public/imagens/dicas/mamao1.jpg                    |   Bin [31m0[m -> [32m351539[m bytes
+ public/imagens/dicas/manteiga-metodos.jpg          |   Bin [31m0[m -> [32m916333[m bytes
+ public/imagens/dicas/manteiga-prepargo.jpg         |   Bin [31m0[m -> [32m321307[m bytes
+ public/imagens/dicas/manteiga-sem-sal.jpg          |   Bin [31m0[m -> [32m381776[m bytes
+ public/imagens/dicas/manteiga.jpg                  |   Bin [31m0[m -> [32m218521[m bytes
+ .../dicas/martabystron-carrot-1247964_1920.jpg     |   Bin [31m0[m -> [32m524655[m bytes
+ .../imagens/dicas/maxmann-salad-2809585_1920.jpg   |   Bin [31m0[m -> [32m607018[m bytes
+ public/imagens/dicas/molho-salada.jpg              |   Bin [31m0[m -> [32m514359[m bytes
+ .../mp1746-french-coarse-bun-1605380_1920.jpg      |   Bin [31m0[m -> [32m548222[m bytes
+ .../mylittlekitchen-kitchen-aid-5231908_1920.jpg   |   Bin [31m0[m -> [32m449691[m bytes
+ .../dicas/myriams-fotos-noodles-4851996_1920.jpg   |   Bin [31m0[m -> [32m311112[m bytes
+ .../ninetechno-barbados-cherry-7051754_1920.jpg    |   Bin [31m0[m -> [32m391577[m bytes
+ .../dicas/noname_13-tangerines-1721566_1920.jpg    |   Bin [31m0[m -> [32m318526[m bytes
+ .../dicas/noname_13-tangerines-1721590_1920.jpg    |   Bin [31m0[m -> [32m334833[m bytes
+ .../imagens/dicas/olenchic-icon-10218542_1920.png  |   Bin [31m0[m -> [32m233426[m bytes
+ public/imagens/dicas/opaye-blender-10934_1920.jpg  |   Bin [31m0[m -> [32m312087[m bytes
+ public/imagens/dicas/ovo-cozido.jpg                |   Bin [31m0[m -> [32m530840[m bytes
+ public/imagens/dicas/ovo-fritando.jpg              |   Bin [31m0[m -> [32m636919[m bytes
+ public/imagens/dicas/ovo-frito.jpg                 |   Bin [31m0[m -> [32m813638[m bytes
+ public/imagens/dicas/ovo-oche.jpg                  |   Bin [31m0[m -> [32m324039[m bytes
+ public/imagens/dicas/pimentao-preparo.jpg          |   Bin [31m0[m -> [32m2515093[m bytes
+ public/imagens/dicas/pimentao-vermelho.jpg         |   Bin [31m0[m -> [32m3069169[m bytes
+ public/imagens/dicas/pimentoes.jpg                 |   Bin [31m0[m -> [32m2201839[m bytes
+ public/imagens/dicas/preparo-chantilly.jpg         |   Bin [31m0[m -> [32m922202[m bytes
+ public/imagens/dicas/preparo-ganache.jpg           |   Bin [31m0[m -> [32m529300[m bytes
+ public/imagens/dicas/preparo-manteiga.jpg          |   Bin [31m0[m -> [32m509105[m bytes
+ public/imagens/dicas/preparo-margarina.png         |   Bin [31m0[m -> [32m2236327[m bytes
+ public/imagens/dicas/preparo-sova.jpg              |   Bin [31m0[m -> [32m605491[m bytes
+ public/imagens/dicas/queijo-gostoso.jpg            |   Bin [31m0[m -> [32m430484[m bytes
+ .../imagens/dicas/rafafa-banana-1199973_1920.jpg   |   Bin [31m0[m -> [32m265989[m bytes
+ public/imagens/dicas/ragabz-pizza-6156562_1920.jpg |   Bin [31m0[m -> [32m554314[m bytes
+ public/imagens/dicas/reaproveitamento-leite.jpg    |   Bin [31m0[m -> [32m309869[m bytes
+ .../reinhardthrainer-lettuce-5987715_1920.jpg      |   Bin [31m0[m -> [32m796142[m bytes
+ public/imagens/dicas/reuso-chantilly.jpg           |   Bin [31m0[m -> [32m776119[m bytes
+ public/imagens/dicas/reuso-ganache.png             |   Bin [31m0[m -> [32m941434[m bytes
+ public/imagens/dicas/reuso-manteiga.jpg            |   Bin [31m0[m -> [32m445163[m bytes
+ public/imagens/dicas/reuso-margarina.png           |   Bin [31m0[m -> [32m2136262[m bytes
+ public/imagens/dicas/reuso-sova (2).jpg            |   Bin [31m0[m -> [32m442283[m bytes
+ public/imagens/dicas/reuso-sova.jpg                |   Bin [31m0[m -> [32m867845[m bytes
+ .../dicas/rigby40-peanut-butter-6862021_1920.jpg   |   Bin [31m0[m -> [32m252868[m bytes
+ public/imagens/dicas/ritae-salad-2049563_1920.jpg  |   Bin [31m0[m -> [32m712451[m bytes
+ .../dicas/romanakr-carrots-4928588_1920.jpg        |   Bin [31m0[m -> [32m333050[m bytes
+ public/imagens/dicas/rumpel-corn-3734134_1920.jpg  |   Bin [31m0[m -> [32m386763[m bytes
+ .../imagens/dicas/sandid-papaya-1572190_1920.jpg   |   Bin [31m0[m -> [32m862457[m bytes
+ .../dicas/security-pineapple-636562_1920.jpg       |   Bin [31m0[m -> [32m405661[m bytes
+ .../dicas/shahroz-khan-pizza-3227292_1920.jpg      |   Bin [31m0[m -> [32m1449479[m bytes
+ .../imagens/dicas/silberfuchs-pot-554068_1920.jpg  |   Bin [31m0[m -> [32m281749[m bytes
+ public/imagens/dicas/sova-metodos.jpg              |   Bin [31m0[m -> [32m503009[m bytes
+ public/imagens/dicas/sova1.jpg                     |   Bin [31m0[m -> [32m504557[m bytes
+ .../stephaniealbert-watermelon-3584717_1920.jpg    |   Bin [31m0[m -> [32m431279[m bytes
+ .../imagens/dicas/stevepb-bananas-614090_1920.jpg  |   Bin [31m0[m -> [32m235856[m bytes
+ .../dicas/stevepb-kiwifruit-400143_1920.jpg        |   Bin [31m0[m -> [32m478804[m bytes
+ .../dicas/szjeno09190-mushroom-913499_1920.jpg     |   Bin [31m0[m -> [32m451208[m bytes
+ public/imagens/dicas/tensilios.jpg                 |   Bin [31m0[m -> [32m348209[m bytes
+ public/imagens/dicas/termometro.png                |   Bin [31m0[m -> [32m79572[m bytes
+ public/imagens/dicas/tipos-de-corte.jpg            |   Bin [31m0[m -> [32m134291[m bytes
+ .../dicas/tylijura-ai-generated-8502213_1920.jpg   |   Bin [31m0[m -> [32m838037[m bytes
+ "public/imagens/dicas/vulc\303\243o-massa.jpg"     |   Bin [31m0[m -> [32m501465[m bytes
+ .../waraporn047-lettuce-isolated-5307332_1920.jpg  |   Bin [31m0[m -> [32m413458[m bytes
+ .../dicas/wikimediaimages-spatula-2202239_1920.jpg |   Bin [31m0[m -> [32m149174[m bytes
+ .../imagens/{receitas => }/doctor-1703644_1280.jpg |   Bin
+ .../fabiano_pimentel-cookie-8139062_1920.jpg       |   Bin [31m0[m -> [32m527964[m bytes
+ public/imagens/favicon.jpg                         |   Bin [31m0[m -> [32m4030[m bytes
+ .../{receitas => }/fried-egg-3238173_1280.jpg      |   Bin
+ public/imagens/{receitas => }/fundo-preto.jpg      |   Bin
+ "public/imagens/f\303\264rma-de-buraco.jpg"        |   Bin [31m0[m -> [32m11896[m bytes
+ .../ai-generated-9564662_1280.png                  |   Bin
+ public/imagens/geral/arvore.jpg                    |   Bin [31m0[m -> [32m1286027[m bytes
+ .../{receitas => geral}/boiling-1300606_1280.png   |   Bin
+ .../chapeu-talheres.png}                           |   Bin
+ .../christmas-ball-8413268_1280.jpg                |   Bin
+ .../christmas-tree-1085566_1280.png                |   Bin
+ .../cook-3025226_1280.jpg => geral/cozinheiro.jpg} |   Bin
+ .../{receitas => geral}/facebook-2815970_640.jpg   |   Bin
+ .../{receitas => geral}/gear-161869_1280.png       |   Bin
+ .../{receitas => geral}/gears-9771134_1280.png     |   Bin
+ .../{receitas => geral}/icone nutrichef.jpg        |   Bin
+ public/imagens/{receitas => geral}/icone-preto.jpg |   Bin
+ public/imagens/geral/imagem-geral.png              |   Bin [31m0[m -> [32m86366[m bytes
+ public/imagens/{receitas => geral}/imagem1.jpg     |   Bin
+ public/imagens/{receitas => geral}/imagem2.jpg     |   Bin
+ public/imagens/{receitas => geral}/imagem3.jpg     |   Bin
+ .../{receitas => geral}/instagram-2815919_1280.jpg |   Bin
+ .../{receitas => geral}/knife-32934_1280.png       |   Bin
+ public/imagens/{ => geral}/logo.jpg                |   Bin
+ public/imagens/geral/sou-vegano.jpg                |   Bin [31m0[m -> [32m2033732[m bytes
+ .../vegano.jpg}                                    |   Bin
+ .../imagens/geral/zeroacucarges.jpg                |   Bin
+ public/imagens/{receitas => geral}/zerogluten.jpg  |   Bin
+ .../zerolactose.png => geral/zerolactose.jpg}      |   Bin
+ public/imagens/historia/bolo-rolo-historia.png     |   Bin [31m0[m -> [32m2337185[m bytes
+ public/imagens/historia/caf-mocha-copo.jpg         |   Bin [31m0[m -> [32m425614[m bytes
+ public/imagens/historia/historia-biscoito.jpg      |   Bin [31m0[m -> [32m31976[m bytes
+ public/imagens/historia/macaron-historia.jpg       |   Bin [31m0[m -> [32m219787[m bytes
+ public/imagens/historia/pao-forma.png              |   Bin [31m0[m -> [32m262687[m bytes
+ public/imagens/historia/pao-frances.jpg            |   Bin [31m0[m -> [32m19836[m bytes
+ public/imagens/historia/sonho-padaria.jpg          |   Bin [31m0[m -> [32m127667[m bytes
+ .../imagens/ingredientes/Farinha-de-amendoas.jpg   |   Bin [31m0[m -> [32m1382408[m bytes
+ public/imagens/ingredientes/acucar-de-coco.jpg     |   Bin [31m0[m -> [32m551817[m bytes
+ public/imagens/ingredientes/alho-cabeca.png        |   Bin [31m0[m -> [32m3351039[m bytes
+ public/imagens/ingredientes/amendoas.jpg           |   Bin [31m0[m -> [32m508585[m bytes
+ public/imagens/ingredientes/amendoim.jpg           |   Bin [31m0[m -> [32m826042[m bytes
+ public/imagens/ingredientes/azeite.jpg             |   Bin [31m0[m -> [32m508337[m bytes
+ public/imagens/ingredientes/baunilha.jpg           |   Bin [31m0[m -> [32m241461[m bytes
+ .../be_stasya-christmas-drink-6876097_1920.jpg     |   Bin [31m0[m -> [32m1044687[m bytes
+ public/imagens/ingredientes/bebida-vegetal.jpg     |   Bin [31m0[m -> [32m723483[m bytes
+ public/imagens/ingredientes/canela.jpg             |   Bin [31m0[m -> [32m435374[m bytes
+ public/imagens/ingredientes/cebola-branca.jpg      |   Bin [31m0[m -> [32m242089[m bytes
+ public/imagens/ingredientes/cebola-roxa.jpg        |   Bin [31m0[m -> [32m577031[m bytes
+ public/imagens/ingredientes/chia.jpg               |   Bin [31m0[m -> [32m365883[m bytes
+ public/imagens/ingredientes/eritritol.jpg          |   Bin [31m0[m -> [32m104980[m bytes
+ public/imagens/ingredientes/farinha-amendoas.jpg   |   Bin [31m0[m -> [32m394182[m bytes
+ public/imagens/ingredientes/farinha-arroz.pdf      |   Bin [31m0[m -> [32m186568[m bytes
+ public/imagens/ingredientes/farinha-aveia.jpg      |   Bin [31m0[m -> [32m510214[m bytes
+ public/imagens/ingredientes/farinha-de-aveia.jpg   |   Bin [31m0[m -> [32m436076[m bytes
+ .../flockine-ice-cream-2703428_1920.jpg            |   Bin [31m0[m -> [32m387321[m bytes
+ public/imagens/ingredientes/gengibre.png           |   Bin [31m0[m -> [32m5379796[m bytes
+ public/imagens/ingredientes/grao-de-bico.jpg       |   Bin [31m0[m -> [32m390100[m bytes
+ .../ingredientes/guvo59-peanuts-9317291_1920.jpg   |   Bin [31m0[m -> [32m486385[m bytes
+ public/imagens/ingredientes/leite-de-coco.jpg      |   Bin [31m0[m -> [32m1050415[m bytes
+ public/imagens/ingredientes/leite-vegetal.jpg      |   Bin [31m0[m -> [32m669825[m bytes
+ public/imagens/ingredientes/limao-siciliano.jpg    |   Bin [31m0[m -> [32m470602[m bytes
+ public/imagens/ingredientes/linhaca.jpg            |   Bin [31m0[m -> [32m475446[m bytes
+ public/imagens/ingredientes/margarina.jpg          |   Bin [31m0[m -> [32m381776[m bytes
+ .../monicore-coconut-oil-2535395_1920 (1).jpg      |   Bin [31m0[m -> [32m1050415[m bytes
+ public/imagens/ingredientes/mostarda.jpg           |   Bin [31m0[m -> [32m752869[m bytes
+ public/imagens/ingredientes/noz-moscada.jpg        |   Bin [31m0[m -> [32m448162[m bytes
+ public/imagens/ingredientes/oleo-coco.jpg          |   Bin [31m0[m -> [32m476495[m bytes
+ public/imagens/ingredientes/oleo-vegetal.jpg       |   Bin [31m0[m -> [32m297556[m bytes
+ public/imagens/ingredientes/paprica.jpg            |   Bin [31m0[m -> [32m455406[m bytes
+ .../ingredientes/photowill-bread-4077812_1920.jpg  |   Bin [31m0[m -> [32m602527[m bytes
+ .../imagens/ingredientes/polvilho_azedo_granel.png |   Bin [31m0[m -> [32m235318[m bytes
+ public/imagens/ingredientes/psyllium.jpg           |   Bin [31m0[m -> [32m541048[m bytes
+ .../stevepb-cinnamon-stick-514243_1920.jpg         |   Bin [31m0[m -> [32m463999[m bytes
+ public/imagens/ingredientes/stevia.jpg             |   Bin [31m0[m -> [32m417403[m bytes
+ public/imagens/ingredientes/tahine.jpg             |   Bin [31m0[m -> [32m699875[m bytes
+ .../terrapp-coffee-pot-2926638_1920.jpg            |   Bin [31m0[m -> [32m501039[m bytes
+ .../three-shots-peanut-2982397_1920.jpg            |   Bin [31m0[m -> [32m566546[m bytes
+ public/imagens/ingredientes/tomate.jpg             |   Bin [31m0[m -> [32m234927[m bytes
+ .../wikimediaimages-food-2202381_1920.jpg          |   Bin [31m0[m -> [32m372143[m bytes
+ public/imagens/ingredientes/xilitol.jpg            |   Bin [31m0[m -> [32m8727[m bytes
+ .../yilmazfatih-tahini-6230740_1920.jpg            |   Bin [31m0[m -> [32m725809[m bytes
+ public/imagens/kimulechka-kitchen-6762800_1920.jpg |   Bin [31m0[m -> [32m479970[m bytes
+ public/imagens/leiteira.jpg                        |   Bin [31m0[m -> [32m374817[m bytes
+ public/imagens/maca-topo.jpg                       |   Bin [31m0[m -> [32m435762[m bytes
+ .../imagens/marcoapolinario-cake-7367272_1280.jpg  |   Bin [31m0[m -> [32m301130[m bytes
+ .../mohamed_hassan-hospitality-3793946_1920.jpg    |   Bin [31m0[m -> [32m460015[m bytes
+ .../nennieinszweidrei-cantuccini-6828457_1920.jpg  |   Bin [31m0[m -> [32m318128[m bytes
+ .../openclipart-vectors-popcorn-155602_1920.png    |   Bin [31m0[m -> [32m668856[m bytes
+ public/imagens/pezibear-eggs-1374141_1920.jpg      |   Bin [31m0[m -> [32m253650[m bytes
+ ...cante.jpg => 1772205691232-Agua-refescante.jpg} |   Bin
+ .../receitas/1772307040793-pao-com-abacate.jpg     |   Bin
+ .../1774066656231-1772308123425-humus-tigela.jpg   |   Bin [31m0[m -> [32m306111[m bytes
+ .../receitas/1774098965343-cookies-aveia.jpg       |   Bin [31m0[m -> [32m572336[m bytes
+ .../receitas/1774116197876-cookies-chocolate.jpg   |   Bin [31m0[m -> [32m701899[m bytes
+ .../receitas/1774121036997-cookies-salgados.jpg    |   Bin [31m0[m -> [32m435604[m bytes
+ .../{Agua refescante.jpg => Agua-refrescante.jpg}  |   Bin
+ public/imagens/receitas/Biscoito-creme-cracker.jpg |   Bin [31m0[m -> [32m206426[m bytes
+ public/imagens/receitas/Biscoito-manteiga.jpg      |   Bin [31m0[m -> [32m483051[m bytes
+ public/imagens/receitas/Biscoito-salgado.jpg       |   Bin [31m0[m -> [32m467593[m bytes
+ public/imagens/receitas/Biscoitos-chocolate.jpg    |   Bin [31m0[m -> [32m363931[m bytes
+ public/imagens/receitas/Biscoitos-crocantes.jpg    |   Bin [31m0[m -> [32m413061[m bytes
+ public/imagens/receitas/Biscoitos-gotas.jpg        |   Bin [31m0[m -> [32m598271[m bytes
+ public/imagens/receitas/Biscoitos-redondos.jpg     |   Bin [31m0[m -> [32m456065[m bytes
+ .../imagens/receitas/Chocolate-bebida-pequena.jpg  |   Bin [31m0[m -> [32m742519[m bytes
+ public/imagens/receitas/Chocolate-raspas.jpg       |   Bin [31m0[m -> [32m415425[m bytes
+ ...able-676533_1280.jpg => abertura-bem-vindo.jpg} |   Bin
+ public/imagens/receitas/acucar.jpg                 |   Bin [31m0[m -> [32m515494[m bytes
+ .../aghilms-coffee-with-biscuits-1810100_1920.jpg  |   Bin [31m0[m -> [32m444507[m bytes
+ public/imagens/receitas/agua-com-limao-hortela.jpg |   Bin [31m0[m -> [32m437469[m bytes
+ public/imagens/receitas/agua-com-sabor-hortela.jpg |   Bin [31m0[m -> [32m525185[m bytes
+ public/imagens/receitas/agua-de-horela.jpg         |   Bin [31m0[m -> [32m168519[m bytes
+ public/imagens/receitas/agua-e-hortela.jpg         |   Bin [31m0[m -> [32m412744[m bytes
+ public/imagens/receitas/azeite.jpg                 |   Bin [31m0[m -> [32m362037[m bytes
+ .../{bread-2589597_1280.jpg => baguetes.jpg}       |   Bin
+ public/imagens/receitas/baiao-de-dois-vegano.png   |   Bin [31m0[m -> [32m2690365[m bytes
+ public/imagens/receitas/barista.png                |   Bin [31m0[m -> [32m441420[m bytes
+ public/imagens/receitas/bebida-vegetal.jpg         |   Bin [31m0[m -> [32m723483[m bytes
+ public/imagens/receitas/biscoito-aveia-cacau.jpg   |   Bin [31m0[m -> [32m449322[m bytes
+ .../receitas/biscoito-de-vento-polvilho.png        |   Bin [31m0[m -> [32m2540880[m bytes
+ public/imagens/receitas/bolo rolo.png              |   Bin [31m0[m -> [32m2337185[m bytes
+ public/imagens/receitas/bolo-banana-integral.jpg   |   Bin [31m0[m -> [32m837655[m bytes
+ public/imagens/receitas/bolo-caneca-cacau.jpg      |   Bin [31m0[m -> [32m470384[m bytes
+ public/imagens/receitas/bolo-chocolate-fofo.jpg    |   Bin [31m0[m -> [32m630730[m bytes
+ public/imagens/receitas/bolo-chocolate-vegano.jpg  |   Bin [31m0[m -> [32m524677[m bytes
+ .../imagens/receitas/bolo-chocolate-zeroacucar.jpg |   Bin [31m0[m -> [32m797680[m bytes
+ public/imagens/receitas/bolo-chocolate.jpg         |   Bin [31m0[m -> [32m611993[m bytes
+ public/imagens/receitas/bolo-de-aniversario.jpg    |   Bin [31m0[m -> [32m503680[m bytes
+ public/imagens/receitas/bolo-de-fuba.png           |   Bin [31m0[m -> [32m2432714[m bytes
+ public/imagens/receitas/bolo-de-rolo-recife.png    |   Bin [31m0[m -> [32m2298205[m bytes
+ public/imagens/receitas/bolo-de-rolo.jpg           |   Bin [31m0[m -> [32m534263[m bytes
+ .../receitas/{bolo fofo1.jpg => bolo-fofo-1.jpg}   |   Bin
+ public/imagens/receitas/bolo-fofo-chocolate.jpg    |   Bin [31m0[m -> [32m2182816[m bytes
+ public/imagens/receitas/bolo-fofo-zerolac.jpg      |   Bin [31m0[m -> [32m745886[m bytes
+ .../receitas/{bolo fofo.jpg => bolo-fofo.jpg}      |   Bin
+ public/imagens/receitas/bolo-mel-tradicional.jpg   |   Bin [31m0[m -> [32m258162[m bytes
+ public/imagens/receitas/bolo-recheado.jpg          |   Bin [31m0[m -> [32m708199[m bytes
+ public/imagens/receitas/broa-fuba-tradicional.png  |   Bin [31m0[m -> [32m2513393[m bytes
+ ...falla-coffee-206142_1280.jpg => cafe-coado.jpg} |   Bin
+ public/imagens/receitas/cafe-com-leite-pao.jpg     |   Bin [31m0[m -> [32m449711[m bytes
+ public/imagens/receitas/cafe-com-leite.jpg         |   Bin [31m0[m -> [32m336267[m bytes
+ public/imagens/receitas/cafe-donuts.jpg            |   Bin [31m0[m -> [32m543232[m bytes
+ public/imagens/receitas/cafe-e-leite-amendoas.jpg  |   Bin [31m0[m -> [32m336267[m bytes
+ public/imagens/receitas/cafe-gelado.jpg            |   Bin [31m0[m -> [32m303347[m bytes
+ public/imagens/receitas/cafe-latte-vegano.jpg      |   Bin [31m0[m -> [32m362507[m bytes
+ public/imagens/receitas/cafe-latte.jpg             |   Bin [31m0[m -> [32m239378[m bytes
+ public/imagens/receitas/cafe-leite.jpg             |   Bin [31m0[m -> [32m524042[m bytes
+ public/imagens/receitas/cafe-mocha-cremoso.jpg     |   Bin [31m0[m -> [32m399410[m bytes
+ public/imagens/receitas/cafe-mocha.jpg             |   Bin [31m0[m -> [32m626356[m bytes
+ public/imagens/receitas/cafe=preparo-leite.jpg     |   Bin [31m0[m -> [32m353368[m bytes
+ public/imagens/receitas/caldo-verde.jpg            |   Bin [31m0[m -> [32m736513[m bytes
+ ...cara grande.jpg => cappucino-xicara-grande.jpg} |   Bin
+ ...5-onion-657497_1280.jpg => cebloas-brancas.jpg} |   Bin
+ public/imagens/receitas/cebola.jpg                 |   Bin [31m0[m -> [32m396552[m bytes
+ public/imagens/receitas/cesto-de-broa.png          |   Bin [31m0[m -> [32m2825474[m bytes
+ public/imagens/receitas/chocolate-baras.jpg        |   Bin [31m0[m -> [32m535998[m bytes
+ public/imagens/receitas/chocolate-barra.jpg        |   Bin [31m0[m -> [32m733868[m bytes
+ public/imagens/receitas/chocolate-bebida.jpg       |   Bin [31m0[m -> [32m178021[m bytes
+ public/imagens/receitas/chocolate-coberta.jpg      |   Bin [31m0[m -> [32m182741[m bytes
+ public/imagens/receitas/chocolate-pedacos (2).jpg  |   Bin [31m0[m -> [32m518184[m bytes
+ public/imagens/receitas/chocolate-pedacos.jpg      |   Bin [31m0[m -> [32m633906[m bytes
+ public/imagens/receitas/chocolate-quadrados.jpg    |   Bin [31m0[m -> [32m520708[m bytes
+ .../receitas/cinnamon-rolls-4833394_1920.jpg       |   Bin [31m0[m -> [32m482971[m bytes
+ .../imagens/receitas/cocada-forno-sem-lactose.png  |   Bin [31m0[m -> [32m2353317[m bytes
+ public/imagens/receitas/cocada.jpg                 |   Bin [31m0[m -> [32m566066[m bytes
+ .../receitas/congerdesign-cake-4890393_1920.jpg    |   Bin [31m0[m -> [32m408687[m bytes
+ .../receitas/congerdesign-cookies-7659170_1920.jpg |   Bin [31m0[m -> [32m572336[m bytes
+ public/imagens/receitas/cookies-aveia.jpg          |   Bin [31m0[m -> [32m572336[m bytes
+ public/imagens/receitas/cookies-chocolate.jpg      |   Bin [31m0[m -> [32m701899[m bytes
+ public/imagens/receitas/cookies-salgados.jpg       |   Bin [31m0[m -> [32m435604[m bytes
+ .../dsstudio4u-sliced-bread-7087438_1920.jpg       |   Bin [31m0[m -> [32m563552[m bytes
+ public/imagens/receitas/esponja-de-lavar.jpg       |   Bin [31m0[m -> [32m319389[m bytes
+ public/imagens/receitas/espresso-macchiato.jpg     |   Bin [31m0[m -> [32m426521[m bytes
+ public/imagens/receitas/fatia-torta-maca.jpg       |   Bin [31m0[m -> [32m558991[m bytes
+ public/imagens/receitas/fatia-torta.jpg            |   Bin [31m0[m -> [32m598361[m bytes
+ public/imagens/receitas/flat-white.jpg             |   Bin [31m0[m -> [32m266835[m bytes
+ public/imagens/receitas/frigeideira.jpg            |   Bin [31m0[m -> [32m248281[m bytes
+ public/imagens/receitas/frigideira-anti.jpg        |   Bin [31m0[m -> [32m310929[m bytes
+ public/imagens/receitas/frigideira-cuidado.jpg     |   Bin [31m0[m -> [32m630797[m bytes
+ public/imagens/receitas/frigideira-preapro.jpg     |   Bin [31m0[m -> [32m698734[m bytes
+ .../imagens/receitas/geleia-pimenta-funcional.jpg  |   Bin [31m0[m -> [32m311317[m bytes
+ public/imagens/receitas/hamburguer-vegetal.jpg     |   Bin [31m0[m -> [32m449359[m bytes
+ .../receitas/haraldbraun-advent-3753392_1920.jpg   |   Bin [31m0[m -> [32m627637[m bytes
+ .../receitas/jarmoluk-packages-268251_1920.jpg     |   Bin [31m0[m -> [32m699498[m bytes
+ .../receitas/juno1412-cappuccino-5950892_1920.jpg  |   Bin [31m0[m -> [32m315360[m bytes
+ public/imagens/receitas/leite-amendoas.png         |   Bin [31m0[m -> [32m468206[m bytes
+ public/imagens/receitas/leite-condensado-diet.jpg  |   Bin [31m0[m -> [32m291750[m bytes
+ public/imagens/receitas/leite-soja.jpg             |   Bin [31m0[m -> [32m396038[m bytes
+ public/imagens/receitas/limonada-siciliano.jpg     |   Bin [31m0[m -> [32m312836[m bytes
+ .../receitas/lista-de-compras-nutridicas.pdf       |   422 [32m+[m
+ ...loorraa-chocolate-chip-cookies-6952422_1920.jpg |   Bin [31m0[m -> [32m701899[m bytes
+ public/imagens/receitas/maca.jpg                   |   Bin [31m0[m -> [32m435762[m bytes
+ public/imagens/receitas/macaron-tradicional.jpg    |   Bin [31m0[m -> [32m696406[m bytes
+ public/imagens/receitas/macaroons-7277957_1920.jpg |   Bin [31m0[m -> [32m320197[m bytes
+ public/imagens/receitas/maionese-grao-de-bico.png  |   Bin [31m0[m -> [32m252846[m bytes
+ .../receitas/matthiasboeckel-loaf-7352306_1920.jpg |   Bin [31m0[m -> [32m876955[m bytes
+ public/imagens/receitas/menu-cafes.png             |   Bin [31m0[m -> [32m779547[m bytes
+ public/imagens/receitas/molho-detox.jpg            |   Bin [31m0[m -> [32m514359[m bytes
+ .../imagens/receitas/molho-funcional-agridoce.jpg  |   Bin [31m0[m -> [32m358186[m bytes
+ public/imagens/receitas/mousse-tela.jpg            |   Bin [31m0[m -> [32m469254[m bytes
+ .../receitas/nickype-to-bake-3798896_1920.jpg      |   Bin [31m0[m -> [32m552876[m bytes
+ .../receitas/nickype-to-bake-4610849_1920.jpg      |   Bin [31m0[m -> [32m488480[m bytes
+ public/imagens/receitas/oleo-vegetal.jpg           |   Bin [31m0[m -> [32m504977[m bytes
+ .../receitas/palha-italiana-tradicional.jpg        |   Bin [31m0[m -> [32m719325[m bytes
+ public/imagens/receitas/panetone-tradicional.jpg   |   Bin [31m0[m -> [32m640835[m bytes
+ .../receitas/{panetone.jpg => panetone-vegano.jpg} |   Bin
+ public/imagens/receitas/panetone-zero-acucar.jpg   |   Bin [31m0[m -> [32m268098[m bytes
+ public/imagens/receitas/panetone-zero.jpg          |   Bin [31m0[m -> [32m572694[m bytes
+ public/imagens/receitas/pao-alho-recheado.png      |   Bin [31m0[m -> [32m2676503[m bytes
+ .../imagens/receitas/pao-alto.jpg                  |   Bin
+ public/imagens/receitas/pao-batata.jpg             |   Bin [31m0[m -> [32m596507[m bytes
+ public/imagens/receitas/pao-carteira.jpg           |   Bin [31m0[m -> [32m477521[m bytes
+ .../receitas/{pao=redond.jpg => pao-caseiro.jpg}   |   Bin
+ .../imagens/receitas/pao-com-abacate.jpg           |   Bin
+ .../imagens/receitas/pao-de-gr\303\243os.jpg"      |   Bin
+ public/imagens/receitas/pao-de-lo.png              |   Bin [31m0[m -> [32m3471625[m bytes
+ public/imagens/receitas/pao-de-mel.jpg             |   Bin [31m0[m -> [32m688099[m bytes
+ .../receitas/pao-de-queijo-minuto-da-vovo.jpg      |   Bin [31m0[m -> [32m312765[m bytes
+ .../imagens/receitas/pao-de-queijo.jpg             |   Bin
+ .../imagens/receitas/pao-frances-funcional.jpg     |   Bin
+ public/imagens/receitas/pao-frances-novo.jpg       |   Bin [31m0[m -> [32m461768[m bytes
+ public/imagens/receitas/pao-graos.jpg              |   Bin [31m0[m -> [32m587563[m bytes
+ .../imagens/receitas/pao-integral.jpg              |   Bin
+ .../imagens/receitas/pao-multi.jpg                 |   Bin
+ .../{bread-4642686_1280.jpg => pao-novo.jpg}       |   Bin
+ public/imagens/receitas/pao-queijo-minuto.jpg      |   Bin [31m0[m -> [32m597222[m bytes
+ public/imagens/receitas/pao-saboroso.png           |   Bin [31m0[m -> [32m2506288[m bytes
+ .../imagens/receitas/pao-tostado.jpg               |   Bin
+ public/imagens/receitas/pate-tofu-ervas.jpg        |   Bin [31m0[m -> [32m514359[m bytes
+ public/imagens/receitas/pepino-cortado.jpg         |   Bin [31m0[m -> [32m301279[m bytes
+ public/imagens/receitas/pesto-funcional.jpg        |   Bin [31m0[m -> [32m449176[m bytes
+ public/imagens/receitas/pipoca.jpg                 |   Bin [31m0[m -> [32m732865[m bytes
+ .../pixeljourney1-coffee-10177169_1920.jpg         |   Bin [31m0[m -> [32m290299[m bytes
+ public/imagens/receitas/prato-tela-inicial.jpg     |   Bin [31m0[m -> [32m1229649[m bytes
+ public/imagens/receitas/pudim-coco.jpg             |   Bin [31m0[m -> [32m529215[m bytes
+ public/imagens/receitas/pudim-mini.jpg             |   Bin [31m0[m -> [32m288765[m bytes
+ public/imagens/receitas/pudim-pao.jpg              |   Bin [31m0[m -> [32m495133[m bytes
+ public/imagens/receitas/pudim.jpg                  |   Bin [31m495133[m -> [32m559257[m bytes
+ public/imagens/receitas/queijo-ralado.jpg          |   Bin [31m0[m -> [32m669025[m bytes
+ ...{lemon-tea-563806_1280.jpg => refri-natura.jpg} |   Bin
+ public/imagens/receitas/rocambole-branco.jpg       |   Bin [31m0[m -> [32m455257[m bytes
+ public/imagens/receitas/rocambole.jpg              |   Bin [31m0[m -> [32m520207[m bytes
+ public/imagens/receitas/salada-agua.jpg            |   Bin [31m0[m -> [32m482917[m bytes
+ public/imagens/receitas/salada-alface.jpg          |   Bin [31m0[m -> [32m397917[m bytes
+ public/imagens/receitas/salada-crua.jpg            |   Bin [31m0[m -> [32m799579[m bytes
+ .../{salad-7040875_1280.jpg => salada-nutri.jpg}   |   Bin
+ public/imagens/receitas/salada-rucula.jpg          |   Bin [31m0[m -> [32m589884[m bytes
+ public/imagens/receitas/salada-verde.jpg           |   Bin [31m0[m -> [32m662020[m bytes
+ public/imagens/receitas/salada-verdura.jpg         |   Bin [31m0[m -> [32m583054[m bytes
+ ...anduiche natural.jpg => sanduiche- natural.jpg} |   Bin
+ public/imagens/receitas/sementes-cafe.jpg          |   Bin [31m0[m -> [32m527743[m bytes
+ .../imagens/receitas/sofi5t-bread-5671125_1920.jpg |   Bin [31m0[m -> [32m481622[m bytes
+ public/imagens/receitas/sonho-padaria.jpg          |   Bin [31m0[m -> [32m497589[m bytes
+ ...leur-pumpkin-soup-1685574_1280.jpg => sopa.jpg} |   Bin
+ .../{sorvee-cremoso.jpg => sorvete-cremoso.jpg}    |   Bin
+ public/imagens/receitas/suco-limao-funcional.jpg   |   Bin [31m0[m -> [32m229312[m bytes
+ .../receitas/sumo-frutas-vermelhas-hibisco.jpg     |   Bin [31m0[m -> [32m448386[m bytes
+ .../receitas/sumo-vermelho-antioxidante.jpg        |   Bin [31m0[m -> [32m204830[m bytes
+ public/imagens/receitas/sushi-vegano.jpg           |   Bin [31m0[m -> [32m401459[m bytes
+ public/imagens/receitas/tiramisu-tradicional.jpg   |   Bin [31m0[m -> [32m374748[m bytes
+ public/imagens/receitas/tofu-caseiro.jpg           |   Bin [31m0[m -> [32m708387[m bytes
+ public/imagens/receitas/tofu-grelhado.jpg          |   Bin [31m0[m -> [32m683068[m bytes
+ public/imagens/receitas/tomate-cereja.jpg          |   Bin [31m0[m -> [32m632192[m bytes
+ public/imagens/receitas/tomate-verde.jpg           |   Bin [31m0[m -> [32m592907[m bytes
+ public/imagens/receitas/tomates-confitados.jpg     |   Bin [31m0[m -> [32m393363[m bytes
+ public/imagens/receitas/torta-chocolate.jpg        |   Bin [31m0[m -> [32m558924[m bytes
+ .../imagens/receitas/torta-de-maca.jpg             |   Bin
+ public/imagens/receitas/torta-maca-zerogluten.jpg  |   Bin [31m0[m -> [32m807369[m bytes
+ public/imagens/receitas/torta-maca-zerolac.jpg     |   Bin [31m0[m -> [32m597759[m bytes
+ public/imagens/receitas/torta-na-mesa.jpg          |   Bin [31m0[m -> [32m878338[m bytes
+ public/imagens/riquebeze-coxinha-4161592_1920.jpg  |   Bin [31m0[m -> [32m964584[m bytes
+ public/imagens/{receitas => }/simbolo-vegano.png   |   Bin
+ .../imagens/{receitas => }/social-1206603_1280.png |   Bin
+ public/imagens/stevepb-eggs-944495_1920.jpg        |   Bin [31m0[m -> [32m372216[m bytes
+ public/imagens/stocksnap-oven-2618460_1920.jpg     |   Bin [31m0[m -> [32m876833[m bytes
+ .../{receitas => }/subscribed-2415394_640.jpg      |   Bin
+ public/imagens/webandi-dough-5569192_1920.jpg      |   Bin [31m0[m -> [32m506673[m bytes
+ public/index.html                                  |   303 [32m+[m[31m-[m
+ public/ingredientes.html                           |   264 [32m+[m
+ public/ja-premium.html                             |     6 [32m+[m[31m-[m
+ public/js/async function carregarMedidas() {.js    |    68 [32m+[m
+ public/js/breadcrumb.js                            |   138 [32m+[m
+ public/js/busca.js                                 |   543 [32m+[m[31m-[m
+ public/js/buscaWorker.js                           |     2 [32m+[m[31m-[m
+ public/js/buscar.js                                |   159 [32m+[m[31m-[m
+ public/js/carrossel.js                             |    60 [32m+[m
+ public/js/dicas-detalhe2s.js                       |   806 [32m+[m
+ public/js/dicas-detalhes.js                        |  1231 [32m+[m
+ public/js/dicas-rapidas.js                         |   204 [32m+[m
+ public/js/dicas.js                                 |   373 [32m+[m
+ public/js/favoritos.js                             |   115 [32m+[m[31m-[m
+ public/js/frutas.js                                |   260 [32m+[m
+ public/js/funcoes.js                               |   106 [32m+[m
+ public/js/historia.js                              |   105 [32m+[m
+ public/js/home.js                                  |   176 [32m+[m[31m-[m
+ public/js/informa.js                               |   145 [32m+[m
+ public/js/ingredientResolver.js                    |    33 [32m+[m
+ public/js/ingredientes-db.js                       |   140 [32m+[m
+ public/js/ingredientes-info.js                     |   351 [32m+[m
+ public/js/ingredientes.js                          |   133 [32m+[m
+ public/js/instructionTransformer.js                |    16 [32m+[m
+ public/js/legumes.js                               |   250 [32m+[m
+ public/js/lista-compras.js                         |   742 [32m+[m[31m-[m
+ public/js/medidas.js                               |   109 [32m+[m
+ public/js/mensagens.js                             |    49 [32m+[m
+ public/js/menu.js                                  |     6 [32m+[m[31m-[m
+ public/js/menu.jss.js                              |     2 [32m+[m[31m-[m
+ public/js/nutridicas.js                            |   568 [32m+[m
+ public/js/pagamento.js                             |     2 [32m+[m[31m-[m
+ public/js/receita.js                               |   835 [32m+[m[31m-[m
+ public/js/receitas-dashboard.js                    |    49 [32m+[m
+ public/js/receitas.js                              |   175 [32m+[m
+ public/js/recipeGenerator.js                       |    25 [32m+[m
+ public/js/somar.js                                 |   204 [32m+[m
+ public/js/termos.js                                |   125 [32m+[m
+ public/legumes.html                                |   283 [32m+[m
+ public/libera-acesso.html                          |     4 [32m+[m[31m-[m
+ public/lista-compras.html                          |   196 [32m+[m[31m-[m
+ public/menu-acucar.html                            |     6 [32m+[m[31m-[m
+ public/menu-funcional.html                         |   104 [32m+[m[31m-[m
+ public/menu-restritivas.html                       |    36 [32m+[m[31m-[m
+ .../{smenu-sobrezero.html => menu-sobrezero.html}  |   105 [32m+[m[31m-[m
+ public/menu-tradicional.html                       |   264 [32m+[m
+ public/menu-zerogluten.html                        |    99 [32m+[m[31m-[m
+ public/menu-zerolac.html                           |    96 [32m+[m[31m-[m
+ public/menu2-pblac.html                            |    88 [31m-[m
+ public/modelo1-receitas.html                       |   237 [31m-[m
+ public/novo-template.html                          |   104 [31m-[m
+ public/nutridicas.html                             |   202 [32m+[m
+ public/obrigado.html                               |     2 [32m+[m[31m-[m
+ public/opiniao.html                                |   191 [32m+[m[31m-[m
+ public/pagamento.html                              |     2 [32m+[m[31m-[m
+ public/pao-forma-zero-lactose.html                 |   304 [31m-[m
+ public/paozlac.html                                |   179 [31m-[m
+ public/re-zerolac.html                             |    87 [31m-[m
+ public/receita.html                                |   705 [32m+[m[31m-[m
+ public/receitas-index.json                         |   142 [31m-[m
+ public/receitas-template.html                      |   169 [31m-[m
+ public/receitas.html                               |   242 [32m+[m
+ public/smenu-bebidas.html                          |     6 [32m+[m[31m-[m
+ public/smenu-bolos.html                            |   135 [32m+[m[31m-[m
+ public/smenu-lanches.html                          |   102 [32m+[m[31m-[m
+ public/smenu-paes.html                             |   108 [32m+[m[31m-[m
+ public/smenu-sobremesas.html                       |   104 [32m+[m[31m-[m
+ public/template receitas.html                      |   260 [31m-[m
+ public/template.html                               |   146 [31m-[m
+ public/termos.html                                 |   183 [32m+[m
+ public/utensilios.html                             |   209 [32m+[m
+ util/ingredientes-info.js                          |   282 [32m+[m
+ util/receitas.js                                   |   151 [32m+[m
+ 615 files changed, 91030 insertions(+), 7113 deletions(-)

@@ -1,0 +1,383 @@
+:root {
+  --primary-orange: #ea580c;
+  --bg-light-orange: #fff7ed;
+  --text-dark: #1f2937;
+  --text-muted: #4b5563;
+  --green-box: #f0fdf4;
+  --green-text: #166534;
+  --red-box: #fef2f2;
+  --red-text: #991b1b;
+  --border-color: #f3f4f6;
+}
+
+/* Cabeçalho da página */
+.cabecalho-utensilios{
+    max-width:1200px;
+    margin:30px auto 15px;
+    padding:0 20px;
+}
+
+.cabecalho-utensilios h1{
+    margin:0 0 8px;
+    font-size:2rem;
+    color:var(--text-dark);
+}
+
+.cabecalho-utensilios p{
+    margin:0;
+    color:var(--text-muted);
+    line-height:1.6;
+}
+
+/* Container principal */
+
+.container-utensilios {
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0;
+  /* importante: não usar grid de colunas aqui */
+  display: block;
+}
+
+/* Sidebar */
+
+.lista-utensilios-sidebar{
+    width:260px;
+    flex-shrink:0;
+    background:#fff;
+    border-radius:16px;
+    padding:20px;
+    border:1px solid var(--border-color);
+    height:fit-content;
+    position:sticky;
+    top:20px;
+}
+
+.lista-utensilios-sidebar h3{
+    margin-top:0;
+    font-size:1.1rem;
+    /* CORRIGIDO */
+    border-bottom:2px solid var(--border-color);
+    padding-bottom:10px;
+}
+
+.lista-utensilios-sidebar ul{
+    list-style:none;
+    padding:0;
+    margin:10px 0 0;
+}
+.lista-utensilios-sidebar {
+  width: 100%;
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+#menuUtensilios {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 10px 0 16px;
+  margin: 0;
+  list-style: none;
+  scrollbar-width: thin;
+}
+
+#menuUtensilios li {
+  flex: 0 0 auto;
+}
+
+#menuUtensilios button {
+  min-width: 190px;
+  height: 100%;
+  padding: 14px 18px;
+
+  border: 1px solid #eee;
+  border-radius: 14px;
+  background: #fff;
+
+  cursor: pointer;
+  text-align: left;
+  white-space: normal;
+}
+
+#menuUtensilios li.ativo button {
+  background: #fff4e8;
+  border-color: #ff7043;
+}
+
+
+
+.lista-utensilios-sidebar li button{
+    width:100%;
+    text-align:left;
+    padding:12px;
+    background:none;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:500;
+    color:var(--text-muted);
+    transition:.2s;
+}
+
+.lista-utensilios-sidebar li button:hover,
+.lista-utensilios-sidebar li.ativo button{
+    background:var(--bg-light-orange);
+    color:var(--primary-orange);
+}
+
+/* Card */
+
+.ficha-utensilio-card {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+.card-hero {
+  width: 100%;
+}
+
+.hero-identidade {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.titulo-nome {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.utensilio-emoji{
+    font-size:2.5rem;
+    padding:12px;
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 4px 6px rgba(0,0,0,.02);
+}
+
+.tag-categoria{
+    font-size:.75rem;
+    text-transform:uppercase;
+    font-weight:700;
+    color:var(--primary-orange);
+    letter-spacing:1px;
+}
+
+.titulo-nome{
+    margin:5px 0 0;
+    font-size:1.8rem;
+    font-weight:800;
+}
+
+.descricao-texto{
+    margin:0;
+    line-height:1.6;
+    color:var(--text-muted);
+}
+
+/* Abas */
+
+.card-abas-nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    padding:8px;
+    background:#f9fafb;
+    border-bottom:1px solid var(--border-color);
+}
+
+.tab-botao{
+    padding:10px 20px;
+    border:none;
+    background:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+    font-size:.9rem;
+    color:var(--text-muted);
+    transition:.2s;
+}
+
+.tab-botao:hover{
+    background:#fff;
+}
+
+.tab-botao.ativa{
+    background:#fff;
+    color:var(--primary-orange);
+    box-shadow:0 2px 4px rgba(0,0,0,.04);
+}
+
+/* Conteúdo */
+
+.card-corpo-conteudo{
+    padding:30px;
+}
+
+.conteudo-secao.escondido{
+    display:none;
+}
+
+.grid-balanco{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-bottom:25px;
+}
+
+.bloco-vantagens,
+.bloco-desvantagens,
+.bloco-culinario,
+.alerta-limites,
+.bloco-erros{
+    padding:20px;
+    border-radius:16px;
+}
+
+.bloco-vantagens{
+    background:var(--green-box);
+    color:var(--green-text);
+}
+
+.bloco-desvantagens{
+    background:#fffaf0;
+    color:#b45309;
+}
+
+.bloco-erros{
+    background:var(--red-box);
+    color:var(--red-text);
+}
+
+.bloco-vantagens h4,
+.bloco-desvantagens h4,
+.bloco-culinario h4,
+.bloco-passos h5,
+.bloco-erros h5,
+.limpeza-rotina h5,
+.dicas-chef h5{
+    margin-top:0;
+    margin-bottom:12px;
+}
+
+.bloco-vantagens ul,
+.bloco-desvantagens ul,
+.bloco-erros ul,
+.bloco-passos ol{
+    padding-left:20px;
+    line-height:1.6;
+}
+
+.bloco-culinario{
+    background:#f9fafb;
+    border:1px solid var(--border-color);
+}
+
+.subgrid-aplicabilidade{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.subgrid-aplicabilidade h5{
+    margin:0 0 5px;
+    text-transform:uppercase;
+    font-size:.8rem;
+}
+
+.subgrid-aplicabilidade p,
+.subgrid-aplicabilidade ul{
+    margin:0;
+    line-height:1.6;
+}
+
+.alerta-limites{
+    background:#fffbeb;
+    border:1px solid #fef3c7;
+    color:#92400e;
+    margin-bottom:20px;
+}
+
+.grid-manutencao{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.limpeza-rotina{
+    background:#f8fafc;
+    padding:20px;
+    border-radius:16px;
+}
+
+.dicas-chef{
+    background:#fffbeb;
+    padding:20px;
+    border-radius:16px;
+    color:#92400e;
+}
+
+.card-rodape{
+    padding:15px 30px;
+    background:#f9fafb;
+    border-top:1px solid var(--border-color);
+    font-size:.75rem;
+    color:#9ca3af;
+}
+
+/* Responsivo */
+
+@media(max-width:768px){
+
+    .container-utensilios{
+        flex-direction:column;
+    }
+
+    .lista-utensilios-sidebar{
+        width:100%;
+        position:static;
+    }
+
+    .hero-identidade{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .grid-balanco,
+    .subgrid-aplicabilidade,
+    .grid-manutencao{
+        grid-template-columns:1fr;
+    }
+
+    .card-corpo-conteudo{
+        padding:20px;
+    }
+
+}
+
+/* Barra de busca de untesílios 13/07/2026 */
+.barra-busca-utensilios{
+
+    margin-bottom:20px;
+}
+
+#buscaUtensilio{
+
+    width:100%;
+    padding:15px 20px;
+    font-size:1rem;
+    border-radius:14px;
+    border:1px solid #ddd;
+    outline:none;
+    transition:.2s;
+}
+
+#buscaUtensilio:focus{
+    border-color:#ea580c;
+    box-shadow:0 0 0 4px rgba(234,88,12,.12);
+}
