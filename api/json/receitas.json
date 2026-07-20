@@ -9745,7 +9745,7 @@
     "dataCriacao": "2026-05-25T10:00:00.000Z",
     "titulo": "Pão Doce de Banana",
     "status": "publicada",
-    "imagem": "pao-doce-de-banana.jpg",
+    "imagem": "pao-doce-banana-ameixa.jpg",
     "topSemana": false,
     "premium": false,
     "tipo": "Pães",
@@ -10162,7 +10162,7 @@
     "dataCriacao": "2026-05-25T11:00:00.000Z",
     "titulo": "Pão Doce de Banana e Ameixa",
     "status": "publicada",
-    "imagem": "pao-doce-banana-ameixa.jpg",
+    "imagem": "pao-doce-banana-ameixa.png",
     "topSemana": false,
     "premium": false,
     "tipo": "Pães",
@@ -13989,7 +13989,7 @@
     "titulo": "Geleia de Morango sem Açúcar",
     "dataCriacao": "2026-05-29T23:59:59.000Z",
     "status": "publicada",
-    "imagem": "geleia-morango-funcional.jpg",
+    "imagem": "geleia-morango-funcional.png",
     "topSemana": false,
     "premium": false,
     "tipo": "Sobremesas",
@@ -16846,12 +16846,12 @@
       {
         "titulo": "Creme de Avelã Funcional",
         "slug": "creme-de-avela-funcional",
-        "imagem": "creme-avela-funcional.jpg"
+        "imagem": "creme-avela-funcional.png"
       },
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       }
     ],
     "versoes": [
@@ -17104,7 +17104,7 @@
     "titulo": "Creme de Ervilha com Hortelã",
     "dataCriacao": "2026-05-31T16:45:00.000Z",
     "status": "publicada",
-    "imagem": "creme-ervilha.jpg",
+    "imagem": "creme-ervilha.png",
     "topSemana": false,
     "premium": false,
     "tipo": "Sopas",
@@ -20412,7 +20412,7 @@
     "titulo": "Pão de Forma Recheado",
     "dataCriacao": "2026-05-31T18:10:00.000Z",
     "status": "publicada",
-    "imagem": "pao-forma-recheado.jpg",
+    "imagem": "pao-forma-recheado.png",
     "topSemana": true,
     "premium": false,
     "tipo": "Pães",
@@ -24287,7 +24287,7 @@
   "dataCriacao": "2026-07-10T15:30:00.000Z",
   "titulo": "Creme Gelado Funcional de Fruta-do-Conde",
   "status": "publicada",
-  "imagem": "creme-gelado-fruta-do-conde.jpg",
+  "imagem": "creme-gelado-fruta-do-conde.png",
   "topSemana": true,
   "premium": false,
   "tipo": "Sobremesas",

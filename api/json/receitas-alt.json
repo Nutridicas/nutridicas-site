@@ -8910,7 +8910,7 @@
             "Consuma nas primeiras 48 horas para aproveitar o ápice da textura estalante"
           ],
           "comentarioNutri": [
-            "Versão 100% livre de açúcares, glúten e lactose.",
+            "Versão livre de açúcares, glúten e lactose.",
             "Uma excelente opção de baixa densidade calórica para quem sofre de compulsão por beliscar texturas crocantes (fome comportamental).",
             "Completamente seguro para celíacos e diabéticos."
           ],
@@ -9341,8 +9341,8 @@
           "Glúten: Contém ",
           "Lactose: Contém ",
           "Ovos: Contém ",
-          "Vegana: Não",
-          "Açúcar: Não contém"
+          "Açúcar: Não contém",
+          "Vegana: Não"
         ],
         "conteudo": {
           "tempoPreparoReceita": "De 15 a 20 minutos",
@@ -9431,10 +9431,10 @@
         "nome": "Sem Glúten",
         "padrao": false,
         "restricoes": [
-          "Contém ovo",
-          "Contém lactose",
-          "Não contém Glúten",
-          "Não contém Açúcar"
+          "Lactose: Contém ",
+          "Ovo: Contém",
+          "Glúten: Não contém ",
+          "Açúcar: Não contém "
         ],
         "conteudo": {
           "tempoPreparoReceita": "De 15 a 20 minutos",
@@ -9540,7 +9540,11 @@
     "premium": false,
     "tipo": "Pães",
     "tipoMenu": "Tradicional",
-    "categoria": " Tradicional",
+    "categoria": [
+      "Tradicional",
+      "zero-lactose",
+      "zero-gluten"
+    ],
     "subcategoria": "paes",
     "fraseCurta": "Pão de batata extremamente macio, dourado e perfeito para café da manhã ou lanche da tarde.",
     "Introducao": [
@@ -9548,12 +9552,13 @@
       "A batata cozida deixa a massa mais leve, delicada e com maior durabilidade após assado.",
       "Essa receita tradicional rende pães dourados, fofinhos e perfeitos para servir quentinhos com manteiga, requeijão ou geleias."
     ],
-    "restricoes": [],
+    
     "tags": [
       "Pão de Batata",
       "Pão Caseiro",
       "Fermentação",
       "Pão Fofinho",
+      "Zero-Lactose",
       "Receita Tradicional"
     ],
     "autor": {
@@ -9583,6 +9588,13 @@
         "id": "tradicional",
         "nome": "Tradicional",
         "padrao": true,
+        "restricoes": [
+           "Glúten: Contém",
+           "Açúcar: Contém",
+           "Ovo: Contém",
+           "Lactose: Não contém",
+           "Vegana: Não"
+        ],
         "conteudo": {
           "tempoPreparoReceita": "25 minutos",
           "tempoPreparoForno": "35 a 40 minutos",
@@ -9649,7 +9661,7 @@
             "acucar": "1.5 g"
           },
           "substituicoes": [
-            "Óleo por manteiga derretida.",
+            "Óleo pode ser substituído pela manteiga derretida.",
             "Farinha de trigo por farinha integral parcial.",
             "Açúcar refinado por açúcar demerara.",
             "Batata inglesa por batata-doce."
@@ -9681,6 +9693,13 @@
         "id": "sem-gluten",
         "nome": "Sem Glúten",
         "padrao": false,
+        "restricoes": [
+           "Açúcar: Contém",
+           "Ovo: Contém",
+           "Glúten: Não Contém",
+           "Lactose: Não contém",
+           "Vegana: Não"
+        ],
         "conteudo": {
           "tempoPreparoReceita": "30 minutos",
           "tempoPreparoForno": "35 a 40 minutos",
@@ -9790,7 +9809,9 @@
     "premium": false,
     "tipo": "Pães",
     "tipoMenu": "Tradicional",
-    "categoria": "Tradicional",
+    "categoria": [
+      "Tradicional"
+    ],
     "subcategoria": "paes",
     "fraseCurta": "Pão doce clássico, extremamente macio, dourado e perfeito para café da manhã ou lanche da tarde.",
     "Introducao": [
@@ -10160,7 +10181,9 @@
     "tipoMenu": "Tradicional",
     "categoria": [
       "Tradicional",
-      "zero-acucar"
+      "zero-acucar",
+      "zero-lactose",
+      "zero-gluten"
     ],
     "subcategoria": "paes",
     "fraseCurta": "Pão doce macio com banana, uvas-passas e aroma caseiro irresistível.",
@@ -10418,6 +10441,13 @@
         "id": "sem-gluten",
         "nome": "Sem Glúten",
         "padrao": false,
+        "restricoes": [
+          "Açúcar: Contém",
+          "Lactose: Contém",          
+          "Ovo: Contém",
+          "Glúten: Não Contém",
+          "Vegana: Não"
+        ],
         "conteudo": {
           "tempoPreparoReceita": "20 minutos",
           "tempoPreparoForno": "45 a 50 minutos",
@@ -10504,8 +10534,15 @@
       {
         "data": "2026-05-25T10:00:00.000Z",
         "id": "fit-integral",
-        "nome": "Fit Integral",
+        "nome": "Zero aç~ucar",
         "padrao": false,
+        "restricoes": [
+           "Glúten: Contém",        
+          "Ovo: Contém",
+          "Açúcar: Não Contém refinado",
+          "Lactose: Não Contém", 
+          "Vegana: Não"
+        ],
         "conteudo": {
           "tempoPreparoReceita": "20 minutos",
           "tempoPreparoForno": "40 minutos",
@@ -10587,12 +10624,14 @@
     "dataCriacao": "2026-05-25T11:00:00.000Z",
     "titulo": "Pão Doce de Banana e Ameixa",
     "status": "publicada",
-    "imagem": "pao-doce-banana-ameixa.jpg",
+    "imagem": "pao-doce-banana-ameixa.png",
     "topSemana": false,
     "premium": false,
     "tipo": "Pães",
     "tipoMenu": "Tradicional",
-    "categoria": "Tradicional",
+    "categoria": [
+      "Tradicional"
+    ],
     "subcategoria": "paes",
     "fraseCurta": "Pão doce úmido e aromático com banana madura e ameixas pretas, perfeito para o café da tarde.",
     "Introducao": [
@@ -10600,7 +10639,7 @@
       "A receita resulta em um pão extremamente úmido, aromático e perfeito para acompanhar cafés, chás ou servir como lanche nutritivo.",
       "Além da versão tradicional, trazemos versões saudáveis sem açúcar, sem glúten e integral funcional."
     ],
-    "restricoes": [],
+   
     "tags": [
       "Pão Doce",
       "Banana",
@@ -10655,6 +10694,13 @@
         "id": "tradicional",
         "nome": "Tradicional",
         "padrao": true,
+         "restricoes": [
+           "Lactose: Contém",
+           "Açúcar: Contém",
+           "Glúten: Contém",
+           "Ovo: Contém",
+           "Vegana: Não"
+         ],
         "conteudo": {
           "tempoPreparoReceita": "15 minutos",
           "tempoPreparoForno": "50 a 60 minutos",
@@ -10757,6 +10803,13 @@
         "id": "sem-acucar",
         "nome": "Sem Acucar",
         "padrao": false,
+        "restricoes": [
+           "Lactose: Contém",
+           "Glúten: Contém",
+           "Ovo: Contém",
+           "Açúcar: Não Contém",
+           "Vegana: Não"
+         ],
         "conteudo": {
           "tempoPreparoReceita": "15 minutos",
           "tempoPreparoForno": "50 minutos",
@@ -14424,7 +14477,7 @@
     "titulo": "Geleia de Morango sem Açúcar",
     "dataCriacao": "2026-05-29T23:59:59.000Z",
     "status": "publicada",
-    "imagem": "geleia-morango-funcional.jpg",
+    "imagem": "geleia-morango-funcional.png",
     "topSemana": false,
     "premium": false,
     "tipo": "Sobremesas",
@@ -14582,7 +14635,7 @@
     "titulo": "Creme de Avelã Funcional",
     "dataCriacao": "2026-05-29T23:59:59.000Z",
     "status": "publicada",
-    "imagem": "creme-avela-funcional.jpg",
+    "imagem": "creme-avela-funcional.png",
     "topSemana": true,
     "premium": true,
     "tipo": "Sobremesas",
@@ -14635,7 +14688,7 @@
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       }
     ],
     "versoes": [
@@ -14945,7 +14998,7 @@
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       },
       {
         "titulo": "Pão de Queijo de Frigideira Vegano",
@@ -16577,7 +16630,7 @@
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       }
     ],
     "versoes": [
@@ -17312,7 +17365,7 @@
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       }
     ],
     "versoes": [
@@ -17565,7 +17618,7 @@
     "titulo": "Creme de Ervilha com Hortelã",
     "dataCriacao": "2026-05-31T16:45:00.000Z",
     "status": "publicada",
-    "imagem": "creme-ervilha.jpg",
+    "imagem": "creme-ervilha.png",
     "topSemana": false,
     "premium": false,
     "tipo": "Sopas",
@@ -18653,7 +18706,7 @@
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       }
     ],
     "versoes": [
@@ -18992,7 +19045,7 @@
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       },
       {
         "titulo": "Hambúrguer de Grão-de-Bico e Ervas",
@@ -19844,7 +19897,7 @@
       {
         "titulo": "Geleia de Morango sem Açúcar",
         "slug": "geleia-de-morango-sem-acucar",
-        "imagem": "geleia-morango-funcional.jpg"
+        "imagem": "geleia-morango-funcional.png"
       }
     ],
     "versoes": [
@@ -20958,7 +21011,7 @@
     "titulo": "Pão de Forma Recheado",
     "dataCriacao": "2026-05-31T18:10:00.000Z",
     "status": "publicada",
-    "imagem": "pao-forma-recheado.jpg",
+    "imagem": "pao-forma-recheado.png",
     "topSemana": true,
     "premium": false,
     "tipo": "Pães",
@@ -27631,12 +27684,14 @@
   "dataCriacao": "2026-07-10T15:30:00.000Z",
   "titulo": "Creme Gelado Funcional de Fruta-do-Conde",
   "status": "publicada",
-  "imagem": "creme-gelado-fruta-do-conde.jpg",
+  "imagem": "creme-gelado-fruta-do-conde.png",
   "topSemana": false,
   "premium": false,
   "tipo": "Sobremesas",
   "tipoMenu": "Funcional",
-  "categoria": "Saudável",
+  "categoria": [
+    "Funcional"
+  ],
   "subcategoria": "doces",
   "fraseCurta": "Sobremesa gelada, aveludada e funcional feita com a doçura natural da fruta-do-conde e base de coco.",
   "Introducao": [
@@ -27689,7 +27744,7 @@
         "Açúcar: Não contém",
         "Lactose: Não contém",
         "Glúten: Não contém",
-        "Ovo: Não contém"
+        "Ovo: Não contém",
         "Vegana: Sim"
       ],
       "conteudo": {
@@ -27747,7 +27802,7 @@
           "ferro": "0.5 mg",
           "calcio": "22 mg",
           "magnesio": "28 mg",
-          "acucar": "0 g (contém apenas os açúcares naturais da fruta)"
+          "acucar": "0 g (apenas os açúcares da fruta)"
         },
         "substituicoes": [
           "Leite de coco por creme de castanha-de-caju caseiro (entrega uma textura incrivelmente neutra e aveludada).",
@@ -27773,6 +27828,5 @@
       }
     }
   ]
-}
-
+ }
 ]
