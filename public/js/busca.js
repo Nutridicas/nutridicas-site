@@ -44,41 +44,31 @@ return texto
 // CARREGAR RECEITAS (CACHE)
 // ==========================
 
+// Função para tentar resolve ro problema do cache na busca de não aparecer
+//nova receitas - 19/07/2026 - final da copa de futebol
+
 async function carregarReceitas(){
 
+    if(receitasCache.length) return;
 
+    try{
 
-	if(receitasCache.length) return;
+        const res = await fetch("/receitas-index", {
+            cache: "no-cache"
+        });
 
-	try{
+        if(!res.ok){
+            throw new Error("JSON não encontrado");
+        }
 
-		let cache = localStorage.getItem("receitasIndex");
+        receitasCache = await res.json();
 
-		if(cache){
+        criarIndice(receitasCache);
 
-		receitasCache = JSON.parse(cache);
+    }catch(err){
+        console.error("Erro ao carregar receitas:", err);
+    }
 
-		}else{
-
-		const res = await fetch("/receitas-index");
-
-		if(!res.ok) {
-			throw new Error("JSON não encontrado");
-		}
-			receitasCache = await res.json();
-
-			localStorage.setItem(
-			"receitasIndex",
-			JSON.stringify(receitasCache)
-	  );
-
-	}
-	  criarIndice(receitasCache);
-
-	}catch(err){
-
-		console.error("Erro ao carregar receitas:",err);
-	}
 }
 
 // ==========================
