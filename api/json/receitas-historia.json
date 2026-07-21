@@ -767,5 +767,44 @@
     "imagemReceita": "tiramisu-tela.jpg",
     "credito": "Fonte:",
     "end": ""
-  }
+  },
+  "brigadeiro" : {
+      "historiaBase": "brigadeiro-funcional-caseiro",
+      "etimologia": "Do latim <em>'briga'</em> (luta, contenda), que evoluiu para o posto militar de <strong>'brigadeiro'</strong> (comandante de uma brigada). O doce herdou o nome da patente militar do candidato que inspirou a sua criação.",
+      "personagemChave": "Eduardo Gomes, brigadeiro da Força Aérea Brasileira e candidato à presidência em 1945, cujo slogan 'Vote no Brigadeiro, que é bonito e solteiro' mobilizou comitês de mulheres que criaram o doce.",
+      "contextoGeopolitico": "O cenário pós-Segunda Guerra Mundial no Brasil (1945), marcado pela redemocratização, o fim da Era Vargas, o primeiro voto feminino em eleições presidenciais e o racionamento de leite fresco e açúcar.",
+      "evolucaoTecnica": "A substituição do leite fresco pelo leite condensado industrializado na receita original, evoluindo décadas depois para versões funcionais com biomassa de banana verde, leite de coco e cacau puro.",
+      "origem": "Surgiu no Brasil (Rio de Janeiro e São Paulo) em 1945.",
+      "curiosidade": "Originalmente chamado de 'doce do brigadeiro', ele era vendido em comícios para arrecadar fundos de campanha. O candidato perdeu a eleição para Eurico Gaspar Dutra, mas o doce venceu a preferência nacional.",
+      "historia": [
+        "Em 1945, com o fim da guerra e o racionamento de alimentos, as mulheres enfrentavam a escassez de leite e açúcar refinado para fazer doces tradicionais.",
+        "Para apoiar a campanha do militar <em>Eduardo Gomes</em>, doceiras paulistas e cariocas decidiram misturar o recém-popularizado leite condensado com chocolate em pó e manteiga.",
+        "O docinho rapidamente virou febre nos comícios e passou a ser chamado carinhosamente de <em>'o doce do brigadeiro'</em>, nome que acabou sendo encurtado apenas para 'brigadeiro'.",
+        "Por trás da receita, havia um forte movimento de engajamento político e financeiro das mulheres, que utilizavam a confeitaria como ferramenta ativa de arrecadação de fundos eleitorais.",
+        "A versão fit contemporânea resgata a criatividade do brasileiro ao adaptar esse ícone nacional, permitindo que pessoas com restrições alimentares desfrutem do sabor sem açúcar refinado."
+      ],
+      "imagemReceita": "brigadeiros.jpg",
+      "credito": "Fonte: PixBay",
+      "end": ""
+    },
+      "macaron-tradicional" : {
+      "historiaBase": "macaron-classico-frances",
+      "etimologia": "Do italiano <em>'maccherone'</em> ou <em>'maccatone'</em> (massa fina), derivado do verbo <em>'ammaccare'</em> (esmagar/amassar, em referência às amêndoas moídas). O termo foi aportuguesado na França para <strong>'macaron'</strong>.",
+      "personagemChave": "Catarina de Médici, nobre italiana que levou o doce para a França em 1533, e Pierre Desfontaines (da confeitaria Ladurée), que no século XX uniu duas conchas de merengue com ganache, criando o formato atual.",
+      "contextoGeopolitico": "O Renascimento Europeu e as alianças dinásticas do século XVI, além da posterior Revolução Francesa (1789), onde freiras asiladas começaram a vender o doce para sobreviver, popularizando-o além da corte.",
+      "evolucaoTecnica": "Nasceu como um biscoito simples de amêndoas, crocante por fora e macio por dentro. Evoluiu com a introdução do merengue italiano e o recheio cremoso, exigindo precisão matemática na temperatura e na 'macaronage'.",
+      "origem": "Surgiu na Itália medieval, mas foi transformado e consagrado na França (Paris) a partir de 1533.",
+      "curiosidade": "Originalmente, o macaron não tinha recheio e era servido como um biscoito individual. O formato 'sanduíche' colorido e recheado que conhecemos hoje só foi inventado quase 400 anos depois, em Paris.",
+      "historia": [
+        "No século XVI, a jovem italiana Catarina de Médici casou-se com o futuro rei da França e levou consigo seus chefs confeiteiros, introduzindo o biscoito de amêndoas na corte francesa.",
+        "Durante a Revolução Francesa, duas freiras carmelitas da cidade de Nancy ficaram famosas ao assar e vender os macarons para garantir o próprio sustento, tornando-se conhecidas como as 'Irmãs Macaron'.",
+        "Até o século XIX, o doce ainda era apenas uma bolacha simples, até que a famosa confeitaria parisiense <em>Ladurée</em> teve a ideia de juntar dois biscoitos usando uma ganache saborosa no meio.",
+        "A receita exige extrema técnica culinária, pois pequenos fatores como a umidade do ar ou o tempo de descanso da massa determinam a formação da famosa 'saia' (a base texturizada do doce).",
+        "Hoje, o macaron é considerado o maior símbolo da alta confeitaria francesa mundial, misturando corantes vibrantes, sofisticação visual e uma enorme variedade de recheios contemporâneos."
+      ],
+      "imagemReceita": "macarons.jpg",
+      "credito": "Fonte: PixBay",
+      "end": ""
+    }
+
 }

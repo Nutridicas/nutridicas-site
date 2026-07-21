@@ -15110,7 +15110,7 @@
     "titulo": "Sumo Termogénico de Frutas Vermelhas com Hibisco",
     "dataCriacao": "2026-05-29T23:59:59.000Z",
     "status": "publicada",
-    "imagem": "sumo-frutas-vermelhas-hibisco.jpg",
+    "imagem": "sumo-frutas-vermelhas-hibisco.png",
     "topSemana": false,
     "premium": false,
     "tipo": "Bebidas",
@@ -15124,13 +15124,7 @@
       "Batido com um mix de frutas vermelhas e um toque de gengibre fresco, este sumo estimula o metabolismo,",
       "combate a retenção de líquidos e oferece uma dose maciça de polifenóis benéficos para a circulação."
     ],
-    "restricoes": [
-      "Sem-lactose",
-      "sem-ovo",
-      "vegano",
-      "sem-gluten",
-      "sem-acucar"
-    ],
+    
     "tags": [
       "Funcional",
       "Sem-Lactose",
@@ -15173,6 +15167,13 @@
         "id": "zero-lactose",
         "nome": "Versão Diurética Ativa",
         "padrao": true,
+        "restricoes": [
+          "lactose: Não contém",
+          "Glúten: Não contém",
+          "Açúcar: Não contém",
+          "Ovo: Não contém",
+          "vVgan: Sim",
+        ],
         "conteudo": {
           "tempoPreparoReceita": "5 minutos",
           "tempoPreparoForno": "",

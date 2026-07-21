@@ -4831,10 +4831,11 @@
         "reaproveitamento": [
           "Retalhos de massa (maltagliati) podem ser usados em sopas de feijão."
         ],
+         "imagem_reaproveitamento": "reaproveitar-pasta.png",
         "dicas_extras": [
           "Se a massa estiver muito seca, espirre um pouco de água; se estiver grudando, polvilhe farinha."
         ],
-        "imagem_dicas_extras": "varal-macarrao.jpg"
+        "imagem_dicas_extras": "varal-macarrao.png"
       },
       "cortes": [
         {
